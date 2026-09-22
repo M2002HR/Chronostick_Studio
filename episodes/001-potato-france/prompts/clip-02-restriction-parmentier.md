@@ -1730,11 +1730,17 @@ Do NOT attempt to match or visually continue the final frame of any previous gen
 
 Use exactly three provided references:
 
-REFERENCE 1 — ANTOINE-AUGUSTIN PARMENTIER:
+REFERENCE 1 — RECURRING HISTORICAL PHARMACIST / AGRICULTURAL RESEARCHER:
 
-Use the Parmentier Character Sheet strictly to preserve his exact recurring visual identity.
+Use Reference 1 strictly as the identity source for one recurring fictionalized stick-figure historical pharmacist / agricultural researcher.
 
-Parmentier must always retain:
+Treat the person shown in Reference 1 as a recurring animated character design.
+
+Preserve the exact visual identity shown in the reference.
+
+Do not attempt to identify, reconstruct, imitate, or portray any specific real person's realistic face.
+
+Preserve exactly:
 
 - round slightly off-white ChronoStick head
 - pale gray / warm powdered gray-white late-18th-century hair silhouette
@@ -1753,6 +1759,7 @@ medals,
 military insignia,
 laboratory coat,
 modern scientific clothing.
+
 
 REFERENCE 2 — MALE VILLAGER:
 
