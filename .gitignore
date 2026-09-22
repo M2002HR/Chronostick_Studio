@@ -4,5 +4,13 @@ Thumbs.db
 *.swo
 *~
 *.tmp
+__pycache__/
 .idea/
 .vscode/
+
+# Generated final exports are large, revisioned delivery artifacts; Git tracks
+# their status documentation, not the binary files themselves.
+episodes/*/final/*.mp4
+episodes/*/final/*.mov
+episodes/*/final/*.mkv
+episodes/*/final/*.webm
