@@ -3,16 +3,15 @@ id: CST-STYLE-001
 title: Detailed Cinematic Stick-Figure History
 project: ChronoStick Studio
 type: master-visual-style
-status: draft
-version: 0.1.0
-created: 2026-09-22
-updated: 2026-09-22
 target:
   - image-generation
   - video-generation
 aspect_ratio_primary: "9:16"
-style_reference_asset: null
-approved: false
+status: locked
+version: 1.0.0
+approved: true
+style_reference_asset: style-detailed-cinematic-stick-history-r001.png
+updated: 2026-09-22
 ---
 
 # Purpose
