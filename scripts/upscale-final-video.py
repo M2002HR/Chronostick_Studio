@@ -11,6 +11,7 @@ joined, which avoids duplicate audio at segment boundaries.
 Examples:
   ./scripts/upscale-final-video.py /path/to/source-720x1280.mp4
   ./scripts/upscale-final-video.py /path/to/soft-1080x1920.mp4
+  ./scripts/upscale-final-video.py source.mp4 --profile performance
   COMFYUI_DIR=/opt/ComfyUI ./scripts/upscale-final-video.py source.mp4
 """
 
@@ -54,6 +55,24 @@ DEFAULT_SEGMENT_SECONDS = {
     # A 1080p source produces 2160x3840 intermediate frames. One-second
     # segments keep the tiled result and blending buffers inside 32 GB RAM.
     (1080, 1920): 1.0,
+}
+FLASHVSR_PROFILES = {
+    "safe": {
+        "model_version": "Tiny Long (Low VRAM)",
+        "tile_size": 384,
+        "tile_overlap": 48,
+        "unload_model": True,
+        "vae_tiling": True,
+        "description": "lowest VRAM demand; slowest and safest",
+    },
+    "performance": {
+        "model_version": "Tiny (Fast)",
+        "tile_size": 512,
+        "tile_overlap": 48,
+        "unload_model": False,
+        "vae_tiling": True,
+        "description": "uses more VRAM; use safe if CUDA runs out of memory",
+    },
 }
 
 
@@ -225,7 +244,15 @@ def check_comfy_installation(base_url: str, comfy_dir: Path) -> None:
         fail("ComfyUI did not load required nodes: " + ", ".join(missing_nodes))
 
 
-def workflow(source: Path, start_time: float, frame_count: int, fps: float, prefix: str, seed: int) -> dict[str, Any]:
+def workflow(
+    source: Path,
+    start_time: float,
+    frame_count: int,
+    fps: float,
+    prefix: str,
+    seed: int,
+    profile: dict[str, Any],
+) -> dict[str, Any]:
     return {
         "1": {
             "class_type": "VHS_LoadVideoFFmpegPath",
@@ -242,17 +269,17 @@ def workflow(source: Path, start_time: float, frame_count: int, fps: float, pref
             "class_type": "AILab_FlashVSR_Advanced",
             "inputs": {
                 "frames": ["1", 0],
-                "model_version": "Tiny Long (Low VRAM)",
+                "model_version": profile["model_version"],
                 "scale": 2,
                 "enable_tiling": True,
-                "tile_size": 384,
-                "tile_overlap": 48,
+                "tile_size": profile["tile_size"],
+                "tile_overlap": profile["tile_overlap"],
                 "speed_optimization": 2.0,
                 "quality_boost": 2.0,
                 "stability_level": 11,
                 "color_fix": True,
-                "vae_tiling": True,
-                "unload_model": True,
+                "vae_tiling": profile["vae_tiling"],
+                "unload_model": profile["unload_model"],
                 "sageattention": "enable",
                 "device": "auto",
                 "precision": "fp16",
@@ -384,6 +411,12 @@ def main() -> int:
     parser.add_argument("--comfy-dir", default=os.environ.get("COMFYUI_DIR", str(DEFAULT_COMFY_DIR)))
     parser.add_argument("--comfy-url", default="http://127.0.0.1:8188")
     parser.add_argument(
+        "--profile",
+        choices=FLASHVSR_PROFILES,
+        default="safe",
+        help="safe is conservative; performance uses more VRAM and may OOM",
+    )
+    parser.add_argument(
         "--segment-seconds",
         type=float,
         help="FlashVSR segment length; default: 2 for 720p, 1 for 1080p",
@@ -409,6 +442,7 @@ def main() -> int:
             )
         segment_seconds = arguments.segment_seconds or DEFAULT_SEGMENT_SECONDS[source_dimensions]
         segments = segment_plan(metadata["duration"], metadata["fps"], segment_seconds)
+        profile = FLASHVSR_PROFILES[arguments.profile]
         destination = revisioned_destination(source, arguments.output)
         comfy_dir = Path(arguments.comfy_dir).expanduser().resolve()
         intermediate_width = metadata["width"] * 2
@@ -417,6 +451,8 @@ def main() -> int:
             f"Source: {source}\n"
             f"Plan: {len(segments)} FlashVSR 2x segment(s) at {intermediate_width}x{intermediate_height} "
             f"({segment_seconds:g}s each), then Lanczos downscale to 1080x1920\n"
+            f"Profile: {arguments.profile} — {profile['model_version']}, tile {profile['tile_size']}, "
+            f"unload_model={profile['unload_model']}\n"
             f"Destination: {destination}",
             flush=True,
         )
@@ -433,7 +469,15 @@ def main() -> int:
             completed_frames = 0
             for index, (start_time, frame_count) in enumerate(segments, start=1):
                 prefix = f"chronostick-flashvsr/{source.stem}-{uuid.uuid4().hex[:8]}-part{index:03d}"
-                prompt = workflow(source, start_time, frame_count, metadata["fps"], prefix, arguments.seed + index - 1)
+                prompt = workflow(
+                    source,
+                    start_time,
+                    frame_count,
+                    metadata["fps"],
+                    prefix,
+                    arguments.seed + index - 1,
+                    profile,
+                )
                 response = http_json(
                     f"{arguments.comfy_url.rstrip('/')}/prompt",
                     payload={"prompt": prompt, "client_id": str(uuid.uuid4())},
