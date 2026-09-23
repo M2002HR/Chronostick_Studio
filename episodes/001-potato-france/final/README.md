@@ -10,7 +10,7 @@ episode manifest.
   30 fps, 56.587 seconds. It is present locally but has not been reviewed or
   approved in this repository.
 
-For a real 720×1280 source, run
+For a 720×1280 source or a visually soft 1080×1920 source, run
 `scripts/upscale-final-video.py`. It uses the locally installed FlashVSR 1.1
-model through ComfyUI, produces a revisioned 1080×1920 export here, and leaves
-the input untouched.
+model through ComfyUI, produces a revisioned 1080×1920 export, and leaves the
+input untouched.

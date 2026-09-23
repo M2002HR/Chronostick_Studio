@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Upscale a 720x1280 final-video source to a revisioned 1080x1920 export.
+"""Enhance a 720x1280 or 1080x1920 final-video source to 1080x1920.
 
 The script drives the locally installed FlashVSR 1.1 ComfyUI node in short
 segments. FlashVSR only supports 2x or 4x factors, so each segment is enhanced
-at 2x (1440x2560) and then downscaled with ffmpeg/Lanczos to 1080x1920.
+at 2x (1440x2560 from 720p, or 2160x3840 from 1080p) and then downscaled with
+ffmpeg/Lanczos to 1080x1920.
 Audio is copied from the original source only after the enhanced segments are
 joined, which avoids duplicate audio at segment boundaries.
 
 Examples:
   ./scripts/upscale-final-video.py /path/to/source-720x1280.mp4
-  ./scripts/upscale-final-video.py source.mp4 --segment-seconds 2
+  ./scripts/upscale-final-video.py /path/to/soft-1080x1920.mp4
   COMFYUI_DIR=/opt/ComfyUI ./scripts/upscale-final-video.py source.mp4
 """
 
@@ -47,6 +48,13 @@ REQUIRED_NODES = {
     "VHS_VideoCombine",
 }
 MIN_FLASHVSR_FRAMES = 21
+SUPPORTED_SOURCE_DIMENSIONS = {(720, 1280), (1080, 1920)}
+DEFAULT_SEGMENT_SECONDS = {
+    (720, 1280): 2.0,
+    # A 1080p source produces 2160x3840 intermediate frames. One-second
+    # segments keep the tiled result and blending buffers inside 32 GB RAM.
+    (1080, 1920): 1.0,
+}
 
 
 def fail(message: str) -> None:
@@ -370,18 +378,22 @@ def create_final_export(source: Path, enhanced_segments: list[Path], destination
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="FlashVSR 720x1280 to 1080x1920 final-video upscaler")
-    parser.add_argument("source", type=Path, help="Real 720x1280 source video; it is never modified")
+    parser = argparse.ArgumentParser(description="FlashVSR 720p/1080p final-video enhancer with 1080x1920 output")
+    parser.add_argument("source", type=Path, help="720x1280 or 1080x1920 source video; it is never modified")
     parser.add_argument("--output", help="Destination MP4; must not already exist")
     parser.add_argument("--comfy-dir", default=os.environ.get("COMFYUI_DIR", str(DEFAULT_COMFY_DIR)))
     parser.add_argument("--comfy-url", default="http://127.0.0.1:8188")
-    parser.add_argument("--segment-seconds", type=float, default=2.0, help="FlashVSR segment length; default: 2")
+    parser.add_argument(
+        "--segment-seconds",
+        type=float,
+        help="FlashVSR segment length; default: 2 for 720p, 1 for 1080p",
+    )
     parser.add_argument("--seed", type=int, default=1)
     parser.add_argument("--dry-run", action="store_true", help="Validate inputs and print the planned work")
     arguments = parser.parse_args()
 
     try:
-        if arguments.segment_seconds <= 0:
+        if arguments.segment_seconds is not None and arguments.segment_seconds <= 0:
             fail("--segment-seconds must be greater than zero")
         require_command("ffmpeg")
         require_command("ffprobe")
@@ -389,17 +401,22 @@ def main() -> int:
         if not source.is_file():
             fail(f"Source video does not exist: {source}")
         metadata = probe_video(source)
-        if (metadata["width"], metadata["height"]) != (720, 1280):
+        source_dimensions = (metadata["width"], metadata["height"])
+        if source_dimensions not in SUPPORTED_SOURCE_DIMENSIONS:
             fail(
-                f"This script only accepts a real 720x1280 source; {source.name} is "
+                f"This script accepts only 720x1280 or 1080x1920 sources; {source.name} is "
                 f"{metadata['width']}x{metadata['height']}. It was left untouched."
             )
-        segments = segment_plan(metadata["duration"], metadata["fps"], arguments.segment_seconds)
+        segment_seconds = arguments.segment_seconds or DEFAULT_SEGMENT_SECONDS[source_dimensions]
+        segments = segment_plan(metadata["duration"], metadata["fps"], segment_seconds)
         destination = revisioned_destination(source, arguments.output)
         comfy_dir = Path(arguments.comfy_dir).expanduser().resolve()
+        intermediate_width = metadata["width"] * 2
+        intermediate_height = metadata["height"] * 2
         print(
             f"Source: {source}\n"
-            f"Plan: {len(segments)} FlashVSR 2x segment(s), then Lanczos downscale to 1080x1920\n"
+            f"Plan: {len(segments)} FlashVSR 2x segment(s) at {intermediate_width}x{intermediate_height} "
+            f"({segment_seconds:g}s each), then Lanczos downscale to 1080x1920\n"
             f"Destination: {destination}",
             flush=True,
         )
