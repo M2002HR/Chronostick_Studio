@@ -61,6 +61,7 @@ FLASHVSR_PROFILES = {
         "model_version": "Tiny Long (Low VRAM)",
         "tile_size": 384,
         "tile_overlap": 48,
+        "quality_boost": 2.0,
         "unload_model": True,
         "vae_tiling": True,
         "description": "lowest VRAM demand; slowest and safest",
@@ -69,9 +70,19 @@ FLASHVSR_PROFILES = {
         "model_version": "Tiny (Fast)",
         "tile_size": 512,
         "tile_overlap": 48,
+        "quality_boost": 2.0,
         "unload_model": False,
         "vae_tiling": True,
         "description": "uses more VRAM; use safe if CUDA runs out of memory",
+    },
+    "max-vram": {
+        "model_version": "Tiny (Fast)",
+        "tile_size": 640,
+        "tile_overlap": 48,
+        "quality_boost": 3.0,
+        "unload_model": False,
+        "vae_tiling": False,
+        "description": "aggressively uses VRAM; may cause CUDA out of memory on 16 GB GPUs",
     },
 }
 
@@ -275,7 +286,7 @@ def workflow(
                 "tile_size": profile["tile_size"],
                 "tile_overlap": profile["tile_overlap"],
                 "speed_optimization": 2.0,
-                "quality_boost": 2.0,
+                "quality_boost": profile["quality_boost"],
                 "stability_level": 11,
                 "color_fix": True,
                 "vae_tiling": profile["vae_tiling"],
@@ -452,6 +463,7 @@ def main() -> int:
             f"Plan: {len(segments)} FlashVSR 2x segment(s) at {intermediate_width}x{intermediate_height} "
             f"({segment_seconds:g}s each), then Lanczos downscale to 1080x1920\n"
             f"Profile: {arguments.profile} — {profile['model_version']}, tile {profile['tile_size']}, "
+            f"quality_boost={profile['quality_boost']}, vae_tiling={profile['vae_tiling']}, "
             f"unload_model={profile['unload_model']}\n"
             f"Destination: {destination}",
             flush=True,
