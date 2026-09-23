@@ -82,13 +82,38 @@ FLASHVSR_PROFILES = {
         "quality_boost": 3.0,
         "unload_model": False,
         "vae_tiling": False,
-        "description": "aggressively uses VRAM; may cause CUDA out of memory on 16 GB GPUs",
+        "fallbacks": (
+            {"tile_size": 576},
+            {"tile_size": 512},
+            {"tile_size": 448},
+            {
+                "model_version": "Tiny Long (Low VRAM)",
+                "tile_size": 384,
+                "quality_boost": 2.0,
+                "unload_model": True,
+                "vae_tiling": True,
+            },
+        ),
+        "description": "uses the largest tile that fits in available VRAM",
     },
 }
 
 
 def fail(message: str) -> None:
     raise RuntimeError(message)
+
+
+class ComfyOutOfMemoryError(RuntimeError):
+    """A retryable CUDA OOM raised by a ComfyUI workflow."""
+
+
+def profile_variants(name: str) -> list[dict[str, Any]]:
+    """Return the requested profile followed by progressively safer VRAM variants."""
+    primary = FLASHVSR_PROFILES[name]
+    variants = [{key: value for key, value in primary.items() if key != "fallbacks"}]
+    for override in primary.get("fallbacks", ()):
+        variants.append({**variants[0], **override})
+    return variants
 
 
 def run(command: list[str], *, capture: bool = False) -> subprocess.CompletedProcess[str]:
@@ -332,7 +357,10 @@ def wait_for_completion(
         if record:
             status = record.get("status", {})
             if status.get("status_str") == "error":
-                fail("ComfyUI processing failed: " + json.dumps(status.get("messages", []), ensure_ascii=False))
+                error_details = json.dumps(status.get("messages", []), ensure_ascii=False)
+                if "out of memory" in error_details.lower():
+                    raise ComfyOutOfMemoryError("FlashVSR ran out of CUDA memory")
+                fail("ComfyUI processing failed: " + error_details)
             outputs = record.get("outputs", {})
             if "3" in outputs:
                 print(
@@ -425,7 +453,7 @@ def main() -> int:
         "--profile",
         choices=FLASHVSR_PROFILES,
         default="safe",
-        help="safe is conservative; performance uses more VRAM and may OOM",
+        help="safe is conservative; max-vram automatically backs off its tile size after CUDA OOM",
     )
     parser.add_argument(
         "--segment-seconds",
@@ -453,7 +481,9 @@ def main() -> int:
             )
         segment_seconds = arguments.segment_seconds or DEFAULT_SEGMENT_SECONDS[source_dimensions]
         segments = segment_plan(metadata["duration"], metadata["fps"], segment_seconds)
-        profile = FLASHVSR_PROFILES[arguments.profile]
+        profiles = profile_variants(arguments.profile)
+        active_profile_index = 0
+        profile = profiles[active_profile_index]
         destination = revisioned_destination(source, arguments.output)
         comfy_dir = Path(arguments.comfy_dir).expanduser().resolve()
         intermediate_width = metadata["width"] * 2
@@ -481,42 +511,57 @@ def main() -> int:
             completed_frames = 0
             for index, (start_time, frame_count) in enumerate(segments, start=1):
                 prefix = f"chronostick-flashvsr/{source.stem}-{uuid.uuid4().hex[:8]}-part{index:03d}"
-                prompt = workflow(
-                    source,
-                    start_time,
-                    frame_count,
-                    metadata["fps"],
-                    prefix,
-                    arguments.seed + index - 1,
-                    profile,
-                )
-                response = http_json(
-                    f"{arguments.comfy_url.rstrip('/')}/prompt",
-                    payload={"prompt": prompt, "client_id": str(uuid.uuid4())},
-                )
-                prompt_id = response.get("prompt_id")
-                if not prompt_id:
-                    fail("ComfyUI rejected the workflow: " + json.dumps(response, ensure_ascii=False))
                 progress_start = completed_frames / total_frames * 100
                 progress_end = (completed_frames + frame_count) / total_frames * 100
-                print(
-                    f"Stage 3/5: processing segment {index}/{len(segments)} "
-                    f"({frame_count} frames, {progress_start:.1f}%–{progress_end:.1f}% overall)...",
-                    flush=True,
-                )
-                enhanced_segments.append(
-                    output_path(
-                        comfy_dir,
-                        wait_for_completion(
-                            arguments.comfy_url.rstrip("/"),
-                            prompt_id,
-                            index,
-                            len(segments),
-                            progress_start,
-                            progress_end,
-                        ),
+                while True:
+                    profile = profiles[active_profile_index]
+                    prompt = workflow(
+                        source,
+                        start_time,
+                        frame_count,
+                        metadata["fps"],
+                        prefix,
+                        arguments.seed + index - 1,
+                        profile,
                     )
-                )
+                    response = http_json(
+                        f"{arguments.comfy_url.rstrip('/')}/prompt",
+                        payload={"prompt": prompt, "client_id": str(uuid.uuid4())},
+                    )
+                    prompt_id = response.get("prompt_id")
+                    if not prompt_id:
+                        fail("ComfyUI rejected the workflow: " + json.dumps(response, ensure_ascii=False))
+                    print(
+                        f"Stage 3/5: processing segment {index}/{len(segments)} "
+                        f"({frame_count} frames, {progress_start:.1f}%–{progress_end:.1f}% overall; "
+                        f"tile {profile['tile_size']})...",
+                        flush=True,
+                    )
+                    try:
+                        enhanced_segments.append(
+                            output_path(
+                                comfy_dir,
+                                wait_for_completion(
+                                    arguments.comfy_url.rstrip("/"),
+                                    prompt_id,
+                                    index,
+                                    len(segments),
+                                    progress_start,
+                                    progress_end,
+                                ),
+                            )
+                        )
+                        break
+                    except ComfyOutOfMemoryError:
+                        if active_profile_index >= len(profiles) - 1:
+                            raise
+                        active_profile_index += 1
+                        fallback = profiles[active_profile_index]
+                        print(
+                            f"Stage 3/5: CUDA memory was full; retrying segment {index}/{len(segments)} "
+                            f"with tile {fallback['tile_size']} (automatic VRAM fallback).",
+                            flush=True,
+                        )
                 completed_frames += frame_count
 
             print("Stage 4/5: joining enhanced segments, restoring audio, and encoding the final MP4...", flush=True)
