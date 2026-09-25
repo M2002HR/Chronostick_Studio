@@ -39,7 +39,7 @@ An artifact may move from `draft` to `locked` or `approved` only after review. C
 - narrative timing and clarity
 - character and style consistency
 - reference count and correct paths
-- 9:16 framing and 10-second boundaries
+- profile-defined framing and clip boundaries
 - readable ending state
 - absence of generated text and background music
 - stable output at Shorts viewing size

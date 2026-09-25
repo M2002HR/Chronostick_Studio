@@ -14,3 +14,12 @@ episodes/*/final/*.mp4
 episodes/*/final/*.mov
 episodes/*/final/*.mkv
 episodes/*/final/*.webm
+
+# Generated clip media and automation provenance are retained locally beside
+# each episode but are not ordinary Git source artifacts.
+episodes/*/renders/**/*.mp4
+episodes/*/renders/**/*.mov
+episodes/*/renders/**/*.mkv
+episodes/*/renders/**/*.webm
+episodes/*/renders/**/*.run.json
+episodes/*/automation/run-state.json

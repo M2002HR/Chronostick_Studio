@@ -38,17 +38,17 @@ Gate: approved delivery, pronunciation, pace, and clean voice file.
 
 Store timestamps in `timestamps/word-timestamps.csv` with at least `word,start,end`. Use the actual approved voice, not estimated timings.
 
-Gate: timestamps cover the complete narration and are monotonic.
+Gate: timestamps cover the complete narration. Preserve the source file exactly; document transcription overlaps and derive a separate normalized representation only if downstream tooling requires one.
 
 ## 6. Build the shot plan
 
-Create `plan/shot-plan.md` from the timestamps. Divide the video into exact 10-second generation blocks. For every clip define narrative purpose, timing, visual beats, framing, main action, camera movement, references, final resolved frame, and failure conditions.
+Create `plan/shot-plan.md` from the timestamps. Divide the video using the episode's named production profile. For every clip define narrative purpose, timing, visual beats, framing, main action, camera movement, references, final resolved frame, and failure conditions.
 
-Gate: every narration beat has visual coverage; no clip depends visually on the next clip; the final action settles before 10.00 seconds.
+Gate: every narration beat has visual coverage; no clip depends visually on the next clip; the final action settles before the profile boundary.
 
 ## 7. Decide asset reuse
 
-Create an asset/reference map in the shot plan. Check locked style, world, and character assets first. A generation may use no more than three references.
+Create an asset/reference map in the shot plan. Check locked style, world, and character assets first. Use the reference limit defined by the production profile.
 
 Priority: required recurring character identities, then another necessary character, then style or world. When a visual reference slot is unavailable, enforce the relevant locked spec in text.
 
@@ -62,7 +62,7 @@ Gate: an approved reference exists before it is treated as locked.
 
 ## 9. Write final video prompts
 
-Create one file per 10-second clip in the episode `prompts/` directory. Each file contains only the generator-facing text. It must explicitly describe reference roles, visible identity constraints, environment, shot timing, edits, action, camera, end frame, negative constraints, and audio policy.
+Create one file per generation clip in the episode `prompts/` directory. Each file contains only the generator-facing text. It must explicitly describe reference roles, visible identity constraints, environment, shot timing, edits, action, camera, end frame, negative constraints, and audio policy.
 
 Avoid internal IDs, historical metadata, and explanatory prose that the generator does not need. For historical people, use the approved character reference as the visual identity source rather than asking for realistic facial imitation.
 
@@ -70,7 +70,7 @@ Gate: prompt-purity validation passes and the prompt includes `NO BACKGROUND MUS
 
 ## 10. Generate and review clips
 
-Store renders under `renders/` as `clip-NN-slug-rNNN.ext`. Never overwrite a render. Evaluate against the shot plan and record each attempt in `logs/generation-log.md`.
+Store immutable engine outputs under `renders/raw/` and timeline-normalized copies under `renders/editorial/` when the profile requires normalization. Name both `clip-NN-slug-rNNN.ext` and never overwrite a render. Evaluate against the shot plan and record each attempt in `logs/generation-log.md`.
 
 Retry the same prompt version for random generation defects. Change the prompt only for a specification defect, and commit that text change.
 
@@ -92,9 +92,9 @@ Store final exports under `final/` with revision naming. Update the episode mani
 - Spanish narration approved
 - voice revision identified
 - actual word timestamps present
-- six or other required 10-second blocks planned
+- the profile-defined clip count and duration are planned
 - reuse/new-asset decisions recorded
-- reference count at most three per generation
+- reference count and mapping satisfy the named profile
 - prompt files contain only generator text
 - every video prompt has the exact no-music sentence
 - renders use `-rNNN` and are never overwritten

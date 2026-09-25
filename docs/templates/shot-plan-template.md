@@ -18,11 +18,11 @@ Define pacing, camera grammar, character motion, environment motion, text restri
 
 ## Per-clip section
 
-For each exact 10-second block include:
+For each profile-defined generation block include:
 
 - clip ID and time range
 - narrative purpose
-- reference allocation, maximum three
+- reference allocation and ordered `<Picture N>` mapping within the profile limit
 - environment and palette
 - target beat count
 - for each shot: local time, narration alignment, framing, visible content, one main action, camera movement, secondary motion, transition

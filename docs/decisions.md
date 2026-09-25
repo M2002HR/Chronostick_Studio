@@ -93,6 +93,22 @@ Every AI video generation is exactly 10 seconds, finishes its action, settles ca
 
 Cross-generation motion and match-frame dependencies are unreliable. Editorial continuity comes from narration, story logic, and hard cuts.
 
+### Historical scope
+
+This remains the Episode 001 Omni contract. It is not a global duration rule for engines introduced later.
+
+## 2026-09-25 — H3 short-clip production profile
+
+### Decision
+
+The `h3-short-5s` profile uses 17 independent 5.00-second editorial slots at 480×864, 24 fps, 14 steps, `res_multistep`, `beta`, Lightning disabled, and two to four ordered references per clip. MiniMax H3 emits 124 frames for the request, so the immutable raw result is retained and an exact 5.000-second editorial copy is created without time stretching.
+
+All jobs are schema-, path-, collision-, reference-mapping-, and capability-validated before any batch child is queued. The batch is sequential on a single GPU, preserves seeds on retry, continues after non-transient clip failures when configured, and never overwrites a revision.
+
+### Reason
+
+Engine constraints and editorial timing are different contracts. Keeping them in a named profile preserves Episode 001 history while allowing repeatable H3 production without misleading global rules.
+
 ## 2026-09-22 — No background music
 
 ### Decision

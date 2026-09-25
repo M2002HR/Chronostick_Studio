@@ -2,11 +2,11 @@
 
 Keep this checklist outside the final prompt file.
 
-- exactly one 10-second 9:16 sequence
+- exactly one profile-defined 9:16 sequence
 - references and their roles are explicit
-- no more than three references
+- reference count is within the profile limit and every `<Picture N>` maps exactly
 - identity-critical features are named
-- shot timing totals 10 seconds
+- shot timing totals the profile duration
 - each shot has one main action and at most one camera move
 - pacing matches hook/body/ending target
 - final frame is resolved and independent

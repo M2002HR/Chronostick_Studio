@@ -19,6 +19,7 @@ assets/                         Approved and revisioned binary media
   styles/                       Master style references
   worlds/                       World/environment references
   characters/                   Character identity sheets
+  vehicles/                     Vehicle and machine references
   episodes/                     Episode-specific reusable media
 docs/                           Active rules and internal knowledge
   specs/                        Detailed locked style/world/character specs
@@ -32,6 +33,7 @@ episodes/<id-slug>/             Complete episode workspace
   timestamps/                   Word-level timing data
   plan/                         Shot plan and production blueprint
   prompts/                      Paste-ready video prompts only
+  automation/                   Service config, batch defaults, and job JSON
   renders/                      Revisioned generated clips
   final/                        Final assembled exports
 logs/                           Cross-project generation records
@@ -45,7 +47,7 @@ Episode 001 is the reference implementation. Its final video was produced extern
 
 - Documentation and generator-facing prompts are separate layers.
 - The master style controls rendering; character sheets control identity.
-- Each AI video clip is exactly 10 seconds and visually complete.
+- Clip duration, engine settings, and reference limits come from the episode's named production profile; every clip remains visually complete.
 - Fast pacing comes from cuts and framing changes, not chaotic motion.
 - No background music; only narration and natural diegetic sound effects.
 - Git versions text; `-rNNN` versions generated media.
@@ -60,4 +62,4 @@ Run:
 ./scripts/validate-repo.sh
 ```
 
-The validator checks prompt purity, the mandatory audio sentence, malformed asset paths, referenced asset existence, and whitespace errors. Empty archived prompts produce warnings because they are intentional documented gaps.
+The validator checks prompt purity, the mandatory audio sentence, malformed asset paths, referenced asset existence, automation JSON, prompt/reference mapping, profile settings, and whitespace errors. Empty archived prompts produce warnings because they are intentional documented gaps.

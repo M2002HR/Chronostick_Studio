@@ -2,17 +2,17 @@
 
 ## Format and boundaries
 
-- exactly 10.00 seconds per generated clip
-- vertical 9:16
+- use the named production profile for requested duration, engine resolution, frame rate, and reference limit
+- use vertical 9:16 unless the profile explicitly says otherwise
 - a complete visual idea within each clip
-- final action and camera movement settled by roughly 09.20–10.00
+- final action and camera movement settled before the profile boundary
 - a new clip begins with a clean hard cut, not a cross-generation match move
 
 ## Pacing
 
-- hook: 6–8 visual beats, usually 0.6–1.8 seconds each
-- body: 4–6 beats, usually 1.0–2.5 seconds each
-- ending: 3–5 beats with a 0.5–1.5 second resolved hold when useful
+- for 10-second Omni clips: hook 6–8 beats, body 4–6 beats, ending 3–5 beats
+- for 5-second H3 clips: approximately 2–4 readable micro-beats; reduce density before sacrificing clarity
+- reserve a short resolved hold when useful
 
 Permanent principle: FAST EDITING + MODERATE MOTION.
 
@@ -29,7 +29,7 @@ Split a shot with a hard cut if it exceeds this budget.
 
 ## References
 
-Maximum three reference images per generation. State what each reference controls. Do not let multiple views on one character sheet become multiple characters.
+Use the profile-specific maximum. State what every reference controls and keep JSON array order identical to `<Picture N>` order. Do not let multiple views on one character sheet become multiple characters.
 
 ## Generated content restrictions
 

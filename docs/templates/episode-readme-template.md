@@ -15,7 +15,8 @@
 ## Production contract
 
 - target: 60-second vertical Short
-- generation blocks: six × 10 seconds
+- production profile: identify the active profile
+- generation blocks: state profile-defined count × duration
 - narration language: Spanish
 - production language: English
 - inherited style: identify approved style version

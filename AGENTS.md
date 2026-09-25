@@ -10,8 +10,9 @@ This repository is the production source of truth for ChronoStick Studio. Before
 6. `docs/audio-rules.md`
 7. `docs/versioning.md`
 8. `docs/decisions.md`
-9. the target episode's `README.md` and `plan/shot-plan.md`
-10. only the relevant locked files in `docs/specs/`
+9. `docs/production-profiles.md`
+10. the target episode's `README.md` and `plan/shot-plan.md`
+11. only the relevant locked files in `docs/specs/`
 
 ## Source-of-truth priority
 
@@ -31,7 +32,7 @@ Archived files explain history; they are not active instructions.
 - Never put YAML metadata, explanations, review checklists, logs, or approval notes in a prompt file.
 - Never invent or reconstruct a missing "approved" prompt. Leave it empty and record the gap in the episode manifest.
 - Preserve approved character identity, style, world, and asset references. Simplify backgrounds before characters.
-- Every video generation is exactly 10 seconds, vertical 9:16, self-contained, and ends on a resolved frame.
+- Every video generation follows the target episode's named production profile, is self-contained, and ends on a resolved frame.
 - Use fast editing with moderate motion: one primary action and at most one camera move per shot.
 - Every video prompt must contain exactly this policy sentence: `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
 - Do not generate narration, dialogue, lip sync, subtitles, labels, or other readable text unless an episode explicitly requires an approved exception.
@@ -45,4 +46,4 @@ Start from source material, then script, voice, timestamps, shot plan, asset-reu
 
 For historical claims, distinguish documented fact from popular anecdote. Verify claims against reliable sources when research is part of the task, preserve citations in the episode source notes, and carry qualifications into the narration and visuals.
 
-Before handing off changes, validate paths, prompt purity, required audio wording, reference limits, empty/missing artifacts, and `git diff --check`.
+Before handing off changes, validate paths, prompt purity, required audio wording, profile-specific reference limits, automation JSON, empty/missing artifacts, and `git diff --check`.
