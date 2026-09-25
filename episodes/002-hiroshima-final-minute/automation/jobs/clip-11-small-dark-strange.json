@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0", "template": "h3_ref2va", "profile": "youtube_shorts_hq", "job_identity": "episode-002-clip-11-r001",
+  "prompt": {"file": "episodes/002-hiroshima-final-minute/prompts/clip-11-small-dark-strange.md"},
+  "references": [
+    {"path": "assets/styles/style-detailed-cinematic-stick-history-r001.png", "role": "style", "name": "Picture 1"},
+    {"path": "assets/worlds/world-hiroshima-summer-1945-r001.png", "role": "world", "name": "Picture 2"},
+    {"path": "assets/vehicles/vehicle-b29-hiroshima-r001.png", "role": "vehicle", "name": "Picture 3"}
+  ],
+  "generation": {"aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864, "duration_seconds": 5, "fps": 24, "steps": 14, "sampler": "res_multistep", "scheduler": "beta", "seed": 1945080611, "seed_mode": "fixed", "lightning": false, "ref_image_size": "match"},
+  "audio": {"enabled": true, "mode": "sfx_only", "dialogue": false, "narration": false, "music": false, "require_audio_stream": true},
+  "output": {"directory": "episodes/002-hiroshima-final-minute/renders/raw", "prefix": "clip-11-small-dark-strange-r001", "container": "mp4", "overwrite": false, "editorial_directory": "episodes/002-hiroshima-final-minute/renders/editorial", "editorial_duration_seconds": 5},
+  "postprocess": {"concat": false, "upscale": false}
+}

@@ -12,6 +12,10 @@ Specifications contain internal design knowledge, metadata, historical notes, re
 | CST-CHAR-002@1.0.0 | `characters/character-french-villager-female.md` | `assets/characters/french-villager-female/character-french-villager-female-sheet-r001.png` | `prompts/image/characters/character-french-villager-female.md` |
 | CST-CHAR-003@1.0.0 | `characters/character-antoine-parmentier.md` | `assets/characters/antoine-parmentier/character-antoine-parmentier-sheet-r001.png` | `prompts/image/characters/character-antoine-parmentier.md` |
 | CST-CHAR-004@1.0.0 | `characters/character-french-guard.md` | `assets/characters/french-guard/character-french-guard-sheet-r001.png` | `prompts/image/characters/character-french-guard.md` |
+| CST-WORLD-002@1.0.0 | `worlds/world-hiroshima-summer-1945.md` | `assets/worlds/world-hiroshima-summer-1945-r001.png` | supplied reference; no image prompt |
+| CST-CHAR-005@1.0.0 | `characters/character-hiroshima-elder-female.md` | `assets/characters/hiroshima-elder-female/character-hiroshima-elder-female-sheet-r001.png` | supplied reference; no image prompt |
+| CST-CHAR-006@1.0.0 | `characters/character-hiroshima-elder-male.md` | `assets/characters/hiroshima-elder-male/character-hiroshima-elder-male-sheet-r001.png` | supplied reference; no image prompt |
+| CST-VEHICLE-001@1.0.0 | `vehicles/vehicle-b29-hiroshima.md` | `assets/vehicles/vehicle-b29-hiroshima-r001.png` | supplied reference; no image prompt |
 
 All paths in this table are relative to the repository root.
 

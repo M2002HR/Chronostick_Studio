@@ -1,0 +1,11 @@
+{
+  "comfyui_base_url": "http://127.0.0.1:8188",
+  "comfyui_root": "/home/mhr/AI/ComfyUI",
+  "bind_host": "127.0.0.1",
+  "port": 8090,
+  "input_root": "/home/mhr/Code/chronostick-studio",
+  "output_root": "/home/mhr/Code/chronostick-studio",
+  "state_dir": "/home/mhr/AI/comfy-video-automation/state/chronostick-episode-002",
+  "gpu_concurrency": 1,
+  "job_timeout_seconds": 21600
+}
