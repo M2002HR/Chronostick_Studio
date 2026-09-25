@@ -1,3 +1,17 @@
-Create exactly one self-contained 5-second vertical 9:16 video. <Picture 1> is the sole rendering-style authority. <Picture 2> defines one coherent pre-bomb Hiroshima street, period wooden buildings, tiled roofs, utility poles, summer plants, distant landmark forms, clear sky, and ordinary civilians. Do not copy its multi-panel layout.
+Create exactly one self-contained 5.00-second vertical 9:16 video with an immediate motion hook and seven crisp hard-cut shots.
 
-0.00–1.60: medium-wide side view as three school-age stick-figure children in simple period clothes walk briskly across the sunlit street, staying secondary and clearly nonverbal. 1.60–3.80: one clean hard cut to a bicycle crossing foreground from left to right while the children continue safely in the middle distance. 3.80–5.00: the bicycle exits, leaving a clean ordinary street frame with long morning shadows and gently moving leaves; camera remains locked and settles. No collision, running panic, waving at camera, modern vehicles, aircraft, bomb, siren, smoke, damage, ominous color shift, captions, shop lettering, logos, borders, or readable text. No speech, voices, narration, dialogue, or lip sync. Natural audio only: bicycle chain and bell mechanism without ringing, tires on road, light footsteps, cicadas, birds, breeze. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> controls every frame. All children, cyclist, pedestrians, bicycle, buildings, plants, road, shadows, sky, and distant city must share its detailed cinematic stick-figure aesthetic: round minimal faces, dot eyes, stick limbs, simplified period clothes, bold dark contours, hand-painted color, graphic perspective, and warm sunlight. No photoreal street or bicycle, realistic child or skin, live action, 3D, anime, or mixed style. <Picture 2> supplies only Hiroshima's period architecture, tiled roofs, utility poles, greenery, distant landmarks, sky, and ordinary-life motifs. Redraw everything through Picture 1; never reproduce its collage or borders.
+
+Instantaneous hard cuts only, no dissolve or morph:
+0.00–0.40: HOOK. Extreme low close-up as a boldly outlined bicycle wheel slices left-to-right, spokes a clean graphic blur.
+0.40–1.00: HARD CUT. Stick cyclist's sandal completes one pedal stroke; simplified stick leg.
+1.00–1.70: HARD CUT. Three distinct round-headed stick schoolchildren in simple 1945 clothes walk briskly toward camera, mouths closed.
+1.70–2.45: HARD CUT. Side view: same children cross safely while bicycle passes behind at another depth.
+2.45–3.10: HARD CUT. Graphic shadows of stick legs and shoes move across sunlit road.
+3.10–3.85: HARD CUT. Wide street: cyclist exits one side, children exit the other.
+3.85–4.40: HARD CUT. Illustrated leaves flick in foreground, empty street behind.
+4.40–5.00: HARD CUT. Locked clean street ending with bold diagonal architecture.
+
+No panic, collision, duplicate child, identity morph, modern clothes or vehicles, aircraft, bomb, siren, smoke, damage, signage, captions, borders, or text. No speech, child voices, dialogue, narration, singing, lip sync, or vocalization.
+
+AUDIO LOCK — SFX ONLY: tire hiss, chain clicks, pedal creak, light footsteps, fabric, cicadas, leaves, and birds. Do not make a musical bicycle bell. No melody, harmony, beat, percussion, drone, pad, pulse, score, soundtrack, sting, or musical ambience. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0", "template": "h3_ref2va", "profile": "youtube_shorts_hq", "job_identity": "episode-002-clip-09-r001",
+  "schema_version": "1.0", "template": "h3_ref2va", "profile": "youtube_shorts_hq", "job_identity": "episode-002-clip-09-r002",
   "prompt": {"file": "episodes/002-hiroshima-final-minute/prompts/clip-09-silent-alarm.md"},
   "references": [
     {"path": "assets/styles/style-detailed-cinematic-stick-history-r001.png", "role": "style", "name": "Picture 1"},
@@ -9,6 +9,6 @@
   ],
   "generation": {"aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864, "duration_seconds": 5, "fps": 24, "steps": 12, "sampler": "res_multistep", "scheduler": "beta", "seed": 1945080609, "seed_mode": "fixed", "lightning": false, "ref_image_size": "match"},
   "audio": {"enabled": true, "mode": "sfx_only", "dialogue": false, "narration": false, "music": false, "require_audio_stream": true},
-  "output": {"directory": "episodes/002-hiroshima-final-minute/renders/raw", "prefix": "clip-09-silent-alarm-r001", "container": "mp4", "overwrite": false, "editorial_directory": "episodes/002-hiroshima-final-minute/renders/editorial", "editorial_duration_seconds": 5},
+  "output": {"directory": "episodes/002-hiroshima-final-minute/renders/raw", "prefix": "clip-09-silent-alarm-r002", "container": "mp4", "overwrite": false, "editorial_directory": "episodes/002-hiroshima-final-minute/renders/editorial", "editorial_duration_seconds": 5},
   "postprocess": {"concat": false, "upscale": false}
 }

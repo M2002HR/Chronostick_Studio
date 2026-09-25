@@ -11,7 +11,7 @@
 - shot plan: complete
 - prompts: 17 generator-ready files
 - automation jobs: 17 independently runnable JSON files plus batch defaults
-- renders: batch pending/running; inspect `automation/run-state.json` when present
+- renders: r001 clips 01–02 rejected; clips 03–17 were cancelled; corrected r002 batch is prepared but not launched
 - final master: intentionally not produced in this pass
 
 ## Production contract
@@ -26,6 +26,8 @@
 - execution: sequential GPU concurrency 1; continue safely after clip failure; transient retry maximum 2
 - first pass: no concat, no FlashVSR, no final master
 - content: restrained non-graphic historical depiction; no generated text, narration, dialogue, or music
+- visual lock: every pixel must remain in the Picture 1 ChronoStick universe; all other references provide identity/content only
+- edit grammar: six or more explicit hard cuts per 5-second clip with a first-frame hook
 
 ## Canonical assets
 
@@ -51,3 +53,5 @@ The ordered reference list is clip-specific. `<Picture N>` always means array it
 ## Review gate
 
 Approve the 0.4 MP source clips individually before any concat, upscale, captioning, narration mix, or final export.
+
+The stopped r001 attempt is retained locally for diagnosis and must never be treated as approved. Its review is documented in `renders/review-r001.md`. Run r002 only through `automation/run-batch.sh` after the dry-run succeeds.

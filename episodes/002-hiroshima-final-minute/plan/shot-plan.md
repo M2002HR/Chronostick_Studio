@@ -2,7 +2,7 @@
 
 ## Production metadata
 
-- status: ready for H3 source generation
+- status: r002 ready for operator-run H3 source generation; not launched
 - profile: `h3-short-5s`
 - timeline: 00:00.000–01:25.000
 - narration: supplied Spanish, 00:00.460–01:24.520
@@ -11,7 +11,7 @@
 - sampling: 12 steps, `res_multistep`, `beta`, Lightning off, fixed per-clip seeds
 - references: two to four ordered images per clip; dynamic mapping validated against `<Picture N>`
 - audio: native synchronized SFX required; no generated speech, narration, voices, or music
-- cut grammar: hard editorial cut at every five-second boundary; no continuation or match-frame dependency
+- cut grammar: each 5-second prompt contains a first-frame hook and at least six explicit instantaneous hard cuts; no continuation or match-frame dependency
 
 ## Narrative and ethical guardrails
 
@@ -19,7 +19,7 @@ The verified facts are the 8:15 a.m. attack and Hiroshima City's approximate 140
 
 ## Visual grammar
 
-The style master controls rendering, never period/location. The Hiroshima world sheet controls architecture, atmosphere, domestic setting, skyline, flash, and aftermath. Character sheets control identity only. The vehicle sheet controls the single B-29 and single bomb. Each clip uses one primary action and at most one camera move. Scale alternates from city-wide to domestic, street, sky, reaction, intimate hands, white field, and aftermath wide.
+The style master controls every rendered pixel, never period/location. The Hiroshima world sheet controls architecture, atmosphere, domestic setting, skyline, flash, and aftermath content only and must be translated into the style master's illustrated stick language. Character sheets control identity only. The vehicle sheet controls the single B-29 and single bomb only; both are redrawn as outlined stick-world props. The `micro-shots` entries below summarize narrative beat groups; the generator-facing prompt files are authoritative for the expanded frame-accurate seven-to-nine-shot cut timing.
 
 ## Reference allocation
 
@@ -44,7 +44,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: leaves, birds, faint city ambience
 - clean ending: stable complete peaceful city wide
 - forbidden failures: aircraft, smoke, damage, countdown graphics, collage borders, ominous storm lighting
-- files: `prompts/clip-01-sixty-seconds-before.md`; `automation/jobs/clip-01-sixty-seconds-before.json`; `clip-01-sixty-seconds-before-r001.mp4`
+- files: `prompts/clip-01-sixty-seconds-before.md`; `automation/jobs/clip-01-sixty-seconds-before.json`; `clip-01-sixty-seconds-before-r002.mp4`
 
 ## Clip 02 — Breakfast
 
@@ -58,7 +58,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: ceramic clink, paper fold, cloth, birds outside
 - clean ending: both at rest beside orderly table
 - forbidden failures: duplicate characters, modern breakfast objects, animated conversation, panic, unreadable hands
-- files: `prompts/clip-02-breakfast.md`; `automation/jobs/clip-02-breakfast.json`; `clip-02-breakfast-r001.mp4`
+- files: `prompts/clip-02-breakfast.md`; `automation/jobs/clip-02-breakfast.json`; `clip-02-breakfast-r002.mp4`
 
 ## Clip 03 — Alarm silenced
 
@@ -72,7 +72,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: room tone, ceramic touch, breeze, distant birds; absolutely no siren
 - clean ending: bright silent window in focus
 - forbidden failures: active alarm, flashing indicator, visible text, panic, aircraft, identity drift
-- files: `prompts/clip-03-alarm-silenced.md`; `automation/jobs/clip-03-alarm-silenced.json`; `clip-03-alarm-silenced-r001.mp4`
+- files: `prompts/clip-03-alarm-silenced.md`; `automation/jobs/clip-03-alarm-silenced.json`; `clip-03-alarm-silenced-r002.mp4`
 
 ## Clip 04 — Forty seconds
 
@@ -86,7 +86,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: steps, bicycle chain far away, cicadas, birds; no alarm
 - clean ending: centered quiet street
 - forbidden failures: clock or digits, aircraft, panic, red lighting, modern street furniture, readable shop text
-- files: `prompts/clip-04-forty-seconds.md`; `automation/jobs/clip-04-forty-seconds.json`; `clip-04-forty-seconds-r001.mp4`
+- files: `prompts/clip-04-forty-seconds.md`; `automation/jobs/clip-04-forty-seconds.json`; `clip-04-forty-seconds-r002.mp4`
 
 ## Clip 05 — Normal street
 
@@ -100,7 +100,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: tires, chain, light footsteps, cicadas, birds
 - clean ending: bicycle exits into an ordinary stable street
 - forbidden failures: collision, frantic running, vocal children, modern bicycle/vehicles, aircraft, generated signage
-- files: `prompts/clip-05-normal-street.md`; `automation/jobs/clip-05-normal-street.json`; `clip-05-normal-street-r001.mp4`
+- files: `prompts/clip-05-normal-street.md`; `automation/jobs/clip-05-normal-street.json`; `clip-05-normal-street-r002.mp4`
 
 ## Clip 06 — Thirty seconds
 
@@ -114,7 +114,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: cicadas, breeze, a few footsteps, neighborhood bed
 - clean ending: empty blue sky before aircraft appears
 - forbidden failures: early plane, time graphics, excessive flare, ominous clouds, damage, dreamy fantasy effects
-- files: `prompts/clip-06-thirty-seconds.md`; `automation/jobs/clip-06-thirty-seconds.json`; `clip-06-thirty-seconds-r001.mp4`
+- files: `prompts/clip-06-thirty-seconds.md`; `automation/jobs/clip-06-thirty-seconds.json`; `clip-06-thirty-seconds-r002.mp4`
 
 ## Clip 07 — Distant hum
 
@@ -128,7 +128,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: distant four-engine hum rising slightly, breeze, birds
 - clean ending: man edge and tiny aircraft both readable
 - forbidden failures: fear performance, close aircraft, bomb release, dialogue, duplicate man, malformed window geometry
-- files: `prompts/clip-07-distant-hum.md`; `automation/jobs/clip-07-distant-hum.json`; `clip-07-distant-hum-r001.mp4`
+- files: `prompts/clip-07-distant-hum.md`; `automation/jobs/clip-07-distant-hum.json`; `clip-07-distant-hum-r002.mp4`
 
 ## Clip 08 — B-29 crosses
 
@@ -142,7 +142,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: steady distant four-engine drone, wind, birds fading
 - clean ending: empty sky after exit
 - forbidden failures: extra aircraft, bomb, contrail, dogfight, banking, modern jet geometry, copied sheet layout
-- files: `prompts/clip-08-b29-crosses.md`; `automation/jobs/clip-08-b29-crosses.json`; `clip-08-b29-crosses-r001.mp4`
+- files: `prompts/clip-08-b29-crosses.md`; `automation/jobs/clip-08-b29-crosses.json`; `clip-08-b29-crosses-r002.mp4`
 
 ## Clip 09 — Silent alarm
 
@@ -156,7 +156,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: distant aircraft hum, window breeze, cloth; siren silent
 - clean ending: man still looking up
 - forbidden failures: lip sync, speech, alarm tone, comic gesturing, panic, extra people, identity swap
-- files: `prompts/clip-09-silent-alarm.md`; `automation/jobs/clip-09-silent-alarm.json`; `clip-09-silent-alarm-r001.mp4`
+- files: `prompts/clip-09-silent-alarm.md`; `automation/jobs/clip-09-silent-alarm.json`; `clip-09-silent-alarm-r002.mp4`
 
 ## Clip 10 — Object drops
 
@@ -170,7 +170,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: engine drone, wind, subtle release clunk
 - clean ending: aircraft and object distinctly separated
 - forbidden failures: multiple bombs/planes, detonation, dramatic spin, close weapon glamour, labels, contrails
-- files: `prompts/clip-10-object-drops.md`; `automation/jobs/clip-10-object-drops.json`; `clip-10-object-drops-r001.mp4`
+- files: `prompts/clip-10-object-drops.md`; `automation/jobs/clip-10-object-drops.json`; `clip-10-object-drops-r002.mp4`
 
 ## Clip 11 — Small, dark, strange
 
@@ -184,7 +184,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: high wind, distant fading engine; no exaggerated whistle
 - clean ending: isolated object centered in stable sky
 - forbidden failures: aircraft, duplication, explosion, spin, city destruction, countdown text, sheet border
-- files: `prompts/clip-11-small-dark-strange.md`; `automation/jobs/clip-11-small-dark-strange.json`; `clip-11-small-dark-strange-r001.mp4`
+- files: `prompts/clip-11-small-dark-strange.md`; `automation/jobs/clip-11-small-dark-strange.json`; `clip-11-small-dark-strange-r002.mp4`
 
 ## Clip 12 — Ten seconds
 
@@ -198,7 +198,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: fading engine, breeze, cloth, quiet room
 - clean ending: man still, concern readable
 - forbidden failures: spoken line, running, early flash, duplicate bomb/man, grotesque face or eyes, countdown graphic
-- files: `prompts/clip-12-ten-seconds.md`; `automation/jobs/clip-12-ten-seconds.json`; `clip-12-ten-seconds-r001.mp4`
+- files: `prompts/clip-12-ten-seconds.md`; `automation/jobs/clip-12-ten-seconds.json`; `clip-12-ten-seconds-r002.mp4`
 
 ## Clip 13 — Five seconds
 
@@ -212,7 +212,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: cloth, table creak, two footsteps, low distant hum
 - clean ending: both moving together but visually resolved
 - forbidden failures: mouth movement, sprinting, falling, chaotic limbs, explosion, flash, duplicate couple
-- files: `prompts/clip-13-five-seconds.md`; `automation/jobs/clip-13-five-seconds.json`; `clip-13-five-seconds-r001.mp4`
+- files: `prompts/clip-13-five-seconds.md`; `automation/jobs/clip-13-five-seconds.json`; `clip-13-five-seconds-r002.mp4`
 
 ## Clip 14 — Two seconds, hands
 
@@ -226,7 +226,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: cloth, foot shift, quiet room, distant hum
 - clean ending: joined hands centered and still
 - forbidden failures: extra fingers/limbs, detached hands, wrong sleeves, speech, melodrama, flash, injury
-- files: `prompts/clip-14-two-seconds-hands.md`; `automation/jobs/clip-14-two-seconds-hands.json`; `clip-14-two-seconds-hands-r001.mp4`
+- files: `prompts/clip-14-two-seconds-hands.md`; `automation/jobs/clip-14-two-seconds-hands.json`; `clip-14-two-seconds-hands-r002.mp4`
 
 ## Clip 15 — One second, flash begins
 
@@ -240,7 +240,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: room hush and subtle pressure onset; no impact in this clip
 - clean ending: stable near-white field with faint silhouette edge
 - forbidden failures: fireball, visible injuries, screaming, explosive camera shake, captions/time display, duplicated couple
-- files: `prompts/clip-15-one-second-flash.md`; `automation/jobs/clip-15-one-second-flash.json`; `clip-15-one-second-flash-r001.mp4`
+- files: `prompts/clip-15-one-second-flash.md`; `automation/jobs/clip-15-one-second-flash.json`; `clip-15-one-second-flash-r002.mp4`
 
 ## Clip 16 — White flash
 
@@ -254,7 +254,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: low rumble fading, settling debris, wind; never screams
 - clean ending: stable non-graphic ruined-city wide
 - forbidden failures: people/bodies, gore, fireball, glamorous mushroom cloud, orange spectacle, aircraft, victory imagery
-- files: `prompts/clip-16-white-flash.md`; `automation/jobs/clip-16-white-flash.json`; `clip-16-white-flash-r001.mp4`
+- files: `prompts/clip-16-white-flash.md`; `automation/jobs/clip-16-white-flash.json`; `clip-16-white-flash-r002.mp4`
 
 ## Clip 17 — Aftermath
 
@@ -268,7 +268,7 @@ The couple is deliberately omitted when identity is not visible. The vehicle she
 - SFX: wind, distant settling debris, low rumble fading to near-silence
 - clean ending: fully stable empty wide for at least 0.48 seconds
 - forbidden failures: visible victims, injuries, screams, near flames, aircraft, flags, spectacle, mushroom cloud, casualty text
-- files: `prompts/clip-17-aftermath.md`; `automation/jobs/clip-17-aftermath.json`; `clip-17-aftermath-r001.mp4`
+- files: `prompts/clip-17-aftermath.md`; `automation/jobs/clip-17-aftermath.json`; `clip-17-aftermath-r002.mp4`
 
 ## Final preflight and review
 
