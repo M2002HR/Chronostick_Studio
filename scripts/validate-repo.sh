@@ -78,7 +78,7 @@ for path in jobs:
     generation = job.get("generation", {})
     required_generation = {
         "aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864,
-        "duration_seconds": 5, "fps": 24, "steps": 14, "sampler": "res_multistep",
+        "duration_seconds": 5, "fps": 24, "steps": 12, "sampler": "res_multistep",
         "scheduler": "beta", "lightning": False, "ref_image_size": "match",
     }
     for key, expected in required_generation.items():

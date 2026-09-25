@@ -22,7 +22,7 @@
 - generator: MiniMax H3 `h3_ref2va`
 - source render: 480×864, 24 fps, 124 raw frames, native audio
 - editorial render: exactly 5.000 seconds, no time stretch
-- sampling: 14 steps, `res_multistep`, `beta`, Lightning disabled
+- sampling: 12 steps, `res_multistep`, `beta`, Lightning disabled
 - execution: sequential GPU concurrency 1; continue safely after clip failure; transient retry maximum 2
 - first pass: no concat, no FlashVSR, no final master
 - content: restrained non-graphic historical depiction; no generated text, narration, dialogue, or music

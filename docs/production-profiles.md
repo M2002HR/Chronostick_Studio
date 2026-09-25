@@ -12,7 +12,7 @@ Historical Episode 001 contract: vertical 9:16, exact 10-second generations, at 
 - editorial slot: 5.000 seconds
 - raw engine request: 5 seconds at 24 fps; H3-valid output is 124 frames (about 5.167 seconds)
 - resolution: 480×864, 0.4 MP, 9:16
-- sampling: 14 steps, `res_multistep`, `beta`, Lightning off
+- sampling: 12 steps, `res_multistep`, `beta`, Lightning off
 - reference images: two to four normally; dynamic service maximum nine
 - `ref_image_size`: `match`
 - audio: native SFX-only stream required; no music, dialogue, narration, or voices

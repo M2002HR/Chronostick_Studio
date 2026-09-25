@@ -8,7 +8,7 @@
     {"path": "assets/styles/style-detailed-cinematic-stick-history-r001.png", "role": "style", "name": "Picture 1"},
     {"path": "assets/worlds/world-hiroshima-summer-1945-r001.png", "role": "world", "name": "Picture 2"}
   ],
-  "generation": {"aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864, "duration_seconds": 5, "fps": 24, "steps": 14, "sampler": "res_multistep", "scheduler": "beta", "seed": 1945080601, "seed_mode": "fixed", "lightning": false, "ref_image_size": "match"},
+  "generation": {"aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864, "duration_seconds": 5, "fps": 24, "steps": 12, "sampler": "res_multistep", "scheduler": "beta", "seed": 1945080601, "seed_mode": "fixed", "lightning": false, "ref_image_size": "match"},
   "audio": {"enabled": true, "mode": "sfx_only", "dialogue": false, "narration": false, "music": false, "require_audio_stream": true},
   "output": {"directory": "episodes/002-hiroshima-final-minute/renders/raw", "prefix": "clip-01-sixty-seconds-before-r001", "container": "mp4", "overwrite": false, "editorial_directory": "episodes/002-hiroshima-final-minute/renders/editorial", "editorial_duration_seconds": 5},
   "postprocess": {"concat": false, "upscale": false}

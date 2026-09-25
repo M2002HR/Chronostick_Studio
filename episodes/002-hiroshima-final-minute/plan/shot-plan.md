@@ -8,7 +8,7 @@
 - narration: supplied Spanish, 00:00.460–01:24.520
 - format: 17 independent vertical 480×864 clips, 5.000-second editorial slots, 24 fps
 - H3 raw: 124 frames, expected about 5.167 seconds; preserve immutable
-- sampling: 14 steps, `res_multistep`, `beta`, Lightning off, fixed per-clip seeds
+- sampling: 12 steps, `res_multistep`, `beta`, Lightning off, fixed per-clip seeds
 - references: two to four ordered images per clip; dynamic mapping validated against `<Picture N>`
 - audio: native synchronized SFX required; no generated speech, narration, voices, or music
 - cut grammar: hard editorial cut at every five-second boundary; no continuation or match-frame dependency

@@ -101,7 +101,7 @@ This remains the Episode 001 Omni contract. It is not a global duration rule for
 
 ### Decision
 
-The `h3-short-5s` profile uses 17 independent 5.00-second editorial slots at 480×864, 24 fps, 14 steps, `res_multistep`, `beta`, Lightning disabled, and two to four ordered references per clip. MiniMax H3 emits 124 frames for the request, so the immutable raw result is retained and an exact 5.000-second editorial copy is created without time stretching.
+The `h3-short-5s` profile uses 17 independent 5.00-second editorial slots at 480×864, 24 fps, 12 steps, `res_multistep`, `beta`, Lightning disabled, and two to four ordered references per clip. MiniMax H3 emits 124 frames for the request, so the immutable raw result is retained and an exact 5.000-second editorial copy is created without time stretching.
 
 All jobs are schema-, path-, collision-, reference-mapping-, and capability-validated before any batch child is queued. The batch is sequential on a single GPU, preserves seeds on retry, continues after non-transient clip failures when configured, and never overwrites a revision.
 

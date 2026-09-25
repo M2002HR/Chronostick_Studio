@@ -7,7 +7,7 @@
     {"path": "assets/characters/hiroshima-elder-female/character-hiroshima-elder-female-sheet-r001.png", "role": "character", "name": "Picture 3"},
     {"path": "assets/characters/hiroshima-elder-male/character-hiroshima-elder-male-sheet-r001.png", "role": "character", "name": "Picture 4"}
   ],
-  "generation": {"aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864, "duration_seconds": 5, "fps": 24, "steps": 14, "sampler": "res_multistep", "scheduler": "beta", "seed": 1945080614, "seed_mode": "fixed", "lightning": false, "ref_image_size": "match"},
+  "generation": {"aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864, "duration_seconds": 5, "fps": 24, "steps": 12, "sampler": "res_multistep", "scheduler": "beta", "seed": 1945080614, "seed_mode": "fixed", "lightning": false, "ref_image_size": "match"},
   "audio": {"enabled": true, "mode": "sfx_only", "dialogue": false, "narration": false, "music": false, "require_audio_stream": true},
   "output": {"directory": "episodes/002-hiroshima-final-minute/renders/raw", "prefix": "clip-14-two-seconds-hands-r001", "container": "mp4", "overwrite": false, "editorial_directory": "episodes/002-hiroshima-final-minute/renders/editorial", "editorial_duration_seconds": 5},
   "postprocess": {"concat": false, "upscale": false}
