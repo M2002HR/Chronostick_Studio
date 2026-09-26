@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Review"
+  short_description: "Review clips and prepare precise replacement jobs"
+  default_prompt: "Use $chronostick-review to evaluate these clips and prepare only the necessary replacement revisions."

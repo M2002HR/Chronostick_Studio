@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Script"
+  short_description: "Rewrite source material into a high-retention Short"
+  default_prompt: "Use $chronostick-script to turn this title and source text into an approved short-form narration."

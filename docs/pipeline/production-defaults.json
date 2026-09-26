@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "platform": "youtube_shorts",
+    "orientation": "9:16",
+    "duration_seconds": {"minimum": 40, "preferred": 52, "maximum": 60},
+    "clip_seconds": 5
+  },
+  "writing": {
+    "target_language": "es",
+    "hook_seconds": 2,
+    "cta_required": false,
+    "delivery": "fast_high_retention"
+  },
+  "direction": {
+    "hook_action_shots_per_clip": [6, 8],
+    "standard_shots_per_clip": [5, 7],
+    "identity_or_physics_shots_per_clip": [3, 5],
+    "emotional_or_terminal_shots_per_clip": [2, 4],
+    "transition": "hard_cut",
+    "max_primary_actions_per_shot": 1,
+    "max_camera_moves_per_shot": 1
+  },
+  "references": {
+    "format": "full_frame_single_scene",
+    "preferred_aspect_ratio": "9:16",
+    "contact_sheets_allowed": false,
+    "style": "detailed_cinematic_stick_world"
+  },
+  "generation": {
+    "schema_version": "1.0",
+    "template": "h3_ref2va",
+    "profile": "youtube_shorts_hq",
+    "width": 480,
+    "height": 864,
+    "megapixel": 0.4,
+    "fps": 24,
+    "duration_seconds": 5,
+    "steps": 14,
+    "sampler": "res_multistep",
+    "scheduler": "beta",
+    "lightning": false,
+    "ref_image_size": "match",
+    "seed_mode": "fixed",
+    "audio_mode": "sfx_only",
+    "overwrite": false
+  },
+  "batch": {
+    "gpu_concurrency": 1,
+    "continue_on_error": true,
+    "max_retries": 2,
+    "concat_on_complete": false,
+    "upscale_on_complete": false
+  },
+  "upscale": {
+    "engine": "flashvsr",
+    "target_width": 1080,
+    "target_height": 1920,
+    "fit_mode": "cover",
+    "profile": "quality",
+    "chunk_seconds": 5,
+    "tile_size": 480,
+    "tile_overlap": 48,
+    "preset": "/home/mhr/AI/comfy-video-automation/examples/flashvsr-quality-16gb-tile480.json"
+  },
+  "audio_policy": {
+    "background_music": false,
+    "generated_speech": false,
+    "generated_narration": false,
+    "diegetic_sfx": true,
+    "required_sentence": "NO BACKGROUND MUSIC. Natural diegetic sound effects only."
+  }
+}

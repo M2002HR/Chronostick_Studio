@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Generation Jobs"
+  short_description: "Build deterministic H3 job JSON and batch files"
+  default_prompt: "Use $chronostick-generation-jobs to create validated 14-step batch job JSON for this episode."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Finish"
+  short_description: "Assemble and upscale the approved picture master"
+  default_prompt: "Use $chronostick-finish to assemble selected clips and prepare the 480-tile FlashVSR upscale."

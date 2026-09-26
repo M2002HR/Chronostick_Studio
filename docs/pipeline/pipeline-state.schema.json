@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chronostick.local/schemas/pipeline-state.schema.json",
+  "title": "ChronoStick pipeline state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "episode_id", "title", "current_stage", "defaults", "stages"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "episode_id": {"type": "string", "pattern": "^[0-9]{3}-[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "title": {"type": "string", "minLength": 1},
+    "current_stage": {"type": "string", "pattern": "^(0[1-9]|10)-[a-z0-9-]+$"},
+    "defaults": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_language", "duration_seconds", "clip_seconds", "generation_steps", "project_seed"],
+      "properties": {
+        "target_language": {"type": "string", "minLength": 2},
+        "duration_seconds": {"type": "integer", "minimum": 40, "maximum": 60},
+        "clip_seconds": {"const": 5},
+        "generation_steps": {"type": "integer", "minimum": 1},
+        "project_seed": {"type": "integer", "minimum": 0}
+      }
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 10,
+      "items": {"$ref": "#/$defs/stage"}
+    },
+    "external_finishing": {"type": ["object", "null"]},
+    "updated_at": {"type": ["string", "null"], "format": "date-time"}
+  },
+  "$defs": {
+    "status": {"enum": ["missing", "draft", "needs_review", "approved", "rejected", "blocked", "superseded"]},
+    "stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "skill", "status", "inputs", "outputs", "validated_at", "approved_at", "approved_by", "decision_notes", "next_action"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^(0[1-9]|10)$"},
+        "name": {"type": "string", "minLength": 1},
+        "skill": {"type": "string", "pattern": "^chronostick-[a-z0-9-]+$"},
+        "status": {"$ref": "#/$defs/status"},
+        "inputs": {"type": "array", "items": {"type": "string"}},
+        "outputs": {"type": "array", "items": {"type": "string"}},
+        "validated_at": {"type": ["string", "null"], "format": "date-time"},
+        "approved_at": {"type": ["string", "null"], "format": "date-time"},
+        "approved_by": {"type": ["string", "null"]},
+        "decision_notes": {"type": ["string", "null"]},
+        "next_action": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Clip Prompts"
+  short_description: "Author controlled five-second H3 video prompts"
+  default_prompt: "Use $chronostick-clip-prompts to write the detailed five-second prompts from this approved shot plan."

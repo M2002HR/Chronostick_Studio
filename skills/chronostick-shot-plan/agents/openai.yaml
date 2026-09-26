@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Shot Plan"
+  short_description: "Direct five-second clips from approved timing"
+  default_prompt: "Use $chronostick-shot-plan to build the clip plan, state ledger, and reference requirements."

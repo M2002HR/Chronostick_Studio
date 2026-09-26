@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Pipeline"
+  short_description: "Resume and orchestrate the complete video workflow"
+  default_prompt: "Use $chronostick-pipeline to inspect this episode and continue from the next valid production gate."

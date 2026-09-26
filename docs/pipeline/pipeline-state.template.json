@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "000-example-episode",
+  "title": "Example episode",
+  "current_stage": "01-intake-script",
+  "defaults": {
+    "target_language": "es",
+    "duration_seconds": 52,
+    "clip_seconds": 5,
+    "generation_steps": 14,
+    "project_seed": 20260926001
+  },
+  "stages": [
+    {"id": "01", "name": "intake-script", "skill": "chronostick-script", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": "Provide title and source text"},
+    {"id": "02", "name": "timestamps", "skill": "chronostick-timestamps", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "03", "name": "shot-plan", "skill": "chronostick-shot-plan", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "04", "name": "references", "skill": "chronostick-references", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "05", "name": "clip-prompts", "skill": "chronostick-clip-prompts", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "06", "name": "generation-jobs", "skill": "chronostick-generation-jobs", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "07", "name": "batch-generation", "skill": "chronostick-batch", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "08", "name": "review", "skill": "chronostick-review", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "09", "name": "assembly-upscale", "skill": "chronostick-finish", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null},
+    {"id": "10", "name": "youtube-package", "skill": "chronostick-youtube", "status": "missing", "inputs": [], "outputs": [], "validated_at": null, "approved_at": null, "approved_by": null, "decision_notes": null, "next_action": null}
+  ],
+  "external_finishing": null,
+  "updated_at": null
+}

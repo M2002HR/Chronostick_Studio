@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick References"
+  short_description: "Design full-frame generation-safe references"
+  default_prompt: "Use $chronostick-references to create and review the missing full-frame stick-world reference prompts."

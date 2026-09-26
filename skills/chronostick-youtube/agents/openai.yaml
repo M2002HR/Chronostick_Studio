@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick YouTube Package"
+  short_description: "Create thumbnail and upload-ready metadata"
+  default_prompt: "Use $chronostick-youtube to create the final Shorts thumbnail brief and upload metadata package."

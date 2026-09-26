@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Timestamps"
+  short_description: "Validate word timestamps and derive timing maps"
+  default_prompt: "Use $chronostick-timestamps to validate this word-timestamp file and create the timing map."

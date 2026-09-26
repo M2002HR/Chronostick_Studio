@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Batch"
+  short_description: "Preflight, run, and monitor local H3 batches"
+  default_prompt: "Use $chronostick-batch to preflight this episode and show the safe operator command for generation."
