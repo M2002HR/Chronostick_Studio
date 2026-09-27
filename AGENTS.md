@@ -7,12 +7,14 @@ This repository is the production source of truth for ChronoStick Studio. Before
 3. `docs/production-rules.md`
 4. `docs/style-rules.md`
 5. `docs/video-rules.md`
-6. `docs/audio-rules.md`
-7. `docs/versioning.md`
-8. `docs/decisions.md`
-9. `docs/production-profiles.md`
-10. the target episode's `README.md` and `plan/shot-plan.md`
-11. only the relevant locked files in `docs/specs/`
+6. `docs/reference-and-prompt-continuity.md`
+7. `docs/final-assembly.md`
+8. `docs/audio-rules.md`
+9. `docs/versioning.md`
+10. `docs/decisions.md`
+11. `docs/production-profiles.md`
+12. the target episode's `README.md` and `plan/shot-plan.md`
+13. only the relevant locked files in `docs/specs/`
 
 ## Source-of-truth priority
 

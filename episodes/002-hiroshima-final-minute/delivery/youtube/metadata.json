@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "002-hiroshima-final-minute",
+  "package_status": "provisional_pending_distribution_master_and_operator_decisions",
+  "prepared_at": "2026-09-27",
+  "language": "es",
+  "title": {
+    "primary": "Hiroshima: los últimos 60 segundos antes del destello",
+    "alternatives": [
+      "El último minuto de Hiroshima antes de la bomba",
+      "8:15: el minuto que cambió Hiroshima para siempre"
+    ],
+    "character_limit": 100
+  },
+  "description": "Hiroshima parecía vivir una mañana normal. Una pareja anciana terminaba de desayunar mientras un B-29 cruzaba el cielo. Quedaban 60 segundos.\n\nEsta animación histórica reconstruye ese último minuto como una dramatización: la pareja y sus acciones no representan a personas identificadas ni un testimonio literal. El ataque ocurrió a las 8:15 del 6 de agosto de 1945. La ciudad de Hiroshima estima que unas 140.000 personas habían muerto para finales de 1945, con un margen aproximado de ±10.000.\n\nFuentes:\n- Ciudad de Hiroshima — Atomic bombing: https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/048/861/2603_80_e04.pdf\n- Ciudad de Hiroshima — The Realities of the Atomic Bombing: https://www.city.hiroshima.lg.jp/english/peace/1029920/1009857.html\n\n#Historia #Hiroshima #SegundaGuerraMundial #Shorts",
+  "description_character_limit": 5000,
+  "hashtags": [
+    "#Historia",
+    "#Hiroshima",
+    "#SegundaGuerraMundial",
+    "#Shorts"
+  ],
+  "tags": [
+    "Hiroshima",
+    "Hiroshima 1945",
+    "bomba atomica",
+    "bomba atómica",
+    "6 de agosto de 1945",
+    "8:15 Hiroshima",
+    "Enola Gay",
+    "B-29",
+    "Segunda Guerra Mundial",
+    "historia animada",
+    "documental corto",
+    "shorts historia",
+    "ChronoStick"
+  ],
+  "category": {
+    "name": "Education",
+    "education_type": "concept_overview"
+  },
+  "depicted_event": {
+    "location": "Hiroshima, Japan",
+    "date": "1945-08-06",
+    "time_local": "08:15"
+  },
+  "recording": {
+    "date": null,
+    "location": null,
+    "note": "Animated historical reconstruction; do not enter the depicted place/date as a recording claim."
+  },
+  "audience": {
+    "made_for_kids": null,
+    "operator_decision_required": true,
+    "recommended_value": false,
+    "rationale": "Historical war subject and general-audience educational framing are not specifically directed at children."
+  },
+  "age_restriction": {
+    "restricted_to_adults": null,
+    "operator_decision_required": true,
+    "recommended_value": false,
+    "rationale": "The approved visual treatment is non-graphic, but the operator must review the finished narration and imagery."
+  },
+  "ai_use": {
+    "operator_decision_required": true,
+    "recommended_value": true,
+    "rationale": "The video uses AI-generated dramatized scenes of a real historical event and place; affirmative disclosure is the transparent conservative choice."
+  },
+  "thumbnail": {
+    "text_line_1": "60 SEGUNDOS",
+    "text_line_2": "ANTES",
+    "generation_method": "chatgpt_single_image_with_integrated_typography",
+    "source_path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001-source.png",
+    "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001.png",
+    "width": 2160,
+    "height": 3840,
+    "format": "png",
+    "template": "assets/branding/youtube-shorts/README.md",
+    "post_generation_changes": "resolution conversion only; no text or graphic overlay"
+  },
+  "media": {
+    "picture_master": "episodes/002-hiroshima-final-minute/final/episode-002-hiroshima-final-minute-1080x1920-framewise-r001.mp4",
+    "distribution_master": null,
+    "expected_upload_filename": "chronostick-002-hiroshima-ultimos-60-segundos-1080x1920.mp4",
+    "note": "Set distribution_master only after the external narration/subtitle finish is reviewed and archived."
+  },
+  "related_video": {
+    "video_id": null,
+    "operator_decision_required": true,
+    "recommendation": "Link the strongest public or unlisted ChronoStick history episode or series trailer."
+  },
+  "playlist": {
+    "playlist_id": null,
+    "operator_decision_required": true,
+    "recommendation": "ChronoStick | Historia en 60 segundos"
+  },
+  "upload_decisions": {
+    "visibility": null,
+    "license": null,
+    "allow_embedding": null,
+    "notify_subscribers": null,
+    "shorts_remixing": null,
+    "comments": null,
+    "publication_authorized": false
+  },
+  "official_platform_checks": {
+    "checked_at": "2026-09-27",
+    "title_limit": 100,
+    "description_limit": 5000,
+    "shorts_thumbnail": "2160x3840, 9:16, custom upload in YouTube Studio on desktop for eligible verified accounts",
+    "sources": [
+      "https://support.google.com/youtube/answer/72431?hl=en",
+      "https://support.google.com/youtube/answer/57407?hl=en",
+      "https://support.google.com/youtube/answer/14328491?hl=en-GB"
+    ]
+  }
+}

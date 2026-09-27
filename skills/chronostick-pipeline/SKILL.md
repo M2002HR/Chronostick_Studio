@@ -28,7 +28,7 @@ Read [references/stage-contracts.md](references/stage-contracts.md) for dependen
 - Deterministic 14-step job JSON: `$chronostick-generation-jobs`
 - Local preflight and operator-authorized generation: `$chronostick-batch`
 - Render QC and replacements: `$chronostick-review`
-- Selection, concat, and 480-tile FlashVSR upscale: `$chronostick-finish`
+- Selection, concat, and framewise 1080×1920 upscale: `$chronostick-finish`
 - Thumbnail and upload metadata: `$chronostick-youtube`
 
 ## Invariants

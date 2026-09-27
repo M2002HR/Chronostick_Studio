@@ -109,6 +109,30 @@ All jobs are schema-, path-, collision-, reference-mapping-, and capability-vali
 
 Engine constraints and editorial timing are different contracts. Keeping them in a named profile preserves Episode 001 history while allowing repeatable H3 production without misleading global rules.
 
+## 2026-09-26 — Episode 002 r003 continuity references
+
+### Decision
+
+Episode 002 r003 uses the `h3-short-5s-16step-continuity` profile. It increases sampling from 12 to 16 steps and replaces the multi-panel style, world, character, and vehicle inputs at generation time with nine episode-scoped single-scene anchors. Most clips use one anchor; Clip 12 uses two because it must show both the recurring couple and the separate airborne object.
+
+Each five-second prompt uses three to four precisely timed beats and declares a resolved end state. Recurring-character prompts inherit the prior character state explicitly, particularly across Clips 12–15. Pre-event aircraft and falling-object prompts state only the current physical state and unchanged intact environment; later consequence concepts are omitted from those prompts.
+
+### Reason
+
+The r002 results showed three coupled failure modes: contact-sheet imagery copied into video frames, duplicate recurring characters from multi-pose identity sheets, and narrative completion occurring earlier than the narration. Single-scene anchors reduce compositional ambiguity, while fewer timed actions and explicit start/end states improve identity tracking and narrative order. More sampling steps may improve refinement but are not treated as the mechanism that fixes continuity.
+
+## 2026-09-26 — Selected-clip master assembly
+
+### Decision
+
+Each episode keeps a `renders/final-selected/` staging directory containing exactly one human-approved video for every numbered clip. Filenames retain both the two-digit clip number and immutable render revision. Final assembly validates a complete, duplicate-free number sequence, sorts naturally by filename, concatenates through the automation service, waits for a terminal result, and writes the next unused master revision under the episode's `final/` directory.
+
+Captions, narration mix, and background audio are not implicit parts of concatenation. If those stages are approved later, they must be explicit and independently reviewable post-production stages.
+
+### Reason
+
+The best take can differ per clip across render revisions. A dedicated selection layer makes that choice visible, prevents accidental ordering or omission, preserves provenance in filenames, and keeps future finishing work separate from lossless assembly.
+
 ## 2026-09-22 — No background music
 
 ### Decision

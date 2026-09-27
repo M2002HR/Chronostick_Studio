@@ -1,18 +1,15 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with eight urgent hard-cut shots, fast but never chaotic.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using three shots joined by instantaneous hard cuts. Begin exactly from the final human state of Clip 12: both characters are already fully standing; the man is at screen-right near the window, turned toward his wife; the woman is at screen-left one step behind. They do not return to the table, cushions, newspaper, bowls, or tray.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> is the absolute visual authority. Room, table, shoji, newspaper, clothing, hands, light, shadows, and both people must remain one detailed cinematic ChronoStick illustration with bold ink contours, hand-painted surfaces, round minimal faces, dot eyes, and slender stick limbs. No photoreal interior, realistic anatomy, live action, 3D, anime, or style mixing. <Picture 2> supplies only the Hiroshima home's layout, breakfast table, open shoji, and bright summer light; redraw everything in Picture 1. <Picture 3> controls one exact elderly woman with low gray-black bun, navy work kimono, cream apron, loose dark trousers, sandals, stick proportions and colors. <Picture 4> controls one exact elderly man with gray-templed hair, beige rolled-sleeve shirt, charcoal trousers, shoes, stick proportions and colors. Never swap, merge, duplicate, or redesign them.
+REFERENCE AND IDENTITY LOCK: <Picture 1> is the complete style, room, character, clothing, expression, screen-direction, and action anchor. Preserve exactly one elderly woman at left with low gray-black bun, navy work kimono/top, cream apron, loose dark trousers, sandals, and exactly one elderly man at right with gray-templed hair, beige rolled-sleeve shirt, charcoal trousers, dark shoes. Preserve their visibly different silhouettes and the intact room. Never clone, swap, merge, or redesign them.
 
-Instantaneous hard cuts only:
-0.00–0.40: HOOK. Exact man's inked hand slaps folded newspaper onto low table—controlled, not violent.
-0.40–1.00: HARD CUT. Tight exact-man face turns rapidly from window to wife, mouth firmly closed.
-1.00–1.60: HARD CUT. Exact woman looks up from tray, calm shifting to alert, no mouth movement.
-1.60–2.20: HARD CUT. Man plants one simple foot and begins rising from cushion.
-2.20–2.80: HARD CUT. His stick hand extends toward her, clear guiding gesture.
-2.80–3.40: HARD CUT. She sets tray down and begins standing, one readable action.
-3.40–4.05: HARD CUT. Medium two-shot: both fully upright, correct height and wardrobe, aligned toward exit.
-4.05–4.55: HARD CUT. Close feet take one coordinated quick step across tatami.
-4.55–5.00: HARD CUT. Stable rear three-quarter two-shot at doorway, together and ready to move beyond frame.
+0.00–1.30 — HOOK, medium two-shot. Man is already standing and facing partly toward woman. His expression is controlled alarm: eyebrows raised and drawn inward, dot eyes wide and focused on her, mouth closed and flat, shoulders tense. He makes one short urgent beckoning gesture toward the doorway with his right hand. Woman's expression shifts from mild uncertainty to alert attention: brows lift, eyes lock on him, mouth remains closed.
 
-No running, falling, screaming, lip sync, mouth movement, flash, blast, rubble, injury, malformed limbs, extra people, duplicate couple, realistic faces/hands, captions, signs, borders, or text. No speech, dialogue, narration, singing, voices, or vocalization.
+1.30–3.40 — HARD CUT, wider full-body two-shot. Man turns his body toward the doorway at screen-right and takes exactly one quick step, then reaches his left hand backward. Woman leans forward and takes exactly one step after him, extending her right hand. Their hands approach but do not yet clasp. Their screen positions remain woman-left and man-right; no crossing through each other.
 
-AUDIO LOCK — SFX ONLY: dry paper contact, cushion shift, tray wood touch, fast cloth rustle, two footsteps, and distant non-tonal aircraft noise. No melody, beat, percussion, harmony, drone, pad, pulse, riser, score, soundtrack, or sting. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+3.40–5.00 — HARD CUT, rear three-quarter medium-wide. The same two people continue one coordinated second step toward the doorway. Man stays half a step ahead and glances back; woman follows, focused on his hand. Camera performs one small lateral follow and stops by 4.25. END STATE: both upright at the doorway, hands separated by only a few centimeters, ready for the clasp in the next clip; room still normally lit and intact.
+
+COUNT, ANATOMY, AND EMOTION LOCK: exactly two people, one woman and one man; exactly two heads; consistent clothes; simple stable limbs; closed mouths; urgent but controlled motion. No sitting, rising from cushion, tray movement, newspaper slap, second man, second woman, duplicate couple, identity swap, extra limb, fused body, sprint, fall, abnormal light, smoke, damage, caption, border, or text. No speech, dialogue, narration, singing, voices, lip sync, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: two quick cloth movements, two pairs of restrained footsteps, one floor creak, and faint distant mechanical noise. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

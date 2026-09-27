@@ -1,17 +1,17 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with an immediate motion hook and seven crisp hard-cut shots.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using four concise shots joined by instantaneous hard cuts. Continue the same peaceful street state from the previous clip and show ordinary civilian motion clearly.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> controls every frame. All children, cyclist, pedestrians, bicycle, buildings, plants, road, shadows, sky, and distant city must share its detailed cinematic stick-figure aesthetic: round minimal faces, dot eyes, stick limbs, simplified period clothes, bold dark contours, hand-painted color, graphic perspective, and warm sunlight. No photoreal street or bicycle, realistic child or skin, live action, 3D, anime, or mixed style. <Picture 2> supplies only Hiroshima's period architecture, tiled roofs, utility poles, greenery, distant landmarks, sky, and ordinary-life motifs. Redraw everything through Picture 1; never reproduce its collage or borders.
+REFERENCE LOCK: <Picture 1> controls the intact 1945 Hiroshima world and all rendering. Preserve its wooden houses, tiled roofs, utilities, greenery, warm clean sunlight, muted colors, strong dark contours, simplified props, and round-headed ChronoStick residents. Recompose new street angles inside the same world; never create a contact sheet, panel border, collage, or realistic person.
 
-Instantaneous hard cuts only, no dissolve or morph:
-0.00–0.40: HOOK. Extreme low close-up as a boldly outlined bicycle wheel slices left-to-right, spokes a clean graphic blur.
-0.40–1.00: HARD CUT. Stick cyclist's sandal completes one pedal stroke; simplified stick leg.
-1.00–1.70: HARD CUT. Three distinct round-headed stick schoolchildren in simple 1945 clothes walk briskly toward camera, mouths closed.
-1.70–2.45: HARD CUT. Side view: same children cross safely while bicycle passes behind at another depth.
-2.45–3.10: HARD CUT. Graphic shadows of stick legs and shoes move across sunlit road.
-3.10–3.85: HARD CUT. Wide street: cyclist exits one side, children exit the other.
-3.85–4.40: HARD CUT. Illustrated leaves flick in foreground, empty street behind.
-4.40–5.00: HARD CUT. Locked clean street ending with bold diagonal architecture.
+0.00–0.90 — HOOK, low close-up. One outlined period bicycle wheel enters from left and completes a smooth half rotation across a sunlit road. One sandal and simplified stick leg perform one controlled pedal stroke. The wheel remains circular and mechanically connected.
 
-No panic, collision, duplicate child, identity morph, modern clothes or vehicles, aircraft, bomb, siren, smoke, damage, signage, captions, borders, or text. No speech, child voices, dialogue, narration, singing, lip sync, or vocalization.
+0.90–2.20 — HARD CUT, medium-wide side view. Exactly three school-age ChronoStick children in simple muted 1945 clothing walk together from right to left at a normal pace. Their mouths stay closed; arms swing slightly; expressions are relaxed. They do not run or wave.
 
-AUDIO LOCK — SFX ONLY: tire hiss, chain clicks, pedal creak, light footsteps, fabric, cicadas, leaves, and birds. Do not make a musical bicycle bell. No melody, harmony, beat, percussion, drone, pad, pulse, score, soundtrack, sting, or musical ambience. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+2.20–3.70 — HARD CUT, wider side view of the same street. The same single bicycle passes behind the three children at a separate depth with a safe clear gap. The cyclist remains upright and slow. Children continue the same direction without changing identity or count.
+
+3.70–5.00 — HARD CUT, locked wide. Bicycle exits right by 4.25; children exit left by 4.50. Leaves flick once in the foreground. END STATE: intact ordinary street, empty foreground, steady clean sunlight and stable camera through 5.00.
+
+COUNT AND MOTION LOCK: exactly three children, one cyclist, one bicycle; consistent travel direction; no collision; no duplication; no identity morph; no extra foreground resident. No frightened expression, frantic movement, aircraft, unusual airborne object, alarm activity, smoke, damage, modern clothing, modern bicycle, car, readable signage, caption, border, or text. No speech, child voices, dialogue, narration, singing, lip sync, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: tire hiss, chain clicks, one pedal creak, light footsteps, fabric, cicadas, leaves, and birds. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

@@ -3,16 +3,20 @@
 ## Status
 
 - lifecycle: production
-- production profile: `h3-short-5s`
+- production profile: `h3-short-5s-16step-continuity`
 - source verification: complete for the stated time and casualty estimate
 - supplied Spanish narration: preserved
 - voice file: external/not supplied
 - word timestamps: archived, 122 tokens, 00:00.460–01:24.520
-- shot plan: complete
-- prompts: 17 generator-ready files
-- automation jobs: 17 independently runnable JSON files plus batch defaults
-- renders: r001 clips 01–02 rejected; clips 03–17 were cancelled; corrected r002 batch is prepared but not launched
-- final master: intentionally not produced in this pass
+- shot plan: rebuilt around explicit cross-clip story states
+- image prompts: nine exact generator-ready single-scene anchor prompts
+- generated references: nine visually reviewed single-scene r001 anchors
+- video prompts: 17 generator-ready, precisely timed files
+- automation jobs: 17 sequential r003 jobs using fixed seeds and 16 sampling steps
+- completed r003 batch: `2ad1371c-ff73-45e2-82cd-8c3b81be66f7`; all 17 jobs succeeded
+- targeted Clip 17 correction: r004 job `dd6d58e4-5d11-4cf5-bee9-0f4a81178942`, visually reviewed and accepted
+- prior renders: r001 rejected/incomplete; r002 retained for diagnosis and not approved
+- final master: not produced; `renders/final-selected/` is ready for one approved take per clip
 
 ## Production contract
 
@@ -22,36 +26,42 @@
 - generator: MiniMax H3 `h3_ref2va`
 - source render: 480×864, 24 fps, 124 raw frames, native audio
 - editorial render: exactly 5.000 seconds, no time stretch
-- sampling: 12 steps, `res_multistep`, `beta`, Lightning disabled
+- sampling: 16 steps, `res_multistep`, `beta`, Lightning disabled
+- references: one generation-safe single-scene anchor normally; two only for Clip 12
 - execution: sequential GPU concurrency 1; continue safely after clip failure; transient retry maximum 2
 - first pass: no concat, no FlashVSR, no final master
 - content: restrained non-graphic historical depiction; no generated text, narration, dialogue, or music
-- visual lock: every pixel must remain in the Picture 1 ChronoStick universe; all other references provide identity/content only
-- edit grammar: six or more explicit hard cuts per 5-second clip with a first-frame hook
+- edit grammar: three to four readable timed shots per clip, one primary action per shot, resolved ending frame
+- continuity grammar: recurring-character clips declare the exact inherited start state and the end state passed to the next character clip
 
-## Canonical assets
+## Generation-safe r003 references
 
-1. `assets/styles/style-detailed-cinematic-stick-history-r001.png`
-2. `assets/worlds/world-hiroshima-summer-1945-r001.png`
-3. `assets/characters/hiroshima-elder-female/character-hiroshima-elder-female-sheet-r001.png`
-4. `assets/characters/hiroshima-elder-male/character-hiroshima-elder-male-sheet-r001.png`
-5. `assets/vehicles/vehicle-b29-hiroshima-r001.png`
+1. `assets/episodes/002-hiroshima-final-minute/references/city-morning-anchor-r001.png`
+2. `assets/episodes/002-hiroshima-final-minute/references/breakfast-couple-anchor-r001.png`
+3. `assets/episodes/002-hiroshima-final-minute/references/couple-window-anchor-r001.png`
+4. `assets/episodes/002-hiroshima-final-minute/references/b29-crossing-anchor-r001.png`
+5. `assets/episodes/002-hiroshima-final-minute/references/bomb-release-anchor-r001.png`
+6. `assets/episodes/002-hiroshima-final-minute/references/falling-object-anchor-r001.png`
+7. `assets/episodes/002-hiroshima-final-minute/references/couple-departure-anchor-r001.png`
+8. `assets/episodes/002-hiroshima-final-minute/references/couple-flash-anchor-r001.png`
+9. `assets/episodes/002-hiroshima-final-minute/references/aftermath-anchor-r001.png`
 
-The ordered reference list is clip-specific. `<Picture N>` always means array item N in the corresponding job JSON.
+The original shared style, world, character, and vehicle sheets remain design sources. They are deliberately not sent directly to H3 in r003 because their multi-panel layouts caused sheet copying, repeated characters, and narrative leakage. `<Picture N>` always maps exactly to array item N in the corresponding job JSON.
 
 ## Artifact inventory
 
 - supplied timing source: `timestamps/word-timestamps.csv`
 - exact narration reconstruction: `script/narration-es.md`
 - verification and scope: `source/research-notes.md`
-- production plan: `plan/shot-plan.md`
-- generator prompts: `prompts/clip-01-*.md` through `prompts/clip-17-*.md`
+- continuity plan: `plan/shot-plan.md`
+- exact image prompts: `../../prompts/image/episodes/002-hiroshima-final-minute/*.md`
+- video prompts: `prompts/clip-01-*.md` through `prompts/clip-17-*.md`
 - service settings: `automation/service-config.json`
-- batch defaults: `automation/jobs/defaults.json`
 - independent jobs: `automation/jobs/clip-01-*.json` through `clip-17-*.json`
+- targeted retry: `automation/retries/clip-17-aftermath-r004.json`
+- selection and assembly: `renders/final-selected/` and `automation/assemble-final-selected.sh`
+- targeted render review: `renders/review-r003.md`
 
 ## Review gate
 
-Approve the 0.4 MP source clips individually before any concat, upscale, captioning, narration mix, or final export.
-
-The stopped r001 attempt is retained locally for diagnosis and must never be treated as approved. Its review is documented in `renders/review-r001.md`. Run r002 only through `automation/run-batch.sh` after the dry-run succeeds.
+Review every r003 source clip for story state, character count, identity, aircraft physics, timing, text, audio, and final-frame stability before final selection. Use the accepted r004 replacement for Clip 17 instead of r003. After placing exactly one approved take for every number 01–17 in `renders/final-selected/`, run `automation/assemble-final-selected.sh`. Generated references are selected production inputs, not locked shared assets.

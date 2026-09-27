@@ -53,15 +53,12 @@
     "upscale_on_complete": false
   },
   "upscale": {
-    "engine": "flashvsr",
+    "engine": "spandrel_framewise",
+    "script": "/home/mhr/AI/comfy-video-automation/scripts/upscale-framewise-video.sh",
+    "model": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
     "target_width": 1080,
     "target_height": 1920,
-    "fit_mode": "cover",
-    "profile": "quality",
-    "chunk_seconds": 5,
-    "tile_size": 480,
-    "tile_overlap": 48,
-    "preset": "/home/mhr/AI/comfy-video-automation/examples/flashvsr-quality-16gb-tile480.json"
+    "fit_mode": "cover"
   },
   "audio_policy": {
     "background_music": false,

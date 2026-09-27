@@ -8,18 +8,32 @@ __pycache__/
 .idea/
 .vscode/
 
-# Generated final exports are large, revisioned delivery artifacts; Git tracks
-# their status documentation, not the binary files themselves.
-episodes/*/final/*.mp4
-episodes/*/final/*.mov
-episodes/*/final/*.mkv
-episodes/*/final/*.webm
+# Video files are large, revisioned production artifacts and must remain local,
+# regardless of which repository directory contains them.
+*.[mM][pP]4
+*.[mM]4[vV]
+*.[mM][oO][vV]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+*.[aA][vV][iI]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+*.[wW][mM][vV]
+*.[fF][lL][vV]
+*.[fF]4[vV]
+*.[oO][gG][vV]
+*.[aA][sS][fF]
+*.[vV][oO][bB]
+*.[dD][iI][vV][xX]
+*.[mM][kK]3[dD]
+*.[mM][tT][sS]
+*.[mM]2[tT][sS]
+*.[tT][sS]
+*.[3][gG][pP]
+*.[3][gG]2
+*.[rR][mM]
+*.[rR][mM][vV][bB]
 
-# Generated clip media and automation provenance are retained locally beside
-# each episode but are not ordinary Git source artifacts.
-episodes/*/renders/**/*.mp4
-episodes/*/renders/**/*.mov
-episodes/*/renders/**/*.mkv
-episodes/*/renders/**/*.webm
+# Generated automation state and provenance stay local beside each episode.
 episodes/*/renders/**/*.run.json
 episodes/*/automation/run-state.json

@@ -8,6 +8,8 @@
 - final action and camera movement settled before the profile boundary
 - a new clip begins with a clean hard cut, not a cross-generation match move
 
+Separate generations do not require pixel-matched boundary frames, but they do require story-state continuity. A recurring character may begin the next clip from a new camera angle, but must not regress to an earlier action, location, posture, prop state, emotional state, or event phase unless the story explicitly calls for it.
+
 ## Pacing
 
 - for 10-second Omni clips: hook 6–8 beats, body 4–6 beats, ending 3–5 beats
@@ -30,6 +32,8 @@ Split a shot with a hard cut if it exceeds this budget.
 ## References
 
 Use the profile-specific maximum. State what every reference controls and keep JSON array order identical to `<Picture N>` order. Do not let multiple views on one character sheet become multiple characters.
+
+Multi-panel style, world, vehicle, and character sheets are design sources. When a video model copies layouts, panels, repeated poses, or later story states from those sheets, derive an episode-scoped single-scene reference and pass that generation-safe reference to the video model instead. Prefer one scene anchor; use a second reference only when the clip genuinely needs an independently controlled identity or object.
 
 ## Generated content restrictions
 

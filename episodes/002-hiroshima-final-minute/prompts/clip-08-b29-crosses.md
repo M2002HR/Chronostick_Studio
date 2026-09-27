@@ -1,17 +1,17 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with an immediate aircraft hook and seven fast hard cuts.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using three shots joined by instantaneous hard cuts. Show one continuous, physically plausible level flight of exactly one B-29 across the intact morning sky.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> is the absolute final style authority. Sky, clouds, sun, rooftops, poles, wires, trees, mountains, and aircraft must all be redrawn in one detailed cinematic stick-figure illustrated universe with bold contours, simplified graphic geometry, hand-painted texture, crisp silhouettes, and no photographic element. <Picture 2> supplies only Hiroshima's summer sky, roof framing, wire placement, cloud shapes, mountain horizon, and palette. <Picture 3> supplies the exact proportions and four-engine silhouette of one silver B-29 only; render it as a simplified ink-outlined ChronoStick vehicle matching Picture 1, not a photoreal aircraft or model-sheet panel. Picture 1 overrides all rendering in Pictures 2 and 3.
+REFERENCE LOCK: <Picture 1> is the complete style, aircraft, sky, roof, utility, mountain, city, lighting, and composition anchor. Preserve exactly one silver-gray four-engine B-29 with the same proportions and ink-outlined ChronoStick rendering. Preserve normal blue sky, soft clouds, intact roofs, distant river city and mountains. Never reproduce a vehicle sheet, duplicate the aircraft, create a panel, or switch to photographic metal.
 
-Instantaneous hard cuts only:
-0.00–0.40: HOOK. Huge graphic aircraft shadow sweeps rapidly across an illustrated tiled roof.
-0.40–1.05: HARD CUT. Low sky angle between black outlined roof corners; the B-29 nose enters frame.
-1.05–1.75: HARD CUT. Tight underside silhouette: four propellers read as controlled graphic arcs, aircraft level and singular.
-1.75–2.40: HARD CUT. Side three-quarter medium view as the same plane crosses a painted white cloud; one short pan.
-2.40–3.10: HARD CUT. Street-level upward POV past stick-world utility wires; plane passes high overhead.
-3.10–3.80: HARD CUT. Extreme wide: small B-29 against blue sky and mountains, scale clearly established.
-3.80–4.45: HARD CUT. Aircraft tail exits upper-left, mechanical hum recedes.
-4.45–5.00: HARD CUT. Stable empty illustrated sky framed by roofs and leaves.
+FLIGHT AXIS: in every shot the same aircraft travels screen-left to screen-right, wings nearly level, constant altitude, constant orientation, no banking and no reversal. Propeller arcs rotate steadily and remain attached to all four engines.
 
-No bomb release, second aircraft, contrail, dogfight, weapon fire, dramatic bank, crash, cockpit, siren, explosion, smoke, damage, people, photoreal metal, captions, labels, borders, or text. No speech, dialogue, narration, singing, voices, or vocalization.
+0.00–1.10 — HOOK, low roof-framed wide. The aircraft nose enters from screen-left high above the roofs and wires. A soft aircraft shadow passes once across one roof edge. Camera is static.
 
-AUDIO LOCK — SFX ONLY: synchronized four-engine propeller noise moving across stereo space, light wind, brief roof-shadow ambience, and birds falling quiet. Engine remains mechanical noise, never tonal music. No melody, harmony, rhythm, beat, percussion, drone, pad, pulse, score, soundtrack, or sting. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+1.10–3.60 — HARD CUT, medium three-quarter underside tracking view. The same single aircraft crosses left-to-right at a steady speed. All four engines and one tail are readable. Camera performs one smooth lateral pan that matches flight; no zoom, shake, or orbit. Closed underside; no object separates.
+
+3.60–5.00 — HARD CUT, extreme wide. Aircraft is smaller and farther right, continuing the same path until it exits by 4.45. Camera stops by 4.20 and holds on empty intact blue sky through 5.00. END STATE: aircraft has passed beyond frame; sky and city remain unchanged.
+
+PHYSICS AND COUNT LOCK: exactly one aircraft, four engines, level forward motion, stable scale, correct rigid wings, controlled propeller blur. No second plane, airborne object below it, open bay, contrail, dogfight, weapon fire, steep bank, modern jet geometry, city damage, smoke, captions, labels, borders, or readable text. No speech, dialogue, narration, voices, singing, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: one steady distant four-engine piston drone moving naturally left-to-right, light wind, and birds fading as it passes. Engine sound must be mechanical and non-tonal. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

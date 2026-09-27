@@ -12,14 +12,14 @@ This package makes each production stage independently executable and resumable 
 6. deterministic batch job JSON with unique fixed seeds and a 14-step default
 7. atomic preflight, explicitly authorized generation, progress monitoring, and resource reports
 8. frame/motion/audio review plus immutable replacements where required
-9. selected-clip concat and resumable FlashVSR upscale with the 480-tile preset
+9. selected-clip concat and framewise upscale to 1080×1920 with cover fitting
 10. Shorts thumbnail and upload metadata package, followed by truthful closeout
 
 The master router and stage-specific instructions are catalogued in [`skills/`](../../skills/CATALOG.md). Preparation does not authorize GPU generation, cancellation, upload, publication, deletion, or overwrite.
 
 Machine-readable contracts:
 
-- [`production-defaults.json`](production-defaults.json): future-episode defaults, including 14 H3 steps and 480-pixel FlashVSR tiles.
+- [`production-defaults.json`](production-defaults.json): future-episode defaults, including 14 H3 steps and the framewise 1080×1920 upscale route.
 - [`pipeline-state.schema.json`](pipeline-state.schema.json): handoff/status contract.
 - [`pipeline-state.template.json`](pipeline-state.template.json): valid starting state for a new episode.
 - [`operator-runbook.md`](operator-runbook.md): local service, preflight, batch, assembly, and upscale commands.

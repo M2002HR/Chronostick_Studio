@@ -1,17 +1,17 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with seven escalating hard-cut views of one falling object.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using three shots joined by instantaneous hard cuts. The entire clip remains strictly in the midair descent phase. The intact city, sky, clouds, mountains, color, and illumination remain normal and unchanged from first frame through final frame.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> controls the complete image. Every sky gradient, cloud, sun edge, mountain, roof silhouette, wire, leaf, and bomb must use its detailed cinematic ChronoStick illustration—clean dark contours, simplified graphic forms, hand-painted color, bold negative space, no photographic realism. <Picture 2> supplies only Hiroshima's blue summer sky, clouds, light direction, mountains, roof silhouettes, and wires. <Picture 3> supplies only the correct simplified shape of one dark bomb; redraw it as an outlined stick-world object matching Picture 1, never a realistic product render or reference panel. Picture 1 overrides everything.
+REFERENCE LOCK: <Picture 1> is the complete style, world, object, scale, sky, lighting, and safety-state anchor. Preserve exactly one small dark falling object, huge clean blue negative space, one cloud edge, one utility wire, one intact roof corner, distant mountains and city, and the same ChronoStick illustration. Never introduce any source-sheet layout, duplicated object, aircraft, panel, border, or photographic detail.
 
-Instantaneous hard cuts only:
-0.00–0.40: HOOK. Vast blue illustrated sky; a tiny black shape suddenly crosses the bright edge of a painted cloud.
-0.40–1.05: HARD CUT. Extreme wide: object nearly lost in huge negative space, singular and dark.
-1.05–1.70: HARD CUT. Telephoto graphic silhouette against white cloud, slightly larger.
-1.70–2.35: HARD CUT. Low street POV past bold utility wire as the object crosses downward beyond it.
-2.35–3.00: HARD CUT. Tight isolated sky crop; one subtle tumble, not rapid spinning.
-3.00–3.70: HARD CUT. Object passes the illustrated sun halo, becoming a stark black readable silhouette.
-3.70–4.40: HARD CUT. Roof-framed view gives scale; still small and distant.
-4.40–5.00: HARD CUT. Locked clean-blue composition with lone object lower and slightly larger, stable endpoint.
+DESCENT PHYSICS: the same single object moves downward in every shot. It stays distant and airborne, retains one rigid silhouette, remains smaller than four percent of frame height, and rotates no more than a few degrees. Its vertical speed increases gently between shots; it never reaches a surface.
 
-No aircraft, duplicate bomb, explosion, fireball, contrail, city damage, victim, glamorous weapon close-up, fast spin, countdown digits, captions, borders, labels, or text. No speech, dialogue, narration, singing, voices, whistle-like vocal sound, or lip sync.
+0.00–1.40 — HOOK, extreme wide. Vast blue sky; the tiny charcoal object crosses below one soft white cloud edge from upper-middle toward center. Camera locked. Normal sunlight stays constant.
 
-AUDIO LOCK — SFX ONLY: thin non-tonal high-altitude wind, distant fading engine noise, and faint air movement. No bomb whistle, musical riser, melody, harmony, beat, percussion, tonal drone, pad, pulse, score, soundtrack, or sting. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+1.40–3.30 — HARD CUT, telephoto medium-long sky view. The same object is slightly larger but still distant, descending point-first past one horizontal utility wire. Camera performs one smooth downward follow, keeping the object near center. No shake, zoom burst, or spin.
+
+3.30–5.00 — HARD CUT, roof-framed wide. One intact tiled roof corner and faint mountains give scale while the lone object descends from just above center to below center. Camera stops by 4.20 and holds. END STATE: object remains visibly high in the sky and fully airborne; intact roof, city, mountains, blue sky, clouds, and normal morning lighting are all unchanged.
+
+CONTENT LOCK: exactly one object. The only change during all five seconds is its controlled downward position in open air. Sky color, cloud shape, roof geometry, city geometry, mountains, and morning illumination remain stable and normal. No aircraft, second object, surface contact, person, countdown digits, caption, label, border, or readable text. No glamorous weapon close-up, rapid tumbling, photorealism, live action, 3D, anime, speech, dialogue, narration, singing, voices, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: thin non-tonal high-altitude wind and a very distant fading mechanical engine sound. No falling whistle, low-frequency event sound, riser, or musicalized drone. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

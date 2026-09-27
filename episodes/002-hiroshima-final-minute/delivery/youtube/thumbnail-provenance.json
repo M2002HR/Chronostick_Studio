@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "002-hiroshima-final-minute",
+  "revision": "r001",
+  "generated_at": "2026-09-27",
+  "generator": "ChatGPT image generation",
+  "method": "single generated image with integrated typography",
+  "exact_headline": [
+    "60 SEGUNDOS",
+    "ANTES"
+  ],
+  "layout_references": [
+    "/home/mhr/Downloads/final (6).png",
+    "/home/mhr/Downloads/final (5).png"
+  ],
+  "episode_references": [
+    "assets/episodes/002-hiroshima-final-minute/references/couple-window-anchor-r001.png",
+    "assets/episodes/002-hiroshima-final-minute/references/b29-crossing-anchor-r001.png",
+    "assets/episodes/002-hiroshima-final-minute/references/falling-object-anchor-r001.png"
+  ],
+  "source": {
+    "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001-source.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "896a93a4c2856a1e23a9595a362955359fb5befd6b8fc76d4f981e1f4ab0fd31"
+  },
+  "delivery": {
+    "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001.png",
+    "width": 2160,
+    "height": 3840,
+    "sha256": "3cdfe80e3874e0160ed767762c6e3b4983c8a14291369e85ce6fd455f81226d6"
+  },
+  "post_generation_processing": {
+    "operation": "Lanczos resize only",
+    "text_overlay": false,
+    "graphic_overlay": false,
+    "crop": false
+  },
+  "review": {
+    "headline_spelling": "passed",
+    "headline_hierarchy": "passed",
+    "mobile_legibility": "passed",
+    "chronostick_style": "passed",
+    "recurring_character_identity": "passed",
+    "historical_clue_chain": "passed",
+    "graphic_content_policy": "passed",
+    "status": "selected"
+  }
+}

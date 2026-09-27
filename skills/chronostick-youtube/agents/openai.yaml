@@ -1,4 +1,4 @@
 interface:
   display_name: "ChronoStick YouTube Package"
-  short_description: "Create thumbnail and upload-ready metadata"
-  default_prompt: "Use $chronostick-youtube to create the final Shorts thumbnail brief and upload metadata package."
+  short_description: "Save the thumbnail prompt, then optionally generate and package"
+  default_prompt: "Use $chronostick-youtube to design and save the episode-specific thumbnail prompt and prepare metadata. Do not generate the image unless I explicitly request it."

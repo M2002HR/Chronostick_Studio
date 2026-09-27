@@ -65,8 +65,8 @@ for path in jobs:
         continue
     text = prompt.read_text(encoding="utf-8")
     refs = job.get("references")
-    if not isinstance(refs, list) or not 2 <= len(refs) <= 4:
-        errors.append(f"{path.relative_to(root)}: expected 2-4 ordered references")
+    if not isinstance(refs, list) or not 1 <= len(refs) <= 2:
+        errors.append(f"{path.relative_to(root)}: expected 1-2 generation-safe ordered references")
         continue
     tags = {int(value) for value in re.findall(r"<Picture\s+(\d+)>", text, flags=re.IGNORECASE)}
     if tags != set(range(1, len(refs) + 1)):
@@ -78,7 +78,7 @@ for path in jobs:
     generation = job.get("generation", {})
     required_generation = {
         "aspect_ratio": "9:16", "megapixel": 0.4, "width": 480, "height": 864,
-        "duration_seconds": 5, "fps": 24, "steps": 12, "sampler": "res_multistep",
+        "duration_seconds": 5, "fps": 24, "steps": 16, "sampler": "res_multistep",
         "scheduler": "beta", "lightning": False, "ref_image_size": "match",
     }
     for key, expected in required_generation.items():
@@ -101,25 +101,25 @@ for path in jobs:
         errors.append(f"{path.relative_to(root)}: raw/editorial output directories are incorrect")
     if text.count("NO BACKGROUND MUSIC. Natural diegetic sound effects only.") != 1:
         errors.append(f"{prompt.relative_to(root)}: exact audio policy must occur once")
-    for required in ("NON-NEGOTIABLE STICK-WORLD STYLE LOCK", "AUDIO LOCK — SFX ONLY", "HOOK"):
+    clip_number = int(path.name.split("-")[1])
+    for required in ("REFERENCE", "AUDIO", "HOOK", "END STATE"):
         if required not in text:
             errors.append(f"{prompt.relative_to(root)}: missing {required!r}")
-    if text.count("HARD CUT") < 6:
-        errors.append(f"{prompt.relative_to(root)}: at least six explicit HARD CUT instructions required")
-    spans = [(float(start), float(end)) for start, end in re.findall(r"(?m)^(\d+\.\d+)–(\d+\.\d+):", text)]
-    if not 7 <= len(spans) <= 9:
-        errors.append(f"{prompt.relative_to(root)}: expected 7-9 precisely timed shots; found {len(spans)}")
+    if clip_number != 17 and text.count("HARD CUT") < 1:
+        errors.append(f"{prompt.relative_to(root)}: at least one explicit HARD CUT instruction required")
+    spans = [(float(start), float(end)) for start, end in re.findall(r"(?m)^(\d+\.\d+)–(\d+\.\d+)(?::|\s+[—-])", text)]
+    if not 3 <= len(spans) <= 4:
+        errors.append(f"{prompt.relative_to(root)}: expected 3-4 precisely timed shots; found {len(spans)}")
     elif spans[0][0] != 0 or spans[-1][1] != 5 or any(left[1] != right[0] for left, right in zip(spans, spans[1:])):
         errors.append(f"{prompt.relative_to(root)}: shot timing must be contiguous from 0.00 through 5.00")
     if not re.search(r"\b(?:no|zero)\b[^.\n]{0,100}\b(?:photoreal\w*|photograph\w*)\b", text, flags=re.IGNORECASE):
         errors.append(f"{prompt.relative_to(root)}: missing explicit photorealism prohibition")
-    clip_number = int(path.name.split("-")[1])
-    expected_revision = f"episode-002-clip-{clip_number:02d}-r002"
+    expected_revision = f"episode-002-clip-{clip_number:02d}-r003"
     if job.get("job_identity") != expected_revision:
         errors.append(f"{path.relative_to(root)}: job_identity must be {expected_revision}")
     prefix = output.get("prefix", "")
-    if not prefix.endswith("-r002"):
-        errors.append(f"{path.relative_to(root)}: output prefix must use revision r002")
+    if not prefix.endswith("-r003"):
+        errors.append(f"{path.relative_to(root)}: output prefix must use revision r003")
 
 if jobs and sorted(seen_seeds) != expected_seeds:
     errors.append("Episode 002 seeds must be the unique fixed range 1945080601-1945080617")

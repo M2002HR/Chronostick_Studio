@@ -1,16 +1,17 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with aggressive, readable short-form editing.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps. Use three readable shots joined by instantaneous hard cuts. The story state is the peaceful first moment of an ordinary Hiroshima morning; nothing unusual is visible yet.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> is the highest-priority and sole visual-style authority. Render every visible pixel inside its detailed cinematic stick-figure universe: bold clean ink contours, simplified stick-figure anatomy, round minimal faces with dot eyes, warm hand-painted storybook surfaces, dimensional cinematic sunlight, controlled historical detail, and crisp graphic silhouettes. The city, houses, river, bridge, mountains, trees, clouds, birds, props, and people must all look redrawn by the same ChronoStick artist. Absolutely no photorealism, live action, realistic photography, realistic humans, glossy 3D, generic anime, or style mixing. <Picture 2> supplies only Hiroshima's summer-1945 geography, wooden tiled-roof neighborhoods, river, bridge, utility poles, mountains, blue sky, and morning palette. Translate every environmental detail from <Picture 2> into <Picture 1>'s illustrated stick-world language; never copy <Picture 2>'s realism, collage layout, panels, or borders. Picture 1 overrides Picture 2 whenever their rendering styles differ.
+REFERENCE LOCK: <Picture 1> is the complete visual and world anchor. Preserve its single-scene ChronoStick rendering language, intact 1945 wooden neighborhoods, tiled roofs, utility poles, river, bridge, distant domed landmark, mountains, summer vegetation, clear sky, warm morning light, muted palette, and dark ink outlines. Do not reproduce the still frame mechanically; animate a coherent view inside the same world. Never create a sheet, panel, border, collage, or realistic photographic element.
 
-Use seven distinct shots joined only by instantaneous hard cuts—no dissolve, morph, crossfade, or continuous transformation:
-0.00–0.40: HOOK. Extreme macro of one ink-outlined green leaf snapping into focus as a bright illustrated sun flare pierces its edge; quick breeze motion and immediate contrast.
-0.40–0.90: HARD CUT. Low upward angle past bold black utility wires and stylized tiled eaves into saturated painted blue sky; two tiny illustrated birds cross rapidly.
-0.90–1.45: HARD CUT. Extreme street insert: a simplified bicycle wheel and sandal pedal sweep across a clean graphic shadow.
-1.45–2.05: HARD CUT. Side medium view reveals the cyclist as one unmistakable round-headed ChronoStick resident crossing an intact wooden street.
-2.05–2.70: HARD CUT. Low river-surface insert: outlined ripples catch hand-painted sunlight beneath a bridge.
-2.70–3.40: HARD CUT. Wide river-and-bridge view populated by a few tiny unmistakable stick residents; water and clouds remain painted and outlined.
-3.40–5.00: HARD CUT. High iconic establishing wide of peaceful Hiroshima with domed landmark, river, roofs, mountains, and small stick citizens; fast 0.65-second push-in, camera stopped by 4.05, stable hold through 5.00.
+0.00–1.20 — HOOK, extreme close detail. One sunlit green leaf and a dark outlined roof tile fill the foreground. A mild breeze bends the leaf once, then it returns. Camera makes a short 0.25-second focus pull from leaf to roof edge and stops. Mood: effortless calm.
 
-No aircraft, bomb, siren, smoke, damage, panic, clocks, captions, labels, logos, split screen, or readable text. Every human must be a ChronoStick figure; no realistic face or body. No speech, dialogue, narration, voices, singing, lip sync, or vocalization.
+1.20–3.20 — HARD CUT, medium-high neighborhood view. Intact roofs descend toward the river. Two tiny distant residents walk normally at different depths; they remain background scale only. A curtain edge moves softly and river highlights drift. Camera performs one slow, straight push of less than five percent, with no pan or tilt.
 
-AUDIO LOCK — SFX ONLY: leaf flutter, brief bicycle tire and chain, bird wingbeats, gentle river water, and low non-tonal city ambience synchronized to visible cuts. Absolutely no melody, harmony, beat, percussion, tonal pad, tonal drone, pulse, transition sting, cinematic score, soundtrack, or musicalized ambience. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+3.20–5.00 — HARD CUT, elevated city wide. The river, bridge, distant domed landmark, neighborhoods, green mountains, and open blue sky form one stable composition. Clouds move almost imperceptibly. Camera finishes the push by 4.20 and holds completely still from 4.20–5.00. END STATE: stable complete peaceful city wide.
+
+EMOTION AND MOTION: serene normality; relaxed distant postures; low wind; no dramatic reaction. All movement is moderate, physically continuous, and animation-stable.
+
+FRAME CONTENT LOCK: intact city, normal sunlight, ordinary residents. No aircraft or unusual airborne object. No smoke, damage, emergency activity, clock, digits, captions, signage, logo, border, or readable text. No photorealism, realistic human anatomy, live action, glossy 3D, anime, or style mixing. No speech, dialogue, narration, singing, voices, lip sync, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: soft leaves, sparse birds, distant footsteps, gentle river water, and low non-tonal city ambience synchronized to the shots. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

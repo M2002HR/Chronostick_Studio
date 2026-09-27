@@ -64,6 +64,8 @@ Gate: an approved reference exists before it is treated as locked.
 
 Create one file per generation clip in the episode `prompts/` directory. Each file contains only the generator-facing text. It must explicitly describe reference roles, visible identity constraints, environment, shot timing, edits, action, camera, end frame, negative constraints, and audio policy.
 
+Build a continuity ledger before finalizing prompts. For every clip, record the inherited start state, allowed state change, resolved end state, character count and placement, prop state, emotional state, environment state, and event phase. Describe the current desired state positively. Avoid naming later high-salience events in earlier prompts merely to forbid them; this can activate the unwanted concept.
+
 Avoid internal IDs, historical metadata, and explanatory prose that the generator does not need. For historical people, use the approved character reference as the visual identity source rather than asking for realistic facial imitation.
 
 Gate: prompt-purity validation passes and the prompt includes `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
@@ -78,7 +80,9 @@ Gate: identity, style, pacing, framing, sound, and final frame are approved.
 
 ## 11. Assemble the final episode
 
-Use the continuous Spanish narration, approved clips, optional natural Foley, captions, CTA typography, and branding. Add text in editing rather than asking the generator to render it. Do not add background music.
+Copy exactly one approved editorial clip per timeline slot into the episode's `renders/final-selected/` directory. Preserve a sortable `clip-NN-...` filename for every selection. Run the episode assembly command to validate numbering, sort naturally, concatenate picture and existing audio, and write an immutable revision under `final/`.
+
+Use the continuous Spanish narration, approved clips, optional natural Foley, captions, CTA typography, and branding in later explicit stages. Add text in editing rather than asking the generator to render it. Do not add background music under the current production policy.
 
 Gate: complete timing, clean cuts, readable captions, factual integrity, audio compliance, and correct vertical export.
 

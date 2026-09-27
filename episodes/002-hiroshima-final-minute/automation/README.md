@@ -1,31 +1,66 @@
 # Episode 002 automation
 
-The first r001 batch (`45b01a15-f702-468f-9697-a677057b5957`) was deliberately stopped. Clips 01–02 are rejected and clips 03–17 were cancelled. There is no active r002 batch.
+## Completed r003 batch
 
-Start ComfyUI on `127.0.0.1:8188`, then start the automation service from `/home/mhr/AI/comfy-video-automation`:
+- batch ID: `2ad1371c-ff73-45e2-82cd-8c3b81be66f7`
+- revision: r003
+- profile: 5-second H3, 480×864, 24 fps, 16 steps, fixed seeds
+- jobs: 17, sequential GPU concurrency 1
+- background unit used for submission: `chronostick-episode-002-r003.service`
+- launched: 2026-09-26 00:38 Asia/Tehran
+- raw outputs: `episodes/002-hiroshima-final-minute/renders/raw/*-r003.mp4`
+- editorial outputs: `episodes/002-hiroshima-final-minute/renders/editorial/*-r003.mp4`
+
+Check structured batch status:
 
 ```bash
-uv run comfy-video service serve --config /home/mhr/Code/chronostick-studio/episodes/002-hiroshima-final-minute/automation/service-config.json
+cd /home/mhr/AI/comfy-video-automation
+uv run comfy-video status --batch 2ad1371c-ff73-45e2-82cd-8c3b81be66f7 --watch
 ```
 
-Open the local panels at `http://127.0.0.1:8188` (ComfyUI) and `http://127.0.0.1:8090/docs` (automation API).
+Check the detached launcher journal:
 
-Validate all 17 jobs, including their actual uploaded references and compiled workflows, without generation:
+```bash
+journalctl --user -u chronostick-episode-002-r003.service -f
+```
+
+Check both persistent services:
+
+```bash
+systemctl --user status comfyui.service comfy-video.service
+```
+
+The launcher first runs repository validation and service-side dry-run validation for all 17 jobs, then submits the real batch. Closing a terminal does not cancel the server-side batch. If ComfyUI or the automation API restarts, the configured persistent service state resumes incomplete work.
+
+All 17 r003 jobs completed successfully. Clip 17 r003 was rejected in visual review because it returned to an earlier story state and generated another explosive event near the end. The targeted replacement is:
+
+- job ID: `dd6d58e4-5d11-4cf5-bee9-0f4a81178942`
+- retry specification: `automation/retries/clip-17-aftermath-r004.json`
+- selected candidate: `renders/editorial/clip-17-aftermath-r004.mp4`
+- review result: accepted; a single continuous post-event aftermath view with no replay, flash, or new explosive event
+
+## Assemble the selected master
+
+Copy exactly one approved video for every clip number into `renders/final-selected/`. Keep the original revision in each filename and use names beginning with `clip-01-` through `clip-17-`. Then run:
+
+```bash
+/home/mhr/Code/chronostick-studio/episodes/002-hiroshima-final-minute/automation/assemble-final-selected.sh
+```
+
+The script rejects missing numbers, duplicates, extra videos, and invalid filenames. It checks that the automation API is ready, submits the directory to the media-concat service in natural filename order, waits for completion, and writes the next unused master revision to `episodes/002-hiroshima-final-minute/final/`.
+
+## Re-run commands
+
+Validate without queueing generation:
 
 ```bash
 /home/mhr/Code/chronostick-studio/episodes/002-hiroshima-final-minute/automation/run-batch.sh --preflight-only
 ```
 
-When ready, run the exact same script without the flag. It repeats preflight, submits the naturally ordered sequential batch, and stays attached with one progress bar per clip plus an overall bar:
+Start a future revision only after changing every job identity and output prefix to a new unused `rNNN` value:
 
 ```bash
 /home/mhr/Code/chronostick-studio/episodes/002-hiroshima-final-minute/automation/run-batch.sh
 ```
 
-To reconnect to an already submitted batch:
-
-```bash
-uv run comfy-video status --batch BATCH_ID --watch
-```
-
-The service state is persistent under `/home/mhr/AI/comfy-video-automation/state/chronostick-episode-002`. Per-job resource reports and the final aggregate batch report are written to its `run-reports/` directory. Each output `.run.json` sidecar also receives elapsed time and CPU, RAM, GPU utilization, peak VRAM, temperature, power, estimated energy, disk, retry, and queue-wait metrics. Restarting both local services resumes incomplete jobs without blindly resubmitting an existing ComfyUI prompt.
+Do not run the current r003 job set again because outputs are immutable and overwrite is disabled.

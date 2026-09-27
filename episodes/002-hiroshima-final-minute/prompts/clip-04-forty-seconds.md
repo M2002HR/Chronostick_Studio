@@ -1,16 +1,15 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video built from seven energetic but readable hard-cut shots.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using three readable exterior shots joined by instantaneous hard cuts. This is a clean editorial cut away from the seated couple to the still-normal street roughly forty seconds before the event.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> is the sole final rendering authority. Every building, roof tile, curtain, plant, utility pole, wire, handcart, shadow, cloud, and person must be visibly drawn inside its detailed cinematic stick-figure world: clean ink outlines, simplified graphic geometry, warm hand-painted surfaces, crisp silhouettes, round minimal stick faces, dot eyes, and slender limbs. No photographic street, photoreal architecture, realistic human, live action, 3D, anime, or style blending. <Picture 2> controls only Hiroshima's 1945 street layout, wooden facades, tiled roofs, utility poles, distant landmark forms, mountains, plants, and summer palette. Translate it entirely into Picture 1's ChronoStick style; Picture 1 always wins.
+REFERENCE LOCK: <Picture 1> is the complete style and world anchor. Preserve its intact 1945 Hiroshima wooden houses, tiled roofs, utility poles and wires, green plants, river-city geography, blue sky, warm sun, dark ink contours, and coherent ChronoStick illustration. All visible people are tiny round-headed stick residents. Do not copy the exact reference composition and do not create panels, borders, or photographic elements.
 
-Instantaneous hard cuts only; no crossfade or morph:
-0.00–0.45: HOOK. Ink-outlined shop curtain snaps once in warm breeze, bright sun edge creating a bold graphic shape.
-0.45–1.05: HARD CUT. Shoe-level insert: simple stick legs and wooden sandals cross quickly; no realistic feet.
-1.05–1.70: HARD CUT. Upward angle along outlined utility pole and wires into painted blue sky; no aircraft.
-1.70–2.35: HARD CUT. Handcart wheel turns once past an illustrated wooden facade.
-2.35–3.20: HARD CUT. Wide centered street with five small ordinary stick citizens at different depths, calm walking only.
-3.20–3.85: HARD CUT. Tight sunlit leaves and roof edge, boldly outlined.
-3.85–5.00: HARD CUT. Symmetrical wide street; fast short push stops at 4.35 and holds stable to 5.00.
+0.00–1.20 — HOOK, close street detail. A fabric shop curtain with no writing lifts once in a light breeze and settles. Beneath it, one pair of simple sandal-clad stick legs crosses at normal walking pace. Camera locked.
 
-No clock, countdown digits, aircraft, bomb, siren, panic, smoke, damage, red palette, modern vehicle, realistic person, captions, shop lettering, logos, borders, or readable text. No speech, narration, dialogue, singing, voices, lip sync, or vocalization.
+1.20–3.30 — HARD CUT, centered medium-wide residential street. Three small residents at separate depths walk calmly: one toward camera, two away. A wooden handcart rolls slowly across the far background. No one looks upward or reacts. Camera makes one restrained straight push, less than five percent.
 
-AUDIO LOCK — SFX ONLY: curtain flap, dry footsteps, handcart wheel, faint bicycle chain, cicadas, leaves, and sparse birds. No alarm, melody, beat, percussion, harmony, tonal drone, pad, pulse, score, soundtrack, sting, or musicalized ambience. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+3.30–5.00 — HARD CUT, symmetrical wider view down the same intact street toward trees and mountains. The nearest walker exits naturally by 4.10. Leaves and curtain move softly. Camera stops by 4.15 and holds completely still. END STATE: ordinary empty foreground street, clean sunlight, no urgency.
+
+EMOTION AND BODY LANGUAGE: neutral routine, relaxed shoulders, steady steps, closed mouths. Motion is moderate, continuous, and physically plausible. No clocks, digits, aircraft, airborne object, siren activity, running, crowd, panic, smoke, damage, red warning light, modern street furniture, modern vehicle, readable shop sign, caption, logo, border, or text. No realistic humans, photorealism, live action, 3D, anime, speech, dialogue, narration, voices, singing, lip sync, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: curtain flap, measured sandals, soft handcart wheel, distant bicycle chain, cicadas, leaves, and birds; no alert sound. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

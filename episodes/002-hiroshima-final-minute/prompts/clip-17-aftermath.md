@@ -1,18 +1,13 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with a strong sober hook, six quick scale-defining hard cuts, and an exact final 0.48-second still hold.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps as ONE UNBROKEN LOCKED-OFF SHOT. The historical state is already the settled aftermath before frame 1 and remains the same settled aftermath through frame 120. Do not depict a transition into this state, a replay, a reveal, a flashback, an earlier intact view, or a new event.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> is the absolute rendering authority. Rubble, rooflines, poles, river, bridge, skyline, landmark, mountains, smoke, ash, light, and every object must be visibly hand-drawn inside its detailed cinematic ChronoStick world: bold clean ink silhouettes, simplified geometry, layered hand-painted haze, muted paper texture, and graphic depth. No photography, photoreal ruins, live action, realistic human remains, 3D, anime, or mixed style. <Picture 2> supplies only the post-bomb Hiroshima geography, skyline, landmark shapes, mountains, smoke palette, and respectful wide composition; redraw it completely through Picture 1. Never reproduce the source collage or panels. Picture 1 always wins.
+REFERENCE LOCK: <Picture 1> is the complete and only authority for composition, damaged city geometry, river, bridge, small distant domed landmark, mountains, rubble, broken poles, haze, muted palette, diffuse daylight, and detailed ChronoStick illustration. Begin directly from this same elevated aftermath view. Preserve the reference's spatial arrangement and restrained scale throughout the entire shot. Treat it as one continuous world, never a panel, comparison, montage, close insert, or alternate time state.
 
-Instantaneous hard cuts only:
-0.00–0.40: HOOK. One outlined paper fragment snaps across a pale gray frame, revealing black ruined roof silhouettes behind it.
-0.40–1.05: HARD CUT. Empty illustrated street-level debris and a broken utility pole, no people.
-1.05–1.70: HARD CUT. Wide river edge under layered hand-painted smoke, damaged bridge geometry distant.
-1.70–2.35: HARD CUT. Tight distant landmark silhouette, small and obscured, not heroic.
-2.35–3.00: HARD CUT. High wide over simplified roof rubble toward mountains; gray-brown haze moves slowly.
-3.00–3.65: HARD CUT. Foreground wire and ash particles establish depth over silent city.
-3.65–4.20: HARD CUT. Extreme elevated wide of the complete devastated city, observational and restrained.
-4.20–4.52: A tiny controlled push stops completely at 4.52 as one ash fleck exits.
-4.52–5.00: EXACT STABLE HOLD. No camera, smoke, ash, or new action changes during the final 0.48 seconds.
+0.00–1.50 — HOOK AND ESTABLISHMENT, same locked elevated wide. Dark damaged roof beams remain in the lower foreground; the river and bridge remain centered in the middle distance; the small domed landmark remains partly obscured beyond them; mountains remain faint behind broad gray-beige haze. Camera is completely motionless. Illumination is diffuse, subdued, and spatially uniform.
 
-No visible person, body, survivor, injury, gore, near-camera flame, explosion, aircraft, flag, victory image, mushroom-cloud spectacle, caption, casualty figure, logo, border, or readable text. No speech, cries, dialogue, narration, singing, voices, lip sync, or vocalization.
+1.50–4.20 — CONTINUOUS SAME SHOT, no cut and no reframing. Only two subtle environmental motions occur: broad haze drifts very slowly from right to left, and one tiny loose paper corner in the foreground lifts a few millimeters and settles. Every building silhouette, broken pole, bridge segment, roof beam, river edge, mountain outline, shadow, and brightness level remains unchanged. The skyline never emits or develops any new shape, light, cloud, plume, or motion.
 
-AUDIO LOCK — SFX ONLY: irregular soft wind, sparse dry debris settling, and a faint non-tonal city rumble that fades to near-silence by 4.52. Never screams. No melody, harmony, beat, percussion, tonal drone, pad, pulse, score, soundtrack, transition sting, or musical ambience. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+4.20–5.00 — FINAL RESOLVED HOLD, still the exact same frame. The paper is fully settled by 4.20. Haze becomes nearly motionless by 4.40. From 4.52–5.00 nothing changes anywhere in the image. END STATE: the same stable empty aftermath wide with the same subdued diffuse light and the same skyline as the first frame.
+
+CONTINUITY LOCK: show only the already-damaged empty city state for all five seconds. Maintain constant subdued gray-beige color and constant exposure. Exactly zero people, animals, aircraft, moving vehicles, active light sources, newly moving debris, or newly changing structures. Keep the distant haze broad, low-contrast, slow, and non-directional rather than forming a focal shape. No readable writing, casualty figure, caption, logo, border, or generated text. No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style. No speech, cries, dialogue, narration, singing, voices, lip sync, or vocalization.
+
+AUDIO: quiet irregular wind, one faint dry paper movement before 4.20, and sparse distant settling sounds that fade to near-silence by 4.52. Keep the sound natural, non-tonal, and emotionally restrained. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

@@ -1,18 +1,17 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with seven rapid cuts followed by a controlled white-light endpoint.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using three shots followed by a stable near-white endpoint. Begin exactly from Clip 14's endpoint: the elderly woman stands at screen-left, the elderly man at screen-right, their inside hands securely clasped at center, both facing the doorway. Normal room color must persist until the specified light change begins.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> is the absolute authority. Couple, hands, clothing, room, shoji, roofs, sky, light, and shadows must remain one detailed cinematic ChronoStick illustration with bold outlines, hand-painted texture, round minimal faces, dot eyes, and slender stick limbs. Even the flash is an illustrated graphic light field, not live-action exposure. No photorealism, realistic people, live action, 3D, anime, or style drift. <Picture 2> supplies only the Hiroshima home, open shoji, blue sky, warm light, and white-flash palette; redraw everything through Picture 1. <Picture 3> controls one exact elderly woman—low bun, navy work kimono, cream apron, proportions and colors. <Picture 4> controls one exact elderly man—gray-templed hair, beige shirt, charcoal trousers, proportions and colors. Never duplicate, merge, or redesign them.
+REFERENCE AND IDENTITY LOCK: <Picture 1> is the complete style, room, couple identity, clothing, placement, hand-clasp, expression, doorway, and light-direction anchor. Preserve exactly one woman in navy and cream and one man in beige and charcoal, their single joined-hand pair, intact tatami room, and bright opening at frame-right. Never clone, separate, merge, or redesign them.
 
-Instantaneous hard cuts only until the final light expansion:
-0.00–0.40: HOOK. Extreme close-up on firmly joined simplified hands, bold black contour against warm floor light.
-0.40–1.00: HARD CUT. Exact man's dot eyes flick toward sudden brightness at window; mouth still.
-1.00–1.60: HARD CUT. Exact woman's calm face turns slightly toward the same light; mouth still.
-1.60–2.20: HARD CUT. Exterior insert of illustrated roof edge and blue sky becoming unnaturally bright white at one corner.
-2.20–2.85: HARD CUT. Medium exact couple silhouette, still hand-in-hand, graphic rim light growing.
-2.85–3.50: HARD CUT. Tight hands squeeze once; no extra movement.
-3.50–4.10: HARD CUT. Wide room as white illustrated light rapidly removes color from shoji, table, and walls.
-4.10–4.55: HARD CUT. Couple becomes two faint clean stick silhouettes inside near-white field.
-4.55–5.00: Pure stable warm-white frame with only a barely visible ink edge; no camera shake.
+0.00–1.40 — HOOK, close joined hands. Exactly two simplified hands remain in one secure grip. The woman's navy sleeve enters from left; man's beige sleeve enters from right. Their fingers tighten once subtly, then hold. Lighting is still ordinary warm morning light.
 
-No blast wave, fireball, gore, injury, body, scream, dramatic pose, realistic skin, duplicate couple, text, clock, caption, border, or spectacle. No speech, dialogue, narration, singing, voices, lip sync, or vocalization.
+1.40–3.20 — HARD CUT, medium two-shot. Both remain standing and hand-in-hand. Man notices increasing brightness first: dot eyes shift to doorway, brows lift and tighten, shoulders brace, mouth closed. Woman follows his gaze half a second later: brows rise, dot eyes widen, mouth closed, free hand still. The room remains readable and normally colored through 3.20.
 
-AUDIO LOCK — SFX ONLY: room tone, cloth hush, one dry hand squeeze, then a brief non-tonal pressure onset and near-silence. No explosion impact in this clip. No melody, harmony, beat, percussion, drone, pad, pulse, riser, score, soundtrack, sting, or musical tension. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+3.20–4.20 — HARD CUT, wider locked frame. A warm-white field begins only at the far-right doorway edge at 3.20, expands steadily leftward, and drains color from the room in one continuous progression. Couple stays still and connected; no running or falling. By 4.20 their silhouettes are faint but still separate and readable.
+
+4.20–5.00 — CONTINUOUS LIGHT TRANSITION. The warm-white field fills nearly the entire frame; only a faint clean ink edge of the two joined silhouettes remains. Camera is perfectly locked. END STATE: stable near-white field from 4.55–5.00 with no new motion.
+
+COUNT AND MOTION LOCK: exactly two people and one joined-hand pair; no duplicate, extra limb, detached hand, body morph, fire, flying debris, injury, scream, camera shake, caption, timestamp, border, or readable text. No speech, dialogue, narration, singing, voices, lip sync, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: quiet room tone, cloth hush, one dry hand squeeze, then a brief non-tonal pressure onset beginning at 3.20 and near-silence by 4.55. No impact sound in this clip. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

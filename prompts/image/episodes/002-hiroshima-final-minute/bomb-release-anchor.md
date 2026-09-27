@@ -1,0 +1,12 @@
+Use case: historical-scene
+Asset type: generation-safe single-frame action-state reference for Clip 10, vertical 9:16
+Primary request: Create one coherent cinematic sky frame showing exactly one small dark bomb just after it has separated from exactly one B-29 high above intact Hiroshima. The separation gap must be instantly readable. This is a single restrained historical story scene, never a model sheet, contact sheet, collage, diagram, storyboard, split screen, grid, or multi-panel layout.
+Input images: Image 1 is the complete visual-style authority. Image 2 supplies only the bright Hiroshima summer sky, sparse clouds, distant mountain ridge, and a small intact roof edge. Image 3 supplies only the correct overall shapes of one B-29 and one bomb. Redraw both in the unified ChronoStick illustration style; do not copy repeated views, borders, source panels, or any reference-sheet composition.
+Scene/backdrop: Vast clear blue sky with one thin white cloud band, distant muted mountains along the lowest edge, and a tiny corner of intact outlined roof for scale. No people.
+Subjects: Exactly one B-29 in level horizontal flight in the upper third and exactly one small dark bomb below it in the middle third. The aircraft continues laterally while the bomb is vertically separated by a clean visible gap. The bomb remains distant, modest in size, non-glamorous, and simply outlined. No other airborne objects.
+Style/medium: Detailed cinematic ChronoStick historical animation: simplified stable geometry, bold clean dark contours, hand-painted blue sky and clouds, controlled soft shading on silver-gray metal, crisp silhouettes, subtle paper texture. No photographic surface detail.
+Composition/framing: Vertical 9:16 extreme-wide sky composition. Aircraft and object are separated on the same vertical axis but do not touch. The frame reads clearly at small mobile size. No frame border or inset.
+Lighting/mood: Bright neutral morning sun; increasing tension comes from spacing and scale, not from color effects.
+Color palette: Clean blue sky, off-white clouds, muted silver-gray aircraft, charcoal-dark object, distant dusty blue-green mountains, dark outlines.
+Constraints: Exactly one aircraft and one bomb; intact calm world below; one scene only; no readable labels, symbols, captions, or watermark.
+Avoid: multiple aircraft, multiple bombs, ground impact, flash, flame, smoke, city damage, contrail, dramatic spinning, heroic weapon glamour, close-up ordnance, photorealism, glossy 3D, anime, technical diagram, grid, panel borders.

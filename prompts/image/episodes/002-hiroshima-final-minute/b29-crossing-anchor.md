@@ -1,0 +1,12 @@
+Use case: historical-scene
+Asset type: generation-safe single-frame vehicle video reference for Clip 08, vertical 9:16
+Primary request: Create one coherent upward-looking cinematic frame of exactly one B-29 crossing the clear morning sky above intact Hiroshima in August 1945. This must be a single story composition, never a vehicle sheet, contact sheet, collage, storyboard, split screen, grid, or multi-panel layout.
+Input images: Image 1 is the complete visual-style authority. Image 2 supplies only the Hiroshima roof edges, utility wires, mountains, cloud shapes, and blue-sky palette. Image 3 supplies only the historically recognizable proportions, silver body, wing plan, four engines, and tail form of one B-29. Redraw and simplify the aircraft inside the ChronoStick universe; do not copy any source panel, border, repeated aircraft, or model-sheet view.
+Scene/backdrop: Clear saturated but natural blue summer sky with two soft white cloud masses. Dark ink-outlined ceramic roof corners and one utility wire frame the lower edge, with a faint mountain ridge low in the distance. The city is intact and calm.
+Subject: Exactly one B-29, seen from a readable three-quarter underside angle in level flight. All four propeller engines are clearly placed; propellers are simple controlled graphic arcs. The aircraft is medium-small in the upper-middle frame, moving laterally with ample sky around it. No payload is visible.
+Style/medium: Detailed cinematic ChronoStick historical animation with bold clean dark outlines, simplified graphic aircraft geometry, softly hand-painted silver-gray surfaces, controlled shadows, crisp silhouette, and the same paper-textured illustration language as Image 1. Not a technical drawing and not photoreal.
+Composition/framing: Vertical 9:16, strong diagonal from lower roof edge to aircraft, generous negative sky space, no decorative frame, no inset view.
+Lighting/mood: Bright hard summer morning light, aircraft underside shaded but readable; calm observation turning quietly ominous through scale alone.
+Color palette: Clear blue, cloud white, silver gray, charcoal, muted roof brown, dark ink outlines.
+Constraints: One aircraft only; level flight; four engines; stable readable silhouette; historically grounded; single scene; no readable markings or text; no watermark.
+Avoid: second aircraft, bomb, open bomb bay, contrail, dogfight, weapon fire, banking stunt, modern jet features, cockpit close-up, city damage, smoke, fire, photorealism, realistic photograph, glossy 3D, anime, grid, panels, labels.

@@ -1,17 +1,15 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with a stark white hook, six rapid aftermath fragments, and a sober resolved ending.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using a white opening, two restrained reveal shots, and a resolved aftermath wide. This begins from Clip 15's near-white endpoint and moves forward into the consequence; it never returns to the intact room or the couple.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> is the sole final authority. White field, dust, smoke, roofs, poles, rubble, skyline, river, mountains, light, and every fragment must remain inside one detailed cinematic ChronoStick illustration: bold ink silhouettes, simplified graphic debris, hand-painted smoke layers, controlled paper texture, and no photographic realism. <Picture 2> supplies only Hiroshima's skyline, landmark geometry, rooflines, utility poles, mountains, flash palette, and smoke-hazed aftermath composition. Translate it entirely into Picture 1's illustrated stick world. Never copy a photoreal panel, collage, border, or realistic destruction. Picture 1 overrides Picture 2.
+REFERENCE LOCK: <Picture 1> is the complete style, geography, aftermath, palette, landmark, river, bridge, mountain, haze, damage-level, and ethical anchor. Preserve its single-scene ChronoStick illustration, simplified stable rubble, dark ink silhouettes, gray-beige layered haze, desaturated river, distant domed landmark, and absence of people. Do not reproduce a before-and-after layout, panel, border, or photographic ruin.
 
-Use instantaneous hard cuts after the opening white field, no morphing spectacle:
-0.00–0.45: HOOK. Featureless warm illustrated white fills the frame, perfectly still.
-0.45–1.05: HARD CUT. One bold black roof-tile silhouette flashes against white, then dust crosses it.
-1.05–1.65: HARD CUT. Broken outlined utility pole and slack wires emerge through pale hand-painted gray haze.
-1.65–2.25: HARD CUT. Close graphic debris fragments settle on an empty illustrated street; no body or clothing.
-2.25–2.90: HARD CUT. Wide river edge and damaged roof silhouettes appear through layered smoke.
-2.90–3.55: HARD CUT. Distant landmark silhouette in gray-white haze, restrained and small.
-3.55–4.20: HARD CUT. Extreme wide ruined city rendered as simplified inked shapes; no flames near camera.
-4.20–5.00: HARD CUT. Slower 0.35-second pullback reveals foreground roof silhouette, then fully stable solemn hold.
+0.00–1.20 — HOOK, featureless warm-white field. The frame is still. From 0.70, one faint charcoal roof edge and dust texture begin to emerge gradually; there is no sudden camera motion.
 
-Aftermath only, not explosion spectacle. No people, bodies, injuries, gore, fireball, mushroom-cloud glamour, aircraft, triumph, saturated orange fire, shockwave, captions, statistics, logos, borders, or readable text. No speech, cries, dialogue, narration, singing, voices, or vocalization.
+1.20–2.80 — HARD CUT, empty street-level aftermath detail. A broken outlined utility pole, slack wire, simplified wooden fragments, and pale dust appear through gray-white haze. No person, clothing, body, or active flame is visible. A few small debris particles settle downward under gravity. Locked camera.
 
-AUDIO LOCK — SFX ONLY: one low irregular non-tonal structural rumble, dry debris settling, dust movement, and wind fading toward silence. Never screams and never a cinematic boom. No melody, harmony, beat, percussion, tonal drone, pad, pulse, riser, score, soundtrack, or sting. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+2.80–5.00 — HARD CUT, elevated wide matching <Picture 1>. Damaged roof silhouettes lead toward the river, bridge, small distant domed landmark, and hazy mountains. Broad dust and smoke layers drift slowly sideways. Camera performs one restrained pullback of less than four percent from 2.80–3.70, stops completely, and holds from 3.70–5.00. END STATE: stable, silent, non-graphic devastated-city wide.
+
+VISUAL AND ETHICAL LOCK: empty aftermath only; subdued gray-brown daylight; no character, body, injury, gore, close active flame, aircraft, flag, triumph, saturated orange spectacle, dramatic cloud centerpiece, caption, statistic, border, or readable text. No photorealism, live action, glossy 3D, anime, speech, cries, dialogue, narration, singing, voices, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: one low irregular non-tonal structural rumble that fades quickly, dry debris settling, dust movement, and restrained wind. Never screams and never a cinematic musical boom. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

@@ -1,18 +1,17 @@
-Create exactly one self-contained 5.00-second vertical 9:16 video with eight rapid cuts between one man's recognition and one falling object.
+Create exactly one 5.00-second vertical 9:16 video at 24 fps using four controlled shots joined by instantaneous hard cuts. Continue the human state from Clip 09 and the airborne state from Clip 11. The man is already standing at the open window; the woman remains one step behind him. The single object remains outside, distant, descending, and airborne through the final frame.
 
-NON-NEGOTIABLE STICK-WORLD STYLE LOCK: <Picture 1> overrides every other reference. Entire home, window, roof, wire, mountains, sky, person, hands, eyes, clothes, and object must be one cohesive detailed cinematic ChronoStick illustration: bold ink contours, hand-painted surfaces, round minimal head, dot eyes, slender stick limbs, simplified graphic props, no realistic anatomy or photography. <Picture 2> supplies only the Hiroshima window, roofline, poles, mountains, and sky; redraw all through Picture 1. <Picture 3> controls one exact elderly man—gray-templed short hair, beige rolled sleeves, charcoal trousers, dark shoes, stick proportions and colors. <Picture 4> controls one dark bomb shape only, redrawn as an outlined stick-world object. Never duplicate, merge, or copy any sheet.
+REFERENCE LOCK: <Picture 1> controls the exact room, couple identities, placements, clothing, window view, ChronoStick style, and normal light. Preserve one woman at screen-left in navy and cream and one man at screen-right in beige and charcoal. <Picture 2> controls exactly one distant dark falling object, its scale, clean blue sky, intact roofline, and unchanged normal daylight. Use each reference only for its stated role; never copy a panel or multiply any subject.
 
-Instantaneous hard cuts only:
-0.00–0.40: HOOK. Extreme close-up of the exact man's two dot eyes narrowing sharply under simple ink brows.
-0.40–1.00: HARD CUT. His simple outlined fingers grip the newspaper edge, creating one crease.
-1.00–1.60: HARD CUT. POV: lone dark object drops across painted blue sky.
-1.60–2.20: HARD CUT. Man's exact profile leans a few centimeters toward the open window, mouth closed.
-2.20–2.85: HARD CUT. Object crosses one bold utility wire, descent visibly faster.
-2.85–3.45: HARD CUT. Tight face: brow tightens, dot eyes track downward.
-3.45–4.10: HARD CUT. Wider stick-world room: he begins turning away from the window, one controlled action.
-4.10–4.55: HARD CUT. Quick object insert, lower and larger in blue sky.
-4.55–5.00: HARD CUT. Stable medium man reaction, recognition clear, camera stopped.
+0.00–1.20 — HOOK, tight exact-man face. His dot eyes narrow gradually; eyebrows move from mild concern to a more inward angle; mouth remains a closed straight line. Head and face stay structurally stable. No realistic eye detail.
 
-No speech, mouth movement, running, alarm, explosion, flash, damage, gore, duplicate man/object, realistic eyes or hands, captions, clocks, borders, labels, or text. No voices, dialogue, narration, singing, lip sync, or vocalization.
+1.20–2.40 — HARD CUT, his point of view through the window. The same lone object descends across one utility wire, moving from upper-right toward lower-right. It remains small and fully airborne. Sky, roofs, mountains, and sunlight stay intact and unchanged.
 
-AUDIO LOCK — SFX ONLY: paper crease, cloth shift, window breeze, fading mechanical engine noise, and dry room tone. No whistle, riser, melody, harmony, beat, percussion, drone, pad, pulse, score, soundtrack, or sting. NO BACKGROUND MUSIC. Natural diegetic sound effects only.
+2.40–3.70 — HARD CUT, medium profile of man at window. Recognition becomes visible through controlled body language: chin retracts slightly, shoulders rise a few centimeters, brows tighten, dot eyes widen after the squint, and one beige-sleeved hand releases the window frame. Mouth remains closed. He does not sit, run, or step backward.
+
+3.70–5.00 — HARD CUT, medium two-shot. Man turns head and upper torso toward the woman while keeping both feet planted; she is already standing behind him, alert but not yet moving. Her brows lift and eyes focus on him; mouth closed. Camera locked. END STATE: man fully standing at frame-right, turned toward wife with urgent recognition; woman fully standing at frame-left; object still airborne outside; normal room light; no later event visible.
+
+COUNT AND CONTINUITY LOCK: exactly one man, one woman, and one falling object. The object stays in open air; the home, roofs, city, sky, color, and normal morning illumination remain intact and unchanged through 5.00. No newspaper action, breakfast reset, duplicate person, duplicate object, body morph, open mouth, caption, clock, border, or text. No speech, dialogue, narration, singing, voices, lip sync, or vocalization.
+
+No photorealism, live action, realistic human anatomy, glossy 3D, anime, or mixed visual style.
+
+AUDIO: window breeze, cloth tension, one quiet hand release, fading distant engine, and dry room tone. No whistle, low-frequency event sound, riser, or musical sound. NO BACKGROUND MUSIC. Natural diegetic sound effects only.

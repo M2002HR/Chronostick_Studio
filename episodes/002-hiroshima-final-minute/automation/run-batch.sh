@@ -29,7 +29,7 @@ if [[ "${1:-}" == "--preflight-only" ]]; then
   exit 0
 fi
 
-printf 'Preflight passed. Starting the r002 batch; press Ctrl+C only to detach the progress display.\n'
+printf 'Preflight passed. Starting the r003 16-step continuity batch; press Ctrl+C only to detach the progress display.\n'
 uv run comfy-video batch \
   --service-url "$service_url" \
   --folder "$episode_root/automation/jobs" \

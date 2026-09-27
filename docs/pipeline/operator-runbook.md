@@ -79,28 +79,27 @@ uv run comfy-video concat \
   --watch
 ```
 
-## 6. FlashVSR upscale with the requested 480 tile
+## 6. Default framewise 1080×1920 upscale
 
-On the inspected 16 GB GPU, use five-second temporal chunks with the 480-tile preset:
+Use the declared Spandrel model and cover-fit every frame to the exact vertical delivery canvas:
 
 ```bash
-/home/mhr/AI/comfy-video-automation/scripts/upscale-long-video.sh \
+/home/mhr/AI/comfy-video-automation/scripts/upscale-framewise-video.sh \
   EPISODE_ROOT/final/episode-slug-concat-r001.mp4 \
   --output EPISODE_ROOT/final/episode-slug-picture-master-1080x1920-r001.mp4 \
+  --model /home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth \
   --width 1080 \
   --height 1920 \
-  --fit cover \
-  --chunk-seconds 5 \
-  --settings /home/mhr/AI/comfy-video-automation/examples/flashvsr-quality-16gb-tile480.json
+  --fit cover
 ```
 
-Keep the hidden upscale work directory until the upscaled master passes QC.
+Keep the adjacent `*.framewise-upscale.json` report until the upscaled master passes QC.
 
 ## 7. Reports and recovery
 
 - service state: configured `state_dir`
 - job/batch reports: `state_dir/run-reports/`
 - render provenance: adjacent `*.run.json`
-- long-upscale state: hidden work directory plus `*.long-upscale.json`
+- framewise-upscale provenance: adjacent `*.framewise-upscale.json`
 
 Generation, concat, and upscale are separate authorization boundaries. Never run them concurrently on one GPU.
