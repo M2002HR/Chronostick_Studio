@@ -1,0 +1,110 @@
+{
+  "episode_id": "001-potato-france",
+  "status": "provisional_pending_operator_decisions_and_final_master_review",
+  "platform": "youtube_shorts",
+  "title": {
+    "primary": "El curioso plan de Parmentier para popularizar las papas",
+    "alternatives": [
+      "¿Por qué Francia desconfiaba de las papas?",
+      "Parmentier y la leyenda del campo de papas vigilado"
+    ],
+    "character_limit": 100
+  },
+  "description": "En la Francia del siglo XVIII, la papa todavía despertaba desconfianza. Antoine-Augustin Parmentier defendió su valor alimenticio y ayudó a popularizarla.\n\nEste Short recrea una famosa historia: según la leyenda, Parmentier hizo vigilar un campo de papas durante el día y dejó la noche libre para despertar curiosidad y tentar a la gente a llevárselas. La campaña real de Parmentier a favor de la papa está documentada; el episodio exacto de los guardias se conserva como relato popular.\n\nFuentes consultadas:\n• Ministerio de Agricultura de Francia: https://agriculture.gouv.fr/antoine-parmentier-la-science-au-service-des-hommes\n• Palacio de Versalles: https://en.chateauversailles.fr/discover/history/great-characters/antoine-augustin-parmentier\n\nHistoria animada en estilo ChronoStick.\n¿Te gustan estas historias breves? Suscríbete.\n\n#Historia #Francia #Parmentier #Papas #Shorts",
+  "description_character_limit": 5000,
+  "tags": [
+    "Antoine-Augustin Parmentier",
+    "Antoine Parmentier",
+    "Augustin Parmentier",
+    "historia de la papa",
+    "papas en Francia",
+    "pomme de terre",
+    "Parmentier papa"
+  ],
+  "hashtags": [
+    "#Historia",
+    "#Francia",
+    "#Parmentier",
+    "#Papas",
+    "#Shorts"
+  ],
+  "category": "Education",
+  "language": {
+    "video_language": "es",
+    "title_and_description_language": "es"
+  },
+  "recording": {
+    "date": null,
+    "location": null,
+    "not_applicable_reason": "Animated historical production; no live-action recording date or location applies.",
+    "historical_topic_location": "France"
+  },
+  "audience": {
+    "made_for_kids": null,
+    "operator_decision_required": true,
+    "decision_note": "The channel operator must decide based on intended audience; animation and family-safe presentation alone do not determine this setting."
+  },
+  "age_restriction": {
+    "restricted_to_18_plus": null,
+    "operator_decision_required": true,
+    "decision_note": "The channel operator must explicitly confirm the age-restriction setting before upload."
+  },
+  "related_video": {
+    "youtube_video_id": null,
+    "operator_selection_required": true,
+    "suggestion": "Link the strongest public or unlisted ChronoStick history video or a channel trailer; no channel inventory is available in this repository."
+  },
+  "credits_and_sources": [
+    {
+      "label": "French Ministry of Agriculture — Antoine Parmentier, la science au service des Hommes",
+      "url": "https://agriculture.gouv.fr/antoine-parmentier-la-science-au-service-des-hommes"
+    },
+    {
+      "label": "Château de Versailles — Antoine Augustin Parmentier",
+      "url": "https://en.chateauversailles.fr/discover/history/great-characters/antoine-augustin-parmentier"
+    }
+  ],
+  "files": {
+    "video_filename": "papa_2_erasio.mp4",
+    "distribution_master_path": "episodes/001-potato-france/final/papa_2_erasio.mp4",
+    "distribution_master_status": "present_locally_unreviewed",
+    "thumbnail_prompt_path": "episodes/001-potato-france/delivery/youtube/thumbnail-prompt-r002.md",
+    "thumbnail_path": "episodes/001-potato-france/delivery/youtube/thumbnail-r002.png",
+    "thumbnail_source_path": "episodes/001-potato-france/delivery/youtube/thumbnail-source-r002.png",
+    "thumbnail_review_status": "assistant_qc_passed_user_approval_pending"
+  },
+  "upload_checklist": [
+    {
+      "item": "Review and approve the distribution master",
+      "complete": false
+    },
+    {
+      "item": "Review and approve thumbnail spelling, identity, hierarchy, truthfulness, and safe margins",
+      "complete": false
+    },
+    {
+      "item": "Choose the made-for-kids setting",
+      "complete": false
+    },
+    {
+      "item": "Choose the age-restriction setting",
+      "complete": false
+    },
+    {
+      "item": "Select an eligible public or unlisted related video, or intentionally leave it unset",
+      "complete": false
+    },
+    {
+      "item": "Confirm title, description, source links, category, language, and hashtags in YouTube Studio",
+      "complete": false
+    },
+    {
+      "item": "Set visibility and publish only with separate operator authorization",
+      "complete": false
+    }
+  ],
+  "publication": {
+    "upload_authorized": false,
+    "status": "not_uploaded"
+  }
+}

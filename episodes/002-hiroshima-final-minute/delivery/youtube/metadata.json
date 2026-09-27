@@ -70,13 +70,15 @@
     "text_line_1": "60 SEGUNDOS",
     "text_line_2": "ANTES",
     "generation_method": "chatgpt_single_image_with_integrated_typography",
-    "source_path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001-source.png",
-    "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001.png",
+    "source_path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002-source.png",
+    "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002.png",
     "width": 2160,
     "height": 3840,
     "format": "png",
     "template": "assets/branding/youtube-shorts/README.md",
-    "post_generation_changes": "resolution conversion only; no text or graphic overlay"
+    "post_generation_changes": "resolution conversion only; no text or graphic overlay",
+    "prompt_path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-prompt-r002.md",
+    "review_status": "assistant_qc_passed_user_approval_pending"
   },
   "media": {
     "picture_master": "episodes/002-hiroshima-final-minute/final/episode-002-hiroshima-final-minute-1080x1920-framewise-r001.mp4",

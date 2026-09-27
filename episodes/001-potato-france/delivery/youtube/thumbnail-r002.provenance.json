@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "001-potato-france",
+  "revision": "r002",
+  "generated_at": "2026-09-27",
+  "generator": "OpenAI built-in image generation",
+  "method": "single generated image with integrated typography",
+  "exact_headline": [
+    "¿PAPAS",
+    "VIGILADAS?"
+  ],
+  "prompt_path": "episodes/001-potato-france/delivery/youtube/thumbnail-prompt-r002.md",
+  "references": [
+    {
+      "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001.png",
+      "role": "typography benchmark only",
+      "sha256": "3cdfe80e3874e0160ed767762c6e3b4983c8a14291369e85ce6fd455f81226d6"
+    },
+    {
+      "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "role": "master ChronoStick style",
+      "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919"
+    },
+    {
+      "path": "assets/characters/antoine-parmentier/character-antoine-parmentier-sheet-r001.png",
+      "role": "Parmentier identity",
+      "sha256": "f8135e6f4afce49c3c04cdf4ed35d6d931866dffcdfc416dce6a00d6e4a80169"
+    },
+    {
+      "path": "assets/characters/french-guard/character-french-guard-sheet-r001.png",
+      "role": "guard identity",
+      "sha256": "59eecee5bc2eec7d63bde0cc52e810fe8fd2148dc4ba5f88465c3c4e5eccbc16"
+    }
+  ],
+  "source": {
+    "path": "episodes/001-potato-france/delivery/youtube/thumbnail-source-r002.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "58898f625d052db8230ba918c1a3405b478761047db3a7ba1899aafb517acac9"
+  },
+  "delivery": {
+    "path": "episodes/001-potato-france/delivery/youtube/thumbnail-r002.png",
+    "width": 2160,
+    "height": 3840,
+    "sha256": "830cb6e4ae79558fec7a1413cb3e8f4c90af205026722160cf136f9807c93e2b"
+  },
+  "post_generation_processing": {
+    "operation": "Lanczos resize only",
+    "text_overlay": false,
+    "graphic_overlay": false,
+    "crop": false
+  },
+  "review_status": "assistant_qc_passed_user_approval_pending",
+  "publication_status": "not_uploaded"
+}

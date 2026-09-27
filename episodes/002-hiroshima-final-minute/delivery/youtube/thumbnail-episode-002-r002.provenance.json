@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "002-hiroshima-final-minute",
+  "revision": "r002",
+  "generated_at": "2026-09-27",
+  "generator": "OpenAI built-in image generation",
+  "method": "single generated image with integrated typography",
+  "exact_headline": [
+    "60 SEGUNDOS",
+    "ANTES"
+  ],
+  "prompt_path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-prompt-r002.md",
+  "references": [
+    {
+      "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r001.png",
+      "role": "typography benchmark only",
+      "sha256": "3cdfe80e3874e0160ed767762c6e3b4983c8a14291369e85ce6fd455f81226d6"
+    },
+    {
+      "path": "assets/episodes/002-hiroshima-final-minute/references/city-morning-anchor-r001.png",
+      "role": "intact Hiroshima environment",
+      "sha256": "fc3e7b918b133dffb544371206bbaa986fc1b04a1a23de28253734e6fb8d641a"
+    },
+    {
+      "path": "assets/episodes/002-hiroshima-final-minute/references/couple-window-anchor-r001.png",
+      "role": "elderly couple identity",
+      "sha256": "b26ffcd81d58caa77d6767bb3d15716c5d3e297bce427fc6012f9b2522cddf4a"
+    },
+    {
+      "path": "assets/episodes/002-hiroshima-final-minute/references/b29-crossing-anchor-r001.png",
+      "role": "B-29 identity",
+      "sha256": "8fcf0318bc5337ba5ad279a78c4f90f551e6b832a308bd0437596f902e9eb90d"
+    },
+    {
+      "path": "assets/episodes/002-hiroshima-final-minute/references/falling-object-anchor-r001.png",
+      "role": "single airborne object",
+      "sha256": "3abee65f547f45591b9c31bd3e0bcf6c9adaa4df120bada9eb4583731755aed0"
+    }
+  ],
+  "source": {
+    "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002-source.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "8ff4e006f4254bac7317f7026b26c41a06ee4560b765e1711553dc9d2765fa42"
+  },
+  "delivery": {
+    "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002.png",
+    "width": 2160,
+    "height": 3840,
+    "sha256": "29d56a8f347f6ca5b363ae78ac888a5c4ec72215e1daaf5028380d857a7fd43b"
+  },
+  "post_generation_processing": {
+    "operation": "Lanczos resize only",
+    "text_overlay": false,
+    "graphic_overlay": false,
+    "crop": false
+  },
+  "review_status": "assistant_qc_passed_user_approval_pending",
+  "publication_status": "not_uploaded"
+}

@@ -14,6 +14,8 @@ generation_authorized: false
 - Mood and emotional tension:
 - Most recognizable truthful visual:
 - Audience curiosity gap:
+- Complete one-second hook (subject/stakes + unresolved question):
+- Hook mechanism (question, contradiction, countdown, consequence, or emotional tension):
 - Approved episode references:
 
 ## External inspiration learnings
@@ -50,6 +52,7 @@ List only abstract lessons such as hierarchy, contrast, expression, or informati
 - Why it truthfully matches the video:
 - Exact on-image headline:
 - Emphasis plan:
+- Locked typography: very-heavy rounded uppercase display letters, broad counters, compact spacing, thick near-black outline, shallow dimensional depth, soft shadow; warm white setup and signal yellow/gold emphasis when useful
 
 ## Reference-role map
 
@@ -57,9 +60,11 @@ List only abstract lessons such as hierarchy, contrast, expression, or informati
 | --- | --- | --- | --- |
 |  |  |  |  |
 
+When used, list the accepted Episode 002 thumbnail only as a typography benchmark. It must not control composition, subjects, wording, or palette distribution.
+
 ## Production-ready generation prompt
 
-Write the complete prompt here, including 9:16 composition, ChronoStick style, recurring identity, subject/action, expression, camera, lighting, color, depth, exact headline spelling, typography behavior, mobile hierarchy, and safe margins.
+Write the complete prompt here, including 9:16 composition, ChronoStick style, recurring identity, subject/action, expression, camera, lighting, color, depth, exact headline spelling, the locked generated typography system, mobile hierarchy, and safe margins. Generate headline and artwork together in one pass; no separate font asset or later text overlay.
 
 ## Negative constraints
 
@@ -68,12 +73,16 @@ Write the complete prompt here, including 9:16 composition, ChronoStick style, r
 - no misleading event, person, scale, or payoff
 - no non-stick-world humans or identity drift
 - no unsafe headline crop or weak mobile hierarchy
+- no thin, condensed, serif, handwritten, distressed, horror, ornamental, or mismatched lettering
+- no generic topic-only headline without a complete truthful hook
 - add episode-specific exclusions
 
 ## Acceptance checklist
 
 - [ ] Exact headline and no extra text
 - [ ] Strong mobile click-through hierarchy
+- [ ] Complete one-second hook: immediate subject/stakes and one specific unresolved question
+- [ ] Locked rounded display-lettering system matches the Episode 002 typography character
 - [ ] Truthful connection to the hook/payoff
 - [ ] Entirely inside the approved ChronoStick world
 - [ ] Recurring identities and period details preserved

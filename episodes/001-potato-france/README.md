@@ -5,7 +5,7 @@ This episode is the historical reference project for the ChronoStick workflow.
 ## Status
 
 - lifecycle: completed externally; repository archive is partial
-- final video: produced, but no final video binary is stored in this repository
+- final video: `final/papa_2_erasio.mp4` is present locally as an externally supplied 1080×1920 H.264/AAC export; it has not been reviewed or approved in this repository
 - English source: unavailable; `source/source-en.md` is intentionally empty
 - Spanish narration: recovered from the shot plan and stored in `script/narration-es.md`
 - voice audio: unavailable in the repository
@@ -15,6 +15,22 @@ This episode is the historical reference project for the ChronoStick workflow.
 - Clip 02 prompt: available
 - Clip 03–06 prompts: unavailable and intentionally empty
 - generated clip renders: unavailable in the repository
+- YouTube thumbnail: r002 candidate at `delivery/youtube/thumbnail-r002.png`; assistant QC passed, user approval pending; r001 retained immutably
+- YouTube metadata: `delivery/youtube/metadata.json` and `metadata.md` prepared provisionally; audience, age restriction, related video, and final-master approval remain operator decisions
+- YouTube upload/publication: not authorized and not performed
+
+## YouTube delivery status
+
+- thumbnail prompt revision: `delivery/youtube/thumbnail-prompt-r002.md`
+- thumbnail generation authorization: authorized by the user's 2026-09-27 request to regenerate Episodes 001 and 002
+- generated source: `delivery/youtube/thumbnail-source-r002.png` (`sha256:58898f625d052db8230ba918c1a3405b478761047db3a7ba1899aafb517acac9`)
+- thumbnail delivery master: `delivery/youtube/thumbnail-r002.png`, 2160×3840 (`sha256:830cb6e4ae79558fec7a1413cb3e8f4c90af205026722160cf136f9807c93e2b`)
+- typography: locked channel lettering system derived from Episode 002; generated inside the artwork with no separate overlay
+- thumbnail review: assistant QC passed; user approval pending; not locked
+- metadata revision: stable files `delivery/youtube/metadata.json` and `metadata.md`; assistant technical validation passed, operator review pending
+- distribution-master candidate: `final/papa_2_erasio.mp4` (`sha256:f3921736e351517cd09a1b4db02d57b892fc0d732699bd715ef9c06c1dede2c1`); review/approval pending
+- external Google Vids finishing: no Google Vids finishing artifact or status is recorded; not treated as complete
+- publication status: not uploaded; no visibility or publication action authorized
 
 Do not infer that an empty file is approved content. Do not reconstruct missing prompts and call them the originals.
 

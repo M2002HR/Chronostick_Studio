@@ -1,0 +1,39 @@
+{
+  "episode_id": "001-potato-france",
+  "revision": "r001",
+  "generated_at": "2026-09-27",
+  "generation_mode": "OpenAI built-in image generation",
+  "prompt_path": "episodes/001-potato-france/delivery/youtube/thumbnail-prompt-r001.md",
+  "references": [
+    {
+      "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "role": "master ChronoStick style",
+      "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919"
+    },
+    {
+      "path": "assets/characters/antoine-parmentier/character-antoine-parmentier-sheet-r001.png",
+      "role": "Parmentier identity",
+      "sha256": "f8135e6f4afce49c3c04cdf4ed35d6d931866dffcdfc416dce6a00d6e4a80169"
+    },
+    {
+      "path": "assets/characters/french-guard/character-french-guard-sheet-r001.png",
+      "role": "guard identity and uniform",
+      "sha256": "59eecee5bc2eec7d63bde0cc52e810fe8fd2148dc4ba5f88465c3c4e5eccbc16"
+    }
+  ],
+  "generated_source": {
+    "path": "episodes/001-potato-france/delivery/youtube/thumbnail-source-r001.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "c3aa1ece6147bc99288c3de9e9267d448412e46a4ace684ffb3a99d9228d4a92"
+  },
+  "delivery_master": {
+    "path": "episodes/001-potato-france/delivery/youtube/thumbnail-r001.png",
+    "width": 2160,
+    "height": 3840,
+    "resampling": "Lanczos via FFmpeg; no text overlay or compositing",
+    "sha256": "d0c83c4d87b0ea2b1fb43d141ec3bb525eb12c469eb57cb51ef7edea41244771"
+  },
+  "review_status": "assistant_qc_passed_user_approval_pending",
+  "publication_status": "not_uploaded"
+}

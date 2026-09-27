@@ -16,7 +16,23 @@
 - completed r003 batch: `2ad1371c-ff73-45e2-82cd-8c3b81be66f7`; all 17 jobs succeeded
 - targeted Clip 17 correction: r004 job `dd6d58e4-5d11-4cf5-bee9-0f4a81178942`, visually reviewed and accepted
 - prior renders: r001 rejected/incomplete; r002 retained for diagnosis and not approved
-- final master: not produced; `renders/final-selected/` is ready for one approved take per clip
+- picture master: `final/episode-002-hiroshima-final-minute-1080x1920-framewise-r001.mp4` is present at 1080×1920; narrated/subtitled distribution-master finishing remains external and unapproved
+- YouTube thumbnail: r002 candidate at `delivery/youtube/thumbnail-episode-002-r002.png`; assistant QC passed, user approval pending; r001 retained immutably
+- YouTube metadata: prepared provisionally; operator upload decisions and distribution-master approval remain pending
+- YouTube publication: not authorized and not performed
+
+## YouTube delivery status
+
+- thumbnail prompt revision: `delivery/youtube/thumbnail-prompt-r002.md`
+- thumbnail generation authorization: authorized by the user's 2026-09-27 request to regenerate Episodes 001 and 002
+- generated source: `delivery/youtube/thumbnail-episode-002-r002-source.png` (`sha256:8ff4e006f4254bac7317f7026b26c41a06ee4560b765e1711553dc9d2765fa42`)
+- thumbnail delivery master: `delivery/youtube/thumbnail-episode-002-r002.png`, 2160×3840 (`sha256:29d56a8f347f6ca5b363ae78ac888a5c4ec72215e1daaf5028380d857a7fd43b`)
+- typography: locked channel lettering system derived from Episode 002 r001; generated inside the artwork with no separate overlay
+- thumbnail review: assistant QC passed; user approval pending; not locked
+- metadata review: prepared and technically validated; operator review pending
+- picture master: `final/episode-002-hiroshima-final-minute-1080x1920-framewise-r001.mp4` (`sha256:7322e063e9c139c6ca93965d956eceb9edc6f4cded87c43bb77260ac3a402e1f`)
+- external Google Vids finishing: narration/subtitle distribution master has not been returned or archived; not complete
+- publication status: not uploaded; no visibility or publication action authorized
 
 ## Production contract
 

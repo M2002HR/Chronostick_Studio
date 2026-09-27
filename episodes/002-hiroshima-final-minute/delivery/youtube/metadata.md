@@ -2,6 +2,8 @@
 
 Status: provisional until the narrated/subtitled distribution master is returned from Google Vids and the operator completes the upload decisions.
 
+Current thumbnail candidate: `thumbnail-episode-002-r002.png` — assistant QC passed; user approval pending. Its headline and artwork were generated together; no separate text overlay was used.
+
 ## Primary title
 
 Hiroshima: los últimos 60 segundos antes del destello
