@@ -13,8 +13,9 @@ This repository is the production source of truth for ChronoStick Studio. Before
 9. `docs/versioning.md`
 10. `docs/decisions.md`
 11. `docs/production-profiles.md`
-12. the target episode's `README.md` and `plan/shot-plan.md`
-13. only the relevant locked files in `docs/specs/`
+12. `docs/localization-workflow.md` when creating a language version of an existing picture master
+13. the target episode's `README.md` and `plan/shot-plan.md`
+14. only the relevant locked files in `docs/specs/`
 
 ## Source-of-truth priority
 
@@ -41,6 +42,14 @@ Archived files explain history; they are not active instructions.
 - Do not overwrite generated media. Add `-r001`, `-r002`, and so on.
 - Use Git history for text versions. Never create names such as `final2` or `final-final`.
 - Do not mark an artifact approved or locked without an actual review decision.
+- Treat each language version as an immutable post-picture branch under
+  `episodes/<id>/localizations/<bcp47-language>/`. It may replace narration,
+  captions, and language metadata, but never silently alter or regenerate the
+  approved picture timeline.
+- Derive localized word timestamps from the actual accepted localized audio.
+  Preserve the provider response byte-for-byte, then record a separate
+  localized visual-timing map. Do not recycle Spanish word timestamps for a
+  different language.
 
 ## Working method
 

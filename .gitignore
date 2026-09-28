@@ -37,3 +37,7 @@ __pycache__/
 # Generated automation state and provenance stay local beside each episode.
 episodes/*/renders/**/*.run.json
 episodes/*/automation/run-state.json
+
+# Runtime console logs are transient; retain documented production logs such as
+# logs/generation-log.md.
+logs/*.log

@@ -24,6 +24,20 @@ episode-001-master-r001.mp4
 
 A revision number identifies an attempt, not approval. Record approval separately in the relevant spec, episode manifest, or generation log.
 
+Localized media belongs under
+`episodes/<id>/localizations/<bcp47-language>/`. Keep language tags stable and
+lowercase (for example `fa`, `es-mx`, `pt-br`), and use immutable revisions for
+every generated voice and master:
+
+```text
+narration-fa-r001.wav
+episode-003-deadliest-job-in-history-fa-r001.mp4
+```
+
+The localized script, timing maps, caption source, provider metadata, and
+review decision are text artifacts tracked with Git. Do not call a language
+version `dub-final` or overwrite a previous master.
+
 ## IDs and paths
 
 - episode directory: `NNN-lowercase-hyphenated-slug`

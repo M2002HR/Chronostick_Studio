@@ -90,7 +90,28 @@ When the timing map declares a sub-second tail extension, concatenate only the a
 
 Gate: complete timing, clean cuts, readable captions, factual integrity, audio compliance, and correct vertical export.
 
-## 12. Archive and close
+## 12. Localize an approved picture/SFX master (optional, once per target language)
+
+Do this only after the visual timeline has been selected and assembled. Create
+`localizations/<bcp47-language>/` inside the episode and follow
+[`localization-workflow.md`](localization-workflow.md).
+
+- use the approved picture/SFX master as an immutable timing authority
+- translate and adapt the narration to *semantic visual-cue windows*, not to
+  Spanish words one-for-one
+- generate the target-language voice, preserve the provider timing source, and
+  derive a new word-timing map from the accepted target-language audio
+- revise target-language wording or controlled delivery before considering any
+  audio time-stretch; never regenerate visual clips to accommodate a routine
+  translation-length difference
+- create target-language captions from the accepted target-language timings and
+  review RTL shaping/line breaks for Arabic-script languages
+
+Gate: the localized narration covers the approved meaning, lands on the fixed
+visual cues, ends within the approved picture duration, contains no leaked
+source-language voice, and has its own reviewed immutable distribution master.
+
+## 13. Archive and close
 
 Store final exports under `final/` with revision naming. Update the episode manifest with what is present, what is external, what is missing, and which revisions are approved. Commit documentation, prompt, and manifest changes together when they describe one production decision.
 
@@ -108,3 +129,5 @@ Store final exports under `final/` with revision naming. Update the episode mani
 - renders use `-rNNN` and are never overwritten
 - approvals and missing items are truthful
 - final export and handoff status documented
+- every released localization has its own script, real timings, captions,
+  review decision, and immutable distribution master

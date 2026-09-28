@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "status": "draft",
+  "language": "fa",
+  "language_name": "Persian",
+  "source_episode": "NNN-lowercase-slug",
+  "source_picture": {
+    "path": "episodes/NNN-lowercase-slug/final/episode-NNN-picture-sfx-r001.mp4",
+    "sha256": null,
+    "duration_seconds": null,
+    "audio_contract": "picture_sfx_only"
+  },
+  "source_timing_authority": {
+    "path": "episodes/NNN-lowercase-slug/timestamps/timing-map.json",
+    "sha256": null,
+    "visual_cue_source": "episode plan and approved picture timeline"
+  },
+  "narration": {
+    "approved_script": "script/narration-fa.md",
+    "spoken_start_seconds": null,
+    "spoken_end_seconds": null,
+    "target_duration_seconds": null
+  },
+  "synthesis": {
+    "provider": null,
+    "method": null,
+    "voice_id_or_name": null,
+    "model_id": null,
+    "controls_path": null,
+    "provider_project_or_request_id": null,
+    "notes": null
+  },
+  "artifacts": {
+    "visual_timing_map": "timing/visual-timing-map.json",
+    "segment_plan": "timing/segments.json",
+    "raw_timestamps": "timestamps/word-timestamps-source.json",
+    "word_timestamps": "timestamps/word-timestamps.csv",
+    "timing_map": "timestamps/timing-map.json",
+    "narration_audio": null,
+    "captions": null,
+    "distribution_master": null
+  },
+  "review": {
+    "audio_status": "missing",
+    "timing_status": "missing",
+    "caption_status": "missing",
+    "mix_status": "missing",
+    "distribution_status": "missing",
+    "approved_at": null,
+    "approved_by": null,
+    "notes": null
+  }
+}

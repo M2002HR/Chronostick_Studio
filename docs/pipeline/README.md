@@ -15,6 +15,12 @@ This package makes each production stage independently executable and resumable 
 9. selected-clip concat and framewise upscale to 1080×1920 with cover fitting
 10. Shorts thumbnail and upload metadata package, followed by truthful closeout
 
+After an approved picture/SFX master exists, an optional localization branch
+can produce a distinct narrated/captioned distribution master for each target
+language. It has independent script, voice, timing, caption, mix, and review
+gates; it never sends an existing episode back through image/video generation.
+See [`../localization-workflow.md`](../localization-workflow.md).
+
 The master router and stage-specific instructions are catalogued in [`skills/`](../../skills/CATALOG.md). Preparation does not authorize GPU generation, cancellation, upload, publication, deletion, or overwrite.
 
 Machine-readable contracts:

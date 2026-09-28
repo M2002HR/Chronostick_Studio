@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "language": "fa",
+  "picture_duration_seconds": null,
+  "segments": [
+    {
+      "id": "cue-01",
+      "start": 0.0,
+      "end": null,
+      "source_intent": "Describe the visual meaning, not a source-language word list.",
+      "localized_text": "",
+      "anchor_type": "semantic_visual_cue",
+      "anchor_tolerance_seconds": 0.25,
+      "status": "draft"
+    }
+  ]
+}

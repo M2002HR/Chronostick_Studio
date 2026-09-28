@@ -6,8 +6,8 @@
     "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
     "scale": 4
   },
-  "input": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/final/papa_2_erasio.mp4",
-  "output": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/final/papa_2_erasio-1080x1920-framewise-r001.mp4",
+  "input": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/renders/erasio_historia_01.mp4",
+  "output": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/final/erasio_historia_01-1080x1920-framewise-r001.mp4",
   "source": {
     "width": 1080,
     "height": 1920,
@@ -17,7 +17,7 @@
     "video_codec": "h264",
     "audio_codec": "aac",
     "has_audio": true,
-    "size": 50352570
+    "size": 50233308
   },
   "final": {
     "width": 1080,
@@ -28,11 +28,11 @@
     "video_codec": "h264",
     "audio_codec": "aac",
     "has_audio": true,
-    "size": 48717279
+    "size": 52469066
   },
   "settings": {
-    "input": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/final/papa_2_erasio.mp4",
-    "output": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/final/papa_2_erasio-1080x1920-framewise-r001.mp4",
+    "input": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/renders/erasio_historia_01.mp4",
+    "output": "/home/mhr/Code/chronostick-studio/episodes/001-potato-france/final/erasio_historia_01-1080x1920-framewise-r001.mp4",
     "model": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
     "width": 1080,
     "height": 1920,
@@ -40,21 +40,21 @@
     "tile": 256,
     "overlap": 32,
     "precision": "fp16",
-    "blend": 0.7,
+    "blend": 1.0,
     "crf": 16,
     "preset": "medium",
     "progress_every": 12,
     "overwrite": false
   },
-  "started_at": "2026-09-27T18:10:09.935978+00:00",
-  "completed_at": "2026-09-27T20:13:46.768643+00:00",
-  "elapsed_seconds": 7416.833,
-  "processing_fps": 0.229,
+  "started_at": "2026-09-28T07:42:54.003674+00:00",
+  "completed_at": "2026-09-28T09:51:05.031798+00:00",
+  "elapsed_seconds": 7691.028,
+  "processing_fps": 0.221,
   "resources": {
     "sample_count": 143,
-    "gpu_memory_used_mib_peak": 2235.0,
-    "gpu_utilization_percent_average": 70.322,
-    "gpu_power_w_peak": 146.99,
+    "gpu_memory_used_mib_peak": 2485.0,
+    "gpu_utilization_percent_average": 71.713,
+    "gpu_power_w_peak": 146.88,
     "gpu_temperature_c_peak": 60.0
   }
 }

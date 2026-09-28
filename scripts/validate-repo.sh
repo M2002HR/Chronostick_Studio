@@ -259,6 +259,10 @@ if ! git diff --cached --check; then
   failures=$((failures + 1))
 fi
 
+if ! python scripts/validate-localizations.py "$repo_root"; then
+  failures=$((failures + 1))
+fi
+
 if (( failures > 0 )); then
   printf 'Validation failed with %d issue(s).\n' "$failures"
   exit 1

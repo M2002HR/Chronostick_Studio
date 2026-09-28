@@ -59,3 +59,9 @@ The script refuses overwrites, enforces the one-second default maximum, validate
 ## Future stages
 
 Caption rendering, typography, narration mixing, branding, loudness normalization, and any music policy belong after deterministic clip concatenation. They should be explicit configurable stages rather than implicit behavior in folder concat. The current production policy forbids background music; introducing it later requires an intentional policy decision and audio-mix specification.
+
+Each released language is an independent post-picture branch. See
+[`localization-workflow.md`](localization-workflow.md): it replaces the
+narration/caption program track while retaining the approved picture timeline
+and natural SFX. Do not overwrite a source-language distribution master when
+making a localized export.

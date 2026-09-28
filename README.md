@@ -36,6 +36,8 @@ episodes/<id-slug>/             Complete episode workspace
   automation/                   Service config, batch defaults, and job JSON
   renders/                      Revisioned generated clips
   final/                        Final assembled exports
+  localizations/<bcp47>/        Independent narration, timing, captions, and
+                                distribution masters for language versions
 logs/                           Cross-project generation records
 ```
 
@@ -51,6 +53,8 @@ Episode 001 is the reference implementation. Its final video was produced extern
 - Fast pacing comes from cuts and framing changes, not chaotic motion.
 - No background music; only narration and natural diegetic sound effects.
 - Git versions text; `-rNNN` versions generated media.
+- A localized release reuses the approved picture/SFX master and gets its own
+  script, real voice timings, captions, review record, and immutable master.
 
 The migration brief that established this structure is preserved in `docs/archive/` for provenance and is not an active runbook.
 
@@ -62,4 +66,6 @@ Run:
 ./scripts/validate-repo.sh
 ```
 
-The validator checks prompt purity, the mandatory audio sentence, malformed asset paths, referenced asset existence, automation JSON, prompt/reference mapping, profile settings, and whitespace errors. Empty archived prompts produce warnings because they are intentional documented gaps.
+The validator checks prompt purity, the mandatory audio sentence, malformed asset paths, referenced asset existence, automation JSON, prompt/reference mapping, profile settings, localization provenance/timing contracts, and whitespace errors. Empty archived prompts produce warnings because they are intentional documented gaps.
+
+For a translated release, start with [the localization workflow](docs/localization-workflow.md). It is deliberately a post-picture branch: the localized narration is fitted to the finished visual timeline rather than causing the video generations to be rebuilt.
