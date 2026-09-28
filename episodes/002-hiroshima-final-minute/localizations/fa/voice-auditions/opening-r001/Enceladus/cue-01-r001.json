@@ -1,0 +1,22 @@
+{
+  "cue_id": "cue-01",
+  "revision": "r001",
+  "created_at": "2026-09-28T17:47:50.072601+00:00",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Enceladus",
+  "style": "Natural conversational Iranian Persian; calm, restrained storytelling.",
+  "spoken_text": "هیروشیما. فقط یه دقیقه تا انفجار اتمی مونده. شهر هنوز آرومه.",
+  "spoken_text_sha256": "30d5bf9e97cf668c9a346dcc6a0e9ac81db4973e34a6506eba070a2d025a99f4",
+  "wav_sha256": "1ec34c9c8172adb6c3f8f06b424a954e94b6f58743b92144c8940288c7e89b2a",
+  "duration_seconds": 6.56,
+  "target_start": 0.2,
+  "target_end": 6.5,
+  "response_headers": {
+    "x-router-provider": "gemini",
+    "x-proxy-served-via": "gemini_direct",
+    "x-proxy-key-slot": "1",
+    "x-proxy-key-pool-size": "12",
+    "x-proxy-key-rotated": "false",
+    "x-proxy-attempts": "1"
+  }
+}

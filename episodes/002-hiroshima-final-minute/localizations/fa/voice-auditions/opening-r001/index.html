@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مقایسهٔ ویس‌های فارسی — کلیپ دوم</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; color-scheme: light dark; }
+    body { max-width: 850px; margin: 2rem auto; padding: 0 1rem; line-height: 1.8; }
+    h1 { font-size: 1.5rem; }
+    .note { opacity: .75; }
+    .line { padding: .8rem 1rem; border-inline-start: 4px solid #888; background: color-mix(in srgb, CanvasText 5%, Canvas); }
+    .voice { display: grid; grid-template-columns: minmax(120px, 1fr) minmax(240px, 3fr); align-items: center; gap: 1rem; padding: .6rem 0; border-bottom: 1px solid #8885; }
+    .voice label { direction: ltr; text-align: left; font-weight: 600; }
+    audio { width: 100%; }
+    @media (max-width: 600px) { .voice { grid-template-columns: 1fr; gap: .1rem; } }
+  </style>
+</head>
+<body>
+  <h1>مقایسهٔ ۱۶ ویس فارسیِ شروع کلیپ دوم</h1>
+  <p class="line">هیروشیما. فقط یه دقیقه تا انفجار اتمی مونده. شهر هنوز آرومه.</p>
+  <p class="note">همهٔ نمونه‌ها با متن، مدل و دستور لحن یکسان ساخته شده‌اند. پخش صدای جدید، صدای قبلی را متوقف می‌کند. این‌ها فقط نمونهٔ انتخاب صدا هستند، نه نریشن نهاییِ تأییدشده.</p>
+  <main id="voices"></main>
+  <script>
+    const names = ["Achird", "Algenib", "Algieba", "Alnilam", "Charon", "Enceladus", "Fenrir", "Iapetus", "Orus", "Puck", "Rasalgethi", "Sadachbia", "Sadaltager", "Schedar", "Umbriel", "Zubenelgenubi"];
+    const container = document.querySelector("#voices");
+    for (const name of names) {
+      const row = document.createElement("section");
+      row.className = "voice";
+      const label = document.createElement("label");
+      label.textContent = name;
+      const audio = document.createElement("audio");
+      audio.controls = true;
+      audio.preload = "none";
+      audio.src = `${name}/cue-01-r001.wav`;
+      audio.setAttribute("aria-label", `نمونهٔ صدای ${name}`);
+      audio.addEventListener("play", () => {
+        document.querySelectorAll("audio").forEach(other => {
+          if (other !== audio) other.pause();
+        });
+      });
+      row.append(label, audio);
+      container.append(row);
+    }
+  </script>
+</body>
+</html>
