@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "003-deadliest-job-in-history",
+  "package_status": "provisional_pending_thumbnail_user_approval_external_voice_finish_and_operator_decisions",
+  "prepared_at": "2026-09-28",
+  "language": "es",
+  "title": {
+    "primary": "¿El trabajo más mortal? Cuatro presidentes asesinados",
+    "alternatives": [
+      "4 de 45 presidentes fueron asesinados: ¿el cargo más mortal?",
+      "Lincoln, Garfield, McKinley y JFK: cuatro presidentes asesinados"
+    ],
+    "character_limit": 100
+  },
+  "description": "¿Puede la presidencia de Estados Unidos ser uno de los trabajos más mortales? Cuatro de las 45 personas distintas que han ocupado el cargo fueron asesinadas: Abraham Lincoln, James A. Garfield, William McKinley y John F. Kennedy.\n\nEste Short animado recorre sus cuatro historias con cortes rápidos y una representación simbólica no gráfica. La cifra del 8,9 % usa 4 ÷ 45 personas distintas; no las 47 presidencias numeradas. Además, ocho presidentes murieron en el cargo, pero este episodio se centra específicamente en los cuatro asesinados.\n\nFuentes:\n- Casa Blanca — Presidential Walk of Fame: https://www.whitehouse.gov/walk-of-fame/\n- National Archives — Protection of the President: https://www.archives.gov/research/jfk/warren-commission-report/appendix7.html\n- National Park Service — John Wilkes Booth: https://www.nps.gov/people/john-wilkes-booth.htm\n- National Park Service — James A. Garfield: https://www.nps.gov/articles/000/the-federal-civil-service-and-the-death-of-president-james-a-garfield.htm\n- National Park Service — William McKinley: https://www.nps.gov/thri/september6.htm\n- National Archives — Warren Commission: https://www.archives.gov/research/jfk/warren-commission-report/chapter-1.html\n\n#Historia #PresidentesDeEEUU #AbrahamLincoln #JFK #Shorts",
+  "description_character_limit": 5000,
+  "hashtags": [
+    "#Historia",
+    "#PresidentesDeEEUU",
+    "#AbrahamLincoln",
+    "#JFK",
+    "#Shorts"
+  ],
+  "tags": [
+    "presidentes de Estados Unidos",
+    "presidentes asesinados",
+    "Abraham Lincoln",
+    "James A. Garfield",
+    "James Garfield",
+    "William McKinley",
+    "John F. Kennedy",
+    "JFK",
+    "historia de Estados Unidos",
+    "historia animada",
+    "shorts historia",
+    "ChronoStick"
+  ],
+  "category": {
+    "name": "Education",
+    "education_type": "concept_overview"
+  },
+  "depicted_events": [
+    {
+      "person": "Abraham Lincoln",
+      "location": "Washington, D.C., United States",
+      "date": "1865-04-14"
+    },
+    {
+      "person": "James A. Garfield",
+      "location": "Washington, D.C., United States",
+      "date": "1881-07-02"
+    },
+    {
+      "person": "William McKinley",
+      "location": "Buffalo, New York, United States",
+      "date": "1901-09-06"
+    },
+    {
+      "person": "John F. Kennedy",
+      "location": "Dallas, Texas, United States",
+      "date": "1963-11-22"
+    }
+  ],
+  "recording": {
+    "date": null,
+    "location": null,
+    "note": "Animated historical reconstruction; do not enter depicted historical dates or locations as recording metadata."
+  },
+  "audience": {
+    "made_for_kids": null,
+    "operator_decision_required": true,
+    "recommended_value": false,
+    "rationale": "The assassination-history topic and general-audience educational framing are not specifically directed at children."
+  },
+  "age_restriction": {
+    "restricted_to_adults": null,
+    "operator_decision_required": true,
+    "recommended_value": false,
+    "rationale": "The approved treatment is symbolic and non-graphic; the operator must still review the final narrated and subtitled distribution master."
+  },
+  "ai_use": {
+    "operator_decision_required": true,
+    "recommended_value": false,
+    "voluntary_disclosure_allowed": true,
+    "rationale": "Current YouTube guidance requires disclosure for meaningfully altered or generated content that appears realistic; this episode is visibly non-realistic ChronoStick animation. The operator may still disclose voluntarily for transparency."
+  },
+  "thumbnail": {
+    "text_line_1": "4 PRESIDENTES",
+    "text_line_2": "ASESINADOS",
+    "generation_method": "chatgpt_single_image_with_integrated_typography",
+    "source_path": "episodes/003-deadliest-job-in-history/delivery/youtube/thumbnail-episode-003-r001-source.png",
+    "path": "episodes/003-deadliest-job-in-history/delivery/youtube/thumbnail-episode-003-r001.png",
+    "width": 2160,
+    "height": 3840,
+    "format": "png",
+    "template": "assets/branding/youtube-shorts/README.md",
+    "prompt_path": "episodes/003-deadliest-job-in-history/delivery/youtube/thumbnail-prompt-r001.md",
+    "source_sha256": "fc178adb1f62ce620e83c5fbcad68373b72c5a0d97be155ae1c2089c9dd16312",
+    "sha256": "c210fddf2455a6164bb7da9b89bc89c91422699ee420c41188fe9954536d6ec9",
+    "post_generation_changes": "resolution conversion only; no text or graphic overlay",
+    "generation_status": "generated",
+    "review_status": "assistant_qc_passed_user_approval_pending"
+  },
+  "media": {
+    "picture_master": "episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-1080x1920-framewise-r001.mp4",
+    "picture_master_status": "upscale_completed_technical_validation_and_contact_sheet_passed",
+    "picture_master_sha256": "f485068ec516609c505e0b4ea4a098bac3b56ef27ccd15c4b9e6583f6c2efee5",
+    "distribution_master": null,
+    "expected_upload_filename": "chronostick-003-cuatro-presidentes-asesinados-1080x1920.mp4",
+    "note": "Set distribution_master only after the external Spanish narration and subtitle finish is reviewed and archived."
+  },
+  "related_video": {
+    "video_id": null,
+    "operator_decision_required": true,
+    "recommendation": "Link the strongest public or unlisted ChronoStick history episode, preferably Episode 002 once published."
+  },
+  "playlist": {
+    "playlist_id": null,
+    "operator_decision_required": true,
+    "recommendation": "ChronoStick | Historia en 60 segundos"
+  },
+  "upload_decisions": {
+    "visibility": null,
+    "license": null,
+    "allow_embedding": null,
+    "notify_subscribers": null,
+    "shorts_remixing": null,
+    "comments": null,
+    "publication_authorized": false
+  },
+  "official_platform_checks": {
+    "checked_at": "2026-09-28",
+    "title_limit": 100,
+    "description_limit": 5000,
+    "shorts_thumbnail": "2160x3840 PNG or JPG, 9:16, custom upload in YouTube Studio on desktop for an eligible verified account",
+    "shorts_eligibility_note": "A square or vertical video of three minutes or less can be categorized as a Short.",
+    "sources": [
+      "https://support.google.com/youtube/answer/57407?hl=en",
+      "https://support.google.com/youtube/answer/72431?hl=en",
+      "https://support.google.com/youtube/answer/14328491?hl=en-GB",
+      "https://support.google.com/youtube/answer/12948449?hl=en"
+    ]
+  }
+}

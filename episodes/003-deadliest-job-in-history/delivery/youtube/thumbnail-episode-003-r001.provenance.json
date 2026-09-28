@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "003-deadliest-job-in-history",
+  "revision": "r001",
+  "generator": "openai-built-in-imagegen",
+  "generation_authorized_by": "user",
+  "generation_authorization": "بسازش",
+  "generated_at": "2026-09-28T06:37:58+03:30",
+  "prompt_path": "episodes/003-deadliest-job-in-history/delivery/youtube/thumbnail-prompt-r001.md",
+  "references": [
+    {
+      "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002.png",
+      "role": "typography-only benchmark",
+      "sha256": "29d56a8f347f6ca5b363ae78ac888a5c4ec72215e1daaf5028380d857a7fd43b"
+    },
+    {
+      "path": "assets/episodes/003-deadliest-job-in-history/references/four-presidents-memorial-anchor-r001.png",
+      "role": "four identities and ChronoStick style authority",
+      "sha256": "9798c3b8f3b7a89f5aafeb25f383f09e3e16813b93dbb74c90a0fe70b7fbde15"
+    },
+    {
+      "path": "assets/episodes/003-deadliest-job-in-history/references/presidential-danger-office-anchor-r001.png",
+      "role": "empty chair, office material, and danger-light authority",
+      "sha256": "fdca824882ae48c484a13350183d8f5ab3e2fd8473eee360a0ebfbe916651100"
+    }
+  ],
+  "generated_source": {
+    "generator_path": "/home/mhr/.codex/generated_images/01a0e460-8fc3-7fc0-8e8f-a389b8e57062/exec-11620b14-aee6-4512-a947-de57d2ee1f08.png",
+    "archive_path": "episodes/003-deadliest-job-in-history/delivery/youtube/thumbnail-episode-003-r001-source.png",
+    "width": 941,
+    "height": 1672,
+    "format": "png",
+    "sha256": "fc178adb1f62ce620e83c5fbcad68373b72c5a0d97be155ae1c2089c9dd16312"
+  },
+  "delivery_master": {
+    "path": "episodes/003-deadliest-job-in-history/delivery/youtube/thumbnail-episode-003-r001.png",
+    "width": 2160,
+    "height": 3840,
+    "format": "png",
+    "sha256": "c210fddf2455a6164bb7da9b89bc89c91422699ee420c41188fe9954536d6ec9"
+  },
+  "post_generation_changes": "Resolution conversion only from 941x1672 to 2160x3840 using Lanczos scaling; no text, graphic, crop, color, or compositing changes.",
+  "review_path": "episodes/003-deadliest-job-in-history/delivery/youtube/thumbnail-review-r001.md",
+  "review_status": "assistant_qc_passed_user_approval_pending",
+  "publication_authorized": false
+}

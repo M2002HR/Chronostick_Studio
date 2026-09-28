@@ -52,6 +52,16 @@
     "concat_on_complete": false,
     "upscale_on_complete": false
   },
+  "tail_extension": {
+    "enabled": true,
+    "mode": "freeze_last_frame",
+    "maximum_seconds": 1.0,
+    "apply_after_concat_before_upscale": true,
+    "generated_audio_fill": "silence",
+    "external_narration_continues": true,
+    "requires_resolved_final_frame": true,
+    "script": "scripts/extend-last-frame.sh"
+  },
   "upscale": {
     "engine": "spandrel_framewise",
     "script": "/home/mhr/AI/comfy-video-automation/scripts/upscale-framewise-video.sh",

@@ -1,0 +1,10 @@
+Use case: historical-scene
+Asset type: generation-safe vertical ChronoStick scene anchor for Clips 05 and 06
+Input images: Image 1 is the sole rendering-style authority; Image 2 is the approved James A. Garfield identity authority
+Primary request: depict Garfield alive in the intact Baltimore and Potomac railroad station immediately before the attack, with Guiteau following at a clearly separate distance
+Scene/backdrop: one continuous 1881 American railway station interior, dark walnut beams and bench, aged brass clock without readable numerals, pale steam crossing distant tracks, muted summer daylight through high windows, period luggage kept sparse
+Subject: exactly two foreground people total—Garfield at front-right walking calmly rightward, broader coat silhouette, brushed-back side-parted dark hair, full brown-black beard and mustache, dark frock coat and hat held low in his left hand; Guiteau several steps behind at rear-left in a plain dark period suit and dark soft hat, one hand inside closed coat but no weapon visible; both are symbolic stick figures with dot eyes and closed mouths
+Style/medium: Image 1 controls every pixel; detailed cinematic historical ChronoStick illustration, clean dark outlines, off-white round heads, thin limbs, tactile wood, steam, wool, and brass, muted storybook realism
+Composition/framing: vertical 9:16 medium-wide at waist-height, Garfield dominant with clean silhouette, Guiteau smaller and separated by a station column, strong left-to-right travel direction, safe crop, one viewpoint and one time state
+Lighting/mood: soft gray daylight, warm brass edge light, ordinary public calm with quiet tension
+Constraints: exact count two foreground people; preserve Garfield identity from Image 2; no beard on Guiteau that could confuse him with Garfield; no revolver, flash, wound, blood, fall, dropped hat, custody, duplicate Garfield, crowd crossing foreground, text, sign, caption, border, panel, grid, inset, collage, watermark, photorealism, live action, realistic anatomy, glossy 3D, anime, or future-event contamination

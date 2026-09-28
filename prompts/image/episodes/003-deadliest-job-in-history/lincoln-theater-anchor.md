@@ -1,0 +1,10 @@
+Use case: historical-scene
+Asset type: generation-safe vertical ChronoStick scene anchor for Clips 03 and 04
+Input images: Image 1 is the sole rendering-style authority; Image 2 is the approved Abraham Lincoln identity authority
+Primary request: depict the intact pre-attack presidential box at Ford's Theatre with Lincoln recognizable and alive, and John Wilkes Booth only as a separate period actor approaching in the rear doorway
+Scene/backdrop: one continuous 1865 theater-box interior, burgundy velvet rail and curtain, muted gold trim, warm gaslight, dark wood doorway in rear; no signage, poster, writing, stage text, or split composition
+Subject: exactly two people total—Lincoln seated at front-left in profile, extremely tall even while seated, black stovepipe hat resting safely on the rail, chin beard without mustache, black frock coat and bow tie; Booth at rear-right several steps away in dark period actor evening clothes, clean separation between bodies, hands low and empty, no weapon visible; both minimal stick faces with closed mouths
+Style/medium: Image 1 controls every pixel; detailed cinematic historical ChronoStick stick-world, clean ink outlines, round off-white heads, thin limbs, tactile velvet and wood, painterly depth, no realistic anatomy
+Composition/framing: vertical 9:16 medium-wide from slightly below rail height, Lincoln dominant in foreground, Booth smaller and partially shadowed in doorway, all limbs readable, safe crop, one viewpoint and one time state
+Lighting/mood: warm amber gaslight on Lincoln, cooler shadow around Booth, tense but not yet violent
+Constraints: exact count two, preserve Lincoln identity from Image 2; Booth must remain a generic distinguishable actor and must not resemble Lincoln; no raised hand, gun, muzzle flash, wound, blood, fallen body, duplicate Lincoln, repeated pose, text, caption, border, panel, grid, inset, collage, watermark, photorealism, live action, realistic anatomy, glossy 3D, anime, or later-event contamination

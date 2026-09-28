@@ -142,6 +142,103 @@ then
   failures=$((failures + 1))
 fi
 
+if ! python - "$repo_root" <<'PY'
+import hashlib
+import json
+import math
+import os
+import sys
+from pathlib import Path
+
+root = Path(sys.argv[1])
+errors = []
+defaults_path = root / "docs/pipeline/production-defaults.json"
+
+try:
+    defaults = json.loads(defaults_path.read_text(encoding="utf-8"))
+except (OSError, json.JSONDecodeError) as exc:
+    errors.append(f"{defaults_path.relative_to(root)}: invalid JSON: {exc}")
+    defaults = {}
+
+tail_defaults = defaults.get("tail_extension", {})
+expected_tail_defaults = {
+    "enabled": True,
+    "mode": "freeze_last_frame",
+    "maximum_seconds": 1.0,
+    "apply_after_concat_before_upscale": True,
+    "generated_audio_fill": "silence",
+    "external_narration_continues": True,
+    "requires_resolved_final_frame": True,
+    "script": "scripts/extend-last-frame.sh",
+}
+for key, expected in expected_tail_defaults.items():
+    if tail_defaults.get(key) != expected:
+        errors.append(f"docs/pipeline/production-defaults.json: tail_extension.{key} must be {expected!r}")
+
+tail_script = root / str(tail_defaults.get("script", ""))
+if not tail_script.is_file() or not os.access(tail_script, os.X_OK):
+    errors.append("Configured tail-extension script is missing or not executable")
+
+for timing_path in sorted(root.glob("episodes/*/timestamps/timing-map.json")):
+    try:
+        timing = json.loads(timing_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"{timing_path.relative_to(root)}: invalid JSON: {exc}")
+        continue
+
+    editorial = timing.get("editorial", {})
+    tail = editorial.get("tail_extension", {})
+    if not tail.get("enabled"):
+        continue
+
+    episode_root = timing_path.parent.parent
+    clip_seconds = editorial.get("clip_seconds")
+    generated_count = editorial.get("generated_clip_count")
+    narration_end = timing.get("narration", {}).get("spoken_end")
+    duration = tail.get("duration_seconds")
+    maximum = tail.get("maximum_allowed_seconds")
+    start = tail.get("start")
+    end = tail.get("end")
+
+    numeric_values = [clip_seconds, generated_count, narration_end, duration, maximum, start, end]
+    if not all(isinstance(value, (int, float)) for value in numeric_values):
+        errors.append(f"{timing_path.relative_to(root)}: tail-extension timing values must be numeric")
+        continue
+
+    if tail.get("mode") != "freeze_last_frame":
+        errors.append(f"{timing_path.relative_to(root)}: unsupported tail extension mode")
+    if duration <= 0 or duration > maximum or maximum > tail_defaults.get("maximum_seconds", 0):
+        errors.append(f"{timing_path.relative_to(root)}: tail extension exceeds the configured limit")
+    if not math.isclose(generated_count * clip_seconds, start, abs_tol=1e-6):
+        errors.append(f"{timing_path.relative_to(root)}: tail start does not follow complete generated slots")
+    if not math.isclose(end, narration_end, abs_tol=1e-6):
+        errors.append(f"{timing_path.relative_to(root)}: tail end must equal narration end")
+    if not math.isclose(duration, end - start, abs_tol=1e-6):
+        errors.append(f"{timing_path.relative_to(root)}: tail duration arithmetic is inconsistent")
+    if editorial.get("default_ceil_clip_count") != math.ceil(narration_end / clip_seconds):
+        errors.append(f"{timing_path.relative_to(root)}: default ceiling clip count is incorrect")
+    if editorial.get("final_duration_seconds") != narration_end:
+        errors.append(f"{timing_path.relative_to(root)}: final duration must equal narration end")
+    if tail.get("generated_audio_fill") != "silence" or tail.get("external_narration_continues") is not True:
+        errors.append(f"{timing_path.relative_to(root)}: tail audio policy is invalid")
+    if tail.get("requires_resolved_final_frame") is not True:
+        errors.append(f"{timing_path.relative_to(root)}: tail must require a resolved final frame")
+
+    source = timing.get("source", {})
+    source_path = episode_root / str(source.get("path", ""))
+    if not source_path.is_file():
+        errors.append(f"{timing_path.relative_to(root)}: timing source does not exist")
+    elif hashlib.sha256(source_path.read_bytes()).hexdigest() != source.get("sha256"):
+        errors.append(f"{timing_path.relative_to(root)}: timing source hash mismatch")
+
+for error in errors:
+    print(f"FAIL {error}")
+raise SystemExit(bool(errors))
+PY
+then
+  failures=$((failures + 1))
+fi
+
 if find assets -type f \( -name '*.png.png' -o -path '*/assets/worlds/assets/*' \) | grep -q .; then
   printf 'FAIL malformed asset path or duplicate extension found\n'
   failures=$((failures + 1))

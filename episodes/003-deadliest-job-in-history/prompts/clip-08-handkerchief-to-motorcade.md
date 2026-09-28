@@ -1,0 +1,27 @@
+Create exactly one 5.00-second vertical 9:16 sequence at 24 fps with eight extremely fast but clean instantaneous hard-cut shots. Complete the concealed-revolver and public-exposition context, close that historical world, then execute a graphic wheel match cut into a calm pre-event 1963 Dallas motorcade. No Dallas attack action occurs in this clip.
+
+Reference mapping: <Picture 1> controls McKinley's exact identity, scarlet carnation, Czolgosz's pale handkerchief, the ornate 1901 exposition hall, cream columns, burgundy drapery, warm electric bulbs, and the period stick-world; <Picture 2> controls Kennedy's exact swept-hair identity, navy suit and slim blue tie, the single open dark-navy 1963 limousine, exact four-occupant layout, clear Dallas daylight, left-to-right direction, and the shared detailed cinematic ChronoStick rendering.
+
+All people, hands, cloth, revolver, floor, columns, bulbs, crowd silhouettes, portrait frame, wheels, car, buildings, trees, sky, and shadows must remain clean dark-outlined hand-painted ChronoStick imagery with round off-white heads, dot eyes, closed mouths, thin limbs, tactile materials, muted cinematic colors, and controlled depth. No photorealism, live action, realistic anatomy, glossy 3D, anime, mixed style, panels, grids, borders, contact sheets, or cross-era morphing.
+
+Chronology lock: McKinley's attack is already complete when this clip begins; only the concealed object and public setting are clarified. The Dallas era begins only after the wheel match cut. Kennedy is alive and calm through 5.00. Exactly four occupants remain in the one limousine: two generic clean-shaven men in front, the rose-pink-suited woman rear-left, Kennedy rear-right. No shooter, weapon, disturbance, or fear appears in Dallas.
+
+0.00–0.62 — Extreme insert continuing the single cloth-covered revolver shape. The pale handkerchief peels back once, revealing exactly one small period revolver beneath it. No hand anatomy beyond one simplified grip. Camera locked. Synchronized SFX: cloth pull and one muted metal click. Instantaneous hard cut at 0.62.
+
+0.62–1.25 — Low close-up of the same pale handkerchief above ornate tile. The cloth completes one gravity-driven fall, lands flat, and stops. No person or weapon visible. Camera locked. Synchronized SFX: soft fabric flutter and floor slap. Instantaneous hard cut at 1.25.
+
+1.25–1.90 — Wide public receiving hall. Exactly three dominant foreground silhouettes step backward together one short pace from the empty center, while the distant queue remains soft and almost still. No body or wound. Camera locked. Synchronized SFX: synchronized shoe shuffle, cloth movement, restrained crowd movement without voices. Instantaneous hard cut at 1.90.
+
+1.90–2.55 — Vertical exterior of a Temple of Music-inspired exposition facade with warm bulbs, cream stone, and burgundy accents. No signage or text. One band of bulbs switches off from top to bottom. Execute one short downward tilt that stops by 2.45. Synchronized SFX: natural relay clicks and fading electrical buzz. Instantaneous hard cut at 2.55.
+
+2.55–3.15 — Dark presidential portrait corridor with one final unlit oval frame at the end. One warm light clicks on inside the oval, revealing only a youthful swept-hair silhouette, not a detailed face. Perform one straight push toward the frame and stop by 3.05. Synchronized SFX: one lamp click and clean footsteps. Instantaneous hard cut at 3.15.
+
+3.15–3.75 — Graphic match cut: one ornate exposition wheel occupies the same screen position as one 1963 limousine wheel on sunlit Dallas pavement. The limousine wheel completes exactly one forward rotation left-to-right. Use one short low lateral track, stopping at the cut. Synchronized SFX: tire-on-road texture, bearing rotation, no musical transition. Instantaneous hard cut at 3.75.
+
+3.75–4.40 — Wide curb-height view of exactly one open dark-navy limousine moving steadily left-to-right. Exactly four occupants retain the Picture 2 positions. Kennedy is rear-right, alive and upright; the woman is rear-left; two men are in front. The background crowd remains small soft stick silhouettes. Camera locked. Synchronized SFX: steady engine, tire noise, light crowd ambience without individual voices. Instantaneous hard cut at 4.40.
+
+4.40–5.00 — Medium rear three-quarter Kennedy. Thick swept side-parted dark hair, clean-shaven face, navy shoulder, white shirt, and slim blue tie are clearly visible. Kennedy turns his head only slightly toward the crowd and becomes fully still by 4.82. Other occupants remain seated and low-motion. Camera locked, clear late-morning sunlight and cool sky fill. Synchronized SFX: light wind, steady engine, cloth rustle, distant non-vocal crowd ambience. Hold stable through 5.00.
+
+Do not blend exposition and Dallas into one location. Do not show a shooter, rifle, flash, report, birds taking flight, injury, blood, lowered body, acceleration, fear, duplicate Kennedy, extra occupant, second car, motorcycle, modern vehicle, exposed weapon after 1.25, missing carnation in exposition, open mouth, dialogue, speech, narration, whisper, vocal cheer, readable sign, license text, title, name, date, number, subtitle, caption, logo, watermark, melody, harmony, beat, percussion, rhythm bed, tonal drone, pad, pulse, score, soundtrack, riser, sting, singing, or musicalized ambience. No dissolve, whip pan, unstable camera, identity morph, or unfinished final head turn.
+
+NO BACKGROUND MUSIC. Natural diegetic sound effects only.

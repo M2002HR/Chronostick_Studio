@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "operation": "freeze_last_frame",
+  "input": {
+    "path": "episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-concat-r001.mp4",
+    "sha256": "07480d26d328905c3bdfba03beabe3ab2ff977ac2fb9628738804f2f78910a1f",
+    "duration_seconds": 45.021333
+  },
+  "output": {
+    "path": "episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-tail-extended-r001.mp4",
+    "sha256": "c4db4aa506da9467cb6ea02ed12e011270ea194c6c6ed5133c46095b877d3d31",
+    "duration_seconds": 45.666016
+  },
+  "hold_seconds": 0.640,
+  "maximum_hold_seconds": 1.0,
+  "target_duration_seconds": 45.661333,
+  "video_filter": "tpad=stop_mode=clone",
+  "audio_policy": "pad_existing_audio_with_silence",
+  "overwrite": false,
+  "created_at": "2026-09-28T06:23:25+03:30"
+}

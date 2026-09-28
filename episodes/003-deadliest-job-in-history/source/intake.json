@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "003-deadliest-job-in-history",
+  "title": "The deadliest job in history?",
+  "source_path": "source/source-en.md",
+  "source_sha256": "b0c43986b1eb086ba48bd6a75c9120379d93872b932cb845c829389d938c6cb6",
+  "source_origin": "User-supplied text; no original publication URL supplied",
+  "target_language": "es",
+  "audience": "General YouTube Shorts audience",
+  "duration_range_seconds": [40, 60],
+  "preferred_duration_seconds": 52,
+  "project_seed": 20260927003,
+  "factual_mode": "historical",
+  "cta_required": true,
+  "preservation_instruction": "Translate the complete supplied title and narrative into Spanish without adding or removing content, except for the user-authorized update from 46 and 8.7% to 45 and 8.9% and the later user-requested short subscription CTA.",
+  "assumptions": [
+    "Spanish is the target narration language as explicitly requested.",
+    "The title remains the first line of the approved script but is non-spoken; the approved voice and timestamps begin with the narration body.",
+    "Factual qualifications are recorded outside the narration because the user explicitly requested no additions or omissions.",
+    "On 2026-09-27 the user explicitly changed the denominator to 45 and authorized the corresponding 8.9% rate.",
+    "On 2026-09-27 the user requested a brief subscribe-style CTA at the end so the revised voice better fills the tenth five-second slot."
+  ]
+}

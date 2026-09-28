@@ -14,6 +14,7 @@ Separate generations do not require pixel-matched boundary frames, but they do r
 
 - for 10-second Omni clips: hook 6–8 beats, body 4–6 beats, ending 3–5 beats
 - for 5-second H3 clips: approximately 2–4 readable micro-beats; reduce density before sacrificing clarity
+- for a named rapid-cut H3 profile: 6–8 hard-cut shots are allowed only when every shot has one simple action, identity remains readable, and the episode shot plan supplies exact sub-second timing
 - reserve a short resolved hold when useful
 
 Permanent principle: FAST EDITING + MODERATE MOTION.

@@ -1,0 +1,10 @@
+Use case: historical-scene
+Asset type: generation-safe vertical ChronoStick scene anchor for Clip 01
+Input images: Image 1 is the sole rendering-style authority
+Primary request: create one continuous symbolic presidential office scene whose empty chair feels powerful and subtly dangerous, entirely in the detailed cinematic ChronoStick stick-world
+Scene/backdrop: timeless White House-inspired office at night, dark walnut floor, one simple low desk without carving or emblem, parchment-cream walls, deep midnight-blue shadows, restrained brass fixtures, an empty high-backed presidential chair centered beneath a circular ceiling light; four long clearly separate generic stick-person shadows stretch up the wall behind the chair while no person is physically present
+Subject: exact foreground person count zero; one intact empty chair only; exactly four generic wall shadows only, each shadow has the same plain round head and narrow shoulders with absolutely no clothing, hat, crown, helmet, wig, beard, staff, prop, or historical identity; no bodies and no portraits
+Style/medium: match the detailed cinematic historical ChronoStick illustration of Image 1 exactly, including clean dark ink contours, tactile painted materials, muted cinematic palette, dimensional light, and storybook realism; architecture and shadows must also look illustrated, never photographic
+Composition/framing: vertical 9:16, symmetrical low eye-level wide shot, chair centered in lower-middle, four shadows legible around it, safe crop on all sides, one viewpoint and one time state
+Lighting/mood: midnight navy room, warm cream spotlight on chair, four restrained crimson rim accents inside the shadows, high tension without horror
+Constraints: no people, no president, no seal, no eagle, no carved emblem, no flag emblem, no numbers, no text, no caption, no sign, no crosshair, no weapon, no blood, no injury, no crown, no bishop hat, no military hat, no top hat, no cane, no staff, no costume silhouette, no panel, border, grid, inset, collage, watermark, photorealism, live action, realistic anatomy, glossy 3D, anime, duplicate chair, or future event

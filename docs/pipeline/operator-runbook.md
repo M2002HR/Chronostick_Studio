@@ -81,6 +81,18 @@ uv run comfy-video concat \
 
 ## 6. Default framewise 1080×1920 upscale
 
+If the approved timing map declares a sub-second `freeze_last_frame` tail, extend the concatenated master before upscaling:
+
+```bash
+cd /home/mhr/Code/chronostick-studio
+./scripts/extend-last-frame.sh \
+  EPISODE_ROOT/final/episode-slug-concat-r001.mp4 \
+  EPISODE_ROOT/final/episode-slug-tail-extended-r001.mp4 \
+  HOLD_SECONDS
+```
+
+Use the tail-extended revision as the input below. If no tail extension is declared, use the concat revision directly.
+
 Use the declared Spandrel model and cover-fit every frame to the exact vertical delivery canvas:
 
 ```bash

@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "engine": "framewise-spandrel",
+  "model": {
+    "path": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+    "scale": 4
+  },
+  "input": "/home/mhr/Code/chronostick-studio/episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-tail-extended-r001.mp4",
+  "output": "/home/mhr/Code/chronostick-studio/episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-1080x1920-framewise-r001.mp4",
+  "source": {
+    "width": 480,
+    "height": 864,
+    "fps": 24.0,
+    "frames": 1095,
+    "duration": 45.666016,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 11440912
+  },
+  "final": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0,
+    "frames": 1095,
+    "duration": 45.661,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 47441601
+  },
+  "settings": {
+    "input": "/home/mhr/Code/chronostick-studio/episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-tail-extended-r001.mp4",
+    "output": "/home/mhr/Code/chronostick-studio/episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-1080x1920-framewise-r001.mp4",
+    "model": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "width": 1080,
+    "height": 1920,
+    "fit": "cover",
+    "tile": 256,
+    "overlap": 32,
+    "precision": "fp16",
+    "blend": 1.0,
+    "crf": 16,
+    "preset": "medium",
+    "progress_every": 12,
+    "overwrite": false
+  },
+  "started_at": "2026-09-28T02:54:45.980422+00:00",
+  "completed_at": "2026-09-28T03:10:09.091905+00:00",
+  "elapsed_seconds": 923.111,
+  "processing_fps": 1.186,
+  "resources": {
+    "sample_count": 93,
+    "gpu_memory_used_mib_peak": 2444.0,
+    "gpu_utilization_percent_average": 66.527,
+    "gpu_power_w_peak": 124.99,
+    "gpu_temperature_c_peak": 68.0
+  }
+}

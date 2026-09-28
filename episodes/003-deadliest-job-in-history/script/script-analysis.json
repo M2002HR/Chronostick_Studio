@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "003-deadliest-job-in-history",
+  "status": "approved",
+  "target_language": "es",
+  "source_preservation": "Complete content-preserving translation with the user-authorized correction from 46 and 8.7% to 45 and 8.9%, plus the user-requested short subscription CTA",
+  "word_count": 119,
+  "non_spoken_title": "¿El trabajo más mortal de la historia?",
+  "actual_voice_timeline_seconds": 45.64,
+  "estimated_duration_seconds": {
+    "energetic_delivery": 47,
+    "expected_range": [46, 49]
+  },
+  "hook": "¿El trabajo más mortal de la historia?",
+  "open_loop": "Which four U.S. presidents account for the stated fatality rate?",
+  "beats": [
+    "Presidency framed as a deadly job with an 8.9% death rate",
+    "Four out of 45 presidents stated as not surviving their presidency",
+    "Abraham Lincoln shot by an actor tied to the Civil War outcome",
+    "James A. Garfield shot twice by a mentally ill attacker",
+    "William McKinley shot by an anarchist concealing a revolver under a handkerchief",
+    "John F. Kennedy identified as the final president killed while in office",
+    "Brief subscription CTA after the payoff"
+  ],
+  "payoff": "John F. Kennedy completes the list of four assassinated presidents.",
+  "cta": "¿Te sorprendió? Suscríbete.",
+  "factual_claims_needing_verification": [
+    "The presidency is one of the deadliest jobs in history.",
+    "Whether the fatality-rate denominator should count distinct presidents or numbered presidencies.",
+    "Only four presidents did not survive their presidency.",
+    "Lincoln's assassin acted because he disliked the outcome of the Civil War.",
+    "Charles Guiteau can be described definitively as mentally ill."
+  ],
+  "pronunciation_notes": [
+    "Abraham Lincoln",
+    "James A. Garfield",
+    "William McKinley",
+    "John F. Kennedy"
+  ]
+}

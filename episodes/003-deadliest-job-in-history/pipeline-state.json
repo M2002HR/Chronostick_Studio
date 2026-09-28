@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "003-deadliest-job-in-history",
+  "title": "The deadliest job in history?",
+  "current_stage": "09-assembly-upscale",
+  "defaults": {
+    "target_language": "es",
+    "duration_seconds": 52,
+    "clip_seconds": 5,
+    "generation_steps": 16,
+    "project_seed": 20260927003
+  },
+  "stages": [
+    {
+      "id": "01",
+      "name": "intake-script",
+      "skill": "chronostick-script",
+      "status": "approved",
+      "inputs": [
+        "source/source-en.md",
+        "source/intake.json"
+      ],
+      "outputs": [
+        "script/narration-es.md",
+        "script/script-analysis.json",
+        "source/research-notes.md"
+      ],
+      "validated_at": "2026-09-27T23:42:53+03:30",
+      "approved_at": "2026-09-27T23:42:53+03:30",
+      "approved_by": "user",
+      "decision_notes": "The user generated and supplied timestamps for the narration with the minimal CTA: ¿Te sorprendió? Suscríbete. This confirms the revised narration and external voice for timing use. The historical body and non-spoken title remain unchanged.",
+      "next_action": "Use the approved 119-token timing map for shot planning"
+    },
+    {
+      "id": "02",
+      "name": "timestamps",
+      "skill": "chronostick-timestamps",
+      "status": "approved",
+      "inputs": [
+        "script/narration-es.md",
+        "timestamps/word-timestamps-source.csv"
+      ],
+      "outputs": [
+        "timestamps/word-timestamps-source.csv",
+        "timestamps/timing-map.json",
+        "timestamps/validation-report.md"
+      ],
+      "validated_at": "2026-09-27T23:42:53+03:30",
+      "approved_at": "2026-09-27T23:42:53+03:30",
+      "approved_by": "user",
+      "decision_notes": "The revised 119-token CSV matches the approved narration body and ends at 45.640 seconds. Under the approved sub-second tail rule, produce nine five-second clips and extend the resolved final frame by 0.640 seconds during post-concat finishing. The prior pre-CTA timing set is preserved under timestamps/archive/pre-cta/.",
+      "next_action": "Build the nine-slot shot plan with a freeze-safe Clip 09 ending"
+    },
+    {
+      "id": "03",
+      "name": "shot-plan",
+      "skill": "chronostick-shot-plan",
+      "status": "approved",
+      "inputs": [
+        "script/narration-es.md",
+        "timestamps/timing-map.json",
+        "source/research-notes.md",
+        "source/visual-research-notes.md",
+        "../../assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "outputs": [
+        "plan/shot-plan.md",
+        "plan/story-state-ledger.json",
+        "plan/reference-manifest.json"
+      ],
+      "validated_at": "2026-09-28T00:03:12+03:30",
+      "approved_at": "2026-09-28T00:12:26+03:30",
+      "approved_by": "user",
+      "decision_notes": "The user explicitly approved continued production and requested a faster-than-prior-episodes result. The approved h3-short-5s-16step-rapid-cut profile uses exactly eight hard-cut shots in each five-second clip, four historically distinct symbolic presidential identities, four identity anchors plus six generation-safe scene anchors, and a final memorial frame locked from Clip 09 local 4.20 for the approved 0.640-second external freeze.",
+      "next_action": "Generate and review the four single-person identity anchors, then the six full-frame scene anchors"
+    },
+    {
+      "id": "04",
+      "name": "references",
+      "skill": "chronostick-references",
+      "status": "approved",
+      "inputs": [
+        "plan/reference-manifest.json",
+        "source/portrait-references/",
+        "../../assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "outputs": [
+        "../../assets/characters/abraham-lincoln/character-abraham-lincoln-identity-r001.png",
+        "../../assets/characters/james-a-garfield/character-james-a-garfield-identity-r001.png",
+        "../../assets/characters/william-mckinley/character-william-mckinley-identity-r001.png",
+        "../../assets/characters/john-f-kennedy/character-john-f-kennedy-identity-r001.png",
+        "../../assets/episodes/003-deadliest-job-in-history/references/"
+      ],
+      "validated_at": "2026-09-28T01:18:31+03:30",
+      "approved_at": "2026-09-28T01:18:31+03:30",
+      "approved_by": "agent-under-user-authorization",
+      "decision_notes": "Four portrait-grounded symbolic stick identities and six full-frame scene anchors were generated, visually inspected, hash-locked, and recorded in the approved reference manifest. A rejected office candidate was not selected or archived into the project.",
+      "next_action": "Use only the selected reference paths and manifest order in the nine H3 prompts"
+    },
+    {
+      "id": "05",
+      "name": "clip-prompts",
+      "skill": "chronostick-clip-prompts",
+      "status": "approved",
+      "inputs": [
+        "plan/shot-plan.md",
+        "plan/story-state-ledger.json",
+        "plan/reference-manifest.json"
+      ],
+      "outputs": [
+        "prompts/clip-01-deadliest-job-hook.md",
+        "prompts/clip-02-four-of-forty-five.md",
+        "prompts/clip-03-lincoln-reveal.md",
+        "prompts/clip-04-lincoln-assassination.md",
+        "prompts/clip-05-garfield-twice.md",
+        "prompts/clip-06-attacker-to-mckinley.md",
+        "prompts/clip-07-mckinley-concealed-revolver.md",
+        "prompts/clip-08-handkerchief-to-motorcade.md",
+        "prompts/clip-09-kennedy-final-memorial.md"
+      ],
+      "validated_at": "2026-09-28T01:18:31+03:30",
+      "approved_at": "2026-09-28T01:18:31+03:30",
+      "approved_by": "agent-under-user-authorization",
+      "decision_notes": "All nine pure five-second H3 prompts implement exactly eight chronological hard-cut shots, explicit identity continuity, professional camera and lighting direction, generation-safe audio constraints, and the required policy sentence exactly once.",
+      "next_action": "Compile deterministic 16-step generation jobs with explicit reference order"
+    },
+    {
+      "id": "06",
+      "name": "generation-jobs",
+      "skill": "chronostick-generation-jobs",
+      "status": "approved",
+      "inputs": [
+        "prompts/",
+        "plan/reference-manifest.json",
+        "source/intake.json"
+      ],
+      "outputs": [
+        "automation/service-config.json",
+        "automation/batch-settings.json",
+        "automation/jobs/"
+      ],
+      "validated_at": "2026-09-28T01:18:31+03:30",
+      "approved_at": "2026-09-28T01:18:31+03:30",
+      "approved_by": "agent-under-user-authorization",
+      "decision_notes": "Nine schema-valid h3_ref2va jobs use fixed unique r001 seeds, 480x864 vertical output, 24 fps, five seconds, 16 sampling steps, SFX-only audio, immutable output names, and exact clip-specific reference order. The complete live-service dry run passed without warnings or errors.",
+      "next_action": "Launch the preflighted batch through a persistent user service and record its batch identifier"
+    },
+    {
+      "id": "07",
+      "name": "batch-generation",
+      "skill": "chronostick-batch",
+      "status": "approved",
+      "inputs": [
+        "automation/service-config.json",
+        "automation/batch-settings.json",
+        "automation/jobs/",
+        "automation/run-batch.sh"
+      ],
+      "outputs": [
+        "renders/raw/",
+        "renders/editorial/",
+        "automation/run-state.json"
+      ],
+      "validated_at": "2026-09-28T01:18:31+03:30",
+      "approved_at": "2026-09-28T02:12:59+03:30",
+      "approved_by": "agent-technical-validation",
+      "decision_notes": "Persistent batch 78cdf9c4-5d6e-45b4-8715-d05e7a3926eb completed all nine 16-step jobs successfully with zero retries. Every editorial output probes as 480x864, 24 fps, 5.000 seconds, with H.264 video and stereo AAC audio.",
+      "next_action": "Apply the user's all-nine selection decision and stage one editorial file per timeline slot"
+    },
+    {
+      "id": "08",
+      "name": "review",
+      "skill": "chronostick-review",
+      "status": "approved",
+      "inputs": [
+        "renders/editorial/",
+        "automation/run-state.json"
+      ],
+      "outputs": [
+        "renders/review-r001.md",
+        "renders/final-selected/"
+      ],
+      "validated_at": "2026-09-28T06:23:43+03:30",
+      "approved_at": "2026-09-28T06:23:43+03:30",
+      "approved_by": "user",
+      "decision_notes": "The user explicitly directed that all nine completed clips be treated as selected and staged for assembly. All nine passed technical probes; Clips 01-04 had also received contact-sheet visual checks before the user's selection decision. Final assembled and upscaled QC remains required.",
+      "next_action": "Concatenate selected Clips 01-09 in natural order, extend the final frame by 0.640 seconds, then upscale"
+    },
+    {
+      "id": "09",
+      "name": "assembly-upscale",
+      "skill": "chronostick-finish",
+      "status": "draft",
+      "inputs": [
+        "renders/final-selected/"
+      ],
+      "outputs": [
+        "final/episode-003-deadliest-job-in-history-concat-r001.mp4",
+        "final/episode-003-deadliest-job-in-history-tail-extended-r001.mp4",
+        "final/episode-003-deadliest-job-in-history-1080x1920-framewise-r001.mp4"
+      ],
+      "validated_at": "2026-09-28T06:23:43+03:30",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": "Nine selected editorial clips were concatenated in natural order with SFX audio preserved and the resolved final frame was extended by 0.640 seconds. Framewise RealESRGAN upscale completed all 1095 frames at 1080x1920 and 24 fps with stereo AAC audio and an immutable provenance report. Technical probes and a one-frame-per-second contact sheet passed; full-motion flicker/seam/audio-sync playback and user approval remain pending.",
+      "next_action": "Perform final full-motion and listening QC of the picture/SFX master before approving Stage 09"
+    },
+    {
+      "id": "10",
+      "name": "youtube-package",
+      "skill": "chronostick-youtube",
+      "status": "draft",
+      "inputs": [
+        "script/narration-es.md",
+        "source/research-notes.md",
+        "plan/reference-manifest.json",
+        "assets/branding/youtube-shorts/README.md"
+      ],
+      "outputs": [
+        "delivery/youtube/thumbnail-prompt-r001.md",
+        "delivery/youtube/thumbnail-episode-003-r001-source.png",
+        "delivery/youtube/thumbnail-episode-003-r001.png",
+        "delivery/youtube/thumbnail-episode-003-r001.provenance.json",
+        "delivery/youtube/thumbnail-review-r001.md",
+        "delivery/youtube/metadata.json",
+        "delivery/youtube/metadata.md"
+      ],
+      "validated_at": "2026-09-28T06:30:45+03:30",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": "Three episode-specific thumbnail concepts were developed and the four-presidents/empty-chair concept was selected. The user explicitly authorized generation. The immutable r001 source and 2160x3840 delivery master were generated with integrated exact Spanish text; assistant hook, identity, style, sensitivity, spelling, and crop QC passed. Metadata paths and hashes are recorded. User thumbnail approval, external voice/subtitle finish, operator upload decisions, and publication authorization remain pending.",
+      "next_action": "Obtain user approval of thumbnail r001, then finalize the distribution-master path and operator upload decisions after external finishing"
+    }
+  ],
+  "external_finishing": null,
+  "updated_at": "2026-09-28T06:40:12+03:30"
+}

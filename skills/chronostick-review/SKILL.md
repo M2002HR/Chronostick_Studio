@@ -17,6 +17,17 @@ Review the actual video with sound and representative frames around every cut. A
 - synchronized natural SFX; no melody, beat, tonal ambience, speech, narration, singing, or vocal reactions
 - correct resolution/frame rate, valid audio/video streams, editorial duration, stable final frame
 
+## Rapid-cut and directing audit
+
+- Build a dense contact sheet or inspect representative frames immediately before and after every planned cut. Count materially distinct shot states; a rapid-profile clip must show the planned eight hard-cut shots unless an approved exception exists.
+- Do not accept a long take, whip pan, speed ramp, zoom blur, or morph as a substitute for editing. The pace must come from discrete readable compositions while motion inside each shot remains controlled.
+- Confirm every cut contributes new story information and the clip still reads as setup–escalation–payoff. Flag repetitive medium coverage, arbitrary camera moves, weak visual hierarchy, flat lighting, or technically correct but uncreative direction.
+- Review the intended camera height, lens feeling, subject scale, depth layers, light direction, palette, negative space, and final resolved hold—not only anatomy and continuity.
+
+## Historical identity audit
+
+For every named real person, compare multiple frames to the approved portrait-grounded identity and scene anchors. Check the locked silhouette, hair, facial hair, costume, proportions, and signature prop. Also compare recurring people against one another: reject averaged faces, swapped cues, duplication, identity morphing, or a generic stick figure that is no longer recognizable without a label.
+
 Record timecodes and evidence in `renders/review-rNNN.md`. Decisions are `approved`, `retry`, `revise_prompt`, `revise_reference`, or `reject`; never infer approval.
 
 ## Replacement policy

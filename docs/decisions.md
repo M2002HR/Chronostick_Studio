@@ -2,6 +2,18 @@
 
 This file records durable production decisions and the evidence behind them. Active rules derived from these decisions live in the focused documents under `docs/`.
 
+## 2026-09-27 — Sub-second final-frame extension
+
+### Decision
+
+When approved narration ends no more than 1.000 second after the last complete five-second H3 slot, a future episode may omit the otherwise-empty extra generation and extend the concatenated picture by cloning the final frame for the exact overhang. The last generated clip must intentionally reach a resolved, freeze-safe state before its boundary. Native generated audio is padded with silence while separately recorded narration continues.
+
+The timing map records the normal ceiling count, the reduced generated count, and the exact extension. `scripts/extend-last-frame.sh` performs the immutable post-concat, pre-upscale operation and writes provenance. Longer overhangs or any overhang containing a new visual event still require another generated clip.
+
+### Reason
+
+Episode 003 narration ends at 45.640 seconds. Generating a tenth five-second clip solely for the last 0.640 seconds would add cost and a visually unnecessary scene. A controlled freeze preserves the complete narration, keeps the resolved ending stable, and avoids time stretching or silent truncation.
+
 ## 2026-09-22 — Omni prompt complexity and pacing
 
 ### Decision
@@ -158,3 +170,15 @@ The owner confirmed that the final video was completed but the final prompts fro
 ### Reason
 
 An explicit gap is more trustworthy than a plausible fabrication. Future prompts may be newly authored from the shot plan, but must be labeled as new drafts.
+
+## 2026-09-28 — Episode 003 rapid-cut profile and symbolic presidential identities
+
+### Decision
+
+Episode 003 uses `h3-short-5s-16step-rapid-cut`: nine five-second H3 clips at 16 steps, each directed as eight short hard-cut shots. The user explicitly selected 16 steps as an episode override of the 14-step future default. Cut frequency, inserts, framing changes, and silhouette contrast create speed; the one-action/one-camera-move motion budget remains unchanged. Clip 09 locks its final memorial frame at local 4.20 seconds so the approved 0.640-second external tail freeze contains no new visual event.
+
+The four assassinated presidents each receive a reusable, full-frame, single-person ChronoStick identity anchor. Their distinguishing cues are Lincoln's extreme height, stovepipe hat, and chin beard without mustache; Garfield's broader silhouette and full beard with mustache; McKinley's clean-shaven receding hair and scarlet lapel carnation; and Kennedy's youthful swept hair and modern navy suit. Six episode-scoped single-scene anchors combine those identities with the required historical worlds. H3 receives no more than two scene anchors per clip and does not receive the identity anchors directly under normal operation.
+
+### Reason
+
+The user explicitly prioritized a pace faster than prior episodes while requiring all four figures to remain recognizable in the symbolic stick-figure language. A named profile prevents this episode-specific density from silently changing global H3 behavior. Separating four identity authorities from six generation-safe scene anchors keeps the four people distinct without exposing H3 to multi-pose sheets, repeated identities, or unnecessary references.

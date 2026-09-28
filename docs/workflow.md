@@ -46,6 +46,8 @@ Create `plan/shot-plan.md` from the timestamps. Divide the video using the episo
 
 Gate: every narration beat has visual coverage; no clip depends visually on the next clip; the final action settles before the profile boundary.
 
+For a narration overhang of no more than 1.000 second beyond the last complete five-second H3 slot, the approved timing map may replace an otherwise-empty final generation with a documented `freeze_last_frame` tail. The preceding clip must resolve before its boundary and remain visually valid through the frozen extension.
+
 ## 7. Decide asset reuse
 
 Create an asset/reference map in the shot plan. Check locked style, world, and character assets first. Use the reference limit defined by the production profile.
@@ -83,6 +85,8 @@ Gate: identity, style, pacing, framing, sound, and final frame are approved.
 Copy exactly one approved editorial clip per timeline slot into the episode's `renders/final-selected/` directory. Preserve a sortable `clip-NN-...` filename for every selection. Run the episode assembly command to validate numbering, sort naturally, concatenate picture and existing audio, and write an immutable revision under `final/`.
 
 Use the continuous Spanish narration, approved clips, optional natural Foley, captions, CTA typography, and branding in later explicit stages. Add text in editing rather than asking the generator to render it. Do not add background music under the current production policy.
+
+When the timing map declares a sub-second tail extension, concatenate only the approved generated slots, run `scripts/extend-last-frame.sh` for the exact overhang, pad native SFX with silence, and use that immutable extended revision as the upscale input.
 
 Gate: complete timing, clean cuts, readable captions, factual integrity, audio compliance, and correct vertical export.
 

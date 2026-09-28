@@ -1,0 +1,3 @@
+**"The deadliest job in history?"**
+
+*One of the deadliest jobs with an 8.7% death rate is being the American president. Four out of the 46 presidents didn't survive their presidency. The first to get killed was Abraham Lincoln, who was shot by an actor who didn't like the outcome of the Civil War. The next was President James A. Garfield, who was also shot, but now twice by a mentally ill shooter. The third president, William McKinley, was—surprise, surprise—also shot, this time by an anarchist who concealed the revolver under a handkerchief during a public exhibition. The final president that got killed during the presidency, John F. Kennedy, got again shot...*

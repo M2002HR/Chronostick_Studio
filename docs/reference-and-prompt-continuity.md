@@ -49,7 +49,9 @@ The next recurring-character clip must inherit the preceding relevant end state.
 
 ## Prompt at controllable density
 
-For a five-second H3 clip, use roughly three to four readable timed beats. Reduce shot count before sacrificing identity or action clarity. Each shot should contain one primary action, no more than one simple camera move, and at most two subtle secondary motions.
+For a standard five-second H3 clip, use roughly three to four readable timed beats. Reduce shot count before sacrificing identity or action clarity. Each shot should contain one primary action, no more than one simple camera move, and at most two subtle secondary motions.
+
+A named rapid-cut profile may use six to eight hard-cut shots in five seconds when the narration and approved direction require it. This is an editorial-density exception, not a motion-complexity exception: each short shot still has one simple action, no more than one camera move, low background motion, a distinct silhouette or framing purpose, and an exact local time. Use single-scene references and strong identity locks so the extra cuts do not become character drift or contact-sheet imagery. If a historical identity cannot be read at thumbnail scale, reduce the cut density for that moment rather than adding labels.
 
 For a terminal state such as a settled aftermath, a single continuous locked shot can be safer than multiple cuts. If timing validation requires phases, describe phases of the same shot rather than new compositions.
 
