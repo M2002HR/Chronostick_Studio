@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Localization"
+  short_description: "Dub a finished video with cue-aligned narration"
+  default_prompt: "Use $chronostick-localize to adapt this finished video into natural Persian narration while keeping its picture fixed."

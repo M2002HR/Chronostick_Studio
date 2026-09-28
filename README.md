@@ -69,3 +69,6 @@ Run:
 The validator checks prompt purity, the mandatory audio sentence, malformed asset paths, referenced asset existence, automation JSON, prompt/reference mapping, profile settings, localization provenance/timing contracts, and whitespace errors. Empty archived prompts produce warnings because they are intentional documented gaps.
 
 For a translated release, start with [the localization workflow](docs/localization-workflow.md). It is deliberately a post-picture branch: the localized narration is fitted to the finished visual timeline rather than causing the video generations to be rebuilt.
+
+The [Ajil gateway integration](docs/ajil-integration.md) provides segmented
+Gemini TTS through the `ajil/` submodule and the root ignored `.env`.

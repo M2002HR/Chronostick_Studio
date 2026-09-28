@@ -13,5 +13,6 @@
 | `chronostick-review` | Creative/technical QC and replacement planning |
 | `chronostick-finish` | Approved selection, concat, and framewise 1080×1920 upscale |
 | `chronostick-youtube` | Prompt-first thumbnail design, optional authorized generation, metadata, and closeout |
+| `chronostick-localize` | New-language script, cue-level voice, real timestamps, and fixed-picture release |
 
 Each directory is a self-contained Codex skill with `SKILL.md` and `agents/openai.yaml`. The source of truth remains in this repository. Run `scripts/install-local-skills.sh` to link them into the local Codex skill directory and `scripts/validate-skills.sh` to validate all packages.

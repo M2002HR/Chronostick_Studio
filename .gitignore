@@ -7,6 +7,9 @@ Thumbs.db
 __pycache__/
 .idea/
 .vscode/
+.env
+.env.*
+!.env.example
 
 # Video files are large, revisioned production artifacts and must remain local,
 # regardless of which repository directory contains them.

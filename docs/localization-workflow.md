@@ -153,6 +153,48 @@ cue boundaries. It is a valid controlled alternative if its Persian voice
 passes your editorial listening test. It remains a provider evaluation, not a
 silent substitute for the selected ElevenLabs voice.
 
+### Google AI Studio / Gemini Developer API self-serve TTS
+
+This is a different API and billing surface from Google Cloud Text-to-Speech.
+Gemini 3.8 Flash TTS supports Iranian Persian and offers a Free Tier, subject
+to the requesting project's quotas. Supply the Persian words as verbatim text,
+`speech_metadata.style` for restrained delivery, and a consistent voice name.
+The Developer API does **not** return exact word timestamps or guarantee a
+specified duration per utterance; Google Cloud SSML `<mark>` timepoints must
+not be assumed to work here. Render short complete thoughts, measure their
+actual waveforms, and place them against the immutable visual cue map. Preserve
+each WAV and every revised take under an unused `-rNNN` name; insert only
+documented natural pauses at quiet phrase boundaries, never warp speech to
+repair a bad script.
+
+For Episode 002's 2026-09-28 test, one free-tier key returned a 3-requests/minute
+limit and then a 10-requests/day limit for `gemini-3.8-flash-tts`; a second
+user-supplied key completed the remaining takes. Those are observed limits for
+those keys/projects, not a universal entitlement. Check the actual AI Studio
+project's rate-limit and billing pages before production. The older local
+`google-genai` 1.x Interactions schema was rejected, so the episode script
+uses the documented REST `v1beta/interactions` request shape rather than
+relying on that SDK version.
+
+For current ChronoStick production, use the [Ajil gateway](ajil-integration.md)
+instead of putting a Google key in a per-episode script. Ajil serves
+`/v1/audio/speech`, keeps the key pool in the root ignored `.env`, rotates on
+retryable quota failures, and returns safe key-slot/attempt headers. The voice
+must be supplied per request until the editor selects a default. Use
+`scripts/ajil-tts-synthesize.py` to create one immutable WAV and provenance
+JSON per semantic cue. Its short default delivery style is only a starting
+point; listen for natural Persian conversational phrasing rather than assuming
+a style prompt can repair a stiff script. The previous direct-key episode
+test remains an archived route, not the default workflow.
+
+When changing a line or its emotion, revise only its cue's text and make a
+new take with `--cue-id` and a fresh `-rNNN` suffix. In a new assembly plan,
+change only that cue's file/start/gain or documented natural pause. Keep every
+other take and the picture master untouched; then rederive timestamps from
+the newly assembled accepted audio. A replacement take may shift adjacent
+silence, so recheck the two neighboring cue boundaries and the full narration
+end before approving it.
+
 ## 4. Derive actual Persian timings
 
 The target voice is the only authority for its word timings. Preserve the raw
@@ -206,6 +248,10 @@ loudness, audio clipping, duration, and vertical geometry.
 - [Google Gemini-TTS](https://docs.cloud.google.com/text-to-speech/docs/gemini-tts)
   lists `fa-IR` as Preview; [its SSML API](https://docs.cloud.google.com/text-to-speech/docs/ssml)
   documents semantic `<mark>` timepoints and rate controls.
+- [Gemini Developer API TTS](https://ai.google.dev/gemini-api/docs/speech-generation)
+  documents `speech_metadata`, prebuilt voices, and Iranian Persian support;
+  [Developer API pricing](https://ai.google.dev/gemini-api/docs/pricing)
+  lists the 3.8 Flash TTS Free Tier.
 
 Provider features and commercial access can change. Recheck these sources
 before a new production integration.
