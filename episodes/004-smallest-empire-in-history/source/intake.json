@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "title": "The smallest Empire in History",
+  "source_path": "source/source-en.md",
+  "source_sha256": "37bd0cda909a2d5b6a8150030cb0d4d0c84965800566493fc6c24ca6034312d9",
+  "source_origin": "User-supplied English reference text in conversation; original publication URL not supplied",
+  "target_language": "es",
+  "audience": "General YouTube Shorts audience",
+  "duration_range_seconds": [
+    40,
+    50
+  ],
+  "accepted_voice_end_seconds": 62.12,
+  "accepted_picture_duration_seconds": 65,
+  "factual_mode": "historical",
+  "cta_required": true,
+  "preservation_instruction": "Keep the supplied narrative content and one-word subscription CTA; the user explicitly requested no factual or content changes and accepted the 62.120-second timing.",
+  "assumptions": [
+    "The supplied CSV represents the Spanish voice the user has chosen to use.",
+    "Voice audio remains external/not supplied to this repository.",
+    "Historical fact-checking was not requested for this shot-planning handoff."
+  ],
+  "project_seed": 1815040625
+}

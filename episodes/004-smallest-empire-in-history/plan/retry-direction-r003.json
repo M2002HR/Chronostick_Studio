@@ -1,0 +1,219 @@
+{
+  "revision": "r003",
+  "decision": "Six-shot, 20-frame exception for clips 01–12; three-shot CTA exception for clip 13. Each shot contributes a distinct causal story beat after r002 repeated views and unclear symbols. Narration/timing unchanged.",
+  "clips": {
+    "01": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s01-episode-004-anchor-r002.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Macro low angle: the single ornate crown rests above the much larger dark carved city relief, with sea-blue inset and the seven tiny island tokens visible only as a compact cluster at lower right. Crown gives scale; no person enters.",
+        "Overhead medium: the crown is at upper left; the city-shaped relief fills most of frame while one flat island token sits at its edge. The token slides fully inside the outline and stops.",
+        "Oblique close: seven separate flat island tokens lie in one tidy row inside the relief. The camera holds long enough to read seven distinct shapes, not wax cylinders, candles, or fingers.",
+        "Top-down wide: all seven identical tokens fit comfortably within the one city silhouette; the surrounding blank table remains dark. The crown stays small at upper edge.",
+        "Macro of a single island token lifted from that seven-token row by a simple flat outlined wooden pointer, never a human finger; the other six remain in place.",
+        "Hard-cut graphic view of that same isolated island silhouette against flat illustrated sea-blue space within the relief; one tiny landmass centered and completely still by the end."
+      ]
+    },
+    "02": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s02-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "High wide from the approved overlook: one compact Elba harbor occupies the lower third and an immense outlined blue sea fills the upper frame; Napoleon is a tiny black-bicorne silhouette at lower left.",
+        "Closer shoreline insert from the same viewpoint: warm terracotta roofs, stone quay and one two-masted harbor vessel establish a real inhabited island, with every roof and wave drawn and outlined.",
+        "Low three-quarter back view at the stone rail: one Napoleon boot and navy coat are visible; he plants one boot and settles, still at frame left. No disembodied boot overlay.",
+        "Tight silhouette: the single black bicorne and compact round head rise above the stone rail, sunlit rim at upper left; face still mostly concealed.",
+        "Clear three-quarter portrait of exactly one Napoleon: dot eyes, angled brows, closed mouth, gold-edged bicorne, navy coat with red cuffs and hand tucked at coat. He turns toward the sea once.",
+        "Wide return to the same overlook: Napoleon stands left, compact Elba town below, sea behind; camera locked and he holds the recognizable emperor silhouette through final frame."
+      ]
+    },
+    "03": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s03-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Wide winter courtyard: three coalition figures stand together at left while lone Napoleon stands separated at right; the fallen imperial standard crosses the foreground diagonal. Cold slate sky and outlined mud.",
+        "Low close of the single imperial standard pole already lying on the ground; its red-white-blue cloth settles once in the same outlined mud, making defeat explicit.",
+        "Reverse medium on three coalition figures, distinct uniform silhouettes, no bicornes; the central official takes one deliberate step toward Napoleon.",
+        "Tight portrait of Napoleon alone: his identical bicorne and round off-white face fill frame; angled brows lower and shoulders remain upright, no attack or injury.",
+        "Low view along the fallen standard toward Napoleon and the closed iron gate: his boots remain planted while the coalition line fills the far side. Clear power reversal.",
+        "Wide settled tableau returns: three coalition figures left, one Napoleon right, fallen standard foreground. All hold still at the gate; no second battle or execution begins."
+      ]
+    },
+    "04": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Wide table geometry: three officials on left face one Napoleon on right across the one blank parchment; city visible through window. One official glances from Napoleon toward the city.",
+        "Close of an official outlined mitten placing a sheathed sword DOWN beside the parchment, away from Napoleon; the sword stays sheathed and still.",
+        "Over-shoulder of one official toward the existing city window: the distant civilian streets fill background while the official pauses, visibly weighing public reaction. No new crowd or paper portrait.",
+        "Tight reaction of Napoleon in the same seat and same hat: upright posture, closed mouth, one hand at coat; his presence remains politically powerful.",
+        "Macro of one official glove sliding the same blank parchment into the open central table space; no writing appears.",
+        "Overhead two sides of the bargain: official hand at left and Napoleon glove at right stop on opposite edges of the one blank parchment; sheathed sword remains outside the center."
+      ]
+    },
+    "05": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r002.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Wide chamber composition: all three officials left, Napoleon right, the tiny isolated island and huge mainland relief visibly between them. Official points to tiny island once.",
+        "Tight recognizable Napoleon portrait, gold-edged black bicorne already on his one head; his single outlined glove touches its brim, confirming he keeps imperial title.",
+        "Overhead from the same table: the one small tan Elba island is isolated in blue sea on Napoleon side; the large mainland relief remains at official side, both shapes fixed.",
+        "Close on an official mitten tracing the broad EMPTY blue water gap from the little island toward mainland, then stopping before the mainland. No bridge, boat or crossing.",
+        "Two-shot across the table: Napoleon turns his dot eyes from the large mainland to the one tiny island; his hat and uniform do not change, officials stay left.",
+        "Final low tabletop tableau: tiny Elba and huge mainland remain separated by broad blue water; Napoleon sits beyond the island in his bicorne, visually trapped there. Hold still."
+      ]
+    },
+    "06": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r002.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s05-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Close from Napoleon side: the tiny Elba island and distant large mainland remain apart on the table; Napoleon looks down with sharply angled brows.",
+        "Medium on one Napoleon opposite the same three officials; he lowers his hand from his bicorne onto the blank deal parchment, a single reluctant acceptance gesture.",
+        "Overhead detail: his one glove stays pressed on the blank parchment beside the island, while mainland remains untouched across the blue gap.",
+        "Instant hard cut to warm Elba quay. The same one Napoleon stands beside the approved moored vessel and compact harbor buildings; full figure recognizable, boat at frame left.",
+        "Low boot-and-stone insert derived from same quay: Napoleon plants exactly one black boot on sunlit quay stones beside a single mooring rope; no second person.",
+        "Medium wide of Napoleon at the quay looking toward the compact town with hand at coat; vessel stays moored behind. He settles into his new island role before the final frame."
+      ]
+    },
+    "07": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s06-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s07-episode-004-anchor-r002.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Wide workshop: one Napoleon at frame left and one baker at right, the white flag with red diagonal and three gold bees flat on the front workbench; Napoleon points toward flag once.",
+        "Tight overhead flag insert: red diagonal band and exactly three separate gold bees fill the frame; a single outlined mitten smooths one fold so the design is readable.",
+        "Medium two-shot on same baker and Napoleon: Napoleon points with one simplified glove to one round dough loaf while baker watches, mouth closed; oven behind.",
+        "Tight oven-side close: the one baker guides one formed loaf from workbench toward the brick oven opening, one complete motion; flour is simple outlined specks.",
+        "Instant hard cut to finished pale-stone hospital exterior. One headscarf caregiver carrying folded bandages approaches open wide doorway; two clean white beds visible inside.",
+        "Closer doorway view: the caregiver pauses at threshold facing exactly one resting patient in the farther bed; second bed empty, folded bandages on shelf, purpose unambiguous. Hold still."
+      ]
+    },
+    "08": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s08-episode-004-anchor-r002.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Wide approved parade yard: Napoleon stands left of one shako officer; two compact rows of outlined soldiers behind them, with the single two-masted brig small in harbor background.",
+        "Low side view of one orderly row of distinct shako soldiers; a single front boot comes to attention while the rest remain still.",
+        "High yard view: several short ranks occupy only a corner of the stone court, leaving generous empty space; Napoleon stays unique at the front. Small army scale reads.",
+        "Medium Napoleon and shako officer two-shot: officer points from the ranks toward the one distant brig; Napoleon turns his dot eyes toward it.",
+        "Close of one mooring line attached to that same two-masted brig in the outlined harbor; rope tightens once, water remains flat painted shapes.",
+        "Clear full-profile portrait of precisely one two-masted wooden brig at Elba harbor, entire hull and both masts visible, with compact soldiers on quay for scale."
+      ]
+    },
+    "09": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s09-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Macro of a recognizably horse-shaped small brown wooden figurine on the approved tabletop; three similar horse pieces can be seen behind, stable legs and outlined painted grain.",
+        "Oblique wide of the same strategy table: horse pieces and a compact cluster of tiny Elba soldier counters at near edge, enormous ranks of red and blue France counters at far edge.",
+        "Low close on the single black-bicorne Napoleon figurine leading the tiny Elba group; a vast wall of inert counters looms beyond. The figurine slides forward once.",
+        "High overhead contrast: tiny Elba group occupies a thumb-sized corner, the larger French counter field spans nearly the whole table; an existing narrow gap is visible through it.",
+        "Tight gap insert: the Napoleon figurine passes between two stationary large-counter rows without contact, sword strike, blood or battle.",
+        "Wide tabletop payoff: tiny group is now on the far side of the unbroken mass of larger counters; French counters remain upright and still. The paradox is clear and resolved."
+      ]
+    },
+    "10": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s09-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s10-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Top-down tabletop: many small France population counters fill most of the map relief while a tiny Elba group occupies only a corner; no writing or literal numerals.",
+        "Raking low view across the dense France counters to the few Elba counters; distance and scale make thirty million versus a small force intuitive. Nothing moves.",
+        "Hard cut to Elba quay: the one recognizable Napoleon in bicorne pivots toward the single two-masted brig moored beside him; soldiers wait in compact line.",
+        "Gangplank close: one shako soldier steps from stone quay onto the one brig, and the short line follows behind; all remain illustrated stick people.",
+        "Low hull-and-mast view of the same single brig: two masts, pale sails, black/navy hull; the mooring line is released once while Napoleon is aboard.",
+        "Wide three-quarter departure: exactly one brig moves a short distance from Elba quay, Napoleon and small party aboard, illustrated town behind; boat settles in frame before cut."
+      ]
+    },
+    "11": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s11-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s12-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Wide illustrated French shore: the one two-masted brig is close offshore and its one gangplank leads to sand; Napoleon is first at its foot, small party behind.",
+        "Low close of Napoleon single black boot stepping from gangplank onto French sand; the same outlined brig remains visible behind to establish cause and place.",
+        "Medium front Napoleon portrait on shore with bicorne, red cuffs and hand at coat; two Elba soldiers stand behind as he looks inland.",
+        "Hard cut to mountain road: Napoleon in foreground, compact party behind him, broad French line across the entire road in distance. Both sides stop.",
+        "Low reverse from behind French shako soldiers: several ranks recede upward, muskets at rest, one lone recognizable Napoleon far below at center.",
+        "Wide face-off: large French force blocks road with an unbroken line; one Napoleon and tiny party halt at safe distance. No weapon raised, no shot. Hold."
+      ]
+    },
+    "12": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s12-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s13-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 6,
+      "beats": [
+        "Tight soldier reaction from French front line: one shako soldier looks at the single familiar Napoleon in background and visibly relaxes his shoulders.",
+        "Medium two soldiers at same barrier lower their muskets together, barrels pointing to ground; both faces remain simple and mouths shut.",
+        "High wide road composition: first pair of soldiers step sideways, leaving one clear human-width corridor through the formerly unbroken line.",
+        "Centered low view: exactly one Napoleon walks one step through the open corridor; ranks stay still and no one attacks.",
+        "Hard cut to Paris arch and cobbled street: the same one Napoleon leads a compact column through the arch toward the palace skyline, warm evening light.",
+        "Medium at end of arch: Napoleon reaches the palaceward threshold, recognizable black bicorne and coat still intact, companions behind. He stops before entrance, setting up next clip."
+      ]
+    },
+    "13": {
+      "references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s15-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s14-episode-004-anchor-r001.png"
+      ],
+      "shot_count": 3,
+      "beats": [
+        "Frames 0–8, 0.000–0.375s: tight palace doorway from Picture 2; one brass handle completes a single turn, guard stays off to side, no button yet.",
+        "Frames 9–20, 0.375–0.875s: exactly one Napoleon enters the open palace doorway, one clear step; shako guard remains at side, no button yet.",
+        "Frames 21–119, 0.875–5.000s: INSTANT hard cut to the exact approved Picture 1 Paris-window tableau. One Napoleon stands left of window with hand at coat; one red rounded button at lower-middle 67% frame height already reads exactly SUBSCRIBE in white uppercase, one line. The button and spelling never change. From frame 51 through 119, every pixel, camera, light and subject remains static."
+      ]
+    }
+  },
+  "reference_reviews": [
+    {
+      "path": "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r002.png",
+      "sha256": "9757bc2b9fe97ac6a1eed146ebee983f7c6f3ce4a1b97e3dddba3ba2da7ec87d",
+      "decision": "reviewed for r003 clips 05–06: exactly one Napoleon in bicorne, three officials, tiny island separated from mainland, no labels; preserves illustrated style"
+    },
+    {
+      "path": "assets/episodes/004-smallest-empire-in-history/references/s07-episode-004-anchor-r002.png",
+      "sha256": "001cdf56391d03ac2cdeb517780f13512490294137936d64c30fa876318c3f32",
+      "decision": "reviewed for r003 clip 07: caregiver, two hospital beds, one patient and folded bandages make care function legible; preserves illustrated style"
+    }
+  ],
+  "variant_specific_repairs": {
+    "r004_and_r005_clip_01": {
+      "reason": "r003 clip 01 generated stick people instead of seven island tiles",
+      "reference": "assets/episodes/004-smallest-empire-in-history/references/s01-episode-004-anchor-r003.png",
+      "sha256": "e0cecd059f1aa0142d9d684f18218f40155ed42158127dd9ffa6ee3073c62910",
+      "prompt_path": "prompts/retries/r004/clip-01.md; prompts/retries/r005/clip-01.md"
+    },
+    "r004_and_r005_clip_13": {
+      "reason": "r002 final CTA button appeared much later than its timing window; use direct two-shot final-anchor cut",
+      "prompt_path": "prompts/retries/r004/clip-13.md; prompts/retries/r005/clip-13.md"
+    },
+    "r004_and_r005_clip_02": {
+      "reason": "r003 Clip 02 used a near-photographic empty sea at 0.4–1.25 s; keep Napoleon/harbor in every shot and draw water as simplified blue-green shapes",
+      "prompt_path": "prompts/retries/r004/clip-02.md; prompts/retries/r005/clip-02.md"
+    }
+  }
+}

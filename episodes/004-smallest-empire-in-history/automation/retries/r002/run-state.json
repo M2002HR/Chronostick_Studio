@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "revision": "r002",
+  "batch_id": "9bd1ba96-3686-462b-96b9-65b3c4437501",
+  "service_url": "http://127.0.0.1:8091",
+  "service_unit": "chronostick-episode-004-automation.service",
+  "comfyui_unit": "comfyui.service",
+  "batch_watcher_unit": "chronostick-episode-004-r002-batch.service",
+  "submitted_at": "2026-09-28T19:59:00.814667+00:00",
+  "captured_at": "2026-09-28T20:09:59.463830+00:00",
+  "status_at_capture": "running",
+  "clip_count": 13,
+  "sampling_steps": 14,
+  "jobs": [
+    {
+      "clip": 1,
+      "job_id": "94fb2073-70fb-44f1-bf56-6daf6d03c08a",
+      "status_at_capture": "succeeded",
+      "progress_percent_at_capture": 100.0
+    },
+    {
+      "clip": 2,
+      "job_id": "4900dc16-dd3a-4b38-9f56-246246becb61",
+      "status_at_capture": "running",
+      "progress_percent_at_capture": 100.0
+    },
+    {
+      "clip": 3,
+      "job_id": "6ffa4d59-213e-4e8d-b90d-7c1473da2030",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 4,
+      "job_id": "4ec4028a-150d-4294-b1e2-da056a0bb350",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 5,
+      "job_id": "e132d54b-3d94-49c5-9f7d-3f48cef3505e",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 6,
+      "job_id": "06699cd4-c2a5-4533-aa34-9043e12e4c65",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 7,
+      "job_id": "f313383c-63ce-444e-bedf-f8bfa337fee5",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 8,
+      "job_id": "93aa910e-e468-473e-9f07-1fc0bef57fb4",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 9,
+      "job_id": "e0d295f8-3b7c-4a68-a4cb-9fc98fed3624",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 10,
+      "job_id": "6702b41c-562d-4990-8e77-5859343b7b09",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 11,
+      "job_id": "d5529a11-ed89-495e-b3e9-051e02875bd5",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 12,
+      "job_id": "58195f1d-9985-4f2c-a675-572a95e88c25",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    },
+    {
+      "clip": 13,
+      "job_id": "c769afbe-bb2a-4f0b-ac92-893d9f36ae89",
+      "status_at_capture": "queued",
+      "progress_percent_at_capture": 0.0
+    }
+  ],
+  "status_command": "cd /home/mhr/AI/comfy-video-automation && uv run comfy-video status --service-url http://127.0.0.1:8091 --batch 9bd1ba96-3686-462b-96b9-65b3c4437501 --watch",
+  "journal_command": "journalctl --user -u chronostick-episode-004-r002-batch.service -f"
+}

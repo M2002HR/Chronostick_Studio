@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "title": "The smallest Empire in History",
+  "current_stage": "10-youtube-package",
+  "defaults": {
+    "target_language": "es",
+    "duration_seconds": 65,
+    "clip_seconds": 5,
+    "generation_steps": 14,
+    "project_seed": 1815040625
+  },
+  "stages": [
+    {
+      "id": "01",
+      "name": "intake-script",
+      "skill": "chronostick-script",
+      "status": "approved",
+      "inputs": [
+        "User-supplied title and English source text",
+        "User-used Spanish narration"
+      ],
+      "outputs": [
+        "source/intake.json",
+        "source/source-en.md",
+        "script/narration-es.md",
+        "script/script-analysis.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-09-28T14:11:07+00:00",
+      "approved_by": "user",
+      "decision_notes": "The user requested complete content preservation, supplied timings for the Spanish narration, and directed continued production without content changes. This is acceptance of the narration for visual planning; no separate historical verification was requested.",
+      "next_action": "Use accepted Spanish voice timing."
+    },
+    {
+      "id": "02",
+      "name": "timestamps",
+      "skill": "chronostick-timestamps",
+      "status": "approved",
+      "inputs": [
+        "timestamps/word-timestamps-source.csv",
+        "script/narration-es.md",
+        "User acceptance of 62.120-second delivery"
+      ],
+      "outputs": [
+        "timestamps/word-timestamps-source.csv",
+        "timestamps/timing-map.json",
+        "timestamps/validation-report.md"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-09-28T14:11:07+00:00",
+      "approved_by": "user",
+      "decision_notes": "User explicitly accepted the 62.120-second timestamped delivery and requested the shot plan. The source CSV is immutable; voice file remains external.",
+      "next_action": "Design 13 five-second clips, including a resolved final CTA hold."
+    },
+    {
+      "id": "03",
+      "name": "shot-plan",
+      "skill": "chronostick-shot-plan",
+      "status": "approved",
+      "inputs": [
+        "timestamps/timing-map.json",
+        "script/narration-es.md",
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "outputs": [
+        "plan/shot-plan.md",
+        "plan/story-state-ledger.json",
+        "plan/reference-manifest.json"
+      ],
+      "validated_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_by": "user",
+      "decision_notes": "User approved moving ahead with the dense rapid-cut plan and generated SUBSCRIBE exception; 65-second accepted timing preserved.",
+      "next_action": "Monitor persistent batch and review generated clips after completion."
+    },
+    {
+      "id": "04",
+      "name": "references",
+      "skill": "chronostick-references",
+      "status": "approved",
+      "inputs": [],
+      "outputs": [
+        "plan/reference-review.md",
+        "plan/reference-manifest.json"
+      ],
+      "validated_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_by": "assistant",
+      "decision_notes": "Fifteen scene anchors and one Napoleon identity visually reviewed; immutable selected paths and hashes recorded.",
+      "next_action": "Monitor persistent batch and review generated clips after completion."
+    },
+    {
+      "id": "05",
+      "name": "clip-prompts",
+      "skill": "chronostick-clip-prompts",
+      "status": "approved",
+      "inputs": [],
+      "outputs": [
+        "prompts/clip-01.md",
+        "prompts/clip-02.md",
+        "prompts/clip-03.md",
+        "prompts/clip-04.md",
+        "prompts/clip-05.md",
+        "prompts/clip-06.md",
+        "prompts/clip-07.md",
+        "prompts/clip-08.md",
+        "prompts/clip-09.md",
+        "prompts/clip-10.md",
+        "prompts/clip-11.md",
+        "prompts/clip-12.md",
+        "prompts/clip-13.md"
+      ],
+      "validated_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_by": "assistant",
+      "decision_notes": "Thirteen generator-only timed prompts reviewed for exact cuts, reference mapping, audio sentence and final CTA exception.",
+      "next_action": "Monitor persistent batch and review generated clips after completion."
+    },
+    {
+      "id": "06",
+      "name": "generation-jobs",
+      "skill": "chronostick-generation-jobs",
+      "status": "approved",
+      "inputs": [],
+      "outputs": [
+        "automation/jobs",
+        "automation/batch-settings.json",
+        "automation/service-config.json"
+      ],
+      "validated_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_at": "2026-09-28T17:25:26.740422+00:00",
+      "approved_by": "assistant",
+      "decision_notes": "Thirteen unique-seed 14-step jobs passed repository validation, path checks, and full live-service batch dry-run without warnings.",
+      "next_action": "Monitor persistent batch and review generated clips after completion."
+    },
+    {
+      "id": "07",
+      "name": "batch-generation",
+      "skill": "chronostick-batch",
+      "status": "approved",
+      "inputs": [],
+      "outputs": [
+        "automation/run-state.json",
+        "automation/retries/r002/run-state.json",
+        "automation/retries/r003/queue-state.json",
+        "renders/raw",
+        "renders/editorial"
+      ],
+      "validated_at": "2026-09-29T07:52:04.454009+03:30",
+      "approved_at": "2026-09-29T07:52:04.454009+03:30",
+      "approved_by": "assistant",
+      "decision_notes": "r001 and r002 completed; the three queued r003/r004/r005 13-job batches all succeeded with 14 steps and unique fixed seeds. Generation completion is technical, not a final visual review decision.",
+      "next_action": "Use the user-selected 13 editorial revisions recorded in renders/selection-manifest-r001.json."
+    },
+    {
+      "id": "08",
+      "name": "review",
+      "skill": "chronostick-review",
+      "status": "approved",
+      "inputs": [
+        "renders/editorial",
+        "plan/shot-plan.md",
+        "User-selected renders/final-selected"
+      ],
+      "outputs": [
+        "renders/review-r001.md",
+        "renders/review-r002.md",
+        "renders/selection-manifest-r001.json",
+        "renders/final-selected"
+      ],
+      "validated_at": "2026-09-29T07:52:04.454009+03:30",
+      "approved_at": "2026-09-29T07:52:04.454009+03:30",
+      "approved_by": "user",
+      "decision_notes": "User selected exactly one final clip for each of the 13 timeline slots and explicitly directed assembly/upscale. This approves the picture selection; full narrated release listening QC remains pending.",
+      "next_action": "Keep this selected picture set immutable; use it for the picture/SFX master."
+    },
+    {
+      "id": "09",
+      "name": "assembly-upscale",
+      "skill": "chronostick-finish",
+      "status": "approved",
+      "inputs": [
+        "renders/selection-manifest-r001.json",
+        "renders/final-selected"
+      ],
+      "outputs": [
+        "final/episode-004-smallest-empire-in-history-concat-r001.mp4",
+        "final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.mp4",
+        "final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.framewise-upscale.json",
+        "final/picture-master-review-r001.md"
+      ],
+      "validated_at": "2026-09-29T07:52:04.454009+03:30",
+      "approved_at": "2026-09-29T07:52:04.454009+03:30",
+      "approved_by": "assistant",
+      "decision_notes": "13 user-selected clips concatenated in order. Framewise upscale succeeded. Technical and sampled visual QC passed: 1080x1920, 24 fps, 1560 picture frames, 65.000 seconds, AAC SFX; complete narrated release QC remains pending.",
+      "next_action": "Confirm the Spanish narration source and create a separate immutable distribution master after mix and listening QC."
+    },
+    {
+      "id": "10",
+      "name": "youtube-package",
+      "skill": "chronostick-youtube",
+      "status": "needs_review",
+      "inputs": [
+        "script/narration-es.md",
+        "final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.mp4",
+        "assets/branding/youtube-shorts/README.md"
+      ],
+      "outputs": [
+        "delivery/youtube/thumbnail-prompt-r001.md",
+        "delivery/youtube/thumbnail-episode-004-r001.png",
+        "delivery/youtube/thumbnail-provenance-r001.json",
+        "delivery/youtube/thumbnail-review-r001.md",
+        "delivery/youtube/metadata.json",
+        "delivery/youtube/metadata.md"
+      ],
+      "validated_at": "2026-09-29T07:52:04.454009+03:30",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": "Thumbnail generated with integrated Spanish headline and passed assistant visual QC; metadata drafted. User/channel thumbnail approval, final narrated distribution master and operator upload decisions remain pending. No upload or publication has occurred.",
+      "next_action": "Confirm narration, review narrated master and thumbnail, then make upload decisions."
+    }
+  ],
+  "external_finishing": {
+    "status": "pending_narration_source_confirmation",
+    "candidate_voice_path": "audio/narration-es-candidate-r001.m4a",
+    "candidate_duration_seconds": 62.322358,
+    "candidate_origin": "/home/mhr/Downloads/historia_04.mp4",
+    "picture_sfx_master": "final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.mp4",
+    "distribution_master": null,
+    "note": "The candidate voice basename and duration align with the approved timestamps. A provisional 65-second narration mix exists; it is not an approved distribution master until the user confirms the voice and full listening QC passes.",
+    "narrated_preview": "final/episode-004-smallest-empire-in-history-narrated-preview-r001.mp4",
+    "narrated_preview_review": "final/narrated-preview-review-r001.md",
+    "preview_status": "technical_qc_passed_voice_confirmation_and_listening_qc_pending"
+  },
+  "updated_at": "2026-09-29T07:55:05.740126+03:30"
+}

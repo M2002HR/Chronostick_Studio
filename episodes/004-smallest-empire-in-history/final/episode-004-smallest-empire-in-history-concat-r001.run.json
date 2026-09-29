@@ -1,0 +1,383 @@
+{
+  "job_id": "4fe057a5-0f16-4a8c-a68c-7729f6736087",
+  "request": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4",
+    "fps": null,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-01-episode-004-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-02-episode-004-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-03-episode-004-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-04-episode-004-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-05-episode-004-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-06-episode-004-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-07-episode-004-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-08-episode-004-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-09-episode-004-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-10-episode-004-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-11-episode-004-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-12-episode-004-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-13-episode-004-r001.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4"
+  },
+  "resolved_config": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4",
+    "fps": null,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-01-episode-004-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-02-episode-004-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-03-episode-004-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-04-episode-004-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-05-episode-004-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-06-episode-004-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-07-episode-004-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-08-episode-004-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-09-episode-004-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-10-episode-004-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-11-episode-004-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-12-episode-004-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/renders/final-selected/clip-13-episode-004-r001.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4"
+  },
+  "output_metadata": {
+    "path": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4",
+    "format": {
+      "filename": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "65.021333",
+      "size": "20146352",
+      "bit_rate": "2478737",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    },
+    "video": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 480,
+      "height": 864,
+      "coded_width": 480,
+      "coded_height": 864,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 30,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "time_base": "1/12288",
+      "start_pts": 258,
+      "start_time": "0.020996",
+      "duration_ts": 798720,
+      "duration": "65.000000",
+      "bit_rate": "2343538",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1560",
+      "extradata_size": 49,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc62.11.100 libx264"
+      }
+    },
+    "audio": {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 3121024,
+      "duration": "65.021333",
+      "bit_rate": "130269",
+      "nb_frames": "3068",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    "width": 480,
+    "height": 864,
+    "fps": 24.0,
+    "duration": 65.021333,
+    "has_audio": true
+  },
+  "timestamp": "2026-09-29T03:42:31.988642+00:00",
+  "queue_wait_seconds": 0.035,
+  "run_metrics": {
+    "attempts": [
+      {
+        "started_at": "2026-09-29T03:42:31.263077+00:00",
+        "completed_at": "2026-09-29T03:42:32.032001+00:00",
+        "elapsed_seconds": 0.769,
+        "sample_interval_seconds": 2,
+        "sample_count": 2,
+        "system": {
+          "cpu_percent_average": 14.26,
+          "cpu_percent_peak": 14.26,
+          "memory_used_mib_peak": 27058.30078125,
+          "memory_available_mib_min": 4113.66015625,
+          "service_rss_mib_peak": 20.85546875,
+          "load_1m_peak": 1.5361328125,
+          "output_disk_free_gib_min": 120.45428848266602
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 35.0,
+            "utilization_percent_peak": 38.0,
+            "memory_used_mib_peak": 15109.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 56.0,
+            "power_w_average": 16.425,
+            "power_w_peak": 16.45,
+            "estimated_energy_wh": 0.004
+          }
+        ],
+        "sample_errors": [],
+        "samples": [
+          {
+            "timestamp": "2026-09-29T03:42:31.305261+00:00",
+            "elapsed_seconds": 0.042,
+            "system_cpu_percent": null,
+            "load_average": [
+              1.5361328125,
+              1.25830078125,
+              1.03173828125
+            ],
+            "memory": {
+              "total_mib": 31171.9609375,
+              "available_mib": 4231.62109375,
+              "used_mib": 26940.33984375
+            },
+            "service_rss_mib": 18.6640625,
+            "output_disk_free_gib": 120.47306442260742,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 32.0,
+                "memory_used_mib": 15109.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 56.0,
+                "power_w": 16.4
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-09-29T03:42:32.031042+00:00",
+            "elapsed_seconds": 0.768,
+            "system_cpu_percent": 14.26,
+            "load_average": [
+              1.5361328125,
+              1.25830078125,
+              1.03173828125
+            ],
+            "memory": {
+              "total_mib": 31171.9609375,
+              "available_mib": 4113.66015625,
+              "used_mib": 27058.30078125
+            },
+            "service_rss_mib": 20.85546875,
+            "output_disk_free_gib": 120.45428848266602,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 38.0,
+                "memory_used_mib": 15109.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 56.0,
+                "power_w": 16.45
+              }
+            ]
+          }
+        ],
+        "attempt": 1
+      }
+    ],
+    "latest": {
+      "started_at": "2026-09-29T03:42:31.263077+00:00",
+      "completed_at": "2026-09-29T03:42:32.032001+00:00",
+      "elapsed_seconds": 0.769,
+      "sample_interval_seconds": 2,
+      "sample_count": 2,
+      "system": {
+        "cpu_percent_average": 14.26,
+        "cpu_percent_peak": 14.26,
+        "memory_used_mib_peak": 27058.30078125,
+        "memory_available_mib_min": 4113.66015625,
+        "service_rss_mib_peak": 20.85546875,
+        "load_1m_peak": 1.5361328125,
+        "output_disk_free_gib_min": 120.45428848266602
+      },
+      "gpus": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4060 Ti",
+          "utilization_percent_average": 35.0,
+          "utilization_percent_peak": 38.0,
+          "memory_used_mib_peak": 15109.0,
+          "memory_total_mib": 16380.0,
+          "temperature_c_peak": 56.0,
+          "power_w_average": 16.425,
+          "power_w_peak": 16.45,
+          "estimated_energy_wh": 0.004
+        }
+      ],
+      "sample_errors": [],
+      "samples": [
+        {
+          "timestamp": "2026-09-29T03:42:31.305261+00:00",
+          "elapsed_seconds": 0.042,
+          "system_cpu_percent": null,
+          "load_average": [
+            1.5361328125,
+            1.25830078125,
+            1.03173828125
+          ],
+          "memory": {
+            "total_mib": 31171.9609375,
+            "available_mib": 4231.62109375,
+            "used_mib": 26940.33984375
+          },
+          "service_rss_mib": 18.6640625,
+          "output_disk_free_gib": 120.47306442260742,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 32.0,
+              "memory_used_mib": 15109.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 56.0,
+              "power_w": 16.4
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-09-29T03:42:32.031042+00:00",
+          "elapsed_seconds": 0.768,
+          "system_cpu_percent": 14.26,
+          "load_average": [
+            1.5361328125,
+            1.25830078125,
+            1.03173828125
+          ],
+          "memory": {
+            "total_mib": 31171.9609375,
+            "available_mib": 4113.66015625,
+            "used_mib": 27058.30078125
+          },
+          "service_rss_mib": 20.85546875,
+          "output_disk_free_gib": 120.45428848266602,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 38.0,
+              "memory_used_mib": 15109.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 56.0,
+              "power_w": 16.45
+            }
+          ]
+        }
+      ],
+      "attempt": 1
+    },
+    "total_attempts": 1
+  }
+}

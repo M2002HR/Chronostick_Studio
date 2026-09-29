@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "selection_revision": "r001",
+  "decision": "user selected all 13 final-selected editorial clips in workspace and explicitly instructed concat/upscale",
+  "reviewed_by": "user",
+  "recorded_at": "2026-09-29T07:11:54.575308+03:30",
+  "clip_count": 13,
+  "total_duration_seconds": 65.0,
+  "selected": [
+    {
+      "clip": 1,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-01-episode-004-r002.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-01-episode-004-r002.mp4",
+      "sha256": "ee2e43a64b752a7af49514d428fe4ea7e343ea51008b9cefce4204f6397c5f3a",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 2,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-02-episode-004-r003.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-02-episode-004-r003.mp4",
+      "sha256": "2a94d113ccc0567a522446fd2f34773e78d2b78dc98ae919b18bcc9425470f2d",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 3,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-03-episode-004-r004.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-03-episode-004-r004.mp4",
+      "sha256": "b3744202a5d91259a438444575d3058eaabbcc5c1280f662152420d4e9e9c9d7",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 4,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-04-episode-004-r004.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-04-episode-004-r004.mp4",
+      "sha256": "6d22059c887fee18d25cd27e59187b9406a2b72188ead13059e6e2e1c9f26b76",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 5,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-05-episode-004-r005.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-05-episode-004-r005.mp4",
+      "sha256": "4effe660f29db0e2f6a72b5d289a9f1e04120a65ed1c02320b03f89228b7d94f",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 6,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-06-episode-004-r001.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-06-episode-004-r001.mp4",
+      "sha256": "c600e3ca03d8d56687e18cc075e3370a1bf7be37026c069548ace7b2f388d95b",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 7,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-07-episode-004-r005.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-07-episode-004-r005.mp4",
+      "sha256": "53a02034a7e23294d9ec99cfcbeb450539ccc4899ef75eebb505ff08db9e1e9a",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 8,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-08-episode-004-r002.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-08-episode-004-r002.mp4",
+      "sha256": "519223756519adedb1b497894823dfce29e54c0bb822e367bfea38bf49ac1a3f",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 9,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-09-episode-004-r005.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-09-episode-004-r005.mp4",
+      "sha256": "1afc43ae93473e0c6367cdb31ca3cfad569faca8407e7a8fccbe7547f8aa58be",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 10,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-10-episode-004-r002.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-10-episode-004-r002.mp4",
+      "sha256": "6f92851b7d050fd8fefadc31fc29298c7dbac1e1f32d6b537567db03ad9c37ac",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 11,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-11-episode-004-r003.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-11-episode-004-r003.mp4",
+      "sha256": "1e84f438f09b077841c561b74af67ef74fa4ee6e7fed9d75ab6aaa9bd4eb3f5e",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 12,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-12-episode-004-r004.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-12-episode-004-r004.mp4",
+      "sha256": "2622d2ec86988ccfaa787a1314c97b48add2a770392d8e4d7767ff0eba311b44",
+      "duration_seconds": 5.0
+    },
+    {
+      "clip": 13,
+      "selected_path": "episodes/004-smallest-empire-in-history/renders/final-selected/clip-13-episode-004-r001.mp4",
+      "source_path": "episodes/004-smallest-empire-in-history/renders/editorial/clip-13-episode-004-r001.mp4",
+      "sha256": "f59c7eb295a4216c3bf4d4e3b08d6bd0d50134c94b99f27adc91c4a71c0c36d8",
+      "duration_seconds": 5.0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "narration_path": "script/narration-es.md",
+  "spoken_word_count_estimate": 152,
+  "actual_supplied_timing_end_seconds": 62.12,
+  "target_delivery": "fast narration with ultra-fast visual editing",
+  "hook": "An empire seven times smaller than Greater London",
+  "open_loop": "How could tiny Elba regain power over France?",
+  "beat_list": [
+    "Elba scale and Napoleon reveal",
+    "Sixth coalition defeat",
+    "No execution and bargain",
+    "Emperor title retained on Elba",
+    "Flag, bread, and hospital",
+    "Modest army, brig, horses",
+    "Technical victory scale contrast",
+    "Napoleon leaves and lands in France",
+    "French troops refuse to stop him",
+    "Paris return and one-word CTA"
+  ],
+  "payoff": "Napoleon returns to Paris and regains power",
+  "cta": "Suscríbete.",
+  "factual_claims_needing_verification": "Not assessed in this user-directed no-content-change pass.",
+  "pronunciation_notes": [
+    "Elba",
+    "Napoleón",
+    "bergantín"
+  ],
+  "status": "user-supplied voice timing accepted; shot-plan draft follows"
+}

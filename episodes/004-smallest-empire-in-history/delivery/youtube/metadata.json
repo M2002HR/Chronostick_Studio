@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "package_status": "provisional_voice_and_operator_decisions_pending",
+  "prepared_at": "2026-09-29T07:34:29.523463+03:30",
+  "language": "es",
+  "title": {
+    "primary": "El imperio más pequeño de la historia: Napoleón en Elba",
+    "alternatives": [
+      "Napoleón gobernó una isla que cabía 7 veces en Londres",
+      "Elba: el diminuto imperio del exilio de Napoleón"
+    ],
+    "character_limit": 100
+  },
+  "description": "Napoleón conservó el título de emperador, pero su nuevo territorio era Elba: una isla tan pequeña que cabía siete veces dentro de Londres. Allí rediseñó la bandera, enseñó a hacer pan, construyó un hospital y reunió un pequeño ejército. Después regresó a Francia y recuperó el poder.\n\nUna historia animada en español sobre el sorprendente imperio de Elba.\n\n#Historia #Napoleón #Elba #Shorts",
+  "description_character_limit": 5000,
+  "hashtags": [
+    "#Historia",
+    "#Napoleón",
+    "#Elba",
+    "#Shorts"
+  ],
+  "tags": [
+    "Napoleón",
+    "Napoleon",
+    "Elba",
+    "isla de Elba",
+    "imperio de Elba",
+    "exilio de Napoleón",
+    "imperio más pequeño",
+    "historia animada",
+    "ChronoStick"
+  ],
+  "category": {
+    "name": "Education",
+    "education_type": "concept_overview"
+  },
+  "recording": {
+    "date": null,
+    "location": null,
+    "note": "Animated historical story; Elba is the depicted location, not a physical recording location."
+  },
+  "depicted_event": {
+    "location": "Elba, Italy; France",
+    "period": "1814–1815"
+  },
+  "audience": {
+    "made_for_kids": null,
+    "operator_decision_required": true
+  },
+  "age_restriction": {
+    "restricted_to_adults": null,
+    "operator_decision_required": true
+  },
+  "ai_use": {
+    "operator_decision_required": true,
+    "value": null
+  },
+  "thumbnail": {
+    "prompt_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-prompt-r001.md",
+    "source_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001-source.png",
+    "path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001.png",
+    "width": 2160,
+    "height": 3840,
+    "format": "png",
+    "review_status": "assistant_visual_qc_passed_user_approval_pending",
+    "provenance_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-provenance-r001.json"
+  },
+  "media": {
+    "concat_path": "episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4",
+    "picture_master_path": "episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.mp4",
+    "picture_master_status": "technical_qc_passed",
+    "distribution_master": null,
+    "expected_upload_filename": "chronostick-004-imperio-mas-pequeno-napoleon-elba-1080x1920.mp4",
+    "note": "Selected picture and SFX are assembled and upscaled. Spanish narration candidate awaits confirmation; the picture/SFX master is not a finished narrated release.",
+    "picture_master_sha256": "2da32e451abcb3b17b0c7591165d4dad303f68914b64a68644caa36949095550",
+    "narration_candidate_path": "episodes/004-smallest-empire-in-history/audio/narration-es-candidate-r001.m4a",
+    "narration_status": "candidate_pending_user_confirmation",
+    "narrated_preview_path": "episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-narrated-preview-r001.mp4",
+    "narrated_preview_sha256": "5f046c6ba2e38a0d2ef3a1f60ef7b8e553186fcc6667f45368cf12093757298b",
+    "narrated_preview_status": "provisional_technical_qc_passed_listening_and_voice_confirmation_pending"
+  },
+  "related_video": {
+    "video_id": null,
+    "operator_decision_required": true,
+    "suggestion": "Link another public or unlisted ChronoStick history Short after its URL is known."
+  },
+  "credits_and_sources": {
+    "source_story": "User-provided English reference text and approved Spanish adaptation in episode source/script files. Original publication URL was not supplied.",
+    "thumbnail": "Original ChronoStick image generated for this episode."
+  },
+  "upload_decisions": {
+    "visibility": null,
+    "license": null,
+    "allow_embedding": null,
+    "notify_subscribers": null,
+    "shorts_remixing": null,
+    "comments": null,
+    "publication_authorized": false
+  },
+  "official_platform_checks": {
+    "checked_at": "2026-09-29",
+    "title_max_characters": 100,
+    "description_max_characters": 5000,
+    "shorts_custom_thumbnail": "YouTube Studio desktop; verified account; recommended 9:16",
+    "sources": [
+      "https://support.google.com/youtube/answer/57407?hl=en",
+      "https://support.google.com/youtube/answer/72431?hl=en"
+    ]
+  },
+  "updated_at": "2026-09-29T07:55:05.740126+03:30"
+}

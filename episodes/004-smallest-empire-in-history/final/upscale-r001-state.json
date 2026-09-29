@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "status": "succeeded",
+  "input": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4",
+  "output": "/home/mhr/Code/chronostick-studio/episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.mp4",
+  "model": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+  "updated_at": "2026-09-29T07:37:02.552941+03:30"
+}

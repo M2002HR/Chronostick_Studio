@@ -1,0 +1,7 @@
+The smallest Empire in History #history #4k
+
+Empires are generally really big. Definitely bigger than, I don't know, London for example. But what if I told you there was once an empire so tiny it could fit seven times in London? Meet the smallest empire to have ever existed, the Exile Empire, or simply the island of Elba. Yes, this tiny Italian island really had an emperor and was officially, by all counts, an empire. And guess what? You know the emperor. It's Napoleon. After Europe's sixth attempt to dethrone him, they finally
+
+lucked out. But then, instead of executing Napoleon for the wars, the coalition wanted to make sure the people didn't see Napoleon as a French martyr. So instead, they struck a deal with him. "You are allowed to stay emperor, but only if you live on this tiny rock and you are never allowed to come back to France." Emperor Napoleon, not having much of a choice, accepted. And guess what? He took his new empire really serious. He redesigned the flag of Elba, taught people how to bake bread, and
+
+even constructed a hospital. He also built an army, if you'd like to call it that, consisting out of 600 men, a singular brig, and a hundred horses. But here's the juicy part. That small army technically beat a country of 30 million people. When Napoleon left his Exile Empire with his tiny army on his singular boat and landed on the coast of France, a huge French army came to stop him. But they didn't because they liked him. So he simply marched back to Paris and reinstated himself. Subscribe.

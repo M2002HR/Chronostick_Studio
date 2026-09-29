@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "revision": "r001",
+  "generation_method": "built_in_imagegen_single_pass_with_integrated_typography",
+  "generated_at": "2026-09-29T07:34:29.523463+03:30",
+  "prompt_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-prompt-r001.md",
+  "source_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001-source.png",
+  "source_sha256": "0c0310bcf686c6435de7e598e8efd831e7f47edede29ef422d0234cd8ebe8b66",
+  "source_dimensions": [
+    941,
+    1672
+  ],
+  "delivery_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001.png",
+  "delivery_sha256": "b47072000ec5f4b3a15ca5a2efbffd51da13bfd718005f0c7f865f25da10c2a2",
+  "delivery_dimensions": [
+    2160,
+    3840
+  ],
+  "post_generation_changes": "resolution resampling only via ffmpeg Lanczos; no compositing, typography repair, cropping or added overlays",
+  "reference_paths": [
+    "assets/episodes/004-smallest-empire-in-history/references/napoleon-identity-r001.png",
+    "assets/episodes/004-smallest-empire-in-history/references/s01-episode-004-anchor-r003.png",
+    "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002.png"
+  ],
+  "reference_roles": [
+    "Napoleon identity and stick anatomy",
+    "London relief/crown/island scale scene",
+    "typography character only"
+  ]
+}

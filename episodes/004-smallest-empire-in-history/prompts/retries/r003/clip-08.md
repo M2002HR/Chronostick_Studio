@@ -1,0 +1,27 @@
+Create exactly one 5.000-second vertical 9:16 illustrated film at 24 fps. Direct a fast, readable miniature story with true instantaneous hard cuts. One main action per shot; camera locked unless a single tiny move is specified. Every action settles before its cut. Preserve causal order and make each composition understandable at phone size.
+
+Reference mapping: <Picture 1> (s08-episode-004-anchor-r002.png) controls the whole-frame style and scene; never copy a multi-panel sheet.
+
+Every single pixel must match the supplied 2D cinematic ChronoStick reference: round off-white stick heads, dot eyes, flat outlined mitten hands, thick clean dark drawn outlines, simplified anatomy, period clothing, muted painted colors and non-photographic shading. Apply the same drawn contours to sky, water, maps, stone, wood, food, fabric, horses, ships, shadows and tiny background elements. Absolutely no photorealism, live-action skin/fingers, photographic landscape or water, glossy 3D, anime, watercolor, panels, collage, realistic human anatomy, face morph, cloned Napoleon or generic substitute face. Use reference identity and scene geometry as binding, not as loose inspiration.
+
+Continuity and story state: Elba small force after the hospital. Exactly one Napoleon in bicorne and navy coat, one officer in tall shako, a modest finite garrison in neat ranks, and exactly ONE two-masted brig in the same harbor. Never turn the single brig into a fleet; no new flag in the foreground. Narration supplies 600; the visual must clearly show more than a handful, yet compact enough for Elba.
+
+Six-shot clarity exception to the earlier eight-shot plan: use six materially distinct compositions, precisely 20 frames each, with hard cuts at frames 20, 40, 60, 80 and 100 (0.833, 1.667, 2.500, 3.333, 4.167 seconds). Do not interpolate, dissolve, morph, whip-pan or speed-ramp through a cut. Each shot must reveal a NEW piece of narrative information, not repeat a medium view.
+
+Shot 1, frames 0–19, 0.000–0.833s, from <Picture 1>: Wide approved parade yard: Napoleon stands left of one shako officer; two compact rows of outlined soldiers behind them, with the single two-masted brig small in harbor background. Frame with a clear focal subject, layered foreground/midground/background, stable light and the approved illustrated palette. Exactly one controlled action and no camera drift. SFX: one dry boot click, dry, non-tonal, under 0.20s; otherwise silence. Instant hard cut at frame 20.
+
+Shot 2, frames 20–39, 0.833–1.667s, from <Picture 1>: Low side view of one orderly row of distinct shako soldiers; a single front boot comes to attention while the rest remain still. Frame with a clear focal subject, layered foreground/midground/background, stable light and the approved illustrated palette. Exactly one controlled action and no camera drift. SFX: one short heel thud, dry, non-tonal, under 0.20s; otherwise silence. Instant hard cut at frame 40.
+
+Shot 3, frames 40–59, 1.667–2.500s, from <Picture 1>: High yard view: several short ranks occupy only a corner of the stone court, leaving generous empty space; Napoleon stays unique at the front. Small army scale reads. Frame with a clear focal subject, layered foreground/midground/background, stable light and the approved illustrated palette. Exactly one controlled action and no camera drift. SFX: one brief coat rustle, dry, non-tonal, under 0.20s; otherwise silence. Instant hard cut at frame 60.
+
+Shot 4, frames 60–79, 2.500–3.333s, from <Picture 1>: Medium Napoleon and shako officer two-shot: officer points from the ranks toward the one distant brig; Napoleon turns his dot eyes toward it. Frame with a clear focal subject, layered foreground/midground/background, stable light and the approved illustrated palette. Exactly one controlled action and no camera drift. SFX: one dry glove flick, dry, non-tonal, under 0.20s; otherwise silence. Instant hard cut at frame 80.
+
+Shot 5, frames 80–99, 3.333–4.167s, from <Picture 1>: Close of one mooring line attached to that same two-masted brig in the outlined harbor; rope tightens once, water remains flat painted shapes. Frame with a clear focal subject, layered foreground/midground/background, stable light and the approved illustrated palette. Exactly one controlled action and no camera drift. SFX: one short rope creak, dry, non-tonal, under 0.20s; otherwise silence. Instant hard cut at frame 100.
+
+Shot 6, frames 100–119, 4.167–5.000s, from <Picture 1>: Clear full-profile portrait of precisely one two-masted wooden brig at Elba harbor, entire hull and both masts visible, with compact soldiers on quay for scale. Frame with a clear focal subject, layered foreground/midground/background, stable light and the approved illustrated palette. Exactly one controlled action and no camera drift. SFX: one dry sail snap, dry, non-tonal, under 0.20s; otherwise silence. Settle and hold the last five frames.
+
+No readable letters, numerals, captions, subtitles, map labels, signs, logos or watermarks anywhere.
+
+Sound design is dry and sparse: only the named brief non-tonal diegetic SFX, each at most 0.20 second and physically synchronized to its visible event, with silence between cues. No continuous wind, sea, crowd or room ambience; no music, melody, harmonic tone, beat, percussion loop, drone, pad, riser, sting, soundtrack, singing, voice, dialogue, narration, lip sync or long reverb. Do not sonically fill quiet gaps.
+
+NO BACKGROUND MUSIC. Natural diegetic sound effects only.

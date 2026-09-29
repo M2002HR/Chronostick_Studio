@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "prompt_revision": "r003",
+  "prior_batch_id": "9bd1ba96-3686-462b-96b9-65b3c4437501",
+  "service_url": "http://127.0.0.1:8091",
+  "state": "succeeded",
+  "variants": {
+    "r003": {
+      "status": "succeeded",
+      "batch_id": "e37b07d8-47d8-4024-9f59-1c186eee0e7a",
+      "clip_count": 13,
+      "sampling_steps": 14
+    },
+    "r004": {
+      "status": "succeeded",
+      "batch_id": "a9e43711-2ade-482c-904d-4978282ef3e8",
+      "clip_count": 13,
+      "sampling_steps": 14
+    },
+    "r005": {
+      "status": "succeeded",
+      "batch_id": "04ee4a2e-628c-4f00-93d7-c7ca46557ea5",
+      "clip_count": 13,
+      "sampling_steps": 14
+    }
+  },
+  "last_updated": "2026-09-29T07:52:04.454009+03:30"
+}

@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "status": "approved_for_generation",
+  "approved_design_authorities": [
+    {
+      "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "role": "master rendering language; design authority, not a direct multi-panel H3 input"
+    }
+  ],
+  "evaluated_not_reused": [
+    {
+      "path": "assets/worlds/world-france-late-18c-r001.png",
+      "reason": "Late-eighteenth-century environment does not directly control 1814–1815 Elba, coalition chamber, or return-route architecture."
+    },
+    {
+      "path": "assets/characters/french-guard/character-french-guard-sheet-r001.png",
+      "reason": "Late-eighteenth-century guard uniform is not an approved 1814–1815 French soldier identity."
+    }
+  ],
+  "identity_authorities": [
+    {
+      "id": "I01",
+      "person": "Napoleon Bonaparte",
+      "status": "approved",
+      "new_asset_required": true,
+      "type": "portrait-grounded single-person ChronoStick identity anchor",
+      "planned_filename": "napoleon-identity-r001.png",
+      "visual_cues": [
+        "compact round off-white head and minimal face",
+        "black bicorne silhouette",
+        "dark blue early-nineteenth-century military coat",
+        "pale waistcoat",
+        "white breeches",
+        "black boots",
+        "one hand often at coat"
+      ],
+      "source_requirement": "Select and cite a period-grounded Napoleon portrait before generating; preserve the approved identity thereafter.",
+      "role": "Design source for scene anchors; not normally passed directly to H3.",
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/napoleon-identity-r001.png",
+      "sha256": "a3b8805b1ce810c059a28008da9b414b728549860e2466aff12f47ee86cbc60e",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/napoleon-identity.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved for scene-anchor identity source: one full-body character, stable bicorne and navy-white-red costume, ChronoStick face/anatomy, no extra person, text, or panels."
+    }
+  ],
+  "scene_anchors": [
+    {
+      "id": "S01",
+      "type": "generation_safe_scene_anchor",
+      "name": "symbolic London and Elba scale relief",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        1
+      ],
+      "exact_subject_count_and_contents": "no people; seven small Elba tokens; one crown; unlabeled city relief",
+      "event_phase": "symbolic prologue",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s01-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s01-episode-004-anchor-r003.png",
+      "sha256": "e0cecd059f1aa0142d9d684f18218f40155ed42158127dd9ffa6ee3073c62910",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s01-scene-anchor-r003.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved for seed variants r004/r005 after r003 clip 01 hallucinated people: seven large flat coastline-shaped gold tiles are clearly countable, no humans or upright forms, same full-frame illustrated relief style"
+    },
+    {
+      "id": "S02",
+      "type": "generation_safe_scene_anchor",
+      "name": "Napoleon alone above Elba harbor",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        2
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon; sea, compact 1814 harbor; no other foreground person",
+      "event_phase": "Elba identity reveal",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s02-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s02-episode-004-anchor-r001.png",
+      "sha256": "971d43e20baa344af142cfdc970997ab7230391ec40681057f23b845a51d075f",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s02-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S03",
+      "type": "generation_safe_scene_anchor",
+      "name": "1814 coalition defeat threshold",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        3
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon and three separated anonymous coalition silhouettes; fallen standard",
+      "event_phase": "1814 defeat",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s03-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s03-episode-004-anchor-r001.png",
+      "sha256": "0dbc80ef343367f35dc32423078cf1816cc920854486ad8af0f313890bf045e5",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s03-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S04",
+      "type": "generation_safe_scene_anchor",
+      "name": "Fontainebleau negotiation chamber",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        4,
+        5,
+        6
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon and up to three anonymous officials; blank parchment; closed sword case",
+      "event_phase": "bargain and terms",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s04-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r002.png",
+      "sha256": "9757bc2b9fe97ac6a1eed146ebee983f7c6f3ce4a1b97e3dddba3ba2da7ec87d",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s04-scene-anchor-r002.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved for r003 negotiation condition: one Napoleon and three officials; tiny Elba separated from large mainland by blue sea gap; full-frame stick-world style"
+    },
+    {
+      "id": "S05",
+      "type": "generation_safe_scene_anchor",
+      "name": "Napoleon arriving at Elba quay",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        6
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon at quay; one moored vessel; no troops in foreground",
+      "event_phase": "acceptance and arrival",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s05-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s05-episode-004-anchor-r001.png",
+      "sha256": "b704d9dfab02b086a342ee4024e68495d21386af3b77e062e353c79d222c3564",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s05-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S06",
+      "type": "generation_safe_scene_anchor",
+      "name": "Elba flag and bakery workshop",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        7
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon and one baker; unfinished white/red flag cloth; one oven; no hospital",
+      "event_phase": "first reforms",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s06-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s06-episode-004-anchor-r001.png",
+      "sha256": "373101f665d08c2bd1393b51c09522d46d711ee0e2eecd1811118bd1249aef33",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s06-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S07",
+      "type": "generation_safe_scene_anchor",
+      "name": "Elba hospital exterior",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        7
+      ],
+      "exact_subject_count_and_contents": "one completed period hospital and one caregiver; no sign or readable cross text",
+      "event_phase": "hospital reform",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s07-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s07-episode-004-anchor-r002.png",
+      "sha256": "001cdf56391d03ac2cdeb517780f13512490294137936d64c30fa876318c3f32",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s07-scene-anchor-r002.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved for r003 hospital scene: caregiver, two beds, patient and bandages make function legible in full-frame stick-world style"
+    },
+    {
+      "id": "S08",
+      "type": "generation_safe_scene_anchor",
+      "name": "Elba parade yard and one brig",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        8,
+        9
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon; modest soldiers; one two-masted brig; stable door closed",
+      "event_phase": "small force before horse reveal",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s08-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s08-episode-004-anchor-r002.png",
+      "sha256": "d77e4e13c73b57e8343c6e476068601e421ec9c600f2bc0c18ba65903ad32419",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s08-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S09",
+      "type": "generation_safe_scene_anchor",
+      "name": "small force versus France tabletop",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        9,
+        10
+      ],
+      "exact_subject_count_and_contents": "no live people; tiny Elba/Napoleon counter and many larger unmarked French counters; no battle",
+      "event_phase": "scale reversal",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s09-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s09-episode-004-anchor-r001.png",
+      "sha256": "5223c411a0639c010138cb384bf9b39b017c39d06b0a9255535d1424dae378d2",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s09-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S10",
+      "type": "generation_safe_scene_anchor",
+      "name": "Elba brig casting off",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        10
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon aboard one brig with small force; Elba quay behind; no other boats",
+      "event_phase": "departure",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s10-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s10-episode-004-anchor-r001.png",
+      "sha256": "beb0fdbbb171fb0a93f5f05d3ea41a62d559ee3cbbf9872fda3a102448711d2f",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s10-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S11",
+      "type": "generation_safe_scene_anchor",
+      "name": "French coast landing",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        11
+      ],
+      "exact_subject_count_and_contents": "one brig at French shore; exactly one Napoleon disembarking; small party; no royalist line visible",
+      "event_phase": "landing",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s11-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s11-episode-004-anchor-r001.png",
+      "sha256": "b8289232d6dbf72cabae8fed50b7382718a5e0e9e5b33bb7b1fbd33d20bc753b",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s11-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S12",
+      "type": "generation_safe_scene_anchor",
+      "name": "French mountain-road standoff",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        11,
+        12
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon and small party facing a larger royalist line; weapons at rest",
+      "event_phase": "confrontation before defection",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s12-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s12-episode-004-anchor-r001.png",
+      "sha256": "3dcac7d9b220a1b4c2bd7762b0c6a7e09f10db4b82e4a6c8c21dd61e7d7c3d49",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s12-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S13",
+      "type": "generation_safe_scene_anchor",
+      "name": "Napoleon marching into Paris",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        12
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon with joined soldiers; Paris street arch; no palace restoration yet",
+      "event_phase": "march and arrival",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s13-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s13-episode-004-anchor-r001.png",
+      "sha256": "2961a74f173fa0b4b727c543a3baeb7f9fd442f30d4daa6de2ffce21cc501fe2",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s13-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S14",
+      "type": "generation_safe_scene_anchor",
+      "name": "Paris palace threshold",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        13
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon outside an openable palace door; guard clearing threshold",
+      "event_phase": "restoration begins",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s14-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future event"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s14-episode-004-anchor-r001.png",
+      "sha256": "914690ff78d23f4d9ab65f46d30c8f54b810910407bbaabd2dfe0f094aa98854",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s14-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    },
+    {
+      "id": "S15",
+      "type": "generation_safe_scene_anchor",
+      "name": "Napoleon beside Paris palace window with exact SUBSCRIBE button",
+      "status": "approved",
+      "new_asset_required": true,
+      "intended_clips": [
+        13
+      ],
+      "exact_subject_count_and_contents": "exactly one Napoleon beside tall palace window; Paris rooftops beyond; one red rounded button with single-line white uppercase SUBSCRIBE, no other text or crowd",
+      "event_phase": "resolved restoration and CTA",
+      "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "planned_filename": "s15-episode-004-anchor-r001.png",
+      "reference_constraints": [
+        "full-frame single scene",
+        "one viewpoint and one time state",
+        "vertical 9:16",
+        "no panels, repeated poses, annotations, labels, or future events; only the user-authorized SUBSCRIBE button may contain readable text"
+      ],
+      "selected_path": "assets/episodes/004-smallest-empire-in-history/references/s15-episode-004-anchor-r001.png",
+      "sha256": "678b72d39f18dd65dee89f5db7e7cc42583f9aea692af31f448846727778341a",
+      "prompt_path": "prompts/image/episodes/004-smallest-empire-in-history/s15-scene-anchor.md",
+      "reviewed_by": "assistant",
+      "review_decision": "approved as one full-frame scene anchor after visual review; use only for indicated clips and phase"
+    }
+  ],
+  "h3_reference_order_by_clip": [
+    {
+      "clip": 1,
+      "ordered_scene_anchor_ids": [
+        "S01"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s01-episode-004-anchor-r002.png"
+      ]
+    },
+    {
+      "clip": 2,
+      "ordered_scene_anchor_ids": [
+        "S02"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s02-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 3,
+      "ordered_scene_anchor_ids": [
+        "S03"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s03-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 4,
+      "ordered_scene_anchor_ids": [
+        "S04"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 5,
+      "ordered_scene_anchor_ids": [
+        "S04"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 6,
+      "ordered_scene_anchor_ids": [
+        "S04",
+        "S05"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s04-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s05-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 7,
+      "ordered_scene_anchor_ids": [
+        "S06",
+        "S07"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s06-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s07-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 8,
+      "ordered_scene_anchor_ids": [
+        "S08"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s08-episode-004-anchor-r002.png"
+      ]
+    },
+    {
+      "clip": 9,
+      "ordered_scene_anchor_ids": [
+        "S08",
+        "S09"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s08-episode-004-anchor-r002.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s09-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 10,
+      "ordered_scene_anchor_ids": [
+        "S09",
+        "S10"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s09-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s10-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 11,
+      "ordered_scene_anchor_ids": [
+        "S11",
+        "S12"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s11-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s12-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 12,
+      "ordered_scene_anchor_ids": [
+        "S12",
+        "S13"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s12-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s13-episode-004-anchor-r001.png"
+      ]
+    },
+    {
+      "clip": 13,
+      "ordered_scene_anchor_ids": [
+        "S14",
+        "S15"
+      ],
+      "status": "approved_reference_order",
+      "ordered_references": [
+        "assets/episodes/004-smallest-empire-in-history/references/s14-episode-004-anchor-r001.png",
+        "assets/episodes/004-smallest-empire-in-history/references/s15-episode-004-anchor-r001.png"
+      ]
+    }
+  ],
+  "reference_limit": 2,
+  "next_action": "Author H3 prompts and deterministic 14-step jobs; preflight, then launch the explicitly authorized batch.",
+  "user_authorized_text_exception": {
+    "clip": 13,
+    "text": "SUBSCRIBE",
+    "button_color": "red",
+    "letter_color": "white",
+    "entry_global_seconds": 60.88,
+    "fully_legible_global_seconds": 61.05,
+    "hold_until_global_seconds": 65.0,
+    "scope": "generated into the H3 video itself, not an editorial overlay; no other readable text"
+  },
+  "retry_reference_order_path": "automation/retries/reference-order-r002.json"
+}
