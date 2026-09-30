@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "005-why-risk-a-duel",
+  "package_status": "provisional_distribution_master_and_operator_decisions_pending",
+  "prepared_at": "2026-10-01T00:21:15+03:30",
+  "language": "es",
+  "title": {
+    "primary": "¿Por qué se batían a duelo si no querían matar?",
+    "alternatives": [
+      "Duelos sin intención de matar: ¿qué defendían?",
+      "Andrew Jackson y el riesgo mortal de los duelos"
+    ],
+    "character_limit": 100
+  },
+  "description": "¿Por qué aceptar un duelo si no querías matar a tu rival? Esta historia animada explora la reputación detrás de los duelos, los disparos fallados a propósito y lo que podía salir fatal. Del caso de Andrew Jackson a los duelos políticos de Uruguay, la pregunta sigue siendo: ¿cuánto arriesgarías por tu honor?\n\nChronoStick: historias animadas en español.\n\n#Historia #Duelos #AndrewJackson #Shorts",
+  "description_character_limit": 5000,
+  "hashtags": [
+    "#Historia",
+    "#Duelos",
+    "#AndrewJackson",
+    "#Shorts"
+  ],
+  "tags": [
+    "duelos",
+    "duelo de honor",
+    "duelos históricos",
+    "Andrew Jackson",
+    "duelo de Andrew Jackson",
+    "duelos en Uruguay",
+    "historia animada",
+    "ChronoStick"
+  ],
+  "category": {
+    "name": "Education",
+    "education_type": "concept_overview"
+  },
+  "recording": {
+    "date": null,
+    "location": null,
+    "note": "Animated historical story; depicted locations are not physical recording locations."
+  },
+  "depicted_events": {
+    "locations": ["United States", "France", "Uruguay"],
+    "note": "Multiple historical examples are depicted; no single filming location or date applies."
+  },
+  "audience": {
+    "made_for_kids": null,
+    "operator_decision_required": true
+  },
+  "age_restriction": {
+    "restricted_to_adults": null,
+    "operator_decision_required": true
+  },
+  "ai_use": {
+    "value": null,
+    "operator_decision_required": true
+  },
+  "thumbnail": {
+    "prompt_path": "episodes/005-why-risk-a-duel/delivery/youtube/thumbnail-prompt-r001.md",
+    "source_path": "episodes/005-why-risk-a-duel/delivery/youtube/thumbnail-episode-005-r001-source.png",
+    "path": "episodes/005-why-risk-a-duel/delivery/youtube/thumbnail-episode-005-r001.png",
+    "width": 2160,
+    "height": 3840,
+    "format": "png",
+    "review_status": "assistant_visual_qc_passed_user_approval_pending",
+    "provenance_path": "episodes/005-why-risk-a-duel/delivery/youtube/thumbnail-provenance-r001.json"
+  },
+  "media": {
+    "concat_path": "episodes/005-why-risk-a-duel/final/episode-005-why-risk-a-duel-r001.mp4",
+    "picture_sfx_master_path": "episodes/005-why-risk-a-duel/final/episode-005-why-risk-a-duel-picture-sfx-1080x1920-r001.mp4",
+    "picture_sfx_master_status": "upscale_complete_technical_checks_passed_editorial_review_pending",
+    "picture_sfx_master_sha256": "4282db52c3952e8f3203ee81de9ee98c197fe70bb6a8e5e252c4c5efa862268e",
+    "picture_sfx_master_duration_seconds": 55.0,
+    "picture_sfx_master_dimensions": [1080, 1920],
+    "picture_sfx_master_fps": 24,
+    "upscale_provenance_path": "episodes/005-why-risk-a-duel/final/episode-005-why-risk-a-duel-picture-sfx-1080x1920-r001.framewise-upscale.json",
+    "narration_status": "approved_external_voice_timing_audio_file_unavailable_in_repository",
+    "distribution_master": null,
+    "expected_upload_filename": "chronostick-005-por-que-se-batian-a-duelo-1080x1920.mp4",
+    "note": "Picture and natural SFX are assembled and upscaled; this is not the finished Spanish-narrated distribution export."
+  },
+  "related_video": {
+    "video_id": null,
+    "operator_decision_required": true,
+    "suggestion": "Link a published ChronoStick Short about another surprising historical custom when its actual video ID is known."
+  },
+  "credits_and_sources": {
+    "source_story": "User-supplied English story at episodes/005-why-risk-a-duel/source/source-en.md; approved Spanish narration at episodes/005-why-risk-a-duel/script/narration-es.md. Independent historical verification was explicitly not part of this episode stage; no original publication URL was supplied.",
+    "thumbnail": "Original ChronoStick image generated for Episode 005 with approved episode visual reference and channel typography benchmark."
+  },
+  "upload_decisions": {
+    "visibility": null,
+    "license": null,
+    "allow_embedding": null,
+    "notify_subscribers": null,
+    "shorts_remixing": null,
+    "comments": null,
+    "publication_authorized": false
+  },
+  "official_platform_checks": {
+    "checked_at": "2026-10-01",
+    "title_max_characters": 100,
+    "description_max_characters": 5000,
+    "tags_note": "YouTube says tags play a minimal discovery role apart from common misspellings.",
+    "shorts_custom_thumbnail": "YouTube Studio desktop; account eligibility and current upload controls must be checked by the operator.",
+    "sources": [
+      "https://support.google.com/youtube/answer/57407?hl=en",
+      "https://support.google.com/youtube/answer/72431?hl=en"
+    ]
+  },
+  "updated_at": "2026-10-01T00:21:15+03:30"
+}

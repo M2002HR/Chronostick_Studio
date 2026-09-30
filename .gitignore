@@ -47,3 +47,6 @@ episodes/*/automation/retries/**/*.marker
 # logs/generation-log.md.
 *.log
 logs/*.log
+
+# Local automation service database; generated at runtime, not episode provenance.
+/state/

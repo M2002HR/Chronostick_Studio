@@ -2,6 +2,18 @@
 
 This file records durable production decisions and the evidence behind them. Active rules derived from these decisions live in the focused documents under `docs/`.
 
+## 2026-09-30 — Default picture-master enhancement
+
+### Decision
+
+ChronoStick picture/SFX masters use the local frame-preserving Spandrel workflow with `RealESRGAN_x4plus_anime_6B.pth`, processed one frame at a time in FP16 and fitted with `cover` to an exact 1080×1920 vertical output. Preserve the original audio stream, retain the immutable upscale provenance report, and require picture-master QC before approval.
+
+Do not adopt SoL-Refiner as the production default. It may be reconsidered only after an isolated, reviewed pilot on supported high-memory hardware.
+
+### Reason
+
+The existing model is compatible with the local single-GPU production stack and preserves the detailed cinematic stick-figure visual language without a generative video-refinement pass. The available SoL-Refiner H3 release requires a separate, substantially higher-memory runtime and would need a separate temporal, identity, audio-remux, and portrait-format validation before it could safely replace the established finishing step.
+
 ## 2026-09-27 — Sub-second final-frame extension
 
 ### Decision

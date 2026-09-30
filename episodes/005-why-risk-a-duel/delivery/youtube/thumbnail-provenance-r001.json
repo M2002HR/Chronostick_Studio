@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "005-why-risk-a-duel",
+  "revision": "r001",
+  "generation_method": "built_in_imagegen_single_pass_with_integrated_typography",
+  "generated_at": "2026-10-01T00:15:00+03:30",
+  "generation_authorization": "Explicit user request for the Episode 005 thumbnail",
+  "prompt_path": "episodes/005-why-risk-a-duel/delivery/youtube/thumbnail-prompt-r001.md",
+  "source_path": "episodes/005-why-risk-a-duel/delivery/youtube/thumbnail-episode-005-r001-source.png",
+  "source_sha256": "c82e05f0bf635c98d41912bd7fb812db944deda84f88f579d7969fe9bab21061",
+  "source_dimensions": [941, 1672],
+  "delivery_path": "episodes/005-why-risk-a-duel/delivery/youtube/thumbnail-episode-005-r001.png",
+  "delivery_sha256": "c540678b97556a61a8109f6d334807023ee978beb295da54426aeda89866e98e",
+  "delivery_dimensions": [2160, 3840],
+  "post_generation_changes": "Resolution conversion with ffmpeg Lanczos and a center crop of the negligible source aspect-ratio difference; no text or graphic overlays",
+  "reference_paths": [
+    "assets/episodes/005-why-risk-a-duel/references/s01-dawn-duel-field-r002.png",
+    "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002.png"
+  ],
+  "reference_roles": [
+    "Episode 005 duel setting, period clothing, flintlocks and ChronoStick style",
+    "Channel display-lettering character only"
+  ]
+}
