@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "005-why-risk-a-duel",
+  "title": "Why RISK a DUEL? #4k #history",
+  "source_path": "source/source-en.md",
+  "source_sha256": "904c4e7f847b7a63561655a06d52488f298618471a8e8ea84ff4e52ddb32928d",
+  "source_origin": "User-supplied English text; no original publication URL supplied",
+  "target_language": "es",
+  "audience": "General Spanish-language YouTube Shorts audience",
+  "duration_range_seconds": [40, 49],
+  "preferred_duration_seconds": 47,
+  "project_seed": 20260929005,
+  "factual_mode": "historical-source-preservation-without-independent-research",
+  "cta_required": true,
+  "preservation_instruction": "Preserve every narrative section and claim from the supplied source while compressing phrasing for a fast 40–49 second Spanish delivery; end with an explicit subscribe CTA.",
+  "assumptions": [
+    "The supplied historical claims are retained as source claims and have not been independently verified, per the user's explicit instruction.",
+    "The title hashtags are packaging metadata and are not spoken in the narration.",
+    "The exact year 1992 carries the source's redundant relative-time statement into the shortened narration.",
+    "The estimated duration assumes an energetic but intelligible Spanish delivery; actual voice timing remains authoritative."
+  ]
+}

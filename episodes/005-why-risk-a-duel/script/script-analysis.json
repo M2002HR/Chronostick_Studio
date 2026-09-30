@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "005-why-risk-a-duel",
+  "status": "approved",
+  "target_language": "es",
+  "source_preservation": "All four source sections retained: dueling's social purpose and typical resolution, Andrew Jackson, French officer deaths and prohibition, and Uruguay's legal dueling through 1992; phrasing compressed for speed.",
+  "word_count": 127,
+  "non_spoken_title": "¿Por qué arriesgarse a un duelo?",
+  "estimated_duration_seconds": {
+    "energetic_delivery": 47,
+    "expected_range": [45, 49]
+  },
+  "actual_voice_timeline_seconds": 52.52,
+  "delivery_target_words_per_minute": 162,
+  "hook": "¿Odias a alguien? Antes podías retarlo a duelo y dispararle.",
+  "open_loop": "Dueling was socially normal and often nonlethal, but the narration promises examples of how deadly it became.",
+  "beats": [
+    "A duel as a once-normal answer to personal hatred",
+    "Reputation rather than killing as the stated purpose",
+    "Deliberate misses, handshake, and beer as the typical resolution",
+    "Andrew Jackson's more than one hundred duels",
+    "Jackson takes a chest shot first, then kills his opponent and carries the bullet",
+    "More than four thousand French officers killed in twenty years",
+    "The king bans dueling as the officer corps is depleted",
+    "Uruguay remains the final country with legal dueling until 1992",
+    "Politicians fight one-on-one to demonstrate commitment",
+    "Opinion punchline followed by the subscribe CTA"
+  ],
+  "payoff": "Legal political dueling survives in Uruguay until 1992, followed by the narrator's provocative approval.",
+  "cta": "¡Suscríbete!",
+  "factual_claims_needing_verification": [
+    "Dueling was completely normal for a long historical period.",
+    "Most duels ended with both participants deliberately missing, reconciling, and drinking together.",
+    "Andrew Jackson participated in more than one hundred duels.",
+    "Jackson deliberately allowed an opponent to shoot him in the chest first and then killed him.",
+    "Jackson retained that bullet next to his heart for the rest of his life.",
+    "More than four thousand French officers died in duels during one twenty-year period.",
+    "A French king banned dueling because the army was running out of officers.",
+    "Uruguay was the last country to ban legal dueling, in 1992.",
+    "Uruguayan politicians used legal duels to demonstrate dedication to their causes."
+  ],
+  "verification_status": "Not independently researched at the user's explicit request; claims are preserved from the supplied source.",
+  "pronunciation_notes": [
+    "Andrew Jackson: preserve the English name pronunciation naturally within Spanish narration.",
+    "Uruguay: stress the final syllable in standard Spanish pronunciation."
+  ]
+}

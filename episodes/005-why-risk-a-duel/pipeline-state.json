@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "005-why-risk-a-duel",
+  "title": "Why RISK a DUEL? #4k #history",
+  "current_stage": "07-batch-generation",
+  "defaults": {
+    "target_language": "es",
+    "duration_seconds": 55,
+    "clip_seconds": 5,
+    "generation_steps": 14,
+    "project_seed": 20260929005
+  },
+  "stages": [
+    {
+      "id": "01",
+      "name": "intake-script",
+      "skill": "chronostick-script",
+      "status": "approved",
+      "inputs": [
+        "User-supplied title and English source text",
+        "User instruction for complete content preservation, Spanish narration, rapid pacing, 40–49 seconds, and a subscribe CTA"
+      ],
+      "outputs": [
+        "source/intake.json",
+        "source/source-en.md",
+        "script/narration-es.md",
+        "script/script-analysis.json"
+      ],
+      "validated_at": "2026-09-29T07:17:03+03:30",
+      "approved_at": "2026-09-29T07:36:35+03:30",
+      "approved_by": "user",
+      "decision_notes": "The 127-word Spanish narration preserves every narrative section. The user generated its voice and supplied the complete word-level timing transcript, which confirms acceptance of the narration text for timing use. Historical claims were not independently researched at the user's explicit request.",
+      "next_action": "Resolve the actual 52.520-second voice duration against the requested 40–49-second contract."
+    },
+    {
+      "id": "02",
+      "name": "timestamps",
+      "skill": "chronostick-timestamps",
+      "status": "approved",
+      "inputs": [
+        "script/narration-es.md",
+        "User-pasted 129-token word timing transcript"
+      ],
+      "outputs": [
+        "timestamps/word-timestamps-source.csv",
+        "timestamps/timing-map.json",
+        "timestamps/validation-report.md"
+      ],
+      "validated_at": "2026-09-29T07:36:35+03:30",
+      "approved_at": "2026-09-29T07:42:41+03:30",
+      "approved_by": "user",
+      "decision_notes": "The 129-row CSV is structurally valid and ends at 52.520 seconds. Recognition mismatches are preserved and documented. On 2026-09-29 the user explicitly confirmed the timing and authorized the resulting 11-slot, 55-second rapid-cut picture timeline.",
+      "next_action": "Use the approved timing map for the 11-clip shot plan."
+    },
+    {
+      "id": "03",
+      "name": "shot-plan",
+      "skill": "chronostick-shot-plan",
+      "status": "approved",
+      "inputs": [
+        "script/narration-es.md",
+        "timestamps/timing-map.json",
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "outputs": [
+        "plan/shot-plan.md",
+        "plan/story-state-ledger.json",
+        "plan/reference-manifest.json"
+      ],
+      "validated_at": "2026-09-29T07:42:41+03:30",
+      "approved_at": "2026-09-29T08:55:15+03:30",
+      "approved_by": "user",
+      "decision_notes": "Eleven independent five-second clips contain exactly eight materially distinct hard-cut shots each, for 88 total. The user explicitly instructed continuation with maximum speed, many exciting cuts, full continuity, two seed variants, and final batch launch.",
+      "next_action": "Use the approved plan and reference manifest for prompt and generation stages."
+    },
+    {
+      "id": "04",
+      "name": "references",
+      "skill": "chronostick-references",
+      "status": "approved",
+      "inputs": ["plan/reference-manifest.json", "assets/styles/style-detailed-cinematic-stick-history-r001.png", "Andrew Jackson Library of Congress portrait source"],
+      "outputs": ["assets/episodes/005-why-risk-a-duel/references/andrew-jackson-identity-r001.png", "assets/episodes/005-why-risk-a-duel/references/s01-dawn-duel-field-r001.png through s09-uruguay-political-duel-r001.png", "plan/reference-review.md"],
+      "validated_at": "2026-09-29T08:55:15+03:30",
+      "approved_at": "2026-09-29T08:55:15+03:30",
+      "approved_by": "assistant-review",
+      "decision_notes": "All ten selected assets passed full-resolution and 180x320 phone-size review. Immutable paths, hashes, inventories, and decisions are recorded in the reference manifest.",
+      "next_action": "Use only the clip-mapped approved scene anchors in H3."
+    },
+    {
+      "id": "05",
+      "name": "clip-prompts",
+      "skill": "chronostick-clip-prompts",
+      "status": "approved",
+      "inputs": ["plan/shot-plan.md", "plan/story-state-ledger.json", "plan/reference-manifest.json"],
+      "outputs": ["prompts/clip-01.md through prompts/clip-11.md"],
+      "validated_at": "2026-09-29T09:05:00+03:30",
+      "approved_at": "2026-09-29T09:05:00+03:30",
+      "approved_by": "assistant-review",
+      "decision_notes": "Every prompt defines exactly eight distinct timed shots, ordered Picture mappings, continuity and inventory locks, isolated diegetic SFX, a resolved end frame, and the exact required no-background-music sentence.",
+      "next_action": "Compile deterministic 14-step jobs."
+    },
+    {
+      "id": "06",
+      "name": "generation-jobs",
+      "skill": "chronostick-generation-jobs",
+      "status": "approved",
+      "inputs": ["prompts/clip-01.md through prompts/clip-11.md", "approved scene anchors", "project seed 20260929005"],
+      "outputs": ["automation/variants/r001/jobs/", "automation/variants/r002/jobs/", "automation/variants/r001/batch-settings.json", "automation/variants/r002/batch-settings.json"],
+      "validated_at": "2026-09-29T09:05:00+03:30",
+      "approved_at": "2026-09-29T09:05:00+03:30",
+      "approved_by": "assistant-review",
+      "decision_notes": "Two complete 11-job variants use identical prompts and reference order with 22 unique deterministic fixed seeds. All jobs use 14 steps, 480x864, 5 seconds, 24 fps, SFX-only audio, immutable outputs, and no automatic concat or upscale.",
+      "next_action": "Launch r001 and r002 sequentially through the persistent queue."
+    },
+    {
+      "id": "07",
+      "name": "batch-generation",
+      "skill": "chronostick-batch",
+      "status": "running",
+      "inputs": ["automation/retries/r003/jobs/", "automation/retries/r004/jobs/", "automation/retries/run-r003-r004-queue.sh"],
+      "outputs": ["automation/retries/r003-r004-queue-state.json", "automation/retries/r003/batch-watch.log", "automation/retries/r004/batch-watch.log", "renders/raw/", "renders/editorial/"],
+      "validated_at": "2026-09-29T09:05:00+03:30",
+      "approved_at": "2026-09-29T09:07:59+03:30",
+      "approved_by": "user",
+      "decision_notes": "The first two complete variants r001 and r002 succeeded technically but the user rejected them for audible music, upward or indirect weapon aim, and unrealistically close duel spacing. Four r002 scene anchors and all eleven r003 prompts now enforce wide spacing, direct opposing chest aim, and isolated dry SFX with absolute music bans. Corrected r003 passed 11/11 dry-run and is running as batch f19517e9-d5b3-4f08-b5dd-5c7107f5271a; corrected r004 passed 11/11 dry-run and is queued behind it.",
+      "next_action": "Monitor corrected r003 and r004 to terminal state, then perform human audio and duel-geometry review before selection."
+    },
+    {
+      "id": "08",
+      "name": "review",
+      "skill": "chronostick-review",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "09",
+      "name": "assembly-upscale",
+      "skill": "chronostick-finish",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "10",
+      "name": "youtube-package",
+      "skill": "chronostick-youtube",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    }
+  ],
+  "external_finishing": null,
+  "updated_at": "2026-09-30T06:40:49+03:30"
+}

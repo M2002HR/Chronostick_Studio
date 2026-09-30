@@ -1,0 +1,6 @@
+**"Why RISK a DUEL? #4k #history"**
+
+*"If you really hate someone, can you just shoot him? In the past, yes! Dueling for the longest time was completely normal. But contrary to popular belief, the goal wasn't actually to kill the other person—it was to show you were willing to die to protect your reputation. In fact, most duels ended with both people missing on purpose, shaking hands, and going to grab a beer.*
+*But that doesn't mean things couldn't go dark. Take Andrew Jackson, the 7th US president. He was in over 100 duels! In one famous fight, he let his opponent shoot him in the chest first, just so he me could take his time, steady his aim, and kill the man slowly. Jackson lived the rest of his life with that bullet lodged next to his heart.*
+*The French in their turn were so obsessed with dueling that in a single 20-year period, over 4,000 officers were killed. The king eventually had to ban it because he was literally running out of army officers.*
+*The last country to ban dueling was Uruguay, where it remained the legal way to settle disputes until 1992. Yes, 30 years ago, politicians used to show their dedication to their cause by literally 1v1ing their political opponent. And you know what? I like it. Subscribe!"*

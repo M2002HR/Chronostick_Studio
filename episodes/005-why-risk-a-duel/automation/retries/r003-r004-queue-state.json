@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "005-why-risk-a-duel",
+  "service_url": "http://127.0.0.1:8092",
+  "status": "running",
+  "variants": {
+    "r003": {
+      "status": "running",
+      "batch_id": "f19517e9-d5b3-4f08-b5dd-5c7107f5271a",
+      "job_count": 11
+    },
+    "r004": {
+      "status": "ready",
+      "batch_id": null,
+      "job_count": 11
+    }
+  },
+  "last_updated": "2026-09-30T06:40:49.886175+03:30"
+}
