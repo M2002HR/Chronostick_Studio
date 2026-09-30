@@ -16,7 +16,7 @@
       "required": ["target_language", "duration_seconds", "clip_seconds", "generation_steps", "project_seed"],
       "properties": {
         "target_language": {"type": "string", "minLength": 2},
-        "duration_seconds": {"type": "integer", "minimum": 40, "maximum": 60},
+        "duration_seconds": {"type": "integer", "minimum": 40},
         "clip_seconds": {"const": 5},
         "generation_steps": {"type": "integer", "minimum": 1},
         "project_seed": {"type": "integer", "minimum": 0}

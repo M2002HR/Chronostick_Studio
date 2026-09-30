@@ -11,8 +11,10 @@ Review the actual video with sound and representative frames around every cut. A
 
 - story phase and chronology match the narration window
 - whole frame remains in the approved stick-world style
+- compare every shot with its assigned approved scene anchor, including background, hands, animals, vehicles, sky, water, and prop inserts; even one brief photographic or mixed-style frame fails the style gate
 - exact recurring identity, costume, count, placement, prop state, and emotion
 - readable action, controlled physics, intended camera, rapid but comprehensible cuts
+- semantic clarity at phone size: identify visible cause, action, and result without relying on narration to repair a misleading image; reject repeated crops or an ambiguous symbol even when style and identity pass
 - no sheet panels, clones, anatomical failures, generated labels, captions, or logos
 - synchronized natural SFX; no melody, beat, tonal ambience, speech, narration, singing, or vocal reactions
 - correct resolution/frame rate, valid audio/video streams, editorial duration, stable final frame
@@ -20,8 +22,10 @@ Review the actual video with sound and representative frames around every cut. A
 ## Rapid-cut and directing audit
 
 - Build a dense contact sheet or inspect representative frames immediately before and after every planned cut. Count materially distinct shot states; a rapid-profile clip must show the planned eight hard-cut shots unless an approved exception exists.
+- At each cut, audit the planned visible inventory and inherited state against actual frames: subject count, identity cues, hat/uniform, left/right placement, prop ownership and shape, environment geometry, light direction, and event phase. Record the first offending frame and the reference that should have controlled it.
 - Do not accept a long take, whip pan, speed ramp, zoom blur, or morph as a substitute for editing. The pace must come from discrete readable compositions while motion inside each shot remains controlled.
 - Confirm every cut contributes new story information and the clip still reads as setup–escalation–payoff. Flag repetitive medium coverage, arbitrary camera moves, weak visual hierarchy, flat lighting, or technically correct but uncreative direction.
+- Compare the new attempt to the previous revision on separate axes: style purity, identity/physical logic, semantic clarity, cut rhythm, and audio. If style improves while story logic worsens, carry forward the stronger story coverage and strengthen its reference; do not accept a regression merely because the style improved.
 - Review the intended camera height, lens feeling, subject scale, depth layers, light direction, palette, negative space, and final resolved hold—not only anatomy and continuity.
 
 ## Historical identity audit
@@ -34,8 +38,10 @@ Record timecodes and evidence in `renders/review-rNNN.md`. Decisions are `approv
 
 - Isolated stochastic defect with a sound specification: keep the prompt/reference contract, use a new explicit fixed seed, and advance output revision.
 - Specification defect: revise the prompt or reference first, revalidate all mappings, use a new seed, and advance revision.
+- If a required shot has no visual authority in its assigned anchor, classify it `revise_reference` or change the shot. Adding longer negative wording alone does not repair missing reference coverage.
 - Chronology/continuity defect: correct the state ledger and every downstream affected prompt/job, not only the visible symptom.
 - Music or speech: reject; stronger prompt wording may reduce recurrence but human audio review remains mandatory.
+- A job's `music:false` setting and no-music prompt are constraints, not proof that music is absent. A reported audible music event fails review until a human listening check confirms a clean replacement or a separately reviewed isolated-SFX edit.
 
 Create replacement jobs under `automation/retries/` and run only the affected clips after preflight and explicit authorization. Keep prior outputs immutable.
 

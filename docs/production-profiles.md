@@ -45,6 +45,37 @@ This is a named high-density exception to the ordinary 2–4 H3 micro-beat guide
 
 Every generator prompt defines all ordered `<Picture N>` references and contains exactly: `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
 
+## `h3-short-5s-14step-rapid-cut-65s`
+
+Episode 004's user-authorized duration and rapid-edit profile:
+
+- MiniMax H3 `h3_ref2va`, vertical 480×864 at 24 fps; preserve the immutable 124-frame raw output and normalize each editorial clip to exactly 5.000 seconds
+- 13 independent generated clips, producing a 65.000-second picture timeline for narration ending at 62.120 seconds
+- 14 sampling steps, `res_multistep`, `beta`, Lightning off; fixed unique seeds
+- one approved full-frame single-scene reference normally, two only for an explicitly mapped scene handoff; no multi-panel board or multi-pose identity sheet passed directly to H3
+- Clips 01–12 use eight simple, materially distinct hard-cut shots each. The original Clip 13 plan uses four shots; after r001 review, the r002 replacement uses three compositions with the final frame and exact `SUBSCRIBE` button visible from frame 21 and held still after narration ends. The r002 exception is recorded in `plan/retry-direction-r002.md`.
+- one primary action and at most one simple camera move per shot; low background motion; no cross-generation match move
+- native natural SFX only, with no generated narration, speech, voices, or music; the only readable-text exception is the exact white `SUBSCRIBE` lettering on one red button in Clip 13, explicitly requested by the user
+- sequential batch after complete preflight; immutable media revisions and no overwrite
+
+The user accepted the supplied 62.120-second voice despite the normal 40–60-second default. The narration extends 2.120 seconds beyond 60.000, so the one-second final-frame-extension exception does not apply. Every generator prompt defines its ordered `<Picture N>` references and contains exactly: `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
+
+## `h3-short-5s-14step-rapid-cut-55s`
+
+Episode 005's user-authorized rapid-edit profile:
+
+- MiniMax H3 `h3_ref2va`, vertical 480×864 at 24 fps; retain the immutable 124-frame raw output and normalize every editorial clip to exactly 5.000 seconds
+- 11 independent generated clips, producing a 55.000-second picture timeline for narration ending at 52.520 seconds
+- 14 sampling steps, `res_multistep`, `beta`, Lightning off; fixed unique seeds
+- exactly eight materially distinct hard-cut shots in every clip; Clip 11 completes seven fast shots by local 2.300 and holds its eighth resolved handshake tableau unchanged through local 5.000
+- one primary action and at most one simple camera move per shot; zero to two low-amplitude secondary movements; no cross-generation match dependency
+- one approved full-frame single-scene reference normally; two only for an explicitly mapped subject or scene handoff; no multi-panel board or multi-pose identity sheet passed directly to H3
+- native isolated natural SFX only, with no generated narration, speech, voices, sustained ambience, tonal bed, or music
+- no generated readable text; the spoken subscription CTA remains external narration and any CTA typography is added during editorial finishing
+- sequential batch only after complete preflight; immutable media revisions and no overwrite
+
+The user explicitly accepted the supplied 52.520-second voice and the resulting 55.000-second timeline despite the original 40–49-second target. Every generator prompt defines all ordered `<Picture N>` references and contains exactly: `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
+
 ## Optional sub-second tail extension
 
 For future H3 episodes, a narration overhang of at most 1.000 second beyond the final complete five-second generated slot may use a post-concat `freeze_last_frame` extension instead of generating an otherwise-empty extra clip. The timing map must record both the default ceiling count and the reduced generated count, and the last prompt must end on a resolved freeze-safe frame. Generated SFX are padded with silence; the external narration continues normally. Use `scripts/extend-last-frame.sh` after concat and before upscale. This exception does not permit truncating narration, time-stretching media, or freezing through a new visual event.

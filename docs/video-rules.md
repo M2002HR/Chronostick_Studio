@@ -36,15 +36,17 @@ Use the profile-specific maximum. State what every reference controls and keep J
 
 Multi-panel style, world, vehicle, and character sheets are design sources. When a video model copies layouts, panels, repeated poses, or later story states from those sheets, derive an episode-scoped single-scene reference and pass that generation-safe reference to the video model instead. Prefer one scene anchor; use a second reference only when the clip genuinely needs an independently controlled identity or object.
 
+Before generation, map each timed shot to an approved anchor that covers its exact subject inventory, props, setting, viewpoint, story phase, and whole-frame stick style. If a hand, horse, landscape, ship, or city view is absent from the anchor, revise the shot or create a compatible single-scene anchor within the profile limit. Record the stable identity, object, and environment facts that must survive every cut.
+
 ## Generated content restrictions
 
 - no narration, character dialogue, speech, or lip sync
 - no subtitles, CTA text, labels, legal copy, or other readable generated text
 - no background music
-- only controlled natural ambience and Foley
+- only brief, isolated, non-tonal diegetic SFX tied to visible actions, with silence between cues; no continuous ambience, room tone, long tails, or tonal sound bed that competes with music added later
 
 Every video prompt must include: `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
 
 ## Review failures
 
-Reject or retry outputs with identity drift, style drift, extra foreground characters, historical anachronisms, unreadable action, excessive motion, unfinished endings, generated text, speech, or music.
+Reject or retry outputs with identity drift, any whole-frame style drift including photographic backgrounds or inserts, extra subjects or props, historical anachronisms, unreadable action, excessive motion, unfinished endings, unauthorized generated text, speech, sustained audio, or music. Inspect actual frames around every cut and listen to the audio; detailed prompts alone cannot guarantee model compliance.

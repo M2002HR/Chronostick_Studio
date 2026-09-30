@@ -30,6 +30,12 @@ Use the fewest references that fully control the shot:
 4. Keep JSON reference order identical to `<Picture N>` order and describe each role exactly once.
 5. Sampling steps refine a generation; they do not repair ambiguous identity, duplicated subjects, a contaminated reference, or a contradictory story state.
 
+## Lock the shot-to-anchor contract
+
+Before final video prompts, record for every timed shot which approved full-frame anchor controls its people, hands, animals, vehicles, story-critical props, architecture/landscape, light, event phase, and rendering style. Include exact visible counts, left/right placement, scale, distinguishing identity/costume cues, object ownership and physical state, camera crop, and the state carried through the next cut. State a deliberate absence as zero when the model could plausibly add an extra person, boat, flag, or word.
+
+Check the real image at full resolution and at phone size. The intended shot must be achievable by reframing that single scene; an era-matched anchor cannot control a new aerial city, realistic horse, hand insert, or unseen coastline. If coverage is missing, change the shot or approve a new single-scene anchor within the profile limit. Resolve conflicting image details before generation. No amount of sampling or generic negative wording guarantees style or identity when the visual input is ambiguous.
+
 ## Build a story-state ledger first
 
 Before writing generator prompts, create one row per clip with:
@@ -67,6 +73,8 @@ Every prompt should explicitly define:
 - expression changes through eyebrows, dot-eye focus, mouth state, shoulders, hands, stance, and movement speed
 - resolved end state and final hold
 - text, speech, and audio restrictions
+
+For each short shot, repeat the critical local facts: exact visible subject and prop inventory, the anchor scene/phase, screen position, one action from start to settled end, camera height and move, light direction/palette, hard-cut frame, and brief isolated SFX. Keep the shared global lock for whole-frame illustrated style and recurring identity. Specify seemingly obvious facts when omission could let a person duplicate, a prop teleport, or an empty background turn photographic; keep the instructions mutually consistent and grounded in the image.
 
 ## Describe the present state positively
 
@@ -119,6 +127,9 @@ Review a contact sheet at several frames per second and inspect the actual video
 - facial/emotional progression
 - generated text, dialogue, music, and audio stream
 - stable final frame
+- absence of photographic or mixed-style pixels in every shot, including hands, animals, sea, sky, and background inserts
+- exact shot-to-anchor coverage and no unexplained subject, prop, costume, light, or setting change across cuts
+- only short isolated SFX with silence between cues, leaving room for separately added background music
 
 Retry the same prompt and seed for an isolated random defect when the specification is sound. Rewrite the prompt for a specification defect. When the generated motion follows an unwanted trajectory strongly, use a new immutable output revision and a new fixed seed after correcting the prompt. Never overwrite an earlier render.
 
