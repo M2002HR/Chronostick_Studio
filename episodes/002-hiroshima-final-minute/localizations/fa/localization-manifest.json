@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "status": "draft",
+  "language": "fa",
+  "language_name": "Persian (Iran)",
+  "source_episode": "002-hiroshima-final-minute",
+  "source_picture": {
+    "path": "episodes/002-hiroshima-final-minute/final/episode-002-hiroshima-final-minute-1080x1920-framewise-r001.mp4",
+    "sha256": "7322e063e9c139c6ca93965d956eceb9edc6f4cded87c43bb77260ac3a402e1f",
+    "duration_seconds": 85.021333,
+    "audio_contract": "picture_sfx_only"
+  },
+  "source_timing_authority": {
+    "path": "episodes/002-hiroshima-final-minute/timestamps/word-timestamps.csv",
+    "sha256": "311f79f733cf660a91737f126852c891c0ecd2a20b07ee2a74ac73ba3f20a870",
+    "visual_cue_source": "Episode 002 r003 shot plan and fixed picture/SFX master"
+  },
+  "narration": {
+    "approved_script": "script/narration-fa.md",
+    "spoken_start_seconds": 0.36,
+    "spoken_end_seconds": 83.53,
+    "target_duration_seconds": 85.021333,
+    "planned_silent_final_hold_seconds": 1.49
+  },
+  "synthesis": {
+    "provider": "Google AI Studio Gemini Developer API",
+    "method": "Segmented Gemini TTS; immutable takes, subsecond silent pauses at natural boundaries, no speech time-stretch",
+    "voice_id_or_name": "Charon",
+    "model_id": "gemini-3.8-flash-tts",
+    "controls_path": "synthesis/assembly-r002.json",
+    "provider_project_or_request_id": null,
+    "notes": "Two user-supplied API keys were used in memory and not stored. The Ajil .env keys were not needed. Four colloquial text revisions were rendered as r002 takes."
+  },
+  "artifacts": {
+    "visual_timing_map": "timing/visual-timing-map.json",
+    "segment_plan": "timing/segments.json",
+    "raw_timestamps": "timestamps/word-timestamps-source-final-r002.json",
+    "word_timestamps": null,
+    "timing_map": "timing/alignment-r002.json",
+    "narration_audio": "audio/narration-fa-r002.wav",
+    "captions": null,
+    "distribution_master": null,
+    "preview_video": "final/episode-002-fa-review-r003.mp4",
+    "narration_audio_sha256": "efe13ef340a98ff4bd9d48732c5420745f301466210728e64b9452d334393582",
+    "preview_video_sha256": "45bafc348b4469acad94955dcdc05847222bfc811d89e933f3d7c008863737c7"
+  },
+  "review": {
+    "audio_status": "needs_native_listening_review",
+    "timing_status": "technical_candidate_needs_native_listening_review",
+    "caption_status": "missing",
+    "mix_status": "technical_candidate_needs_listening_review",
+    "distribution_status": "not_started",
+    "approved_at": null,
+    "approved_by": null,
+    "notes": "No human approval has been recorded. Technical findings and the two temporary 503 audio-review failures are recorded in review-r001.md. The elderly couple and exact countdown are dramatized devices, not documented individuals or an archival clock. The 140,000 figure is approximate through year-end 1945."
+  }
+}

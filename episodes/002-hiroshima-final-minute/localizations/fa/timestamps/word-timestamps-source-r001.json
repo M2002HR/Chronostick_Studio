@@ -1,0 +1,1182 @@
+{
+  "provider": "faster-whisper",
+  "model": "small",
+  "language_requested": "fa",
+  "word_timestamps": true,
+  "takes": [
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-01-r001.wav",
+      "sha256": "c7696e374a4b8ddbc9206977a5c7df4cf1e5213609d8a0e04c278c49fb4c42d8",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.38,
+          "text": " ساله 1945 هیروشیما فقطی ای دقیقی تا این فجار اتو میمونده",
+          "avg_logprob": -0.4601562425494194,
+          "no_speech_prob": 0.0080413818359375,
+          "words": [
+            {
+              "word": " ساله",
+              "start": 0.0,
+              "end": 0.54,
+              "probability": 0.8486328125
+            },
+            {
+              "word": " 1945",
+              "start": 0.54,
+              "end": 1.26,
+              "probability": 0.2120361328125
+            },
+            {
+              "word": " هیروشیما",
+              "start": 1.26,
+              "end": 2.84,
+              "probability": 0.6165945870535714
+            },
+            {
+              "word": " فقطی",
+              "start": 2.84,
+              "end": 3.92,
+              "probability": 0.7605794270833334
+            },
+            {
+              "word": " ای",
+              "start": 3.92,
+              "end": 4.04,
+              "probability": 0.392822265625
+            },
+            {
+              "word": " دقیقی",
+              "start": 4.04,
+              "end": 4.56,
+              "probability": 0.82041015625
+            },
+            {
+              "word": " تا",
+              "start": 4.56,
+              "end": 5.02,
+              "probability": 0.789306640625
+            },
+            {
+              "word": " این",
+              "start": 5.02,
+              "end": 5.24,
+              "probability": 0.744384765625
+            },
+            {
+              "word": " فجار",
+              "start": 5.24,
+              "end": 5.6,
+              "probability": 0.9095052083333334
+            },
+            {
+              "word": " اتو",
+              "start": 5.6,
+              "end": 5.9,
+              "probability": 0.775390625
+            },
+            {
+              "word": " میمونده",
+              "start": 5.9,
+              "end": 6.38,
+              "probability": 0.6484781901041666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-02-r001.wav",
+      "sha256": "827eaec41989482305c05abfac39150af8941ade7ae5efba12bf626a686c5cf1",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.38,
+          "text": " یه زوجه سالخورده دارن سبهونشن رو تموم میکنم.",
+          "avg_logprob": -0.41821288876235485,
+          "no_speech_prob": 0.00262451171875,
+          "words": [
+            {
+              "word": " یه",
+              "start": 0.0,
+              "end": 0.52,
+              "probability": 0.77783203125
+            },
+            {
+              "word": " زوجه",
+              "start": 0.52,
+              "end": 0.84,
+              "probability": 0.7032877604166666
+            },
+            {
+              "word": " سالخورده",
+              "start": 0.84,
+              "end": 1.54,
+              "probability": 0.8046875
+            },
+            {
+              "word": " دارن",
+              "start": 1.54,
+              "end": 1.8,
+              "probability": 0.7779947916666666
+            },
+            {
+              "word": " سبهونشن",
+              "start": 1.8,
+              "end": 2.44,
+              "probability": 0.5384521484375
+            },
+            {
+              "word": " رو",
+              "start": 2.44,
+              "end": 2.6,
+              "probability": 0.917724609375
+            },
+            {
+              "word": " تموم",
+              "start": 2.6,
+              "end": 2.96,
+              "probability": 0.75732421875
+            },
+            {
+              "word": " میکنم.",
+              "start": 2.96,
+              "end": 3.38,
+              "probability": 0.7215576171875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-03-r001.wav",
+      "sha256": "d51119c3a73920db1f3fcd2c1bb0eeaf9f7187b53683caf5958aad3e5978ae3d",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.14,
+          "text": " آجیر خطر قبلان زده بود",
+          "avg_logprob": -0.34099264004651236,
+          "no_speech_prob": 0.00047206878662109375,
+          "words": [
+            {
+              "word": " آجیر",
+              "start": 0.0,
+              "end": 0.68,
+              "probability": 0.794189453125
+            },
+            {
+              "word": " خطر",
+              "start": 0.68,
+              "end": 1.1,
+              "probability": 0.8361002604166666
+            },
+            {
+              "word": " قبلان",
+              "start": 1.1,
+              "end": 1.48,
+              "probability": 0.75634765625
+            },
+            {
+              "word": " زده",
+              "start": 1.48,
+              "end": 1.86,
+              "probability": 0.76123046875
+            },
+            {
+              "word": " بود",
+              "start": 1.86,
+              "end": 2.14,
+              "probability": 0.912109375
+            }
+          ]
+        },
+        {
+          "start": 2.14,
+          "end": 4.04,
+          "text": " اما حالا دیگه ساکته",
+          "avg_logprob": -0.34099264004651236,
+          "no_speech_prob": 0.00047206878662109375,
+          "words": [
+            {
+              "word": " اما",
+              "start": 2.14,
+              "end": 2.92,
+              "probability": 0.39239501953125
+            },
+            {
+              "word": " حالا",
+              "start": 2.92,
+              "end": 3.24,
+              "probability": 0.8125
+            },
+            {
+              "word": " دیگه",
+              "start": 3.24,
+              "end": 3.5,
+              "probability": 0.9398193359375
+            },
+            {
+              "word": " ساکته",
+              "start": 3.5,
+              "end": 4.04,
+              "probability": 0.87451171875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-04-r001.wav",
+      "sha256": "e6c34446a4cd12a01717af434347f66b80ea6255c931f1254033bef92ad193c6",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.46,
+          "text": " چه هل سانی مونده؟",
+          "avg_logprob": -0.5171875158945719,
+          "no_speech_prob": 0.061004638671875,
+          "words": [
+            {
+              "word": " چه",
+              "start": 0.0,
+              "end": 0.46,
+              "probability": 0.842041015625
+            },
+            {
+              "word": " هل",
+              "start": 0.46,
+              "end": 0.62,
+              "probability": 0.5435791015625
+            },
+            {
+              "word": " سانی",
+              "start": 0.62,
+              "end": 0.98,
+              "probability": 0.82080078125
+            },
+            {
+              "word": " مونده؟",
+              "start": 0.98,
+              "end": 1.46,
+              "probability": 0.7474609375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-05-r001.wav",
+      "sha256": "b9aa6b326bb96655a73e82388cb61c0bffc75a1c96f31cc40b9cf0068a472db8",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.94,
+          "text": " بچه ها از کوچه رد میشن",
+          "avg_logprob": -0.34875000894069674,
+          "no_speech_prob": 0.0019817352294921875,
+          "words": [
+            {
+              "word": " بچه",
+              "start": 0.0,
+              "end": 0.7,
+              "probability": 0.6858723958333334
+            },
+            {
+              "word": " ها",
+              "start": 0.7,
+              "end": 0.78,
+              "probability": 0.755126953125
+            },
+            {
+              "word": " از",
+              "start": 0.78,
+              "end": 0.92,
+              "probability": 0.6903076171875
+            },
+            {
+              "word": " کوچه",
+              "start": 0.92,
+              "end": 1.24,
+              "probability": 0.6990966796875
+            },
+            {
+              "word": " رد",
+              "start": 1.24,
+              "end": 1.52,
+              "probability": 0.918701171875
+            },
+            {
+              "word": " میشن",
+              "start": 1.52,
+              "end": 1.94,
+              "probability": 0.8650716145833334
+            }
+          ]
+        },
+        {
+          "start": 1.94,
+          "end": 3.88,
+          "text": " یه دو چرخم میگزره",
+          "avg_logprob": -0.34875000894069674,
+          "no_speech_prob": 0.0019817352294921875,
+          "words": [
+            {
+              "word": " یه",
+              "start": 1.94,
+              "end": 2.74,
+              "probability": 0.4837646484375
+            },
+            {
+              "word": " دو",
+              "start": 2.74,
+              "end": 2.86,
+              "probability": 0.960205078125
+            },
+            {
+              "word": " چرخم",
+              "start": 2.86,
+              "end": 3.28,
+              "probability": 0.70098876953125
+            },
+            {
+              "word": " میگزره",
+              "start": 3.28,
+              "end": 3.88,
+              "probability": 0.671142578125
+            }
+          ]
+        },
+        {
+          "start": 3.88,
+          "end": 6.06,
+          "text": " آفتاب همه جارو گرفته",
+          "avg_logprob": -0.34875000894069674,
+          "no_speech_prob": 0.0019817352294921875,
+          "words": [
+            {
+              "word": " آفتاب",
+              "start": 3.88,
+              "end": 4.94,
+              "probability": 0.7088470458984375
+            },
+            {
+              "word": " همه",
+              "start": 4.94,
+              "end": 5.38,
+              "probability": 0.8603515625
+            },
+            {
+              "word": " جارو",
+              "start": 5.38,
+              "end": 5.66,
+              "probability": 0.8157552083333334
+            },
+            {
+              "word": " گرفته",
+              "start": 5.66,
+              "end": 6.06,
+              "probability": 0.8282470703125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-06-r001.wav",
+      "sha256": "73292d7d867002183bcae9c2c66e0b1901c6b349d467a9ba4fd75760490cd9b1",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.0,
+          "text": " سیسانی",
+          "avg_logprob": -0.5922851786017418,
+          "no_speech_prob": 0.120361328125,
+          "words": [
+            {
+              "word": " سیسانی",
+              "start": 0.0,
+              "end": 1.0,
+              "probability": 0.81083984375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-07-r001.wav",
+      "sha256": "a40d6dea3d7f2f277c27209086429124debc3a51afa896c53dc297a4f177c959",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.92,
+          "text": " یه سدای خفیف میاد، مرد سرشو بالا میاره.",
+          "avg_logprob": -0.3987069006623893,
+          "no_speech_prob": 0.007389068603515625,
+          "words": [
+            {
+              "word": " یه",
+              "start": 0.0,
+              "end": 0.46,
+              "probability": 0.814453125
+            },
+            {
+              "word": " سدای",
+              "start": 0.46,
+              "end": 0.82,
+              "probability": 0.70654296875
+            },
+            {
+              "word": " خفیف",
+              "start": 0.82,
+              "end": 1.36,
+              "probability": 0.9486083984375
+            },
+            {
+              "word": " میاد،",
+              "start": 1.36,
+              "end": 2.18,
+              "probability": 0.74169921875
+            },
+            {
+              "word": " مرد",
+              "start": 2.18,
+              "end": 2.66,
+              "probability": 0.6864420572916666
+            },
+            {
+              "word": " سرشو",
+              "start": 2.66,
+              "end": 3.08,
+              "probability": 0.627685546875
+            },
+            {
+              "word": " بالا",
+              "start": 3.08,
+              "end": 3.5,
+              "probability": 0.7405598958333334
+            },
+            {
+              "word": " میاره.",
+              "start": 3.5,
+              "end": 3.92,
+              "probability": 0.9425455729166666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-08-r001.wav",
+      "sha256": "8e445e591ce556239ae1ac0cc4ae88d4af35d8678a5eac16ed161a162ef4fa3c",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.58,
+          "text": " یه بومب افکن از آسمون رد میشه. بیست سانیه.",
+          "avg_logprob": -0.4650879018008709,
+          "no_speech_prob": 0.004589080810546875,
+          "words": [
+            {
+              "word": " یه",
+              "start": 0.0,
+              "end": 0.64,
+              "probability": 0.7431640625
+            },
+            {
+              "word": " بومب",
+              "start": 0.64,
+              "end": 0.92,
+              "probability": 0.5961100260416666
+            },
+            {
+              "word": " افکن",
+              "start": 0.92,
+              "end": 1.2,
+              "probability": 0.65771484375
+            },
+            {
+              "word": " از",
+              "start": 1.2,
+              "end": 1.36,
+              "probability": 0.926025390625
+            },
+            {
+              "word": " آسمون",
+              "start": 1.36,
+              "end": 1.74,
+              "probability": 0.58331298828125
+            },
+            {
+              "word": " رد",
+              "start": 1.74,
+              "end": 1.96,
+              "probability": 0.917724609375
+            },
+            {
+              "word": " میشه.",
+              "start": 1.96,
+              "end": 2.3,
+              "probability": 0.79345703125
+            },
+            {
+              "word": " بیست",
+              "start": 2.74,
+              "end": 3.08,
+              "probability": 0.8658854166666666
+            },
+            {
+              "word": " سانیه.",
+              "start": 3.08,
+              "end": 3.58,
+              "probability": 0.78955078125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-09-r001.wav",
+      "sha256": "4e2970704013aa3e587ef60b315b0a73512144e46cc3290354d4c48cba346e85",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.7,
+          "text": " زن فکر میکنه اگه خطری بود آجیر میزد",
+          "avg_logprob": -0.3802083200878567,
+          "no_speech_prob": 0.014068603515625,
+          "words": [
+            {
+              "word": " زن",
+              "start": 0.0,
+              "end": 0.5,
+              "probability": 0.87353515625
+            },
+            {
+              "word": " فکر",
+              "start": 0.5,
+              "end": 0.76,
+              "probability": 0.4781901041666667
+            },
+            {
+              "word": " میکنه",
+              "start": 0.76,
+              "end": 1.3,
+              "probability": 0.713623046875
+            },
+            {
+              "word": " اگه",
+              "start": 1.3,
+              "end": 1.92,
+              "probability": 0.9222005208333334
+            },
+            {
+              "word": " خطری",
+              "start": 1.92,
+              "end": 2.34,
+              "probability": 0.7583821614583334
+            },
+            {
+              "word": " بود",
+              "start": 2.34,
+              "end": 2.72,
+              "probability": 0.89990234375
+            },
+            {
+              "word": " آجیر",
+              "start": 2.72,
+              "end": 3.28,
+              "probability": 0.8170166015625
+            },
+            {
+              "word": " میزد",
+              "start": 3.28,
+              "end": 3.7,
+              "probability": 0.81787109375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-10-r001.wav",
+      "sha256": "8b9bead6763f75f7fdb0c9260b24616f9597aafb9aa5925ddd2867de301a503e",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.1,
+          "text": " همون مغه یه چیزی از حوابهیما جدا میشه.",
+          "avg_logprob": -0.4167564655172414,
+          "no_speech_prob": 0.0011854171752929688,
+          "words": [
+            {
+              "word": " همون",
+              "start": 0.0,
+              "end": 0.46,
+              "probability": 0.8611653645833334
+            },
+            {
+              "word": " مغه",
+              "start": 0.46,
+              "end": 1.16,
+              "probability": 0.6673177083333334
+            },
+            {
+              "word": " یه",
+              "start": 1.16,
+              "end": 1.36,
+              "probability": 0.71044921875
+            },
+            {
+              "word": " چیزی",
+              "start": 1.36,
+              "end": 1.76,
+              "probability": 0.964111328125
+            },
+            {
+              "word": " از",
+              "start": 1.76,
+              "end": 1.92,
+              "probability": 0.89892578125
+            },
+            {
+              "word": " حوابهیما",
+              "start": 1.92,
+              "end": 2.46,
+              "probability": 0.5279541015625
+            },
+            {
+              "word": " جدا",
+              "start": 2.46,
+              "end": 2.76,
+              "probability": 0.616455078125
+            },
+            {
+              "word": " میشه.",
+              "start": 2.76,
+              "end": 3.1,
+              "probability": 0.8517252604166666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-11-r001.wav",
+      "sha256": "48ffaeca77389a7c6341acc70b22d708e26d9171878111712bf73bd0e9812857",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.12,
+          "text": " کوچی که تیرست",
+          "avg_logprob": -0.6323242075741291,
+          "no_speech_prob": 0.00019085407257080078,
+          "words": [
+            {
+              "word": " کوچی",
+              "start": 0.0,
+              "end": 0.6,
+              "probability": 0.6900634765625
+            },
+            {
+              "word": " که",
+              "start": 0.6,
+              "end": 1.26,
+              "probability": 0.942626953125
+            },
+            {
+              "word": " تیرست",
+              "start": 1.26,
+              "end": 2.12,
+              "probability": 0.8016357421875
+            }
+          ]
+        },
+        {
+          "start": 3.36,
+          "end": 4.86,
+          "text": " بیجرای عجیبه",
+          "avg_logprob": -0.6323242075741291,
+          "no_speech_prob": 0.00019085407257080078,
+          "words": [
+            {
+              "word": " بیجرای",
+              "start": 3.36,
+              "end": 4.08,
+              "probability": 0.649853515625
+            },
+            {
+              "word": " عجیبه",
+              "start": 4.08,
+              "end": 4.86,
+              "probability": 0.699169921875
+            }
+          ]
+        },
+        {
+          "start": 4.86,
+          "end": 5.92,
+          "text": " ده سانی",
+          "avg_logprob": -0.6323242075741291,
+          "no_speech_prob": 0.00019085407257080078,
+          "words": [
+            {
+              "word": " ده",
+              "start": 4.86,
+              "end": 5.52,
+              "probability": 0.57373046875
+            },
+            {
+              "word": " سانی",
+              "start": 5.52,
+              "end": 5.92,
+              "probability": 0.7242838541666666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-12-r001.wav",
+      "sha256": "991cd34298f50c905707ece61bbc39385fde567310b662b2a749c6178bf56203",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.26,
+          "text": " مرد چشمها شور ریز می کانه.",
+          "avg_logprob": -0.4753906175494194,
+          "no_speech_prob": 0.0017795562744140625,
+          "words": [
+            {
+              "word": " مرد",
+              "start": 0.0,
+              "end": 0.68,
+              "probability": 0.90771484375
+            },
+            {
+              "word": " چشمها",
+              "start": 0.68,
+              "end": 1.24,
+              "probability": 0.85791015625
+            },
+            {
+              "word": " شور",
+              "start": 1.24,
+              "end": 1.5,
+              "probability": 0.783203125
+            },
+            {
+              "word": " ریز",
+              "start": 1.5,
+              "end": 1.78,
+              "probability": 0.8893229166666666
+            },
+            {
+              "word": " می",
+              "start": 1.78,
+              "end": 1.94,
+              "probability": 0.76171875
+            },
+            {
+              "word": " کانه.",
+              "start": 1.94,
+              "end": 2.26,
+              "probability": 0.6682942708333334
+            }
+          ]
+        },
+        {
+          "start": 2.64,
+          "end": 5.12,
+          "text": " اون چیز داره توون تر پاین میاد.",
+          "avg_logprob": -0.4753906175494194,
+          "no_speech_prob": 0.0017795562744140625,
+          "words": [
+            {
+              "word": " اون",
+              "start": 2.64,
+              "end": 3.24,
+              "probability": 0.6409912109375
+            },
+            {
+              "word": " چیز",
+              "start": 3.24,
+              "end": 3.56,
+              "probability": 0.9689127604166666
+            },
+            {
+              "word": " داره",
+              "start": 3.56,
+              "end": 3.88,
+              "probability": 0.8759765625
+            },
+            {
+              "word": " توون",
+              "start": 3.88,
+              "end": 4.28,
+              "probability": 0.5025634765625
+            },
+            {
+              "word": " تر",
+              "start": 4.28,
+              "end": 4.58,
+              "probability": 0.6845703125
+            },
+            {
+              "word": " پاین",
+              "start": 4.58,
+              "end": 4.86,
+              "probability": 0.69091796875
+            },
+            {
+              "word": " میاد.",
+              "start": 4.86,
+              "end": 5.12,
+              "probability": 0.542236328125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-13-r001.wav",
+      "sha256": "891982465731f81570c7a9cb2a625d4dfb7c2ded7cdc382dbab6fd5e3123b202",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 0.92,
+          "text": " پنچ سنیه.",
+          "avg_logprob": -0.6905570444853409,
+          "no_speech_prob": 0.243896484375,
+          "words": [
+            {
+              "word": " پنچ",
+              "start": 0.0,
+              "end": 0.54,
+              "probability": 0.48486328125
+            },
+            {
+              "word": " سنیه.",
+              "start": 0.54,
+              "end": 0.92,
+              "probability": 0.8726806640625
+            }
+          ]
+        },
+        {
+          "start": 1.3,
+          "end": 2.28,
+          "text": " بایت بیریم.",
+          "avg_logprob": -0.6905570444853409,
+          "no_speech_prob": 0.243896484375,
+          "words": [
+            {
+              "word": " بایت",
+              "start": 1.3,
+              "end": 1.98,
+              "probability": 0.47979736328125
+            },
+            {
+              "word": " بیریم.",
+              "start": 1.98,
+              "end": 2.28,
+              "probability": 0.6263671875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-14-r001.wav",
+      "sha256": "5fa4dc2ef38ab82cf8925d87372cc44e162265415b0044cca35f78665c51bb97",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.64,
+          "text": " همین حالا دو سانیه دستشو سمت زند راز می کانه.",
+          "avg_logprob": -0.2890625019227305,
+          "no_speech_prob": 0.000362396240234375,
+          "words": [
+            {
+              "word": " همین",
+              "start": 0.0,
+              "end": 0.48,
+              "probability": 0.8455403645833334
+            },
+            {
+              "word": " حالا",
+              "start": 0.48,
+              "end": 0.94,
+              "probability": 0.8056640625
+            },
+            {
+              "word": " دو",
+              "start": 0.94,
+              "end": 1.68,
+              "probability": 0.892578125
+            },
+            {
+              "word": " سانیه",
+              "start": 1.68,
+              "end": 2.28,
+              "probability": 0.84326171875
+            },
+            {
+              "word": " دستشو",
+              "start": 2.28,
+              "end": 3.42,
+              "probability": 0.8673095703125
+            },
+            {
+              "word": " سمت",
+              "start": 3.42,
+              "end": 3.66,
+              "probability": 0.9285481770833334
+            },
+            {
+              "word": " زند",
+              "start": 3.66,
+              "end": 3.92,
+              "probability": 0.8642578125
+            },
+            {
+              "word": " راز",
+              "start": 3.92,
+              "end": 4.24,
+              "probability": 0.6451416015625
+            },
+            {
+              "word": " می",
+              "start": 4.24,
+              "end": 4.38,
+              "probability": 0.77490234375
+            },
+            {
+              "word": " کانه.",
+              "start": 4.38,
+              "end": 4.64,
+              "probability": 0.6930338541666666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-15-r001.wav",
+      "sha256": "7e7bc64fd20f8b152929edaf589b406818b1e2199cb23639ee939326f007fb6e",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.66,
+          "text": " یه سنی، ساعت هشتو پونز دست.",
+          "avg_logprob": -0.4740767167373137,
+          "no_speech_prob": 0.008453369140625,
+          "words": [
+            {
+              "word": " یه",
+              "start": 0.0,
+              "end": 0.5,
+              "probability": 0.77880859375
+            },
+            {
+              "word": " سنی،",
+              "start": 0.5,
+              "end": 1.18,
+              "probability": 0.69134521484375
+            },
+            {
+              "word": " ساعت",
+              "start": 1.18,
+              "end": 1.66,
+              "probability": 0.643310546875
+            },
+            {
+              "word": " هشتو",
+              "start": 1.66,
+              "end": 2.0,
+              "probability": 0.57958984375
+            },
+            {
+              "word": " پونز",
+              "start": 2.0,
+              "end": 2.34,
+              "probability": 0.73291015625
+            },
+            {
+              "word": " دست.",
+              "start": 2.34,
+              "end": 2.66,
+              "probability": 0.942138671875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-16-r001.wav",
+      "sha256": "3af015b2408e86681da5bc6df223810874d1198be02f25024eca623d0bb9df6f",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.36,
+          "text": " یه نور سفید یه دفعه همه جارو میگیره.",
+          "avg_logprob": -0.27491919336647824,
+          "no_speech_prob": 0.0035686492919921875,
+          "words": [
+            {
+              "word": " یه",
+              "start": 0.0,
+              "end": 0.44,
+              "probability": 0.85107421875
+            },
+            {
+              "word": " نور",
+              "start": 0.44,
+              "end": 0.7,
+              "probability": 0.989990234375
+            },
+            {
+              "word": " سفید",
+              "start": 0.7,
+              "end": 1.48,
+              "probability": 0.860107421875
+            },
+            {
+              "word": " یه",
+              "start": 1.48,
+              "end": 1.84,
+              "probability": 0.6468505859375
+            },
+            {
+              "word": " دفعه",
+              "start": 1.84,
+              "end": 2.24,
+              "probability": 0.9404296875
+            },
+            {
+              "word": " همه",
+              "start": 2.24,
+              "end": 2.66,
+              "probability": 0.8251953125
+            },
+            {
+              "word": " جارو",
+              "start": 2.66,
+              "end": 2.94,
+              "probability": 0.81640625
+            },
+            {
+              "word": " میگیره.",
+              "start": 2.94,
+              "end": 3.36,
+              "probability": 0.8359375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/localizations/fa/synthesis/takes/cue-17-r001.wav",
+      "sha256": "70d7fa6c28e21bd05d14094508c35e958b4d55435c3bd102356aefbec9ec5d7c",
+      "language_detected": "fa",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.6,
+          "text": " تا خر همون سال حدود 140,000 نفرجون باخدن.",
+          "avg_logprob": -0.4040178677865437,
+          "no_speech_prob": 0.0008487701416015625,
+          "words": [
+            {
+              "word": " تا",
+              "start": 0.0,
+              "end": 0.62,
+              "probability": 0.769775390625
+            },
+            {
+              "word": " خر",
+              "start": 0.62,
+              "end": 0.84,
+              "probability": 0.748291015625
+            },
+            {
+              "word": " همون",
+              "start": 0.84,
+              "end": 1.22,
+              "probability": 0.8741861979166666
+            },
+            {
+              "word": " سال",
+              "start": 1.22,
+              "end": 1.72,
+              "probability": 0.960205078125
+            },
+            {
+              "word": " حدود",
+              "start": 1.72,
+              "end": 2.12,
+              "probability": 0.75244140625
+            },
+            {
+              "word": " 140",
+              "start": 2.12,
+              "end": 2.64,
+              "probability": 0.3876953125
+            },
+            {
+              "word": ",000",
+              "start": 2.64,
+              "end": 3.48,
+              "probability": 0.60968017578125
+            },
+            {
+              "word": " نفرجون",
+              "start": 3.48,
+              "end": 4.1,
+              "probability": 0.72841796875
+            },
+            {
+              "word": " باخدن.",
+              "start": 4.1,
+              "end": 4.6,
+              "probability": 0.7900390625
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

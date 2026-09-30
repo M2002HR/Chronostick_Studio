@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "language": "fa",
+  "picture_duration_seconds": 85.021333,
+  "timing_authority": "Fixed episode 002 picture/SFX master and Spanish semantic beat map; these are target windows, not Persian word timestamps.",
+  "segments": [
+    {"id":"cue-01","start":0.2,"end":6.5,"source_intent":"Intact Hiroshima, sixty-second hook","localized_text":"هیروشیما. فقط یه دقیقه تا انفجار اتمی مونده. شهر هنوز آرومه.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-02","start":6.5,"end":10.2,"source_intent":"Elderly couple at breakfast","localized_text":"یه زوج سالخورده دارن صبحونه‌شون رو تموم می‌کنن.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-03","start":10.2,"end":16.8,"source_intent":"Earlier alarm has gone silent","localized_text":"آژیر خطر قبلاً به صدا دراومده بود، ولی حالا دیگه ساکته.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-04","start":16.8,"end":20.0,"source_intent":"Forty-second countdown","localized_text":"چهل ثانیه مونده.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-05","start":20.0,"end":27.7,"source_intent":"Children, bicycle, sunlight","localized_text":"بچه‌ها از کوچه رد می‌شن. یه دوچرخه هم می‌گذره. آفتاب همه‌جا رو گرفته.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-06","start":27.7,"end":29.7,"source_intent":"Thirty-second countdown","localized_text":"سی ثانیه.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-07","start":29.7,"end":35.2,"source_intent":"Engine hum and man raises gaze","localized_text":"یه صدای خفیف میاد. مرد سرشو بالا میاره.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-08","start":35.2,"end":40.0,"source_intent":"Bomber crosses sky; twenty seconds","localized_text":"یه بمب‌افکن از آسمون رد می‌شه. بیست ثانیه.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-09","start":40.0,"end":45.0,"source_intent":"Woman's calm reassurance; dramatized couple","localized_text":"زن فکر می‌کنه: اگه خطری بود، آژیر می‌زد.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-10","start":45.0,"end":50.0,"source_intent":"One object separates from plane","localized_text":"همون موقع، یه چیزی از هواپیما جدا می‌شه.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-11","start":50.0,"end":55.5,"source_intent":"Small dark strange object; ten seconds","localized_text":"کوچیکه. تیره‌ست. عجیب به نظر می‌رسه. ده ثانیه.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-12","start":55.5,"end":61.7,"source_intent":"Man squints; object accelerates","localized_text":"مرد چشم‌هاشو ریز می‌کنه. اون چیز داره تندتر پایین میاد.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-13","start":61.7,"end":65.2,"source_intent":"Five seconds; urgent departure","localized_text":"پنج ثانیه. باید بریم.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-14","start":65.2,"end":70.2,"source_intent":"Now, two seconds, reaches for her hand","localized_text":"همین حالا. دو ثانیه. دستشو سمت زن دراز می‌کنه.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"},
+    {"id":"cue-15","start":70.2,"end":73.3,"source_intent":"One second; 8:15; before white expansion","localized_text":"یه ثانیه. ساعت هشت و پونزده‌ست.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.25,"status":"draft"},
+    {"id":"cue-16","start":73.3,"end":76.8,"source_intent":"White flash starts after 73.2 s","localized_text":"یه نور سفید، یه‌دفعه همه‌جا رو می‌گیره.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.25,"status":"draft"},
+    {"id":"cue-17","start":76.8,"end":84.8,"source_intent":"Non-graphic aftermath; approximate deaths by end of 1945","localized_text":"تا آخر سال هزار و نهصد و چهل و پنج، حدود صد و چهل هزار نفر جون باختن.","anchor_type":"semantic_visual_cue","anchor_tolerance_seconds":0.5,"status":"draft"}
+  ]
+}

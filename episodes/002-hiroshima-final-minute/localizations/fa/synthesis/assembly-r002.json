@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "base_plan": "assembly-r001.json",
+  "reason": "Subsecond natural pauses align twenty seconds, ten seconds, the hand reach, and 8:15 more closely with the fixed picture; no speech is stretched.",
+  "changes": [
+    {"id":"cue-08","pause_insertions":[{"at_seconds":2.50,"duration_seconds":0.60}]},
+    {"id":"cue-11","start":50.30},
+    {"id":"cue-14","pause_insertions":[{"at_seconds":2.40,"duration_seconds":0.45}]},
+    {"id":"cue-15","start":70.45}
+  ]
+}

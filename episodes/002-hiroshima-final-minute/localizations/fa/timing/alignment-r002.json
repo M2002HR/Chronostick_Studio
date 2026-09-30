@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "status": "technical_candidate_needs_native_listening_review",
+  "narration_audio": "audio/narration-fa-r002.wav",
+  "assembly_plan": "synthesis/assembly-r002.json",
+  "raw_asr_reference": "timestamps/word-timestamps-source-final-r002.json",
+  "raw_asr_sha256": "79185bb8b87eca12133660f9600d6db7fc38cc884cdb5413737cf891345923e5",
+  "derivation": "Placed Gemini take audio, short inserted pauses, waveform-active bounds, and provisional faster-whisper word boundaries from the assembled master; source Spanish words were not reused as Persian word timestamps.",
+  "picture_duration_seconds": 85.021333,
+  "first_spoken_onset_seconds": 0.36,
+  "last_spoken_end_seconds": 83.53,
+  "planned_silent_final_hold_seconds": 1.49,
+  "anchors": [
+    {"event":"forty","persian_onset":16.91,"spanish_onset":16.90,"scene_window":[15.0,20.0]},
+    {"event":"children","persian_onset":20.31,"spanish_onset":20.56,"scene_window":[20.0,25.0]},
+    {"event":"thirty","persian_onset":27.88,"spanish_onset":27.88,"scene_window":[25.0,30.0]},
+    {"event":"bomber","persian_onset":35.44,"spanish_onset":35.50,"scene_window":[35.0,40.0]},
+    {"event":"twenty","persian_onset":38.34,"spanish_onset":38.44,"scene_window":[35.0,40.0]},
+    {"event":"woman","persian_onset":40.24,"spanish_onset":40.0,"scene_window":[40.0,45.0]},
+    {"event":"object-release","persian_onset":45.42,"spanish_onset":46.08,"scene_window":[45.0,50.0]},
+    {"event":"small-object","persian_onset":50.60,"spanish_onset":49.56,"scene_window":[50.0,55.0]},
+    {"event":"ten","persian_onset":54.72,"spanish_onset":54.80,"scene_window":[50.0,56.0]},
+    {"event":"man-squints","persian_onset":56.55,"spanish_onset":56.90,"scene_window":[55.0,60.0]},
+    {"event":"five","persian_onset":62.01,"spanish_onset":61.84,"scene_window":[60.0,65.0]},
+    {"event":"two","persian_onset":66.49,"spanish_onset":66.56,"scene_window":[65.0,70.0]},
+    {"event":"hand-reach","persian_onset":68.28,"spanish_onset":68.60,"scene_window":[65.0,70.0]},
+    {"event":"one","persian_onset":70.67,"spanish_onset":70.26,"scene_window":[70.0,73.2]},
+    {"event":"eight-fifteen","persian_onset":72.11,"spanish_onset":72.18,"scene_window":[70.0,73.2]},
+    {"event":"white-light","persian_onset":73.64,"visual_onset":73.20,"scene_window":[73.2,76.8]},
+    {"event":"year-end-estimate","persian_onset":78.39,"spanish_onset":78.44,"scene_window":[75.0,85.021333]},
+    {"event":"140-thousand","persian_onset":81.19,"spanish_onset":81.86,"scene_window":[80.0,85.021333]}
+  ],
+  "review_notes": [
+    "All anchors fall within their fixed visual scene windows; the longer differences at object description and 140,000 occur within held shots.",
+    "The final 1.49-second silence is intentional over the resolved aftermath wide frame.",
+    "Provisional ASR boundaries require native listening before publishing captions or declaring word-level approval."
+  ]
+}

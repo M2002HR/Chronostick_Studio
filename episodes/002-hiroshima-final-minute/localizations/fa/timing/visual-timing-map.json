@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "picture_master_sha256": "7322e063e9c139c6ca93965d956eceb9edc6f4cded87c43bb77260ac3a402e1f",
+  "picture_duration_seconds": 85.021333,
+  "source_spanish_word_timestamps_sha256": "311f79f733cf660a91737f126852c891c0ecd2a20b07ee2a74ac73ba3f20a870",
+  "authority": "Fixed picture/SFX master, episode 002 shot plan, and Spanish semantic cue positions; not Persian word timestamps.",
+  "visual_cues": [
+    {"id":"morning-city","window":[0.0,5.0],"meaning":"Hiroshima before the blast"},
+    {"id":"couple-breakfast","window":[5.0,10.0],"meaning":"Elderly couple eating breakfast"},
+    {"id":"silent-alarm","window":[10.0,16.8],"meaning":"Earlier alert has ended"},
+    {"id":"forty","source_spanish_onset":16.9,"window":[15.0,20.0],"meaning":"Forty-second count"},
+    {"id":"children-bicycle","source_spanish_onset":20.56,"window":[20.0,25.0],"meaning":"Children and bicycle cross the street"},
+    {"id":"thirty","source_spanish_onset":27.88,"window":[25.0,30.0],"meaning":"Thirty-second count"},
+    {"id":"hum-man","window":[30.0,35.0],"meaning":"Hum; man looks up"},
+    {"id":"bomber-twenty","source_spanish_onset":35.5,"window":[35.0,40.0],"meaning":"B-29 crosses; twenty-second count"},
+    {"id":"woman-reassurance","window":[40.0,45.0],"meaning":"Woman's calm gesture"},
+    {"id":"object-release","window":[45.0,50.0],"meaning":"One object falls from aircraft"},
+    {"id":"object-ten","source_spanish_onset":54.8,"window":[50.0,56.0],"meaning":"Small dark object and ten-second count"},
+    {"id":"squint-fall","window":[55.0,62.0],"meaning":"Man squints; object descends faster"},
+    {"id":"five","source_spanish_onset":61.84,"window":[61.0,65.0],"meaning":"Five-second count and departure"},
+    {"id":"two-hand","source_spanish_onset":66.56,"window":[65.0,70.0],"meaning":"Two-second count and reaching for hand"},
+    {"id":"one-815","source_spanish_onset":70.26,"window":[70.0,73.2],"meaning":"One second, 8:15, before flash"},
+    {"id":"white-flash","visual_onset":73.2,"window":[73.2,76.8],"meaning":"White field expands; no graphic impact"},
+    {"id":"aftermath-estimate","source_spanish_onset":78.44,"window":[75.0,85.021333],"meaning":"Approximate 140,000 deaths by end of 1945"}
+  ]
+}
