@@ -1,3 +1,11 @@
+# Active r007 planning review
+
+The revised131-slot plan and contact sheets were inspected for input coverage, story-state consistency and map removal. Animatic r007 is655.000 seconds with the accepted Spanish audio; it contains the actual two controlled-map inserts and still-based shot guides elsewhere. The five new anchors were inspected separately at full size, and all240 controlled-map output frames were inspected. Timing contracts for093,099,105 and118 were checked against accepted word timing. Still guides do not validate H3 motion or SFX. No final picture or new pilot approval is claimed. The user explicitly directed full remaining generation without another four-step pass.
+
+52 primary anchors,238 planned shots, at most two adjacent identical-anchor slots; complete minutes have6–12 unique anchors. Two essential geographic clips total10 seconds. Pending: actual H3 motion/audio review and chapter pacing after generation.
+
+## Historical earlier planning reviews
+
 # Voice-led planning review — r006
 
 `plan/animatic-r006.mp4` is655.000 seconds,640×360 at12fps, with the unchanged accepted narration, two-shot reference crops for ordinary clips and endpoint cuts for the three map transitions. It is a still planning guide; every production frame remains H3-generated. r001–r005 remain preserved and superseded.

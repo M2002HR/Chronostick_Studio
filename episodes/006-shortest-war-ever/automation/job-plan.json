@@ -28,11 +28,12 @@
     },
     {
       "number": 4,
-      "revision": 4,
+      "revision": 5,
       "seed": 8964999804697628810,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 5,
@@ -52,11 +53,12 @@
     },
     {
       "number": 7,
-      "revision": 4,
+      "revision": 5,
       "seed": 4656965586152323930,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 8,
@@ -92,27 +94,31 @@
     },
     {
       "number": 12,
-      "revision": 4,
+      "revision": 5,
       "seed": 4622150788589149292,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 13,
-      "revision": 4,
+      "revision": 5,
       "seed": 4376704361200760853,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 14,
-      "revision": 4,
+      "revision": 5,
       "seed": 437924045730514334,
       "references": [
         "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
-      ]
+      ],
+      "method": "controlled_geography",
+      "artifact": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-014-map-r005.mp4"
     },
     {
       "number": 15,
@@ -124,19 +130,21 @@
     },
     {
       "number": 16,
-      "revision": 4,
+      "revision": 5,
       "seed": 6465064844531548493,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 17,
-      "revision": 4,
+      "revision": 5,
       "seed": 7564965538740394419,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 18,
@@ -156,19 +164,21 @@
     },
     {
       "number": 20,
-      "revision": 4,
+      "revision": 5,
       "seed": 8684252256411830951,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 21,
-      "revision": 4,
+      "revision": 5,
       "seed": 2710466670713737328,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 22,
@@ -220,11 +230,12 @@
     },
     {
       "number": 28,
-      "revision": 4,
+      "revision": 5,
       "seed": 6186055281908680943,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 29,
@@ -236,19 +247,21 @@
     },
     {
       "number": 30,
-      "revision": 4,
+      "revision": 5,
       "seed": 7441225553459792520,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 31,
-      "revision": 4,
+      "revision": 5,
       "seed": 8900166919952576624,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 32,
@@ -260,11 +273,12 @@
     },
     {
       "number": 33,
-      "revision": 4,
+      "revision": 5,
       "seed": 8318981341979591058,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 34,
@@ -300,11 +314,12 @@
     },
     {
       "number": 38,
-      "revision": 4,
+      "revision": 5,
       "seed": 4496727476538218791,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 39,
@@ -316,11 +331,12 @@
     },
     {
       "number": 40,
-      "revision": 4,
+      "revision": 5,
       "seed": 6469140388179518348,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 41,
@@ -436,11 +452,12 @@
     },
     {
       "number": 55,
-      "revision": 4,
+      "revision": 5,
       "seed": 5823422493696417926,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 56,
@@ -508,11 +525,12 @@
     },
     {
       "number": 64,
-      "revision": 4,
+      "revision": 5,
       "seed": 8441670039654859411,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 65,
@@ -580,11 +598,12 @@
     },
     {
       "number": 73,
-      "revision": 4,
+      "revision": 5,
       "seed": 7947219769900005233,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 74,
@@ -604,11 +623,12 @@
     },
     {
       "number": 76,
-      "revision": 4,
+      "revision": 5,
       "seed": 1303585071631415357,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 77,
@@ -676,11 +696,12 @@
     },
     {
       "number": 85,
-      "revision": 4,
+      "revision": 5,
       "seed": 7117931645948123445,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 86,
@@ -700,11 +721,12 @@
     },
     {
       "number": 88,
-      "revision": 4,
+      "revision": 5,
       "seed": 1926116434144057355,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 89,
@@ -740,11 +762,12 @@
     },
     {
       "number": 93,
-      "revision": 4,
+      "revision": 5,
       "seed": 226676119202785969,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 94,
@@ -788,12 +811,12 @@
     },
     {
       "number": 99,
-      "revision": 4,
+      "revision": 5,
       "seed": 4655391998408396287,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/khalid-damaged-palace-exit-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 100,
@@ -805,11 +828,12 @@
     },
     {
       "number": 101,
-      "revision": 4,
+      "revision": 5,
       "seed": 5317704094369633057,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 102,
@@ -837,12 +861,12 @@
     },
     {
       "number": 105,
-      "revision": 4,
+      "revision": 5,
       "seed": 6059816794904748998,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 106,
@@ -942,12 +966,13 @@
     },
     {
       "number": 118,
-      "revision": 4,
+      "revision": 5,
       "seed": 1961958235494706858,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
-        "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ],
+      "method": "controlled_geography",
+      "artifact": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-118-map-r005.mp4"
     },
     {
       "number": 119,
@@ -1007,19 +1032,21 @@
     },
     {
       "number": 126,
-      "revision": 4,
+      "revision": 5,
       "seed": 4720926444809502801,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 127,
-      "revision": 4,
+      "revision": 5,
       "seed": 7669701706211641087,
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
-      ]
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png"
+      ],
+      "method": "h3_12_step"
     },
     {
       "number": 128,

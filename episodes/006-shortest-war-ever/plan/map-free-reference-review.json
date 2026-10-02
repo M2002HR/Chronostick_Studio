@@ -1,0 +1,51 @@
+{
+  "reviewed_at": "2026-10-02T19:37:25.538742+00:00",
+  "reviewed_by": "Codex",
+  "assets": [
+    {
+      "asset_id": "diplomatic-dispatches",
+      "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a",
+      "decision": "approved",
+      "review_scope": "actual scene-anchor pixels, not future H3 motion or SFX",
+      "actual_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant"
+    },
+    {
+      "asset_id": "british-gun-deck",
+      "path": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+      "sha256": "cc4c67ec5fb47a8da599e5fa936bcad36b9015b93679bba2225406d9cd68f3b5",
+      "decision": "approved",
+      "review_scope": "actual scene-anchor pixels, not future H3 motion or SFX",
+      "actual_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships"
+    },
+    {
+      "asset_id": "glasgow-sinking-start",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+      "sha256": "f77f8b2d2fb28e68f8129ea1fca787b48d55ca03882da40f8a4f1f3c7eb562cc",
+      "decision": "approved",
+      "review_scope": "actual scene-anchor pixels, not future H3 motion or SFX",
+      "actual_inventory": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop"
+    },
+    {
+      "asset_id": "khalid-damaged-palace-exit",
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-damaged-palace-exit-r001.png",
+      "sha256": "bd43f03093b5b5b8783cf116b6cb1c182e54923f6aab335c7dabb501924b5140",
+      "decision": "approved",
+      "review_scope": "actual scene-anchor pixels, not future H3 motion or SFX",
+      "actual_inventory": "one foreground Khalid with ivory turban, black beard, maroon/gold robe and one closed scroll inside a damaged palace arch; two small cream-robed defenders behind; two distant British hulls; same damaged palace, existing rubble and smoke"
+    },
+    {
+      "asset_id": "palace-surrender-cloth",
+      "path": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+      "sha256": "9b684095fa8b4cd93441c33369753be0835f86e8fa0dbf377f87512d5e38c712",
+      "decision": "approved",
+      "review_scope": "actual scene-anchor pixels, not future H3 motion or SFX",
+      "actual_inventory": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke"
+    }
+  ],
+  "deviations_handled": {
+    "gun_deck": "Two foreground sailors plus tiny distant shore residents and one slung gun retained; no firing.",
+    "glasgow": "Empty tender at right is excluded by a starting crop; deck crew not visible.",
+    "surrender": "White cloth is already attached partway up pole. Use timed camera reveal, not an invented hoist."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "status": "diagnostic_not_picture_approval",
+  "reviewed_outputs": [
+    {
+      "number": 4,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r004.mp4",
+      "sha256": "2007e36c3f01a42590ac0dfbb1ded661bde7e0de936cf0010e53e0ad33b8795d",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Unplanned covering parchment/reveal, three tiny people and British flag already visible at first sample; token/flag not in approved zero-person anchor.",
+      "decision": "revise_direction"
+    },
+    {
+      "number": 7,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r004.mp4",
+      "sha256": "9ee3195c6b1a20c601b3516ecf796045cda522b99351134aa519e335143b54c7",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Mostly fixed harbour chart with five navy ships plus ochre Glasgow in sampled views; no sampled extra-person failure. Weak narrative/action value under user map-redirection request; not a completed motion/audio approval.",
+      "decision": "replace_for_direction_pacing_not_visual_failure_proof"
+    },
+    {
+      "number": 12,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r004.mp4",
+      "sha256": "d70838e917045d697e96e0fe09268d68619d04c2171a307decf1f27a2377a740",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Unplanned navy covering cloth, numerous added miniature people, British/German flags and political color fill.",
+      "decision": "revise_direction"
+    },
+    {
+      "number": 13,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r004.mp4",
+      "sha256": "dd7c836f725c4a383a2406840a4aac0b359a8424a1c09b76d029e386a54f7cbd",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Unplanned covering fabric, added people on chart and a large person outside its lower edge; unrequested camera reveal.",
+      "decision": "revise_direction"
+    },
+    {
+      "number": 14,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-014-shot-r004.mp4",
+      "sha256": "208ef2e431a2d5ec53712f1ba8494741407028e5fd0e9027374a35225ca74844",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Unplanned red cloth, hands, walking miniature people and British flag; unrequested camera enlargement.",
+      "decision": "revise_direction"
+    },
+    {
+      "number": 16,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r004.mp4",
+      "sha256": "af5517807ea827a2764f49ab2ea025fbf8eef6a4c4482279fe7a6e1038544267",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Multiple unplanned surrounding/chart people, red fabric and extra flags despite zero-person trade-chart input.",
+      "decision": "revise_direction"
+    },
+    {
+      "number": 17,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r004.mp4",
+      "sha256": "d05a27b03a99435233b58d2801daddbdb286ee3f924bcb4a633df011ed3eb195",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Large unplanned ring of walking miniature people and changing scale despite fixed zero-person chart.",
+      "decision": "revise_direction"
+    },
+    {
+      "number": 20,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-020-shot-r004.mp4",
+      "sha256": "d83d2a771ff49c4de06530876a7de97c85bce9fb367f4136a66470727eda6fcb",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "Later samples introduce an unplanned group/flag near Africa and large camera reframing.",
+      "decision": "revise_direction"
+    },
+    {
+      "number": 21,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r004.mp4",
+      "sha256": "00e84ea515c2c3b36144c6b55f9f445132829b7570cf271fe7df291dc0c8eafe",
+      "inspection": "15 evenly spaced samples at3fps; whole-motion/audio/frame-by-frame acceptance not performed",
+      "observation": "A dense unplanned crowd of miniatures spreads over the world chart from the first sample.",
+      "decision": "revise_direction"
+    }
+  ],
+  "unrendered_map_slots": "No observed output failure asserted for unrendered slots; they are included because the user requested map-family redirection."
+}

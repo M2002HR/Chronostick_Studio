@@ -1,0 +1,447 @@
+{
+  "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c",
+  "requested_at": "2026-10-02T17:46:31.744544+00:00",
+  "reason": "User explicitly stopped production due to unsatisfactory map scenes; replacement direction must be planned before any new generation.",
+  "children": [
+    {
+      "id": "9a99e7a6-a4e9-422a-95e1-ae55a28bbac3",
+      "status": "cancelled"
+    },
+    {
+      "id": "3bf74c16-706c-4fc0-8636-7d6f9a88be4c",
+      "status": "cancelled"
+    },
+    {
+      "id": "22b71041-d8ba-4c77-82b0-e12851b702ee",
+      "status": "cancelled"
+    },
+    {
+      "id": "7b3a704f-3d93-401d-9c90-e448f1c81863",
+      "status": "cancelled"
+    },
+    {
+      "id": "dc68bb3b-bf38-4282-b0b3-6ece77093d99",
+      "status": "cancelled"
+    },
+    {
+      "id": "3acb79e0-9e2c-4daa-8457-9a125e8464ee",
+      "status": "cancelled"
+    },
+    {
+      "id": "e63101ae-7114-4d1d-bfe2-2fa9c864e45e",
+      "status": "cancelled"
+    },
+    {
+      "id": "35f9dd2d-2256-4027-8aab-9bfa3e644822",
+      "status": "cancelled"
+    },
+    {
+      "id": "4f8ee1fe-87a5-4c2b-a44e-0a6f518d6d68",
+      "status": "cancelled"
+    },
+    {
+      "id": "13700d43-dbed-4ae5-966f-3250940fc0eb",
+      "status": "cancelled"
+    },
+    {
+      "id": "31783335-d6f7-4ffe-99f8-594c451a168e",
+      "status": "cancelled"
+    },
+    {
+      "id": "8856d085-4942-430c-81a8-fe86e2bb3bc8",
+      "status": "cancelled"
+    },
+    {
+      "id": "42982bcd-ab7d-42f4-a55b-dc641ecc21f1",
+      "status": "cancelled"
+    },
+    {
+      "id": "196b77dd-ffe2-430f-a4fe-68260a34740a",
+      "status": "cancelled"
+    },
+    {
+      "id": "1ec7de4e-3987-4784-a9b6-c903e1895ae3",
+      "status": "cancelled"
+    },
+    {
+      "id": "0f61eaa3-5bec-456c-b265-940fdfd89d62",
+      "status": "cancelled"
+    },
+    {
+      "id": "a6183e45-1bcf-4618-8e67-2c5f7e86002a",
+      "status": "cancelled"
+    },
+    {
+      "id": "e8f5684e-7611-4ab7-8b97-a2584fdb931b",
+      "status": "cancelled"
+    },
+    {
+      "id": "1d7b7676-56b3-4b25-bb2a-f13072b1d50f",
+      "status": "cancelled"
+    },
+    {
+      "id": "34fd52a8-3782-47e6-b8f9-d92d410ea1ff",
+      "status": "cancelled"
+    },
+    {
+      "id": "6dcdcc18-f857-4853-8567-539cbc4140ae",
+      "status": "cancelled"
+    },
+    {
+      "id": "6782ae0d-794f-459e-babd-e900564c77bb",
+      "status": "cancelled"
+    },
+    {
+      "id": "9c0d96d5-1533-437b-aa3b-37c68ee29a42",
+      "status": "cancelled"
+    },
+    {
+      "id": "85e93aea-e96b-4789-9ebe-7244c235fc9a",
+      "status": "cancelled"
+    },
+    {
+      "id": "43d9da07-7ece-40d5-8d35-1883fccba659",
+      "status": "cancelled"
+    },
+    {
+      "id": "0d8d9ecc-c87e-4e7f-8ec3-27910ca0af33",
+      "status": "cancelled"
+    },
+    {
+      "id": "f65a236f-87f1-4b3f-b6de-a0079ddf7185",
+      "status": "cancelled"
+    },
+    {
+      "id": "02e6a84a-7b8f-490b-b252-9d916a87fc62",
+      "status": "cancelled"
+    },
+    {
+      "id": "3f95b698-690d-4661-aca5-11b1cef7d498",
+      "status": "cancelled"
+    },
+    {
+      "id": "af946e17-f0c0-4050-a0e2-2035ccae82b7",
+      "status": "cancelled"
+    },
+    {
+      "id": "014d2335-d5c2-43db-b632-8eaa852f268e",
+      "status": "cancelled"
+    },
+    {
+      "id": "77237355-2c1c-4961-a7c0-0d36db516f5f",
+      "status": "cancelled"
+    },
+    {
+      "id": "9268e097-cba6-4d97-9ded-2067ade21c0c",
+      "status": "cancelled"
+    },
+    {
+      "id": "ed4abb27-6777-49b8-b2ec-612069d37037",
+      "status": "cancelled"
+    },
+    {
+      "id": "c3c0fafa-ac4a-4440-bc8a-a41b4a6e8dab",
+      "status": "cancelled"
+    },
+    {
+      "id": "23eb430d-3882-4877-9fda-700aa1c33222",
+      "status": "cancelled"
+    },
+    {
+      "id": "ab81c9c7-838c-41a9-b243-38ee64bb3f83",
+      "status": "cancelled"
+    },
+    {
+      "id": "69a90e44-7c82-49c3-864e-ee9987a89010",
+      "status": "cancelled"
+    },
+    {
+      "id": "2d45f415-541c-4df9-9ec6-70f7f09f736e",
+      "status": "cancelled"
+    },
+    {
+      "id": "e7309b69-48b7-4b10-9273-2a32797ff1e1",
+      "status": "cancelled"
+    },
+    {
+      "id": "c5603865-2407-4edf-a00f-426afa9a831d",
+      "status": "cancelled"
+    },
+    {
+      "id": "2b41dd88-c148-4356-9ca8-ea2ccff02dda",
+      "status": "cancelled"
+    },
+    {
+      "id": "4e638543-86df-46b0-831d-07ef198feb28",
+      "status": "cancelled"
+    },
+    {
+      "id": "400b89d4-691c-4269-a631-3f16cd3ede97",
+      "status": "cancelled"
+    },
+    {
+      "id": "4e4814f3-7fca-4b19-b687-e84f0ab84f5a",
+      "status": "cancelled"
+    },
+    {
+      "id": "87a85451-b2b9-4b27-b785-c7f2b855070e",
+      "status": "cancelled"
+    },
+    {
+      "id": "8b6a224e-ab95-4524-a980-86a45d42f3ff",
+      "status": "cancelled"
+    },
+    {
+      "id": "dac526fb-5725-4b62-92db-12240ff1071f",
+      "status": "cancelled"
+    },
+    {
+      "id": "8b6535b1-755d-44f0-91a9-5bbdfcdf2bbb",
+      "status": "cancelled"
+    },
+    {
+      "id": "60b0a449-7a4e-4472-b407-0c4259a966df",
+      "status": "cancelled"
+    },
+    {
+      "id": "b84aca5a-fbf7-4cab-b66d-6e066fad97e9",
+      "status": "cancelled"
+    },
+    {
+      "id": "2d7a75d3-c873-4e3c-a5c2-0fa805ef9802",
+      "status": "cancelled"
+    },
+    {
+      "id": "6fd1472c-9286-4351-9f4b-7e224589402d",
+      "status": "cancelled"
+    },
+    {
+      "id": "0b369884-6e4b-4214-96a1-0cbd3384d9b0",
+      "status": "cancelled"
+    },
+    {
+      "id": "1d02a59c-9306-452c-b2a9-b645cba94faf",
+      "status": "cancelled"
+    },
+    {
+      "id": "cca1906f-1884-4d85-8aac-4f992a240e25",
+      "status": "cancelled"
+    },
+    {
+      "id": "0fa7d8ca-25da-4fe9-985c-9a05a2365470",
+      "status": "cancelled"
+    },
+    {
+      "id": "88704d8d-96fe-471f-baa1-f6a479747ffe",
+      "status": "cancelled"
+    },
+    {
+      "id": "b71ee544-707f-4066-ac4e-9b94b34def47",
+      "status": "cancelled"
+    },
+    {
+      "id": "a983e362-a4eb-4d27-a291-48c83f9a4abb",
+      "status": "cancelled"
+    },
+    {
+      "id": "51ee63cf-2673-43b2-ab5f-f5a525633bec",
+      "status": "cancelled"
+    },
+    {
+      "id": "18f905de-9623-42dd-905b-d6c8f0b62dda",
+      "status": "cancelled"
+    },
+    {
+      "id": "a9450193-d80c-42dd-96ad-d30df01237e4",
+      "status": "cancelled"
+    },
+    {
+      "id": "e82b3a5b-8ebc-48e3-b478-2c66b2d4f5b3",
+      "status": "cancelled"
+    },
+    {
+      "id": "1a49d873-bcc8-4679-8f3f-d3b7cd69c292",
+      "status": "cancelled"
+    },
+    {
+      "id": "52701f79-67df-4b23-8932-535ee766dbe2",
+      "status": "cancelled"
+    },
+    {
+      "id": "3408a7a7-81d1-4026-b0ed-34125e793b73",
+      "status": "cancelled"
+    },
+    {
+      "id": "48be103d-5ccb-4b2c-985c-dc62bfead59b",
+      "status": "cancelled"
+    },
+    {
+      "id": "fe14d851-543f-4072-8356-f5687da80ee6",
+      "status": "cancelled"
+    },
+    {
+      "id": "ca3715a8-eb0a-43b0-9a63-233de7b74b3f",
+      "status": "cancelled"
+    },
+    {
+      "id": "331e114a-a459-4711-9aca-4f71ee3722d1",
+      "status": "cancelled"
+    },
+    {
+      "id": "b1020503-a6c7-4e08-926c-f5b28373649b",
+      "status": "cancelled"
+    },
+    {
+      "id": "fe343391-999b-4577-a966-a53ac1cd3421",
+      "status": "cancelled"
+    },
+    {
+      "id": "4ff877b5-0691-4174-8e06-b34a508d86e3",
+      "status": "cancelled"
+    },
+    {
+      "id": "c844fba6-08e6-450b-b07a-63de02af04d7",
+      "status": "cancelled"
+    },
+    {
+      "id": "595bbc11-8de6-4063-a73b-fdbd8a44795d",
+      "status": "cancelled"
+    },
+    {
+      "id": "8f3aa1f2-a008-4433-b763-50313130ea11",
+      "status": "cancelled"
+    },
+    {
+      "id": "21c9000b-2deb-4683-93b5-0f6fd7d47bcd",
+      "status": "cancelled"
+    },
+    {
+      "id": "c914c909-996f-47ee-a0ac-eec5d354e0d0",
+      "status": "cancelled"
+    },
+    {
+      "id": "6dbd228b-61b9-4bbc-a6cc-a4f57916a46d",
+      "status": "cancelled"
+    },
+    {
+      "id": "07f1e251-740e-4a03-aff7-f472e8231fc0",
+      "status": "cancelled"
+    },
+    {
+      "id": "56ea5c41-b6ae-4c76-a549-64f8877ae519",
+      "status": "cancelled"
+    },
+    {
+      "id": "97f0af62-2b13-4e8d-89f7-8c6f0413d7be",
+      "status": "cancelled"
+    },
+    {
+      "id": "07c6dad3-b11d-4f1a-89d1-a814cc0ee08a",
+      "status": "cancelled"
+    },
+    {
+      "id": "d7894ef1-1b74-489b-a4d4-5366455d1374",
+      "status": "cancelled"
+    },
+    {
+      "id": "92ab8718-097e-4a90-bf9a-ab78d0180b69",
+      "status": "cancelled"
+    },
+    {
+      "id": "413a0c32-427d-49e4-aec4-d0df91ce9f7a",
+      "status": "cancelled"
+    },
+    {
+      "id": "4ae0d6b1-b1ec-4a40-a8f1-0cb8dc042aed",
+      "status": "cancelled"
+    },
+    {
+      "id": "b4cd1ab5-9c33-4a61-a1a3-84db59cf1363",
+      "status": "cancelled"
+    },
+    {
+      "id": "ea92a7a1-a384-4163-812d-9a6bf1d77dd2",
+      "status": "cancelled"
+    },
+    {
+      "id": "87aa79d3-8415-4538-9438-a89c9172ffaf",
+      "status": "cancelled"
+    },
+    {
+      "id": "87a64940-28b3-4a0f-86eb-5e23e29c5b66",
+      "status": "cancelled"
+    },
+    {
+      "id": "c843a9b3-80c6-4da6-9a08-7ace60a0118a",
+      "status": "cancelled"
+    },
+    {
+      "id": "e91579de-9902-4ae2-afe8-881f31d2991f",
+      "status": "cancelled"
+    },
+    {
+      "id": "d968e7e1-79b9-4687-97f5-4bd59c7ead37",
+      "status": "cancelled"
+    },
+    {
+      "id": "ae86f75f-2c9b-4e9a-a03a-7718ec28674b",
+      "status": "cancelled"
+    },
+    {
+      "id": "e62af79b-e8d2-45f8-978d-d88b66f7a651",
+      "status": "cancelled"
+    },
+    {
+      "id": "81e12dc5-9793-4635-9070-631dcd21cedd",
+      "status": "cancelled"
+    },
+    {
+      "id": "887a56bb-97a7-418f-8da0-c778b2ba344b",
+      "status": "cancelled"
+    },
+    {
+      "id": "9d295e65-9e13-4018-b345-a7b6da702605",
+      "status": "cancelled"
+    },
+    {
+      "id": "012fe170-3509-4d28-9d9f-0ecc9cfbd971",
+      "status": "cancelled"
+    },
+    {
+      "id": "28e533ed-c7b5-4ce9-a3a1-b4bff6e10065",
+      "status": "cancelled"
+    },
+    {
+      "id": "f952113a-0af8-41db-b287-7348faea4c4e",
+      "status": "cancelled"
+    },
+    {
+      "id": "a90a5c02-d089-442b-a7ed-c0aa3fe7052e",
+      "status": "cancelled"
+    },
+    {
+      "id": "d1bd4a41-9fc9-43b4-84ad-6ba78e906a67",
+      "status": "cancelled"
+    },
+    {
+      "id": "5517262a-7a5b-404a-9c3c-59d9360c22b0",
+      "status": "cancelled"
+    },
+    {
+      "id": "5cde17f9-874f-4499-86f9-d28b6d953231",
+      "status": "cancelled"
+    },
+    {
+      "id": "7f7c54fe-2048-4e7b-9810-e48c111868d8",
+      "status": "cancelled"
+    },
+    {
+      "id": "4dd11cb6-4a29-420d-9d0f-6e5042243259",
+      "status": "cancelled"
+    },
+    {
+      "id": "109d4371-9d6e-4555-a9cf-ec92e2a2eb65",
+      "status": "cancelled"
+    }
+  ]
+}

@@ -1,8 +1,44 @@
 {
   "schema_version": "1.0",
-  "family": "physical-ink-sand-teal-world-to-harbour-1896",
-  "render_method": "H3-only picture; full 4-step Lightning concept pass before reviewed 12-step production. Stills are generation inputs only.",
+  "family": "reviewed-zero-person-parchment",
+  "render_method": "Bounded Episode006 controlled-map exception only014/118; remaining129 slots are H3 at12steps.",
   "maps": [
+    {
+      "id": "map-world-blank",
+      "depicted_date_or_interval": "1890–1896 context",
+      "extent_and_scale": "whole world from British Isles and Germany to eastern Africa, Indian Ocean and Zanzibar",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "legend": "existing navy/ochre Europe pins and maroon Zanzibar ring only; zero people or character tokens",
+      "route_and_arrows": "Only118: broad illustrative Zanzibar-to-adjacent-mainland dotted line, not a surveyed itinerary or particular landing port.",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "014 world-to-East-Africa affine crop; 118 fixed East-Africa crop and one timed dotted line",
+      "supported_shots": [
+        "clip-014",
+        "clip-118"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ],
+      "exact_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "render_method": "controlled_geography"
+    }
+  ],
+  "retired_maps": [
     {
       "id": "map-harbour-table-aftermath",
       "depicted_date_or_interval": "27 August 1896",
@@ -185,17 +221,13 @@
         "https://whc.unesco.org/en/list/173"
       ],
       "coastline_authority": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
-      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "legend": "existing navy/ochre Europe pins and maroon Zanzibar ring only; zero people or character tokens",
+      "route_and_arrows": "Only118: broad illustrative Zanzibar-to-adjacent-mainland dotted line, not a surveyed itinerary or particular landing port.",
       "allowed_labels": [],
-      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "zoom_handoff_sequence": "014 world-to-East-Africa affine crop; 118 fixed East-Africa crop and one timed dotted line",
       "supported_shots": [
-        "clip-004",
-        "clip-012",
         "clip-014",
-        "clip-021",
-        "clip-031",
-        "clip-126"
+        "clip-118"
       ],
       "asset_path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
       "failure_conditions": [
@@ -207,7 +239,8 @@
         "Khalid returns to palace after refuge",
         "unlisted writing appears"
       ],
-      "exact_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people"
+      "exact_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "render_method": "controlled_geography"
     },
     {
       "id": "map-world-diplomacy",
@@ -375,5 +408,6 @@
       ],
       "exact_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people"
     }
-  ]
+  ],
+  "decision_record": "episodes/006-shortest-war-ever/plan/map-method-decision.md"
 }

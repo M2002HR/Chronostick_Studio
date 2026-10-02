@@ -1,22 +1,22 @@
 {
-  "active_anchor_count": 57,
-  "primary_anchor_count": 57,
-  "max_primary_reuse": 6,
+  "active_anchor_count": 52,
+  "primary_anchor_count": 52,
+  "max_primary_reuse": 7,
   "max_consecutive_primary_slots": 2,
   "unique_primary_anchors_per_60s": [
-    11,
-    8,
-    10,
-    7,
-    9,
     12,
     10,
+    10,
+    6,
     8,
+    12,
+    11,
+    7,
     10,
     8,
-    10
+    9
   ],
-  "shot_count": 215,
+  "shot_count": 238,
   "per_anchor_slots": {
     "hook-shoe": [
       1,
@@ -29,16 +29,15 @@
     ],
     "harbour-messenger-quay": [
       3,
+      13,
       67,
       79
     ],
-    "map-world-blank": [
+    "harbour-intact": [
       4,
-      12,
-      14,
-      21,
-      31,
-      126
+      20,
+      51,
+      81
     ],
     "clock-palace-blank": [
       5,
@@ -52,12 +51,11 @@
       35,
       44
     ],
-    "map-harbour-table-prebattle": [
+    "fleet-quay-five": [
       7,
-      55,
-      64,
-      73,
-      76
+      22,
+      25,
+      62
     ],
     "clock-palace-0859": [
       8,
@@ -66,6 +64,7 @@
     "khalid-palace": [
       9,
       37,
+      40,
       46,
       50,
       53,
@@ -74,42 +73,53 @@
     "fleet-prebattle": [
       10,
       32,
+      33,
       77
     ],
     "market": [
       11,
       27
     ],
-    "map-world-oblique": [
-      13,
-      20
+    "rawson-bridge-over-shoulder": [
+      12,
+      41,
+      55,
+      58,
+      76
+    ],
+    "map-world-blank": [
+      14,
+      118
     ],
     "dhow-trade-cargo": [
       15,
+      16,
       24,
       26
     ],
-    "map-world-trade-blank": [
-      16,
-      17
+    "diplomatic-dispatches": [
+      17,
+      30,
+      126
     ],
     "market-quay": [
       18,
       129
     ],
-    "fleet-quay-five": [
-      22,
-      25,
-      62
+    "british-gun-deck": [
+      21,
+      64,
+      73
     ],
     "market-basket-close": [
       23,
+      28,
       29
     ],
-    "map-world-diplomacy": [
-      28,
-      30,
-      33
+    "messenger-scroll-quay": [
+      31,
+      49,
+      57
     ],
     "empty-throne-door": [
       34,
@@ -117,30 +127,14 @@
     ],
     "khalid-throne-close": [
       36,
+      38,
       39,
       42,
       48
     ],
-    "map-world-khalid": [
-      38,
-      40,
-      118
-    ],
-    "rawson-bridge-over-shoulder": [
-      41,
-      58
-    ],
     "hamoud-council": [
       45,
       47
-    ],
-    "messenger-scroll-quay": [
-      49,
-      57
-    ],
-    "harbour-intact": [
-      51,
-      81
     ],
     "khalid-scroll-insert": [
       52,
@@ -173,6 +167,7 @@
     ],
     "palace-battle": [
       83,
+      85,
       86,
       89,
       97
@@ -180,12 +175,9 @@
     "palace-battle-arcade": [
       84,
       87,
+      88,
       95,
       98
-    ],
-    "map-harbour-table-early-battle": [
-      85,
-      88
     ],
     "clock-palace-0905": [
       90
@@ -196,21 +188,19 @@
     "glasgow-quarter-battle": [
       92
     ],
-    "map-harbour-table-aftermath": [
-      93,
-      99
+    "glasgow-sinking-start": [
+      93
     ],
     "glasgow-sunken-close": [
       94,
       96
     ],
-    "map-harbour-table-refuge": [
-      99,
-      101,
-      105
+    "khalid-damaged-palace-exit": [
+      99
     ],
     "consulate-street-approach": [
-      100
+      100,
+      101
     ],
     "consulate-refuge": [
       102
@@ -219,13 +209,13 @@
       103,
       104
     ],
-    "map-harbour-table-surrender": [
-      105,
-      127
+    "palace-surrender-cloth": [
+      105
     ],
     "harbour-after-arch": [
       106,
       116,
+      127,
       128
     ],
     "hamoud-enthroned": [
@@ -253,9 +243,6 @@
     "clock-aftermath-blank": [
       115
     ],
-    "map-world-khalid-mainland": [
-      118
-    ],
     "clock-aftermath-0938": [
       124
     ],
@@ -266,5 +253,11 @@
       130,
       131
     ]
-  }
+  },
+  "map_slots": [
+    14,
+    118
+  ],
+  "map_seconds": 10,
+  "note": "Planning variety metrics, not a guarantee of final pacing. Fast narration retained; actual motion, SFX and chapter rhythm require candidate review."
 }

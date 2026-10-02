@@ -1,3 +1,7 @@
+# Historical H3-only decision — scoped map rule superseded by r005
+
+The active user instruction now authorizes map-method redirection. See [map-method-decision.md](map-method-decision.md): only014/118 use reviewed native geography, with no people; all clock/text events and other129 slots retain H3. The following records the previous decision, not the current map method.
+
 # Episode 006 H3-only picture decision — 2026-10-02
 
 The user explicitly directed that **every picture element**, including maps, clocks, exact text, diagrams and character movement, be produced as part of a continuous five-second H3 video clip. The entire 131-slot picture timeline therefore uses H3 at the episode's 12-step setting. Still reference images guide H3; they are not final moving footage.

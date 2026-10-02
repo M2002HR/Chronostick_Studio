@@ -1,0 +1,237 @@
+{
+  "status": "implemented_preflight_passed",
+  "authority": "Current user instruction requests no people on maps, better method and full remaining batch.",
+  "decision_record": "map-method-decision.md",
+  "changed_slots": [
+    {
+      "number": 4,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "harbour-intact"
+      ],
+      "action": "The cream-robed messenger gives the intact waterfront palace one small glance."
+    },
+    {
+      "number": 7,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "fleet-quay-five"
+      ],
+      "action": "The five existing British hulls stay at their fixed stations, with one restrained water slap at the nearest bow."
+    },
+    {
+      "number": 12,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "rawson-bridge-over-shoulder"
+      ],
+      "action": "Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water."
+    },
+    {
+      "number": 13,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "harbour-messenger-quay"
+      ],
+      "action": "The existing messenger quietly faces the intact shore as the narration introduces its earlier history."
+    },
+    {
+      "number": 14,
+      "method": "controlled_geography",
+      "asset_ids": [
+        "map-world-blank"
+      ],
+      "action": "Native affine zoom settles by3.50s; hold through5.00s."
+    },
+    {
+      "number": 16,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "dhow-trade-cargo"
+      ],
+      "action": "The existing cargo handler rests one mitten on the already pictured crate, completing one small placement."
+    },
+    {
+      "number": 17,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "diplomatic-dispatches"
+      ],
+      "action": "The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated."
+    },
+    {
+      "number": 20,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "harbour-intact"
+      ],
+      "action": "The messenger remains quietly in place while one small ripple reaches the existing dhow."
+    },
+    {
+      "number": 21,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "british-gun-deck"
+      ],
+      "action": "The nearer sailor tightens his existing resting grip on the cannon carriage once; the loaded gun remains completely quiet."
+    },
+    {
+      "number": 28,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "market-basket-close"
+      ],
+      "action": "The already pictured basket holder makes one small adjustment to the existing basket."
+    },
+    {
+      "number": 30,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "diplomatic-dispatches"
+      ],
+      "action": "The charcoal-coated anonymous official nudges his own closed sealed dispatch a few centimetres, then stops; this generic illustration is not a specific treaty meeting."
+    },
+    {
+      "number": 31,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "messenger-scroll-quay"
+      ],
+      "action": "The existing cream-robed messenger steadies his one closed blank scroll while the intact palace stays visible behind him."
+    },
+    {
+      "number": 33,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "fleet-prebattle"
+      ],
+      "action": "All five existing British ships remain at their fixed stations; one small wave meets the nearest bow."
+    },
+    {
+      "number": 38,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "khalid-throne-close"
+      ],
+      "action": "Khalid turns his head once toward the already pictured throne while holding his same closed scroll; this is the earlier 1893 succession flashback."
+    },
+    {
+      "number": 40,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "khalid-palace"
+      ],
+      "action": "Khalid draws his already held closed scroll a little closer to his chest while the guard stays in place."
+    },
+    {
+      "number": 55,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "rawson-bridge-over-shoulder"
+      ],
+      "action": "Rawson looks steadily across the existing open water toward the intact palace without issuing a firing order."
+    },
+    {
+      "number": 64,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "british-gun-deck"
+      ],
+      "action": "The nearer sailor rests his mitten on the existing cannon carriage once; its barrel already points toward the intact palace."
+    },
+    {
+      "number": 73,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "british-gun-deck"
+      ],
+      "action": "The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs."
+    },
+    {
+      "number": 76,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "rawson-bridge-over-shoulder"
+      ],
+      "action": "Rawson watches the intact palace once across the same water, completing one small head turn without a firing signal."
+    },
+    {
+      "number": 85,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "palace-battle"
+      ],
+      "action": "One tiny chip drops from an already damaged stone edge; the existing damage and defender identities remain fixed."
+    },
+    {
+      "number": 88,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "palace-battle-arcade"
+      ],
+      "action": "One existing defender makes one small flinch beside the already chipped arcade, then settles."
+    },
+    {
+      "number": 93,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "glasgow-sinking-start"
+      ],
+      "action": "Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s."
+    },
+    {
+      "number": 99,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "khalid-damaged-palace-exit"
+      ],
+      "action": "Through 1.18s Khalid holds his closed scroll in place. At 1.18s he makes one restrained head turn toward the right-hand exit, completing by 2.10s. His feet stay INSIDE the palace through the final frame; physical departure belongs to the following clip."
+    },
+    {
+      "number": 101,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "consulate-street-approach"
+      ],
+      "action": "The existing consulate guard glances once toward Khalid, who waits outside the already open doorway with his same closed scroll."
+    },
+    {
+      "number": 105,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "palace-surrender-cloth"
+      ],
+      "action": "The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached."
+    },
+    {
+      "number": 118,
+      "method": "controlled_geography",
+      "asset_ids": [
+        "map-world-blank"
+      ],
+      "action": "Broad illustrative Zanzibar-to-nearby-mainland dotted line starts at frame50 and finishes at104; hold through119."
+    },
+    {
+      "number": 126,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "diplomatic-dispatches"
+      ],
+      "action": "Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs."
+    },
+    {
+      "number": 127,
+      "method": "h3_12_step",
+      "asset_ids": [
+        "harbour-after-arch"
+      ],
+      "action": "The two already pictured civilians hold a quiet settled stance as one small water ripple passes the existing wreck."
+    }
+  ],
+  "unchanged_voice_and_timing": true,
+  "retained_nonmap_candidates": 12,
+  "pending_h3_jobs": 117,
+  "controlled_maps": 2,
+  "h3_inputs_containing_maps": 0,
+  "actual_h3_creative_review": "pending"
+}

@@ -381,9 +381,35 @@ def check_job_plan(audit: Audit, slot_count: int | None, required: bool) -> None
                 audit.error(f"job-plan slot {number:03d} has a missing reference")
 
 
+def expected_h3_slots(audit: Audit, slot_count: int | None) -> set[int]:
+    episode = audit.json(audit.episode / "episode.json")
+    exceptions = episode.get("picture_method_exceptions", []) if isinstance(episode, dict) else []
+    controlled = {item.get("number") for item in exceptions if isinstance(item, dict)}
+    if exceptions:
+        if episode.get("id") != "006-shortest-war-ever" or controlled != {14, 118} or len(exceptions) != 2:
+            audit.error("controlled geography exception must be exactly Episode006 slots014/118")
+        for item in exceptions:
+            if not isinstance(item, dict) or item.get("method") != "controlled_geography" or not item.get("authority"):
+                audit.error("controlled geography needs an explicit method and recorded user authority")
+                continue
+            for field in ("decision_record", "source_reference", "artifact"):
+                value = item.get(field)
+                path = audit.within_repo(value, f"controlled geography {field}") if isinstance(value, str) else None
+                if not path or not path.is_file():
+                    audit.error(f"controlled geography {field} is missing")
+                elif field in {"source_reference", "artifact"} and hashlib.sha256(path.read_bytes()).hexdigest() != item.get(field + "_sha256"):
+                    audit.error(f"controlled geography {field} hash mismatch")
+            if item.get("people") != 0 or item.get("review_status") != "approved" or not item.get("approved_by"):
+                audit.error("controlled geography needs reviewed zero-person inputs and actual output review")
+    return set(range(1, (slot_count or 0) + 1)) - controlled
+
+
 def check_prompts(audit: Audit, slot_count: int | None, required: bool) -> dict[int, Path]:
     prompts = numbered_files(audit, audit.episode / "prompts", PROMPT_RE)
-    if required and (slot_count is None or set(prompts) != set(range(1, slot_count + 1))):
+    expected = expected_h3_slots(audit, slot_count)
+    if set(prompts) - expected:
+        audit.error("active H3 prompt exists for a controlled/non-H3 slot")
+    if required and (slot_count is None or set(prompts) != expected):
         audit.error("approved prompt set must cover every numbered timing slot")
     for number, path in prompts.items():
         text = path.read_text(encoding="utf-8")
@@ -398,7 +424,10 @@ def check_prompts(audit: Audit, slot_count: int | None, required: bool) -> dict[
 
 def check_jobs(audit: Audit, prompts: dict[int, Path], slot_count: int | None, required: bool, steps: int = 14) -> None:
     jobs = numbered_files(audit, audit.episode / "automation/jobs", JOB_RE)
-    if required and (slot_count is None or set(jobs) != set(range(1, slot_count + 1))):
+    expected_slots = expected_h3_slots(audit, slot_count)
+    if set(jobs) - expected_slots:
+        audit.error("active H3 job exists for a controlled/non-H3 slot")
+    if required and (slot_count is None or set(jobs) != expected_slots):
         audit.error("approved job set must cover every numbered timing slot")
     seeds: set[int] = set()
     outputs: set[str] = set()

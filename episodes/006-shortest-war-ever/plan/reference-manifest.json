@@ -53,6 +53,24 @@
       "authority_sources": []
     },
     {
+      "id": "british-gun-deck",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+      "sha256": "cc4c67ec5fb47a8da599e5fa936bcad36b9015b93679bba2225406d9cd68f3b5",
+      "status": "approved",
+      "approved_by": "Codex actual full-resolution input-reference review 2026-10-02T19:37:25.538742+00:00",
+      "provenance": "built-in imagegen; immutable original copied into repository",
+      "aspect": "16:9",
+      "subject_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+      "story_phase": "clip-specific physical scene; see continuity ledger",
+      "supported_shot_ids": [
+        "clip-021",
+        "clip-064",
+        "clip-073"
+      ],
+      "authority_sources": []
+    },
+    {
       "id": "clock-aftermath-0938",
       "type": "scene",
       "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-0938-r001.png",
@@ -230,7 +248,8 @@
       "subject_inventory": "exactly one maroon-and-gold Khalid at left facing right holding his existing closed scroll, exactly one cream-robed neutral guard beside the already open carved doorway at right; paved approach, harbour and unaffected street buildings beyond; bombarded palace outside this viewpoint",
       "story_phase": "approach to German consular refuge after battle damage",
       "supported_shot_ids": [
-        "clip-100"
+        "clip-100",
+        "clip-101"
       ],
       "authority_sources": []
     },
@@ -247,8 +266,27 @@
       "story_phase": "ordinary port commerce with intact city",
       "supported_shot_ids": [
         "clip-015",
+        "clip-016",
         "clip-024",
         "clip-026"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "diplomatic-dispatches",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a",
+      "status": "approved",
+      "approved_by": "Codex actual full-resolution input-reference review 2026-10-02T19:37:25.538742+00:00",
+      "provenance": "built-in imagegen; immutable original copied into repository",
+      "aspect": "16:9",
+      "subject_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+      "story_phase": "clip-specific physical scene; see continuity ledger",
+      "supported_shot_ids": [
+        "clip-017",
+        "clip-030",
+        "clip-126"
       ],
       "authority_sources": []
     },
@@ -302,6 +340,7 @@
       "supported_shot_ids": [
         "clip-010",
         "clip-032",
+        "clip-033",
         "clip-077"
       ],
       "authority_sources": []
@@ -318,6 +357,7 @@
       "subject_inventory": "exactly five British ships in a low quay-level view and intact distant palace",
       "story_phase": "prebattle harbour, five British ships west of palace",
       "supported_shot_ids": [
+        "clip-007",
         "clip-022",
         "clip-025",
         "clip-062"
@@ -369,6 +409,22 @@
       "story_phase": "early battle, before Glasgow sinks",
       "supported_shot_ids": [
         "clip-092"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "glasgow-sinking-start",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+      "sha256": "f77f8b2d2fb28e68f8129ea1fca787b48d55ca03882da40f8a4f1f3c7eb562cc",
+      "status": "approved",
+      "approved_by": "Codex actual full-resolution input-reference review 2026-10-02T19:37:25.538742+00:00",
+      "provenance": "built-in imagegen; immutable original copied into repository",
+      "aspect": "16:9",
+      "subject_inventory": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop",
+      "story_phase": "clip-specific physical scene; see continuity ledger",
+      "supported_shot_ids": [
+        "clip-093"
       ],
       "authority_sources": []
     },
@@ -472,6 +528,7 @@
       "supported_shot_ids": [
         "clip-106",
         "clip-116",
+        "clip-127",
         "clip-128"
       ],
       "authority_sources": []
@@ -488,6 +545,8 @@
       "subject_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
       "story_phase": "intact western Stone Town waterfront",
       "supported_shot_ids": [
+        "clip-004",
+        "clip-020",
         "clip-051",
         "clip-081"
       ],
@@ -506,6 +565,7 @@
       "story_phase": "intact Stone Town waterfront before battle",
       "supported_shot_ids": [
         "clip-003",
+        "clip-013",
         "clip-067",
         "clip-079"
       ],
@@ -565,6 +625,22 @@
       "authority_sources": []
     },
     {
+      "id": "khalid-damaged-palace-exit",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-damaged-palace-exit-r001.png",
+      "sha256": "bd43f03093b5b5b8783cf116b6cb1c182e54923f6aab335c7dabb501924b5140",
+      "status": "approved",
+      "approved_by": "Codex actual full-resolution input-reference review 2026-10-02T19:37:25.538742+00:00",
+      "provenance": "built-in imagegen; immutable original copied into repository",
+      "aspect": "16:9",
+      "subject_inventory": "one foreground Khalid with ivory turban, black beard, maroon/gold robe and one closed scroll inside a damaged palace arch; two small cream-robed defenders behind; two distant British hulls; same damaged palace, existing rubble and smoke",
+      "story_phase": "clip-specific physical scene; see continuity ledger",
+      "supported_shot_ids": [
+        "clip-099"
+      ],
+      "authority_sources": []
+    },
+    {
       "id": "khalid-palace",
       "type": "scene",
       "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
@@ -578,6 +654,7 @@
       "supported_shot_ids": [
         "clip-009",
         "clip-037",
+        "clip-040",
         "clip-046",
         "clip-050",
         "clip-053",
@@ -615,130 +692,12 @@
       "story_phase": "intact palace chamber before battle",
       "supported_shot_ids": [
         "clip-036",
+        "clip-038",
         "clip-039",
         "clip-042",
         "clip-048"
       ],
       "authority_sources": []
-    },
-    {
-      "id": "map-harbour-table-aftermath",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
-      "sha256": "2789fa183a33cd5ce76d66b7179dd6e8eb51632e1a29d8fd90f26c3e069d5292",
-      "status": "approved",
-      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
-      "story_phase": "27 August 1896 after Glasgow sinks",
-      "supported_shot_ids": [
-        "clip-093",
-        "clip-099"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-harbour-table-early-battle",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png",
-      "sha256": "c4664d2ece213a1d417138edfcd10f2b75019fcca90e98ea9b09f5452e45400a",
-      "status": "approved",
-      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
-      "story_phase": "27 August 1896 after first fire but before Glasgow sinks",
-      "supported_shot_ids": [
-        "clip-085",
-        "clip-088"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-harbour-table-prebattle",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
-      "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f",
-      "status": "approved",
-      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "story_phase": "27 August 1896 before 09:00",
-      "supported_shot_ids": [
-        "clip-007",
-        "clip-055",
-        "clip-064",
-        "clip-073",
-        "clip-076"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-harbour-table-refuge",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
-      "sha256": "74ae7a649ce6a9396b7dd604215e2e7b1c472627c63617c3bce7791a72280960",
-      "status": "approved",
-      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
-      "story_phase": "27 August 1896 after Khalid leaves the palace",
-      "supported_shot_ids": [
-        "clip-099",
-        "clip-101",
-        "clip-105"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-harbour-table-surrender",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png",
-      "sha256": "6e206565a63ff74b9636f1a5611c766149b7caf7ff5fb40381b9c08af13b122e",
-      "status": "approved",
-      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
-      "story_phase": "surrender after Khalid reaches refuge",
-      "supported_shot_ids": [
-        "clip-105",
-        "clip-127"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
     },
     {
       "id": "map-world-blank",
@@ -752,128 +711,8 @@
       "subject_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
       "story_phase": "1890–1896 world geography before Khalid enters the story",
       "supported_shot_ids": [
-        "clip-004",
-        "clip-012",
         "clip-014",
-        "clip-021",
-        "clip-031",
-        "clip-126"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-world-diplomacy",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png",
-      "sha256": "78325aa49fcc02ef9caee8ed611869b31f7cca9be01dfc8c775eac4ba3f1487f",
-      "status": "approved",
-      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
-      "story_phase": "1890s British-German diplomatic context, not human travel",
-      "supported_shot_ids": [
-        "clip-028",
-        "clip-030",
-        "clip-033"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-world-khalid",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
-      "sha256": "544f93649c45daeb9ab7c0ed5b61500618b9de940ff80fe11f6621c2c6e58599",
-      "status": "approved",
-      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
-      "story_phase": "world geography after Khalid is introduced",
-      "supported_shot_ids": [
-        "clip-038",
-        "clip-040",
         "clip-118"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-world-khalid-mainland",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png",
-      "sha256": "f39544d74df34fe00e5009224714085214d1d77b9774d50275feb21977307126",
-      "status": "approved",
-      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same physical world chart and fixed Britain navy pin, Germany ochre pin, Zanzibar maroon ring; exactly one tiny maroon Khalid token on adjacent East African mainland",
-      "story_phase": "later Khalid departure toward broad German East Africa area",
-      "supported_shot_ids": [
-        "clip-118"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-world-oblique",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png",
-      "sha256": "1c0c17332434fc21822048b264b9d384fa79d893285ecb6640d0c23bfef1a622",
-      "status": "approved",
-      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
-      "story_phase": "1890–1896 world geography before Khalid enters the story",
-      "supported_shot_ids": [
-        "clip-013",
-        "clip-020"
-      ],
-      "authority_sources": [
-        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
-        "https://www.loc.gov/resource/g8440.ct003505/",
-        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
-        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
-        "https://whc.unesco.org/en/list/173"
-      ]
-    },
-    {
-      "id": "map-world-trade-blank",
-      "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png",
-      "sha256": "65f443dfa7db248c39d69adcda8e69f4a8daa25732203e4f075089845af799f8",
-      "status": "approved",
-      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
-      "aspect": "16:9",
-      "subject_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
-      "story_phase": "1890–1896 Indian Ocean trade context",
-      "supported_shot_ids": [
-        "clip-016",
-        "clip-017"
       ],
       "authority_sources": [
         "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
@@ -913,6 +752,7 @@
       "story_phase": "intact market, daily civilian life",
       "supported_shot_ids": [
         "clip-023",
+        "clip-028",
         "clip-029"
       ],
       "authority_sources": []
@@ -946,6 +786,7 @@
       "subject_inventory": "exactly one foreground cream-robed ivory-turbaned messenger, one closed blank cream scroll; intact palace and one dhow beyond; existing tiny distant residents stay background-sized",
       "story_phase": "message delivery at intact waterfront",
       "supported_shot_ids": [
+        "clip-031",
         "clip-049",
         "clip-057"
       ],
@@ -964,6 +805,7 @@
       "story_phase": "battle already in progress",
       "supported_shot_ids": [
         "clip-083",
+        "clip-085",
         "clip-086",
         "clip-089",
         "clip-097"
@@ -984,8 +826,25 @@
       "supported_shot_ids": [
         "clip-084",
         "clip-087",
+        "clip-088",
         "clip-095",
         "clip-098"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "palace-surrender-cloth",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+      "sha256": "9b684095fa8b4cd93441c33369753be0835f86e8fa0dbf377f87512d5e38c712",
+      "status": "approved",
+      "approved_by": "Codex actual full-resolution input-reference review 2026-10-02T19:37:25.538742+00:00",
+      "provenance": "built-in imagegen; immutable original copied into repository",
+      "aspect": "16:9",
+      "subject_inventory": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke",
+      "story_phase": "clip-specific physical scene; see continuity ledger",
+      "supported_shot_ids": [
+        "clip-105"
       ],
       "authority_sources": []
     },
@@ -1018,8 +877,11 @@
       "subject_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
       "story_phase": "British ship bridge before 09:00",
       "supported_shot_ids": [
+        "clip-012",
         "clip-041",
-        "clip-058"
+        "clip-055",
+        "clip-058",
+        "clip-076"
       ],
       "authority_sources": []
     },
@@ -1082,7 +944,7 @@
     {
       "shot_id": "clip-004",
       "asset_ids": [
-        "map-world-blank"
+        "harbour-intact"
       ],
       "unsupported_elements": []
     },
@@ -1103,7 +965,7 @@
     {
       "shot_id": "clip-007",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "fleet-quay-five"
       ],
       "unsupported_elements": []
     },
@@ -1138,14 +1000,14 @@
     {
       "shot_id": "clip-012",
       "asset_ids": [
-        "map-world-blank"
+        "rawson-bridge-over-shoulder"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-013",
       "asset_ids": [
-        "map-world-oblique"
+        "harbour-messenger-quay"
       ],
       "unsupported_elements": []
     },
@@ -1166,14 +1028,14 @@
     {
       "shot_id": "clip-016",
       "asset_ids": [
-        "map-world-trade-blank"
+        "dhow-trade-cargo"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-017",
       "asset_ids": [
-        "map-world-trade-blank"
+        "diplomatic-dispatches"
       ],
       "unsupported_elements": []
     },
@@ -1194,14 +1056,14 @@
     {
       "shot_id": "clip-020",
       "asset_ids": [
-        "map-world-oblique"
+        "harbour-intact"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-021",
       "asset_ids": [
-        "map-world-blank"
+        "british-gun-deck"
       ],
       "unsupported_elements": []
     },
@@ -1250,7 +1112,7 @@
     {
       "shot_id": "clip-028",
       "asset_ids": [
-        "map-world-diplomacy"
+        "market-basket-close"
       ],
       "unsupported_elements": []
     },
@@ -1264,14 +1126,14 @@
     {
       "shot_id": "clip-030",
       "asset_ids": [
-        "map-world-diplomacy"
+        "diplomatic-dispatches"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-031",
       "asset_ids": [
-        "map-world-blank"
+        "messenger-scroll-quay"
       ],
       "unsupported_elements": []
     },
@@ -1285,7 +1147,7 @@
     {
       "shot_id": "clip-033",
       "asset_ids": [
-        "map-world-diplomacy"
+        "fleet-prebattle"
       ],
       "unsupported_elements": []
     },
@@ -1320,7 +1182,7 @@
     {
       "shot_id": "clip-038",
       "asset_ids": [
-        "map-world-khalid"
+        "khalid-throne-close"
       ],
       "unsupported_elements": []
     },
@@ -1334,7 +1196,7 @@
     {
       "shot_id": "clip-040",
       "asset_ids": [
-        "map-world-khalid"
+        "khalid-palace"
       ],
       "unsupported_elements": []
     },
@@ -1439,7 +1301,7 @@
     {
       "shot_id": "clip-055",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "rawson-bridge-over-shoulder"
       ],
       "unsupported_elements": []
     },
@@ -1502,7 +1364,7 @@
     {
       "shot_id": "clip-064",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "british-gun-deck"
       ],
       "unsupported_elements": []
     },
@@ -1565,7 +1427,7 @@
     {
       "shot_id": "clip-073",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "british-gun-deck"
       ],
       "unsupported_elements": []
     },
@@ -1586,7 +1448,7 @@
     {
       "shot_id": "clip-076",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "rawson-bridge-over-shoulder"
       ],
       "unsupported_elements": []
     },
@@ -1649,7 +1511,7 @@
     {
       "shot_id": "clip-085",
       "asset_ids": [
-        "map-harbour-table-early-battle"
+        "palace-battle"
       ],
       "unsupported_elements": []
     },
@@ -1670,7 +1532,7 @@
     {
       "shot_id": "clip-088",
       "asset_ids": [
-        "map-harbour-table-early-battle"
+        "palace-battle-arcade"
       ],
       "unsupported_elements": []
     },
@@ -1705,7 +1567,7 @@
     {
       "shot_id": "clip-093",
       "asset_ids": [
-        "map-harbour-table-aftermath"
+        "glasgow-sinking-start"
       ],
       "unsupported_elements": []
     },
@@ -1747,8 +1609,7 @@
     {
       "shot_id": "clip-099",
       "asset_ids": [
-        "map-harbour-table-aftermath",
-        "map-harbour-table-refuge"
+        "khalid-damaged-palace-exit"
       ],
       "unsupported_elements": []
     },
@@ -1762,7 +1623,7 @@
     {
       "shot_id": "clip-101",
       "asset_ids": [
-        "map-harbour-table-refuge"
+        "consulate-street-approach"
       ],
       "unsupported_elements": []
     },
@@ -1790,8 +1651,7 @@
     {
       "shot_id": "clip-105",
       "asset_ids": [
-        "map-harbour-table-refuge",
-        "map-harbour-table-surrender"
+        "palace-surrender-cloth"
       ],
       "unsupported_elements": []
     },
@@ -1882,8 +1742,7 @@
     {
       "shot_id": "clip-118",
       "asset_ids": [
-        "map-world-khalid",
-        "map-world-khalid-mainland"
+        "map-world-blank"
       ],
       "unsupported_elements": []
     },
@@ -1939,14 +1798,14 @@
     {
       "shot_id": "clip-126",
       "asset_ids": [
-        "map-world-blank"
+        "diplomatic-dispatches"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-127",
       "asset_ids": [
-        "map-harbour-table-surrender"
+        "harbour-after-arch"
       ],
       "unsupported_elements": []
     },
@@ -2105,6 +1964,251 @@
       "reviewed_by": "Codex resume audit",
       "reviewed_at": "2026-10-02T14:24:17+03:30",
       "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+    },
+    {
+      "id": "map-harbour-table-aftermath",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
+      "sha256": "2789fa183a33cd5ce76d66b7179dd6e8eb51632e1a29d8fd90f26c3e069d5292",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
+      "story_phase": "27 August 1896 after Glasgow sinks",
+      "supported_shot_ids": [
+        "clip-093",
+        "clip-099"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-harbour-table-early-battle",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png",
+      "sha256": "c4664d2ece213a1d417138edfcd10f2b75019fcca90e98ea9b09f5452e45400a",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
+      "story_phase": "27 August 1896 after first fire but before Glasgow sinks",
+      "supported_shot_ids": [
+        "clip-085",
+        "clip-088"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-harbour-table-prebattle",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+      "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
+      "story_phase": "27 August 1896 before 09:00",
+      "supported_shot_ids": [
+        "clip-007",
+        "clip-055",
+        "clip-064",
+        "clip-073",
+        "clip-076"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-harbour-table-refuge",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
+      "sha256": "74ae7a649ce6a9396b7dd604215e2e7b1c472627c63617c3bce7791a72280960",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
+      "story_phase": "27 August 1896 after Khalid leaves the palace",
+      "supported_shot_ids": [
+        "clip-099",
+        "clip-101",
+        "clip-105"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-harbour-table-surrender",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png",
+      "sha256": "6e206565a63ff74b9636f1a5611c766149b7caf7ff5fb40381b9c08af13b122e",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
+      "story_phase": "surrender after Khalid reaches refuge",
+      "supported_shot_ids": [
+        "clip-105",
+        "clip-127"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-world-diplomacy",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png",
+      "sha256": "78325aa49fcc02ef9caee8ed611869b31f7cca9be01dfc8c775eac4ba3f1487f",
+      "status": "approved",
+      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
+      "story_phase": "1890s British-German diplomatic context, not human travel",
+      "supported_shot_ids": [
+        "clip-028",
+        "clip-030",
+        "clip-033"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-world-khalid",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
+      "sha256": "544f93649c45daeb9ab7c0ed5b61500618b9de940ff80fe11f6621c2c6e58599",
+      "status": "approved",
+      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
+      "story_phase": "world geography after Khalid is introduced",
+      "supported_shot_ids": [
+        "clip-038",
+        "clip-040",
+        "clip-118"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-world-khalid-mainland",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png",
+      "sha256": "f39544d74df34fe00e5009224714085214d1d77b9774d50275feb21977307126",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same physical world chart and fixed Britain navy pin, Germany ochre pin, Zanzibar maroon ring; exactly one tiny maroon Khalid token on adjacent East African mainland",
+      "story_phase": "later Khalid departure toward broad German East Africa area",
+      "supported_shot_ids": [
+        "clip-118"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-world-oblique",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png",
+      "sha256": "1c0c17332434fc21822048b264b9d384fa79d893285ecb6640d0c23bfef1a622",
+      "status": "approved",
+      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
+      "story_phase": "1890–1896 world geography before Khalid enters the story",
+      "supported_shot_ids": [
+        "clip-013",
+        "clip-020"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
+    },
+    {
+      "id": "map-world-trade-blank",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png",
+      "sha256": "65f443dfa7db248c39d69adcda8e69f4a8daa25732203e4f075089845af799f8",
+      "status": "approved",
+      "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
+      "story_phase": "1890–1896 Indian Ocean trade context",
+      "supported_shot_ids": [
+        "clip-016",
+        "clip-017"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "retirement_reason": "Map-redirection r005; obsolete anchor preserved immutably"
     }
   ]
 }

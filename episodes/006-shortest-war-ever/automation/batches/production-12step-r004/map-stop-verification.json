@@ -1,0 +1,14 @@
+{
+  "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c",
+  "stopped_verified_at": "2026-10-02T18:18:21.690044+00:00",
+  "service_terminal_status": "failed",
+  "child_status_counts": {
+    "cancelled": 109,
+    "failed": 1,
+    "succeeded": 21
+  },
+  "engine_running": 0,
+  "engine_pending": 0,
+  "reason": "User stopped batch and requested map replacement proposals before new direction or generation.",
+  "restart_authorized": false
+}

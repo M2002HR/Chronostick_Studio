@@ -39,6 +39,8 @@ def build(episode: Path, plan: dict) -> list[tuple[Path, dict]]:
         raise ValueError("episode must be inside the repository")
     timing = load_object(episode / "timestamps/timing-map.json")
     episode_manifest = load_object(episode / "episode.json")
+    if episode_manifest.get("picture_method_exceptions"):
+        raise ValueError("Mixed-method Episode006 uses its frozen map-redirection package; do not rebuild controlled slots as H3 or resubmit retained candidates")
     steps = episode_manifest.get("generation_steps", 14)
     if steps not in (12, 14):
         raise ValueError("episode generation_steps must be 12 or 14")

@@ -121,28 +121,38 @@
       "end": 20,
       "chapter_id": "C01",
       "narration": "Suena a chiste, pero en Zanzíbar, en mil ochocientos noventa y",
-      "action": "On the physical world chart, the small Zanzibar ring catches a brief glint while Britain and Germany remain pinned in their correct European locations.",
+      "action": "The cream-robed messenger gives the intact waterfront palace one small glance.",
       "asset_ids": [
-        "map-world-blank"
+        "harbour-intact"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
       ],
-      "start_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "end_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "start_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
+      "end_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "On the physical world chart, the small Zanzibar ring catches a brief glint while Britain and Germany remain pinned in their correct European locations.",
+          "action": "The cream-robed messenger gives the intact waterfront palace one small glance. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same intact waterfront palace and calm sea",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV07"
+      "reference_analysis_id": "RV07",
+      "method": "h3_12_step"
     },
     {
       "number": 5,
@@ -217,28 +227,38 @@
       "end": 35,
       "chapter_id": "C01",
       "narration": "cinco barcos apuntando a un palacio. Vamos al momento en que nadie tiene ganas de mirar el reloj,",
-      "action": "One narrow daylight glint crosses the existing five navy ship tokens; every ship, miniature and coastline stays fixed.",
+      "action": "The five existing British hulls stay at their fixed stations, with one restrained water slap at the nearest bow.",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "fleet-quay-five"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png"
       ],
-      "start_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "end_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
+      "start_inventory": "exactly five British ships in a low quay-level view and intact distant palace",
+      "end_inventory": "exactly five British ships in a low quay-level view and intact distant palace",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One narrow daylight glint crosses the existing five navy ship tokens; every ship, miniature and coastline stays fixed.",
+          "action": "The five existing British hulls stay at their fixed stations, with one restrained water slap at the nearest bow. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the nearest existing bow; the other four remain at their original stations outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV07"
+      "reference_analysis_id": "RV07",
+      "method": "h3_12_step"
     },
     {
       "number": 8,
@@ -389,28 +409,38 @@
       "end": 60,
       "chapter_id": "C01",
       "narration": "mueve, los cañones van a hacerlo. ¿Cómo llegó una isla a este punto? Rebobinemos.",
-      "action": "The world chart holds as the Zanzibar ring catches the rewind cue; no continent or pin moves.",
+      "action": "Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water.",
       "asset_ids": [
-        "map-world-blank"
+        "rawson-bridge-over-shoulder"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
       ],
-      "start_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "end_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "start_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+      "end_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The world chart holds as the Zanzibar ring catches the rewind cue; no continent or pin moves.",
+          "action": "Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same officer and intact shore",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV07"
+      "reference_analysis_id": "RV07",
+      "method": "h3_12_step"
     },
     {
       "number": 13,
@@ -418,28 +448,38 @@
       "end": 65,
       "chapter_id": "C01",
       "narration": "Rebobinemos. La respuesta empieza mucho antes de esa mañana. Zanzíbar está",
-      "action": "One narrow daylight glint catches the existing Zanzibar ring; the entire uncovered chart stays still.",
+      "action": "The existing messenger quietly faces the intact shore as the narration introduces its earlier history.",
       "asset_ids": [
-        "map-world-oblique"
+        "harbour-messenger-quay"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
       ],
-      "start_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
-      "end_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
+      "start_inventory": "one cream-robed messenger by the intact waterfront palace and one dhow, seen from quay level",
+      "end_inventory": "one cream-robed messenger by the intact waterfront palace and one dhow, seen from quay level",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One narrow daylight glint catches the existing Zanzibar ring; the entire uncovered chart stays still.",
+          "action": "The existing messenger quietly faces the intact shore as the narration introduces its earlier history. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same quay and dhow",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV07"
+      "reference_analysis_id": "RV07",
+      "method": "h3_12_step"
     },
     {
       "number": 14,
@@ -447,28 +487,29 @@
       "end": 70,
       "chapter_id": "C02",
       "narration": "está frente a la costa oriental de África. En un mapa parece un punto pequeño; para",
-      "action": "A restrained focus settles on the Zanzibar ring at the eastern African coast; keep the complete world chart legible.",
+      "action": "Native affine zoom settles by3.50s; hold through5.00s.",
       "asset_ids": [
         "map-world-blank"
       ],
       "references": [
         "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
       ],
-      "start_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "end_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "start_inventory": "one fixed empty world chart; exactly zero people, tokens or new labels",
+      "end_inventory": "same fixed empty chart; zero people; existing pins and Zanzibar ring unchanged",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
-          "camera": "locked",
-          "action": "A restrained focus settles on the Zanzibar ring at the eastern African coast; keep the complete world chart legible.",
-          "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "framing": "fixed reviewed zero-person chart",
+          "camera": "native affine zoom",
+          "action": "Native affine zoom settles by3.50s; hold through5.00s.",
+          "hold_from": 3.5,
+          "cut": "hard cut at5.00s"
         }
       ],
       "source_claim": "C003",
-      "reference_analysis_id": "RV02"
+      "reference_analysis_id": "RV02",
+      "method": "controlled_geography"
     },
     {
       "number": 15,
@@ -514,28 +555,38 @@
       "end": 80,
       "chapter_id": "C02",
       "narration": "Por allí se encontraban rutas, mercancías e intereses de lugares muy distintos.",
-      "action": "One existing dashed Indian Ocean trade route briefly catches a light glint; route geometry remains fixed.",
+      "action": "The existing cargo handler rests one mitten on the already pictured crate, completing one small placement.",
       "asset_ids": [
-        "map-world-trade-blank"
+        "dhow-trade-cargo"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png"
       ],
-      "start_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
-      "end_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
+      "start_inventory": "one cream-robed ivory-turbaned quay worker, one foreground timber crate, one rope coil, one tied wooden dhow with cargo barrels; intact palace beyond",
+      "end_inventory": "one cream-robed ivory-turbaned quay worker, one foreground timber crate, one rope coil, one tied wooden dhow with cargo barrels; intact palace beyond",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One existing dashed Indian Ocean trade route briefly catches a light glint; route geometry remains fixed.",
+          "action": "The existing cargo handler rests one mitten on the already pictured crate, completing one small placement. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same crate and existing rope",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C003",
-      "reference_analysis_id": "RV02"
+      "reference_analysis_id": "RV02",
+      "method": "h3_12_step"
     },
     {
       "number": 17,
@@ -543,28 +594,38 @@
       "end": 85,
       "chapter_id": "C02",
       "narration": "distintos. Gran Bretaña quería influir en ese cruce. Alemania también tenía planes en África",
-      "action": "The fixed Germany pin catches one brief light glint while the Zanzibar ring and all existing trade paths stay unchanged.",
+      "action": "The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated.",
       "asset_ids": [
-        "map-world-trade-blank"
+        "diplomatic-dispatches"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
       ],
-      "start_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
-      "end_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
+      "start_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+      "end_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed Germany pin catches one brief light glint while the Zanzibar ring and all existing trade paths stay unchanged.",
+          "action": "The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the two separate closed dispatches on the same desk",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C007",
-      "reference_analysis_id": "RV02"
+      "reference_analysis_id": "RV02",
+      "method": "h3_12_step"
     },
     {
       "number": 18,
@@ -648,28 +709,38 @@
       "end": 100,
       "chapter_id": "C02",
       "narration": "Esa es la primera sorpresa de la historia: la isla era pequeña, pero el lío que se había",
-      "action": "The Zanzibar marker remains tiny against the whole world chart while ocean breadth conveys its scale.",
+      "action": "The messenger remains quietly in place while one small ripple reaches the existing dhow.",
       "asset_ids": [
-        "map-world-oblique"
+        "harbour-intact"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
       ],
-      "start_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
-      "end_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
+      "start_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
+      "end_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The Zanzibar marker remains tiny against the whole world chart while ocean breadth conveys its scale.",
+          "action": "The messenger remains quietly in place while one small ripple reaches the existing dhow. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same palace with broad water still visible",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C007",
-      "reference_analysis_id": "RV02"
+      "reference_analysis_id": "RV02",
+      "method": "h3_12_step"
     },
     {
       "number": 21,
@@ -677,28 +748,38 @@
       "end": 105,
       "chapter_id": "C02",
       "narration": "armado alrededor de ella tenía tamaño de imperio. A finales del siglo diecinueve,",
-      "action": "Hold the same world geography and let the eye travel from the African coast to the small island ring.",
+      "action": "The nearer sailor tightens his existing resting grip on the cannon carriage once; the loaded gun remains completely quiet.",
       "asset_ids": [
-        "map-world-blank"
+        "british-gun-deck"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
       ],
-      "start_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "end_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "start_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+      "end_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "Hold the same world geography and let the eye travel from the African coast to the small island ring.",
+          "action": "The nearer sailor tightens his existing resting grip on the cannon carriage once; the loaded gun remains completely quiet. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the existing cannon barrel and intact palace across water",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C007",
-      "reference_analysis_id": "RV02"
+      "reference_analysis_id": "RV02",
+      "method": "h3_12_step"
     },
     {
       "number": 22,
@@ -934,28 +1015,38 @@
       "end": 140,
       "chapter_id": "C02",
       "narration": "héroe y un villano, te está escondiendo la mitad del mapa. Aquí había muchas personas tomando",
-      "action": "The fixed world map shows the British and German pin locations and Zanzibar between their overseas interests; no border fill.",
+      "action": "The already pictured basket holder makes one small adjustment to the existing basket.",
       "asset_ids": [
-        "map-world-diplomacy"
+        "market-basket-close"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png"
       ],
-      "start_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
-      "end_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
+      "start_inventory": "exactly three market residents: cream-and-ivory trader left, navy-and-ochre shopper center, red-and-cream-shawled resident right; one large shared wicker basket and one separate smaller shopper basket; intact palace and one dhow beyond",
+      "end_inventory": "exactly three market residents: cream-and-ivory trader left, navy-and-ochre shopper center, red-and-cream-shawled resident right; one large shared wicker basket and one separate smaller shopper basket; intact palace and one dhow beyond",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed world map shows the British and German pin locations and Zanzibar between their overseas interests; no border fill.",
+          "action": "The already pictured basket holder makes one small adjustment to the existing basket. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same basket and its holder, preserving the other people outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C007",
-      "reference_analysis_id": "RV03"
+      "reference_analysis_id": "RV03",
+      "method": "h3_12_step"
     },
     {
       "number": 29,
@@ -1001,28 +1092,38 @@
       "end": 150,
       "chapter_id": "C02",
       "narration": "Bretaña y Alemania negociaron sus posiciones en África oriental. Zanzíbar quedó bajo protectorado",
-      "action": "The existing Germany pin catches a brief light glint; all diplomatic tokens and other map marks stay fixed.",
+      "action": "The charcoal-coated anonymous official nudges his own closed sealed dispatch a few centimetres, then stops; this generic illustration is not a specific treaty meeting.",
       "asset_ids": [
-        "map-world-diplomacy"
+        "diplomatic-dispatches"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
       ],
-      "start_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
-      "end_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
+      "start_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+      "end_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The existing Germany pin catches a brief light glint; all diplomatic tokens and other map marks stay fixed.",
+          "action": "The charcoal-coated anonymous official nudges his own closed sealed dispatch a few centimetres, then stops; this generic illustration is not a specific treaty meeting. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same two separate sealed dispatches; neither is opened or signed",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C007",
-      "reference_analysis_id": "RV03"
+      "reference_analysis_id": "RV03",
+      "method": "h3_12_step"
     },
     {
       "number": 31,
@@ -1030,28 +1131,38 @@
       "end": 155,
       "chapter_id": "C02",
       "narration": "protectorado británico. En el papel, la isla seguía teniendo sultán. En el puerto,",
-      "action": "The existing Britain pin catches a brief light glint; the Zanzibar ring and coastline remain fixed.",
+      "action": "The existing cream-robed messenger steadies his one closed blank scroll while the intact palace stays visible behind him.",
       "asset_ids": [
-        "map-world-blank"
+        "messenger-scroll-quay"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png"
       ],
-      "start_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "end_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "start_inventory": "exactly one foreground cream-robed ivory-turbaned messenger, one closed blank cream scroll; intact palace and one dhow beyond; existing tiny distant residents stay background-sized",
+      "end_inventory": "exactly one foreground cream-robed ivory-turbaned messenger, one closed blank cream scroll; intact palace and one dhow beyond; existing tiny distant residents stay background-sized",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The existing Britain pin catches a brief light glint; the Zanzibar ring and coastline remain fixed.",
+          "action": "The existing cream-robed messenger steadies his one closed blank scroll while the intact palace stays visible behind him. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the closed scroll and same intact palace beyond",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C007",
-      "reference_analysis_id": "RV03"
+      "reference_analysis_id": "RV03",
+      "method": "h3_12_step"
     },
     {
       "number": 32,
@@ -1097,28 +1208,38 @@
       "end": 165,
       "chapter_id": "C02",
       "narration": "conservaba el trono, pero la influencia británica pesaba cada vez más sobre lo que podía hacer.",
-      "action": "The Zanzibar ring stays on its island while influence is suggested by the distant Britain pin; leave the African coast untouched.",
+      "action": "All five existing British ships remain at their fixed stations; one small wave meets the nearest bow.",
       "asset_ids": [
-        "map-world-diplomacy"
+        "fleet-prebattle"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png"
       ],
-      "start_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
-      "end_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
+      "start_inventory": "exactly five distinct British warships across the water; intact palace in distance",
+      "end_inventory": "exactly five distinct British warships across the water; intact palace in distance",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The Zanzibar ring stays on its island while influence is suggested by the distant Britain pin; leave the African coast untouched.",
+          "action": "All five existing British ships remain at their fixed stations; one small wave meets the nearest bow. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop inside the same composition showing a British hull and intact palace beyond",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C007",
-      "reference_analysis_id": "RV03"
+      "reference_analysis_id": "RV03",
+      "method": "h3_12_step"
     },
     {
       "number": 34,
@@ -1278,28 +1399,38 @@
       "end": 190,
       "chapter_id": "C03",
       "narration": "tres, ya había intentado tomar el poder después de otra sucesión. Los británicos lo presionaron y",
-      "action": "The small maroon Khalid token remains beside Zanzibar during the earlier 1893 succession attempt; no journey occurs.",
+      "action": "Khalid turns his head once toward the already pictured throne while holding his same closed scroll; this is the earlier 1893 succession flashback.",
       "asset_ids": [
-        "map-world-khalid"
+        "khalid-throne-close"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
       ],
-      "start_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
-      "end_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
+      "start_inventory": "one Khalid in ivory turban and maroon gold-trimmed robe, one guard, same throne and scroll in closer palace view",
+      "end_inventory": "one Khalid in ivory turban and maroon gold-trimmed robe, one guard, same throne and scroll in closer palace view",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The small maroon Khalid token remains beside Zanzibar during the earlier 1893 succession attempt; no journey occurs.",
+          "action": "Khalid turns his head once toward the already pictured throne while holding his same closed scroll; this is the earlier 1893 succession flashback. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same Khalid, closed scroll and throne; intact palace only",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C010",
-      "reference_analysis_id": "RV06"
+      "reference_analysis_id": "RV06",
+      "method": "h3_12_step"
     },
     {
       "number": 39,
@@ -1345,28 +1476,38 @@
       "end": 200,
       "chapter_id": "C03",
       "narration": "Pero Khalid no desapareció del tablero. Cuando volvió a abrirse la cuestión del trono, ya existía",
-      "action": "The maroon Khalid token remains at Zanzibar while the Britain pin remains fixed in Europe, showing opposing influence without travel.",
+      "action": "Khalid draws his already held closed scroll a little closer to his chest while the guard stays in place.",
       "asset_ids": [
-        "map-world-khalid"
+        "khalid-palace"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
       ],
-      "start_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
-      "end_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
+      "start_inventory": "one foreground Khalid with ivory turban, black beard and maroon gold-trimmed robe; one secondary guard; one throne and scroll",
+      "end_inventory": "one foreground Khalid with ivory turban, black beard and maroon gold-trimmed robe; one secondary guard; one throne and scroll",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The maroon Khalid token remains at Zanzibar while the Britain pin remains fixed in Europe, showing opposing influence without travel.",
+          "action": "Khalid draws his already held closed scroll a little closer to his chest while the guard stays in place. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same face and closed scroll; the guard remains outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C010",
-      "reference_analysis_id": "RV06"
+      "reference_analysis_id": "RV06",
+      "method": "h3_12_step"
     },
     {
       "number": 41,
@@ -1906,28 +2047,38 @@
       "end": 275,
       "chapter_id": "C04",
       "narration": "Rawson y Khalid hay agua, muelles y una distancia mucho mayor:",
-      "action": "On the same physical harbour chart, the Rawson token by five western ships faces Khalid at the intact eastern palace across water.",
+      "action": "Rawson looks steadily across the existing open water toward the intact palace without issuing a firing order.",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "rawson-bridge-over-shoulder"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
       ],
-      "start_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "end_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
+      "start_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+      "end_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "On the same physical harbour chart, the Rawson token by five western ships faces Khalid at the intact eastern palace across water.",
+          "action": "Rawson looks steadily across the existing open water toward the intact palace without issuing a firing order. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same officer silhouette and visible water gap to the intact palace",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV05"
+      "reference_analysis_id": "RV05",
+      "method": "h3_12_step"
     },
     {
       "number": 56,
@@ -2221,28 +2372,38 @@
       "end": 320,
       "chapter_id": "C04",
       "narration": "posición de cada uno: los británicos pueden disparar desde el puerto hacia el centro del poder;",
-      "action": "The chart clearly displays exactly five British ship tokens west, one separate Glasgow near the eastern shore and the intact palace.",
+      "action": "The nearer sailor rests his mitten on the existing cannon carriage once; its barrel already points toward the intact palace.",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "british-gun-deck"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
       ],
-      "start_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "end_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
+      "start_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+      "end_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The chart clearly displays exactly five British ship tokens west, one separate Glasgow near the eastern shore and the intact palace.",
+          "action": "The nearer sailor rests his mitten on the existing cannon carriage once; its barrel already points toward the intact palace. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the existing quiet barrel and the same intact palace beyond",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV07"
+      "reference_analysis_id": "RV07",
+      "method": "h3_12_step"
     },
     {
       "number": 65,
@@ -2545,28 +2706,38 @@
       "end": 365,
       "chapter_id": "C04",
       "narration": "si los británicos van a cumplir su amenaza. Ya vimos muchas piezas de esta historia;",
-      "action": "The fixed chart holds the five British ships, Glasgow and Khalid at the intact palace before fire.",
+      "action": "The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs.",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "british-gun-deck"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
       ],
-      "start_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "end_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
+      "start_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+      "end_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed chart holds the five British ships, Glasgow and Khalid at the intact palace before fire.",
+          "action": "The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same sailor and loaded but quiet cannon",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV07"
+      "reference_analysis_id": "RV07",
+      "method": "h3_12_step"
     },
     {
       "number": 74,
@@ -2632,28 +2803,38 @@
       "end": 380,
       "chapter_id": "C05",
       "narration": "imagen del principio, pero ahora ya sabes quién está dentro, quién espera fuera y",
-      "action": "The fixed chart holds opposing forces across the harbour, with no firing yet and no positional flip.",
+      "action": "Rawson watches the intact palace once across the same water, completing one small head turn without a firing signal.",
       "asset_ids": [
-        "map-harbour-table-prebattle"
+        "rawson-bridge-over-shoulder"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
       ],
-      "start_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "end_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
+      "start_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+      "end_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed chart holds opposing forces across the harbour, with no firing yet and no positional flip.",
+          "action": "Rawson watches the intact palace once across the same water, completing one small head turn without a firing signal. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same officer and intact palace; no new viewpoint",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C012",
-      "reference_analysis_id": "RV07"
+      "reference_analysis_id": "RV07",
+      "method": "h3_12_step"
     },
     {
       "number": 77,
@@ -2947,28 +3128,38 @@
       "end": 425,
       "chapter_id": "C05",
       "narration": "el mar abren fuego y dañan las posiciones de Khalid. Las barricadas sirven para",
-      "action": "One daylight glint crosses the five existing navy ship miniatures; the already damaged palace and still-afloat Glasgow stay unchanged.",
+      "action": "One tiny chip drops from an already damaged stone edge; the existing damage and defender identities remain fixed.",
       "asset_ids": [
-        "map-harbour-table-early-battle"
+        "palace-battle"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
       ],
-      "start_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
-      "end_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
+      "start_inventory": "one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship",
+      "end_inventory": "one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One daylight glint crosses the five existing navy ship miniatures; the already damaged palace and still-afloat Glasgow stay unchanged.",
+          "action": "One tiny chip drops from an already damaged stone edge; the existing damage and defender identities remain fixed. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same existing damaged masonry",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C014",
-      "reference_analysis_id": "RV08"
+      "reference_analysis_id": "RV08",
+      "method": "h3_12_step"
     },
     {
       "number": 86,
@@ -3052,28 +3243,38 @@
       "end": 440,
       "chapter_id": "C05",
       "narration": "Por fuera, el combate se puede seguir como una secuencia: disparo, impacto,",
-      "action": "The fleet-to-shore direction stays west-to-east on the same physical chart as the palace damage persists.",
+      "action": "One existing defender makes one small flinch beside the already chipped arcade, then settles.",
       "asset_ids": [
-        "map-harbour-table-early-battle"
+        "palace-battle-arcade"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
       ],
-      "start_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
-      "end_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
+      "start_inventory": "damaged palace side arcade, two retreating defenders, one distant British ship",
+      "end_inventory": "damaged palace side arcade, two retreating defenders, one distant British ship",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fleet-to-shore direction stays west-to-east on the same physical chart as the palace damage persists.",
+          "action": "One existing defender makes one small flinch beside the already chipped arcade, then settles. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same chipped stone and defender; no diagram or projectile path",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C014",
-      "reference_analysis_id": "RV08"
+      "reference_analysis_id": "RV08",
+      "method": "h3_12_step"
     },
     {
       "number": 89,
@@ -3224,28 +3425,29 @@
       "end": 465,
       "chapter_id": "C05",
       "narration": "Los barcos británicos contestan y el Glasgow se hunde. También aparecen embarcaciones menores",
-      "action": "The already sunken Glasgow miniature holds its exact tilted state; five navy ship miniatures remain fixed.",
+      "action": "Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s.",
       "asset_ids": [
-        "map-harbour-table-aftermath"
+        "glasgow-sinking-start"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png"
       ],
-      "start_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
-      "end_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
+      "start_inventory": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop",
+      "end_inventory": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "framing": "one continuous close waterline view with the empty tender at the far right excluded by the initial crop; no crew or drowning people",
           "camera": "locked",
-          "action": "The already sunken Glasgow miniature holds its exact tilted state; five navy ship miniatures remain fixed.",
+          "action": "Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C014",
-      "reference_analysis_id": "RV08"
+      "reference_analysis_id": "RV08",
+      "method": "h3_12_step"
     },
     {
       "number": 94,
@@ -3425,30 +3627,29 @@
       "end": 495,
       "chapter_id": "C06",
       "narration": "La pregunta es qué hará Khalid y cómo se detendrá el fuego. En medio del ataque, sale",
-      "action": "Only the tiny maroon Khalid token slides from the damaged palace up and slightly right along the existing city route to the inland consulate position.",
+      "action": "Through 1.18s Khalid holds his closed scroll in place. At 1.18s he makes one restrained head turn toward the right-hand exit, completing by 2.10s. His feet stay INSIDE the palace through the final frame; physical departure belongs to the following clip.",
       "asset_ids": [
-        "map-harbour-table-aftermath",
-        "map-harbour-table-refuge"
+        "khalid-damaged-palace-exit"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/khalid-damaged-palace-exit-r001.png"
       ],
-      "start_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
-      "end_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
+      "start_inventory": "one foreground Khalid with ivory turban, black beard, maroon/gold robe and one closed scroll inside a damaged palace arch; two small cream-robed defenders behind; two distant British hulls; same damaged palace, existing rubble and smoke",
+      "end_inventory": "one foreground Khalid with ivory turban, black beard, maroon/gold robe and one closed scroll inside a damaged palace arch; two small cream-robed defenders behind; two distant British hulls; same damaged palace, existing rubble and smoke",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "framing": "one continuous medium view inside the damaged arch; keep the existing two distant defenders and two distant British hulls at their world positions",
           "camera": "locked",
-          "action": "Only the tiny maroon Khalid token slides from the damaged palace up and slightly right along the existing city route to the inland consulate position.",
+          "action": "Through 1.18s Khalid holds his closed scroll in place. At 1.18s he makes one restrained head turn toward the right-hand exit, completing by 2.10s. His feet stay INSIDE the palace through the final frame; physical departure belongs to the following clip.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C017",
-      "reference_analysis_id": "RV09"
+      "reference_analysis_id": "RV09",
+      "method": "h3_12_step"
     },
     {
       "number": 100,
@@ -3494,28 +3695,38 @@
       "end": 505,
       "chapter_id": "C06",
       "narration": "otra potencia interesada en África oriental? Aquí vuelve a entrar en la historia, justo cuando parecía",
-      "action": "The maroon Khalid token holds at the consular refuge gate at the end of the marked short city route; palace, ships and Glasgow keep their aftermath positions.",
+      "action": "The existing consulate guard glances once toward Khalid, who waits outside the already open doorway with his same closed scroll.",
       "asset_ids": [
-        "map-harbour-table-refuge"
+        "consulate-street-approach"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png"
       ],
-      "start_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
-      "end_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
+      "start_inventory": "exactly one maroon-and-gold Khalid at left facing right holding his existing closed scroll, exactly one cream-robed neutral guard beside the already open carved doorway at right; paved approach, harbour and unaffected street buildings beyond; bombarded palace outside this viewpoint",
+      "end_inventory": "exactly one maroon-and-gold Khalid at left facing right holding his existing closed scroll, exactly one cream-robed neutral guard beside the already open carved doorway at right; paved approach, harbour and unaffected street buildings beyond; bombarded palace outside this viewpoint",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The maroon Khalid token holds at the consular refuge gate at the end of the marked short city route; palace, ships and Glasgow keep their aftermath positions.",
+          "action": "The existing consulate guard glances once toward Khalid, who waits outside the already open doorway with his same closed scroll. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same open doorway, guard and Khalid; no door-opening action",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C017",
-      "reference_analysis_id": "RV09"
+      "reference_analysis_id": "RV09",
+      "method": "h3_12_step"
     },
     {
       "number": 102,
@@ -3637,30 +3848,29 @@
       "end": 525,
       "chapter_id": "C06",
       "narration": "que aparece la señal de rendición. Entonces, por fin, el puerto queda en silencio.",
-      "action": "Only the one small plain white surrender cloth rises at the damaged palace; Khalid is already at the inland refuge and every ship stays fixed.",
+      "action": "The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached.",
       "asset_ids": [
-        "map-harbour-table-refuge",
-        "map-harbour-table-surrender"
+        "palace-surrender-cloth"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png"
       ],
-      "start_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
-      "end_inventory": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
+      "start_inventory": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke",
+      "end_inventory": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
-          "camera": "locked",
-          "action": "Only the one small plain white surrender cloth rises at the damaged palace; Khalid is already at the inland refuge and every ship stays fixed.",
+          "framing": "Begin on a tight crop of the existing lower damaged masonry with the white cloth entirely outside the crop. At 0.68s begin one gentle pull-back, finish by 3.50s to reveal the existing white cloth and short pole, then hold through the narrated silence and final frame.",
+          "camera": "one timed pull-back",
+          "action": "The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C017",
-      "reference_analysis_id": "RV09"
+      "reference_analysis_id": "RV09",
+      "method": "h3_12_step"
     },
     {
       "number": 106,
@@ -4088,30 +4298,29 @@
       "end": 590,
       "chapter_id": "C07",
       "narration": "ocupa el trono. Khalid sale después hacia África oriental alemana. Gran",
-      "action": "Only the existing small maroon Khalid token moves from beside Zanzibar to the adjacent East African mainland shown in the second reference.",
+      "action": "Broad illustrative Zanzibar-to-nearby-mainland dotted line starts at frame50 and finishes at104; hold through119.",
       "asset_ids": [
-        "map-world-khalid",
-        "map-world-khalid-mainland"
+        "map-world-blank"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
-        "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
       ],
-      "start_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
-      "end_inventory": "same physical world chart and fixed Britain navy pin, Germany ochre pin, Zanzibar maroon ring; exactly one tiny maroon Khalid token on adjacent East African mainland",
+      "start_inventory": "one fixed empty world chart; exactly zero people, tokens or new labels",
+      "end_inventory": "same fixed empty chart; zero people; existing pins and Zanzibar ring unchanged",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "framing": "fixed reviewed zero-person chart",
           "camera": "locked",
-          "action": "Only the existing small maroon Khalid token moves from beside Zanzibar to the adjacent East African mainland shown in the second reference.",
-          "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "action": "Broad illustrative Zanzibar-to-nearby-mainland dotted line starts at frame50 and finishes at104; hold through119.",
+          "hold_from": 4.333333333333333,
+          "cut": "hard cut at5.00s"
         }
       ],
       "source_claim": "C017",
-      "reference_analysis_id": "RV08"
+      "reference_analysis_id": "RV08",
+      "method": "controlled_geography"
     },
     {
       "number": 119,
@@ -4367,28 +4576,38 @@
       "end": 630,
       "chapter_id": "C07",
       "narration": "no era el problema: las piezas llevaban años colocándose y, al llegar la hora, la diferencia",
-      "action": "The world chart returns to Britain, Germany and tiny Zanzibar, summarizing the long political context behind the short fighting.",
+      "action": "Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs.",
       "asset_ids": [
-        "map-world-blank"
+        "diplomatic-dispatches"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
       ],
-      "start_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "end_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "start_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+      "end_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The world chart returns to Britain, Germany and tiny Zanzibar, summarizing the long political context behind the short fighting.",
+          "action": "Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same two closed dispatches, seals and desk as the narration explains accumulated decisions",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C015",
-      "reference_analysis_id": "RV10"
+      "reference_analysis_id": "RV10",
+      "method": "h3_12_step"
     },
     {
       "number": 127,
@@ -4396,28 +4615,38 @@
       "end": 635,
       "chapter_id": "C07",
       "narration": "diferencia de fuerza decidió el combate a toda velocidad. Ahí está la sorpresa completa: una",
-      "action": "The resolved surrender chart holds five British ships, sunken Glasgow, damaged palace, one white cloth and Khalid already at inland refuge.",
+      "action": "The two already pictured civilians hold a quiet settled stance as one small water ripple passes the existing wreck.",
       "asset_ids": [
-        "map-harbour-table-surrender"
+        "harbour-after-arch"
       ],
       "references": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png"
       ],
-      "start_inventory": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
-      "end_inventory": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
+      "start_inventory": "two quiet civilians beneath Stone Town arch, damaged palace and sunken Glasgow beyond",
+      "end_inventory": "two quiet civilians beneath Stone Town arch, damaged palace and sunken Glasgow beyond",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The resolved surrender chart holds five British ships, sunken Glasgow, damaged palace, one white cloth and Khalid already at inland refuge.",
+          "action": "The two already pictured civilians hold a quiet settled stance as one small water ripple passes the existing wreck. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the existing wreck and damaged palace; the civilians stay in their same positions outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ],
       "source_claim": "C015",
-      "reference_analysis_id": "RV10"
+      "reference_analysis_id": "RV10",
+      "method": "h3_12_step"
     },
     {
       "number": 128,

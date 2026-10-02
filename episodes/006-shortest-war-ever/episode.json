@@ -37,13 +37,13 @@
   "accepted_timing_map": "timestamps/timing-map.json",
   "picture_master": null,
   "distribution_master": null,
-  "next_action": "Complete twelve-step batch is running in persistent background service. Review all131 generated clips when complete; no automatic assembly or upscale.",
+  "next_action": "Run all117 remaining H3 candidates at12steps, then review actual renders before picture selection.",
   "generation_steps": 12,
   "generation_step_authority": "explicit user instruction 2026-10-02",
   "voice_duration_seconds": 651.389388,
   "planned_picture_seconds": 655,
   "last_reviewed_stage": "Revised shot plan and 57 input anchors reviewed; all 131 preview jobs passed full live-service dry-run; final H3 picture remains unapproved.",
-  "active_revision": 4,
+  "active_revision": 5,
   "resume_audit": "plan/resume-audit.md",
   "preview": {
     "steps": 4,
@@ -58,14 +58,53 @@
     "started_verified_at": "2026-10-02T15:11:57.609188+00:00",
     "service_terminal_status": "failed"
   },
-  "production_batch": {
+  "picture_method_exceptions": [
+    {
+      "number": 14,
+      "method": "controlled_geography",
+      "authority": "User explicitly requested a better map method with no people on maps and continuation of the entire remaining batch at the previously requested 12 steps.",
+      "decision_record": "episodes/006-shortest-war-ever/plan/map-method-decision.md",
+      "source_reference": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+      "source_reference_sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70",
+      "artifact": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-014-map-r005.mp4",
+      "artifact_sha256": "cd22feae3bdaf50fdebd51a126b1eb28683ded51a529d908e8dd3415fb6791c7",
+      "people": 0,
+      "review_status": "approved",
+      "approved_by": "Codex actual review of all 120 frames and full-size ending 2026-10-02T19:37:25.538742+00:00"
+    },
+    {
+      "number": 118,
+      "method": "controlled_geography",
+      "authority": "User explicitly requested a better map method with no people on maps and continuation of the entire remaining batch at the previously requested 12 steps.",
+      "decision_record": "episodes/006-shortest-war-ever/plan/map-method-decision.md",
+      "source_reference": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+      "source_reference_sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70",
+      "artifact": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-118-map-r005.mp4",
+      "artifact_sha256": "6c16ca52dabd1b0df94194d2b030225c68c839bafb417c36bb52f548f723c261",
+      "people": 0,
+      "review_status": "approved",
+      "approved_by": "Codex actual review of all 120 frames and full-size ending 2026-10-02T19:37:25.538742+00:00"
+    }
+  ],
+  "previous_production_batch": {
     "steps": 12,
     "lightning": false,
     "job_count": 131,
     "revision": 4,
     "manifest": "automation/batches/production-12step-r004/manifest.json",
-    "status": "running",
+    "status": "stopped_by_user",
     "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c",
-    "started_verified_at": "2026-10-02T15:27:55.049343+00:00"
+    "started_verified_at": "2026-10-02T15:27:55.049343+00:00",
+    "service_terminal_status": "failed",
+    "stopped_verified_at": "2026-10-02T18:18:21.690044+00:00"
+  },
+  "production_batch": {
+    "steps": 12,
+    "lightning": false,
+    "job_count": 117,
+    "revision": 5,
+    "manifest": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/manifest.json",
+    "status": "prepared_not_launched",
+    "batch_id": null
   }
 }

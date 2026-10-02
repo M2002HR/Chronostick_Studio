@@ -186,22 +186,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV07",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "On the physical world chart, the small Zanzibar ring catches a brief glint while Britain and Germany remain pinned in their correct European locations.",
-      "resolved_state": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "reference_asset_id": "map-world-blank",
+      "inherited_state": "intact western Stone Town waterfront",
+      "allowed_change": "The cream-robed messenger gives the intact waterfront palace one small glance.",
+      "resolved_state": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
+      "reference_asset_id": "harbour-intact",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "On the physical world chart, the small Zanzibar ring catches a brief glint while Britain and Germany remain pinned in their correct European locations.",
+          "action": "The cream-robed messenger gives the intact waterfront palace one small glance. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same intact waterfront palace and calm sea",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -341,22 +350,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV07",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png"
       ],
-      "inherited_state": "27 August 1896 before 09:00",
-      "allowed_change": "One narrow daylight glint crosses the existing five navy ship tokens; every ship, miniature and coastline stays fixed.",
-      "resolved_state": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "reference_asset_id": "map-harbour-table-prebattle",
+      "inherited_state": "prebattle harbour, five British ships west of palace",
+      "allowed_change": "The five existing British hulls stay at their fixed stations, with one restrained water slap at the nearest bow.",
+      "resolved_state": "exactly five British ships in a low quay-level view and intact distant palace; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly five British ships in a low quay-level view and intact distant palace",
+      "reference_asset_id": "fleet-quay-five",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One narrow daylight glint crosses the existing five navy ship tokens; every ship, miniature and coastline stays fixed.",
+          "action": "The five existing British hulls stay at their fixed stations, with one restrained water slap at the nearest bow. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the nearest existing bow; the other four remain at their original stations outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -596,22 +614,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV07",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "The world chart holds as the Zanzibar ring catches the rewind cue; no continent or pin moves.",
-      "resolved_state": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "reference_asset_id": "map-world-blank",
+      "inherited_state": "British ship bridge before 09:00",
+      "allowed_change": "Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water.",
+      "resolved_state": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace; action and camera settled by4.35s",
+      "subject_count_and_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+      "reference_asset_id": "rawson-bridge-over-shoulder",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The world chart holds as the Zanzibar ring catches the rewind cue; no continent or pin moves.",
+          "action": "Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same officer and intact shore",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -637,22 +664,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV07",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "One narrow daylight glint catches the existing Zanzibar ring; the entire uncovered chart stays still.",
-      "resolved_state": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
-      "reference_asset_id": "map-world-oblique",
+      "inherited_state": "intact Stone Town waterfront before battle",
+      "allowed_change": "The existing messenger quietly faces the intact shore as the narration introduces its earlier history.",
+      "resolved_state": "one cream-robed messenger by the intact waterfront palace and one dhow, seen from quay level; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one cream-robed messenger by the intact waterfront palace and one dhow, seen from quay level",
+      "reference_asset_id": "harbour-messenger-quay",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One narrow daylight glint catches the existing Zanzibar ring; the entire uncovered chart stays still.",
+          "action": "The existing messenger quietly faces the intact shore as the narration introduces its earlier history. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same quay and dhow",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -685,22 +721,23 @@
       "identity_authority": [
         "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "A restrained focus settles on the Zanzibar ring at the eastern African coast; keep the complete world chart legible.",
-      "resolved_state": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
+      "inherited_state": "one fixed empty world chart; exactly zero people, tokens or new labels",
+      "allowed_change": "Native affine zoom settles by3.50s; hold through5.00s.",
+      "resolved_state": "same fixed empty chart; zero people; existing pins and Zanzibar ring unchanged",
+      "subject_count_and_inventory": "one fixed empty world chart; exactly zero people, tokens or new labels",
       "reference_asset_id": "map-world-blank",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
-          "camera": "locked",
-          "action": "A restrained focus settles on the Zanzibar ring at the eastern African coast; keep the complete world chart legible.",
-          "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "framing": "fixed reviewed zero-person chart",
+          "camera": "native affine zoom",
+          "action": "Native affine zoom settles by3.50s; hold through5.00s.",
+          "hold_from": 3.5,
+          "cut": "hard cut at5.00s"
         }
-      ]
+      ],
+      "method": "controlled_geography"
     },
     {
       "shot_id": "clip-015",
@@ -777,22 +814,31 @@
       "source_claim": "C003",
       "reference_analysis_id": "RV02",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png"
       ],
-      "inherited_state": "1890–1896 Indian Ocean trade context",
-      "allowed_change": "One existing dashed Indian Ocean trade route briefly catches a light glint; route geometry remains fixed.",
-      "resolved_state": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
-      "reference_asset_id": "map-world-trade-blank",
+      "inherited_state": "ordinary port commerce with intact city",
+      "allowed_change": "The existing cargo handler rests one mitten on the already pictured crate, completing one small placement.",
+      "resolved_state": "one cream-robed ivory-turbaned quay worker, one foreground timber crate, one rope coil, one tied wooden dhow with cargo barrels; intact palace beyond; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one cream-robed ivory-turbaned quay worker, one foreground timber crate, one rope coil, one tied wooden dhow with cargo barrels; intact palace beyond",
+      "reference_asset_id": "dhow-trade-cargo",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One existing dashed Indian Ocean trade route briefly catches a light glint; route geometry remains fixed.",
+          "action": "The existing cargo handler rests one mitten on the already pictured crate, completing one small placement. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same crate and existing rope",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -821,22 +867,31 @@
       "source_claim": "C007",
       "reference_analysis_id": "RV02",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
       ],
-      "inherited_state": "1890–1896 Indian Ocean trade context",
-      "allowed_change": "The fixed Germany pin catches one brief light glint while the Zanzibar ring and all existing trade paths stay unchanged.",
-      "resolved_state": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
-      "reference_asset_id": "map-world-trade-blank",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated.",
+      "resolved_state": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+      "reference_asset_id": "diplomatic-dispatches",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed Germany pin catches one brief light glint while the Zanzibar ring and all existing trade paths stay unchanged.",
+          "action": "The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the two separate closed dispatches on the same desk",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -971,22 +1026,31 @@
       "source_claim": "C007",
       "reference_analysis_id": "RV02",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "The Zanzibar marker remains tiny against the whole world chart while ocean breadth conveys its scale.",
-      "resolved_state": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
-      "reference_asset_id": "map-world-oblique",
+      "inherited_state": "intact western Stone Town waterfront",
+      "allowed_change": "The messenger remains quietly in place while one small ripple reaches the existing dhow.",
+      "resolved_state": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
+      "reference_asset_id": "harbour-intact",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The Zanzibar marker remains tiny against the whole world chart while ocean breadth conveys its scale.",
+          "action": "The messenger remains quietly in place while one small ripple reaches the existing dhow. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same palace with broad water still visible",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -1014,22 +1078,31 @@
       "source_claim": "C007",
       "reference_analysis_id": "RV02",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "Hold the same world geography and let the eye travel from the African coast to the small island ring.",
-      "resolved_state": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "reference_asset_id": "map-world-blank",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "The nearer sailor tightens his existing resting grip on the cannon carriage once; the loaded gun remains completely quiet.",
+      "resolved_state": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+      "reference_asset_id": "british-gun-deck",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "Hold the same world geography and let the eye travel from the African coast to the small island ring.",
+          "action": "The nearer sailor tightens his existing resting grip on the cannon carriage once; the loaded gun remains completely quiet. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the existing cannon barrel and intact palace across water",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -1384,22 +1457,31 @@
       "source_claim": "C007",
       "reference_analysis_id": "RV03",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png"
       ],
-      "inherited_state": "1890s British-German diplomatic context, not human travel",
-      "allowed_change": "The fixed world map shows the British and German pin locations and Zanzibar between their overseas interests; no border fill.",
-      "resolved_state": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
-      "reference_asset_id": "map-world-diplomacy",
+      "inherited_state": "intact market, daily civilian life",
+      "allowed_change": "The already pictured basket holder makes one small adjustment to the existing basket.",
+      "resolved_state": "exactly three market residents: cream-and-ivory trader left, navy-and-ochre shopper center, red-and-cream-shawled resident right; one large shared wicker basket and one separate smaller shopper basket; intact palace and one dhow beyond; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly three market residents: cream-and-ivory trader left, navy-and-ochre shopper center, red-and-cream-shawled resident right; one large shared wicker basket and one separate smaller shopper basket; intact palace and one dhow beyond",
+      "reference_asset_id": "market-basket-close",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed world map shows the British and German pin locations and Zanzibar between their overseas interests; no border fill.",
+          "action": "The already pictured basket holder makes one small adjustment to the existing basket. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same basket and its holder, preserving the other people outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -1479,22 +1561,31 @@
       "source_claim": "C007",
       "reference_analysis_id": "RV03",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
       ],
-      "inherited_state": "1890s British-German diplomatic context, not human travel",
-      "allowed_change": "The existing Germany pin catches a brief light glint; all diplomatic tokens and other map marks stay fixed.",
-      "resolved_state": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
-      "reference_asset_id": "map-world-diplomacy",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "The charcoal-coated anonymous official nudges his own closed sealed dispatch a few centimetres, then stops; this generic illustration is not a specific treaty meeting.",
+      "resolved_state": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+      "reference_asset_id": "diplomatic-dispatches",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The existing Germany pin catches a brief light glint; all diplomatic tokens and other map marks stay fixed.",
+          "action": "The charcoal-coated anonymous official nudges his own closed sealed dispatch a few centimetres, then stops; this generic illustration is not a specific treaty meeting. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same two separate sealed dispatches; neither is opened or signed",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -1522,22 +1613,31 @@
       "source_claim": "C007",
       "reference_analysis_id": "RV03",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "The existing Britain pin catches a brief light glint; the Zanzibar ring and coastline remain fixed.",
-      "resolved_state": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "reference_asset_id": "map-world-blank",
+      "inherited_state": "message delivery at intact waterfront",
+      "allowed_change": "The existing cream-robed messenger steadies his one closed blank scroll while the intact palace stays visible behind him.",
+      "resolved_state": "exactly one foreground cream-robed ivory-turbaned messenger, one closed blank cream scroll; intact palace and one dhow beyond; existing tiny distant residents stay background-sized; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly one foreground cream-robed ivory-turbaned messenger, one closed blank cream scroll; intact palace and one dhow beyond; existing tiny distant residents stay background-sized",
+      "reference_asset_id": "messenger-scroll-quay",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The existing Britain pin catches a brief light glint; the Zanzibar ring and coastline remain fixed.",
+          "action": "The existing cream-robed messenger steadies his one closed blank scroll while the intact palace stays visible behind him. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the closed scroll and same intact palace beyond",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -1621,22 +1721,31 @@
       "source_claim": "C007",
       "reference_analysis_id": "RV03",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png"
       ],
-      "inherited_state": "1890s British-German diplomatic context, not human travel",
-      "allowed_change": "The Zanzibar ring stays on its island while influence is suggested by the distant Britain pin; leave the African coast untouched.",
-      "resolved_state": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
-      "reference_asset_id": "map-world-diplomacy",
+      "inherited_state": "prebattle harbour, fleet west of palace",
+      "allowed_change": "All five existing British ships remain at their fixed stations; one small wave meets the nearest bow.",
+      "resolved_state": "exactly five distinct British warships across the water; intact palace in distance; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly five distinct British warships across the water; intact palace in distance",
+      "reference_asset_id": "fleet-prebattle",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The Zanzibar ring stays on its island while influence is suggested by the distant Britain pin; leave the African coast untouched.",
+          "action": "All five existing British ships remain at their fixed stations; one small wave meets the nearest bow. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop inside the same composition showing a British hull and intact palace beyond",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -1889,22 +1998,31 @@
       "source_claim": "C010",
       "reference_analysis_id": "RV06",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
       ],
-      "inherited_state": "world geography after Khalid is introduced",
-      "allowed_change": "The small maroon Khalid token remains beside Zanzibar during the earlier 1893 succession attempt; no journey occurs.",
-      "resolved_state": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
-      "reference_asset_id": "map-world-khalid",
+      "inherited_state": "1893 succession flashback; intact palace and no 1896 combat damage",
+      "allowed_change": "Khalid turns his head once toward the already pictured throne while holding his same closed scroll; this is the earlier 1893 succession flashback.",
+      "resolved_state": "one Khalid in ivory turban and maroon gold-trimmed robe, one guard, same throne and scroll in closer palace view; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one Khalid in ivory turban and maroon gold-trimmed robe, one guard, same throne and scroll in closer palace view",
+      "reference_asset_id": "khalid-throne-close",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The small maroon Khalid token remains beside Zanzibar during the earlier 1893 succession attempt; no journey occurs.",
+          "action": "Khalid turns his head once toward the already pictured throne while holding his same closed scroll; this is the earlier 1893 succession flashback. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same Khalid, closed scroll and throne; intact palace only",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -1991,22 +2109,31 @@
       "source_claim": "C010",
       "reference_analysis_id": "RV06",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
       ],
-      "inherited_state": "world geography after Khalid is introduced",
-      "allowed_change": "The maroon Khalid token remains at Zanzibar while the Britain pin remains fixed in Europe, showing opposing influence without travel.",
-      "resolved_state": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
-      "reference_asset_id": "map-world-khalid",
+      "inherited_state": "intact palace chamber before battle",
+      "allowed_change": "Khalid draws his already held closed scroll a little closer to his chest while the guard stays in place.",
+      "resolved_state": "one foreground Khalid with ivory turban, black beard and maroon gold-trimmed robe; one secondary guard; one throne and scroll; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one foreground Khalid with ivory turban, black beard and maroon gold-trimmed robe; one secondary guard; one throne and scroll",
+      "reference_asset_id": "khalid-palace",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The maroon Khalid token remains at Zanzibar while the Britain pin remains fixed in Europe, showing opposing influence without travel.",
+          "action": "Khalid draws his already held closed scroll a little closer to his chest while the guard stays in place. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same face and closed scroll; the guard remains outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -2784,22 +2911,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV05",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
       ],
-      "inherited_state": "27 August 1896 before 09:00",
-      "allowed_change": "On the same physical harbour chart, the Rawson token by five western ships faces Khalid at the intact eastern palace across water.",
-      "resolved_state": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "reference_asset_id": "map-harbour-table-prebattle",
+      "inherited_state": "British ship bridge before 09:00",
+      "allowed_change": "Rawson looks steadily across the existing open water toward the intact palace without issuing a firing order.",
+      "resolved_state": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace; action and camera settled by4.35s",
+      "subject_count_and_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+      "reference_asset_id": "rawson-bridge-over-shoulder",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "On the same physical harbour chart, the Rawson token by five western ships faces Khalid at the intact eastern palace across water.",
+          "action": "Rawson looks steadily across the existing open water toward the intact palace without issuing a firing order. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same officer silhouette and visible water gap to the intact palace",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -3238,22 +3374,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV07",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
       ],
-      "inherited_state": "27 August 1896 before 09:00",
-      "allowed_change": "The chart clearly displays exactly five British ship tokens west, one separate Glasgow near the eastern shore and the intact palace.",
-      "resolved_state": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "reference_asset_id": "map-harbour-table-prebattle",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "The nearer sailor rests his mitten on the existing cannon carriage once; its barrel already points toward the intact palace.",
+      "resolved_state": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+      "reference_asset_id": "british-gun-deck",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The chart clearly displays exactly five British ship tokens west, one separate Glasgow near the eastern shore and the intact palace.",
+          "action": "The nearer sailor rests his mitten on the existing cannon carriage once; its barrel already points toward the intact palace. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the existing quiet barrel and the same intact palace beyond",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -3694,22 +3839,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV07",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
       ],
-      "inherited_state": "27 August 1896 before 09:00",
-      "allowed_change": "The fixed chart holds the five British ships, Glasgow and Khalid at the intact palace before fire.",
-      "resolved_state": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "reference_asset_id": "map-harbour-table-prebattle",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs.",
+      "resolved_state": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+      "reference_asset_id": "british-gun-deck",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed chart holds the five British ships, Glasgow and Khalid at the intact palace before fire.",
+          "action": "The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same sailor and loaded but quiet cannon",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -3824,22 +3978,31 @@
       "source_claim": "C012",
       "reference_analysis_id": "RV07",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
       ],
-      "inherited_state": "27 August 1896 before 09:00",
-      "allowed_change": "The fixed chart holds opposing forces across the harbour, with no firing yet and no positional flip.",
-      "resolved_state": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
-      "reference_asset_id": "map-harbour-table-prebattle",
+      "inherited_state": "British ship bridge before 09:00",
+      "allowed_change": "Rawson watches the intact palace once across the same water, completing one small head turn without a firing signal.",
+      "resolved_state": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace; action and camera settled by4.35s",
+      "subject_count_and_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+      "reference_asset_id": "rawson-bridge-over-shoulder",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fixed chart holds opposing forces across the harbour, with no firing yet and no positional flip.",
+          "action": "Rawson watches the intact palace once across the same water, completing one small head turn without a firing signal. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same officer and intact palace; no new viewpoint",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -4259,22 +4422,31 @@
       "source_claim": "C014",
       "reference_analysis_id": "RV08",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
       ],
-      "inherited_state": "27 August 1896 after first fire but before Glasgow sinks",
-      "allowed_change": "One daylight glint crosses the five existing navy ship miniatures; the already damaged palace and still-afloat Glasgow stay unchanged.",
-      "resolved_state": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
-      "reference_asset_id": "map-harbour-table-early-battle",
+      "inherited_state": "battle already in progress",
+      "allowed_change": "One tiny chip drops from an already damaged stone edge; the existing damage and defender identities remain fixed.",
+      "resolved_state": "one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship",
+      "reference_asset_id": "palace-battle",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "One daylight glint crosses the five existing navy ship miniatures; the already damaged palace and still-afloat Glasgow stay unchanged.",
+          "action": "One tiny chip drops from an already damaged stone edge; the existing damage and defender identities remain fixed. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same existing damaged masonry",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -4406,22 +4578,31 @@
       "source_claim": "C014",
       "reference_analysis_id": "RV08",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
       ],
-      "inherited_state": "27 August 1896 after first fire but before Glasgow sinks",
-      "allowed_change": "The fleet-to-shore direction stays west-to-east on the same physical chart as the palace damage persists.",
-      "resolved_state": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
-      "reference_asset_id": "map-harbour-table-early-battle",
+      "inherited_state": "27 August 1896 battle in progress",
+      "allowed_change": "One existing defender makes one small flinch beside the already chipped arcade, then settles.",
+      "resolved_state": "damaged palace side arcade, two retreating defenders, one distant British ship; action and camera settled by4.35s",
+      "subject_count_and_inventory": "damaged palace side arcade, two retreating defenders, one distant British ship",
+      "reference_asset_id": "palace-battle-arcade",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The fleet-to-shore direction stays west-to-east on the same physical chart as the palace damage persists.",
+          "action": "One existing defender makes one small flinch beside the already chipped arcade, then settles. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same chipped stone and defender; no diagram or projectile path",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -4653,22 +4834,22 @@
       "source_claim": "C014",
       "reference_analysis_id": "RV08",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png"
       ],
-      "inherited_state": "27 August 1896 after Glasgow sinks",
-      "allowed_change": "The already sunken Glasgow miniature holds its exact tilted state; five navy ship miniatures remain fixed.",
-      "resolved_state": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
-      "reference_asset_id": "map-harbour-table-aftermath",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s.",
+      "resolved_state": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop",
+      "reference_asset_id": "glasgow-sinking-start",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "framing": "one continuous close waterline view with the empty tender at the far right excluded by the initial crop; no crew or drowning people",
           "camera": "locked",
-          "action": "The already sunken Glasgow miniature holds its exact tilted state; five navy ship miniatures remain fixed.",
+          "action": "Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -4950,23 +5131,22 @@
       "source_claim": "C017",
       "reference_analysis_id": "RV09",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/khalid-damaged-palace-exit-r001.png"
       ],
-      "inherited_state": "27 August 1896 after Glasgow sinks",
-      "allowed_change": "Only the tiny maroon Khalid token slides from the damaged palace up and slightly right along the existing city route to the inland consulate position.",
-      "resolved_state": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
-      "reference_asset_id": "map-harbour-table-refuge",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "Through 1.18s Khalid holds his closed scroll in place. At 1.18s he makes one restrained head turn toward the right-hand exit, completing by 2.10s. His feet stay INSIDE the palace through the final frame; physical departure belongs to the following clip.",
+      "resolved_state": "one foreground Khalid with ivory turban, black beard, maroon/gold robe and one closed scroll inside a damaged palace arch; two small cream-robed defenders behind; two distant British hulls; same damaged palace, existing rubble and smoke; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one foreground Khalid with ivory turban, black beard, maroon/gold robe and one closed scroll inside a damaged palace arch; two small cream-robed defenders behind; two distant British hulls; same damaged palace, existing rubble and smoke",
+      "reference_asset_id": "khalid-damaged-palace-exit",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "framing": "one continuous medium view inside the damaged arch; keep the existing two distant defenders and two distant British hulls at their world positions",
           "camera": "locked",
-          "action": "Only the tiny maroon Khalid token slides from the damaged palace up and slightly right along the existing city route to the inland consulate position.",
+          "action": "Through 1.18s Khalid holds his closed scroll in place. At 1.18s he makes one restrained head turn toward the right-hand exit, completing by 2.10s. His feet stay INSIDE the palace through the final frame; physical departure belongs to the following clip.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -5051,22 +5231,31 @@
       "source_claim": "C017",
       "reference_analysis_id": "RV09",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
+        "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png"
       ],
-      "inherited_state": "27 August 1896 after Khalid leaves the palace",
-      "allowed_change": "The maroon Khalid token holds at the consular refuge gate at the end of the marked short city route; palace, ships and Glasgow keep their aftermath positions.",
-      "resolved_state": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
-      "reference_asset_id": "map-harbour-table-refuge",
+      "inherited_state": "approach to German consular refuge after battle damage",
+      "allowed_change": "The existing consulate guard glances once toward Khalid, who waits outside the already open doorway with his same closed scroll.",
+      "resolved_state": "exactly one maroon-and-gold Khalid at left facing right holding his existing closed scroll, exactly one cream-robed neutral guard beside the already open carved doorway at right; paved approach, harbour and unaffected street buildings beyond; bombarded palace outside this viewpoint; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly one maroon-and-gold Khalid at left facing right holding his existing closed scroll, exactly one cream-robed neutral guard beside the already open carved doorway at right; paved approach, harbour and unaffected street buildings beyond; bombarded palace outside this viewpoint",
+      "reference_asset_id": "consulate-street-approach",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The maroon Khalid token holds at the consular refuge gate at the end of the marked short city route; palace, ships and Glasgow keep their aftermath positions.",
+          "action": "The existing consulate guard glances once toward Khalid, who waits outside the already open doorway with his same closed scroll. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same open doorway, guard and Khalid; no door-opening action",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -5261,23 +5450,22 @@
       "source_claim": "C017",
       "reference_analysis_id": "RV09",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png"
       ],
-      "inherited_state": "27 August 1896 after Khalid leaves the palace",
-      "allowed_change": "Only the one small plain white surrender cloth rises at the damaged palace; Khalid is already at the inland refuge and every ship stays fixed.",
-      "resolved_state": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
-      "reference_asset_id": "map-harbour-table-surrender",
+      "inherited_state": "clip-specific physical scene; see continuity ledger",
+      "allowed_change": "The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached.",
+      "resolved_state": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke; action and camera settled by4.35s",
+      "subject_count_and_inventory": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke",
+      "reference_asset_id": "palace-surrender-cloth",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
-          "camera": "locked",
-          "action": "Only the one small plain white surrender cloth rises at the damaged palace; Khalid is already at the inland refuge and every ship stays fixed.",
+          "framing": "Begin on a tight crop of the existing lower damaged masonry with the white cloth entirely outside the crop. At 0.68s begin one gentle pull-back, finish by 3.50s to reveal the existing white cloth and short pole, then hold through the narrated silence and final frame.",
+          "camera": "one timed pull-back",
+          "action": "The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -5912,25 +6100,25 @@
       "source_claim": "C017",
       "reference_analysis_id": "RV08",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
-        "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
       ],
-      "inherited_state": "world geography after Khalid is introduced",
-      "allowed_change": "Only the existing small maroon Khalid token moves from beside Zanzibar to the adjacent East African mainland shown in the second reference.",
-      "resolved_state": "same physical world chart and fixed Britain navy pin, Germany ochre pin, Zanzibar maroon ring; exactly one tiny maroon Khalid token on adjacent East African mainland; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
-      "reference_asset_id": "map-world-khalid-mainland",
+      "inherited_state": "one fixed empty world chart; exactly zero people, tokens or new labels",
+      "allowed_change": "Broad illustrative Zanzibar-to-nearby-mainland dotted line starts at frame50 and finishes at104; hold through119.",
+      "resolved_state": "same fixed empty chart; zero people; existing pins and Zanzibar ring unchanged",
+      "subject_count_and_inventory": "one fixed empty world chart; exactly zero people, tokens or new labels",
+      "reference_asset_id": "map-world-blank",
       "shots": [
         {
           "start": 0.0,
           "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "framing": "fixed reviewed zero-person chart",
           "camera": "locked",
-          "action": "Only the existing small maroon Khalid token moves from beside Zanzibar to the adjacent East African mainland shown in the second reference.",
-          "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "action": "Broad illustrative Zanzibar-to-nearby-mainland dotted line starts at frame50 and finishes at104; hold through119.",
+          "hold_from": 4.333333333333333,
+          "cut": "hard cut at5.00s"
         }
-      ]
+      ],
+      "method": "controlled_geography"
     },
     {
       "shot_id": "clip-119",
@@ -6319,22 +6507,31 @@
       "source_claim": "C015",
       "reference_analysis_id": "RV10",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
       ],
-      "inherited_state": "1890–1896 world geography before Khalid enters the story",
-      "allowed_change": "The world chart returns to Britain, Germany and tiny Zanzibar, summarizing the long political context behind the short fighting.",
-      "resolved_state": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
-      "reference_asset_id": "map-world-blank",
+      "inherited_state": "earlier imperial-context callback; illustrative anonymous officials, not a new postbattle meeting",
+      "allowed_change": "Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs.",
+      "resolved_state": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant; action and camera settled by4.35s",
+      "subject_count_and_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+      "reference_asset_id": "diplomatic-dispatches",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The world chart returns to Britain, Germany and tiny Zanzibar, summarizing the long political context behind the short fighting.",
+          "action": "Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the same two closed dispatches, seals and desk as the narration explains accumulated decisions",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },
@@ -6364,22 +6561,31 @@
       "source_claim": "C015",
       "reference_analysis_id": "RV10",
       "identity_authority": [
-        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png"
       ],
-      "inherited_state": "surrender after Khalid reaches refuge",
-      "allowed_change": "The resolved surrender chart holds five British ships, sunken Glasgow, damaged palace, one white cloth and Khalid already at inland refuge.",
-      "resolved_state": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace; action and camera settled by 4.35 seconds",
-      "subject_count_and_inventory": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
-      "reference_asset_id": "map-harbour-table-surrender",
+      "inherited_state": "settled aftermath",
+      "allowed_change": "The two already pictured civilians hold a quiet settled stance as one small water ripple passes the existing wreck.",
+      "resolved_state": "two quiet civilians beneath Stone Town arch, damaged palace and sunken Glasgow beyond; action and camera settled by4.35s",
+      "subject_count_and_inventory": "two quiet civilians beneath Stone Town arch, damaged palace and sunken Glasgow beyond",
+      "reference_asset_id": "harbour-after-arch",
       "shots": [
         {
           "start": 0.0,
-          "end": 5.0,
-          "framing": "the exact full-frame anchor viewpoint",
+          "end": 2.3,
+          "framing": "the anchor's original composition",
           "camera": "locked",
-          "action": "The resolved surrender chart holds five British ships, sunken Glasgow, damaged palace, one white cloth and Khalid already at inland refuge.",
+          "action": "The two already pictured civilians hold a quiet settled stance as one small water ripple passes the existing wreck. Complete by 2.10s.",
+          "hold_from": 2.1,
+          "cut": "hard cut at 2.30s"
+        },
+        {
+          "start": 2.3,
+          "end": 5.0,
+          "framing": "a closer crop of the existing wreck and damaged palace; the civilians stay in their same positions outside the crop",
+          "camera": "locked",
+          "action": "Hold the already completed action and existing world state; no second action.",
           "hold_from": 4.35,
-          "cut": "hard cut at 5.00 only"
+          "cut": "hard cut at 5.00s"
         }
       ]
     },

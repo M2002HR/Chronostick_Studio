@@ -1,0 +1,776 @@
+{
+  "schema_version": "1.0",
+  "status": "superseded_by_implemented_r005",
+  "default_recommendation": "A: Replace all28 generated map slots with physical period scenes; retain current H3-only picture contract.",
+  "alternative_B": "Keep only2–3 essential geographic inserts as controlled editorial map motion, while replacing all tactical/diplomatic map action with physical scenes. This explicitly changes the currently active H3-only contract for those few slots and requires a user direction; not implemented.",
+  "alternative_C": "All-H3 simplified geographic landscape/globe inserts without tokens or routes. Still risks uncontrolled geography and provides less motion control; no production guarantee.",
+  "active_picture_contract": "Current H3-only contract unchanged; no new images, prompts, jobs or generation approved by this draft.",
+  "affected_map_slots": 28,
+  "affected_map_seconds": 140,
+  "unchanged_slot_candidates": 103,
+  "proposed_unique_missing_anchors": [
+    "british-cannon-crew",
+    "diplomatic-letters-table",
+    "glasgow-sinking-midstate",
+    "island-high-coast",
+    "island-open-sea",
+    "khalid-departure-quay",
+    "khalid-palace-exit-damaged",
+    "palace-damage-detail",
+    "palace-from-gun-deck",
+    "palace-office-letter",
+    "palace-white-surrender",
+    "sultan-palace-ship-view",
+    "trade-rope-cargo-detail"
+  ],
+  "proposed_missing_anchor_count": 13,
+  "adjacent_non_map_slots_for_review_only": [
+    3,
+    5,
+    6,
+    8,
+    11,
+    15,
+    18,
+    19,
+    22,
+    27,
+    29,
+    32,
+    34,
+    37,
+    39,
+    41,
+    54,
+    56,
+    63,
+    65,
+    72,
+    74,
+    75,
+    77,
+    84,
+    86,
+    87,
+    89,
+    92,
+    94,
+    98,
+    100,
+    102,
+    104,
+    106,
+    117,
+    119,
+    125,
+    128
+  ],
+  "source_policy": "Preserve accepted narration and actual word timing; user research waiver persists. Generic diplomatic/departure scenes are illustrative, not assertions of specific documented staging/itinerary.",
+  "slots": [
+    {
+      "number": 4,
+      "start": 15,
+      "end": 20,
+      "narration": "Suena a chiste, pero en Zanzíbar, en mil ochocientos noventa y",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-world-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ],
+      "replacement_mode": "place",
+      "replacement_asset_id": "harbour-intact",
+      "purpose": "Begin on the intact Stone Town waterfront: sea, period palace and one established resident; introduce Zanzibar as a physical place.",
+      "allowed_action": "One resident glances toward the harbour; cut to the same palace/sea detail.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        3,
+        5
+      ]
+    },
+    {
+      "number": 7,
+      "start": 30,
+      "end": 35,
+      "narration": "cinco barcos apuntando a un palacio. Vamos al momento en que nadie tiene ganas de mirar el reloj,",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-harbour-table-prebattle"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+      ],
+      "replacement_mode": "force",
+      "replacement_asset_id": "fleet-quay-five",
+      "purpose": "British naval line faces the intact palace; use the approved five-ship wide anchor briefly, then a closer crop of one bow.",
+      "allowed_action": "One nearest bow rocks slightly; the cut carries the same fleet state. Five is conveyed by narration and brief establishment, not animated counting.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        6,
+        8
+      ]
+    },
+    {
+      "number": 12,
+      "start": 55,
+      "end": 60,
+      "narration": "mueve, los cañones van a hacerlo. ¿Cómo llegó una isla a este punto? Rebobinemos.",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-world-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ],
+      "replacement_mode": "rewind",
+      "replacement_asset_id": "palace-from-gun-deck",
+      "purpose": "Use the dormant cannon facing the intact palace as the causal question, then hand off to an earlier ordinary port-life sequence.",
+      "allowed_action": "Hold the inactive gun; no firing, reverse-motion battle or literal rewind machinery.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        11,
+        13
+      ]
+    },
+    {
+      "number": 13,
+      "start": 60,
+      "end": 65,
+      "narration": "Rebobinemos. La respuesta empieza mucho antes de esa mañana. Zanzíbar está",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-world-oblique"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+      ],
+      "replacement_mode": "place",
+      "replacement_asset_id": "island-open-sea",
+      "purpose": "An illustrated wide sea-level island approach makes the earlier peaceful setting tangible.",
+      "allowed_action": "One dhow approaches the already visible shoreline; modest single camera approach.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        12,
+        14
+      ]
+    },
+    {
+      "number": 14,
+      "start": 65,
+      "end": 70,
+      "narration": "está frente a la costa oriental de África. En un mapa parece un punto pequeño; para",
+      "source_claim": "C003",
+      "old_asset_ids": [
+        "map-world-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ],
+      "replacement_mode": "place",
+      "replacement_asset_id": "island-high-coast",
+      "purpose": "Use a high oblique coastline and open sea view for small-island scale under the accepted East Africa narration.",
+      "allowed_action": "One slow pullback, no map, border, marker or exaggerated contiguous-mainland connection.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        13,
+        15
+      ]
+    },
+    {
+      "number": 16,
+      "start": 75,
+      "end": 80,
+      "narration": "Por allí se encontraban rutas, mercancías e intereses de lugares muy distintos.",
+      "source_claim": "C003",
+      "old_asset_ids": [
+        "map-world-trade-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+      ],
+      "replacement_mode": "trade",
+      "replacement_asset_id": "trade-rope-cargo-detail",
+      "purpose": "Close cargo, mooring rope and one worker on the quay explain intersecting trade through material activity.",
+      "allowed_action": "One crate is lowered onto an already present landing spot; two simple shots of the same event.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        15,
+        17
+      ]
+    },
+    {
+      "number": 17,
+      "start": 80,
+      "end": 85,
+      "narration": "distintos. Gran Bretaña quería influir en ese cruce. Alemania también tenía planes en África",
+      "source_claim": "C007",
+      "old_asset_ids": [
+        "map-world-trade-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+      ],
+      "replacement_mode": "diplomacy",
+      "replacement_asset_id": "diplomatic-letters-table",
+      "purpose": "Anonymous British/German diplomatic roles and two unlettered closed dispatches represent competing interests.",
+      "allowed_action": "One official rests a mitten hand beside his own dispatch; no signature, flag planting or claim of a specific documented meeting.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        16,
+        18
+      ]
+    },
+    {
+      "number": 20,
+      "start": 95,
+      "end": 100,
+      "narration": "Esa es la primera sorpresa de la historia: la isla era pequeña, pero el lío que se había",
+      "source_claim": "C007",
+      "old_asset_ids": [
+        "map-world-oblique"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+      ],
+      "replacement_mode": "scale",
+      "replacement_asset_id": "island-high-coast",
+      "purpose": "Return briefly to a wide island/harbour view as the narrator contrasts a small island with an imperial-scale dispute.",
+      "allowed_action": "One slow wider framing transition; no growing country/territory graphic.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        19,
+        21
+      ]
+    },
+    {
+      "number": 21,
+      "start": 100,
+      "end": 105,
+      "narration": "armado alrededor de ella tenía tamaño de imperio. A finales del siglo diecinueve,",
+      "source_claim": "C007",
+      "old_asset_ids": [
+        "map-world-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ],
+      "replacement_mode": "scale",
+      "replacement_asset_id": "palace-from-gun-deck",
+      "purpose": "Low foreground naval hardware and a much smaller distant palace convey the weight of overseas power.",
+      "allowed_action": "Locked inactive gun and intact shoreline; no action that suggests battle has already begun.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        20,
+        22
+      ]
+    },
+    {
+      "number": 28,
+      "start": 135,
+      "end": 140,
+      "narration": "héroe y un villano, te está escondiendo la mitad del mapa. Aquí había muchas personas tomando",
+      "source_claim": "C007",
+      "old_asset_ids": [
+        "map-world-diplomacy"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+      ],
+      "replacement_mode": "many-actors",
+      "replacement_asset_id": "market-basket-close",
+      "purpose": "Show the three established market residents while the narrator says many people had a stake in the story.",
+      "allowed_action": "One small wicker exchange; no heroic/villain costume caricature or new crowd.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        27,
+        29
+      ]
+    },
+    {
+      "number": 30,
+      "start": 145,
+      "end": 150,
+      "narration": "Bretaña y Alemania negociaron sus posiciones en África oriental. Zanzíbar quedó bajo protectorado",
+      "source_claim": "C007",
+      "old_asset_ids": [
+        "map-world-diplomacy"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+      ],
+      "replacement_mode": "diplomacy",
+      "replacement_asset_id": "diplomatic-letters-table",
+      "purpose": "Two neutral diplomatic roles and two closed unlettered dispatches evoke negotiation without a literal geopolitical board.",
+      "allowed_action": "One dispatch shifts toward the middle of a plain desk, stopping before any transfer; generic illustration, not a reconstructed treaty scene.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        29,
+        31
+      ]
+    },
+    {
+      "number": 31,
+      "start": 150,
+      "end": 155,
+      "narration": "protectorado británico. En el papel, la isla seguía teniendo sultán. En el puerto,",
+      "source_claim": "C007",
+      "old_asset_ids": [
+        "map-world-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ],
+      "replacement_mode": "protectorate",
+      "replacement_asset_id": "palace-office-letter",
+      "purpose": "One unlettered formal letter beside a close palace throne arm explains legal influence while retaining the sultanate setting; do not show a vacant throne as a factual claim.",
+      "allowed_action": "One palace official holds the closed dispatch still; no annexation flag or new writing.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        30,
+        32
+      ]
+    },
+    {
+      "number": 33,
+      "start": 160,
+      "end": 165,
+      "narration": "conservaba el trono, pero la influencia británica pesaba cada vez más sobre lo que podía hacer.",
+      "source_claim": "C007",
+      "old_asset_ids": [
+        "map-world-diplomacy"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+      ],
+      "replacement_mode": "protectorate",
+      "replacement_asset_id": "sultan-palace-ship-view",
+      "purpose": "A palace interior with a close ornate throne arm and offshore British hull links local sovereignty to external pressure; frame the seat/occupant outside view rather than implying a vacant throne.",
+      "allowed_action": "One curtain edge settles beside the view; the palace remains intact and the throne remains empty.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        32,
+        34
+      ]
+    },
+    {
+      "number": 38,
+      "start": 185,
+      "end": 190,
+      "narration": "tres, ya había intentado tomar el poder después de otra sucesión. Los británicos lo presionaron y",
+      "source_claim": "C010",
+      "old_asset_ids": [
+        "map-world-khalid"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+      ],
+      "replacement_mode": "succession",
+      "replacement_asset_id": "khalid-throne-close",
+      "purpose": "Show Khalid beside the same empty throne during the narrated earlier succession attempt.",
+      "allowed_action": "One tense glance toward the empty throne; explicit1893 flashback phase in the ledger, no1896 battle damage.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        37,
+        39
+      ]
+    },
+    {
+      "number": 40,
+      "start": 195,
+      "end": 200,
+      "narration": "Pero Khalid no desapareció del tablero. Cuando volvió a abrirse la cuestión del trono, ya existía",
+      "source_claim": "C010",
+      "old_asset_ids": [
+        "map-world-khalid"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+      ],
+      "replacement_mode": "succession",
+      "replacement_asset_id": "khalid-palace",
+      "purpose": "Return to Khalid and his existing scroll in the palace as the narrator says he remained a political actor.",
+      "allowed_action": "He draws the closed scroll to his chest once, then settles.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        39,
+        41
+      ]
+    },
+    {
+      "number": 55,
+      "start": 270,
+      "end": 275,
+      "narration": "Rawson y Khalid hay agua, muelles y una distancia mucho mayor:",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-harbour-table-prebattle"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+      ],
+      "replacement_mode": "orientation",
+      "replacement_asset_id": "palace-from-gun-deck",
+      "purpose": "From British deck level, the same intact palace lies beyond the intervening water; the next slot shows Khalid across it.",
+      "allowed_action": "One foreground rope touch or locked cannon; matched gaze/cut direction replaces Rawson/Khalid tokens.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        54,
+        56
+      ]
+    },
+    {
+      "number": 64,
+      "start": 315,
+      "end": 320,
+      "narration": "posición de cada uno: los británicos pueden disparar desde el puerto hacia el centro del poder;",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-harbour-table-prebattle"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+      ],
+      "replacement_mode": "orientation",
+      "replacement_asset_id": "palace-from-gun-deck",
+      "purpose": "A British gun deck aimed toward the distant intact seat of power gives a tangible firing geometry.",
+      "allowed_action": "One sailor steadies the already pictured cannon carriage; no firing yet.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        63,
+        65
+      ]
+    },
+    {
+      "number": 73,
+      "start": 360,
+      "end": 365,
+      "narration": "si los británicos van a cumplir su amenaza. Ya vimos muchas piezas de esta historia;",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-harbour-table-prebattle"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+      ],
+      "replacement_mode": "suspense",
+      "replacement_asset_id": "british-cannon-crew",
+      "purpose": "Close one British gun crew waiting in place before the deadline.",
+      "allowed_action": "One officer lowers his raised hand to a resting position without a firing signal; no attack before09:00.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        72,
+        74
+      ]
+    },
+    {
+      "number": 76,
+      "start": 375,
+      "end": 380,
+      "narration": "imagen del principio, pero ahora ya sabes quién está dentro, quién espera fuera y",
+      "source_claim": "C012",
+      "old_asset_ids": [
+        "map-harbour-table-prebattle"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png"
+      ],
+      "replacement_mode": "orientation",
+      "replacement_asset_id": "rawson-bridge-over-shoulder",
+      "purpose": "Rawson looks from the rail toward the still-intact palace after the08:59 clock beat.",
+      "allowed_action": "One small binocular/paper-held glance as permitted by the actual anchor; cut closer to the same face/rail.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        75,
+        77
+      ]
+    },
+    {
+      "number": 85,
+      "start": 420,
+      "end": 425,
+      "narration": "el mar abren fuego y dañan las posiciones de Khalid. Las barricadas sirven para",
+      "source_claim": "C014",
+      "old_asset_ids": [
+        "map-harbour-table-early-battle"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
+      ],
+      "replacement_mode": "battle",
+      "replacement_asset_id": "palace-damage-detail",
+      "purpose": "A already damaged palace frontage shows the visible consequence of fire instead of a glint on miniatures.",
+      "allowed_action": "One loose small stone drops; maintain the established damage and defender state.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        84,
+        86
+      ]
+    },
+    {
+      "number": 88,
+      "start": 435,
+      "end": 440,
+      "narration": "Por fuera, el combate se puede seguir como una secuencia: disparo, impacto,",
+      "source_claim": "C014",
+      "old_asset_ids": [
+        "map-harbour-table-early-battle"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png"
+      ],
+      "replacement_mode": "battle",
+      "replacement_asset_id": "palace-battle-arcade",
+      "purpose": "Continue the existing battlefield axis with an impact consequence and defender reaction in the same arcade.",
+      "allowed_action": "One existing defender flinches from one isolated nearby chip; one primary action, no projectiles travelling between separate compositions.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        87,
+        89
+      ]
+    },
+    {
+      "number": 93,
+      "start": 460,
+      "end": 465,
+      "narration": "Los barcos británicos contestan y el Glasgow se hunde. También aparecen embarcaciones menores",
+      "source_claim": "C014",
+      "old_asset_ids": [
+        "map-harbour-table-aftermath"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png"
+      ],
+      "replacement_mode": "sinking",
+      "replacement_asset_id": "glasgow-sinking-midstate",
+      "purpose": "Show the single Glasgow midway into its sinking, linking afloat slot092 to the settled wreck in094.",
+      "allowed_action": "The one hull settles a short final distance into the water and holds; no people falling, no duplicate ship or reverse recovery.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        92,
+        94
+      ],
+      "timing_contract": {
+        "glasgow_named_global": 462.1,
+        "sinking_verb_global": 462.84,
+        "local_settling_interval": [
+          2.1,
+          3.7
+        ]
+      }
+    },
+    {
+      "number": 99,
+      "start": 490,
+      "end": 495,
+      "narration": "La pregunta es qué hará Khalid y cómo se detendrá el fuego. En medio del ataque, sale",
+      "source_claim": "C017",
+      "old_asset_ids": [
+        "map-harbour-table-aftermath",
+        "map-harbour-table-refuge"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
+      ],
+      "replacement_mode": "refuge",
+      "replacement_asset_id": "khalid-palace-exit-damaged",
+      "purpose": "Khalid physically leaves a palace-side damaged arcade rather than sliding on a chart.",
+      "allowed_action": "At local1.18s (spoken Khalid at491.18s) he turns his gaze once toward the exit and settles; his feet remain inside through the resolved end. The actual sale/exit word starts494.98s at the slot boundary; slot100 shows the subsequent physical consulate approach with travel elided by the cut, rather than showing departure prematurely.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        98,
+        100
+      ],
+      "timing_contract": {
+        "decision_name_global": 491.18,
+        "sale_global": 494.98,
+        "exit_visibility": "subsequent_slot100",
+        "no_early_departure": true
+      }
+    },
+    {
+      "number": 101,
+      "start": 500,
+      "end": 505,
+      "narration": "otra potencia interesada en África oriental? Aquí vuelve a entrar en la historia, justo cuando parecía",
+      "source_claim": "C017",
+      "old_asset_ids": [
+        "map-harbour-table-refuge"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png"
+      ],
+      "replacement_mode": "refuge",
+      "replacement_asset_id": "consulate-street-approach",
+      "purpose": "Make the consulate destination concrete: same carved doorway and one neutral guard; no new European journey.",
+      "allowed_action": "Khalid is already one pace outside the open door; guard turns his head once, preparing slot102 invitation aside.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        100,
+        102
+      ]
+    },
+    {
+      "number": 105,
+      "start": 520,
+      "end": 525,
+      "narration": "que aparece la señal de rendición. Entonces, por fin, el puerto queda en silencio.",
+      "source_claim": "C017",
+      "old_asset_ids": [
+        "map-harbour-table-refuge",
+        "map-harbour-table-surrender"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
+      ],
+      "replacement_mode": "surrender",
+      "replacement_asset_id": "palace-white-surrender",
+      "purpose": "A plain small white cloth at the damaged palace depicts surrender directly.",
+      "allowed_action": "The single cloth rises and settles by3.5s; flags are unlettered and non-national; next106 quiet aftermath follows.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        104,
+        106
+      ],
+      "timing_contract": {
+        "signal_global": 520.68,
+        "surrender_global": 521.1,
+        "silence_global": 524.3,
+        "flag_settled_by_local": 3.5
+      }
+    },
+    {
+      "number": 118,
+      "start": 585,
+      "end": 590,
+      "narration": "ocupa el trono. Khalid sale después hacia África oriental alemana. Gran",
+      "source_claim": "C017",
+      "old_asset_ids": [
+        "map-world-khalid",
+        "map-world-khalid-mainland"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
+        "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png"
+      ],
+      "replacement_mode": "later-departure",
+      "replacement_asset_id": "khalid-departure-quay",
+      "purpose": "An explicit later departure scene replaces a token crossing the world: Khalid, one tied transport dhow, quiet quay.",
+      "allowed_action": "Hold through the preceding throne phrase; one step toward the tied transport begins at local2.08s (sale at587.08s), completes by4.35s and holds. Do not depict the precise ship, route or mainland landing as documented.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        117,
+        119
+      ],
+      "timing_contract": {
+        "khalid_named_global": 586.72,
+        "departure_verb_global": 587.08,
+        "motion_onset_local": 2.08
+      }
+    },
+    {
+      "number": 126,
+      "start": 625,
+      "end": 630,
+      "narration": "no era el problema: las piezas llevaban años colocándose y, al llegar la hora, la diferencia",
+      "source_claim": "C015",
+      "old_asset_ids": [
+        "map-world-blank"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ],
+      "replacement_mode": "conclusion",
+      "replacement_asset_id": "palace-office-letter",
+      "purpose": "A closed dispatch beside the empty throne provides a callback to the prewar decisions under the concluding narration.",
+      "allowed_action": "Declared prewar explanatory callback, not a new postwar succession; one short close insert holds without readable writing.",
+      "reference_status": "missing_new_scene_anchor",
+      "reference_path": null,
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        125,
+        127
+      ]
+    },
+    {
+      "number": 127,
+      "start": 630,
+      "end": 635,
+      "narration": "diferencia de fuerza decidió el combate a toda velocidad. Ahí está la sorpresa completa: una",
+      "source_claim": "C015",
+      "old_asset_ids": [
+        "map-harbour-table-surrender"
+      ],
+      "old_references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png"
+      ],
+      "replacement_mode": "conclusion",
+      "replacement_asset_id": "harbour-after-arch",
+      "purpose": "Conclude force imbalance with the settled damaged palace and Glasgow wreck through the familiar arch.",
+      "allowed_action": "Quiet shoreline/wreck hold; carry the postwar state into adjacent128 and avoid duplicate framing by using a tighter existing-detail crop.",
+      "reference_status": "approved_candidate_reuse",
+      "reference_path": "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png",
+      "status": "proposal_not_approved",
+      "seam_review_required": [
+        126,
+        128
+      ]
+    }
+  ],
+  "active_decision": "map-method-decision.md",
+  "note": "Subsequent user authorization: implement a better method with no people on maps and run remaining12-step batch. Codex selected26 physical scenes and2 controlled map inserts; older proposal fields preserved as history."
+}

@@ -1,3 +1,7 @@
+# Active map-method redirection r005
+
+See [map-method-decision.md](map-method-decision.md). The current user instruction supersedes prior map-token choreography:26 map slots are physical harbor, gun deck, palace, trade, dispatch and refuge scenes; only014/118 retain controlled geography with zero people. No H3 input is a map. Clock/text treatment remains H3. Current detailed direction is in shot-plan.md, clip-direction.json and story-state-ledger.json. Prior direction below is historical wherever it conflicts with this recorded exception.
+
 # Stage 04 — visual direction
 
 ## Spine

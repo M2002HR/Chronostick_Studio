@@ -1,26 +1,15 @@
 # 006 — The Shortest War EVER
 
-## Current production state
+The active r005 direction replaces26 map slots with physical period scenes and retains only two necessary geographic inserts,014/118, using controlled motion with zero people. Five newly generated scene anchors were inspected at full resolution. All240 frames of the two controlled map outputs were inspected; both clips are5.000 seconds at1024×576,24fps, with silent audio. See [the recorded method decision](plan/map-method-decision.md).
 
-The complete **131-clip twelve-step H3 batch** is running in the persistent background service. Batch ID: `f2ed5f96-6091-458b-bcab-9a2315ccd83c`. All children use12 sampling steps,Lightning disabled,1024×576 landscape,24fps and immutable revision004 output prefixes. The first child was verified running in ComfyUI; no generation success is treated as picture approval.
+The remaining **117 H3 clips at12steps** are prepared for one persistent batch under `automation/batches/map-redirection-12step-r005/`. The12 completed non-map twelve-step candidates are retained without rerendering and remain unreviewed. Two controlled maps complete coverage of all131 slots. No H3 request now receives any map anchor. All117 live requests passed full-service dry-run with zero errors or warnings; immutable prefixes have no collisions.
 
-The user explicitly stopped the four-step preview and requested full12-step production without waiting for preview review. The previous preview batch `019625ab-2084-4483-babb-dc5be22281d7` is terminal: two clips completed; the remaining children were cancelled/interrupted. Its existing media and cancellation evidence remain preserved. It will not resume automatically.
+The accepted Spanish voice remains651.389 seconds; the picture plan remains655 seconds. There are52 active full-frame anchors and238 planned shots. At most two adjacent slots share their primary anchor; full minutes contain6–12 unique anchors. These are planning metrics; actual motion and pacing still require review. [animatic-r007.mp4](plan/animatic-r007.mp4) includes the actual controlled geography clips and planning stills for the other slots, with the accepted voice. It does not approve future H3 motion.
 
-The current frozen package is `automation/batches/production-12step-r004/`. All131 children passed complete live-service dry-run without warnings. The batch was submitted once with a detached CLI watcher. Its ID, all child IDs and actual engine-start evidence are recorded in `automation/run-state.json`, the batch manifest,submission.json andstart-verification.json. Native SFX are retained; automatic concatenation and upscale are disabled.
+The earlier stopped batches are historical: four-step preview `019625ab-2084-4483-babb-dc5be22281d7`; twelve-step map batch `f2ed5f96-6091-458b-bcab-9a2315ccd83c` (21 succeeded,109 cancelled, one interrupted failure). All output is preserved. Nine completed map candidates are superseded by the revised method. The four-step pass will not resume.
 
-The accepted Spanish narration remains unchanged at651.389 seconds, with131 five-second picture slots and655 seconds of planned picture. The reviewed plan uses57 full-frame image anchors and215 shots. Four harbour references were corrected and thirteen new references added. Maximum anchor reuse is6, with at most two consecutive identical-reference slots; complete minutes contain7–12 distinct anchors. Ordinary scenes use two simple shots per five seconds; geography, clocks and respectful human-cost passages stay continuous.
+Current runtime ID and status are in `automation/run-state.json` and the new batch manifest. Progress is persisted in its `progress.json` and `watcher.log`; the watcher records terminal state and reports when generation finishes. Closing this chat or a separate display does not cancel the persistent service batch.
 
-`plan/beat-cards.tsv`, `plan/clip-direction.json`, `plan/shot-plan.md`, state/map/text ledgers and131 pure prompts form the current direction. See `plan/preview-revision-review.md` for the repaired count, prefire, token, refuge and damage-state issues. `plan/animatic-r006.mp4` is a655-second still planning guide; all production picture remains H3-generated.
+The supplied reference video/transcript and the existing research waiver remain unchanged. No new historical verification is claimed; generic diplomatic dispatches illustrate interests without asserting a named meeting. Exact clock text remains H3-generated under the unchanged eight-event contract.
 
-The supplied English example and transcript remain under `source/reference-video/`. Independent verification was explicitly waived for the source-assumption episode; see `source/research-waiver.json`. Earlier pilots, rejected references and planning previews remain preserved. No actual final picture selection is approved yet.
-
-## Monitor and next action
-
-```bash
-cd /home/mhr/AI/comfy-video-automation
-uv run comfy-video status f2ed5f96-6091-458b-bcab-9a2315ccd83c --batch --watch
-```
-
-Ctrl+C closes the watcher display; it does not stop generation. The detached watcher logs to `automation/batches/production-12step-r004/watcher.log`. Closing this chat does not cancel the service batch.
-
-After completion, review all131 editorial candidates under `renders/editorial/` with `clip-NNN-shot-r004` prefixes. Check meaning, identity, motion, continuity, every exact-text/map frame and native audio, then replace only necessary failures in immutable revisions before selecting the picture timeline. Changes and launch provenance are committed locally; videos remain local and ignored by Git.
+After generation, review actual editorial candidates for historical meaning, stick-world identity, motion, continuity, exact clock text and native SFX. Retained candidates are not already selected or approved. Select one approved artifact for each of131 slots before assembly; automatic concatenation and upscale are disabled.
