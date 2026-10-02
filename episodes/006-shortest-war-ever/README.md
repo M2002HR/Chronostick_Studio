@@ -1,27 +1,26 @@
-# Current execution update
-
-The user stopped the four-step pass and explicitly requested the complete131-slot12-step production pass without waiting for preview review. The preview is terminal (two clips completed; the others were cancelled/interrupted), and the GPU queue was confirmed empty. Existing preview media is preserved. The current package is `automation/batches/production-12step-r004/manifest.json`:12 steps,Lightning false,1024×576,24fps, revision004, no automatic concat/upscale. Actual clip review still follows generation. The earlier preview-first narrative below is superseded by this instruction.
-
 # 006 — The Shortest War EVER
 
 ## Current production state
 
-Spanish narration is accepted and unchanged: `audio/narration-es-google-vids-r001.mp4`, 651.389 seconds. Actual accepted timing covers 131 five-second picture slots, 655 seconds. All production picture remains MiniMax H3, including maps, clocks and approved exact text; still animatics are planning guides only.
+The complete **131-clip twelve-step H3 batch** is running in the persistent background service. Batch ID: `f2ed5f96-6091-458b-bcab-9a2315ccd83c`. All children use12 sampling steps,Lightning disabled,1024×576 landscape,24fps and immutable revision004 output prefixes. The first child was verified running in ComfyUI; no generation success is treated as picture approval.
 
-The user explicitly requested a **full four-step Lightning concept preview**, followed by review and any needed corrections before a later **12-step production pass**. The preview keeps the final 1024×576 landscape resolution, 24 fps, ordered references and fixed per-slot seeds. Four-step results are not final-quality approvals. No automatic assembly, upscale or 12-step rerun is configured.
+The user explicitly stopped the four-step preview and requested full12-step production without waiting for preview review. The previous preview batch `019625ab-2084-4483-babb-dc5be22281d7` is terminal: two clips completed; the remaining children were cancelled/interrupted. Its existing media and cancellation evidence remain preserved. It will not resume automatically.
 
-The revised plan uses **57 reviewed full-frame anchors and 215 shots** across 131 clips. Four harbour references now have exactly five British navy ships plus Glasgow; thirteen new references add trade cargo, market detail, messages, shore cannon, afloat/wreck Glasgow, refuge approach, civilian aftermath, shoe inserts and resolved map states. The busiest anchor is used six times, with at most two consecutive slots; each complete minute has seven to twelve distinct anchors. Ordinary scenes use two simple shots per five seconds; geography, exact clock text and quiet human-cost moments remain continuous. See `plan/visual-variety-audit.json` and `plan/preview-revision-review.md`.
+The current frozen package is `automation/batches/production-12step-r004/`. All131 children passed complete live-service dry-run without warnings. The batch was submitted once with a detached CLI watcher. Its ID, all child IDs and actual engine-start evidence are recorded in `automation/run-state.json`, the batch manifest,submission.json andstart-verification.json. Native SFX are retained; automatic concatenation and upscale are disabled.
 
-`plan/beat-cards.tsv`, `plan/clip-direction.json`, `plan/shot-plan.md` and the state/map/text ledgers agree with 131 pure prompts. Revised 12-step jobs are revision004, prepared but unlaunched. The frozen preview package is `automation/batches/preview-4step-r001/`; every one of131 children passed a complete live-service dry-run without warnings. `plan/animatic-r006.mp4` is the655-second voice-led planning preview. Earlier animatics and rejected six-ship anchors are preserved.
+The accepted Spanish narration remains unchanged at651.389 seconds, with131 five-second picture slots and655 seconds of planned picture. The reviewed plan uses57 full-frame image anchors and215 shots. Four harbour references were corrected and thirteen new references added. Maximum anchor reuse is6, with at most two consecutive identical-reference slots; complete minutes contain7–12 distinct anchors. Ordinary scenes use two simple shots per five seconds; geography, clocks and respectful human-cost passages stay continuous.
 
-The supplied English example and transcript remain under `source/reference-video/`. Independent historical verification was explicitly waived for this source-assumption episode; see `source/research-waiver.json`. No new independent verification is claimed.
+`plan/beat-cards.tsv`, `plan/clip-direction.json`, `plan/shot-plan.md`, state/map/text ledgers and131 pure prompts form the current direction. See `plan/preview-revision-review.md` for the repaired count, prefire, token, refuge and damage-state issues. `plan/animatic-r006.mp4` is a655-second still planning guide; all production picture remains H3-generated.
 
-The earlier five-job12-step pilot batch `a8fd33bf-eb25-4f44-b36f-b18b6c8e0a7b` remains preserved and unapproved. Its documented extra people, wrong ship counts, premature smoke and token-motion contradiction have been addressed in references and prompts; actual repair requires inspection of the new generated videos.
+The supplied English example and transcript remain under `source/reference-video/`. Independent verification was explicitly waived for the source-assumption episode; see `source/research-waiver.json`. Earlier pilots, rejected references and planning previews remain preserved. No actual final picture selection is approved yet.
 
-## Runtime and next action
+## Monitor and next action
 
-Batch `019625ab-2084-4483-babb-dc5be22281d7` is running in the persistent background service. All131 children are registered at4 steps with Lightning; actual processing of the first child was verified in ComfyUI on 2026-10-02T15:11:57.609188+00:00. The assistant stopped after recording that start, as requested.
+```bash
+cd /home/mhr/AI/comfy-video-automation
+uv run comfy-video status f2ed5f96-6091-458b-bcab-9a2315ccd83c --batch --watch
+```
 
-Read `automation/batches/preview-4step-r001/manifest.json` for the current persisted batch ID and status, and `automation/batches/preview-4step-r001/start-verification.json` once processing starts. The API service owns queued work independently of the chat. The detached CLI watcher logs to `automation/batches/preview-4step-r001/watcher.log`.
+Ctrl+C closes the watcher display; it does not stop generation. The detached watcher logs to `automation/batches/production-12step-r004/watcher.log`. Closing this chat does not cancel the service batch.
 
-After the preview completes, review all131 editorial outputs under `renders/preview-4step/editorial/`, record accepted/failed slots and correct only necessary failures in immutable revisions. A later12-step pass follows that review and user decision. No final clip is selected yet. Work is checkpointed locally in Git; video media stays local and ignored by Git.
+After completion, review all131 editorial candidates under `renders/editorial/` with `clip-NNN-shot-r004` prefixes. Check meaning, identity, motion, continuity, every exact-text/map frame and native audio, then replace only necessary failures in immutable revisions before selecting the picture timeline. Changes and launch provenance are committed locally; videos remain local and ignored by Git.

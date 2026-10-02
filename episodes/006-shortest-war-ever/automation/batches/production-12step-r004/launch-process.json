@@ -1,0 +1,11 @@
+{
+  "pid": 1039046,
+  "command": [
+    "/home/mhr/.local/bin/uv",
+    "run",
+    "python",
+    "/home/mhr/Code/chronostick-studio/scripts/run-episode-006-production.py"
+  ],
+  "detached_session": true,
+  "started_at": "2026-10-02T15:21:07.960937+00:00"
+}

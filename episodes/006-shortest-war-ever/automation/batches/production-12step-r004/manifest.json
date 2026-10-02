@@ -4,8 +4,8 @@
   "revision": 4,
   "authorization": "User explicitly cancelled the four-step pass and requested all131 clips at12steps without waiting for preview review.",
   "purpose": "full12-step H3 production candidates; actual clip QC still required",
-  "status": "prepared_not_launched",
-  "batch_id": null,
+  "status": "running",
+  "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c",
   "job_count": 131,
   "generation": {
     "steps": 12,
@@ -2261,5 +2261,8 @@
       ],
       "output_prefix": "clip-131-shot-r004"
     }
-  ]
+  ],
+  "submitted_at": "2026-10-02T15:21:10.334587+00:00",
+  "watcher_pid": 1039049,
+  "started_verified_at": "2026-10-02T15:27:55.049343+00:00"
 }

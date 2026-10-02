@@ -15,1051 +15,1184 @@
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-001.json",
       "job_sha256": "ee5e8f0d4857a5217b8067e19ae3e11684161fc0813247667bd66747e0fc1d2c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-001.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-001.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 2,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-002.json",
       "job_sha256": "60d7ed27cdb5bb8d9e2dbc9909fd1698d1791150407288bafcab95d7c4c79e73",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-002.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-002.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 3,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-003.json",
       "job_sha256": "5003870fca4678a6e59f9a1a41dcb555060268302a759a541addf514ab440502",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-003.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-003.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 4,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-004.json",
       "job_sha256": "1c9f4013842bf063cea637d7d7549f43c3842f50c0e167f8b49bc8bc966de5c4",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-004.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-004.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 5,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-005.json",
       "job_sha256": "3bb71b26a35b11f8940652cba218478f386ad220679bfef532595d5394717bfc",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-005.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-005.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 6,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-006.json",
       "job_sha256": "4f76b5a59d6f6af2722ad5623b3a388a925832195dd25bbe179a358a5fc52e04",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-006.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-006.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 7,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-007.json",
       "job_sha256": "1c60c43553f2070a6077732575e290eb2a36f601c792d2d104c2119219bb3c6c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-007.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-007.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 8,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-008.json",
       "job_sha256": "9b1a6d29c82bf6dcbdb5dcc0bb6892b5971d07fe1a2cd5932991ea7ca150c5a0",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-008.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-008.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 9,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-009.json",
       "job_sha256": "0bf51dd2742766ccbf015df37d2db933df0b7693f1a6ba7152bea9a17df4d43d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-009.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-009.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 10,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-010.json",
       "job_sha256": "f622d19a682e0f9b2157f205da9ab81e6f064847909fa8e9f0c9d29b82a6e0ce",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-010.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-010.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 11,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-011.json",
       "job_sha256": "de7bb9cbcbaa33a0569735b25057fcbb8d75ef37dd9c76a267b5e56479180762",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-011.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-011.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 12,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-012.json",
       "job_sha256": "5ed5b2c2b42e088424c80fd420a585f7d9f2bc262f1167540b0a68b1592780e1",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-012.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-012.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 13,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-013.json",
       "job_sha256": "6250fa1f83cf3cb3ea212a78ba3d68c0651c392da77cb56ab0fe043f76826da4",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-013.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-013.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 14,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-014.json",
       "job_sha256": "240518738db812ee3f226f17c7a63bcce4554ff7570fdaa94b64df6e62f37a66",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-014.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-014.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 15,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-015.json",
       "job_sha256": "d558a649472c53c71437b02782518f9d65974273b5ce5bece71a5ae18ae297fd",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-015.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-015.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 16,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-016.json",
       "job_sha256": "96097c12d05fce1f2a5c17a5232be881fbd855b730255c0066235cf557316d23",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-016.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-016.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 17,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-017.json",
       "job_sha256": "e3e2083c7d04fd9cbe7fed851bcba149f663cf1d79ebb933269429b9d6d33d13",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-017.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-017.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 18,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-018.json",
       "job_sha256": "b353578645e89efce0abc2c642f48b3ee3b394a1c91260bfaffc96dfcbf62618",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-018.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-018.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 19,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-019.json",
       "job_sha256": "7007802ee1f38dea97db71d0670c1d144d2fe682b56856e4c59b931a3a388251",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-019.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-019.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 20,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-020.json",
       "job_sha256": "420e25250cf9568db974bfda8f402dc2832342cf4adfec60403481bae928638c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-020.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-020.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 21,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-021.json",
       "job_sha256": "25316aae51f5df1cfb56112864becd7ca622a8944f7cf1dcb326b60636ec7591",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-021.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-021.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 22,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-022.json",
       "job_sha256": "935dec50ed7d2e4bfde15c89e517740f22682b82f724b018414ed47aa993cb33",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-022.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-022.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 23,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-023.json",
       "job_sha256": "118fdacf63fc46fcd6d566c27c46899b5eb1099400472d6ee1f8e247f8bfd971",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-023.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-023.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 24,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-024.json",
       "job_sha256": "2d18ed0cf8f5b3624f27d96738caf6ef7da61aa20b1b4972ef23c1acd6efa71c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-024.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-024.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 25,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-025.json",
       "job_sha256": "39668f8ed03551188fca9dd7c6e6024b7f965ad7c81a10de9d65b52023a7c330",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-025.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-025.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 26,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-026.json",
       "job_sha256": "f8aae85cd48446af0e10363aa5e23b0e20d6e25bb7924a84c48b7971828678c7",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-026.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-026.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 27,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-027.json",
       "job_sha256": "dfc1b48f801b8732e263e8546e40a3c220a8af272893e69ba16060e904597bb5",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-027.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-027.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 28,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-028.json",
       "job_sha256": "7f7a9a5f501acfff6f73c8d96a984b00edff707555fbf99f7c7b046d60c77a8f",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-028.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-028.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 29,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-029.json",
       "job_sha256": "ccd13993aef47e36f6f71ab31970af3398a4688e464d6e1e366c557ab76de8e5",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-029.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-029.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 30,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-030.json",
       "job_sha256": "74b0ebb68b6ab107961c118e10c09082de829d6d9892922b859230b712fe3c02",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-030.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-030.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 31,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-031.json",
       "job_sha256": "1838e67563347d9cfaa155e43a1a67a64a3784cb3bde7342898649f359ecbab0",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-031.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-031.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 32,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-032.json",
       "job_sha256": "a6916e1e16efa636a8d732c53b0268ba5993b1d1c023535b93ac0a43644f2718",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-032.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-032.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 33,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-033.json",
       "job_sha256": "82248435f05dea91f8ab9e08a29aed6deee99a4117064a4cb48db718a3f93140",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-033.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-033.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 34,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-034.json",
       "job_sha256": "f2e4c42963998dd36b6774da26e67e938cd663ebbc54b1d72da082d1a9a5deb8",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-034.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-034.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 35,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-035.json",
       "job_sha256": "9dbb746ba81b72449cb93f47cbcca31e9096c8e47a7e8fdb3ef19868cff72cfb",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-035.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-035.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 36,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-036.json",
       "job_sha256": "450306f993e55d5c731f0bd4af8744bc799906ed9368563142fc31cc8057d0e2",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-036.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-036.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 37,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-037.json",
       "job_sha256": "4acb3d1fc5d70d6290632c9641ea31359a34b9b72250befbd02d09bbf452c4fa",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-037.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-037.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 38,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-038.json",
       "job_sha256": "c17db56eed2a3ac86f9304385aa03333c95b87f9a6f26f9915685d78817e6c96",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-038.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-038.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 39,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-039.json",
       "job_sha256": "b9a7078dbff0cea496c4ca5c6024122f50336731a43c33feb352656279156409",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-039.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-039.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 40,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-040.json",
       "job_sha256": "e170758e8d40363d07e475e5f379b303c4c7dd189d21533be51c203bc62e31a5",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-040.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-040.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 41,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-041.json",
       "job_sha256": "ff30419b138778c6c069fd5b1101c81a5ee71c110139775dbbab6aad14db8fb5",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-041.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-041.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 42,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-042.json",
       "job_sha256": "6a002274ee054b55aefa3ffe67ea263b6555878e10dff3be3189c3d8e5e45205",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-042.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-042.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 43,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-043.json",
       "job_sha256": "e62de60ae2350cccd4bce2027adf978e45e1d0733a7760e5264fce7b0f8e367d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-043.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-043.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 44,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-044.json",
       "job_sha256": "b86f56808c9b3bb47564634cb65c41a26aba16a7e2082567e8744e423ccdcd0b",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-044.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-044.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 45,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-045.json",
       "job_sha256": "4b428ae45fcdc768876d0dcadcce83ba728d7839dc555bf7ecfa201924fa8f01",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-045.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-045.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 46,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-046.json",
       "job_sha256": "864c9ef501f009e4aa359c0b6734e7c057b323cd7318c10b664bb70d966e99be",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-046.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-046.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 47,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-047.json",
       "job_sha256": "37ca2a4a48aae0610c07c1547e2b37ffef290b2cb922bdbed7040731b6f461bc",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-047.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-047.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 48,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-048.json",
       "job_sha256": "bf3f953aa42b86a17b6c94868412284bb3d67a3ba9f9256d00da93a14714438d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-048.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-048.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 49,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-049.json",
       "job_sha256": "45e7d00e37635aa89f717a27e24b28621abec7aac0d1c06ff45469e87a6b6385",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-049.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-049.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 50,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-050.json",
       "job_sha256": "96335c766e86ffb5eea9ac0e7bd7a5d2e668f17fa3978629ef271433c41b13f2",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-050.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-050.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 51,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-051.json",
       "job_sha256": "afea9ff37cd4171670302b45ec98ffbaccd48559e360239d88471c498545c28e",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-051.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-051.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 52,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-052.json",
       "job_sha256": "ba8e65d3713340fd12d58ea3c8ad24e3318c643e4fce5b3b91e6272b5054954d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-052.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-052.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 53,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-053.json",
       "job_sha256": "e865e5021c33948d59870106efd8499979352c149628dbaa3f48b317c1e15cd9",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-053.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-053.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 54,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-054.json",
       "job_sha256": "81020d8d13860977523c73671850d63ae37660f9f7c8d7f626c4578e8e4a3e66",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-054.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-054.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 55,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-055.json",
       "job_sha256": "beb1ce25afe51e53356fac1be8821874c3e28106a5a91f5e357565435cbd2201",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-055.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-055.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 56,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-056.json",
       "job_sha256": "b7798c3d21647c2054ef1e83ce94ac50b2110caaa4475c5dbfb0b54ad3f7f5ba",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-056.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-056.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 57,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-057.json",
       "job_sha256": "980ab70bc91fae0de999bce95188343758373971b9faed2fe5171d6c2b80baab",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-057.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-057.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 58,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-058.json",
       "job_sha256": "3f372618d6ef464a3ad2ddf79b8c95bfe0f4134bddbb49f1d59c8147b1cffb9e",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-058.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-058.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 59,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-059.json",
       "job_sha256": "0a844012c92ff6644c5bf077bb1b3fc5abcb1a737cebc3a7e811d87351875e0c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-059.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-059.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 60,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-060.json",
       "job_sha256": "178206b9c8b446a71ad96ac1f84d14661eb29c65330833188ceba19ffff0de77",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-060.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-060.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 61,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-061.json",
       "job_sha256": "68a7de42e328ff8f05e50e35b27596adff263d7c63383a329c88b9233015a94c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-061.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-061.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 62,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-062.json",
       "job_sha256": "4225611d0647d514985b17e978f80d743ff1a82b1d95071a4a57f5b88d33513e",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-062.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-062.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 63,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-063.json",
       "job_sha256": "db9df6eccfbb36db36655a69c26ae649368bbbee1c0b6081d1272c47c53e827e",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-063.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-063.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 64,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-064.json",
       "job_sha256": "e7a2ecd3397dc9c952a239a13e37c7799529620dfb167e71e97d817a321b9bd4",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-064.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-064.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 65,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-065.json",
       "job_sha256": "0746f77e44544870dd20af3d5628f54d9a69be641b0d039d4067aa2b9c396ffb",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-065.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-065.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 66,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-066.json",
       "job_sha256": "3258d4a569d9a871a1cbb0755a56a8d95f51905b6a06ad1ac8305adc497e9312",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-066.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-066.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 67,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-067.json",
       "job_sha256": "fdc6836131f3195bca7e4f0e2f2de86c9d2ef2e110e8ed8d0a6254afc46b394d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-067.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-067.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 68,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-068.json",
       "job_sha256": "921c1176c3f0f6ed51e73879ec474036b3dc97c6cf8b27bed234a64d7e4a6c7e",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-068.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-068.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 69,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-069.json",
       "job_sha256": "9946730ed3c3f8da2c722d9168e04f508e3aa19fe81001242722ae42b7e7bd09",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-069.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-069.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 70,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-070.json",
       "job_sha256": "446997cedede6af0750fba4d2ce2d7f6841732a35fa9f31adbfa75393aff8ed5",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-070.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-070.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 71,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-071.json",
       "job_sha256": "bda5cc8568425852ea6a723cef4dfb2693918083442ee2807c1901e9cfb03244",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-071.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-071.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 72,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-072.json",
       "job_sha256": "dc9934cc162ff5ed5fa8d98d85bc27b3b72873a2ff149d2e32f8770e9175ca3c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-072.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-072.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 73,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-073.json",
       "job_sha256": "07d553afc0d3f34a40628eabd7cd4a859212912d9ce53ea32ac85ce6509421db",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-073.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-073.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 74,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-074.json",
       "job_sha256": "06064dba0def56754df16c61e4c5c2cfc3c557c821d6c2e30864d561782e6178",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-074.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-074.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 75,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-075.json",
       "job_sha256": "6296d5bdb7e9c8f927818c60f6541416f311cf51868408f07186b5cb995a39ec",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-075.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-075.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 76,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-076.json",
       "job_sha256": "aa635180c1794eaba311bb7156fa7807e2ef0c25f93f6618ec2508a18ff03855",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-076.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-076.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 77,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-077.json",
       "job_sha256": "3ede122ee09c220a8da269fd23b2ecf0d4619a30ee4ad738addcde3bf95a51b0",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-077.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-077.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 78,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-078.json",
       "job_sha256": "97a90b13e482f07e53c94fca38b277fb1b447a7dffd503da7c6f29b5dfa1aa0e",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-078.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-078.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 79,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-079.json",
       "job_sha256": "476b27d256894eedc6ec3f107fd784ecd2a5d9fae74f1bb884676c9fc5111247",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-079.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-079.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 80,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-080.json",
       "job_sha256": "f6b47e50476ee3023d323360ea6adc67646d71de92a4458df3098421a0a4a612",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-080.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-080.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 81,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-081.json",
       "job_sha256": "546a57400b41ab6806fe2504fa5e082a1b555a1082383b69c196a98d73665c4b",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-081.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-081.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 82,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-082.json",
       "job_sha256": "a4f76eb400e108f47bde2cb5de7037e7d69155321614d589e8bbf792aaaae76d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-082.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-082.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 83,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-083.json",
       "job_sha256": "73092ece6b6de361544e701de54cb476b1d80e7ece56128a1ba83f7788cc9de2",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-083.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-083.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 84,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-084.json",
       "job_sha256": "4af708e892df7da366293ddd999c3b0957d86067dfdf1d2a5d2a9062c7116ca5",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-084.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-084.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 85,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-085.json",
       "job_sha256": "724341cb717eedce053c51c41c32ed424d4d4b3d4af493624088ddb692b54ba9",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-085.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-085.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 86,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-086.json",
       "job_sha256": "58ce3476937038254a07951cd64424fb28e6ccffe187b4a03cd85cdec3e1fe25",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-086.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-086.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 87,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-087.json",
       "job_sha256": "dd1b667e4f59c20335579fb3d7d6c690c940982540d321738b1737473ab41dd4",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-087.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-087.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 88,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-088.json",
       "job_sha256": "e16e1c2ee3d697fc1ebca2f64604420aa6632dea560687aa84aa8aa03a23257b",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-088.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-088.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 89,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-089.json",
       "job_sha256": "423946b13a351496db069665d51557d96db147840c8a77fb4538410bfb0baffd",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-089.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-089.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 90,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-090.json",
       "job_sha256": "c8379df44d1a495b3fc6ddf37d05fbca01e35ab404e5b31bf11bc2a52fc4a256",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-090.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-090.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 91,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-091.json",
       "job_sha256": "38243e6a90442720194b5ea23d7e94eb2bdabaed9b73646736f2a58f2d1f6a42",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-091.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-091.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 92,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-092.json",
       "job_sha256": "8e5aa55139162eeb0db497155cbcadff06a7ea8a7578623d89ca6b6bd7d34092",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-092.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-092.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 93,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-093.json",
       "job_sha256": "2cfb307fc51c2a27e8507690fca18000dcd01f1735943364616aa3ddf5596435",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-093.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-093.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 94,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-094.json",
       "job_sha256": "961b9769946407cc0f553c9f6204b7d2d50a033c19f7ad037716c70a6172ca12",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-094.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-094.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 95,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-095.json",
       "job_sha256": "dab730080fad46a484ce0c99119a6141b6f595e374931e8cc34ba5ef3d598dd7",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-095.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-095.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 96,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-096.json",
       "job_sha256": "9db95862e6a257539290714a0770b6e73e65e9a6c2bf92a17f179d7a8255dfc4",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-096.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-096.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 97,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-097.json",
       "job_sha256": "807d1744c7b694f070928ec2ad0ffecb9a5010e73e3ea7eb9e8652ab9ffd518f",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-097.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-097.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 98,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-098.json",
       "job_sha256": "16f4274ba04a2359f7d500e340bfc3fe11a393f321d9874a0449876b169688a3",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-098.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-098.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 99,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-099.json",
       "job_sha256": "06548403ccc9a8f9cdebdb26bbb4d17b87ca8322712b3d3773aa1d71d44f3b01",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-099.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-099.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 100,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-100.json",
       "job_sha256": "b4d16c37585d84b28ab7e1044b08c755439cd0d6dca84b01347d852d7a48bcd1",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-100.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-100.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 101,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-101.json",
       "job_sha256": "4406c7821253f43b913b6d42cab62c6edc2f3e7dbef179484e56a6cf8a048f24",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-101.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-101.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 102,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-102.json",
       "job_sha256": "3f37435005cafb1f9b9bd154946a131189771d64f7e6c6767fafbd0174af0375",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-102.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-102.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 103,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-103.json",
       "job_sha256": "3411630ed524f2f7f34ef859b1f9cfc1ffaa9b34f00faaf25c79f67a669f7437",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-103.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-103.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 104,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-104.json",
       "job_sha256": "ab7fadba452791f3231b810b029e58a81a562278136ae637bc32568675a98cac",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-104.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-104.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 105,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-105.json",
       "job_sha256": "ec6498fa706db0a58d055345f448b7a802302c839fc900aa3916841920a2cda3",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-105.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-105.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 106,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-106.json",
       "job_sha256": "258ee7b51b729ad80fcf0b638d92a0e734993bba668da2a8b5a52950353b2070",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-106.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-106.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 107,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-107.json",
       "job_sha256": "346e0d06dcecab328a4882d2fe6d3da9b6734efc4d9fbf15f70ac4005ce53b16",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-107.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-107.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 108,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-108.json",
       "job_sha256": "0a74efe334ccac6deb106ab36579f73ae870cce8da216d9599f0ad3cc726e2dc",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-108.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-108.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 109,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-109.json",
       "job_sha256": "be66a24a2d0a6faffaae2ad8dc455db8977bd8bad48e67b6ba6a5f6ce05effd8",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-109.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-109.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 110,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-110.json",
       "job_sha256": "481ccb90c53949f5392f94b25e05fdb9aaf06bd8acef962481eb8cd95067afdd",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-110.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-110.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 111,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-111.json",
       "job_sha256": "0e2827ff5f0d400c8f8dc83abd30610214a0faf30ec894158ae465197222c1d0",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-111.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-111.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 112,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-112.json",
       "job_sha256": "bd157323d9ed340b4678a17dc16e41322313ebca9ae62c5eae6b9925c7aec9ab",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-112.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-112.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 113,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-113.json",
       "job_sha256": "8ca6f9c41cd79a560b8c8f2b012175d550afcb6b3b5552be29c184abaea7a012",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-113.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-113.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 114,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-114.json",
       "job_sha256": "933f207232ae6ddea1091d6d9140e29f17841020b71c536350786cdc1c34c31d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-114.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-114.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 115,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-115.json",
       "job_sha256": "4d6f3b9e69978365965b766ccc6878c305ef7cf49e52a94ca3e4f056d5a8a42a",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-115.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-115.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 116,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-116.json",
       "job_sha256": "1da57fa0a02cb26eeeb02a21bb27bbb896aa0f1bc4be8952d65f69216ab57b3e",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-116.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-116.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 117,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-117.json",
       "job_sha256": "0c83fc1be4c7803676cbe51e5ee5a45893d3c18c65e6e99233d6269cb92f50fa",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-117.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-117.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 118,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-118.json",
       "job_sha256": "65b1a74c87fb21d69f487caf56769fd40f5c105cb6006cd09c2f7c90abf52d9d",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-118.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-118.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 119,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-119.json",
       "job_sha256": "bb622f14e04b5807721ec6ee64bd97d6e304fb8a6c816df4b5156dae5da0584a",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-119.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-119.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 120,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-120.json",
       "job_sha256": "0171309d71e0c82c5856323a90e5a767909b8f3e6913ada93eb95ef1ff947f0a",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-120.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-120.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 121,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-121.json",
       "job_sha256": "c753eca6fdeb064178c6ed24ac9f791fcf80108723e53a0e588a5eb2cafc8ff6",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-121.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-121.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 122,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-122.json",
       "job_sha256": "aa18372420619b344b36e0b81552fbdcd3cb6d075f9ae54fc51c3f5c79362753",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-122.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-122.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 123,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-123.json",
       "job_sha256": "851fa3055a2954ac6c56b490e88468e0f24ace1fa38b0d9b9e7ed90c2eb39545",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-123.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-123.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 124,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-124.json",
       "job_sha256": "38355fa31129358f25b6bec48f5558796c4d068e66d667e7f2eebbff0acb5f4c",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-124.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-124.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 125,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-125.json",
       "job_sha256": "9ea4e684cce64f88251cf91e6bcc4bf3ef75759940b3d7ceb4d7a62a81439998",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-125.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-125.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 126,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-126.json",
       "job_sha256": "256b4c8d5b2e1413e5749094585d00ec0c9e6503b4ba53a5255695dc28884f50",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-126.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-126.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 127,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-127.json",
       "job_sha256": "87ccda54979200568e445bd4bd8b102941781f123cbd5e27ab51344da53b7180",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-127.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-127.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 128,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-128.json",
       "job_sha256": "442b8f45ee1aa46c6cda1fe0786a506fa9c0cfae582b56bb2f24b01e3343c805",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-128.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-128.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 129,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-129.json",
       "job_sha256": "b2c5f6e4b8cc97045ceefe2a3258d94ac587c8d9f4f88ceebb7a3977f42dcb55",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-129.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-129.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 130,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-130.json",
       "job_sha256": "fdf9a1d288f9c6475836a93d54e165e89c6873e27f5538fcd0e944d8f6072172",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-130.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-130.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     },
     {
       "number": 131,
       "method": "h3_12_step",
       "job": "episodes/006-shortest-war-ever/automation/jobs/clip-131.json",
       "job_sha256": "a630e279ffeedf0706df0c299d9570071411197ae67b18e1cf9810973cde2b6b",
-      "status": "prepared_not_launched",
-      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-131.json"
+      "status": "submitted_unreviewed",
+      "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-131.json",
+      "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c"
     }
   ],
   "preview_batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
   "preview_status": "stopped_by_user",
-  "production_manifest": "episodes/006-shortest-war-ever/automation/batches/production-12step-r004/manifest.json"
+  "production_manifest": "episodes/006-shortest-war-ever/automation/batches/production-12step-r004/manifest.json",
+  "production_batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c",
+  "production_status": "running"
 }

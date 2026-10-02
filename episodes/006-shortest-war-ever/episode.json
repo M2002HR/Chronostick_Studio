@@ -37,7 +37,7 @@
   "accepted_timing_map": "timestamps/timing-map.json",
   "picture_master": null,
   "distribution_master": null,
-  "next_action": "User cancelled four-step preview and explicitly authorized all131 twelve-step jobs without preview review. Launch the frozen12-step batch, then review actual candidates before selection or finishing.",
+  "next_action": "Complete twelve-step batch is running in persistent background service. Review all131 generated clips when complete; no automatic assembly or upscale.",
   "generation_steps": 12,
   "generation_step_authority": "explicit user instruction 2026-10-02",
   "voice_duration_seconds": 651.389388,
@@ -64,7 +64,8 @@
     "job_count": 131,
     "revision": 4,
     "manifest": "automation/batches/production-12step-r004/manifest.json",
-    "status": "prepared_not_launched",
-    "batch_id": null
+    "status": "running",
+    "batch_id": "f2ed5f96-6091-458b-bcab-9a2315ccd83c",
+    "started_verified_at": "2026-10-02T15:27:55.049343+00:00"
   }
 }
