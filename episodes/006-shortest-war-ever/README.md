@@ -1,3 +1,7 @@
+# Current execution update
+
+The user stopped the four-step pass and explicitly requested the complete131-slot12-step production pass without waiting for preview review. The preview is terminal (two clips completed; the others were cancelled/interrupted), and the GPU queue was confirmed empty. Existing preview media is preserved. The current package is `automation/batches/production-12step-r004/manifest.json`:12 steps,Lightning false,1024×576,24fps, revision004, no automatic concat/upscale. Actual clip review still follows generation. The earlier preview-first narrative below is superseded by this instruction.
+
 # 006 — The Shortest War EVER
 
 ## Current production state

@@ -6,7 +6,7 @@
   "h3_preview_4step_count": 131,
   "other_video_methods_count": 0,
   "note": "All picture remains H3-only. New four-step concept package is isolated and frozen. Revised 12-step jobs have not been launched.",
-  "production_gate": "awaiting_full_preview_review",
+  "production_gate": "explicit_user_authorized_full_twelve_step_generation",
   "preview_manifest": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/manifest.json",
   "superseded_pilot_batch": "a8fd33bf-eb25-4f44-b36f-b18b6c8e0a7b",
   "slots": [
@@ -1060,5 +1060,6 @@
     }
   ],
   "preview_batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
-  "preview_status": "running"
+  "preview_status": "stopped_by_user",
+  "production_manifest": "episodes/006-shortest-war-ever/automation/batches/production-12step-r004/manifest.json"
 }

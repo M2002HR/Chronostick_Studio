@@ -37,7 +37,7 @@
   "accepted_timing_map": "timestamps/timing-map.json",
   "picture_master": null,
   "distribution_master": null,
-  "next_action": "Background 131-clip 4-step Lightning preview is running. After completion, review every output and repair failed slots before the later 12-step decision; do not automatically launch final production.",
+  "next_action": "User cancelled four-step preview and explicitly authorized all131 twelve-step jobs without preview review. Launch the frozen12-step batch, then review actual candidates before selection or finishing.",
   "generation_steps": 12,
   "generation_step_authority": "explicit user instruction 2026-10-02",
   "voice_duration_seconds": 651.389388,
@@ -51,10 +51,20 @@
     "width": 1024,
     "height": 576,
     "job_count": 131,
-    "status": "running",
+    "status": "stopped_by_user",
     "manifest": "automation/batches/preview-4step-r001/manifest.json",
     "batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
     "stop_after_start": true,
-    "started_verified_at": "2026-10-02T15:11:57.609188+00:00"
+    "started_verified_at": "2026-10-02T15:11:57.609188+00:00",
+    "service_terminal_status": "failed"
+  },
+  "production_batch": {
+    "steps": 12,
+    "lightning": false,
+    "job_count": 131,
+    "revision": 4,
+    "manifest": "automation/batches/production-12step-r004/manifest.json",
+    "status": "prepared_not_launched",
+    "batch_id": null
   }
 }

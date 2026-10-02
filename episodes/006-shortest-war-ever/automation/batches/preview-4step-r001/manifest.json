@@ -4,7 +4,7 @@
   "revision": 1,
   "authorization": "User explicitly requested all clips as a background 4-step preview on 2026-10-02; stop after verifying start. Later 12-step production requires preview review.",
   "purpose": "concept and major prompt/reference defect review; no production-quality approval",
-  "status": "running",
+  "status": "failed",
   "batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
   "job_count": 131,
   "generation": {
@@ -2270,5 +2270,6 @@
   ],
   "submitted_at": "2026-10-02T15:10:01.624147+00:00",
   "watcher_pid": 980429,
-  "started_verified_at": "2026-10-02T15:11:57.609188+00:00"
+  "started_verified_at": "2026-10-02T15:11:57.609188+00:00",
+  "superseded_by": "episodes/006-shortest-war-ever/automation/batches/production-12step-r004/manifest.json"
 }
