@@ -1,0 +1,29 @@
+{
+  "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
+  "started_verified_at": "2026-10-02T19:50:54.940150+00:00",
+  "service_status": "running",
+  "job_count": 117,
+  "child_status_counts": {
+    "queued": 116,
+    "running": 1
+  },
+  "generation": {
+    "steps": 12,
+    "lightning": false,
+    "width": 1024,
+    "height": 576
+  },
+  "active_jobs": [
+    {
+      "id": "6b6b1f41-e9af-4649-bde0-85c4d598bbd3",
+      "identity": "006-shortest-war-ever:clip-004:r005",
+      "comfy_prompt_id": "c811706f-b9a4-43d4-9252-bdf7bb600450",
+      "stage": "sampling",
+      "progress": 41.66666666666667
+    }
+  ],
+  "comfy_queue_running_count": 1,
+  "comfy_queue_pending_count": 0,
+  "map_references_in_h3": 0,
+  "watcher_recovery": "Initial receipt persisted before a response-shape error; read-only --resume reconnected the same batch without another submission."
+}

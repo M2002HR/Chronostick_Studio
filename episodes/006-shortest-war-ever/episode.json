@@ -37,7 +37,7 @@
   "accepted_timing_map": "timestamps/timing-map.json",
   "picture_master": null,
   "distribution_master": null,
-  "next_action": "Run all117 remaining H3 candidates at12steps, then review actual renders before picture selection.",
+  "next_action": "Allow117 queued twelve-step jobs to finish in persistent service; then review all129 H3 candidates alongside the two approved controlled maps before selection.",
   "generation_steps": 12,
   "generation_step_authority": "explicit user instruction 2026-10-02",
   "voice_duration_seconds": 651.389388,
@@ -104,7 +104,8 @@
     "job_count": 117,
     "revision": 5,
     "manifest": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/manifest.json",
-    "status": "prepared_not_launched",
-    "batch_id": null
+    "status": "running",
+    "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
+    "started_verified_at": "2026-10-02T19:50:54.940150+00:00"
   }
 }

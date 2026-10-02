@@ -257,8 +257,8 @@
         "automation/batches/preview-4step-r001/preflight.json"
       ],
       "approved_by": null,
-      "decision_notes": "Generation candidates authorized by user before pilot/final-picture approval; revised full planning and live preflight records are required. Actual H3 candidates remain unreviewed.",
-      "next_action": "Complete remaining generation and actual clip QC.",
+      "decision_notes": "Entire remaining117-job folder passed live-service dry-run; full131-slot coverage includes12 retained unreviewed candidates and2 actually reviewed zero-person map inserts. Submitted once; GPU start verified. Final-picture/pilot approval is not inferred.",
+      "next_action": "Complete generation, then actual motion/audio review.",
       "previous_review": {
         "status": "validated",
         "approved_by": null,
@@ -290,7 +290,7 @@
       ],
       "approved_by": null,
       "decision_notes": "Batch stopped at user request because map scenes are unsatisfactory. Replacement direction is pending; existing completed clips remain unreviewed candidates.",
-      "next_action": "Review actual clips and approve one immutable candidate per131 slots before assembly.",
+      "next_action": "Review actual12-step H3 candidates after batch completion; select one approved artifact per131 slots.",
       "previous_review": {
         "status": "missing",
         "approved_by": null,
@@ -345,7 +345,8 @@
     "job_count": 117,
     "revision": 5,
     "manifest": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/manifest.json",
-    "status": "prepared_not_launched",
-    "batch_id": null
+    "status": "running",
+    "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
+    "started_verified_at": "2026-10-02T19:50:54.940150+00:00"
   }
 }

@@ -4,8 +4,8 @@
   "revision": 5,
   "authorization": "User explicitly requested a better map method with no people on maps and continuation of the entire remaining batch at the previously requested 12 steps.",
   "purpose": "Complete remaining12-step generation with26 physical map replacements and2 pre-rendered controlled maps",
-  "status": "prepared_not_launched",
-  "batch_id": null,
+  "status": "running",
+  "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
   "job_count": 117,
   "generation": {
     "steps": 12,
@@ -3053,5 +3053,13 @@
   ],
   "retained_candidate_count": 12,
   "controlled_map_count": 2,
-  "final_picture_approved": false
+  "final_picture_approved": false,
+  "submitted_at": "2026-10-02T19:48:10.135843+00:00",
+  "watcher_pid": 1535464,
+  "watcher_reconnected_at": "2026-10-02T19:50:17.600666+00:00",
+  "last_progress_at": "2026-10-02T19:51:47.929060+00:00",
+  "child_status_counts": {
+    "queued": 116,
+    "running": 1
+  }
 }

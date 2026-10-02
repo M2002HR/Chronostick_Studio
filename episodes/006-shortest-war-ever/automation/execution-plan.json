@@ -6,10 +6,10 @@
   "h3_preview_4step_count": 0,
   "other_video_methods_count": 2,
   "note": "User requested12steps without4step pass. Retain12 completed non-map candidates; render117 remaining. Only014/118 use controlled geography with zero people.",
-  "production_gate": "complete_remaining_live_preflight_required",
+  "production_gate": "passed_full_remaining_live_preflight",
   "production_manifest": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/manifest.json",
-  "production_batch_id": null,
-  "production_status": "prepared_not_launched",
+  "production_batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
+  "production_status": "running",
   "slots": [
     {
       "number": 1,
@@ -65,9 +65,10 @@
     {
       "number": 4,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-004.json",
-      "job_sha256": "8823773a802702713d8758bd26dc3caa7c8a08d8709970e77aa16dee3c2db327"
+      "job_sha256": "8823773a802702713d8758bd26dc3caa7c8a08d8709970e77aa16dee3c2db327",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 5,
@@ -106,9 +107,10 @@
     {
       "number": 7,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-007.json",
-      "job_sha256": "af84ee7311a681896a2b79778edba9bf30474da89054ba3d8210192a478cba5b"
+      "job_sha256": "af84ee7311a681896a2b79778edba9bf30474da89054ba3d8210192a478cba5b",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 8,
@@ -181,16 +183,18 @@
     {
       "number": 12,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-012.json",
-      "job_sha256": "8167677a4dfb60c6a36c80b032cccde0115034d45f8b3212828ef7bfb52bb420"
+      "job_sha256": "8167677a4dfb60c6a36c80b032cccde0115034d45f8b3212828ef7bfb52bb420",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 13,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-013.json",
-      "job_sha256": "4a54452ae53c223974e98d3521f33a1df2234f242471fef368eecb6793b21c88"
+      "job_sha256": "4a54452ae53c223974e98d3521f33a1df2234f242471fef368eecb6793b21c88",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 14,
@@ -219,16 +223,18 @@
     {
       "number": 16,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-016.json",
-      "job_sha256": "6523a21303393c81aacea01bf9d247f2cf919cde09b7e23580d2653e246f78d7"
+      "job_sha256": "6523a21303393c81aacea01bf9d247f2cf919cde09b7e23580d2653e246f78d7",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 17,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-017.json",
-      "job_sha256": "fe231fa8740a38af45522fd18042c8b106a2e1a578cfad3ba476fd05809b0d6d"
+      "job_sha256": "fe231fa8740a38af45522fd18042c8b106a2e1a578cfad3ba476fd05809b0d6d",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 18,
@@ -267,688 +273,786 @@
     {
       "number": 20,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-020.json",
-      "job_sha256": "770797715e2100eaf241434a7a8618ce125ded1059efddd88e384220d04da120"
+      "job_sha256": "770797715e2100eaf241434a7a8618ce125ded1059efddd88e384220d04da120",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 21,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-021.json",
-      "job_sha256": "fc486860a14de79e3ff65578f2ebffeddeca11701ecd2b9e19a16d74af58f7ca"
+      "job_sha256": "fc486860a14de79e3ff65578f2ebffeddeca11701ecd2b9e19a16d74af58f7ca",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 22,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-022.json",
-      "job_sha256": "ae2b94e21252012c9dee2998d7ba8ca4ebc294b8b61700b92c5f51b1ec6a6240"
+      "job_sha256": "ae2b94e21252012c9dee2998d7ba8ca4ebc294b8b61700b92c5f51b1ec6a6240",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 23,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-023.json",
-      "job_sha256": "bcfa01c1eedd6a649211bf5df6b75b2872880a38f98e1403779c0bd33ef32815"
+      "job_sha256": "bcfa01c1eedd6a649211bf5df6b75b2872880a38f98e1403779c0bd33ef32815",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 24,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-024.json",
-      "job_sha256": "e6db3685af0d4c248f1dc9741a0618e818b187904a7b446f9313e9026a28d95e"
+      "job_sha256": "e6db3685af0d4c248f1dc9741a0618e818b187904a7b446f9313e9026a28d95e",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 25,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-025.json",
-      "job_sha256": "8c0e403bb6d51fcf7b10b010fe2d9b2f0790e5fe4aa074dcea9ffff7f3076b47"
+      "job_sha256": "8c0e403bb6d51fcf7b10b010fe2d9b2f0790e5fe4aa074dcea9ffff7f3076b47",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 26,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-026.json",
-      "job_sha256": "bdaa498c10e3151280f731712d5cbe22e77336e1e1596b7ce88f294c23223bc8"
+      "job_sha256": "bdaa498c10e3151280f731712d5cbe22e77336e1e1596b7ce88f294c23223bc8",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 27,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-027.json",
-      "job_sha256": "3cd701ad4745d4d3f4738920e3695e9e05a08c7dcd39478ab440501551cd6ac6"
+      "job_sha256": "3cd701ad4745d4d3f4738920e3695e9e05a08c7dcd39478ab440501551cd6ac6",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 28,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-028.json",
-      "job_sha256": "9a1655434e72c31da6a23d84e1ba718bb6cb63d56b37d46505aaa99eb32c03a9"
+      "job_sha256": "9a1655434e72c31da6a23d84e1ba718bb6cb63d56b37d46505aaa99eb32c03a9",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 29,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-029.json",
-      "job_sha256": "c43d71dcbc50a7f60dc49164b1f3afd8607dd2456cfdac61e15c1318bfd07643"
+      "job_sha256": "c43d71dcbc50a7f60dc49164b1f3afd8607dd2456cfdac61e15c1318bfd07643",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 30,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-030.json",
-      "job_sha256": "1bc5f0079d4c4898e4002080bfcd792cc223d445cfb1a7b0cb65ee64e55bc1fb"
+      "job_sha256": "1bc5f0079d4c4898e4002080bfcd792cc223d445cfb1a7b0cb65ee64e55bc1fb",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 31,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-031.json",
-      "job_sha256": "c140e1206866ae5785b5a06f8b7fceb8f85c512790ad2bbe9f50db2f246d3f41"
+      "job_sha256": "c140e1206866ae5785b5a06f8b7fceb8f85c512790ad2bbe9f50db2f246d3f41",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 32,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-032.json",
-      "job_sha256": "dbbdb40ec762362c3593c529a1a28ca27b53d1f4263082276b931449836a676b"
+      "job_sha256": "dbbdb40ec762362c3593c529a1a28ca27b53d1f4263082276b931449836a676b",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 33,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-033.json",
-      "job_sha256": "e4a1f9c43793a2ccaa3d0a8ddcb80f8c1ee7e00d6ac55e39bd2f7b161b0ac90f"
+      "job_sha256": "e4a1f9c43793a2ccaa3d0a8ddcb80f8c1ee7e00d6ac55e39bd2f7b161b0ac90f",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 34,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-034.json",
-      "job_sha256": "fce61ecf996273e64b74c25f2d11e4df73a2cdb8466950a8c1484af47a7fda0e"
+      "job_sha256": "fce61ecf996273e64b74c25f2d11e4df73a2cdb8466950a8c1484af47a7fda0e",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 35,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-035.json",
-      "job_sha256": "c24620137253b504b4e62228b3b93d7ce8bea32895f26b08ba95228018227006"
+      "job_sha256": "c24620137253b504b4e62228b3b93d7ce8bea32895f26b08ba95228018227006",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 36,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-036.json",
-      "job_sha256": "1a7adad274a6e36362185360bd8f950607134a24e7fc5667cb557122a5298875"
+      "job_sha256": "1a7adad274a6e36362185360bd8f950607134a24e7fc5667cb557122a5298875",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 37,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-037.json",
-      "job_sha256": "e190e51ae0b8f1bd67f170606117b8aa757a7e6caa7fb38e1724ec782fb35153"
+      "job_sha256": "e190e51ae0b8f1bd67f170606117b8aa757a7e6caa7fb38e1724ec782fb35153",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 38,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-038.json",
-      "job_sha256": "ea635f1f1755935aecf541e6820a004f6abb5f4a615251ea7cac7473ef6e37db"
+      "job_sha256": "ea635f1f1755935aecf541e6820a004f6abb5f4a615251ea7cac7473ef6e37db",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 39,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-039.json",
-      "job_sha256": "6d0b0f9131311e2003ae60a7baded7cc32ceb9552712dab090fb754cc81e32cf"
+      "job_sha256": "6d0b0f9131311e2003ae60a7baded7cc32ceb9552712dab090fb754cc81e32cf",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 40,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-040.json",
-      "job_sha256": "efc6cfe43ec263cbcd9ddc403ee6aa7a8870c5f54b200d8138914287bedc8132"
+      "job_sha256": "efc6cfe43ec263cbcd9ddc403ee6aa7a8870c5f54b200d8138914287bedc8132",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 41,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-041.json",
-      "job_sha256": "18674e5fedfdb90cd19e4d66a169106bc96beb6d77f443760f54f40662f8583d"
+      "job_sha256": "18674e5fedfdb90cd19e4d66a169106bc96beb6d77f443760f54f40662f8583d",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 42,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-042.json",
-      "job_sha256": "bfa8c577583b6858bc5d4ff85b601ce7bcd2407f551df18fc9ca0548be3db6ee"
+      "job_sha256": "bfa8c577583b6858bc5d4ff85b601ce7bcd2407f551df18fc9ca0548be3db6ee",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 43,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-043.json",
-      "job_sha256": "4c6b22dd9d555e86eb7aef0eb6f6afebb62f68d6321a69bab7687299ddcfda69"
+      "job_sha256": "4c6b22dd9d555e86eb7aef0eb6f6afebb62f68d6321a69bab7687299ddcfda69",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 44,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-044.json",
-      "job_sha256": "61cfdc4a095d32b692b371533be14166a7263a3b64f51fac7f34e5cef9eb67bc"
+      "job_sha256": "61cfdc4a095d32b692b371533be14166a7263a3b64f51fac7f34e5cef9eb67bc",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 45,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-045.json",
-      "job_sha256": "07b16e8fb0668f4398aa7baafd8ad55db94c43edf591b7851d79e1e5770ee7fd"
+      "job_sha256": "07b16e8fb0668f4398aa7baafd8ad55db94c43edf591b7851d79e1e5770ee7fd",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 46,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-046.json",
-      "job_sha256": "8a7a9fb32c2fa92c140522d157e3c091dacb0be57246879154da09a01dea8c07"
+      "job_sha256": "8a7a9fb32c2fa92c140522d157e3c091dacb0be57246879154da09a01dea8c07",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 47,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-047.json",
-      "job_sha256": "4b9b692c4afd0d9a79992ec5e68fc10dd5925d45d44eda41922860f5ced9cc62"
+      "job_sha256": "4b9b692c4afd0d9a79992ec5e68fc10dd5925d45d44eda41922860f5ced9cc62",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 48,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-048.json",
-      "job_sha256": "fdc3677674b9de93b6fcf805756611c2aff57da1371d7240218a037ee67998c1"
+      "job_sha256": "fdc3677674b9de93b6fcf805756611c2aff57da1371d7240218a037ee67998c1",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 49,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-049.json",
-      "job_sha256": "7a055266b53b8ec4eb4879e9921f003fe5f3a204f62537ec8382d04f01509a21"
+      "job_sha256": "7a055266b53b8ec4eb4879e9921f003fe5f3a204f62537ec8382d04f01509a21",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 50,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-050.json",
-      "job_sha256": "1c9ad9948396a0687356c6363e6c2c4b4a4f25ba2243180660842fb5986ab7fb"
+      "job_sha256": "1c9ad9948396a0687356c6363e6c2c4b4a4f25ba2243180660842fb5986ab7fb",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 51,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-051.json",
-      "job_sha256": "d25aac0af1a91a3085c255054672cdca6e2c82eeb3f8115268daafdd97e623d9"
+      "job_sha256": "d25aac0af1a91a3085c255054672cdca6e2c82eeb3f8115268daafdd97e623d9",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 52,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-052.json",
-      "job_sha256": "5147928231dcf08bb901b44750d77d187d1baf77f6d503c60f4f26ae399c6770"
+      "job_sha256": "5147928231dcf08bb901b44750d77d187d1baf77f6d503c60f4f26ae399c6770",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 53,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-053.json",
-      "job_sha256": "f98adf0f402a25160e56ef1071f400b2a7498192bacff4e1e5ad6aeca32a4d11"
+      "job_sha256": "f98adf0f402a25160e56ef1071f400b2a7498192bacff4e1e5ad6aeca32a4d11",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 54,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-054.json",
-      "job_sha256": "2a9df554165a71d25fdd0322147970c2ac569b650f2a6d1e276c9a47f8f45e0a"
+      "job_sha256": "2a9df554165a71d25fdd0322147970c2ac569b650f2a6d1e276c9a47f8f45e0a",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 55,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-055.json",
-      "job_sha256": "86cc23b457d2645dd37e413aeee87503a8fd9ff259120c3a42d3da1b76068acb"
+      "job_sha256": "86cc23b457d2645dd37e413aeee87503a8fd9ff259120c3a42d3da1b76068acb",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 56,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-056.json",
-      "job_sha256": "95d7f9dbc219a539276c04056bf426bcefc7593a013bfc0675d145a05b693a07"
+      "job_sha256": "95d7f9dbc219a539276c04056bf426bcefc7593a013bfc0675d145a05b693a07",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 57,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-057.json",
-      "job_sha256": "982f791471164c41aa31e0207ff51208261b2f19657bebbc83cef2c5f980dbde"
+      "job_sha256": "982f791471164c41aa31e0207ff51208261b2f19657bebbc83cef2c5f980dbde",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 58,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-058.json",
-      "job_sha256": "0971f77bbdd09b3613e511e633b27980b2afb5e98c1a637fe3397e0e493affbc"
+      "job_sha256": "0971f77bbdd09b3613e511e633b27980b2afb5e98c1a637fe3397e0e493affbc",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 59,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-059.json",
-      "job_sha256": "47182b815ebbf36a3e9d010ac55b5c74265283f7d5557ab6521625b915d05ef3"
+      "job_sha256": "47182b815ebbf36a3e9d010ac55b5c74265283f7d5557ab6521625b915d05ef3",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 60,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-060.json",
-      "job_sha256": "ef0258090dbeb74baaac806e87d35e3c3f8abfa517c97d1199097f0ff7627a51"
+      "job_sha256": "ef0258090dbeb74baaac806e87d35e3c3f8abfa517c97d1199097f0ff7627a51",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 61,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-061.json",
-      "job_sha256": "2027daf457c34da11ebfaedb1b771de483924ae68450a77b7d4158828e7d3552"
+      "job_sha256": "2027daf457c34da11ebfaedb1b771de483924ae68450a77b7d4158828e7d3552",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 62,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-062.json",
-      "job_sha256": "bb5035691f8b08b6849bcfbf30022bcb678bff90a460f3d1a7c9fee738fc5091"
+      "job_sha256": "bb5035691f8b08b6849bcfbf30022bcb678bff90a460f3d1a7c9fee738fc5091",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 63,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-063.json",
-      "job_sha256": "0990792445c29e30a943e111e89ca4074d36c10f603e55abd05f996780846134"
+      "job_sha256": "0990792445c29e30a943e111e89ca4074d36c10f603e55abd05f996780846134",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 64,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-064.json",
-      "job_sha256": "62b39fa1b81442c22668ffb5d6da07d7eaaa39b37d58766e40297a332e38e38f"
+      "job_sha256": "62b39fa1b81442c22668ffb5d6da07d7eaaa39b37d58766e40297a332e38e38f",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 65,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-065.json",
-      "job_sha256": "c95dd37f808189a0301fd340b8f07208b1a5abf4c2e970bdb4ecab31d6d48d1b"
+      "job_sha256": "c95dd37f808189a0301fd340b8f07208b1a5abf4c2e970bdb4ecab31d6d48d1b",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 66,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-066.json",
-      "job_sha256": "6bf92a22eddad8f2273755e9ece51198a3d0aa7073f0dd7f57c4b1272f473172"
+      "job_sha256": "6bf92a22eddad8f2273755e9ece51198a3d0aa7073f0dd7f57c4b1272f473172",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 67,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-067.json",
-      "job_sha256": "6283968747f35b25e7d9b4655bb92ebf43440ce0b5eb77a19783164e0955b239"
+      "job_sha256": "6283968747f35b25e7d9b4655bb92ebf43440ce0b5eb77a19783164e0955b239",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 68,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-068.json",
-      "job_sha256": "9d0eba35a49097b106f7ec9290a7caa23c9d69b49d92b8f31561ce6dfef5e8b1"
+      "job_sha256": "9d0eba35a49097b106f7ec9290a7caa23c9d69b49d92b8f31561ce6dfef5e8b1",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 69,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-069.json",
-      "job_sha256": "5f4b51f16f6a69ae7c3fff273c3d0961f81cebe7fbcd910c40c44584e2dbf00d"
+      "job_sha256": "5f4b51f16f6a69ae7c3fff273c3d0961f81cebe7fbcd910c40c44584e2dbf00d",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 70,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-070.json",
-      "job_sha256": "6a8cf4a103e9300cae158db82bcb927a443dee41af58f54107f3f0c67b367df3"
+      "job_sha256": "6a8cf4a103e9300cae158db82bcb927a443dee41af58f54107f3f0c67b367df3",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 71,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-071.json",
-      "job_sha256": "4f0e3c14168280be971657fa225d3907bb8e874586644660bcaf9c3b15ddd914"
+      "job_sha256": "4f0e3c14168280be971657fa225d3907bb8e874586644660bcaf9c3b15ddd914",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 72,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-072.json",
-      "job_sha256": "cf9956f76c71aea9ecc690206d6e31197b006772433cfec5d1f4a891380501e0"
+      "job_sha256": "cf9956f76c71aea9ecc690206d6e31197b006772433cfec5d1f4a891380501e0",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 73,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-073.json",
-      "job_sha256": "e1601ddd4e1134cfd52434a8bb48c3aa2a430efaa107ef2d4381509050580e6e"
+      "job_sha256": "e1601ddd4e1134cfd52434a8bb48c3aa2a430efaa107ef2d4381509050580e6e",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 74,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-074.json",
-      "job_sha256": "1bca6aef280aa3605758528a375cc0c9e1426d9a2250757561a0c37f411d5e8b"
+      "job_sha256": "1bca6aef280aa3605758528a375cc0c9e1426d9a2250757561a0c37f411d5e8b",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 75,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-075.json",
-      "job_sha256": "8a2e2fe9700779232780b12c2c4f277e218b16cdc90c0efd7ec54faabb87ab59"
+      "job_sha256": "8a2e2fe9700779232780b12c2c4f277e218b16cdc90c0efd7ec54faabb87ab59",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 76,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-076.json",
-      "job_sha256": "613f2e132184c67e1615c1af7c47a2f6fca4fa6791a714c6c431ff74e616f296"
+      "job_sha256": "613f2e132184c67e1615c1af7c47a2f6fca4fa6791a714c6c431ff74e616f296",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 77,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-077.json",
-      "job_sha256": "1596c51f9c3704f02aefe0c36e6fc42dd832e9f4a5e1bad275d5dbd297e63948"
+      "job_sha256": "1596c51f9c3704f02aefe0c36e6fc42dd832e9f4a5e1bad275d5dbd297e63948",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 78,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-078.json",
-      "job_sha256": "5a2dbbe15f265f7f75e24faf108580386a8a26c30e6d5a5be0100a0583dcf1da"
+      "job_sha256": "5a2dbbe15f265f7f75e24faf108580386a8a26c30e6d5a5be0100a0583dcf1da",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 79,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-079.json",
-      "job_sha256": "5afb542567206da401717633416a7cc1deb44a4f46ea96398b2a69f4e3385f41"
+      "job_sha256": "5afb542567206da401717633416a7cc1deb44a4f46ea96398b2a69f4e3385f41",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 80,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-080.json",
-      "job_sha256": "a72a2bb83e006ad10c4d25ef9e603adc08f2c1e4b0be159aeadcb46430a7d65c"
+      "job_sha256": "a72a2bb83e006ad10c4d25ef9e603adc08f2c1e4b0be159aeadcb46430a7d65c",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 81,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-081.json",
-      "job_sha256": "47d4e79879ee89acc61a163b8e7c008e15972ac48f5cde312ad2b3ca707d23e6"
+      "job_sha256": "47d4e79879ee89acc61a163b8e7c008e15972ac48f5cde312ad2b3ca707d23e6",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 82,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-082.json",
-      "job_sha256": "03320546f2cffc7fb7dfa1fecbeec768e8a94844196f73e1adf360432cb912ca"
+      "job_sha256": "03320546f2cffc7fb7dfa1fecbeec768e8a94844196f73e1adf360432cb912ca",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 83,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-083.json",
-      "job_sha256": "a9d6b6e66db2a62836bd9c3189b543e4cbd8e47381aa7b1631c16184d74483ac"
+      "job_sha256": "a9d6b6e66db2a62836bd9c3189b543e4cbd8e47381aa7b1631c16184d74483ac",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 84,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-084.json",
-      "job_sha256": "8af376434906c3668edaef1defa2f96edcba85878053ca08aa005348b28c5220"
+      "job_sha256": "8af376434906c3668edaef1defa2f96edcba85878053ca08aa005348b28c5220",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 85,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-085.json",
-      "job_sha256": "3bd065e0e80a76cadd3875782b7c20d4cd52da96aed64c7fea5023ce93fc35b0"
+      "job_sha256": "3bd065e0e80a76cadd3875782b7c20d4cd52da96aed64c7fea5023ce93fc35b0",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 86,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-086.json",
-      "job_sha256": "e81542e1748cf70e7e9804beae5cac19fb65e8e27c9f38ab2d1a6f491d547386"
+      "job_sha256": "e81542e1748cf70e7e9804beae5cac19fb65e8e27c9f38ab2d1a6f491d547386",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 87,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-087.json",
-      "job_sha256": "693896e1bfe587f17c06e2181e7eb23d4f70bf2a8bf0f263d81c7fbd3792cd71"
+      "job_sha256": "693896e1bfe587f17c06e2181e7eb23d4f70bf2a8bf0f263d81c7fbd3792cd71",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 88,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-088.json",
-      "job_sha256": "48ca4c79d70ef1dc3b7a344a23c78cb92ed42c497f429bbf0d6f73ca3ba11277"
+      "job_sha256": "48ca4c79d70ef1dc3b7a344a23c78cb92ed42c497f429bbf0d6f73ca3ba11277",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 89,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-089.json",
-      "job_sha256": "cc39dd495098caf58fadfe01ab580ae6b062797d076ad588950105b44b0a3f5a"
+      "job_sha256": "cc39dd495098caf58fadfe01ab580ae6b062797d076ad588950105b44b0a3f5a",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 90,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-090.json",
-      "job_sha256": "fd880fb7cf48faa9577b9b57178a300b56ff89c0c75d6fc4c58dba84f29ac668"
+      "job_sha256": "fd880fb7cf48faa9577b9b57178a300b56ff89c0c75d6fc4c58dba84f29ac668",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 91,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-091.json",
-      "job_sha256": "d744621b64fe20aef9f7358e7b3fc2786e966ea668daade26ccfa80f8dc52597"
+      "job_sha256": "d744621b64fe20aef9f7358e7b3fc2786e966ea668daade26ccfa80f8dc52597",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 92,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-092.json",
-      "job_sha256": "9b674307fa94734fbc91ae2558007976a4e3ca97837a20eaeb858ed10969f3eb"
+      "job_sha256": "9b674307fa94734fbc91ae2558007976a4e3ca97837a20eaeb858ed10969f3eb",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 93,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-093.json",
-      "job_sha256": "4b387d740e88f594fc3e42bdb8a8f973cf79c7bd5ba339a9d4b9f3ccb9529d74"
+      "job_sha256": "4b387d740e88f594fc3e42bdb8a8f973cf79c7bd5ba339a9d4b9f3ccb9529d74",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 94,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-094.json",
-      "job_sha256": "783f00aacc2f3a972c49e6990230482c3228e347388b80b5eab07841619f20a5"
+      "job_sha256": "783f00aacc2f3a972c49e6990230482c3228e347388b80b5eab07841619f20a5",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 95,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-095.json",
-      "job_sha256": "545951d6e924bba6bba204fbbe50c24868ddf48f03047f2fca9a6bf83fe552e9"
+      "job_sha256": "545951d6e924bba6bba204fbbe50c24868ddf48f03047f2fca9a6bf83fe552e9",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 96,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-096.json",
-      "job_sha256": "1a8abc8103f8f6c4ef1d5e5f6512f1a091942aa8b00f9c439fe660a22157eaa2"
+      "job_sha256": "1a8abc8103f8f6c4ef1d5e5f6512f1a091942aa8b00f9c439fe660a22157eaa2",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 97,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-097.json",
-      "job_sha256": "a62c3fef156208b9294e0b0cd36d5ea95f7e2640fa97c0d5cb37f83b19c1b32d"
+      "job_sha256": "a62c3fef156208b9294e0b0cd36d5ea95f7e2640fa97c0d5cb37f83b19c1b32d",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 98,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-098.json",
-      "job_sha256": "ee9c2db739b1195804a84650adbd98ff044c2f65727a898ec4ea6b331a603e26"
+      "job_sha256": "ee9c2db739b1195804a84650adbd98ff044c2f65727a898ec4ea6b331a603e26",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 99,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-099.json",
-      "job_sha256": "2f8a8f2f7183bd32d5f6f0fcbb17ebe71dd459ed1b04d1d0200b0ab732f6887d"
+      "job_sha256": "2f8a8f2f7183bd32d5f6f0fcbb17ebe71dd459ed1b04d1d0200b0ab732f6887d",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 100,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-100.json",
-      "job_sha256": "0b5b259380376ba024fe5732f07b3703e45f0135fb5c5cf4a90f6adc9638aa46"
+      "job_sha256": "0b5b259380376ba024fe5732f07b3703e45f0135fb5c5cf4a90f6adc9638aa46",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 101,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-101.json",
-      "job_sha256": "b80131f023215047cffa381753b40b867036d5b81c6a2b2c02065f23a2b3bb28"
+      "job_sha256": "b80131f023215047cffa381753b40b867036d5b81c6a2b2c02065f23a2b3bb28",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 102,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-102.json",
-      "job_sha256": "b497ffd633093b4b6b9a4ef55aea08867729dc8843fbf0c3be5de143eb2c4ed7"
+      "job_sha256": "b497ffd633093b4b6b9a4ef55aea08867729dc8843fbf0c3be5de143eb2c4ed7",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 103,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-103.json",
-      "job_sha256": "f1d0b2568f19795906c0f226b5e3e434133643e26969a8a613273b5e65fe91a4"
+      "job_sha256": "f1d0b2568f19795906c0f226b5e3e434133643e26969a8a613273b5e65fe91a4",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 104,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-104.json",
-      "job_sha256": "3087975c71c3ee65ea44a0d9e41aab77397464a7a1e7f48d92a9dbc13040a9ea"
+      "job_sha256": "3087975c71c3ee65ea44a0d9e41aab77397464a7a1e7f48d92a9dbc13040a9ea",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 105,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-105.json",
-      "job_sha256": "19bb05a634ef31dea1a2093d0f2a8188f0231beae6662f56f81a38884cdeff72"
+      "job_sha256": "19bb05a634ef31dea1a2093d0f2a8188f0231beae6662f56f81a38884cdeff72",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 106,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-106.json",
-      "job_sha256": "0b74f957e3250dd433ec4aaec118233169b078f8f63aaf22276dbca1cfaae167"
+      "job_sha256": "0b74f957e3250dd433ec4aaec118233169b078f8f63aaf22276dbca1cfaae167",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 107,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-107.json",
-      "job_sha256": "1d77fbb7cb0b9f49f3081e67d8d5162c42d9ce38f1c006ca4f30355282caba25"
+      "job_sha256": "1d77fbb7cb0b9f49f3081e67d8d5162c42d9ce38f1c006ca4f30355282caba25",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 108,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-108.json",
-      "job_sha256": "61108eb53e8ce1d3d9263cb186c2b758e26b139d116465cd04e5edeab663f924"
+      "job_sha256": "61108eb53e8ce1d3d9263cb186c2b758e26b139d116465cd04e5edeab663f924",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 109,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-109.json",
-      "job_sha256": "ee646149581f66bc3ee5e4541bef9f242bf6994a040dd2bd52354aebfe6dd672"
+      "job_sha256": "ee646149581f66bc3ee5e4541bef9f242bf6994a040dd2bd52354aebfe6dd672",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 110,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-110.json",
-      "job_sha256": "b5194c344163a8853bee8c706ce63dddb93128464c6e7fd9cc62cef4b73a3464"
+      "job_sha256": "b5194c344163a8853bee8c706ce63dddb93128464c6e7fd9cc62cef4b73a3464",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 111,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-111.json",
-      "job_sha256": "a8fb5327c1f1b5484ce55566fd9a4baacac88b85c6e9790c16904d05b087b799"
+      "job_sha256": "a8fb5327c1f1b5484ce55566fd9a4baacac88b85c6e9790c16904d05b087b799",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 112,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-112.json",
-      "job_sha256": "89662743a29375ef863f83cb171201fbba50e0ca45c2e0e08a2fcb99330561c2"
+      "job_sha256": "89662743a29375ef863f83cb171201fbba50e0ca45c2e0e08a2fcb99330561c2",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 113,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-113.json",
-      "job_sha256": "8d0c083e0c0d9e2249a01f820c710b05eaa1b4cbf099f306988f54040ca48ca2"
+      "job_sha256": "8d0c083e0c0d9e2249a01f820c710b05eaa1b4cbf099f306988f54040ca48ca2",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 114,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-114.json",
-      "job_sha256": "f0b554fba8f60d03b452d76c0aaf0ab167f94caaa61dbd6284f0bee03c517d79"
+      "job_sha256": "f0b554fba8f60d03b452d76c0aaf0ab167f94caaa61dbd6284f0bee03c517d79",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 115,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-115.json",
-      "job_sha256": "9feb871956e47b2ea64cf870536b6dd962f8c81be0d9b464ca077cccdf2e0ecd"
+      "job_sha256": "9feb871956e47b2ea64cf870536b6dd962f8c81be0d9b464ca077cccdf2e0ecd",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 116,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-116.json",
-      "job_sha256": "bd06e8441d8ecc1ae4ec250877c2868804f7629df736c1e1348c1718f919e6d8"
+      "job_sha256": "bd06e8441d8ecc1ae4ec250877c2868804f7629df736c1e1348c1718f919e6d8",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 117,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-117.json",
-      "job_sha256": "c65b3d73cd23c0bf7b4773b92d827d30eddc7a51f81b8e104f60ddbf9f66269f"
+      "job_sha256": "c65b3d73cd23c0bf7b4773b92d827d30eddc7a51f81b8e104f60ddbf9f66269f",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 118,
@@ -960,93 +1064,106 @@
     {
       "number": 119,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-119.json",
-      "job_sha256": "74093a4716137c5cef1a2e7681b6e2715944b421821d5b55b0d68d4e6aa7d518"
+      "job_sha256": "74093a4716137c5cef1a2e7681b6e2715944b421821d5b55b0d68d4e6aa7d518",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 120,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-120.json",
-      "job_sha256": "3a31da5bcfc270e9d5bca20011797c5caa669092b5281e8ceb630fc20a2194a9"
+      "job_sha256": "3a31da5bcfc270e9d5bca20011797c5caa669092b5281e8ceb630fc20a2194a9",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 121,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-121.json",
-      "job_sha256": "ec63226457204601f71df37d457c7bb8f3f9c886d7364cad65633512f35db89a"
+      "job_sha256": "ec63226457204601f71df37d457c7bb8f3f9c886d7364cad65633512f35db89a",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 122,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-122.json",
-      "job_sha256": "5f12697e537e3bb8d9487d180e9febc7e0b4e8393ecfbe4e92f9307df04b7111"
+      "job_sha256": "5f12697e537e3bb8d9487d180e9febc7e0b4e8393ecfbe4e92f9307df04b7111",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 123,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-123.json",
-      "job_sha256": "bddbf4545835abedb2b32ede8b8d4011076dd639062d7f0ec9e9c379ba0bac1f"
+      "job_sha256": "bddbf4545835abedb2b32ede8b8d4011076dd639062d7f0ec9e9c379ba0bac1f",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 124,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-124.json",
-      "job_sha256": "7a6098ceef3a7b427a8221cda6eccd2df099f931533c42095dd7a910700063c1"
+      "job_sha256": "7a6098ceef3a7b427a8221cda6eccd2df099f931533c42095dd7a910700063c1",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 125,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-125.json",
-      "job_sha256": "8a1d4b027be016885d90690e20b16b11700393696d2c7a8794614240c1baeb89"
+      "job_sha256": "8a1d4b027be016885d90690e20b16b11700393696d2c7a8794614240c1baeb89",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 126,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-126.json",
-      "job_sha256": "93550dcbae74664760ea2a21c806252b99a5fbc9aa0a1f3297bd270f186022de"
+      "job_sha256": "93550dcbae74664760ea2a21c806252b99a5fbc9aa0a1f3297bd270f186022de",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 127,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-127.json",
-      "job_sha256": "1bd3a49aaed310e19bc7e48868babaa4ea3a93a96a0cd8b604a501e1cae8caeb"
+      "job_sha256": "1bd3a49aaed310e19bc7e48868babaa4ea3a93a96a0cd8b604a501e1cae8caeb",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 128,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-128.json",
-      "job_sha256": "5c55f88b362b66331535ce5578ea3b48be81b4ed0b387ed47d136a441856dd4c"
+      "job_sha256": "5c55f88b362b66331535ce5578ea3b48be81b4ed0b387ed47d136a441856dd4c",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 129,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-129.json",
-      "job_sha256": "59a08ccd43470751372c5de4db41b6d737563b79ddf4eede0db0409d73b6e166"
+      "job_sha256": "59a08ccd43470751372c5de4db41b6d737563b79ddf4eede0db0409d73b6e166",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 130,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-130.json",
-      "job_sha256": "72b6cdf9cf9e35a9891be4096b4ac97d7b6f6baddd68b52d46026f08e8b8ac0b"
+      "job_sha256": "72b6cdf9cf9e35a9891be4096b4ac97d7b6f6baddd68b52d46026f08e8b8ac0b",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     },
     {
       "number": 131,
       "method": "h3_12_step",
-      "status": "prepared_not_launched",
+      "status": "submitted_unreviewed",
       "job": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/jobs/clip-131.json",
-      "job_sha256": "ea72ccd6daf5eb07d64ae929bd24530b885f3d441438cf93eee9dce52038a968"
+      "job_sha256": "ea72ccd6daf5eb07d64ae929bd24530b885f3d441438cf93eee9dce52038a968",
+      "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80"
     }
   ]
 }

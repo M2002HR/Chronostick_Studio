@@ -1,0 +1,5 @@
+{
+  "started_at": "2026-10-02T19:48:08.498502+00:00",
+  "watcher_pid": 1532424,
+  "instruction": "Do not resubmit after a connection interruption; inspect persistent service state."
+}

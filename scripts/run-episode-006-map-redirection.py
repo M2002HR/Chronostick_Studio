@@ -3,6 +3,7 @@
 import hashlib
 import json
 import os
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,6 +13,7 @@ from comfy_video_service.cli import Api, main
 ROOT = Path(__file__).resolve().parents[1]
 EP = ROOT / 'episodes/006-shortest-war-ever'
 BATCH = EP / 'automation/batches/map-redirection-12step-r005'
+RESUME = '--resume' in sys.argv
 
 def read(p): return json.loads(p.read_text())
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -21,11 +23,14 @@ def write(p, d):
     tmp.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n');tmp.replace(p)
 
 manifest=read(BATCH/'manifest.json');preflight=read(BATCH/'preflight.json')
-assert manifest['batch_id'] is None and manifest['status']=='prepared_not_launched'
+if RESUME:
+    assert manifest['batch_id'] and (BATCH/'submission.json').is_file()
+else:
+    assert manifest['batch_id'] is None and manifest['status']=='prepared_not_launched'
 assert preflight['valid'] and preflight['live_dry_run_passed'] and preflight['job_count']==manifest['job_count']==117
 assert len(manifest['timeline_coverage'])==131 and preflight['output_collision_count']==0
 assert sha(BATCH/'live-dry-run.json')==preflight['dry_run_sha256']
-assert not (BATCH/'submission.json').exists()
+if not RESUME: assert not (BATCH/'submission.json').exists()
 assert sha(ROOT/manifest['settings'])==manifest['settings_sha256']
 assert sha(EP/'audio/narration-es-google-vids-r001.mp4')==manifest['accepted_voice_sha256']
 assert sha(EP/'timestamps/timing-map.json')==manifest['accepted_timing_sha256']
@@ -39,17 +44,19 @@ for r in manifest['jobs']:
     j=read(ROOT/r['job']);g=j['generation']
     assert (g['steps'],g['lightning'],g['width'],g['height'],g['fps'])==(12,False,1024,576,24)
     assert g['seed']==r['seed'] and j['output']['overwrite'] is False
-    for field in ('directory','editorial_directory'):assert not list((ROOT/j['output'][field]).glob(j['output']['prefix']+'*'))
+    if not RESUME:
+        for field in ('directory','editorial_directory'):assert not list((ROOT/j['output'][field]).glob(j['output']['prefix']+'*'))
 
 api=Api('http://127.0.0.1:8090',None)
 assert api.request('GET','/v1/ready')['ready']
 # Direct engine check avoids environment proxies; do not submit into an unrelated queue.
 import urllib.request
 op=urllib.request.build_opener(urllib.request.ProxyHandler({}))
-queue=json.load(op.open('http://127.0.0.1:8188/queue'))
-assert not queue['queue_running'] and not queue['queue_pending']
-with (BATCH/'launch-attempt.json').open('x') as f:
-    json.dump(dict(started_at=now(),watcher_pid=os.getpid(),instruction='Do not resubmit after a connection interruption; inspect persistent service state.'),f,indent=2);f.write('\n')
+if not RESUME:
+    queue=json.load(op.open('http://127.0.0.1:8188/queue'))
+    assert not queue['queue_running'] and not queue['queue_pending']
+    with (BATCH/'launch-attempt.json').open('x') as f:
+        json.dump(dict(started_at=now(),watcher_pid=os.getpid(),instruction='Do not resubmit after a connection interruption; inspect persistent service state.'),f,indent=2);f.write('\n')
 
 original_request=Api.request
 def recording_request(self,method,path,**kwargs):
@@ -58,7 +65,7 @@ def recording_request(self,method,path,**kwargs):
         write(BATCH/'submission.json',result)
         manifest.update(batch_id=result['id'],status=result['status'],submitted_at=now(),watcher_pid=os.getpid())
         write(BATCH/'manifest.json',manifest)
-        runtime=dict(schema_version='1.0',batch_id=result['id'],purpose='remaining117 twelve-step H3 candidates after map redirection',status=result['status'],manifest=str((BATCH/'manifest.json').relative_to(ROOT)),job_ids=[j['id'] for j in result['jobs']],watcher_pid=os.getpid(),retained_unreviewed_candidates=12,controlled_maps_ready=2,next_action='Let the complete batch run; then review actual candidates before selection or assembly.')
+        runtime=dict(schema_version='1.0',batch_id=result['id'],purpose='remaining117 twelve-step H3 candidates after map redirection',status=result['status'],manifest=str((BATCH/'manifest.json').relative_to(ROOT)),job_ids=result.get('job_ids',[]),watcher_pid=os.getpid(),retained_unreviewed_candidates=12,controlled_maps_ready=2,next_action='Let the complete batch run; then review actual candidates before selection or assembly.')
         write(EP/'automation/run-state.json',runtime)
         print('Submission receipt recorded: '+result['id'],flush=True)
     elif method=='GET' and manifest.get('batch_id') and path=='/v1/batches/'+manifest['batch_id']:
@@ -76,4 +83,11 @@ def recording_request(self,method,path,**kwargs):
     return result
 
 Api.request=recording_request
-main(['batch','--folder',str(BATCH/'jobs'),'--settings',str(BATCH/'settings.json'),'--watch','--poll-interval','15'])
+if RESUME:
+    # Read-only reconnection; never call POST /v1/batches in this branch.
+    current=original_request(api,'GET','/v1/batches/'+manifest['batch_id'])
+    manifest.update(watcher_pid=os.getpid(),watcher_reconnected_at=now());write(BATCH/'manifest.json',manifest)
+    write(EP/'automation/run-state.json',dict(schema_version='1.0',batch_id=current['id'],purpose='remaining117 twelve-step H3 candidates after map redirection',status=current['status'],manifest=str((BATCH/'manifest.json').relative_to(ROOT)),job_ids=[j['id'] for j in current['jobs']],watcher_pid=os.getpid(),retained_unreviewed_candidates=12,controlled_maps_ready=2,next_action='Let the complete batch run; then review actual candidates before selection or assembly.'))
+    main(['status',manifest['batch_id'],'--batch','--watch','--poll-interval','15'])
+else:
+    main(['batch','--folder',str(BATCH/'jobs'),'--settings',str(BATCH/'settings.json'),'--watch','--poll-interval','15'])
