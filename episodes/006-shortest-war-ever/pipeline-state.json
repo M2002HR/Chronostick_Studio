@@ -137,7 +137,7 @@
       ],
       "approved_by": "Codex direct planning review 2026-10-02",
       "decision_notes": "Reviewed 131 timed directions, 215 shots, narration contracts, map/text inventories and continuity. Four ship-count anchors corrected; clip099 token destination unambiguous; departure moved to clip118 actual Khalid cue; late aftermath does not reset damaged palace or Khalid refuge.",
-      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
+      "next_action": "Let the background 131-clip 4-step preview finish, then review every slot before any later 12-step decision.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
@@ -163,7 +163,7 @@
       ],
       "approved_by": "Codex actual reference inspection 2026-10-02",
       "decision_notes": "57 selected anchors reviewed. Four revised harbour maps and thirteen new anchors individually inspected at full resolution and hashed. New early-battle Glasgow references preserve five crew while correcting the palace damage. Still approval is generation-input approval only.",
-      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
+      "next_action": "Let the background 131-clip 4-step preview finish, then review every slot before any later 12-step decision.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
@@ -187,7 +187,7 @@
       ],
       "approved_by": null,
       "decision_notes": "Voice-led animatic r006 and full anchor sequence reviewed as planning only. Earlier H3 pilots remain unapproved. Current user explicitly requested a complete 4-step concept pass before per-clip review; this does not approve final 12-step picture.",
-      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
+      "next_action": "Let the background 131-clip 4-step preview finish, then review every slot before any later 12-step decision.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
@@ -211,7 +211,7 @@
       ],
       "approved_by": null,
       "decision_notes": "All131 pure prompts revised for the reviewed anchors, simple actions,215 shots, exact text exceptions, closed-world maps, fixed prefire state and resolved final frames. Text/planning checks passed; actual H3 behaviour requires full preview review.",
-      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
+      "next_action": "Let the background 131-clip 4-step preview finish, then review every slot before any later 12-step decision.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
@@ -238,7 +238,7 @@
       ],
       "approved_by": null,
       "decision_notes": "Isolated frozen131-job preview package passed full live-service dry-run without warnings. Explicit4 steps,Lightning true,1024x576,24fps and fixed seeds verified. Revision00412-step jobs preserved unlaunched. Current user authorizes preview only at this gate.",
-      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
+      "next_action": "Let the background 131-clip 4-step preview finish, then review every slot before any later 12-step decision.",
       "previous_review": {
         "status": "validated",
         "approved_by": null,
@@ -265,7 +265,7 @@
       ],
       "approved_by": null,
       "decision_notes": "No selected picture timeline. Review every forthcoming 4-step output for semantic errors, motion, continuity, maps, every exact-text frame and native audio. Prepare only necessary revisions, then obtain the later12-step decision.",
-      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
+      "next_action": "Let the background 131-clip 4-step preview finish, then review every slot before any later 12-step decision.",
       "previous_review": {
         "status": "missing",
         "approved_by": null,
@@ -303,8 +303,9 @@
     "scope": "all131slots",
     "steps": 4,
     "lightning": true,
-    "status": "prepared_not_launched",
-    "batch_id": null,
-    "authorization": "User explicit full background preview request2026-10-02"
+    "status": "running",
+    "batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
+    "authorization": "User explicit full background preview request2026-10-02",
+    "started_verified_at": "2026-10-02T15:11:57.609188+00:00"
   }
 }

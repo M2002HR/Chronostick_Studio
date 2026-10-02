@@ -16,6 +16,8 @@ The earlier five-job12-step pilot batch `a8fd33bf-eb25-4f44-b36f-b18b6c8e0a7b` r
 
 ## Runtime and next action
 
+Batch `019625ab-2084-4483-babb-dc5be22281d7` is running in the persistent background service. All131 children are registered at4 steps with Lightning; actual processing of the first child was verified in ComfyUI on 2026-10-02T15:11:57.609188+00:00. The assistant stopped after recording that start, as requested.
+
 Read `automation/batches/preview-4step-r001/manifest.json` for the current persisted batch ID and status, and `automation/batches/preview-4step-r001/start-verification.json` once processing starts. The API service owns queued work independently of the chat. The detached CLI watcher logs to `automation/batches/preview-4step-r001/watcher.log`.
 
 After the preview completes, review all131 editorial outputs under `renders/preview-4step/editorial/`, record accepted/failed slots and correct only necessary failures in immutable revisions. A later12-step pass follows that review and user decision. No final clip is selected yet. Work is checkpointed locally in Git; video media stays local and ignored by Git.

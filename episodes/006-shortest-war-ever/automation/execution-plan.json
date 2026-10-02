@@ -1058,5 +1058,7 @@
       "status": "prepared_not_launched",
       "preview_job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-131.json"
     }
-  ]
+  ],
+  "preview_batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
+  "preview_status": "running"
 }

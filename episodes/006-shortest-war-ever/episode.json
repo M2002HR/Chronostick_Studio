@@ -37,7 +37,7 @@
   "accepted_timing_map": "timestamps/timing-map.json",
   "picture_master": null,
   "distribution_master": null,
-  "next_action": "Launch the explicitly authorized full 131-clip 4-step Lightning concept preview after final checks; stop after confirming processing starts. Then review every preview before further corrections and any later 12-step production.",
+  "next_action": "Background 131-clip 4-step Lightning preview is running. After completion, review every output and repair failed slots before the later 12-step decision; do not automatically launch final production.",
   "generation_steps": 12,
   "generation_step_authority": "explicit user instruction 2026-10-02",
   "voice_duration_seconds": 651.389388,
@@ -51,9 +51,10 @@
     "width": 1024,
     "height": 576,
     "job_count": 131,
-    "status": "prepared_not_launched",
+    "status": "running",
     "manifest": "automation/batches/preview-4step-r001/manifest.json",
-    "batch_id": null,
-    "stop_after_start": true
+    "batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
+    "stop_after_start": true,
+    "started_verified_at": "2026-10-02T15:11:57.609188+00:00"
   }
 }

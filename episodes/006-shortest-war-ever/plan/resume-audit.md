@@ -1,3 +1,7 @@
+# Subsequent action update
+
+The audit below is historical evidence. Its repairs have now been implemented in plan/preview-revision-review.md, with four corrected harbour references and thirteen new anchors,57 selected inputs and131 revised prompts. Full four-step preview batch `019625ab-2084-4483-babb-dc5be22281d7` has started; no new clip or12-step final picture is approved yet.
+
 # Episode 006 resume audit — 2026-10-02
 
 Recorded at 14:24 Asia/Tehran. This audit reconciles local artifacts, service state, Git and sampled actual frames. It is not a complete motion/audio or every-frame review. Machine-readable evidence and batch metrics are in `resume-audit.json`.

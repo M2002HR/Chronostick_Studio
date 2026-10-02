@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-10-02T15:11:57.609188+00:00",
+  "batch_id": "019625ab-2084-4483-babb-dc5be22281d7",
+  "status": "running",
+  "job_count": 131,
+  "child_status_counts": {
+    "queued": 130,
+    "running": 1
+  },
+  "verified_all_children": {
+    "steps": 4,
+    "lightning": true,
+    "width": 1024,
+    "height": 576
+  },
+  "running_children": [
+    {
+      "id": "3d6f9b80-4afe-4dc5-aa7e-b1769b7fd350",
+      "status": "running",
+      "stage": "sampling",
+      "progress_percent": 75.0,
+      "comfy_prompt_id": "39379398-d1e2-4c8a-91b6-fc2deba5be63"
+    }
+  ],
+  "engine_running_prompt_ids": [
+    "39379398-d1e2-4c8a-91b6-fc2deba5be63"
+  ],
+  "engine_pending_count": 0,
+  "detached_launcher_pid": 980425,
+  "detached_session_id": 980425,
+  "persistent_service_state_dir": "/home/mhr/AI/comfy-video-automation/state/chronostick-episode-006",
+  "picture_approval": false,
+  "stop_reason": "User requested ending assistant work after actual background processing starts. Review later; no automatic 12-step generation, concat or upscale."
+}
