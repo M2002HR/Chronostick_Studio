@@ -1,0 +1,270 @@
+{
+  "active_anchor_count": 57,
+  "primary_anchor_count": 57,
+  "max_primary_reuse": 6,
+  "max_consecutive_primary_slots": 2,
+  "unique_primary_anchors_per_60s": [
+    11,
+    8,
+    10,
+    7,
+    9,
+    12,
+    10,
+    8,
+    10,
+    8,
+    10
+  ],
+  "shot_count": 215,
+  "per_anchor_slots": {
+    "hook-shoe": [
+      1,
+      61,
+      122
+    ],
+    "shoe-foot-insert": [
+      2,
+      123
+    ],
+    "harbour-messenger-quay": [
+      3,
+      67,
+      79
+    ],
+    "map-world-blank": [
+      4,
+      12,
+      14,
+      21,
+      31,
+      126
+    ],
+    "clock-palace-blank": [
+      5,
+      66,
+      74,
+      80
+    ],
+    "empty-throne": [
+      6,
+      19,
+      35,
+      44
+    ],
+    "map-harbour-table-prebattle": [
+      7,
+      55,
+      64,
+      73,
+      76
+    ],
+    "clock-palace-0859": [
+      8,
+      75
+    ],
+    "khalid-palace": [
+      9,
+      37,
+      46,
+      50,
+      53,
+      72
+    ],
+    "fleet-prebattle": [
+      10,
+      32,
+      77
+    ],
+    "market": [
+      11,
+      27
+    ],
+    "map-world-oblique": [
+      13,
+      20
+    ],
+    "dhow-trade-cargo": [
+      15,
+      24,
+      26
+    ],
+    "map-world-trade-blank": [
+      16,
+      17
+    ],
+    "market-quay": [
+      18,
+      129
+    ],
+    "fleet-quay-five": [
+      22,
+      25,
+      62
+    ],
+    "market-basket-close": [
+      23,
+      29
+    ],
+    "map-world-diplomacy": [
+      28,
+      30,
+      33
+    ],
+    "empty-throne-door": [
+      34,
+      43
+    ],
+    "khalid-throne-close": [
+      36,
+      39,
+      42,
+      48
+    ],
+    "map-world-khalid": [
+      38,
+      40,
+      118
+    ],
+    "rawson-bridge-over-shoulder": [
+      41,
+      58
+    ],
+    "hamoud-council": [
+      45,
+      47
+    ],
+    "messenger-scroll-quay": [
+      49,
+      57
+    ],
+    "harbour-intact": [
+      51,
+      81
+    ],
+    "khalid-scroll-insert": [
+      52,
+      71
+    ],
+    "rawson-bridge": [
+      54,
+      69
+    ],
+    "khalid-balcony-fleet": [
+      56,
+      68,
+      78
+    ],
+    "clock-palace-0800": [
+      59,
+      60
+    ],
+    "glasgow-afloat": [
+      63
+    ],
+    "shore-defenders-cannon": [
+      65
+    ],
+    "glasgow-stern": [
+      70
+    ],
+    "clock-palace-0900": [
+      82
+    ],
+    "palace-battle": [
+      83,
+      86,
+      89,
+      97
+    ],
+    "palace-battle-arcade": [
+      84,
+      87,
+      95,
+      98
+    ],
+    "map-harbour-table-early-battle": [
+      85,
+      88
+    ],
+    "clock-palace-0905": [
+      90
+    ],
+    "glasgow-afloat-battle": [
+      91
+    ],
+    "glasgow-quarter-battle": [
+      92
+    ],
+    "map-harbour-table-aftermath": [
+      93,
+      99
+    ],
+    "glasgow-sunken-close": [
+      94,
+      96
+    ],
+    "map-harbour-table-refuge": [
+      99,
+      101,
+      105
+    ],
+    "consulate-street-approach": [
+      100
+    ],
+    "consulate-refuge": [
+      102
+    ],
+    "consulate-inside": [
+      103,
+      104
+    ],
+    "map-harbour-table-surrender": [
+      105,
+      127
+    ],
+    "harbour-after-arch": [
+      106,
+      116,
+      128
+    ],
+    "hamoud-enthroned": [
+      107,
+      117,
+      119
+    ],
+    "harbour-after": [
+      108,
+      112,
+      121
+    ],
+    "aftermath-civilians": [
+      109,
+      113
+    ],
+    "aftermath-quay-detail": [
+      110,
+      114
+    ],
+    "aftermath-civilians-close": [
+      111,
+      120
+    ],
+    "clock-aftermath-blank": [
+      115
+    ],
+    "map-world-khalid-mainland": [
+      118
+    ],
+    "clock-aftermath-0938": [
+      124
+    ],
+    "clock-aftermath-38-minutos": [
+      125
+    ],
+    "hook-shoe-resolved": [
+      130,
+      131
+    ]
+  }
+}

@@ -8,7 +8,7 @@
       "sha256": "004130557832ecd3d1fc700d7399f7e0acb1d298de3271e3e97e1cdef0abc2ae",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "exactly three local stick civilians: older woman in blue-gray shawl left, young man in sand robe center, woman in ochre shawl right; damaged palace behind",
       "story_phase": "human aftermath on the Stone Town quay",
@@ -25,12 +25,30 @@
       "sha256": "5bbaeb119edc5a0f121a4a8ae9ae40f72a64262767e3eca8a84836d4753c46ca",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same three Zanzibari residents in blue-gray, sand and ochre clothing, closer quay view, damaged palace and sunken Glasgow",
       "story_phase": "respectful human aftermath",
       "supported_shot_ids": [
-        "clip-111"
+        "clip-111",
+        "clip-120"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "aftermath-quay-detail",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+      "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray shawl and sand robe at left; damaged palace and submerged Glasgow beyond; tiny existing shore residents remain background-sized",
+      "story_phase": "respectful quiet human aftermath",
+      "supported_shot_ids": [
+        "clip-110",
+        "clip-114"
       ],
       "authority_sources": []
     },
@@ -41,7 +59,7 @@
       "sha256": "21b1cfb84e0ae7a36295fe20da6b547a18e4a814bad3a86b58f8b8afb3811e88",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one clock and exact enamel text 09:38; one shoe-searcher; damaged palace and sunken Glasgow beyond",
       "story_phase": "09:38 delayed answer after battle",
@@ -57,7 +75,7 @@
       "sha256": "a98d518b885138111d32d5f2649dcb551a6202083c1c753e25eb869248b0ae25",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one clock and exact enamel text 38 MINUTOS; one shoe-searcher; damaged palace and sunken Glasgow beyond",
       "story_phase": "duration reveal after battle",
@@ -73,7 +91,7 @@
       "sha256": "d21d98ba51f67a4cc27bb403f7683c9e44bce754edbf97d79447bdf38c6c9d3f",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one large brass analog clock with blank ivory placard; zero people; damaged harbour beyond",
       "story_phase": "sober human-cost passage after battle, before duration reveal",
@@ -89,7 +107,7 @@
       "sha256": "b50f2ddffc510212785224eba2e166c3545680a628e5422bcb27fec6592630ad",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one clock and exact enamel text 08:00; one Khalid; intact harbour",
       "story_phase": "08:00 ultimatum in physical palace scene",
@@ -106,7 +124,7 @@
       "sha256": "0643d60483ec82abd4914c4960fe15724d9635df1bb4910b21f9fb3880bdc584",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one clock and exact enamel text 08:59; one Khalid; intact harbour",
       "story_phase": "08:59 final prebattle minute in physical palace scene",
@@ -123,7 +141,7 @@
       "sha256": "fb36193d516abf76fd477c0158bbc18cbbc0f41a6dee92b3a106935e7268a43c",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one clock and exact enamel text 09:00; one Khalid; intact harbour at firing onset",
       "story_phase": "09:00 first fire in physical palace scene",
@@ -139,7 +157,7 @@
       "sha256": "c9f1e72dd5635b3d85c6bb48d45778533731bb91e52006b0b8380e8f0f8012a2",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one clock and exact enamel text 09:05; one Khalid; early battle smoke beyond; Glasgow afloat",
       "story_phase": "09:05 Glasgow beat in physical palace scene",
@@ -155,7 +173,7 @@
       "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one large brass analog clock with blank ivory placard; one Khalid in maroon; intact harbour beyond",
       "story_phase": "before battle, without duration reveal",
@@ -174,7 +192,7 @@
       "sha256": "e47494715cce50748434357f525eff8054093c8df0aa20534d935d594a5f6bb5",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same maroon-robed Khalid and one neutral guard inside consulate doorway; damaged palace visible outside",
       "story_phase": "Khalid safely inside Stone Town German consulate after escape",
@@ -191,13 +209,46 @@
       "sha256": "08fdd8c03326b947aac8fff391a823785e1d5627278e916de6e885757c290801",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one Khalid in ivory turban and maroon robe, one neutral consular guard, one consulate gate",
       "story_phase": "Stone Town German consulate refuge",
       "supported_shot_ids": [
-        "clip-100",
         "clip-102"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "consulate-street-approach",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png",
+      "sha256": "23ef05e6a14a795cd8fb650205a51b35702f1c5c80cd32b78b1a408e8f3a2749",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "exactly one maroon-and-gold Khalid at left facing right holding his existing closed scroll, exactly one cream-robed neutral guard beside the already open carved doorway at right; paved approach, harbour and unaffected street buildings beyond; bombarded palace outside this viewpoint",
+      "story_phase": "approach to German consular refuge after battle damage",
+      "supported_shot_ids": [
+        "clip-100"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "dhow-trade-cargo",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+      "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "one cream-robed ivory-turbaned quay worker, one foreground timber crate, one rope coil, one tied wooden dhow with cargo barrels; intact palace beyond",
+      "story_phase": "ordinary port commerce with intact city",
+      "supported_shot_ids": [
+        "clip-015",
+        "clip-024",
+        "clip-026"
       ],
       "authority_sources": []
     },
@@ -208,7 +259,7 @@
       "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one empty ornate blue-and-gold throne in the same council chamber; exactly zero people",
       "story_phase": "Zanzibari council chamber before successor is named",
@@ -227,7 +278,7 @@
       "sha256": "84381b682dd4762338ab1b78badf4a2101dfaf63e6e552d4a61bea9e3d50e421",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same empty ornate throne seen through council-room doorway; zero people",
       "story_phase": "Zanzibari council chamber before successor is named",
@@ -244,7 +295,7 @@
       "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "exactly five distinct British warships across the water; intact palace in distance",
       "story_phase": "prebattle harbour, fleet west of palace",
@@ -262,7 +313,7 @@
       "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "exactly five British ships in a low quay-level view and intact distant palace",
       "story_phase": "prebattle harbour, five British ships west of palace",
@@ -280,13 +331,44 @@
       "sha256": "29001102e1a72d51b8377dfab582ccdda28c4f80beb058b651007c764a438f3a",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one intact Glasgow warship with a few tiny cream-robed Zanzibar crew figures and no flags; intact shore",
       "story_phase": "Zanzibar harbour before sinking",
       "supported_shot_ids": [
-        "clip-063",
+        "clip-063"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "glasgow-afloat-battle",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-battle-r001.png",
+      "sha256": "cc6895777eeeb8c69150e3fbe3aa02b1010efde633c30c8df15b48d669f5e35f",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "exactly one intact afloat black-and-ochre Glasgow, one ochre funnel, two rigged masts, exactly five existing cream-robed crew; same side-on camera angle; damaged palace roof and one thin residual plume beyond, no other ship",
+      "story_phase": "early battle, before Glasgow sinks",
+      "supported_shot_ids": [
         "clip-091"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "glasgow-quarter-battle",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-quarter-battle-r001.png",
+      "sha256": "4899f7bdaa8c701b978cba749593fcfe163d4c257e407d2f3417873a636bb3bc",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "exactly one intact afloat black-and-ochre Glasgow, one ochre funnel, two rigged masts, exactly five existing cream-robed crew; same low three-quarter camera angle; damaged palace roof and one thin residual plume beyond, no other ship",
+      "story_phase": "early battle, before Glasgow sinks",
+      "supported_shot_ids": [
+        "clip-092"
       ],
       "authority_sources": []
     },
@@ -297,13 +379,29 @@
       "sha256": "2cae0fb9c7a63686a1abd4024085b94ff095719ea18d7ff658eddf1e8c925d81",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one intact Glasgow ship with few cream-robed crew, seen from low stern-quarter angle; no other warship",
       "story_phase": "pre-sinking Zanzibar harbour",
       "supported_shot_ids": [
-        "clip-070",
-        "clip-092"
+        "clip-070"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "glasgow-sunken-close",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+      "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero people aboard or in foreground, existing tiny shore residents stay background-sized; no other ships; damaged palace beyond",
+      "story_phase": "settled Glasgow wreck after sinking",
+      "supported_shot_ids": [
+        "clip-094",
+        "clip-096"
       ],
       "authority_sources": []
     },
@@ -314,7 +412,7 @@
       "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one foreground Hamoud with dark beard, ivory turban and deep-green sash; one ornate throne",
       "story_phase": "Zanzibari council chamber",
@@ -331,14 +429,14 @@
       "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one foreground Hamoud with dark beard, ivory turban and deep-green sash seated on the ornate throne",
       "story_phase": "postbattle Zanzibari council chamber",
       "supported_shot_ids": [
         "clip-107",
-        "clip-116",
-        "clip-118"
+        "clip-117",
+        "clip-119"
       ],
       "authority_sources": []
     },
@@ -349,7 +447,7 @@
       "sha256": "2d3b1aa510add1ebd6444ca6ae7bb28238852b65237ee9dc32c000c0afac8eb4",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "two quiet foreground civilians, damaged palace, one partially submerged Glasgow and one distant British ship",
       "story_phase": "settled aftermath",
@@ -367,14 +465,13 @@
       "sha256": "399c8fcfe106d1cc46398894cfe1f1710742ec0d448d191e66ecd0f5a827fca6",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "two quiet civilians beneath Stone Town arch, damaged palace and sunken Glasgow beyond",
       "story_phase": "settled aftermath",
       "supported_shot_ids": [
         "clip-106",
-        "clip-110",
-        "clip-114",
+        "clip-116",
         "clip-128"
       ],
       "authority_sources": []
@@ -386,13 +483,12 @@
       "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one foreground cream-robed messenger; one intact Sultan's waterfront palace; one dhow; tiny distant residents",
       "story_phase": "intact western Stone Town waterfront",
       "supported_shot_ids": [
         "clip-051",
-        "clip-057",
         "clip-081"
       ],
       "authority_sources": []
@@ -404,15 +500,12 @@
       "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one cream-robed messenger by the intact waterfront palace and one dhow, seen from quay level",
       "story_phase": "intact Stone Town waterfront before battle",
       "supported_shot_ids": [
         "clip-003",
-        "clip-015",
-        "clip-026",
-        "clip-049",
         "clip-067",
         "clip-079"
       ],
@@ -425,16 +518,14 @@
       "sha256": "cb5a0a4e924396573524493e8de5e9bea9c55c756a36e3e00e4699d524c3ace4",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one foreground shoe-searcher in brown jacket and cream trousers; one bedroom, one missing shoe",
       "story_phase": "comic Zanzibar morning",
       "supported_shot_ids": [
         "clip-001",
-        "clip-002",
         "clip-061",
-        "clip-122",
-        "clip-123"
+        "clip-122"
       ],
       "authority_sources": []
     },
@@ -445,7 +536,7 @@
       "sha256": "12ef191d787e803ce5c3ade0eac43efc63fd9f7f68ec477f5feca39e51626fc3",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "the same one foreground shoe-searcher in brown jacket and cream trousers, now wearing both brown shoes; the same bedroom and doorway",
       "story_phase": "comic settled closing state",
@@ -462,10 +553,10 @@
       "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
-      "subject_inventory": "one Khalid viewed from palace balcony, exactly five British ships offshore; intact prebattle harbour",
-      "story_phase": "27 August 1896 before 09:00",
+      "subject_inventory": "exactly one ivory-turbaned maroon Khalid foreground left and one cream-robed guard with maroon fez and one spear at right; exactly five distant British ships, intact harbour and existing small dhows",
+      "story_phase": "palace balcony before the battle",
       "supported_shot_ids": [
         "clip-056",
         "clip-068",
@@ -480,7 +571,7 @@
       "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one foreground Khalid with ivory turban, black beard and maroon gold-trimmed robe; one secondary guard; one throne and scroll",
       "story_phase": "intact palace chamber before battle",
@@ -490,8 +581,24 @@
         "clip-046",
         "clip-050",
         "clip-053",
-        "clip-065",
         "clip-072"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "khalid-scroll-insert",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-scroll-insert-r001.png",
+      "sha256": "916efc6a94af8a1096648e8f56d6f33184d7700635fbfe4ecc9491113a6f56a9",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "one large Khalid with ivory turban, black beard, maroon-and-gold robe and one closed scroll; exactly one small cream-robed guard at the rear doorway; same empty throne",
+      "story_phase": "palace demands before battle",
+      "supported_shot_ids": [
+        "clip-052",
+        "clip-071"
       ],
       "authority_sources": []
     },
@@ -502,7 +609,7 @@
       "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one Khalid in ivory turban and maroon gold-trimmed robe, one guard, same throne and scroll in closer palace view",
       "story_phase": "intact palace chamber before battle",
@@ -510,29 +617,24 @@
         "clip-036",
         "clip-039",
         "clip-042",
-        "clip-048",
-        "clip-052",
-        "clip-071"
+        "clip-048"
       ],
       "authority_sources": []
     },
     {
       "id": "map-harbour-table-aftermath",
       "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png",
-      "sha256": "6bde6312c83103f8720fb1e47eb53b41b2637b30d91361f0a33fe0a7db87c0ee",
-      "status": "rejected",
-      "approved_by": null,
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
+      "sha256": "2789fa183a33cd5ce76d66b7179dd6e8eb51632e1a29d8fd90f26c3e069d5292",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
       "story_phase": "27 August 1896 after Glasgow sinks",
       "supported_shot_ids": [
         "clip-093",
-        "clip-094",
-        "clip-096",
-        "clip-099",
-        "clip-127"
+        "clip-099"
       ],
       "authority_sources": [
         "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
@@ -540,23 +642,16 @@
         "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
         "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
         "https://whc.unesco.org/en/list/173"
-      ],
-      "previous_review": {
-        "status": "approved",
-        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
-      },
-      "reviewed_by": "Codex resume audit",
-      "reviewed_at": "2026-10-02T14:24:17+03:30",
-      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+      ]
     },
     {
       "id": "map-harbour-table-early-battle",
       "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r001.png",
-      "sha256": "42deca70160a963108e490517775632cad3a1a0341d03e2343bc4107854b4201",
-      "status": "rejected",
-      "approved_by": null,
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png",
+      "sha256": "c4664d2ece213a1d417138edfcd10f2b75019fcca90e98ea9b09f5452e45400a",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
       "story_phase": "27 August 1896 after first fire but before Glasgow sinks",
@@ -570,23 +665,16 @@
         "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
         "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
         "https://whc.unesco.org/en/list/173"
-      ],
-      "previous_review": {
-        "status": "approved",
-        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
-      },
-      "reviewed_by": "Codex resume audit",
-      "reviewed_at": "2026-10-02T14:24:17+03:30",
-      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+      ]
     },
     {
       "id": "map-harbour-table-prebattle",
       "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png",
-      "sha256": "04ac2385b6da2ceffc6c132907600c5dff87f6e3e263ce71264e025b0235d985",
-      "status": "rejected",
-      "approved_by": null,
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+      "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
       "story_phase": "27 August 1896 before 09:00",
@@ -603,27 +691,21 @@
         "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
         "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
         "https://whc.unesco.org/en/list/173"
-      ],
-      "previous_review": {
-        "status": "approved",
-        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
-      },
-      "reviewed_by": "Codex resume audit",
-      "reviewed_at": "2026-10-02T14:24:17+03:30",
-      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+      ]
     },
     {
       "id": "map-harbour-table-refuge",
       "type": "scene",
-      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r001.png",
-      "sha256": "d4e660f7fadaeaf606d54cce41fb11718d312f3fb0772e4107725fd0bf1d4e67",
-      "status": "rejected",
-      "approved_by": null,
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
+      "sha256": "74ae7a649ce6a9396b7dd604215e2e7b1c472627c63617c3bce7791a72280960",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
       "story_phase": "27 August 1896 after Khalid leaves the palace",
       "supported_shot_ids": [
+        "clip-099",
         "clip-101",
         "clip-105"
       ],
@@ -633,14 +715,30 @@
         "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
         "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
         "https://whc.unesco.org/en/list/173"
+      ]
+    },
+    {
+      "id": "map-harbour-table-surrender",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png",
+      "sha256": "6e206565a63ff74b9636f1a5611c766149b7caf7ff5fb40381b9c08af13b122e",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
+      "story_phase": "surrender after Khalid reaches refuge",
+      "supported_shot_ids": [
+        "clip-105",
+        "clip-127"
       ],
-      "previous_review": {
-        "status": "approved",
-        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
-      },
-      "reviewed_by": "Codex resume audit",
-      "reviewed_at": "2026-10-02T14:24:17+03:30",
-      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ]
     },
     {
       "id": "map-world-blank",
@@ -649,7 +747,7 @@
       "sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one physical illustrated world chart; Britain navy pin, Germany ochre pin, Zanzibar maroon ring; zero people",
       "story_phase": "1890–1896 world geography before Khalid enters the story",
@@ -676,7 +774,7 @@
       "sha256": "78325aa49fcc02ef9caee8ed611869b31f7cca9be01dfc8c775eac4ba3f1487f",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same physical world chart and fixed Britain, Germany, Zanzibar locations; two small neutral diplomat tokens in Europe; no Khalid token",
       "story_phase": "1890s British-German diplomatic context, not human travel",
@@ -700,14 +798,36 @@
       "sha256": "544f93649c45daeb9ab7c0ed5b61500618b9de940ff80fe11f6621c2c6e58599",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same world chart and pins; one tiny maroon Khalid token beside Zanzibar",
       "story_phase": "world geography after Khalid is introduced",
       "supported_shot_ids": [
         "clip-038",
         "clip-040",
-        "clip-119"
+        "clip-118"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ]
+    },
+    {
+      "id": "map-world-khalid-mainland",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png",
+      "sha256": "f39544d74df34fe00e5009224714085214d1d77b9774d50275feb21977307126",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "same physical world chart and fixed Britain navy pin, Germany ochre pin, Zanzibar maroon ring; exactly one tiny maroon Khalid token on adjacent East African mainland",
+      "story_phase": "later Khalid departure toward broad German East Africa area",
+      "supported_shot_ids": [
+        "clip-118"
       ],
       "authority_sources": [
         "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
@@ -724,7 +844,7 @@
       "sha256": "1c0c17332434fc21822048b264b9d384fa79d893285ecb6640d0c23bfef1a622",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same physical illustrated world chart from a lower table angle; Britain navy pin, Germany ochre pin, Zanzibar maroon ring off northern Tanzania; zero people",
       "story_phase": "1890–1896 world geography before Khalid enters the story",
@@ -747,14 +867,13 @@
       "sha256": "65f443dfa7db248c39d69adcda8e69f4a8daa25732203e4f075089845af799f8",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same world chart and pins; three dashed Indian Ocean routes ending at Zanzibar; zero people",
       "story_phase": "1890–1896 Indian Ocean trade context",
       "supported_shot_ids": [
         "clip-016",
-        "clip-017",
-        "clip-024"
+        "clip-017"
       ],
       "authority_sources": [
         "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
@@ -771,14 +890,30 @@
       "sha256": "0a5ac866c32265a4f018098841a8f92ee4efcbebeb6aaaa4976bc02dd82a2688",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "three prominent local stick-figure residents, wicker baskets, shaded market stalls, one distant dhow",
       "story_phase": "Stone Town market before battle",
       "supported_shot_ids": [
         "clip-011",
-        "clip-027",
-        "clip-120"
+        "clip-027"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "market-basket-close",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+      "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "exactly three market residents: cream-and-ivory trader left, navy-and-ochre shopper center, red-and-cream-shawled resident right; one large shared wicker basket and one separate smaller shopper basket; intact palace and one dhow beyond",
+      "story_phase": "intact market, daily civilian life",
+      "supported_shot_ids": [
+        "clip-023",
+        "clip-029"
       ],
       "authority_sources": []
     },
@@ -789,16 +924,30 @@
       "sha256": "74c4b4ade149a763940dec22de26ff6f459474eafafb5f65afcb85c22a61229d",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same three prominent local residents as market, baskets and quay from a different eye-level angle",
       "story_phase": "Stone Town market before or after battle, with matching palace state",
       "supported_shot_ids": [
         "clip-018",
-        "clip-023",
-        "clip-029",
-        "clip-117",
         "clip-129"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "messenger-scroll-quay",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+      "sha256": "9aa801eeacbec66ad150d8f6cc80f3b9690e42f02703ed4576c24aa67729f32a",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "exactly one foreground cream-robed ivory-turbaned messenger, one closed blank cream scroll; intact palace and one dhow beyond; existing tiny distant residents stay background-sized",
+      "story_phase": "message delivery at intact waterfront",
+      "supported_shot_ids": [
+        "clip-049",
+        "clip-057"
       ],
       "authority_sources": []
     },
@@ -809,7 +958,7 @@
       "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship",
       "story_phase": "battle already in progress",
@@ -828,7 +977,7 @@
       "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "damaged palace side arcade, two retreating defenders, one distant British ship",
       "story_phase": "27 August 1896 battle in progress",
@@ -847,7 +996,7 @@
       "sha256": "489a1c21b0a2c4715fff51aa51b8e4f1cdf31e1097d24b7fbf26499e735c4e0b",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "one foreground older Rawson with white beard, dark navy officer coat, gold shoulder boards, peaked cap and binoculars",
       "story_phase": "British ship bridge facing intact palace",
@@ -864,13 +1013,46 @@
       "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8",
       "status": "approved",
       "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02",
-      "provenance": "built-in image_gen artwork or reviewed crop",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
       "aspect": "16:9",
       "subject_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
       "story_phase": "British ship bridge before 09:00",
       "supported_shot_ids": [
         "clip-041",
         "clip-058"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "shoe-foot-insert",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+      "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "lower half of exactly one shoe-searcher: brown jacket hem, cream trousers, two stick legs, one brown shoe worn and one brown shoe held beside the unshod foot; same doorway floor",
+      "story_phase": "comic missing-shoe setup or late closing callback",
+      "supported_shot_ids": [
+        "clip-002",
+        "clip-123"
+      ],
+      "authority_sources": []
+    },
+    {
+      "id": "shore-defenders-cannon",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/shore-defenders-cannon-r001.png",
+      "sha256": "6028ef883d20e340033f284736ac95e110606911a38823f4c50d121edee446b2",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "provenance": "built-in imagegen; reviewed immutable full-frame scene",
+      "aspect": "16:9",
+      "subject_inventory": "exactly two cream-robed stick defenders with ivory turbans and muted maroon sashes; exactly one small shore cannon on one wooden carriage; intact palace, quiet water",
+      "story_phase": "shore defence at rest before battle",
+      "supported_shot_ids": [
+        "clip-065"
       ],
       "authority_sources": []
     }
@@ -886,7 +1068,7 @@
     {
       "shot_id": "clip-002",
       "asset_ids": [
-        "hook-shoe"
+        "shoe-foot-insert"
       ],
       "unsupported_elements": []
     },
@@ -923,9 +1105,7 @@
       "asset_ids": [
         "map-harbour-table-prebattle"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-008",
@@ -979,7 +1159,7 @@
     {
       "shot_id": "clip-015",
       "asset_ids": [
-        "harbour-messenger-quay"
+        "dhow-trade-cargo"
       ],
       "unsupported_elements": []
     },
@@ -1035,14 +1215,14 @@
     {
       "shot_id": "clip-023",
       "asset_ids": [
-        "market-quay"
+        "market-basket-close"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-024",
       "asset_ids": [
-        "map-world-trade-blank"
+        "dhow-trade-cargo"
       ],
       "unsupported_elements": []
     },
@@ -1056,7 +1236,7 @@
     {
       "shot_id": "clip-026",
       "asset_ids": [
-        "harbour-messenger-quay"
+        "dhow-trade-cargo"
       ],
       "unsupported_elements": []
     },
@@ -1077,7 +1257,7 @@
     {
       "shot_id": "clip-029",
       "asset_ids": [
-        "market-quay"
+        "market-basket-close"
       ],
       "unsupported_elements": []
     },
@@ -1217,7 +1397,7 @@
     {
       "shot_id": "clip-049",
       "asset_ids": [
-        "harbour-messenger-quay"
+        "messenger-scroll-quay"
       ],
       "unsupported_elements": []
     },
@@ -1238,7 +1418,7 @@
     {
       "shot_id": "clip-052",
       "asset_ids": [
-        "khalid-throne-close"
+        "khalid-scroll-insert"
       ],
       "unsupported_elements": []
     },
@@ -1261,9 +1441,7 @@
       "asset_ids": [
         "map-harbour-table-prebattle"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-056",
@@ -1275,7 +1453,7 @@
     {
       "shot_id": "clip-057",
       "asset_ids": [
-        "harbour-intact"
+        "messenger-scroll-quay"
       ],
       "unsupported_elements": []
     },
@@ -1326,14 +1504,12 @@
       "asset_ids": [
         "map-harbour-table-prebattle"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-065",
       "asset_ids": [
-        "khalid-palace"
+        "shore-defenders-cannon"
       ],
       "unsupported_elements": []
     },
@@ -1375,7 +1551,7 @@
     {
       "shot_id": "clip-071",
       "asset_ids": [
-        "khalid-throne-close"
+        "khalid-scroll-insert"
       ],
       "unsupported_elements": []
     },
@@ -1391,9 +1567,7 @@
       "asset_ids": [
         "map-harbour-table-prebattle"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-074",
@@ -1414,9 +1588,7 @@
       "asset_ids": [
         "map-harbour-table-prebattle"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-077",
@@ -1479,9 +1651,7 @@
       "asset_ids": [
         "map-harbour-table-early-battle"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-086",
@@ -1502,9 +1672,7 @@
       "asset_ids": [
         "map-harbour-table-early-battle"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-089",
@@ -1523,14 +1691,14 @@
     {
       "shot_id": "clip-091",
       "asset_ids": [
-        "glasgow-afloat"
+        "glasgow-afloat-battle"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-092",
       "asset_ids": [
-        "glasgow-stern"
+        "glasgow-quarter-battle"
       ],
       "unsupported_elements": []
     },
@@ -1539,18 +1707,14 @@
       "asset_ids": [
         "map-harbour-table-aftermath"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-094",
       "asset_ids": [
-        "map-harbour-table-aftermath"
+        "glasgow-sunken-close"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-095",
@@ -1562,11 +1726,9 @@
     {
       "shot_id": "clip-096",
       "asset_ids": [
-        "map-harbour-table-aftermath"
+        "glasgow-sunken-close"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-097",
@@ -1585,16 +1747,15 @@
     {
       "shot_id": "clip-099",
       "asset_ids": [
-        "map-harbour-table-aftermath"
+        "map-harbour-table-aftermath",
+        "map-harbour-table-refuge"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-100",
       "asset_ids": [
-        "consulate-refuge"
+        "consulate-street-approach"
       ],
       "unsupported_elements": []
     },
@@ -1603,9 +1764,7 @@
       "asset_ids": [
         "map-harbour-table-refuge"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-102",
@@ -1631,11 +1790,10 @@
     {
       "shot_id": "clip-105",
       "asset_ids": [
-        "map-harbour-table-refuge"
+        "map-harbour-table-refuge",
+        "map-harbour-table-surrender"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-106",
@@ -1668,7 +1826,7 @@
     {
       "shot_id": "clip-110",
       "asset_ids": [
-        "harbour-after-arch"
+        "aftermath-quay-detail"
       ],
       "unsupported_elements": []
     },
@@ -1696,7 +1854,7 @@
     {
       "shot_id": "clip-114",
       "asset_ids": [
-        "harbour-after-arch"
+        "aftermath-quay-detail"
       ],
       "unsupported_elements": []
     },
@@ -1710,35 +1868,36 @@
     {
       "shot_id": "clip-116",
       "asset_ids": [
-        "hamoud-enthroned"
+        "harbour-after-arch"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-117",
       "asset_ids": [
-        "market-quay"
+        "hamoud-enthroned"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-118",
       "asset_ids": [
-        "hamoud-enthroned"
+        "map-world-khalid",
+        "map-world-khalid-mainland"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-119",
       "asset_ids": [
-        "map-world-khalid"
+        "hamoud-enthroned"
       ],
       "unsupported_elements": []
     },
     {
       "shot_id": "clip-120",
       "asset_ids": [
-        "market"
+        "aftermath-civilians-close"
       ],
       "unsupported_elements": []
     },
@@ -1759,7 +1918,7 @@
     {
       "shot_id": "clip-123",
       "asset_ids": [
-        "hook-shoe"
+        "shoe-foot-insert"
       ],
       "unsupported_elements": []
     },
@@ -1787,11 +1946,9 @@
     {
       "shot_id": "clip-127",
       "asset_ids": [
-        "map-harbour-table-aftermath"
+        "map-harbour-table-surrender"
       ],
-      "unsupported_elements": [
-        "Correct five-British-plus-one-Glasgow ship inventory; current reference contains six British ships."
-      ]
+      "unsupported_elements": []
     },
     {
       "shot_id": "clip-128",
@@ -1820,6 +1977,134 @@
         "hook-shoe-resolved"
       ],
       "unsupported_elements": []
+    }
+  ],
+  "retired_assets": [
+    {
+      "id": "map-harbour-table-aftermath",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png",
+      "sha256": "6bde6312c83103f8720fb1e47eb53b41b2637b30d91361f0a33fe0a7db87c0ee",
+      "status": "rejected",
+      "approved_by": null,
+      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "aspect": "16:9",
+      "subject_inventory": "same harbour chart; five British ships in fixed west/left positions, tilted sunken Glasgow, damaged palace east/right, Khalid token at palace until refuge",
+      "story_phase": "27 August 1896 after Glasgow sinks",
+      "supported_shot_ids": [
+        "clip-093",
+        "clip-094",
+        "clip-096",
+        "clip-099",
+        "clip-127"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
+      },
+      "reviewed_by": "Codex resume audit",
+      "reviewed_at": "2026-10-02T14:24:17+03:30",
+      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+    },
+    {
+      "id": "map-harbour-table-early-battle",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r001.png",
+      "sha256": "42deca70160a963108e490517775632cad3a1a0341d03e2343bc4107854b4201",
+      "status": "rejected",
+      "approved_by": null,
+      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "aspect": "16:9",
+      "subject_inventory": "same harbour chart; five British ships west/left, Glasgow still afloat east/right, damaged palace east/right",
+      "story_phase": "27 August 1896 after first fire but before Glasgow sinks",
+      "supported_shot_ids": [
+        "clip-085",
+        "clip-088"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
+      },
+      "reviewed_by": "Codex resume audit",
+      "reviewed_at": "2026-10-02T14:24:17+03:30",
+      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+    },
+    {
+      "id": "map-harbour-table-prebattle",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png",
+      "sha256": "04ac2385b6da2ceffc6c132907600c5dff87f6e3e263ce71264e025b0235d985",
+      "status": "rejected",
+      "approved_by": null,
+      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "aspect": "16:9",
+      "subject_inventory": "same physical harbour chart; five navy British ship tokens west/left, one ochre Glasgow east/right, Rawson west, Khalid at intact palace east",
+      "story_phase": "27 August 1896 before 09:00",
+      "supported_shot_ids": [
+        "clip-007",
+        "clip-055",
+        "clip-064",
+        "clip-073",
+        "clip-076"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
+      },
+      "reviewed_by": "Codex resume audit",
+      "reviewed_at": "2026-10-02T14:24:17+03:30",
+      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
+    },
+    {
+      "id": "map-harbour-table-refuge",
+      "type": "scene",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r001.png",
+      "sha256": "d4e660f7fadaeaf606d54cce41fb11718d312f3fb0772e4107725fd0bf1d4e67",
+      "status": "rejected",
+      "approved_by": null,
+      "provenance": "built-in image_gen full-frame physical scene anchor",
+      "aspect": "16:9",
+      "subject_inventory": "same harbour chart; five British ships west/left, sunken Glasgow, damaged palace east/right, maroon Khalid token at inland consular refuge gate",
+      "story_phase": "27 August 1896 after Khalid leaves the palace",
+      "supported_shot_ids": [
+        "clip-101",
+        "clip-105"
+      ],
+      "authority_sources": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex visual contact-sheet and full-size critical-anchor review 2026-10-02"
+      },
+      "reviewed_by": "Codex resume audit",
+      "reviewed_at": "2026-10-02T14:24:17+03:30",
+      "decision_notes": "Full-resolution inspection counts six navy British ships plus one Glasgow. Required inventory is five British ships plus one Glasgow. Prior approval is revoked; preserve this revision as evidence and create a corrected immutable reference."
     }
   ]
 }

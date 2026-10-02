@@ -1,0 +1,924 @@
+{
+  "dry_run": true,
+  "valid": true,
+  "job_count": 131,
+  "jobs": [
+    {
+      "index": 1,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-001.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 2,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-002.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 3,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-003.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 4,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-004.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 5,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-005.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 6,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-006.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 7,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-007.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 8,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-008.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 9,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-009.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 10,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-010.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 11,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-011.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 12,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-012.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 13,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-013.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 14,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-014.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 15,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-015.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 16,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-016.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 17,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-017.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 18,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-018.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 19,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-019.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 20,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-020.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 21,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-021.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 22,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-022.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 23,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-023.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 24,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-024.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 25,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-025.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 26,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-026.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 27,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-027.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 28,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-028.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 29,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-029.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 30,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-030.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 31,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-031.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 32,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-032.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 33,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-033.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 34,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-034.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 35,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-035.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 36,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-036.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 37,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-037.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 38,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-038.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 39,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-039.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 40,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-040.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 41,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-041.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 42,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-042.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 43,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-043.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 44,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-044.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 45,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-045.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 46,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-046.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 47,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-047.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 48,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-048.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 49,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-049.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 50,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-050.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 51,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-051.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 52,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-052.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 53,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-053.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 54,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-054.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 55,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-055.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 56,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-056.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 57,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-057.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 58,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-058.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 59,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-059.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 60,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-060.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 61,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-061.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 62,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-062.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 63,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-063.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 64,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-064.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 65,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-065.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 66,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-066.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 67,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-067.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 68,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-068.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 69,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-069.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 70,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-070.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 71,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-071.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 72,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-072.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 73,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-073.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 74,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-074.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 75,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-075.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 76,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-076.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 77,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-077.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 78,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-078.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 79,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-079.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 80,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-080.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 81,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-081.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 82,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-082.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 83,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-083.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 84,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-084.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 85,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-085.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 86,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-086.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 87,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-087.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 88,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-088.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 89,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-089.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 90,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-090.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 91,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-091.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 92,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-092.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 93,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-093.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 94,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-094.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 95,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-095.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 96,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-096.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 97,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-097.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 98,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-098.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 99,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-099.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 100,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-100.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 101,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-101.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 102,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-102.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 103,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-103.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 104,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-104.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 105,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-105.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 106,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-106.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 107,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-107.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 108,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-108.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 109,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-109.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 110,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-110.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 111,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-111.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 112,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-112.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 113,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-113.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 114,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-114.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 115,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-115.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 116,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-116.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 117,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-117.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 118,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-118.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 119,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-119.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 120,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-120.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 121,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-121.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 122,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-122.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 123,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-123.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 124,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-124.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 125,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-125.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 126,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-126.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 127,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-127.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 128,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-128.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 129,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-129.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 130,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-130.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 131,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-131.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

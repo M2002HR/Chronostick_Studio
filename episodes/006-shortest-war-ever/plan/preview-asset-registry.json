@@ -28,17 +28,17 @@
     ],
     "glasgow-sunken-close": [
       "glasgow-sunken-close-r001.png",
-      "exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero visible people or other ships; damaged palace beyond",
+      "exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero people aboard or in foreground, existing tiny shore residents stay background-sized; no other ships; damaged palace beyond",
       "settled Glasgow wreck after sinking"
     ],
     "consulate-street-approach": [
       "consulate-street-approach-r001.png",
-      "exactly one maroon-and-gold Khalid at left facing right, exactly one neutral cream-robed guard beside the same carved gate at right; one short paved approach; damaged palace beyond",
+      "exactly one maroon-and-gold Khalid at left facing right holding his existing closed scroll, exactly one cream-robed neutral guard beside the already open carved doorway at right; paved approach, harbour and unaffected street buildings beyond; bombarded palace outside this viewpoint",
       "approach to German consular refuge after battle damage"
     ],
     "aftermath-quay-detail": [
       "aftermath-quay-detail-r001.png",
-      "one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray and ochre at left; damaged palace and submerged Glasgow beyond",
+      "one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray shawl and sand robe at left; damaged palace and submerged Glasgow beyond; tiny existing shore residents remain background-sized",
       "respectful quiet human aftermath"
     ],
     "shoe-foot-insert": [
@@ -55,6 +55,16 @@
       "map-world-khalid-mainland-r001.png",
       "same physical world chart and fixed Britain navy pin, Germany ochre pin, Zanzibar maroon ring; exactly one tiny maroon Khalid token on adjacent East African mainland",
       "later Khalid departure toward broad German East Africa area"
+    ],
+    "glasgow-afloat-battle": [
+      "glasgow-afloat-battle-r001.png",
+      "exactly one intact afloat black-and-ochre Glasgow, one ochre funnel, two rigged masts, exactly five existing cream-robed crew; same side-on camera angle; damaged palace roof and one thin residual plume beyond, no other ship",
+      "early battle, before Glasgow sinks"
+    ],
+    "glasgow-quarter-battle": [
+      "glasgow-quarter-battle-r001.png",
+      "exactly one intact afloat black-and-ochre Glasgow, one ochre funnel, two rigged masts, exactly five existing cream-robed crew; same low three-quarter camera angle; damaged palace roof and one thin residual plume beyond, no other ship",
+      "early battle, before Glasgow sinks"
     ]
   }
 }

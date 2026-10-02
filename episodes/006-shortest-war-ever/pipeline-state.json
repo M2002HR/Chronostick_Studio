@@ -123,7 +123,7 @@
       "id": "05",
       "name": "shot-plan",
       "skill": "chronostick-longform-shot-plan",
-      "status": "needs_review",
+      "status": "approved",
       "inputs": [
         "timestamps/timing-map.json",
         "plan/visual-direction.md"
@@ -135,40 +135,42 @@
         "plan/map-manifest.json",
         "plan/text-events.json"
       ],
-      "approved_by": null,
-      "decision_notes": "Clip-099 contract simultaneously fixes all token positions and moves Khalid; resolve allowed movement and consulate endpoint before regeneration. Four harbour anchors contradict the shot-plan ship count.",
-      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "approved_by": "Codex direct planning review 2026-10-02",
+      "decision_notes": "Reviewed 131 timed directions, 215 shots, narration contracts, map/text inventories and continuity. Four ship-count anchors corrected; clip099 token destination unambiguous; departure moved to clip118 actual Khalid cue; late aftermath does not reset damaged palace or Khalid refuge.",
+      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
         "decision_notes": "Codex reviewed all 131 timed beat cards, revised story-state and map/text ledgers, the 44-anchor variety distribution, and voice-led animatic r004.",
         "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
       },
-      "validated_at": "2026-10-02T14:24:17+03:30"
+      "validated_at": "2026-10-02T15:06:46.180714+00:00"
     },
     {
       "id": "06",
       "name": "references",
       "skill": "chronostick-longform-assets",
-      "status": "needs_review",
+      "status": "approved",
       "inputs": [
         "timestamps/timing-map.json",
         "plan/visual-direction.md"
       ],
       "outputs": [
         "plan/reference-manifest.json",
-        "plan/reference-review.md"
+        "plan/reference-review.md",
+        "plan/reference-preview-review.json",
+        "plan/reference-preview-review.md"
       ],
-      "approved_by": null,
-      "decision_notes": "Revoked four harbour-map anchor approvals after full-resolution recount: each contains six British ships plus Glasgow. Four rejected anchors support 14 slots.",
-      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "approved_by": "Codex actual reference inspection 2026-10-02",
+      "decision_notes": "57 selected anchors reviewed. Four revised harbour maps and thirteen new anchors individually inspected at full resolution and hashed. New early-battle Glasgow references preserve five crew while correcting the palace damage. Still approval is generation-input approval only.",
+      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
         "decision_notes": "Codex inspected all 44 selected imagegen anchors in contact sheets and critical assets at full size. Reference-review.md records identity, geography, damage-state and count checks plus exclusions; all selected stills are approved as generation inputs only.",
         "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
       },
-      "validated_at": "2026-10-02T14:24:17+03:30"
+      "validated_at": "2026-10-02T15:06:46.180714+00:00"
     },
     {
       "id": "07",
@@ -180,25 +182,25 @@
         "plan/visual-direction.md"
       ],
       "outputs": [
-        "plan/animatic-r004.mp4",
+        "plan/animatic-r006.mp4",
         "plan/animatic-review.md"
       ],
       "approved_by": null,
-      "decision_notes": "Still animatic r004 remains a planning preview, but integrated H3 pilot completed and has visible failures. Stage is not approved for bulk generation.",
-      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "decision_notes": "Voice-led animatic r006 and full anchor sequence reviewed as planning only. Earlier H3 pilots remain unapproved. Current user explicitly requested a complete 4-step concept pass before per-clip review; this does not approve final 12-step picture.",
+      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
         "decision_notes": "Codex inspected the 655-second voice-led still animatic r004 at 26 evenly spaced time points and accepted its reference/timing sequence as a planning guide. H3 pilot output remains a separate render review gate.",
         "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
       },
-      "validated_at": "2026-10-02T14:24:17+03:30"
+      "validated_at": "2026-10-02T15:06:46.180714+00:00"
     },
     {
       "id": "08",
       "name": "video-prompts",
       "skill": "chronostick-longform-prompts",
-      "status": "needs_review",
+      "status": "validated",
       "inputs": [
         "timestamps/timing-map.json",
         "plan/visual-direction.md"
@@ -208,21 +210,21 @@
         "prompts/clip-131.md"
       ],
       "approved_by": null,
-      "decision_notes": "Current pure prompts exist, but map/reference failures and the clip-099 motion contradiction require affected-family review.",
-      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "decision_notes": "All131 pure prompts revised for the reviewed anchors, simple actions,215 shots, exact text exceptions, closed-world maps, fixed prefire state and resolved final frames. Text/planning checks passed; actual H3 behaviour requires full preview review.",
+      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
       "previous_review": {
         "status": "approved",
         "approved_by": "Codex reviewed 2026-10-02",
         "decision_notes": "Codex reviewed the H3-only per-slot prompt contract and rebuilt all 131 pure prompts for the 44 selected anchors, exact text exceptions, 12-step profile and fixed five-second duration. Rendered behaviour remains unapproved until clip QC.",
         "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
       },
-      "validated_at": "2026-10-02T14:24:17+03:30"
+      "validated_at": "2026-10-02T15:06:46.180714+00:00"
     },
     {
       "id": "09",
       "name": "jobs-preflight",
       "skill": "chronostick-longform-jobs",
-      "status": "needs_review",
+      "status": "validated",
       "inputs": [
         "automation/job-plan.json",
         "automation/jobs",
@@ -230,18 +232,20 @@
       ],
       "outputs": [
         "automation/jobs",
-        "automation/full-preflight-r003.log"
+        "automation/full-preflight-r003.log",
+        "automation/batches/preview-4step-r001/manifest.json",
+        "automation/batches/preview-4step-r001/preflight.json"
       ],
       "approved_by": null,
-      "decision_notes": "Historical 131-job dry-run passed. Current output paths for clips 013, 064, 075, 099 and 124 now exist; do not resubmit all jobs. Old 86-scene batch differs from active jobs. Fresh remaining-job staging/preflight must follow pilot repair.",
-      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "decision_notes": "Isolated frozen131-job preview package passed full live-service dry-run without warnings. Explicit4 steps,Lightning true,1024x576,24fps and fixed seeds verified. Revision00412-step jobs preserved unlaunched. Current user authorizes preview only at this gate.",
+      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
       "previous_review": {
         "status": "validated",
         "approved_by": null,
         "decision_notes": "All 131 revision-003 H3 jobs passed repository validation and live-service dry-run. Five representative jobs submitted in pilot batch a8fd33bf-eb25-4f44-b36f-b18b6c8e0a7b; clip-level outcome pending.",
         "next_action": "Review pilot renders; stage and launch only remaining unrendered jobs in the main batch."
       },
-      "validated_at": "2026-10-02T14:24:17+03:30"
+      "validated_at": "2026-10-02T15:06:46.180714+00:00"
     },
     {
       "id": "10",
@@ -260,15 +264,15 @@
         "plan/resume-audit.md"
       ],
       "approved_by": null,
-      "decision_notes": "Five r003 pilot jobs succeeded technically. Sampled frames show failures in 013, 064, 075 and 099; 124 is unapproved pending full review. No selected render exists.",
-      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "decision_notes": "No selected picture timeline. Review every forthcoming 4-step output for semantic errors, motion, continuity, maps, every exact-text frame and native audio. Prepare only necessary revisions, then obtain the later12-step decision.",
+      "next_action": "Start full 4-step concept preview once; later review all 131 outputs before final 12-step rendering.",
       "previous_review": {
         "status": "missing",
         "approved_by": null,
         "decision_notes": null,
         "next_action": null
       },
-      "validated_at": "2026-10-02T14:24:17+03:30"
+      "validated_at": "2026-10-02T15:06:46.180714+00:00"
     },
     {
       "id": "11",
@@ -294,5 +298,13 @@
     }
   ],
   "last_audited_at": "2026-10-02T14:24:17+03:30",
-  "resume_audit": "plan/resume-audit.json"
+  "resume_audit": "plan/resume-audit.json",
+  "preview": {
+    "scope": "all131slots",
+    "steps": 4,
+    "lightning": true,
+    "status": "prepared_not_launched",
+    "batch_id": null,
+    "authorization": "User explicit full background preview request2026-10-02"
+  }
 }

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "template": "h3_ref2va",
   "profile": "youtube_shorts_hq",
-  "job_identity": "006-shortest-war-ever:clip-046:r003",
+  "job_identity": "006-shortest-war-ever:clip-046:r004",
   "prompt": {
     "file": "episodes/006-shortest-war-ever/prompts/clip-046.md"
   },
@@ -38,7 +38,7 @@
   },
   "output": {
     "directory": "episodes/006-shortest-war-ever/renders/raw",
-    "prefix": "clip-046-shot-r003",
+    "prefix": "clip-046-shot-r004",
     "container": "mp4",
     "overwrite": false,
     "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",

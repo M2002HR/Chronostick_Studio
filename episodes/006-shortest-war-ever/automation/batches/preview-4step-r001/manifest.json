@@ -1,0 +1,2271 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "006-shortest-war-ever",
+  "revision": 1,
+  "authorization": "User explicitly requested all clips as a background 4-step preview on 2026-10-02; stop after verifying start. Later 12-step production requires preview review.",
+  "purpose": "concept and major prompt/reference defect review; no production-quality approval",
+  "status": "prepared_not_launched",
+  "batch_id": null,
+  "job_count": 131,
+  "generation": {
+    "steps": 4,
+    "lightning": true,
+    "width": 1024,
+    "height": 576,
+    "fps": 24,
+    "raw_frames": 124,
+    "editorial_frames": 120,
+    "editorial_seconds": 5
+  },
+  "final_production": {
+    "steps": 12,
+    "lightning": false,
+    "revision": 4,
+    "status": "prepared_not_launched"
+  },
+  "settings": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/settings.json",
+  "settings_sha256": "11aa1e93dc6cde34ec28dd55901d916fba5b79a74fd4a3e946a7f54ef5cd9b25",
+  "accepted_voice_sha256": "dc63ffc1080a705bfaa3d4df8b9ccbdd8b1601b889411f1f641e622bc8400e50",
+  "accepted_timing_sha256": "f01a2fccdeb815414a550d1cfaadd06e260512b865d7ef2972eaa23109a4d8fc",
+  "jobs": [
+    {
+      "number": 1,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-001.json",
+      "job_sha256": "e79883d7eb2613648ec7fc3b16dfc185b34931065d4c383023e2917b9d9e601f",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-001.md",
+      "prompt_sha256": "af905157d9eb9b3fd34cf4923c30315af613476cf5a6380de8e37bd5e16ea966",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-001.json",
+      "production_job_sha256": "ee5e8f0d4857a5217b8067e19ae3e11684161fc0813247667bd66747e0fc1d2c",
+      "seed": 8095560372086951649,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png",
+          "sha256": "cb5a0a4e924396573524493e8de5e9bea9c55c756a36e3e00e4699d524c3ace4"
+        }
+      ],
+      "output_prefix": "clip-001-preview-4step-r001"
+    },
+    {
+      "number": 2,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-002.json",
+      "job_sha256": "5804ecd364e8294304a1c9fb2bc843af190e9abef221f8ca174fcb328fcf4aa0",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-002.md",
+      "prompt_sha256": "74fef24c7ea02d595105d0c4a379cd8a930c145439ce4cb448dd9471095374b1",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-002.json",
+      "production_job_sha256": "60d7ed27cdb5bb8d9e2dbc9909fd1698d1791150407288bafcab95d7c4c79e73",
+      "seed": 5798604692037920003,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+          "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+        }
+      ],
+      "output_prefix": "clip-002-preview-4step-r001"
+    },
+    {
+      "number": 3,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-003.json",
+      "job_sha256": "59f74769a6b3553830b687d3769391e8af3e03c3b6301931b042bdfbf0061d71",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-003.md",
+      "prompt_sha256": "a60c68b75d504e88e6b084ac4d3841b9c28b97167082a824b3aac716a806886d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-003.json",
+      "production_job_sha256": "5003870fca4678a6e59f9a1a41dcb555060268302a759a541addf514ab440502",
+      "seed": 5300447609517682629,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+          "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+        }
+      ],
+      "output_prefix": "clip-003-preview-4step-r001"
+    },
+    {
+      "number": 4,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-004.json",
+      "job_sha256": "a77229c054bea799f78bd0ad72b93089e80e2e17c788fc89e52863998108841c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-004.md",
+      "prompt_sha256": "692cbce861fdb6ccaa64829b1df24a9de2425a66c40d44c042d42a4c1472a9c3",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-004.json",
+      "production_job_sha256": "1c9f4013842bf063cea637d7d7549f43c3842f50c0e167f8b49bc8bc966de5c4",
+      "seed": 8964999804697628810,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+          "sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70"
+        }
+      ],
+      "output_prefix": "clip-004-preview-4step-r001"
+    },
+    {
+      "number": 5,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-005.json",
+      "job_sha256": "8f60a757fa096cbecd8854e358a78862bfe05bc27fd245d57c0e6af524471aa0",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-005.md",
+      "prompt_sha256": "6b289a7d805aba3ba3829894141af550b7c24cbe4da667e53ef1ad8e1d353542",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-005.json",
+      "production_job_sha256": "3bb71b26a35b11f8940652cba218478f386ad220679bfef532595d5394717bfc",
+      "seed": 2890822891731793011,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+          "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6"
+        }
+      ],
+      "output_prefix": "clip-005-preview-4step-r001"
+    },
+    {
+      "number": 6,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-006.json",
+      "job_sha256": "43516aad0b02549b0f9d811ced0e4f7a64dff831c73219d31edf9557f19f3449",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-006.md",
+      "prompt_sha256": "9ed71f8f8aa7db6829697fc05b2d4be9eccd85bf5fbb418c5b4077e17685e32e",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-006.json",
+      "production_job_sha256": "4f76b5a59d6f6af2722ad5623b3a388a925832195dd25bbe179a358a5fc52e04",
+      "seed": 9002623882137594033,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+          "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+        }
+      ],
+      "output_prefix": "clip-006-preview-4step-r001"
+    },
+    {
+      "number": 7,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-007.json",
+      "job_sha256": "f54ac722078eb638c2ac12b3388921916e34b3bc73ce35ece7524585c44d4317",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-007.md",
+      "prompt_sha256": "02b7814c6edbf2b1e4207fde70e90286f678032be5c28257e33416f54b7ad899",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-007.json",
+      "production_job_sha256": "1c60c43553f2070a6077732575e290eb2a36f601c792d2d104c2119219bb3c6c",
+      "seed": 4656965586152323930,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+          "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f"
+        }
+      ],
+      "output_prefix": "clip-007-preview-4step-r001"
+    },
+    {
+      "number": 8,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-008.json",
+      "job_sha256": "d8070e8fc91bdc12081d8c1e36ad1382f5144e9472f4e96cbd04dd117d676c26",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-008.md",
+      "prompt_sha256": "19e6a0fcf0c6ecdae03a10398ce6b54b9514056724716a33a36697394df409e0",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-008.json",
+      "production_job_sha256": "9b1a6d29c82bf6dcbdb5dcc0bb6892b5971d07fe1a2cd5932991ea7ca150c5a0",
+      "seed": 1377687700302590511,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0859-r001.png",
+          "sha256": "0643d60483ec82abd4914c4960fe15724d9635df1bb4910b21f9fb3880bdc584"
+        }
+      ],
+      "output_prefix": "clip-008-preview-4step-r001"
+    },
+    {
+      "number": 9,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-009.json",
+      "job_sha256": "6090a89422548d59096779e7998bdfbcfaf087aed387eebca402c7eddb5c2de4",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-009.md",
+      "prompt_sha256": "8daef57bf8411739b70b08f34f04bbd729b7ade587e0db8c5f358c38054711ef",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-009.json",
+      "production_job_sha256": "0bf51dd2742766ccbf015df37d2db933df0b7693f1a6ba7152bea9a17df4d43d",
+      "seed": 7325936219227218216,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output_prefix": "clip-009-preview-4step-r001"
+    },
+    {
+      "number": 10,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-010.json",
+      "job_sha256": "1ea0fca9a2fbcf4677e9137bc1a7795c9d3904ca43de434f970b860f49d0c9a0",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-010.md",
+      "prompt_sha256": "62d466e1d6799df6e91fdff57476b06ac9d6e6d556a87743c9341d8539e5f75f",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-010.json",
+      "production_job_sha256": "f622d19a682e0f9b2157f205da9ab81e6f064847909fa8e9f0c9d29b82a6e0ce",
+      "seed": 7081946497883578861,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+          "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+        }
+      ],
+      "output_prefix": "clip-010-preview-4step-r001"
+    },
+    {
+      "number": 11,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-011.json",
+      "job_sha256": "ea26938a0f85ce553bd31e9ac90aa9603970ce349054f54673a610957439d0fa",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-011.md",
+      "prompt_sha256": "f1da92262c6fcbe31a8ed3f9bb7f14f0127843b4d2ad4b457381de81665f3e5d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-011.json",
+      "production_job_sha256": "de7bb9cbcbaa33a0569735b25057fcbb8d75ef37dd9c76a267b5e56479180762",
+      "seed": 7275477980150129802,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/market-r001.png",
+          "sha256": "0a5ac866c32265a4f018098841a8f92ee4efcbebeb6aaaa4976bc02dd82a2688"
+        }
+      ],
+      "output_prefix": "clip-011-preview-4step-r001"
+    },
+    {
+      "number": 12,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-012.json",
+      "job_sha256": "921cd3aa742b8bda809ec0142fc9e2b83751b68f736de3f2fc15f317f50883e4",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-012.md",
+      "prompt_sha256": "28836d4f57e561578a66c499c0c210d6f4cbcc4e37ebe04e60a17645f2640617",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-012.json",
+      "production_job_sha256": "5ed5b2c2b42e088424c80fd420a585f7d9f2bc262f1167540b0a68b1592780e1",
+      "seed": 4622150788589149292,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+          "sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70"
+        }
+      ],
+      "output_prefix": "clip-012-preview-4step-r001"
+    },
+    {
+      "number": 13,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-013.json",
+      "job_sha256": "ce04dbe02050a34da848e49bc1c04e0c664680be9212614c02910bca7c1357de",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-013.md",
+      "prompt_sha256": "eddd9a2d479af888debfdfc0c10027fc9d029cc01db9ebcd99fcddc79cdd4b6e",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-013.json",
+      "production_job_sha256": "6250fa1f83cf3cb3ea212a78ba3d68c0651c392da77cb56ab0fe043f76826da4",
+      "seed": 4376704361200760853,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png",
+          "sha256": "1c0c17332434fc21822048b264b9d384fa79d893285ecb6640d0c23bfef1a622"
+        }
+      ],
+      "output_prefix": "clip-013-preview-4step-r001"
+    },
+    {
+      "number": 14,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-014.json",
+      "job_sha256": "eda95d4add46764ebe727eea4945c28a7c75667095943419a52e74245ce126f5",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-014.md",
+      "prompt_sha256": "23471d4e45d1bdfe243961d3d921776502eabc4d281cd9e54244b4cb98f72a3b",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-014.json",
+      "production_job_sha256": "240518738db812ee3f226f17c7a63bcce4554ff7570fdaa94b64df6e62f37a66",
+      "seed": 437924045730514334,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+          "sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70"
+        }
+      ],
+      "output_prefix": "clip-014-preview-4step-r001"
+    },
+    {
+      "number": 15,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-015.json",
+      "job_sha256": "ab293760b5ec6c3302d78ae85965d814595745c321a68adff877adda7081489b",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-015.md",
+      "prompt_sha256": "0f2eb308ce1bee9a0a73a418b8f2a945c9495b8529e03c97ab48a507e13882f0",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-015.json",
+      "production_job_sha256": "d558a649472c53c71437b02782518f9d65974273b5ce5bece71a5ae18ae297fd",
+      "seed": 4217879576854515242,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+          "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+        }
+      ],
+      "output_prefix": "clip-015-preview-4step-r001"
+    },
+    {
+      "number": 16,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-016.json",
+      "job_sha256": "4a7b0f99509be16f3aa04e4cd5fa25a51da90eb15189a2f5be87d12162371f3c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-016.md",
+      "prompt_sha256": "7545939a7fcff483b1c9648bfd9dda311a2f01ea87637109aead57cfbfb3f7e6",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-016.json",
+      "production_job_sha256": "96097c12d05fce1f2a5c17a5232be881fbd855b730255c0066235cf557316d23",
+      "seed": 6465064844531548493,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png",
+          "sha256": "65f443dfa7db248c39d69adcda8e69f4a8daa25732203e4f075089845af799f8"
+        }
+      ],
+      "output_prefix": "clip-016-preview-4step-r001"
+    },
+    {
+      "number": 17,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-017.json",
+      "job_sha256": "7b6e1bff561b6a72ae8c5eb4136e4bd21f64fa6ed62fdb3792fa4d8a2bd962fb",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-017.md",
+      "prompt_sha256": "80b059ad95640d2621f3180656eea387512d1c0169277247ae4567572e2c33ba",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-017.json",
+      "production_job_sha256": "e3e2083c7d04fd9cbe7fed851bcba149f663cf1d79ebb933269429b9d6d33d13",
+      "seed": 7564965538740394419,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png",
+          "sha256": "65f443dfa7db248c39d69adcda8e69f4a8daa25732203e4f075089845af799f8"
+        }
+      ],
+      "output_prefix": "clip-017-preview-4step-r001"
+    },
+    {
+      "number": 18,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-018.json",
+      "job_sha256": "c0417a71714f586df0c11c4b7a89226ca33a87045c955bc0006537b932124dcf",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-018.md",
+      "prompt_sha256": "489741635b0762cce20738acdc3727f1244b39f3487d858684d0804ad29889e6",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-018.json",
+      "production_job_sha256": "b353578645e89efce0abc2c642f48b3ee3b394a1c91260bfaffc96dfcbf62618",
+      "seed": 8041985027558353150,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png",
+          "sha256": "74c4b4ade149a763940dec22de26ff6f459474eafafb5f65afcb85c22a61229d"
+        }
+      ],
+      "output_prefix": "clip-018-preview-4step-r001"
+    },
+    {
+      "number": 19,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-019.json",
+      "job_sha256": "15f41c0a4c2eef7a1bc42b1cf62a8fedd68712e0241d51eba22f367976720744",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-019.md",
+      "prompt_sha256": "234344bf78c449839a43d6b52ef77aa686eea4c7f5fccda69ffe655466cb9f85",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-019.json",
+      "production_job_sha256": "7007802ee1f38dea97db71d0670c1d144d2fe682b56856e4c59b931a3a388251",
+      "seed": 1849524815515753776,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+          "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+        }
+      ],
+      "output_prefix": "clip-019-preview-4step-r001"
+    },
+    {
+      "number": 20,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-020.json",
+      "job_sha256": "db80a2e3857dae3550c28104f5768fe4fc1830ab66007806be63534cce9e3e0f",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-020.md",
+      "prompt_sha256": "c169ff49ee051b91c8e42f9b62cd8e437b7b06cc1628479c4ec943db3427d3c6",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-020.json",
+      "production_job_sha256": "420e25250cf9568db974bfda8f402dc2832342cf4adfec60403481bae928638c",
+      "seed": 8684252256411830951,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png",
+          "sha256": "1c0c17332434fc21822048b264b9d384fa79d893285ecb6640d0c23bfef1a622"
+        }
+      ],
+      "output_prefix": "clip-020-preview-4step-r001"
+    },
+    {
+      "number": 21,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-021.json",
+      "job_sha256": "9fcf22c8b41943069c4a47d3bb0acaa46db0a5e1941fe97539ca4756dab6c4ec",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-021.md",
+      "prompt_sha256": "a9fda02097e4433cd26fa8289f708a888cabffece34693345eef612e8029b57d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-021.json",
+      "production_job_sha256": "25316aae51f5df1cfb56112864becd7ca622a8944f7cf1dcb326b60636ec7591",
+      "seed": 2710466670713737328,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+          "sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70"
+        }
+      ],
+      "output_prefix": "clip-021-preview-4step-r001"
+    },
+    {
+      "number": 22,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-022.json",
+      "job_sha256": "41f628be833d32e57b9bc6328023b2c404676cdbc6a47ad788a7a90e8bb4d6e6",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-022.md",
+      "prompt_sha256": "f5d67a287d5997fdc01571fc80ad17d1b74b118e52e03a819c3e317773e5bf11",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-022.json",
+      "production_job_sha256": "935dec50ed7d2e4bfde15c89e517740f22682b82f724b018414ed47aa993cb33",
+      "seed": 6983847242862435404,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+          "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+        }
+      ],
+      "output_prefix": "clip-022-preview-4step-r001"
+    },
+    {
+      "number": 23,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-023.json",
+      "job_sha256": "3a1a4b71fb8402c1dcdc882db4aae9602e8e1b15aa0cd84b4a1ec3868b095cb8",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-023.md",
+      "prompt_sha256": "b198c7637900247e2d977db4e619bea02d68b96dce9e9043d7b3c40b4913b1da",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-023.json",
+      "production_job_sha256": "118fdacf63fc46fcd6d566c27c46899b5eb1099400472d6ee1f8e247f8bfd971",
+      "seed": 2449684274551441269,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+          "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb"
+        }
+      ],
+      "output_prefix": "clip-023-preview-4step-r001"
+    },
+    {
+      "number": 24,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-024.json",
+      "job_sha256": "7d261c5369e4e897dda2b20069ec718b348b23667ac478682d625ba19b8f933e",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-024.md",
+      "prompt_sha256": "db4b90bdc290705713af2ac0775dfb558484f3e7e18d7a5c574f56b4dd642306",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-024.json",
+      "production_job_sha256": "2d18ed0cf8f5b3624f27d96738caf6ef7da61aa20b1b4972ef23c1acd6efa71c",
+      "seed": 6947832624374059676,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+          "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+        }
+      ],
+      "output_prefix": "clip-024-preview-4step-r001"
+    },
+    {
+      "number": 25,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-025.json",
+      "job_sha256": "2f5a62bdba0264e38347e9117371e8af7a385cf699e02071e5ce0f6e8bd88016",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-025.md",
+      "prompt_sha256": "6beb176d34f93dd8ff726095e04abc38eddae418a2042a65238428d278b9c34d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-025.json",
+      "production_job_sha256": "39668f8ed03551188fca9dd7c6e6024b7f965ad7c81a10de9d65b52023a7c330",
+      "seed": 5117090850238179993,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+          "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+        }
+      ],
+      "output_prefix": "clip-025-preview-4step-r001"
+    },
+    {
+      "number": 26,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-026.json",
+      "job_sha256": "389c48541f859a9087bf85b5283136a3cd134f07e9de6fb0233534f00a4c757f",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-026.md",
+      "prompt_sha256": "26906b93fc52df34cb6c9ad5f6acad7fc6d8b039f4d7b51b8390a664a410a2ac",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-026.json",
+      "production_job_sha256": "f8aae85cd48446af0e10363aa5e23b0e20d6e25bb7924a84c48b7971828678c7",
+      "seed": 4381957805740973404,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+          "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+        }
+      ],
+      "output_prefix": "clip-026-preview-4step-r001"
+    },
+    {
+      "number": 27,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-027.json",
+      "job_sha256": "8629a14d1060f2e9325a172417df17c8256bb488fbea6da25de5d85f2621457c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-027.md",
+      "prompt_sha256": "b55943b26fd35cdde4d1b24df8479a2577bbabbec6acf711740228ef1257c2b6",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-027.json",
+      "production_job_sha256": "dfc1b48f801b8732e263e8546e40a3c220a8af272893e69ba16060e904597bb5",
+      "seed": 7414235116428239822,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/market-r001.png",
+          "sha256": "0a5ac866c32265a4f018098841a8f92ee4efcbebeb6aaaa4976bc02dd82a2688"
+        }
+      ],
+      "output_prefix": "clip-027-preview-4step-r001"
+    },
+    {
+      "number": 28,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-028.json",
+      "job_sha256": "f359d0ae704233871f911508061568b5163f0172542d506c557f36873017d936",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-028.md",
+      "prompt_sha256": "80b789e612a5c1a1ad2aa305490f13669cf26219aac06fdbfefb46331fe6d761",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-028.json",
+      "production_job_sha256": "7f7a9a5f501acfff6f73c8d96a984b00edff707555fbf99f7c7b046d60c77a8f",
+      "seed": 6186055281908680943,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png",
+          "sha256": "78325aa49fcc02ef9caee8ed611869b31f7cca9be01dfc8c775eac4ba3f1487f"
+        }
+      ],
+      "output_prefix": "clip-028-preview-4step-r001"
+    },
+    {
+      "number": 29,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-029.json",
+      "job_sha256": "921e0bb6af7fe0a4c001f727bebb7f18a1d2f1568d66c1d6148a3d805b7bded3",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-029.md",
+      "prompt_sha256": "160f262b491c56471e8ef5c959421fca113cdcb3c45c963b7780020d6b223555",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-029.json",
+      "production_job_sha256": "ccd13993aef47e36f6f71ab31970af3398a4688e464d6e1e366c557ab76de8e5",
+      "seed": 1933190050486215415,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+          "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb"
+        }
+      ],
+      "output_prefix": "clip-029-preview-4step-r001"
+    },
+    {
+      "number": 30,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-030.json",
+      "job_sha256": "c40b4797466f1d98a7ca8c2a92dd9a30ff4908fd631ad42b2783b168a96ad686",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-030.md",
+      "prompt_sha256": "2d37f59206aa4784b8cea2a542d66f06c244ce4a0bfc835979ae1cbb6ab5c1b1",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-030.json",
+      "production_job_sha256": "74b0ebb68b6ab107961c118e10c09082de829d6d9892922b859230b712fe3c02",
+      "seed": 7441225553459792520,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png",
+          "sha256": "78325aa49fcc02ef9caee8ed611869b31f7cca9be01dfc8c775eac4ba3f1487f"
+        }
+      ],
+      "output_prefix": "clip-030-preview-4step-r001"
+    },
+    {
+      "number": 31,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-031.json",
+      "job_sha256": "63d6833e9cc7cbec47b6609f32f311e8c9262b0beafec8fbd937559d2016beb8",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-031.md",
+      "prompt_sha256": "0431430db7848bb530a81f03c481c45e4cc96c09d914b24111ec5109d3c9f294",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-031.json",
+      "production_job_sha256": "1838e67563347d9cfaa155e43a1a67a64a3784cb3bde7342898649f359ecbab0",
+      "seed": 8900166919952576624,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+          "sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70"
+        }
+      ],
+      "output_prefix": "clip-031-preview-4step-r001"
+    },
+    {
+      "number": 32,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-032.json",
+      "job_sha256": "8b600c1d3e910dd12ab5467d89b64163673088ef1435de01ae3a9948e7dc91db",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-032.md",
+      "prompt_sha256": "18be0d866aa38b30968f35c2869b82b0efa9afba1c197ec4380eed59c110c1e0",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-032.json",
+      "production_job_sha256": "a6916e1e16efa636a8d732c53b0268ba5993b1d1c023535b93ac0a43644f2718",
+      "seed": 8985278555275068062,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+          "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+        }
+      ],
+      "output_prefix": "clip-032-preview-4step-r001"
+    },
+    {
+      "number": 33,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-033.json",
+      "job_sha256": "eebe37d0be7eab2a621e30130c8609cd3f10f4b0529c3e1ea8978d44cd1d451c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-033.md",
+      "prompt_sha256": "dd5052464bb75ab93159b38f45262bfcd6cf454b46eaa4321fcf75e3602315ed",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-033.json",
+      "production_job_sha256": "82248435f05dea91f8ab9e08a29aed6deee99a4117064a4cb48db718a3f93140",
+      "seed": 8318981341979591058,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png",
+          "sha256": "78325aa49fcc02ef9caee8ed611869b31f7cca9be01dfc8c775eac4ba3f1487f"
+        }
+      ],
+      "output_prefix": "clip-033-preview-4step-r001"
+    },
+    {
+      "number": 34,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-034.json",
+      "job_sha256": "cf8bfb84d542ba232206fc59764b0edb72f71d91cb78c686facfa420f1d0435b",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-034.md",
+      "prompt_sha256": "2e5e4e9aa185888d398a458766a607c3e81115c80aa11293f84963b7795523c8",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-034.json",
+      "production_job_sha256": "f2e4c42963998dd36b6774da26e67e938cd663ebbc54b1d72da082d1a9a5deb8",
+      "seed": 8525070072190475099,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png",
+          "sha256": "84381b682dd4762338ab1b78badf4a2101dfaf63e6e552d4a61bea9e3d50e421"
+        }
+      ],
+      "output_prefix": "clip-034-preview-4step-r001"
+    },
+    {
+      "number": 35,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-035.json",
+      "job_sha256": "be7850672e937d6998d68a996d41f8c3171a692fbb615a6f56c92c1a579e4cd6",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-035.md",
+      "prompt_sha256": "655a3f9a86106cf09a061a5cf982edd640bec51737f1b2f2b82c622c83071bd1",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-035.json",
+      "production_job_sha256": "9dbb746ba81b72449cb93f47cbcca31e9096c8e47a7e8fdb3ef19868cff72cfb",
+      "seed": 8482831412677269971,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+          "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+        }
+      ],
+      "output_prefix": "clip-035-preview-4step-r001"
+    },
+    {
+      "number": 36,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-036.json",
+      "job_sha256": "9bacc98c889d9345f1405754d3b74edb184706e9e9d720a6bc65838bea46754b",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-036.md",
+      "prompt_sha256": "64a379a064f8d386a0e6b50c0bbcc37d8330eb83e2b1baf33aea9ae8dc75d621",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-036.json",
+      "production_job_sha256": "450306f993e55d5c731f0bd4af8744bc799906ed9368563142fc31cc8057d0e2",
+      "seed": 7521649282189254920,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+          "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67"
+        }
+      ],
+      "output_prefix": "clip-036-preview-4step-r001"
+    },
+    {
+      "number": 37,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-037.json",
+      "job_sha256": "972394e8e99dbcab129265e72a36b51f408318c0d83fada2906ce4c05be7b3a4",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-037.md",
+      "prompt_sha256": "dd46b2b2c7cc76ac7625cd39aa48e6b7f4802f5865e0923894e7475e8948e9c7",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-037.json",
+      "production_job_sha256": "4acb3d1fc5d70d6290632c9641ea31359a34b9b72250befbd02d09bbf452c4fa",
+      "seed": 3939364883599185052,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output_prefix": "clip-037-preview-4step-r001"
+    },
+    {
+      "number": 38,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-038.json",
+      "job_sha256": "7428c9b44b0ede7d6ab30e43e49ae53ed45f8a6a46b9001a22afd7c3c0023f70",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-038.md",
+      "prompt_sha256": "945c6b2d9167b92efd6a9c9dfe36ec01165dd6ecfb3f649b3fa9e2ce807e8f58",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-038.json",
+      "production_job_sha256": "c17db56eed2a3ac86f9304385aa03333c95b87f9a6f26f9915685d78817e6c96",
+      "seed": 4496727476538218791,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
+          "sha256": "544f93649c45daeb9ab7c0ed5b61500618b9de940ff80fe11f6621c2c6e58599"
+        }
+      ],
+      "output_prefix": "clip-038-preview-4step-r001"
+    },
+    {
+      "number": 39,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-039.json",
+      "job_sha256": "1628e7b65ba867338d4fa0c04b141ad0cd045fa933d0999cbe0a33ee857db8ab",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-039.md",
+      "prompt_sha256": "ce0bca4c1d4fb461efd414b1e45abc012d97b7cf2d557ca809d6d183f9d682e7",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-039.json",
+      "production_job_sha256": "b9a7078dbff0cea496c4ca5c6024122f50336731a43c33feb352656279156409",
+      "seed": 554120336420135952,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+          "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67"
+        }
+      ],
+      "output_prefix": "clip-039-preview-4step-r001"
+    },
+    {
+      "number": 40,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-040.json",
+      "job_sha256": "d1bd251c405b049180af90d71754f50e4810019d183d023803edd79b18533815",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-040.md",
+      "prompt_sha256": "0f32cc5ac4083be245ebb8979707303b56424fa8c93c043abe5d106d964db03a",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-040.json",
+      "production_job_sha256": "e170758e8d40363d07e475e5f379b303c4c7dd189d21533be51c203bc62e31a5",
+      "seed": 6469140388179518348,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
+          "sha256": "544f93649c45daeb9ab7c0ed5b61500618b9de940ff80fe11f6621c2c6e58599"
+        }
+      ],
+      "output_prefix": "clip-040-preview-4step-r001"
+    },
+    {
+      "number": 41,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-041.json",
+      "job_sha256": "6be3366ae5a05830846fa9fb40576dbe0d2190dd62f10aab7058215ac7a0dc08",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-041.md",
+      "prompt_sha256": "59c80d3471c49f432c956f8cf446d887327e51e6e64c9ce8644eaaa2b02100ef",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-041.json",
+      "production_job_sha256": "ff30419b138778c6c069fd5b1101c81a5ee71c110139775dbbab6aad14db8fb5",
+      "seed": 2648044131876304366,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+          "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+        }
+      ],
+      "output_prefix": "clip-041-preview-4step-r001"
+    },
+    {
+      "number": 42,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-042.json",
+      "job_sha256": "15881466d9562d827ed44a91046aba538d8481e2ccf3a8e12b43daa16f3375ea",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-042.md",
+      "prompt_sha256": "560243fce29f8ae610c81d52b827c70e5e612ff4534866fc58e43cc06c23a89a",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-042.json",
+      "production_job_sha256": "6a002274ee054b55aefa3ffe67ea263b6555878e10dff3be3189c3d8e5e45205",
+      "seed": 6794178315932092011,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+          "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67"
+        }
+      ],
+      "output_prefix": "clip-042-preview-4step-r001"
+    },
+    {
+      "number": 43,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-043.json",
+      "job_sha256": "baec34eb674687155c94b8a5e508e8f43187ff000d96109bf59386178cd71d96",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-043.md",
+      "prompt_sha256": "36ef79702e4d790de10b4bf695b3f6677f26496375cc3cfb802988b6f42d1bbd",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-043.json",
+      "production_job_sha256": "e62de60ae2350cccd4bce2027adf978e45e1d0733a7760e5264fce7b0f8e367d",
+      "seed": 127194728436828753,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png",
+          "sha256": "84381b682dd4762338ab1b78badf4a2101dfaf63e6e552d4a61bea9e3d50e421"
+        }
+      ],
+      "output_prefix": "clip-043-preview-4step-r001"
+    },
+    {
+      "number": 44,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-044.json",
+      "job_sha256": "a3adad00cba9cb3edd11e5cc0a553ffd0e0d20f91c76c9a1dae18ef8fb41413e",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-044.md",
+      "prompt_sha256": "aa8ba6992f1f5dca6c18576a83ce13217f4271a3b66ec18ad7af4a58ed47d8f5",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-044.json",
+      "production_job_sha256": "b86f56808c9b3bb47564634cb65c41a26aba16a7e2082567e8744e423ccdcd0b",
+      "seed": 402137565543356014,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+          "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+        }
+      ],
+      "output_prefix": "clip-044-preview-4step-r001"
+    },
+    {
+      "number": 45,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-045.json",
+      "job_sha256": "5cb4e48dd3cbdbab8633e51c153ba1ae4e448e68023e959e8ed657d8d5ec4efa",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-045.md",
+      "prompt_sha256": "8053c29f1b2fb1b8a7f1072dd7d9334bcfcd97fbeb269bf356dfd4c9706fb59c",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-045.json",
+      "production_job_sha256": "4b428ae45fcdc768876d0dcadcce83ba728d7839dc555bf7ecfa201924fa8f01",
+      "seed": 3184267945148503645,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+          "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+        }
+      ],
+      "output_prefix": "clip-045-preview-4step-r001"
+    },
+    {
+      "number": 46,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-046.json",
+      "job_sha256": "323124f49f76a3296d5d3dcf606eb762b685dcca2825ab244203e0fee8e8d437",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-046.md",
+      "prompt_sha256": "c55ec2c5f1b4ed3eba4f53d9d08eea2371c9e3ac3be717e8e84590c44d721ec5",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-046.json",
+      "production_job_sha256": "864c9ef501f009e4aa359c0b6734e7c057b323cd7318c10b664bb70d966e99be",
+      "seed": 5033898718386555655,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output_prefix": "clip-046-preview-4step-r001"
+    },
+    {
+      "number": 47,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-047.json",
+      "job_sha256": "3c44410c6e2f7fea7d4ecbbcc65a9f48c6ca943d3857dd6cb42ae91f9644f88d",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-047.md",
+      "prompt_sha256": "c32233f745356c9486cc82a615dee5a065cfe670e4d86974a652ff03d2ff0445",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-047.json",
+      "production_job_sha256": "37ca2a4a48aae0610c07c1547e2b37ffef290b2cb922bdbed7040731b6f461bc",
+      "seed": 2068170925864219353,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+          "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+        }
+      ],
+      "output_prefix": "clip-047-preview-4step-r001"
+    },
+    {
+      "number": 48,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-048.json",
+      "job_sha256": "7567c4d878f029d7326f184f203a23282df6238c6383ca0f0054dc6f4c9d88a8",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-048.md",
+      "prompt_sha256": "161c4df56425df86c571819ac2e626b85590b0aa246ac65f34d63b3664136bbd",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-048.json",
+      "production_job_sha256": "bf3f953aa42b86a17b6c94868412284bb3d67a3ba9f9256d00da93a14714438d",
+      "seed": 1837095011918768243,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+          "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67"
+        }
+      ],
+      "output_prefix": "clip-048-preview-4step-r001"
+    },
+    {
+      "number": 49,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-049.json",
+      "job_sha256": "a0b1c2608144e2dbd131420abe19feba3ac37f4ebf5e3d33c162a956ff3966de",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-049.md",
+      "prompt_sha256": "6ec8203325dce91dca68ead0fad697351d821b893239629541b72a3d5061347e",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-049.json",
+      "production_job_sha256": "45e7d00e37635aa89f717a27e24b28621abec7aac0d1c06ff45469e87a6b6385",
+      "seed": 5736247157033967572,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+          "sha256": "9aa801eeacbec66ad150d8f6cc80f3b9690e42f02703ed4576c24aa67729f32a"
+        }
+      ],
+      "output_prefix": "clip-049-preview-4step-r001"
+    },
+    {
+      "number": 50,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-050.json",
+      "job_sha256": "ca4929f2174f8245694b11b2b0358346caf035d9a07bb6b5b6233ff979324b21",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-050.md",
+      "prompt_sha256": "f3f941430ac4596a1046d27b8c0590419e18919f51422137d20d4aee0929424b",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-050.json",
+      "production_job_sha256": "96335c766e86ffb5eea9ac0e7bd7a5d2e668f17fa3978629ef271433c41b13f2",
+      "seed": 6477987792361823203,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output_prefix": "clip-050-preview-4step-r001"
+    },
+    {
+      "number": 51,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-051.json",
+      "job_sha256": "dc367325d174d4b32c96e75eef3c392b638b9886e400477f1ebc48ff5eb84d59",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-051.md",
+      "prompt_sha256": "e51157cc06fabdc17c2a3daee07696bb127ebabba825c7c2b676b3a55a014a23",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-051.json",
+      "production_job_sha256": "afea9ff37cd4171670302b45ec98ffbaccd48559e360239d88471c498545c28e",
+      "seed": 4556607014535893286,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+          "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+        }
+      ],
+      "output_prefix": "clip-051-preview-4step-r001"
+    },
+    {
+      "number": 52,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-052.json",
+      "job_sha256": "f63e610a5ca308024f9a4655664af1c9a385d3af16296bf47266f5d943fc7348",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-052.md",
+      "prompt_sha256": "cb88cf2bf37e375b2e0fb789638070df0fc307e5419ad45c8de79d1f86f02c3b",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-052.json",
+      "production_job_sha256": "ba8e65d3713340fd12d58ea3c8ad24e3318c643e4fce5b3b91e6272b5054954d",
+      "seed": 8146945031760148437,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-scroll-insert-r001.png",
+          "sha256": "916efc6a94af8a1096648e8f56d6f33184d7700635fbfe4ecc9491113a6f56a9"
+        }
+      ],
+      "output_prefix": "clip-052-preview-4step-r001"
+    },
+    {
+      "number": 53,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-053.json",
+      "job_sha256": "82a1a5eb7646cf1f3031ab733115a260c70b0d8fd9caa3093405137993a23875",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-053.md",
+      "prompt_sha256": "7b8de80f11f751c1c940158dfea022b9e2dbc6ba7945bc35b6255aadb9587402",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-053.json",
+      "production_job_sha256": "e865e5021c33948d59870106efd8499979352c149628dbaa3f48b317c1e15cd9",
+      "seed": 2387723668125899889,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output_prefix": "clip-053-preview-4step-r001"
+    },
+    {
+      "number": 54,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-054.json",
+      "job_sha256": "33219558bbb9957c56a2a3dc83868e2fcf59022ed5f5d29acda6fd4de1db83c6",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-054.md",
+      "prompt_sha256": "4dbfcfec07a032b68b5dcd820f5e473d43bf14f6dde51d8ebed1307049ff2008",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-054.json",
+      "production_job_sha256": "81020d8d13860977523c73671850d63ae37660f9f7c8d7f626c4578e8e4a3e66",
+      "seed": 5114890145138633079,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-focused-r001.png",
+          "sha256": "489a1c21b0a2c4715fff51aa51b8e4f1cdf31e1097d24b7fbf26499e735c4e0b"
+        }
+      ],
+      "output_prefix": "clip-054-preview-4step-r001"
+    },
+    {
+      "number": 55,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-055.json",
+      "job_sha256": "5b6e472b2c1240c8482eb348776be5d79b7384e66c2fad13e9e6e3f1ecb0f47c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-055.md",
+      "prompt_sha256": "f103e5a50f011e77a15d315ede7dd2080ab126849dc6083b876fc17e0097423a",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-055.json",
+      "production_job_sha256": "beb1ce25afe51e53356fac1be8821874c3e28106a5a91f5e357565435cbd2201",
+      "seed": 5823422493696417926,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+          "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f"
+        }
+      ],
+      "output_prefix": "clip-055-preview-4step-r001"
+    },
+    {
+      "number": 56,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-056.json",
+      "job_sha256": "368f848f9ef480c657c50ee030af69a463c128f8c0873274910f49219d33e885",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-056.md",
+      "prompt_sha256": "c69edf935b7e0c55a65d38bc02edcc90b07c197e6452c596b81bb6fdb525436a",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-056.json",
+      "production_job_sha256": "b7798c3d21647c2054ef1e83ce94ac50b2110caaa4475c5dbfb0b54ad3f7f5ba",
+      "seed": 4522385381025630449,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+          "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+        }
+      ],
+      "output_prefix": "clip-056-preview-4step-r001"
+    },
+    {
+      "number": 57,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-057.json",
+      "job_sha256": "9e65f279520e76fe3c218b8ad96efc1b5dc85cbfdfa6df858799935f572c862b",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-057.md",
+      "prompt_sha256": "6a4afe52c21cf5c8980513c3b4b7d1717d2cf5d6412fc22fa797f4d7d2fb49b5",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-057.json",
+      "production_job_sha256": "980ab70bc91fae0de999bce95188343758373971b9faed2fe5171d6c2b80baab",
+      "seed": 8591314695337906488,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+          "sha256": "9aa801eeacbec66ad150d8f6cc80f3b9690e42f02703ed4576c24aa67729f32a"
+        }
+      ],
+      "output_prefix": "clip-057-preview-4step-r001"
+    },
+    {
+      "number": 58,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-058.json",
+      "job_sha256": "7d0485b5fb70f97b67005df48ab16e2b182b6246f487a4ed767de7c25df12eb8",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-058.md",
+      "prompt_sha256": "16182c70987b25d37bfa0c1a9445cd8d71210ce3c08a33afe71bd336f52eaf12",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-058.json",
+      "production_job_sha256": "3f372618d6ef464a3ad2ddf79b8c95bfe0f4134bddbb49f1d59c8147b1cffb9e",
+      "seed": 3981380873701461889,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+          "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+        }
+      ],
+      "output_prefix": "clip-058-preview-4step-r001"
+    },
+    {
+      "number": 59,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-059.json",
+      "job_sha256": "74326e1a63fc0159129846d7ce9dbc1e9b44cbce9ae3f197bad3f521de037f5c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-059.md",
+      "prompt_sha256": "55d5922817a4a52f17efd229dd5807e719e26366e89a5f23a404af87088f0659",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-059.json",
+      "production_job_sha256": "0a844012c92ff6644c5bf077bb1b3fc5abcb1a737cebc3a7e811d87351875e0c",
+      "seed": 8372443536822806134,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+          "sha256": "b50f2ddffc510212785224eba2e166c3545680a628e5422bcb27fec6592630ad"
+        }
+      ],
+      "output_prefix": "clip-059-preview-4step-r001"
+    },
+    {
+      "number": 60,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-060.json",
+      "job_sha256": "854f811565bda17b38b3366678c46be31a60f490fd0db84aabb7dd3c6618b65e",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-060.md",
+      "prompt_sha256": "a3108c4d8295a51c0eccc5c6482f5482cf2ab6dde272245f6454425344a91695",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-060.json",
+      "production_job_sha256": "178206b9c8b446a71ad96ac1f84d14661eb29c65330833188ceba19ffff0de77",
+      "seed": 4781702081980521722,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+          "sha256": "b50f2ddffc510212785224eba2e166c3545680a628e5422bcb27fec6592630ad"
+        }
+      ],
+      "output_prefix": "clip-060-preview-4step-r001"
+    },
+    {
+      "number": 61,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-061.json",
+      "job_sha256": "23959bc1c857c10f98403d14cda377f906595ab7a0c2965d3e8eeab18c8688c0",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-061.md",
+      "prompt_sha256": "bdb2edfa88651fb482b157e4ed789abc88731c2d2b1e7313e686414844398c87",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-061.json",
+      "production_job_sha256": "68a7de42e328ff8f05e50e35b27596adff263d7c63383a329c88b9233015a94c",
+      "seed": 581123372243271672,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png",
+          "sha256": "cb5a0a4e924396573524493e8de5e9bea9c55c756a36e3e00e4699d524c3ace4"
+        }
+      ],
+      "output_prefix": "clip-061-preview-4step-r001"
+    },
+    {
+      "number": 62,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-062.json",
+      "job_sha256": "90a34e03710982ea77cff100a1ad976d23f3b3dd42b5d4d3f3ba70da37b30fc9",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-062.md",
+      "prompt_sha256": "c3a392b6bb6ec8357a08d99fedcaa515ea67cb7ee79a534f8338a14f9d3ac2b1",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-062.json",
+      "production_job_sha256": "4225611d0647d514985b17e978f80d743ff1a82b1d95071a4a57f5b88d33513e",
+      "seed": 6596317081109935584,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+          "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+        }
+      ],
+      "output_prefix": "clip-062-preview-4step-r001"
+    },
+    {
+      "number": 63,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-063.json",
+      "job_sha256": "ad00d083d3de19797006d68a206a27aca5a8aa9703c0c02f10196dd913bbf73e",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-063.md",
+      "prompt_sha256": "1ebefa4b1366e73ddc4daa80310afbf176529d4d74236fc4019e766514e44179",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-063.json",
+      "production_job_sha256": "db9df6eccfbb36db36655a69c26ae649368bbbee1c0b6081d1272c47c53e827e",
+      "seed": 5171703446272315760,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png",
+          "sha256": "29001102e1a72d51b8377dfab582ccdda28c4f80beb058b651007c764a438f3a"
+        }
+      ],
+      "output_prefix": "clip-063-preview-4step-r001"
+    },
+    {
+      "number": 64,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-064.json",
+      "job_sha256": "1ba2232989224604fdee06cf4d44a392019e201d10b715157d2b4e4e471207ed",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-064.md",
+      "prompt_sha256": "ca6b3fba755280562750b7420e9fb507e2ffc74c560b99238935f78579e30b16",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-064.json",
+      "production_job_sha256": "e7a2ecd3397dc9c952a239a13e37c7799529620dfb167e71e97d817a321b9bd4",
+      "seed": 8441670039654859411,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+          "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f"
+        }
+      ],
+      "output_prefix": "clip-064-preview-4step-r001"
+    },
+    {
+      "number": 65,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-065.json",
+      "job_sha256": "3b0ed65acd1881865eab2498404422301bc703f2d36f6ec5c42063d893b94fca",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-065.md",
+      "prompt_sha256": "6874af5a0cf626151925050856431e817901d751c9a7510eca035423456cc5bd",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-065.json",
+      "production_job_sha256": "0746f77e44544870dd20af3d5628f54d9a69be641b0d039d4067aa2b9c396ffb",
+      "seed": 6079296749703361697,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/shore-defenders-cannon-r001.png",
+          "sha256": "6028ef883d20e340033f284736ac95e110606911a38823f4c50d121edee446b2"
+        }
+      ],
+      "output_prefix": "clip-065-preview-4step-r001"
+    },
+    {
+      "number": 66,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-066.json",
+      "job_sha256": "092551a5ba134db78dce2c4f537b2630ea62dfaeea1e5def7abc536c1e98d1d3",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-066.md",
+      "prompt_sha256": "e6482768b5f37b6e77002f6b3be428dc1f3ee6f315b773bfaf75f4b83d5ad0c9",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-066.json",
+      "production_job_sha256": "3258d4a569d9a871a1cbb0755a56a8d95f51905b6a06ad1ac8305adc497e9312",
+      "seed": 6619055657920588459,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+          "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6"
+        }
+      ],
+      "output_prefix": "clip-066-preview-4step-r001"
+    },
+    {
+      "number": 67,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-067.json",
+      "job_sha256": "09debf26987c17366ea0a73a435f239a68b3284cfad0ffcd42f71b975c7afd13",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-067.md",
+      "prompt_sha256": "7c99400442fb6564aa38a63df9db24870d00560c82a9ed742fa47f6d1b50be9d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-067.json",
+      "production_job_sha256": "fdc6836131f3195bca7e4f0e2f2de86c9d2ef2e110e8ed8d0a6254afc46b394d",
+      "seed": 8119846735394546,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+          "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+        }
+      ],
+      "output_prefix": "clip-067-preview-4step-r001"
+    },
+    {
+      "number": 68,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-068.json",
+      "job_sha256": "80c7c33c7bf8d026e1607024ef3d20281dbd0c9df0acc772c242817128776b10",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-068.md",
+      "prompt_sha256": "fdf1851dfbdf50e10f366a5e86ab7fa6cce1400fb01fe8a528311e4f62379e81",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-068.json",
+      "production_job_sha256": "921c1176c3f0f6ed51e73879ec474036b3dc97c6cf8b27bed234a64d7e4a6c7e",
+      "seed": 2844399593566782135,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+          "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+        }
+      ],
+      "output_prefix": "clip-068-preview-4step-r001"
+    },
+    {
+      "number": 69,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-069.json",
+      "job_sha256": "ce8ac6f6ca53dbe612b5875bb1bee46e1f1dc31fd26222324ff6845a8bed799a",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-069.md",
+      "prompt_sha256": "85a2e7364d9d191a9ecfc522453b08bc296ab12777371c15724c6c5142f36268",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-069.json",
+      "production_job_sha256": "9946730ed3c3f8da2c722d9168e04f508e3aa19fe81001242722ae42b7e7bd09",
+      "seed": 4768726284048956191,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-focused-r001.png",
+          "sha256": "489a1c21b0a2c4715fff51aa51b8e4f1cdf31e1097d24b7fbf26499e735c4e0b"
+        }
+      ],
+      "output_prefix": "clip-069-preview-4step-r001"
+    },
+    {
+      "number": 70,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-070.json",
+      "job_sha256": "0f4e89c82eea069286a8c14f5b9c95fe664c4f0e0f0e0d7c6e15eaaf08ad32b5",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-070.md",
+      "prompt_sha256": "9e1d6ac23232e5e83b3992326e8daaa1cda4219f2553e7262c3b8ce9d804d78f",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-070.json",
+      "production_job_sha256": "446997cedede6af0750fba4d2ce2d7f6841732a35fa9f31adbfa75393aff8ed5",
+      "seed": 1108898510705917934,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-stern-r001.png",
+          "sha256": "2cae0fb9c7a63686a1abd4024085b94ff095719ea18d7ff658eddf1e8c925d81"
+        }
+      ],
+      "output_prefix": "clip-070-preview-4step-r001"
+    },
+    {
+      "number": 71,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-071.json",
+      "job_sha256": "caeddd7510efca75a688d7a01c989e87e4a4e4470d20cb87c64e1a2eb60682d6",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-071.md",
+      "prompt_sha256": "fee37d1cf775a92bc381055e2d5a278053572c54b3454acbb9bb3f292560d0e5",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-071.json",
+      "production_job_sha256": "bda5cc8568425852ea6a723cef4dfb2693918083442ee2807c1901e9cfb03244",
+      "seed": 7726073127868884093,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-scroll-insert-r001.png",
+          "sha256": "916efc6a94af8a1096648e8f56d6f33184d7700635fbfe4ecc9491113a6f56a9"
+        }
+      ],
+      "output_prefix": "clip-071-preview-4step-r001"
+    },
+    {
+      "number": 72,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-072.json",
+      "job_sha256": "5d2541a9417a34ee33ade70268b5a5fe2763434bf90986193031a7285aa7bd2c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-072.md",
+      "prompt_sha256": "365bc1e130f3ca696eb29491110e672420151da537fdb02df9cd899294bdf35e",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-072.json",
+      "production_job_sha256": "dc9934cc162ff5ed5fa8d98d85bc27b3b72873a2ff149d2e32f8770e9175ca3c",
+      "seed": 5558710140212957880,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output_prefix": "clip-072-preview-4step-r001"
+    },
+    {
+      "number": 73,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-073.json",
+      "job_sha256": "31b5708f3275b86113fbee06c9da44c6ab06737d669527bf7734648b3ec76eef",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-073.md",
+      "prompt_sha256": "9afc0532cc88d16e054e4cb38848dc24696a8fab70bda55c30b4830fd9f55ff5",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-073.json",
+      "production_job_sha256": "07d553afc0d3f34a40628eabd7cd4a859212912d9ce53ea32ac85ce6509421db",
+      "seed": 7947219769900005233,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+          "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f"
+        }
+      ],
+      "output_prefix": "clip-073-preview-4step-r001"
+    },
+    {
+      "number": 74,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-074.json",
+      "job_sha256": "b1c1da44b915f1c7b7931d2597e24f70029854ba38e17d880b45e3920a8011ad",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-074.md",
+      "prompt_sha256": "e89a172b83b2dabb53bbe9f7c86cdd603086e7306bec6a6d78aecb61e7a4a3fc",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-074.json",
+      "production_job_sha256": "06064dba0def56754df16c61e4c5c2cfc3c557c821d6c2e30864d561782e6178",
+      "seed": 3638271661269290484,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+          "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6"
+        }
+      ],
+      "output_prefix": "clip-074-preview-4step-r001"
+    },
+    {
+      "number": 75,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-075.json",
+      "job_sha256": "d710f009f3a1569f17a7580d4bd60311cb26d95fd2def3bd8adadc9e779ff778",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-075.md",
+      "prompt_sha256": "1088c8a1eb7862bac3383aeb7bb229f964639ec2ea1d3fb341028368b106e23e",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-075.json",
+      "production_job_sha256": "6296d5bdb7e9c8f927818c60f6541416f311cf51868408f07186b5cb995a39ec",
+      "seed": 5256322615817373021,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0859-r001.png",
+          "sha256": "0643d60483ec82abd4914c4960fe15724d9635df1bb4910b21f9fb3880bdc584"
+        }
+      ],
+      "output_prefix": "clip-075-preview-4step-r001"
+    },
+    {
+      "number": 76,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-076.json",
+      "job_sha256": "c071df8349c62d2c2f155d391e32e37f6d8bae6182e97da269fbcf9728e641ed",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-076.md",
+      "prompt_sha256": "9483eaf2ba7dd877eb8b2fb8a993f8816a5cf48726ffdb38c2d5f8ebb07b6cae",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-076.json",
+      "production_job_sha256": "aa635180c1794eaba311bb7156fa7807e2ef0c25f93f6618ec2508a18ff03855",
+      "seed": 1303585071631415357,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+          "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f"
+        }
+      ],
+      "output_prefix": "clip-076-preview-4step-r001"
+    },
+    {
+      "number": 77,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-077.json",
+      "job_sha256": "8aabe28ef07fdbf276326248aa29db06d4a4032458f57fc14d019ade14b3d6d1",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-077.md",
+      "prompt_sha256": "98d998f55ccc35fe92bad18efb04d7b3acbdf2f122c9683db27d9ab4e4d2e4f4",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-077.json",
+      "production_job_sha256": "3ede122ee09c220a8da269fd23b2ecf0d4619a30ee4ad738addcde3bf95a51b0",
+      "seed": 4749550810909146344,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+          "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+        }
+      ],
+      "output_prefix": "clip-077-preview-4step-r001"
+    },
+    {
+      "number": 78,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-078.json",
+      "job_sha256": "bc442a0521a5a5e5a2a800581fc0c540d8b3794c57f92a448ec22431276c45d0",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-078.md",
+      "prompt_sha256": "6bc2ded3e505bdb3673b8322fc3a60da46241489ac5f406f544ed8f00ad98743",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-078.json",
+      "production_job_sha256": "97a90b13e482f07e53c94fca38b277fb1b447a7dffd503da7c6f29b5dfa1aa0e",
+      "seed": 2446367526267043207,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+          "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+        }
+      ],
+      "output_prefix": "clip-078-preview-4step-r001"
+    },
+    {
+      "number": 79,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-079.json",
+      "job_sha256": "572cf7af1a7a3d2a95b63b3505d7aebf7118067d2808377b1d528d4eb7280488",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-079.md",
+      "prompt_sha256": "a4230702fbd325acd6d88adb96c55ffb3359324631e62a285a5e7997ba3858e3",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-079.json",
+      "production_job_sha256": "476b27d256894eedc6ec3f107fd784ecd2a5d9fae74f1bb884676c9fc5111247",
+      "seed": 275728602848602590,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+          "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+        }
+      ],
+      "output_prefix": "clip-079-preview-4step-r001"
+    },
+    {
+      "number": 80,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-080.json",
+      "job_sha256": "e6a78a4ae91db121528b7deba63f835f13fc5576c5b55e0ac1dc895a45bade0d",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-080.md",
+      "prompt_sha256": "9f088f2ac9e2c26d3a169c970c7f66214230dd69b182ef017e8e1996adb289cf",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-080.json",
+      "production_job_sha256": "f6b47e50476ee3023d323360ea6adc67646d71de92a4458df3098421a0a4a612",
+      "seed": 1488375588045416140,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+          "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6"
+        }
+      ],
+      "output_prefix": "clip-080-preview-4step-r001"
+    },
+    {
+      "number": 81,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-081.json",
+      "job_sha256": "565c11cdb09335b157843be98e8047bf6bbb118af02ab313ffa4061e42e3b5df",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-081.md",
+      "prompt_sha256": "9e165015c00082bb112b6e6ac85621608e0484211515a3c248059755e2bb3cf6",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-081.json",
+      "production_job_sha256": "546a57400b41ab6806fe2504fa5e082a1b555a1082383b69c196a98d73665c4b",
+      "seed": 2870174881527545206,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+          "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+        }
+      ],
+      "output_prefix": "clip-081-preview-4step-r001"
+    },
+    {
+      "number": 82,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-082.json",
+      "job_sha256": "94f5792e5643ebb41b2c5b3d523b702827f3ab1751e7c462521c18e7a6f37663",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-082.md",
+      "prompt_sha256": "6e798fc1d69d7db3d6ff81e7d6ff5a905d0b92144832bcb7715696167e589fcb",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-082.json",
+      "production_job_sha256": "a4f76eb400e108f47bde2cb5de7037e7d69155321614d589e8bbf792aaaae76d",
+      "seed": 8214589994714753541,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0900-r001.png",
+          "sha256": "fb36193d516abf76fd477c0158bbc18cbbc0f41a6dee92b3a106935e7268a43c"
+        }
+      ],
+      "output_prefix": "clip-082-preview-4step-r001"
+    },
+    {
+      "number": 83,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-083.json",
+      "job_sha256": "62e6f665ae33d794c16b60d1eb38a33e1fc5aa3a20187de5db0f43521bba48c9",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-083.md",
+      "prompt_sha256": "449ad35c2dd80a1ebe751a2363051ce26b3f943c3f8ed4deaa92d8c885b92216",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-083.json",
+      "production_job_sha256": "73092ece6b6de361544e701de54cb476b1d80e7ece56128a1ba83f7788cc9de2",
+      "seed": 5810998687662526963,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+          "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc"
+        }
+      ],
+      "output_prefix": "clip-083-preview-4step-r001"
+    },
+    {
+      "number": 84,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-084.json",
+      "job_sha256": "421d1dded3378f8ca2c67f7ea5637ad3d125132ad582da1d464cc3cc49449eb5",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-084.md",
+      "prompt_sha256": "c946197f0716e15aee02162af72dc069c8a59d6ff914d249c8c89a5a5cd572b0",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-084.json",
+      "production_job_sha256": "4af708e892df7da366293ddd999c3b0957d86067dfdf1d2a5d2a9062c7116ca5",
+      "seed": 3089850237342043339,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+          "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+        }
+      ],
+      "output_prefix": "clip-084-preview-4step-r001"
+    },
+    {
+      "number": 85,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-085.json",
+      "job_sha256": "2c234b43eb0e489e56b6e80ab4277ca27688661171fe40b433a8905e797fff45",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-085.md",
+      "prompt_sha256": "775b74337c2e703f835a9569a34697d51a5c848d5d98ef00bb5c365c33334526",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-085.json",
+      "production_job_sha256": "724341cb717eedce053c51c41c32ed424d4d4b3d4af493624088ddb692b54ba9",
+      "seed": 7117931645948123445,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png",
+          "sha256": "c4664d2ece213a1d417138edfcd10f2b75019fcca90e98ea9b09f5452e45400a"
+        }
+      ],
+      "output_prefix": "clip-085-preview-4step-r001"
+    },
+    {
+      "number": 86,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-086.json",
+      "job_sha256": "b7d3fcc2d551d4ae154ed137b487cb7f93bedd9fd4cece9b6a193cbde01c23f8",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-086.md",
+      "prompt_sha256": "135f77753b7545c4ccd633d25fd259c782651bf7ebcb0b19b3956fad9f8440bc",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-086.json",
+      "production_job_sha256": "58ce3476937038254a07951cd64424fb28e6ccffe187b4a03cd85cdec3e1fe25",
+      "seed": 437991595297584072,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+          "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc"
+        }
+      ],
+      "output_prefix": "clip-086-preview-4step-r001"
+    },
+    {
+      "number": 87,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-087.json",
+      "job_sha256": "56a6896f6111bf72f8f097a5ead4a8ac8ea262c54814b4a910ff96fca35a50a9",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-087.md",
+      "prompt_sha256": "410e4726e69d1a2adab35b5675047729689822909a1f76e734e092f773fb8153",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-087.json",
+      "production_job_sha256": "dd1b667e4f59c20335579fb3d7d6c690c940982540d321738b1737473ab41dd4",
+      "seed": 3404662531331955713,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+          "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+        }
+      ],
+      "output_prefix": "clip-087-preview-4step-r001"
+    },
+    {
+      "number": 88,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-088.json",
+      "job_sha256": "0e8c6431a7e90567b92ecb50a7cff39e66a569537c993cc2aabdbb7b54e6d34d",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-088.md",
+      "prompt_sha256": "9872f36421f5662a060c9a5e99f9e8854e5098dbec09d41785dc3454d998eb2c",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-088.json",
+      "production_job_sha256": "e16e1c2ee3d697fc1ebca2f64604420aa6632dea560687aa84aa8aa03a23257b",
+      "seed": 1926116434144057355,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png",
+          "sha256": "c4664d2ece213a1d417138edfcd10f2b75019fcca90e98ea9b09f5452e45400a"
+        }
+      ],
+      "output_prefix": "clip-088-preview-4step-r001"
+    },
+    {
+      "number": 89,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-089.json",
+      "job_sha256": "aacc457bdbe3eaf58582034314ccf4c1716e9b462369772ec5163cd57538e773",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-089.md",
+      "prompt_sha256": "3f38eee0ee4766ec30278eda5c6898b5747a2142f8a9d7c2548051d1f39fde1c",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-089.json",
+      "production_job_sha256": "423946b13a351496db069665d51557d96db147840c8a77fb4538410bfb0baffd",
+      "seed": 6641688608896745576,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+          "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc"
+        }
+      ],
+      "output_prefix": "clip-089-preview-4step-r001"
+    },
+    {
+      "number": 90,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-090.json",
+      "job_sha256": "bb18663f25b66e10fa79d267e04a7089c750ea0388bd3b74368a0cbbb233be19",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-090.md",
+      "prompt_sha256": "89d4d09ded779dee352168283dcab37d70ef7eed24bbda49db01740de28548f4",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-090.json",
+      "production_job_sha256": "c8379df44d1a495b3fc6ddf37d05fbca01e35ab404e5b31bf11bc2a52fc4a256",
+      "seed": 2974900548685613683,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0905-r002.png",
+          "sha256": "c9f1e72dd5635b3d85c6bb48d45778533731bb91e52006b0b8380e8f0f8012a2"
+        }
+      ],
+      "output_prefix": "clip-090-preview-4step-r001"
+    },
+    {
+      "number": 91,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-091.json",
+      "job_sha256": "1f339fb76a99150250de71ff2a013c1e415581971d44d807ee6b65afbaea2ad9",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-091.md",
+      "prompt_sha256": "f5e223c187d10109f9eddcf173fca1df2967b67407e624260393cdd0327aaedb",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-091.json",
+      "production_job_sha256": "38243e6a90442720194b5ea23d7e94eb2bdabaed9b73646736f2a58f2d1f6a42",
+      "seed": 4571098626940539597,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-battle-r001.png",
+          "sha256": "cc6895777eeeb8c69150e3fbe3aa02b1010efde633c30c8df15b48d669f5e35f"
+        }
+      ],
+      "output_prefix": "clip-091-preview-4step-r001"
+    },
+    {
+      "number": 92,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-092.json",
+      "job_sha256": "a82cdc993c42ddc349f4ef76083c916dfad22e32fcc5fb145c2d2ad6030ab5cc",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-092.md",
+      "prompt_sha256": "f16a59cd7dfa6cb813247598808a1aa3c141c9b12bfaf82e130c6e3ee59c3aa8",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-092.json",
+      "production_job_sha256": "8e5aa55139162eeb0db497155cbcadff06a7ea8a7578623d89ca6b6bd7d34092",
+      "seed": 7446253196674636159,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-quarter-battle-r001.png",
+          "sha256": "4899f7bdaa8c701b978cba749593fcfe163d4c257e407d2f3417873a636bb3bc"
+        }
+      ],
+      "output_prefix": "clip-092-preview-4step-r001"
+    },
+    {
+      "number": 93,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-093.json",
+      "job_sha256": "95cb61f2eb2ba48d342a88b9e9813c26cc8e843cb86943c51485f4014870bee8",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-093.md",
+      "prompt_sha256": "bcb19b22af695a3df1a3096090495b65284617184beadc230acf4b55280070ab",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-093.json",
+      "production_job_sha256": "2cfb307fc51c2a27e8507690fca18000dcd01f1735943364616aa3ddf5596435",
+      "seed": 226676119202785969,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
+          "sha256": "2789fa183a33cd5ce76d66b7179dd6e8eb51632e1a29d8fd90f26c3e069d5292"
+        }
+      ],
+      "output_prefix": "clip-093-preview-4step-r001"
+    },
+    {
+      "number": 94,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-094.json",
+      "job_sha256": "69e67ffb555ace36ccc7e6486a3d61776c32be2ad6c8350802e8bf6e90a33c19",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-094.md",
+      "prompt_sha256": "1558889f5847d40077ba3181bcd8b9c1a8363d380fcd11418c7aa489d6540807",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-094.json",
+      "production_job_sha256": "961b9769946407cc0f553c9f6204b7d2d50a033c19f7ad037716c70a6172ca12",
+      "seed": 5183393093162797323,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+          "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d"
+        }
+      ],
+      "output_prefix": "clip-094-preview-4step-r001"
+    },
+    {
+      "number": 95,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-095.json",
+      "job_sha256": "dbc6d1f31b81e9861ae24279b7ce63dcf627695bebd0e65608bf8e21317a2d70",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-095.md",
+      "prompt_sha256": "a2add3cba77c3483092887df97ef26f8f2a4a045413938c4e6642fba90210fbe",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-095.json",
+      "production_job_sha256": "dab730080fad46a484ce0c99119a6141b6f595e374931e8cc34ba5ef3d598dd7",
+      "seed": 1871802764342673613,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+          "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+        }
+      ],
+      "output_prefix": "clip-095-preview-4step-r001"
+    },
+    {
+      "number": 96,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-096.json",
+      "job_sha256": "5b7770a1489a4905ddaa40922397e143f35e3fe81cd0476bd70778c667e010c4",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-096.md",
+      "prompt_sha256": "9c9e91a61dd57e989345c393d271769d930c2be46db0890e4857370d592861e0",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-096.json",
+      "production_job_sha256": "9db95862e6a257539290714a0770b6e73e65e9a6c2bf92a17f179d7a8255dfc4",
+      "seed": 2549878443527253970,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+          "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d"
+        }
+      ],
+      "output_prefix": "clip-096-preview-4step-r001"
+    },
+    {
+      "number": 97,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-097.json",
+      "job_sha256": "455ab413218757f1919d7796bdb9f4789f36b0b40a6abd3f9aaef5e8c8ef2cf4",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-097.md",
+      "prompt_sha256": "fdea9f9b76997acbd08ccbfdb16011f5a3dba59105e4d7a924f68020b7c21e17",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-097.json",
+      "production_job_sha256": "807d1744c7b694f070928ec2ad0ffecb9a5010e73e3ea7eb9e8652ab9ffd518f",
+      "seed": 5076815664825659212,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+          "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc"
+        }
+      ],
+      "output_prefix": "clip-097-preview-4step-r001"
+    },
+    {
+      "number": 98,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-098.json",
+      "job_sha256": "d8ac1786a894253ef3b8fe52f4a8c6f28ee5f520a553c5e68bcbb317ef2089eb",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-098.md",
+      "prompt_sha256": "7342ef2106921df0b11239b43158469cd8f3cd2dc6c8faafd5dc130a461bf72d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-098.json",
+      "production_job_sha256": "16f4274ba04a2359f7d500e340bfc3fe11a393f321d9874a0449876b169688a3",
+      "seed": 7673425786570991611,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+          "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+        }
+      ],
+      "output_prefix": "clip-098-preview-4step-r001"
+    },
+    {
+      "number": 99,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-099.json",
+      "job_sha256": "19587400aa920618b886526fc0b3f7a7a8e489bc79558d50759d69253b68401b",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-099.md",
+      "prompt_sha256": "b2a3559f449dfadb3fac12e63078cfb20c278ba68a2d7838f171203239c6a670",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-099.json",
+      "production_job_sha256": "06548403ccc9a8f9cdebdb26bbb4d17b87ca8322712b3d3773aa1d71d44f3b01",
+      "seed": 4655391998408396287,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
+          "sha256": "2789fa183a33cd5ce76d66b7179dd6e8eb51632e1a29d8fd90f26c3e069d5292"
+        },
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
+          "sha256": "74ae7a649ce6a9396b7dd604215e2e7b1c472627c63617c3bce7791a72280960"
+        }
+      ],
+      "output_prefix": "clip-099-preview-4step-r001"
+    },
+    {
+      "number": 100,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-100.json",
+      "job_sha256": "f731bb9d2ef03a3c21109c02a3cce1b706865542bf04d60dd905ef288d22433a",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-100.md",
+      "prompt_sha256": "021ac0909832cf1564f1d8510b5bfc7acc0bc3b6fccd1ff327cf3fe8f30e25f7",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-100.json",
+      "production_job_sha256": "b4d16c37585d84b28ab7e1044b08c755439cd0d6dca84b01347d852d7a48bcd1",
+      "seed": 4997138332593350267,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png",
+          "sha256": "23ef05e6a14a795cd8fb650205a51b35702f1c5c80cd32b78b1a408e8f3a2749"
+        }
+      ],
+      "output_prefix": "clip-100-preview-4step-r001"
+    },
+    {
+      "number": 101,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-101.json",
+      "job_sha256": "59a813ed2a2d2edb1694f767f3942f56907200b0b5fc739ca8bb4de00c8edcb8",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-101.md",
+      "prompt_sha256": "96c44436fde103b8df48beed0faae38cb6218a203f26694a34411fe46b00024d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-101.json",
+      "production_job_sha256": "4406c7821253f43b913b6d42cab62c6edc2f3e7dbef179484e56a6cf8a048f24",
+      "seed": 5317704094369633057,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
+          "sha256": "74ae7a649ce6a9396b7dd604215e2e7b1c472627c63617c3bce7791a72280960"
+        }
+      ],
+      "output_prefix": "clip-101-preview-4step-r001"
+    },
+    {
+      "number": 102,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-102.json",
+      "job_sha256": "ef18f283375b1e69cbdfe34e32281daae9af23fc2b449fd20a4028999e48ebae",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-102.md",
+      "prompt_sha256": "d46c50660c2275e78e9bf7743e6afae8e3451028093c274dd027021f5f6a3d0a",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-102.json",
+      "production_job_sha256": "3f37435005cafb1f9b9bd154946a131189771d64f7e6c6767fafbd0174af0375",
+      "seed": 6160039654111618372,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/consulate-refuge-r001.png",
+          "sha256": "08fdd8c03326b947aac8fff391a823785e1d5627278e916de6e885757c290801"
+        }
+      ],
+      "output_prefix": "clip-102-preview-4step-r001"
+    },
+    {
+      "number": 103,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-103.json",
+      "job_sha256": "d2290880a2bc2c31481f23f10b7ab3bb665fc8791b33357f582466e37d3aaea2",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-103.md",
+      "prompt_sha256": "6c4fed4b381e9e3d57691842c989778095d8acf5a2c2338021b0c73df8a85659",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-103.json",
+      "production_job_sha256": "3411630ed524f2f7f34ef859b1f9cfc1ffaa9b34f00faaf25c79f67a669f7437",
+      "seed": 4640937351578895153,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png",
+          "sha256": "e47494715cce50748434357f525eff8054093c8df0aa20534d935d594a5f6bb5"
+        }
+      ],
+      "output_prefix": "clip-103-preview-4step-r001"
+    },
+    {
+      "number": 104,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-104.json",
+      "job_sha256": "011e7c3f39363ae964855fb4d78e580191078e761ca01d7db05752ce9929409d",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-104.md",
+      "prompt_sha256": "167145491b3e58a9abe08c96bbc951bda43181181845d7d97e412bf3bd44e651",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-104.json",
+      "production_job_sha256": "ab7fadba452791f3231b810b029e58a81a562278136ae637bc32568675a98cac",
+      "seed": 1012262853766753277,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png",
+          "sha256": "e47494715cce50748434357f525eff8054093c8df0aa20534d935d594a5f6bb5"
+        }
+      ],
+      "output_prefix": "clip-104-preview-4step-r001"
+    },
+    {
+      "number": 105,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-105.json",
+      "job_sha256": "0ba7ad405690ca012c0facac31d6a9fa0e3d237db2cd8aaafdd4fd5d6d863298",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-105.md",
+      "prompt_sha256": "403a4cc6afa50e42c66b4794b5422fd586bbf02a88f09a9cd4a62f444b7c8acc",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-105.json",
+      "production_job_sha256": "ec6498fa706db0a58d055345f448b7a802302c839fc900aa3916841920a2cda3",
+      "seed": 6059816794904748998,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
+          "sha256": "74ae7a649ce6a9396b7dd604215e2e7b1c472627c63617c3bce7791a72280960"
+        },
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png",
+          "sha256": "6e206565a63ff74b9636f1a5611c766149b7caf7ff5fb40381b9c08af13b122e"
+        }
+      ],
+      "output_prefix": "clip-105-preview-4step-r001"
+    },
+    {
+      "number": 106,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-106.json",
+      "job_sha256": "a0c14405998b8291921aad0cccbedbe21e6513eecd68711937f5e86adc307bb1",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-106.md",
+      "prompt_sha256": "8d669aac2f974ce72421eb0490885fa32b338e85bf8d720569cff1f3df05bb76",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-106.json",
+      "production_job_sha256": "258ee7b51b729ad80fcf0b638d92a0e734993bba668da2a8b5a52950353b2070",
+      "seed": 8035487375532675159,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png",
+          "sha256": "399c8fcfe106d1cc46398894cfe1f1710742ec0d448d191e66ecd0f5a827fca6"
+        }
+      ],
+      "output_prefix": "clip-106-preview-4step-r001"
+    },
+    {
+      "number": 107,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-107.json",
+      "job_sha256": "6a6c2345553a5fbf235e1e53cc1fb2668e232d518bce5bc6057a217bb106af6c",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-107.md",
+      "prompt_sha256": "c893e71d6cc5163799e486dc5e91a2291eace0739854afed93f7eb3a1cac8209",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-107.json",
+      "production_job_sha256": "346e0d06dcecab328a4882d2fe6d3da9b6734efc4d9fbf15f70ac4005ce53b16",
+      "seed": 3957744698653976364,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png",
+          "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41"
+        }
+      ],
+      "output_prefix": "clip-107-preview-4step-r001"
+    },
+    {
+      "number": 108,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-108.json",
+      "job_sha256": "45a0dd421499c66ba2faf55b0dff95af5ad672d40b4e2ad9f39f5dfc8fd7cd9f",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-108.md",
+      "prompt_sha256": "d6812dbb726ecbc2e048336b13334547299eb955f394257bee825c76950be94b",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-108.json",
+      "production_job_sha256": "0a74efe334ccac6deb106ab36579f73ae870cce8da216d9599f0ad3cc726e2dc",
+      "seed": 1697417208333593749,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png",
+          "sha256": "2d3b1aa510add1ebd6444ca6ae7bb28238852b65237ee9dc32c000c0afac8eb4"
+        }
+      ],
+      "output_prefix": "clip-108-preview-4step-r001"
+    },
+    {
+      "number": 109,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-109.json",
+      "job_sha256": "8abc453ab571e5b964193f4e0b2084deb761fbf79037b85504021d0faa2be5dd",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-109.md",
+      "prompt_sha256": "a5beaef4e51ac2ea4673c186662a9e07d63d289d78bc91e1bb5601266723bc9f",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-109.json",
+      "production_job_sha256": "be66a24a2d0a6faffaae2ad8dc455db8977bd8bad48e67b6ba6a5f6ce05effd8",
+      "seed": 6246891691307247823,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-r001.png",
+          "sha256": "004130557832ecd3d1fc700d7399f7e0acb1d298de3271e3e97e1cdef0abc2ae"
+        }
+      ],
+      "output_prefix": "clip-109-preview-4step-r001"
+    },
+    {
+      "number": 110,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-110.json",
+      "job_sha256": "4fb452b6d286cad8964659f8a272ae1639a52b0106396274060f522a91fe05bf",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-110.md",
+      "prompt_sha256": "805668aca2c90a97948f67c7016e9d45076c2bc31300b5c0d966e76aed2f8c84",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-110.json",
+      "production_job_sha256": "481ccb90c53949f5392f94b25e05fdb9aaf06bd8acef962481eb8cd95067afdd",
+      "seed": 2108735166196957166,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+          "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4"
+        }
+      ],
+      "output_prefix": "clip-110-preview-4step-r001"
+    },
+    {
+      "number": 111,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-111.json",
+      "job_sha256": "dc50e65a45bed1886fb61d6fceb20fac136ec28541ae590b01f5097a5bdc46e7",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-111.md",
+      "prompt_sha256": "bc395484ce57e726b0e286dae3d1ae8d206d63f2f75d8e9544b11c9a972ead2f",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-111.json",
+      "production_job_sha256": "0e2827ff5f0d400c8f8dc83abd30610214a0faf30ec894158ae465197222c1d0",
+      "seed": 3228874247332915597,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-close-r001.png",
+          "sha256": "5bbaeb119edc5a0f121a4a8ae9ae40f72a64262767e3eca8a84836d4753c46ca"
+        }
+      ],
+      "output_prefix": "clip-111-preview-4step-r001"
+    },
+    {
+      "number": 112,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-112.json",
+      "job_sha256": "32c557381d3778dfd446b387b358db2ac644628830ef16e8b3b76ac31faf7ac1",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-112.md",
+      "prompt_sha256": "9800531903155be25073f9acca413c39b31be2278ca20ca7a43edd2ee1b7c61d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-112.json",
+      "production_job_sha256": "bd157323d9ed340b4678a17dc16e41322313ebca9ae62c5eae6b9925c7aec9ab",
+      "seed": 274911415803394739,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png",
+          "sha256": "2d3b1aa510add1ebd6444ca6ae7bb28238852b65237ee9dc32c000c0afac8eb4"
+        }
+      ],
+      "output_prefix": "clip-112-preview-4step-r001"
+    },
+    {
+      "number": 113,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-113.json",
+      "job_sha256": "7b3e04c0f8bd839e534fdbbf8cec063e7bed637706f73f177cb7eb2edecb6fc9",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-113.md",
+      "prompt_sha256": "dc9b63b74b033fa815464aa81ec687e0d402c749d474a90c9bb0bed0937d88fe",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-113.json",
+      "production_job_sha256": "8ca6f9c41cd79a560b8c8f2b012175d550afcb6b3b5552be29c184abaea7a012",
+      "seed": 6790603217895980862,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-r001.png",
+          "sha256": "004130557832ecd3d1fc700d7399f7e0acb1d298de3271e3e97e1cdef0abc2ae"
+        }
+      ],
+      "output_prefix": "clip-113-preview-4step-r001"
+    },
+    {
+      "number": 114,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-114.json",
+      "job_sha256": "1d1928d3adcb0b8575176f6c246df47462bad961a673c646048b8c43c97d7b90",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-114.md",
+      "prompt_sha256": "07e8aa1a790992d1dae84b87e6c791cd2d1c16bd3c0388c7c92ed1107b3e1ad1",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-114.json",
+      "production_job_sha256": "933f207232ae6ddea1091d6d9140e29f17841020b71c536350786cdc1c34c31d",
+      "seed": 4825027979840847950,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+          "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4"
+        }
+      ],
+      "output_prefix": "clip-114-preview-4step-r001"
+    },
+    {
+      "number": 115,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-115.json",
+      "job_sha256": "f122c8cd3a15789c8197e9bfc337a056a7ca3f71448c69a6ae0e7f040379d19b",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-115.md",
+      "prompt_sha256": "7b8a276280518d489d42f3d0018ea877db1ef2768efbae39f31e27d0e447897f",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-115.json",
+      "production_job_sha256": "4d6f3b9e69978365965b766ccc6878c305ef7cf49e52a94ca3e4f056d5a8a42a",
+      "seed": 2598242581432866038,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-blank-r002.png",
+          "sha256": "d21d98ba51f67a4cc27bb403f7683c9e44bce754edbf97d79447bdf38c6c9d3f"
+        }
+      ],
+      "output_prefix": "clip-115-preview-4step-r001"
+    },
+    {
+      "number": 116,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-116.json",
+      "job_sha256": "5b1310b3e0673dc0e4559aed97e0c6e443dad53b66094fa5fb5d28e157903fba",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-116.md",
+      "prompt_sha256": "40efbb741d57b4adf6f06b5eaf09988a061fd64573412de97d6f5a7a4a43b5d1",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-116.json",
+      "production_job_sha256": "1da57fa0a02cb26eeeb02a21bb27bbb896aa0f1bc4be8952d65f69216ab57b3e",
+      "seed": 8308851739982621437,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png",
+          "sha256": "399c8fcfe106d1cc46398894cfe1f1710742ec0d448d191e66ecd0f5a827fca6"
+        }
+      ],
+      "output_prefix": "clip-116-preview-4step-r001"
+    },
+    {
+      "number": 117,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-117.json",
+      "job_sha256": "c31f94b3408a00d3fb9dda5ae89363cfa2c36fcc23bcd570eb2bf255f1c3b640",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-117.md",
+      "prompt_sha256": "e31b5adba1a5e936e74524c94a4d4c35031327048ef2b7e4a9e33c66ebd05b62",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-117.json",
+      "production_job_sha256": "0c83fc1be4c7803676cbe51e5ee5a45893d3c18c65e6e99233d6269cb92f50fa",
+      "seed": 5907227980927397767,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png",
+          "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41"
+        }
+      ],
+      "output_prefix": "clip-117-preview-4step-r001"
+    },
+    {
+      "number": 118,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-118.json",
+      "job_sha256": "15ad620007e1b59f7f630f1fa388ba158e6e751ecad5e6de62952ccfda89efdb",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-118.md",
+      "prompt_sha256": "c831b9a53ab94d9f552e25c4e8aeb20de2ff047fe15937500dee68133decbc1b",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-118.json",
+      "production_job_sha256": "65b1a74c87fb21d69f487caf56769fd40f5c105cb6006cd09c2f7c90abf52d9d",
+      "seed": 1961958235494706858,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
+          "sha256": "544f93649c45daeb9ab7c0ed5b61500618b9de940ff80fe11f6621c2c6e58599"
+        },
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png",
+          "sha256": "f39544d74df34fe00e5009224714085214d1d77b9774d50275feb21977307126"
+        }
+      ],
+      "output_prefix": "clip-118-preview-4step-r001"
+    },
+    {
+      "number": 119,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-119.json",
+      "job_sha256": "cd37172d9a3facd199b639da2ba9ce9b76e8631fd9ba2644a248bbff275bff62",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-119.md",
+      "prompt_sha256": "a5c14f6f56d2c57ac9e150755d160730a0d13a55a2e29522f9cad9178635156f",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-119.json",
+      "production_job_sha256": "bb622f14e04b5807721ec6ee64bd97d6e304fb8a6c816df4b5156dae5da0584a",
+      "seed": 9006723704939125759,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png",
+          "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41"
+        }
+      ],
+      "output_prefix": "clip-119-preview-4step-r001"
+    },
+    {
+      "number": 120,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-120.json",
+      "job_sha256": "b1fb2c26f232c51b0178d85f89248cedd3e0d401f0f1cebe4df7faa897cb8721",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-120.md",
+      "prompt_sha256": "9e6ebf9ba847cf20c0567d0d631b026983fd8a46b7c08dc00371c1e7444d4d2d",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-120.json",
+      "production_job_sha256": "0171309d71e0c82c5856323a90e5a767909b8f3e6913ada93eb95ef1ff947f0a",
+      "seed": 7400471958429942070,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-close-r001.png",
+          "sha256": "5bbaeb119edc5a0f121a4a8ae9ae40f72a64262767e3eca8a84836d4753c46ca"
+        }
+      ],
+      "output_prefix": "clip-120-preview-4step-r001"
+    },
+    {
+      "number": 121,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-121.json",
+      "job_sha256": "cae8f9b35cef5ee80636b2674181ff7b4524f9568fc40900b6c9e4d16a200113",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-121.md",
+      "prompt_sha256": "888fe6366888d59263b583441fb3a68f26907d1599f201942517ed6d5577c7be",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-121.json",
+      "production_job_sha256": "c753eca6fdeb064178c6ed24ac9f791fcf80108723e53a0e588a5eb2cafc8ff6",
+      "seed": 8985441130008262877,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png",
+          "sha256": "2d3b1aa510add1ebd6444ca6ae7bb28238852b65237ee9dc32c000c0afac8eb4"
+        }
+      ],
+      "output_prefix": "clip-121-preview-4step-r001"
+    },
+    {
+      "number": 122,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-122.json",
+      "job_sha256": "af467e58f65a9f2107681a623a5363997d06970506b8e7dd919e2a5641fb8ca5",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-122.md",
+      "prompt_sha256": "e9076c1943c8606942d70eceec7eb90eff7b0e772b28386c19394fb2905292f5",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-122.json",
+      "production_job_sha256": "aa18372420619b344b36e0b81552fbdcd3cb6d075f9ae54fc51c3f5c79362753",
+      "seed": 3694453921880645495,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png",
+          "sha256": "cb5a0a4e924396573524493e8de5e9bea9c55c756a36e3e00e4699d524c3ace4"
+        }
+      ],
+      "output_prefix": "clip-122-preview-4step-r001"
+    },
+    {
+      "number": 123,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-123.json",
+      "job_sha256": "cdfa1f402bdd2b6db32d4198a9536bc6e0701e6baa2e3eb2cf0f0bf686b4a12f",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-123.md",
+      "prompt_sha256": "a76f6f4e0d1246f64a65edeb5d6e1e4f78e94b6b557e8f30e26db55845d36c84",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-123.json",
+      "production_job_sha256": "851fa3055a2954ac6c56b490e88468e0f24ace1fa38b0d9b9e7ed90c2eb39545",
+      "seed": 3869984483667737281,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+          "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+        }
+      ],
+      "output_prefix": "clip-123-preview-4step-r001"
+    },
+    {
+      "number": 124,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-124.json",
+      "job_sha256": "723bd0b5723b806e5010b985be3c7aa0a05b94dc8b3cbf58a17aa0bc6b6f9e3b",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-124.md",
+      "prompt_sha256": "681be5802a3b9df637cfbe13ca78eb329d2634f97ad6029abf67ebda97b48271",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-124.json",
+      "production_job_sha256": "38355fa31129358f25b6bec48f5558796c4d068e66d667e7f2eebbff0acb5f4c",
+      "seed": 5274649855723509668,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-0938-r001.png",
+          "sha256": "21b1cfb84e0ae7a36295fe20da6b547a18e4a814bad3a86b58f8b8afb3811e88"
+        }
+      ],
+      "output_prefix": "clip-124-preview-4step-r001"
+    },
+    {
+      "number": 125,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-125.json",
+      "job_sha256": "1951d2aa9746147506cd9bd149d23c1532df93dc1fc6a0bede1906dce0c814e6",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-125.md",
+      "prompt_sha256": "5eba12dddd254fe34d0bcf40e5e0f41c39e11f60450f4ea39ee9014d6d1271fa",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-125.json",
+      "production_job_sha256": "9ea4e684cce64f88251cf91e6bcc4bf3ef75759940b3d7ceb4d7a62a81439998",
+      "seed": 8742608489708778166,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-38-minutos-r001.png",
+          "sha256": "a98d518b885138111d32d5f2649dcb551a6202083c1c753e25eb869248b0ae25"
+        }
+      ],
+      "output_prefix": "clip-125-preview-4step-r001"
+    },
+    {
+      "number": 126,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-126.json",
+      "job_sha256": "ad44770ab3e691a5865f81bc1826eda529070becc76c85fda5a17f1ff7f2c4f1",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-126.md",
+      "prompt_sha256": "cf5c48e8f3eb9f1bfd2cb390b92ba5e60e93a0780779ea1caeefcc2017413fbb",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-126.json",
+      "production_job_sha256": "256b4c8d5b2e1413e5749094585d00ec0c9e6503b4ba53a5255695dc28884f50",
+      "seed": 4720926444809502801,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+          "sha256": "d6bf375d3baa320a1d2afff0f87421268bf5a9ae87ce1fa497ac47458aa23f70"
+        }
+      ],
+      "output_prefix": "clip-126-preview-4step-r001"
+    },
+    {
+      "number": 127,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-127.json",
+      "job_sha256": "19827fe58bdbfae54da7922fe5a5b7dc1b384feb9da1ec15c2b9a7eb855491c1",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-127.md",
+      "prompt_sha256": "0711aa838fe99f35c4204e6d8e97cd555de795eabce5b6c6a880c18998005f0c",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-127.json",
+      "production_job_sha256": "87ccda54979200568e445bd4bd8b102941781f123cbd5e27ab51344da53b7180",
+      "seed": 7669701706211641087,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png",
+          "sha256": "6e206565a63ff74b9636f1a5611c766149b7caf7ff5fb40381b9c08af13b122e"
+        }
+      ],
+      "output_prefix": "clip-127-preview-4step-r001"
+    },
+    {
+      "number": 128,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-128.json",
+      "job_sha256": "1a52dcfcc76235ca50e7e89f5bdef338a8bada1f302115c5f83d40e4c1f3fdea",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-128.md",
+      "prompt_sha256": "0cc5437955d44ca93e53ea0a70d743207d08067632508eceb5224d466e1069bb",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-128.json",
+      "production_job_sha256": "442b8f45ee1aa46c6cda1fe0786a506fa9c0cfae582b56bb2f24b01e3343c805",
+      "seed": 5244352888397242423,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png",
+          "sha256": "399c8fcfe106d1cc46398894cfe1f1710742ec0d448d191e66ecd0f5a827fca6"
+        }
+      ],
+      "output_prefix": "clip-128-preview-4step-r001"
+    },
+    {
+      "number": 129,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-129.json",
+      "job_sha256": "823388049257d075eb77b1c7b36001a8edc45d551a8da5b0f0033a623cf0e962",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-129.md",
+      "prompt_sha256": "106f88f8d5fc962b5fe5ee60760ce0883b2bc6454890030fb339b1b5beda01f5",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-129.json",
+      "production_job_sha256": "b2c5f6e4b8cc97045ceefe2a3258d94ac587c8d9f4f88ceebb7a3977f42dcb55",
+      "seed": 8098212594465111859,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png",
+          "sha256": "74c4b4ade149a763940dec22de26ff6f459474eafafb5f65afcb85c22a61229d"
+        }
+      ],
+      "output_prefix": "clip-129-preview-4step-r001"
+    },
+    {
+      "number": 130,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-130.json",
+      "job_sha256": "80110de12a3c61b75bc70a005cc52a18825f7a14efadf643c0fef211365afbf6",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-130.md",
+      "prompt_sha256": "2a2b8f3521ff7895d1817d93e54b693431f1586202e1f23b4bfd8b1031eaed47",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-130.json",
+      "production_job_sha256": "fdf9a1d288f9c6475836a93d54e165e89c6873e27f5538fcd0e944d8f6072172",
+      "seed": 1579845186464602028,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-resolved-r001.png",
+          "sha256": "12ef191d787e803ce5c3ade0eac43efc63fd9f7f68ec477f5feca39e51626fc3"
+        }
+      ],
+      "output_prefix": "clip-130-preview-4step-r001"
+    },
+    {
+      "number": 131,
+      "job": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/jobs/clip-131.json",
+      "job_sha256": "4c881129f63bc6143dc9b40fde9a26457cfe4138c92a429e0f40695fb9ad094a",
+      "prompt": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-131.md",
+      "prompt_sha256": "d77ce88afce6e38d48790637f2286b35ebe7ce8dd2e201517b3dbd43f995acb3",
+      "production_job": "episodes/006-shortest-war-ever/automation/jobs/clip-131.json",
+      "production_job_sha256": "a630e279ffeedf0706df0c299d9570071411197ae67b18e1cf9810973cde2b6b",
+      "seed": 7100594075292040304,
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-resolved-r001.png",
+          "sha256": "12ef191d787e803ce5c3ade0eac43efc63fd9f7f68ec477f5feca39e51626fc3"
+        }
+      ],
+      "output_prefix": "clip-131-preview-4step-r001"
+    }
+  ]
+}

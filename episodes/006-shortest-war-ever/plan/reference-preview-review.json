@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "review_type": "actual full-resolution still inspection, not H3 clip approval",
+  "assets": [
+    {
+      "id": "market-basket-close",
+      "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+      "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Identity, foreground inventory, historical-world illustration and phase inspected directly; usable full-frame anchor for declared action.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/market-basket-close.md"
+    },
+    {
+      "id": "dhow-trade-cargo",
+      "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+      "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Identity, foreground inventory, historical-world illustration and phase inspected directly; usable full-frame anchor for declared action.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/dhow-trade-cargo.md"
+    },
+    {
+      "id": "messenger-scroll-quay",
+      "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+      "sha256": "9aa801eeacbec66ad150d8f6cc80f3b9690e42f02703ed4576c24aa67729f32a",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Identity, foreground inventory, historical-world illustration and phase inspected directly; usable full-frame anchor for declared action.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/messenger-scroll-quay.md"
+    },
+    {
+      "id": "khalid-scroll-insert",
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-scroll-insert-r001.png",
+      "sha256": "916efc6a94af8a1096648e8f56d6f33184d7700635fbfe4ecc9491113a6f56a9",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Identity, foreground inventory, historical-world illustration and phase inspected directly; usable full-frame anchor for declared action.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/khalid-scroll-insert.md"
+    },
+    {
+      "id": "shore-defenders-cannon",
+      "path": "assets/episodes/006-shortest-war-ever/references/shore-defenders-cannon-r001.png",
+      "sha256": "6028ef883d20e340033f284736ac95e110606911a38823f4c50d121edee446b2",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Identity, foreground inventory, historical-world illustration and phase inspected directly; usable full-frame anchor for declared action.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/shore-defenders-cannon.md"
+    },
+    {
+      "id": "glasgow-sunken-close",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+      "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "One wreck, no people aboard; tiny shore residents allowed, no other ships.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/glasgow-sunken-close.md"
+    },
+    {
+      "id": "consulate-street-approach",
+      "path": "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png",
+      "sha256": "23ef05e6a14a795cd8fb650205a51b35702f1c5c80cd32b78b1a408e8f3a2749",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "One Khalid and one same guard; door already open. Background contains unaffected street buildings, not a claimed undamaged bombarded palace. Corrected actions for slots100/102 to preserve this state.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/consulate-street-approach.md"
+    },
+    {
+      "id": "aftermath-quay-detail",
+      "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+      "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "One fallen basket, bollard, debris, wreck and two established blue-gray/sand civilians.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/aftermath-quay-detail.md"
+    },
+    {
+      "id": "shoe-foot-insert",
+      "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+      "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "One held shoe, one worn shoe and one bare foot; doorway identity and illustrated world preserved.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/shoe-foot-insert.md"
+    },
+    {
+      "id": "map-harbour-table-surrender",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-surrender-r001.png",
+      "sha256": "6e206565a63ff74b9636f1a5611c766149b7caf7ff5fb40381b9c08af13b122e",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Five navy plus one sunken ochre vessel; one white surrender cloth at damaged palace; Khalid already inland.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/map-harbour-table-surrender.md"
+    },
+    {
+      "id": "map-world-khalid-mainland",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-world-khalid-mainland-r001.png",
+      "sha256": "f39544d74df34fe00e5009224714085214d1d77b9774d50275feb21977307126",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Only existing maroon token shifted to adjacent mainland; map/pins retained. Broad explanatory location, no exact itinerary.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/map-world-khalid-mainland.md"
+    },
+    {
+      "id": "map-harbour-table-prebattle",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r002.png",
+      "sha256": "4f93d9c295350feb8c1245913e586c9bb75a8b37df5742edd0da9b8192ba114f",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Exactly five navy British ship miniatures plus one ochre Glasgow; removed extra low-central sixth navy ship. Table, coast, Rawson/Khalid positions and phase-specific palace/vessel state retained.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/map-harbour-table-prebattle-correction.md"
+    },
+    {
+      "id": "map-harbour-table-early-battle",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r002.png",
+      "sha256": "c4664d2ece213a1d417138edfcd10f2b75019fcca90e98ea9b09f5452e45400a",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Exactly five navy British ship miniatures plus one ochre Glasgow; removed extra low-central sixth navy ship. Table, coast, Rawson/Khalid positions and phase-specific palace/vessel state retained.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/map-harbour-table-early-battle-correction.md"
+    },
+    {
+      "id": "map-harbour-table-aftermath",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r002.png",
+      "sha256": "2789fa183a33cd5ce76d66b7179dd6e8eb51632e1a29d8fd90f26c3e069d5292",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Exactly five navy British ship miniatures plus one ochre Glasgow; removed extra low-central sixth navy ship. Table, coast, Rawson/Khalid positions and phase-specific palace/vessel state retained.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/map-harbour-table-aftermath-correction.md"
+    },
+    {
+      "id": "map-harbour-table-refuge",
+      "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r002.png",
+      "sha256": "74ae7a649ce6a9396b7dd604215e2e7b1c472627c63617c3bce7791a72280960",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution visual review 2026-10-02",
+      "review": "Exactly five navy British ship miniatures plus one ochre Glasgow; removed extra low-central sixth navy ship. Table, coast, Rawson/Khalid positions and phase-specific palace/vessel state retained.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/map-harbour-table-refuge-correction.md"
+    },
+    {
+      "id": "glasgow-afloat-battle",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-battle-r001.png",
+      "sha256": "cc6895777eeeb8c69150e3fbe3aa02b1010efde633c30c8df15b48d669f5e35f",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution review 2026-10-02",
+      "review": "Five crew, single original afloat vessel and rig preserved; background palace visibly damaged without extra ship/foreground figure. Original prebattle anchor retained separately.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/glasgow-afloat-battle.md"
+    },
+    {
+      "id": "glasgow-quarter-battle",
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-quarter-battle-r001.png",
+      "sha256": "4899f7bdaa8c701b978cba749593fcfe163d4c257e407d2f3417873a636bb3bc",
+      "status": "approved",
+      "approved_by": "Codex direct full-resolution review 2026-10-02",
+      "review": "Five crew, single original afloat vessel and rig preserved; background palace visibly damaged without extra ship/foreground figure. Original prebattle anchor retained separately.",
+      "prompt": "prompts/image/episodes/006-shortest-war-ever/glasgow-quarter-battle.md"
+    }
+  ]
+}

@@ -37,12 +37,23 @@
   "accepted_timing_map": "timestamps/timing-map.json",
   "picture_master": null,
   "distribution_master": null,
-  "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+  "next_action": "Launch the explicitly authorized full 131-clip 4-step Lightning concept preview after final checks; stop after confirming processing starts. Then review every preview before further corrections and any later 12-step production.",
   "generation_steps": 12,
   "generation_step_authority": "explicit user instruction 2026-10-02",
   "voice_duration_seconds": 651.389388,
   "planned_picture_seconds": 655,
-  "last_reviewed_stage": "Resume audit: earlier planning approvals reopened at stages 05–09; integrated H3 pilot needs corrections and full QC",
-  "active_revision": 3,
-  "resume_audit": "plan/resume-audit.md"
+  "last_reviewed_stage": "Revised shot plan and 57 input anchors reviewed; all 131 preview jobs passed full live-service dry-run; final H3 picture remains unapproved.",
+  "active_revision": 4,
+  "resume_audit": "plan/resume-audit.md",
+  "preview": {
+    "steps": 4,
+    "lightning": true,
+    "width": 1024,
+    "height": 576,
+    "job_count": 131,
+    "status": "prepared_not_launched",
+    "manifest": "automation/batches/preview-4step-r001/manifest.json",
+    "batch_id": null,
+    "stop_after_start": true
+  }
 }

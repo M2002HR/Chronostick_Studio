@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "template": "h3_ref2va",
+  "profile": "draft",
+  "job_identity": "006-shortest-war-ever:clip-125:preview-4step-r001",
+  "prompt": {
+    "file": "episodes/006-shortest-war-ever/automation/batches/preview-4step-r001/prompts/clip-125.md"
+  },
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-38-minutos-r001.png",
+      "role": "scene",
+      "name": "Picture 1"
+    }
+  ],
+  "generation": {
+    "aspect_ratio": "16:9",
+    "megapixel": 0.6,
+    "width": 1024,
+    "height": 576,
+    "duration_seconds": 5,
+    "fps": 24,
+    "steps": 4,
+    "sampler": "res_multistep",
+    "scheduler": "beta",
+    "seed": 8742608489708778166,
+    "seed_mode": "fixed",
+    "lightning": true,
+    "ref_image_size": "match"
+  },
+  "audio": {
+    "enabled": true,
+    "mode": "sfx_only",
+    "dialogue": false,
+    "narration": false,
+    "music": false,
+    "require_audio_stream": true
+  },
+  "output": {
+    "directory": "episodes/006-shortest-war-ever/renders/preview-4step/raw",
+    "prefix": "clip-125-preview-4step-r001",
+    "container": "mp4",
+    "overwrite": false,
+    "editorial_directory": "episodes/006-shortest-war-ever/renders/preview-4step/editorial",
+    "editorial_duration_seconds": 5
+  },
+  "postprocess": {
+    "concat": false,
+    "upscale": false
+  }
+}

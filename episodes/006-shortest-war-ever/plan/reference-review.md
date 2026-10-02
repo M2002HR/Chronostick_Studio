@@ -1,3 +1,7 @@
+# Current input review update
+
+The earlier harbour-count approvals below were revoked by the resume audit. Current selected inputs are the57 reviewed anchors in reference-manifest.json. See reference-preview-review.json and preview-revision-review.md for the actual revised decisions. Four old six-navy-ship inputs remain rejected in retired_assets.
+
 # Episode 006 reference audit — 2026-10-02
 
 > Resume audit correction: the earlier blanket approval below is superseded for the four harbour-table anchors. Full-resolution recount finds six navy British ship tokens plus Glasgow in every harbour-table state, instead of the required five plus one. Those four revisions are now rejected in `reference-manifest.json`; their 14 dependent slots need repair. Other prior decisions are preserved. See `resume-audit.md` for evidence and current gates.
