@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "review_status": "source_assumption_draft",
+  "source_policy": "source/research-waiver.json",
+  "mappings": [
+    {
+      "claim_id": "C001",
+      "source_span": "00:00:06-00:00:55",
+      "spanish_passage": "Imagina que te despiertan porque va a empezar una guerra.",
+      "treatment": "qualified",
+      "reason": "Uses an original hypothetical comic hook without claiming the source-video sailor exchange happened."
+    },
+    {
+      "claim_id": "C002",
+      "source_span": "00:01:17-00:01:43",
+      "spanish_passage": "Zanzíbar quedó bajo protectorado británico.",
+      "treatment": "qualified",
+      "reason": "Retains protectorate language rather than the reference’s simplified ownership claim."
+    },
+    {
+      "claim_id": "C003",
+      "source_span": "00:01:29-00:01:43",
+      "spanish_passage": "para los comerciantes que cruzaban el océano Índico era un puerto importantísimo",
+      "treatment": "retained",
+      "reason": "Keeps the broad strategic trading context without new route or volume figures."
+    },
+    {
+      "claim_id": "C004",
+      "source_span": "00:01:46-00:02:29",
+      "spanish_passage": "Gran Bretaña también quería frenar el tráfico de personas esclavizadas en la región.",
+      "treatment": "qualified",
+      "reason": "Keeps the reference account of anti-slavery policy without turning the clean narration into a legal caveat."
+    },
+    {
+      "claim_id": "C005",
+      "source_span": "00:02:29-00:03:09",
+      "spanish_passage": "Era un problema real y cruel en Zanzíbar.",
+      "treatment": "qualified",
+      "reason": "Acknowledges slavery seriously while making the surrounding explanation accessible and lively."
+    },
+    {
+      "claim_id": "C006",
+      "source_span": "00:03:11-00:03:41",
+      "spanish_passage": "En el puerto está el almirante Harry Rawson",
+      "treatment": "qualified",
+      "reason": "Keeps the command figure without copying the invented dialogue."
+    },
+    {
+      "claim_id": "C007",
+      "source_span": "00:03:48-00:04:50",
+      "spanish_passage": "Gran Bretaña y Alemania negociaron sus posiciones en África oriental.",
+      "treatment": "qualified",
+      "reason": "Keeps the geopolitical beat without specific unsourced border exchanges or dialogue."
+    },
+    {
+      "claim_id": "C008",
+      "source_span": "00:04:50-00:05:18",
+      "spanish_passage": "En el papel, la isla seguía teniendo sultán.",
+      "treatment": "qualified",
+      "reason": "Keeps the Sultanate and the British power imbalance clear in colloquial Spanish."
+    },
+    {
+      "claim_id": "C009",
+      "source_span": "00:05:18-00:05:57",
+      "spanish_passage": "En agosto de mil ochocientos noventa y seis muere el sultán Hamad bin Thuwaini.",
+      "treatment": "qualified",
+      "reason": "Uses the death as a succession trigger; does not attribute poisoning."
+    },
+    {
+      "claim_id": "C010",
+      "source_span": "00:05:43-00:07:09",
+      "spanish_passage": "en mil ochocientos noventa y tres, ya había intentado tomar el poder",
+      "treatment": "retained",
+      "reason": "Keeps the earlier attempt to set up Khalid’s second stand."
+    },
+    {
+      "claim_id": "C011",
+      "source_span": "00:06:50-00:07:00",
+      "spanish_passage": "Khalid reúne a miles de partidarios, refuerza sus posiciones y cierra las puertas.",
+      "treatment": "qualified",
+      "reason": "Keeps scale and occupation without claiming a precise count or exact crowd location."
+    },
+    {
+      "claim_id": "C012",
+      "source_span": "00:07:45-00:08:40",
+      "spanish_passage": "Son las ocho de la mañana del veintisiete de agosto. Khalid recibe un ultimátum: tiene una hora para marcharse.",
+      "treatment": "retained",
+      "reason": "Spoken clock sequence uses the reference deadline; the 08:59 setup is an inferred dramatic minute recorded separately."
+    },
+    {
+      "claim_id": "C013",
+      "source_span": "00:07:55-00:08:08",
+      "spanish_passage": null,
+      "treatment": "omitted",
+      "reason": "The apparent direct quote has no verified original provenance and would duplicate the narrator's account of refusal."
+    },
+    {
+      "claim_id": "C014",
+      "source_span": "00:08:20-00:09:45",
+      "spanish_passage": "El reloj marca las nueve y cinco. El Glasgow dispara contra los británicos.",
+      "treatment": "qualified",
+      "reason": "The source video supplies the 09:05 card; the exact clock beat remains a source assumption in planning metadata, not spoken uncertainty."
+    },
+    {
+      "claim_id": "C015",
+      "source_span": "00:09:53-00:10:09",
+      "spanish_passage": "Treinta y ocho minutos.",
+      "treatment": "qualified",
+      "reason": "Duration is held for the final paragraph and tied to the derived 09:38 end clock."
+    },
+    {
+      "claim_id": "C016",
+      "source_span": "00:10:06-00:10:20",
+      "spanish_passage": "en el lado zanzibarí murieron cientos de defensores; del lado británico hubo una persona herida",
+      "treatment": "qualified",
+      "reason": "States the asymmetry respectfully, without the source video’s injury joke or graphic detail."
+    },
+    {
+      "claim_id": "C017",
+      "source_span": "00:10:26-00:10:49",
+      "spanish_passage": "sale del palacio y busca refugio en el consulado alemán.",
+      "treatment": "retained",
+      "reason": "Keeps the escape and later German East Africa route."
+    },
+    {
+      "claim_id": "C018",
+      "source_span": "00:10:49-00:11:14",
+      "spanish_passage": null,
+      "treatment": "omitted",
+      "reason": "St Helena, Churchill correspondence and judgments about Khalid's later life are unnecessary to resolve the central story and are uncertain in the preserved notes."
+    },
+    {
+      "claim_id": "C019",
+      "source_span": "00:11:12-00:11:27",
+      "spanish_passage": "Hamoud bin Mohammed ocupa el trono.",
+      "treatment": "qualified",
+      "reason": "Keeps succession and later abolition-related changes separate from the battle’s exact end moment."
+    }
+  ]
+}

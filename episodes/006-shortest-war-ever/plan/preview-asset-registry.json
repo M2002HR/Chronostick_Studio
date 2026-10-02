@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "assets": {
+    "market-basket-close": [
+      "market-basket-close-r001.png",
+      "exactly three market residents: cream-and-ivory trader left, navy-and-ochre shopper center, red-and-cream-shawled resident right; one large shared wicker basket and one separate smaller shopper basket; intact palace and one dhow beyond",
+      "intact market, daily civilian life"
+    ],
+    "dhow-trade-cargo": [
+      "dhow-trade-cargo-r001.png",
+      "one cream-robed ivory-turbaned quay worker, one foreground timber crate, one rope coil, one tied wooden dhow with cargo barrels; intact palace beyond",
+      "ordinary port commerce with intact city"
+    ],
+    "messenger-scroll-quay": [
+      "messenger-scroll-quay-r001.png",
+      "exactly one foreground cream-robed ivory-turbaned messenger, one closed blank cream scroll; intact palace and one dhow beyond; existing tiny distant residents stay background-sized",
+      "message delivery at intact waterfront"
+    ],
+    "khalid-scroll-insert": [
+      "khalid-scroll-insert-r001.png",
+      "one large Khalid with ivory turban, black beard, maroon-and-gold robe and one closed scroll; exactly one small cream-robed guard at the rear doorway; same empty throne",
+      "palace demands before battle"
+    ],
+    "shore-defenders-cannon": [
+      "shore-defenders-cannon-r001.png",
+      "exactly two cream-robed stick defenders with ivory turbans and muted maroon sashes; exactly one small shore cannon on one wooden carriage; intact palace, quiet water",
+      "shore defence at rest before battle"
+    ],
+    "glasgow-sunken-close": [
+      "glasgow-sunken-close-r001.png",
+      "exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero visible people or other ships; damaged palace beyond",
+      "settled Glasgow wreck after sinking"
+    ],
+    "consulate-street-approach": [
+      "consulate-street-approach-r001.png",
+      "exactly one maroon-and-gold Khalid at left facing right, exactly one neutral cream-robed guard beside the same carved gate at right; one short paved approach; damaged palace beyond",
+      "approach to German consular refuge after battle damage"
+    ],
+    "aftermath-quay-detail": [
+      "aftermath-quay-detail-r001.png",
+      "one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray and ochre at left; damaged palace and submerged Glasgow beyond",
+      "respectful quiet human aftermath"
+    ],
+    "shoe-foot-insert": [
+      "shoe-foot-insert-r001.png",
+      "lower half of exactly one shoe-searcher: brown jacket hem, cream trousers, two stick legs, one brown shoe worn and one brown shoe held beside the unshod foot; same doorway floor",
+      "comic missing-shoe setup or late closing callback"
+    ],
+    "map-harbour-table-surrender": [
+      "map-harbour-table-surrender-r001.png",
+      "same physical harbour chart, exactly five navy British ships west/left, one sunken ochre Glasgow east/right, navy Rawson token west, maroon Khalid token inland at refuge; exactly one plain white surrender cloth at damaged palace",
+      "surrender after Khalid reaches refuge"
+    ],
+    "map-world-khalid-mainland": [
+      "map-world-khalid-mainland-r001.png",
+      "same physical world chart and fixed Britain navy pin, Germany ochre pin, Zanzibar maroon ring; exactly one tiny maroon Khalid token on adjacent East African mainland",
+      "later Khalid departure toward broad German East Africa area"
+    ]
+  }
+}

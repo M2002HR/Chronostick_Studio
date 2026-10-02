@@ -12,3 +12,9 @@
 *.md text eol=lf
 *.csv text eol=lf
 *.sh text eol=lf
+
+episodes/006-shortest-war-ever/timestamps/word-timestamps-provider-raw.csv -text whitespace=cr-at-eol
+
+episodes/006-shortest-war-ever/timestamps/word-timestamps-source.csv -text whitespace=cr-at-eol
+
+episodes/006-shortest-war-ever/source/reference-video/the-shortest-war-ever-transcript.txt -text

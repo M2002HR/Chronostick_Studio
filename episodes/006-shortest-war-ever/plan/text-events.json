@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "events": [
+    {
+      "clip": 8,
+      "exact_text": "08:59",
+      "claim_id": "C012",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-palace-0859-r001.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    },
+    {
+      "clip": 59,
+      "exact_text": "08:00",
+      "claim_id": "C012",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    },
+    {
+      "clip": 60,
+      "exact_text": "08:00",
+      "claim_id": "C012",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    },
+    {
+      "clip": 75,
+      "exact_text": "08:59",
+      "claim_id": "C012",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-palace-0859-r001.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    },
+    {
+      "clip": 82,
+      "exact_text": "09:00",
+      "claim_id": "C012",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-palace-0900-r001.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    },
+    {
+      "clip": 90,
+      "exact_text": "09:05",
+      "claim_id": "C014",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-palace-0905-r002.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    },
+    {
+      "clip": 124,
+      "exact_text": "09:38",
+      "claim_id": "C015",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-0938-r001.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    },
+    {
+      "clip": 125,
+      "exact_text": "38 MINUTOS",
+      "claim_id": "C015",
+      "source": "source/reference-video/the-shortest-war-ever-transcript.txt; user-authorized source-assumption basis in source/research-waiver.json",
+      "onset_seconds": 0.0,
+      "hold_until_seconds": 4.8,
+      "exit_seconds": 5.0,
+      "placement": "one large enamel placard beneath the physical brass clock inside the continuous illustrated scene; visible from frame one",
+      "reference_asset": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-38-minutos-r001.png",
+      "status": "requested_by_user_pending_render_review",
+      "approved_by": "user for concept and source-assumption basis",
+      "failure_conditions": [
+        "wrong digit or accent",
+        "flicker or morph",
+        "extra readable text",
+        "unreadable at phone size"
+      ]
+    }
+  ]
+}

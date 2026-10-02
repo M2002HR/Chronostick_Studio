@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "id": "006-shortest-war-ever",
+  "format": "longform",
+  "title": "The Shortest War EVER",
+  "production_profile": "h3-long-5s-12step-16x9",
+  "target_language": "es",
+  "duration_seconds": {
+    "minimum": 600,
+    "maximum": 900
+  },
+  "source": {
+    "status": "reference_transcript_only",
+    "path": null,
+    "sha256": null
+  },
+  "research_policy": "user_waived_independent_verification_for_source_assumption_draft",
+  "research_waiver": "source/research-waiver.json",
+  "voice_direction": {
+    "provider": "google_vids_ai_voiceover",
+    "status": "accepted_by_user",
+    "tag_catalog": "docs/google-vids-voice-direction.md",
+    "tag_source": "user_supplied_google_vids_menu_2026-10-01",
+    "earlier_scene_01_trial_seconds": 93,
+    "tagged_master": "script/voiceover-google-vids-es.md",
+    "scene_order": [
+      "script/voiceover-google-vids-scenes/scene-01.txt",
+      "script/voiceover-google-vids-scenes/scene-02.txt",
+      "script/voiceover-google-vids-scenes/scene-03.txt",
+      "script/voiceover-google-vids-scenes/scene-04.txt",
+      "script/voiceover-google-vids-scenes/scene-05.txt",
+      "script/voiceover-google-vids-scenes/scene-06.txt"
+    ]
+  },
+  "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+  "accepted_voice": "audio/narration-es-google-vids-r001.mp4",
+  "accepted_timing_map": "timestamps/timing-map.json",
+  "picture_master": null,
+  "distribution_master": null,
+  "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+  "generation_steps": 12,
+  "generation_step_authority": "explicit user instruction 2026-10-02",
+  "voice_duration_seconds": 651.389388,
+  "planned_picture_seconds": 655,
+  "last_reviewed_stage": "Resume audit: earlier planning approvals reopened at stages 05–09; integrated H3 pilot needs corrections and full QC",
+  "active_revision": 3,
+  "resume_audit": "plan/resume-audit.md"
+}

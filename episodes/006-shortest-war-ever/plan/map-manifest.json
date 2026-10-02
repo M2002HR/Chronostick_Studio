@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "family": "physical-ink-sand-teal-world-to-harbour-1896",
+  "render_method": "Every five-second map clip is generated entirely by H3 at 12 steps; still charts are reference images only.",
+  "maps": [
+    {
+      "id": "map-harbour-table-aftermath",
+      "depicted_date_or_interval": "27 August 1896",
+      "extent_and_scale": "schematic Stone Town west waterfront and Zanzibar harbour on a physical chart table",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "schematic tactical layout informed by contemporary Zanzibar map; ship bearings and consulate path are explanatory, not surveyed coordinates",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-093",
+        "clip-094",
+        "clip-096",
+        "clip-099",
+        "clip-127"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-harbour-table-early-battle",
+      "depicted_date_or_interval": "27 August 1896",
+      "extent_and_scale": "schematic Stone Town west waterfront and Zanzibar harbour on a physical chart table",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "schematic tactical layout informed by contemporary Zanzibar map; ship bearings and consulate path are explanatory, not surveyed coordinates",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-085",
+        "clip-088"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-harbour-table-prebattle",
+      "depicted_date_or_interval": "27 August 1896",
+      "extent_and_scale": "schematic Stone Town west waterfront and Zanzibar harbour on a physical chart table",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "schematic tactical layout informed by contemporary Zanzibar map; ship bearings and consulate path are explanatory, not surveyed coordinates",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-007",
+        "clip-055",
+        "clip-064",
+        "clip-073",
+        "clip-076"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-harbour-table-refuge",
+      "depicted_date_or_interval": "27 August 1896",
+      "extent_and_scale": "schematic Stone Town west waterfront and Zanzibar harbour on a physical chart table",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "schematic tactical layout informed by contemporary Zanzibar map; ship bearings and consulate path are explanatory, not surveyed coordinates",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-101",
+        "clip-105"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-world-blank",
+      "depicted_date_or_interval": "1890–1896 context",
+      "extent_and_scale": "whole world from British Isles and Germany to eastern Africa, Indian Ocean and Zanzibar",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-004",
+        "clip-012",
+        "clip-014",
+        "clip-021",
+        "clip-031",
+        "clip-126"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-world-diplomacy",
+      "depicted_date_or_interval": "1890–1896 context",
+      "extent_and_scale": "whole world from British Isles and Germany to eastern Africa, Indian Ocean and Zanzibar",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-028",
+        "clip-030",
+        "clip-033"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-world-khalid",
+      "depicted_date_or_interval": "1890–1896 context",
+      "extent_and_scale": "whole world from British Isles and Germany to eastern Africa, Indian Ocean and Zanzibar",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-038",
+        "clip-040",
+        "clip-119"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-world-oblique",
+      "depicted_date_or_interval": "1890–1896 context",
+      "extent_and_scale": "whole world from British Isles and Germany to eastern Africa, Indian Ocean and Zanzibar",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-013",
+        "clip-020"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    },
+    {
+      "id": "map-world-trade-blank",
+      "depicted_date_or_interval": "1890–1896 context",
+      "extent_and_scale": "whole world from British Isles and Germany to eastern Africa, Indian Ocean and Zanzibar",
+      "political_status": "Zanzibar shown as a British protectorate with a local sultan; pins indicate influence, never annexation, colony fill or modern borders",
+      "source_urls": [
+        "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+        "https://www.loc.gov/resource/g8440.ct003505/",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-782",
+        "https://brema.suub.uni-bremen.de/dsdk/content/pagetext/1788980",
+        "https://whc.unesco.org/en/list/173"
+      ],
+      "coastline_authority": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "legend": "teal sea; sand land; navy Britain and five British vessels; ochre Germany or Glasgow; maroon Zanzibar focus and Khalid token; white surrender cloth only after battle",
+      "route_and_arrows": "world trade routes are broad Indian Ocean exchange corridors, not individual documented voyages; Khalid moves only Zanzibar-to-nearby refuge and later Zanzibar-to-mainland German East Africa; no London-to-Zanzibar character journey",
+      "allowed_labels": [],
+      "zoom_handoff_sequence": "world geography and Britain/Germany/Zanzibar pins → physical harbour tactical chart → world summary; stable table, palette and character token design",
+      "supported_shots": [
+        "clip-016",
+        "clip-017",
+        "clip-024"
+      ],
+      "asset_path": "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png",
+      "failure_conditions": [
+        "Britain, Germany or Zanzibar moves to a wrong continent",
+        "world coastline changes between shots",
+        "harbour east/west flips",
+        "a sixth British ship appears",
+        "Glasgow sinks before 09:05 or resurrects afterward",
+        "Khalid returns to palace after refuge",
+        "unlisted writing appears"
+      ]
+    }
+  ]
+}

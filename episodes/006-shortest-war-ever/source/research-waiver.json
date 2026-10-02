@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "stage": "01",
+  "authorized_by": "user",
+  "decision": "skip_independent_fact_verification",
+  "scope": "episode_006_spanish_script_draft_and_downstream_creative_planning",
+  "basis": [
+    "source/reference-video/the-shortest-war-ever-reference.mp4",
+    "source/reference-video/the-shortest-war-ever-transcript.txt",
+    "source/reference-video/intake-review.md"
+  ],
+  "instruction": "Use the current reference video and matching transcript as the story premise and proceed to a creative Spanish script, assuming their historical account for this production path.",
+  "provenance_note": "The reference premise is user-authorized for drafting; historical verification is skipped, not passed. The preserved preliminary claim ledger and research notes remain available and must not be relabeled as approval.",
+  "known_limit": "The existing claim ledger records conflicts and uncertain details. The script may simplify or omit those details, but must not present the skipped research stage as completed verification."
+}

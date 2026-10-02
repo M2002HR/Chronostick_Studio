@@ -1,0 +1,14 @@
+# Provisional clock beats for narration and later picture direction
+
+Status: **draft, source-assumption path**. These are story clock positions, not narration timestamps, approved on-screen text, exact historical findings or five-second H3 slots. The user's reference video and transcript are the premise under `source/research-waiver.json`.
+
+| Clock cue | Narrative event | Basis | Proposed audience function | Later visual requirement |
+| --- | --- | --- | --- | --- |
+| 08:59 | After the original comic hypothetical, flash forward to just before the ultimatum ends: Khalid stays in the palace and ships wait. | Dramatic minute inferred from the 09:00 deadline, not a documented specific observed scene. | Turn the light hook into immediate tension while preserving the unanswered duration question. | A clear clock/countdown device may be designed; no duration number appears. |
+| 08:00 | British ultimatum gives Khalid one hour to leave. | Supplied transcript 07:45–08:20; also in the preserved initial claim ledger C012. | Converts long political conflict into a deadline. | Orient palace, harbor and five British ships before advancing the clock. |
+| ~09:00 | Ultimatum expires and bombardment begins. | Supplied transcript 08:15–08:50 and claim C012; opening-fire minute is approximate in this draft. | First major payoff: threat becomes action. | Show firing position → target → consequence; no preapproved exact label. |
+| ~09:05 | Glasgow responds and is sunk after British return fire. | Supplied transcript 09:01–09:30 and visible `09:05 AM` card in the reference-video intake review; the transcript's relative-minute wording is noisy. | Reset curiosity: can any defense alter the balance? | Keep the ship's position and direction legible; do not inherit the source art or exact card. |
+| Subsequent minutes | Palace fire, diminished defenses, Khalid's escape to German consulate and eventual surrender. | Supplied transcript 09:30–10:45; exact sub-event minutes are unavailable or inconsistent. | Sustain a comprehensible sequence without invented precision. | Use clock movement or visual progression without adding unsupported minute labels. |
+| ~09:38 | Final reveal of the reference account's 38-minute duration, assuming a roughly 09:00 start. | Arithmetic inference from C012 and C015; disputed exact duration remains recorded in `source/claims.json`. | Answers the opening question only after the human consequence is understood. | Any visible `09:38` or `38 MINUTOS` must be an episode-approved exact text event after voice timing and shot planning. |
+
+Stage 04/05 should decide whether the visual clock is analog, an editorial graphic or an in-engine exact text event. A clock face, time card or label must obey the long-form text-event and map rules; this planning note grants no rendering exception. Keep the beginning and end clock compositions related without reproducing the reference video's cards.

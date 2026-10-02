@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "influence_goal": "Use the supplied video and matching transcript as an early creative baseline for an energetic, inventive, sometimes humorous ChronoStick long-form episode; analyze actual frames, motion, editing and sound before choosing adaptations.",
+  "items": [
+    {
+      "id": "reference-video",
+      "kind": "video",
+      "path": "source/reference-video/the-shortest-war-ever-reference.mp4",
+      "url": null,
+      "sha256": "b7f23e60c782936e1f5e6e9bdad76f74224ac9feb9f2dab5cc3160a2b2cec52a",
+      "timecode": null,
+      "original_name": "[@download_it_bot 320p] The Shortest War EVER.mp4",
+      "duration_seconds": 685.545941,
+      "width": 640,
+      "height": 320,
+      "fps": 30
+    },
+    {
+      "id": "reference-transcript",
+      "kind": "transcript",
+      "path": "source/reference-video/the-shortest-war-ever-transcript.txt",
+      "url": null,
+      "sha256": "e090d674357300b94c084f8d17f0974c245f0c09702239b974952768a5d8b61f",
+      "timecode": null,
+      "original_name": "Pasted text.txt",
+      "relationship": "User supplied as transcript of reference-video; not independently checked word for word."
+    }
+  ],
+  "intake_review": "source/reference-video/intake-review.md"
+}

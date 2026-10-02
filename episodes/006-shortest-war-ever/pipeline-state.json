@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "006-shortest-war-ever",
+  "stages": [
+    {
+      "id": "00",
+      "name": "intake",
+      "skill": "chronostick-longform-pipeline",
+      "status": "approved",
+      "inputs": [
+        "source/reference-video/the-shortest-war-ever-reference.mp4",
+        "source/reference-video/the-shortest-war-ever-transcript.txt"
+      ],
+      "outputs": [
+        "source/intake.json",
+        "source/reference-video/manifest.json",
+        "source/reference-video/intake-review.md"
+      ],
+      "approved_by": "user",
+      "decision_notes": "Video and transcript inspected together; no separate historical source, approval or accepted historical claims yet. User accepted the supplied reference as baseline, used the clean script to produce the final narration, and confirmed that narration is final on 2026-10-02.",
+      "next_action": "Review the intake findings; independently verify candidate claims in Stage 01."
+    },
+    {
+      "id": "01",
+      "name": "research",
+      "skill": "chronostick-longform-script",
+      "status": "skipped",
+      "inputs": [
+        "source/reference-video/the-shortest-war-ever-transcript.txt",
+        "source/reference-video/intake-review.md"
+      ],
+      "outputs": [
+        "source/claims.json",
+        "source/research-notes.md",
+        "source/research-waiver.json"
+      ],
+      "approved_by": null,
+      "decision_notes": "User explicitly directed independent historical verification to be skipped for this episode and the supplied video/transcript account to be assumed for creative Spanish scripting. Earlier research remains preserved; verification is not claimed.",
+      "next_action": "Proceed with a source-assumption Spanish script draft and map every reference claim to its treatment."
+    },
+    {
+      "id": "02",
+      "name": "spanish-story",
+      "skill": "chronostick-longform-script",
+      "status": "approved",
+      "inputs": [
+        "source/reference-video/the-shortest-war-ever-transcript.txt",
+        "source/reference-video/intake-review.md",
+        "source/research-waiver.json",
+        "source/claims.json"
+      ],
+      "outputs": [
+        "script/story-architecture.md",
+        "script/narration-es.md",
+        "script/fidelity-ledger.json",
+        "script/clock-beats.md"
+      ],
+      "approved_by": "user",
+      "decision_notes": "Spanish source-assumption draft uses an original comic hypothetical hook, warm colloquial narration and time-led battle beats, and reveals the 38-minute duration only in the final paragraph. A short like/subscribe/next-video invitation with a shoe-joke callback now follows the historical answer. Requires user review and actual voice-duration test. User accepted the supplied reference as baseline, used the clean script to produce the final narration, and confirmed that narration is final on 2026-10-02.",
+      "next_action": "Review the revised closing invitation after the 38-minute reveal and audition the corresponding scene 06 voice before accepting the full narration."
+    },
+    {
+      "id": "02a",
+      "name": "google-vids-voice-direction",
+      "skill": "chronostick-longform-pipeline",
+      "status": "approved",
+      "inputs": [
+        "script/narration-es.md"
+      ],
+      "outputs": [
+        "script/voiceover-google-vids-es.md",
+        "script/voice-direction-notes.md",
+        "script/voiceover-google-vids-scenes/scene-01.txt",
+        "script/voiceover-google-vids-scenes/scene-02.txt",
+        "script/voiceover-google-vids-scenes/scene-03.txt",
+        "script/voiceover-google-vids-scenes/scene-04.txt",
+        "script/voiceover-google-vids-scenes/scene-05.txt",
+        "script/voiceover-google-vids-scenes/scene-06.txt"
+      ],
+      "approved_by": "user",
+      "decision_notes": "User supplied the current Google Vids Pace, Pauses, Emotion, Style and Sounds menu labels and confirmed [rushed pace] as inserted text. Rebuilt six under-2,500-character scenes using this menu vocabulary, except the Whisper style, which the user explicitly prohibited for all future voice scripts. Tagged spoken words match the clean narration, including the new scene 06 call to action. Scene 01's earlier 1:33 trial felt too fast and predates this rewrite. Current delivery uses natural pace with short rushed action bursts and richer emotion. No audio from this revision has been accepted. User accepted the supplied reference as baseline, used the clean script to produce the final narration, and confirmed that narration is final on 2026-10-02.",
+      "next_action": "Regenerate and listen to current scene 01, then generate the remaining five scenes with the same Spanish voice and record accepted audio and measured duration."
+    },
+    {
+      "id": "03",
+      "name": "voice-timing",
+      "skill": "chronostick-longform-timing",
+      "status": "approved",
+      "inputs": [
+        "audio/narration-es-google-vids-r001.mp4",
+        "timestamps/word-timestamps-provider-raw.csv",
+        "script/narration-es.md"
+      ],
+      "outputs": [
+        "timestamps/word-timestamps-source.csv",
+        "timestamps/correction-report.json",
+        "timestamps/timing-map.json",
+        "timestamps/timing-review.md"
+      ],
+      "approved_by": "Codex reviewed 2026-10-02",
+      "decision_notes": "User accepted the final Google Vids narration. Codex reviewed corrected provider timing, slot coverage and duration; 131 five-second picture slots follow actual 651.389-second audio. Fine phoneme alignment remains subject to finished-film sync review.",
+      "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
+    },
+    {
+      "id": "04",
+      "name": "visual-direction",
+      "skill": "chronostick-longform-visual-direction",
+      "status": "approved",
+      "inputs": [
+        "source/reference-video/the-shortest-war-ever-reference.mp4",
+        "source/reference-video/the-shortest-war-ever-transcript.txt",
+        "timestamps/timing-map.json"
+      ],
+      "outputs": [
+        "plan/reference-video-analysis.md",
+        "plan/visual-direction.md"
+      ],
+      "approved_by": "Codex reviewed 2026-10-02",
+      "decision_notes": "Codex inspected the supplied reference video at 48 sampled frames alongside transcript and reviewed the world-map, character, harbour, clock and CTA adaptation. Original stick-world visual direction and H3-only picture contract are documented.",
+      "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
+    },
+    {
+      "id": "05",
+      "name": "shot-plan",
+      "skill": "chronostick-longform-shot-plan",
+      "status": "needs_review",
+      "inputs": [
+        "timestamps/timing-map.json",
+        "plan/visual-direction.md"
+      ],
+      "outputs": [
+        "plan/shot-plan.md",
+        "plan/story-state-ledger.json",
+        "plan/reference-manifest.json",
+        "plan/map-manifest.json",
+        "plan/text-events.json"
+      ],
+      "approved_by": null,
+      "decision_notes": "Clip-099 contract simultaneously fixes all token positions and moves Khalid; resolve allowed movement and consulate endpoint before regeneration. Four harbour anchors contradict the shot-plan ship count.",
+      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex reviewed 2026-10-02",
+        "decision_notes": "Codex reviewed all 131 timed beat cards, revised story-state and map/text ledgers, the 44-anchor variety distribution, and voice-led animatic r004.",
+        "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
+      },
+      "validated_at": "2026-10-02T14:24:17+03:30"
+    },
+    {
+      "id": "06",
+      "name": "references",
+      "skill": "chronostick-longform-assets",
+      "status": "needs_review",
+      "inputs": [
+        "timestamps/timing-map.json",
+        "plan/visual-direction.md"
+      ],
+      "outputs": [
+        "plan/reference-manifest.json",
+        "plan/reference-review.md"
+      ],
+      "approved_by": null,
+      "decision_notes": "Revoked four harbour-map anchor approvals after full-resolution recount: each contains six British ships plus Glasgow. Four rejected anchors support 14 slots.",
+      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex reviewed 2026-10-02",
+        "decision_notes": "Codex inspected all 44 selected imagegen anchors in contact sheets and critical assets at full size. Reference-review.md records identity, geography, damage-state and count checks plus exclusions; all selected stills are approved as generation inputs only.",
+        "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
+      },
+      "validated_at": "2026-10-02T14:24:17+03:30"
+    },
+    {
+      "id": "07",
+      "name": "animatic-pilot",
+      "skill": "chronostick-longform-visual-direction",
+      "status": "needs_review",
+      "inputs": [
+        "timestamps/timing-map.json",
+        "plan/visual-direction.md"
+      ],
+      "outputs": [
+        "plan/animatic-r004.mp4",
+        "plan/animatic-review.md"
+      ],
+      "approved_by": null,
+      "decision_notes": "Still animatic r004 remains a planning preview, but integrated H3 pilot completed and has visible failures. Stage is not approved for bulk generation.",
+      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex reviewed 2026-10-02",
+        "decision_notes": "Codex inspected the 655-second voice-led still animatic r004 at 26 evenly spaced time points and accepted its reference/timing sequence as a planning guide. H3 pilot output remains a separate render review gate.",
+        "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
+      },
+      "validated_at": "2026-10-02T14:24:17+03:30"
+    },
+    {
+      "id": "08",
+      "name": "video-prompts",
+      "skill": "chronostick-longform-prompts",
+      "status": "needs_review",
+      "inputs": [
+        "timestamps/timing-map.json",
+        "plan/visual-direction.md"
+      ],
+      "outputs": [
+        "prompts/clip-001.md",
+        "prompts/clip-131.md"
+      ],
+      "approved_by": null,
+      "decision_notes": "Current pure prompts exist, but map/reference failures and the clip-099 motion contradiction require affected-family review.",
+      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "previous_review": {
+        "status": "approved",
+        "approved_by": "Codex reviewed 2026-10-02",
+        "decision_notes": "Codex reviewed the H3-only per-slot prompt contract and rebuilt all 131 pure prompts for the 44 selected anchors, exact text exceptions, 12-step profile and fixed five-second duration. Rendered behaviour remains unapproved until clip QC.",
+        "next_action": "Prepare and review representative 12-step H3 pilot clips, then preflight complete batch."
+      },
+      "validated_at": "2026-10-02T14:24:17+03:30"
+    },
+    {
+      "id": "09",
+      "name": "jobs-preflight",
+      "skill": "chronostick-longform-jobs",
+      "status": "needs_review",
+      "inputs": [
+        "automation/job-plan.json",
+        "automation/jobs",
+        "plan/reference-manifest.json"
+      ],
+      "outputs": [
+        "automation/jobs",
+        "automation/full-preflight-r003.log"
+      ],
+      "approved_by": null,
+      "decision_notes": "Historical 131-job dry-run passed. Current output paths for clips 013, 064, 075, 099 and 124 now exist; do not resubmit all jobs. Old 86-scene batch differs from active jobs. Fresh remaining-job staging/preflight must follow pilot repair.",
+      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "previous_review": {
+        "status": "validated",
+        "approved_by": null,
+        "decision_notes": "All 131 revision-003 H3 jobs passed repository validation and live-service dry-run. Five representative jobs submitted in pilot batch a8fd33bf-eb25-4f44-b36f-b18b6c8e0a7b; clip-level outcome pending.",
+        "next_action": "Review pilot renders; stage and launch only remaining unrendered jobs in the main batch."
+      },
+      "validated_at": "2026-10-02T14:24:17+03:30"
+    },
+    {
+      "id": "10",
+      "name": "generation-review",
+      "skill": "chronostick-longform-review",
+      "status": "needs_review",
+      "inputs": [
+        "renders/editorial/clip-013-shot-r003.mp4",
+        "renders/editorial/clip-064-shot-r003.mp4",
+        "renders/editorial/clip-075-shot-r003.mp4",
+        "renders/editorial/clip-099-shot-r003.mp4",
+        "renders/editorial/clip-124-shot-r003.mp4"
+      ],
+      "outputs": [
+        "plan/resume-audit.json",
+        "plan/resume-audit.md"
+      ],
+      "approved_by": null,
+      "decision_notes": "Five r003 pilot jobs succeeded technically. Sampled frames show failures in 013, 064, 075 and 099; 124 is unapproved pending full review. No selected render exists.",
+      "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch.",
+      "previous_review": {
+        "status": "missing",
+        "approved_by": null,
+        "decision_notes": null,
+        "next_action": null
+      },
+      "validated_at": "2026-10-02T14:24:17+03:30"
+    },
+    {
+      "id": "11",
+      "name": "finish",
+      "skill": "chronostick-longform-finish",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "12",
+      "name": "youtube-closeout",
+      "skill": "chronostick-longform-youtube",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    }
+  ],
+  "last_audited_at": "2026-10-02T14:24:17+03:30",
+  "resume_audit": "plan/resume-audit.json"
+}

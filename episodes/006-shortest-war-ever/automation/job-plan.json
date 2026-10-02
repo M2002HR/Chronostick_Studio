@@ -1,0 +1,923 @@
+{
+  "schema_version": "1.0",
+  "project_seed": 18960827,
+  "slots": [
+    {
+      "number": 1,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png"
+      ]
+    },
+    {
+      "number": 2,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png"
+      ]
+    },
+    {
+      "number": 3,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
+      ]
+    },
+    {
+      "number": 4,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ]
+    },
+    {
+      "number": 5,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png"
+      ]
+    },
+    {
+      "number": 6,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png"
+      ]
+    },
+    {
+      "number": 7,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 8,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-0859-r001.png"
+      ]
+    },
+    {
+      "number": 9,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ]
+    },
+    {
+      "number": 10,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 11,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-r001.png"
+      ]
+    },
+    {
+      "number": 12,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ]
+    },
+    {
+      "number": 13,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+      ]
+    },
+    {
+      "number": 14,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ]
+    },
+    {
+      "number": 15,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
+      ]
+    },
+    {
+      "number": 16,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+      ]
+    },
+    {
+      "number": 17,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+      ]
+    },
+    {
+      "number": 18,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png"
+      ]
+    },
+    {
+      "number": 19,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png"
+      ]
+    },
+    {
+      "number": 20,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-oblique-r001.png"
+      ]
+    },
+    {
+      "number": 21,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ]
+    },
+    {
+      "number": 22,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png"
+      ]
+    },
+    {
+      "number": 23,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png"
+      ]
+    },
+    {
+      "number": 24,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-trade-blank-r001.png"
+      ]
+    },
+    {
+      "number": 25,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png"
+      ]
+    },
+    {
+      "number": 26,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
+      ]
+    },
+    {
+      "number": 27,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-r001.png"
+      ]
+    },
+    {
+      "number": 28,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+      ]
+    },
+    {
+      "number": 29,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png"
+      ]
+    },
+    {
+      "number": 30,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+      ]
+    },
+    {
+      "number": 31,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ]
+    },
+    {
+      "number": 32,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 33,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-diplomacy-r001.png"
+      ]
+    },
+    {
+      "number": 34,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png"
+      ]
+    },
+    {
+      "number": 35,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png"
+      ]
+    },
+    {
+      "number": 36,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
+      ]
+    },
+    {
+      "number": 37,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ]
+    },
+    {
+      "number": 38,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+      ]
+    },
+    {
+      "number": 39,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
+      ]
+    },
+    {
+      "number": 40,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+      ]
+    },
+    {
+      "number": 41,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
+      ]
+    },
+    {
+      "number": 42,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
+      ]
+    },
+    {
+      "number": 43,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png"
+      ]
+    },
+    {
+      "number": 44,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png"
+      ]
+    },
+    {
+      "number": 45,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png"
+      ]
+    },
+    {
+      "number": 46,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ]
+    },
+    {
+      "number": 47,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png"
+      ]
+    },
+    {
+      "number": 48,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
+      ]
+    },
+    {
+      "number": 49,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
+      ]
+    },
+    {
+      "number": 50,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ]
+    },
+    {
+      "number": 51,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
+      ]
+    },
+    {
+      "number": 52,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
+      ]
+    },
+    {
+      "number": 53,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ]
+    },
+    {
+      "number": 54,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-focused-r001.png"
+      ]
+    },
+    {
+      "number": 55,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 56,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png"
+      ]
+    },
+    {
+      "number": 57,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
+      ]
+    },
+    {
+      "number": 58,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
+      ]
+    },
+    {
+      "number": 59,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png"
+      ]
+    },
+    {
+      "number": 60,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png"
+      ]
+    },
+    {
+      "number": 61,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png"
+      ]
+    },
+    {
+      "number": 62,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png"
+      ]
+    },
+    {
+      "number": 63,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png"
+      ]
+    },
+    {
+      "number": 64,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 65,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ]
+    },
+    {
+      "number": 66,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png"
+      ]
+    },
+    {
+      "number": 67,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
+      ]
+    },
+    {
+      "number": 68,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png"
+      ]
+    },
+    {
+      "number": 69,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/rawson-bridge-focused-r001.png"
+      ]
+    },
+    {
+      "number": 70,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/glasgow-stern-r001.png"
+      ]
+    },
+    {
+      "number": 71,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png"
+      ]
+    },
+    {
+      "number": 72,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png"
+      ]
+    },
+    {
+      "number": 73,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 74,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png"
+      ]
+    },
+    {
+      "number": 75,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-0859-r001.png"
+      ]
+    },
+    {
+      "number": 76,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 77,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png"
+      ]
+    },
+    {
+      "number": 78,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png"
+      ]
+    },
+    {
+      "number": 79,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png"
+      ]
+    },
+    {
+      "number": 80,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png"
+      ]
+    },
+    {
+      "number": 81,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png"
+      ]
+    },
+    {
+      "number": 82,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-0900-r001.png"
+      ]
+    },
+    {
+      "number": 83,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
+      ]
+    },
+    {
+      "number": 84,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
+      ]
+    },
+    {
+      "number": 85,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r001.png"
+      ]
+    },
+    {
+      "number": 86,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
+      ]
+    },
+    {
+      "number": 87,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
+      ]
+    },
+    {
+      "number": 88,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-early-battle-r001.png"
+      ]
+    },
+    {
+      "number": 89,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
+      ]
+    },
+    {
+      "number": 90,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-palace-0905-r002.png"
+      ]
+    },
+    {
+      "number": 91,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png"
+      ]
+    },
+    {
+      "number": 92,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/glasgow-stern-r001.png"
+      ]
+    },
+    {
+      "number": 93,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png"
+      ]
+    },
+    {
+      "number": 94,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png"
+      ]
+    },
+    {
+      "number": 95,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
+      ]
+    },
+    {
+      "number": 96,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png"
+      ]
+    },
+    {
+      "number": 97,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
+      ]
+    },
+    {
+      "number": 98,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
+      ]
+    },
+    {
+      "number": 99,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png"
+      ]
+    },
+    {
+      "number": 100,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/consulate-refuge-r001.png"
+      ]
+    },
+    {
+      "number": 101,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r001.png"
+      ]
+    },
+    {
+      "number": 102,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/consulate-refuge-r001.png"
+      ]
+    },
+    {
+      "number": 103,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png"
+      ]
+    },
+    {
+      "number": 104,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png"
+      ]
+    },
+    {
+      "number": 105,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-refuge-r001.png"
+      ]
+    },
+    {
+      "number": 106,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png"
+      ]
+    },
+    {
+      "number": 107,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png"
+      ]
+    },
+    {
+      "number": 108,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png"
+      ]
+    },
+    {
+      "number": 109,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-r001.png"
+      ]
+    },
+    {
+      "number": 110,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png"
+      ]
+    },
+    {
+      "number": 111,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-close-r001.png"
+      ]
+    },
+    {
+      "number": 112,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png"
+      ]
+    },
+    {
+      "number": 113,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-r001.png"
+      ]
+    },
+    {
+      "number": 114,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png"
+      ]
+    },
+    {
+      "number": 115,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-aftermath-blank-r002.png"
+      ]
+    },
+    {
+      "number": 116,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png"
+      ]
+    },
+    {
+      "number": 117,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png"
+      ]
+    },
+    {
+      "number": 118,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png"
+      ]
+    },
+    {
+      "number": 119,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-table-r001.png"
+      ]
+    },
+    {
+      "number": 120,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-r001.png"
+      ]
+    },
+    {
+      "number": 121,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png"
+      ]
+    },
+    {
+      "number": 122,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png"
+      ]
+    },
+    {
+      "number": 123,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png"
+      ]
+    },
+    {
+      "number": 124,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-aftermath-0938-r001.png"
+      ]
+    },
+    {
+      "number": 125,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/clock-aftermath-38-minutos-r001.png"
+      ]
+    },
+    {
+      "number": 126,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-world-blank-r001.png"
+      ]
+    },
+    {
+      "number": 127,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/map-harbour-table-aftermath-r001.png"
+      ]
+    },
+    {
+      "number": 128,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png"
+      ]
+    },
+    {
+      "number": 129,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png"
+      ]
+    },
+    {
+      "number": 130,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hook-shoe-resolved-r001.png"
+      ]
+    },
+    {
+      "number": 131,
+      "revision": 3,
+      "references": [
+        "assets/episodes/006-shortest-war-ever/references/hook-shoe-resolved-r001.png"
+      ]
+    }
+  ]
+}

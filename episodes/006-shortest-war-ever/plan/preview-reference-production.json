@@ -1,0 +1,56 @@
+[
+  {
+    "id": "market-basket-close",
+    "reference": "assets/episodes/006-shortest-war-ever/references/market-quay-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/market-basket-close.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png"
+  },
+  {
+    "id": "dhow-trade-cargo",
+    "reference": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/dhow-trade-cargo.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png"
+  },
+  {
+    "id": "messenger-scroll-quay",
+    "reference": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/messenger-scroll-quay.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png"
+  },
+  {
+    "id": "khalid-scroll-insert",
+    "reference": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/khalid-scroll-insert.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/khalid-scroll-insert-r001.png"
+  },
+  {
+    "id": "shore-defenders-cannon",
+    "reference": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/shore-defenders-cannon.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/shore-defenders-cannon-r001.png"
+  },
+  {
+    "id": "glasgow-sunken-close",
+    "reference": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/glasgow-sunken-close.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png"
+  },
+  {
+    "id": "consulate-street-approach",
+    "reference": "assets/episodes/006-shortest-war-ever/references/consulate-refuge-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/consulate-street-approach.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png"
+  },
+  {
+    "id": "aftermath-quay-detail",
+    "reference": "assets/episodes/006-shortest-war-ever/references/harbour-after-arch-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/aftermath-quay-detail.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png"
+  },
+  {
+    "id": "shoe-foot-insert",
+    "reference": "assets/episodes/006-shortest-war-ever/references/hook-shoe-r001.png",
+    "prompt": "prompts/image/episodes/006-shortest-war-ever/shoe-foot-insert.md",
+    "output": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png"
+  }
+]

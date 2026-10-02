@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "006-shortest-war-ever",
+  "status": "user_accepted_voice",
+  "accepted_by": "user",
+  "decision": "The user explicitly identified the matching Untitled video (3).mp4 as the final Spanish voice and asked to rename and place it in the episode.",
+  "path": "audio/narration-es-google-vids-r001.mp4",
+  "original_filename": "Untitled video (3).mp4",
+  "sha256": "dc63ffc1080a705bfaa3d4df8b9ccbdd8b1601b889411f1f641e622bc8400e50",
+  "duration_seconds": 651.389388,
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "44100",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    },
+    {
+      "index": 2,
+      "codec_name": "mov_text",
+      "codec_type": "subtitle",
+      "r_frame_rate": "0/0"
+    }
+  ],
+  "timestamp_source": {
+    "corrected_path": "timestamps/word-timestamps-source.csv",
+    "corrected_sha256": "0a426edf24a706241e44b92321c9fccb8b4b0abae4dc3ec599805dee91b3f009",
+    "original_filename": "Untitled video (3)-timestamps-2026-10-01T20-58-26.csv",
+    "provider_raw_path": "timestamps/word-timestamps-provider-raw.csv",
+    "provider_raw_sha256": "59b8141a5b6aa314b11376a62c79dc45f43aec1e61e2f3437578f95a79a6bebb",
+    "correction_report": "timestamps/correction-report.json"
+  }
+}

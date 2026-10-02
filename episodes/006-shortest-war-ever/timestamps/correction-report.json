@@ -1,0 +1,1388 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "006-shortest-war-ever",
+  "original_provider_file": "timestamps/word-timestamps-provider-raw.csv",
+  "original_provider_sha256": "59b8141a5b6aa314b11376a62c79dc45f43aec1e61e2f3437578f95a79a6bebb",
+  "corrected_file": "timestamps/word-timestamps-source.csv",
+  "corrected_sha256": "0a426edf24a706241e44b92321c9fccb8b4b0abae4dc3ec599805dee91b3f009",
+  "accepted_audio": "audio/narration-es-google-vids-r001.mp4",
+  "accepted_audio_sha256": "dc63ffc1080a705bfaa3d4df8b9ccbdd8b1601b889411f1f641e622bc8400e50",
+  "method": "SequenceMatcher alignment after punctuation/case/diacritic normalization; direct provider times retained for equal tokens; replacement blocks redistributed within their original time spans; provider omissions interpolated between adjacent timed words. Corrected word spellings and punctuation come from the accepted Spanish narration. All non-direct rows require spot listening before approval.",
+  "provider_rows": 1773,
+  "corrected_rows": 1772,
+  "assignment_counts": {
+    "direct": 1691,
+    "interpolated": 36,
+    "corrected": 22,
+    "distributed": 23
+  },
+  "monotonic_adjusted_rows": [
+    689,
+    832,
+    1398
+  ],
+  "issues": [
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        15
+      ],
+      "script_words": [
+        "a"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        48
+      ],
+      "provider_words": [
+        "Sibar,"
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        50
+      ],
+      "script_words": [
+        "Zanzíbar,"
+      ],
+      "provider_rows": [
+        50
+      ],
+      "provider_words": [
+        "San"
+      ]
+    },
+    {
+      "kind": "resegmented",
+      "script_indices": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "script_words": [
+        "mil",
+        "ochocientos",
+        "noventa",
+        "y",
+        "seis,"
+      ],
+      "provider_rows": [
+        52
+      ],
+      "provider_words": [
+        "1896,"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        96
+      ],
+      "provider_words": [
+        "nadie"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        102
+      ],
+      "script_words": [
+        "nadie"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        114
+      ],
+      "provider_words": [
+        "mañana."
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        121
+      ],
+      "script_words": [
+        "mañana."
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        128
+      ],
+      "script_words": [
+        "Barghash,"
+      ],
+      "provider_rows": [
+        124
+      ],
+      "provider_words": [
+        "Bargash,"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        140
+      ],
+      "script_words": [
+        "a"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        142
+      ],
+      "script_words": [
+        "venza"
+      ],
+      "provider_rows": [
+        137
+      ],
+      "provider_words": [
+        "vence"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        149
+      ],
+      "provider_words": [
+        "puerto"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        155
+      ],
+      "script_words": [
+        "puerto"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        174
+      ],
+      "script_words": [
+        "hacerlo."
+      ],
+      "provider_rows": [
+        169
+      ],
+      "provider_words": [
+        "serlo."
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        182
+      ],
+      "provider_words": [
+        "de"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        188
+      ],
+      "script_words": [
+        "de"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        203
+      ],
+      "script_words": [
+        "parece"
+      ],
+      "provider_rows": [
+        198
+      ],
+      "provider_words": [
+        "aparece"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        200
+      ],
+      "provider_words": [
+        "pequeño."
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        206
+      ],
+      "script_words": [
+        "pequeño;"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        274
+      ],
+      "provider_words": [
+        "que"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        281
+      ],
+      "script_words": [
+        "que"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        296
+      ],
+      "script_words": [
+        "diecinueve,"
+      ],
+      "provider_rows": [
+        291
+      ],
+      "provider_words": [
+        "XIX,"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        306
+      ],
+      "provider_words": [
+        "también"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        320
+      ],
+      "provider_words": [
+        "real"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        325
+      ],
+      "provider_words": [
+        "en"
+      ]
+    },
+    {
+      "kind": "resegmented",
+      "script_indices": [
+        330
+      ],
+      "script_words": [
+        "Zanzíbar."
+      ],
+      "provider_rows": [
+        328,
+        329
+      ],
+      "provider_words": [
+        "Censíbar.",
+        "Sensíbar."
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        339
+      ],
+      "provider_words": [
+        "frente"
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        341
+      ],
+      "script_words": [
+        "frente"
+      ],
+      "provider_rows": [
+        341
+      ],
+      "provider_words": [
+        "frecuente"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        455
+      ],
+      "provider_words": [
+        "vez"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        456
+      ],
+      "script_words": [
+        "vez"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        474
+      ],
+      "provider_words": [
+        "aparece"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        475
+      ],
+      "script_words": [
+        "aparece"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        488
+      ],
+      "provider_words": [
+        "hombre"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        490
+      ],
+      "script_words": [
+        "hombre"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "resegmented",
+      "script_indices": [
+        519,
+        520,
+        521,
+        522,
+        523
+      ],
+      "script_words": [
+        "mil",
+        "ochocientos",
+        "noventa",
+        "y",
+        "tres,"
+      ],
+      "provider_rows": [
+        519
+      ],
+      "provider_words": [
+        "1893,"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        538
+      ],
+      "provider_words": [
+        "se"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        543
+      ],
+      "script_words": [
+        "se"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        587
+      ],
+      "script_words": [
+        "a"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        595
+      ],
+      "provider_words": [
+        "Victoria"
+      ]
+    },
+    {
+      "kind": "resegmented",
+      "script_indices": [
+        611,
+        612,
+        613,
+        614,
+        615
+      ],
+      "script_words": [
+        "mil",
+        "ochocientos",
+        "noventa",
+        "y",
+        "seis"
+      ],
+      "provider_rows": [
+        607
+      ],
+      "provider_words": [
+        "1896"
+      ]
+    },
+    {
+      "kind": "resegmented",
+      "script_indices": [
+        621
+      ],
+      "script_words": [
+        "Thuwaini."
+      ],
+      "provider_rows": [
+        613,
+        614
+      ],
+      "provider_words": [
+        "Tuayni.",
+        "Twaini."
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        626
+      ],
+      "provider_words": [
+        "Halid,"
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        635
+      ],
+      "script_words": [
+        "Barghash"
+      ],
+      "provider_rows": [
+        629
+      ],
+      "provider_words": [
+        "Bargash"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        645
+      ],
+      "provider_words": [
+        "a"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        654
+      ],
+      "script_words": [
+        "a"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        687
+      ],
+      "script_words": [
+        "Khalid"
+      ],
+      "provider_rows": [
+        681
+      ],
+      "provider_words": [
+        "Halit"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        698
+      ],
+      "provider_words": [
+        "palacio"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        705
+      ],
+      "script_words": [
+        "palacio"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        716
+      ],
+      "provider_words": [
+        "Halit"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        724
+      ],
+      "script_words": [
+        "Khalid"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        733
+      ],
+      "script_words": [
+        "el"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        742
+      ],
+      "script_words": [
+        "Khalid"
+      ],
+      "provider_rows": [
+        735
+      ],
+      "provider_words": [
+        "Halit"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        788
+      ],
+      "provider_words": [
+        "más"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        796
+      ],
+      "script_words": [
+        "más"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        823
+      ],
+      "script_words": [
+        "ocho"
+      ],
+      "provider_rows": [
+        816
+      ],
+      "provider_words": [
+        "8"
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        828
+      ],
+      "script_words": [
+        "veintisiete"
+      ],
+      "provider_rows": [
+        821
+      ],
+      "provider_words": [
+        "27"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        841
+      ],
+      "provider_words": [
+        "años"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        849
+      ],
+      "script_words": [
+        "años"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        857
+      ],
+      "provider_words": [
+        "Palacio,"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        865
+      ],
+      "script_words": [
+        "palacio,"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        873
+      ],
+      "provider_words": [
+        "visión"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        887
+      ],
+      "provider_words": [
+        "poder."
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        891
+      ],
+      "provider_words": [
+        "Khalid"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        906
+      ],
+      "provider_words": [
+        "reloj"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        910
+      ],
+      "provider_words": [
+        "simplemente"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        925
+      ],
+      "provider_words": [
+        "que"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        928
+      ],
+      "script_words": [
+        "que"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "resegmented",
+      "script_indices": [
+        974,
+        975,
+        976,
+        977,
+        978
+      ],
+      "script_words": [
+        "mil",
+        "ochocientos",
+        "noventa",
+        "y",
+        "tres,"
+      ],
+      "provider_rows": [
+        972
+      ],
+      "provider_words": [
+        "1893,"
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1044
+      ],
+      "script_words": [
+        "fuera"
+      ],
+      "provider_rows": [
+        1038
+      ],
+      "provider_words": [
+        "afuera"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1041
+      ],
+      "provider_words": [
+        "ese"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1048
+      ],
+      "script_words": [
+        "ese"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1106
+      ],
+      "provider_words": [
+        "británicos"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1113
+      ],
+      "script_words": [
+        "británicos"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1126
+      ],
+      "script_words": [
+        "zanzibarí"
+      ],
+      "provider_rows": [
+        1120
+      ],
+      "provider_words": [
+        "Sansibarí"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1131
+      ],
+      "provider_words": [
+        "abre"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1145
+      ],
+      "provider_words": [
+        "entrada."
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1161
+      ],
+      "provider_words": [
+        "humo,"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1178
+      ],
+      "provider_words": [
+        "secuencia."
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1182
+      ],
+      "script_words": [
+        "secuencia:"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1199
+      ],
+      "script_words": [
+        "nueve"
+      ],
+      "provider_rows": [
+        1196
+      ],
+      "provider_words": [
+        "9"
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1201
+      ],
+      "script_words": [
+        "cinco."
+      ],
+      "provider_rows": [
+        1198
+      ],
+      "provider_words": [
+        "5."
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1208
+      ],
+      "provider_words": [
+        "visible"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1212
+      ],
+      "script_words": [
+        "visible"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "resegmented",
+      "script_indices": [
+        1214
+      ],
+      "script_words": [
+        "Zanzíbar"
+      ],
+      "provider_rows": [
+        1211,
+        1212
+      ],
+      "provider_words": [
+        "San",
+        "Sibar"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1256
+      ],
+      "provider_words": [
+        "intacta."
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1259
+      ],
+      "script_words": [
+        "intacta."
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1282
+      ],
+      "script_words": [
+        "Zanzíbar"
+      ],
+      "provider_rows": [
+        1280
+      ],
+      "provider_words": [
+        "Zanziba"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1285
+      ],
+      "provider_words": [
+        "más"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1288
+      ],
+      "script_words": [
+        "más"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1346
+      ],
+      "script_words": [
+        "a"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1372
+      ],
+      "script_words": [
+        "Khalid"
+      ],
+      "provider_rows": [
+        1369
+      ],
+      "provider_words": [
+        "Jalit"
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1392
+      ],
+      "script_words": [
+        "Khalid"
+      ],
+      "provider_rows": [
+        1389
+      ],
+      "provider_words": [
+        "Jalit"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1392
+      ],
+      "provider_words": [
+        "el"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1397
+      ],
+      "script_words": [
+        "el"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1410
+      ],
+      "provider_words": [
+        "aparece"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1414
+      ],
+      "script_words": [
+        "aparece"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1470
+      ],
+      "provider_words": [
+        "la"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1473
+      ],
+      "provider_words": [
+        "historia."
+      ]
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1507
+      ],
+      "script_words": [
+        "zanzibarí"
+      ],
+      "provider_rows": [
+        1506
+      ],
+      "provider_words": [
+        "Sansibarí"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1530
+      ],
+      "provider_words": [
+        "lo"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1532
+      ],
+      "script_words": [
+        "lo"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1556
+      ],
+      "script_words": [
+        "Zanzíbar"
+      ],
+      "provider_rows": [
+        1555
+      ],
+      "provider_words": [
+        "Sansíbar"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1577
+      ],
+      "provider_words": [
+        "independencia"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1579
+      ],
+      "script_words": [
+        "independencia"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "word_correction",
+      "script_indices": [
+        1612
+      ],
+      "script_words": [
+        "Zanzíbar"
+      ],
+      "provider_rows": [
+        1611
+      ],
+      "provider_words": [
+        "Zanzíbaro"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1657
+      ],
+      "provider_words": [
+        "otro"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1659
+      ],
+      "script_words": [
+        "otro"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1674
+      ],
+      "provider_words": [
+        "las"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1676
+      ],
+      "script_words": [
+        "las"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1694
+      ],
+      "provider_words": [
+        "historia."
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1697
+      ],
+      "script_words": [
+        "historia."
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1730,
+        1731
+      ],
+      "provider_words": [
+        "Una",
+        "guerra"
+      ]
+    },
+    {
+      "kind": "provider_extra",
+      "script_indices": [],
+      "provider_rows": [
+        1759
+      ],
+      "provider_words": [
+        "perderte"
+      ]
+    },
+    {
+      "kind": "provider_missing",
+      "script_indices": [
+        1759
+      ],
+      "script_words": [
+        "perderte"
+      ],
+      "provider_rows": [],
+      "provider_words": []
+    }
+  ],
+  "final_word_end_seconds": 651.32
+}

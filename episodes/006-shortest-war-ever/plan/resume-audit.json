@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "006-shortest-war-ever",
+  "audited_at": "2026-10-02T14:24:17+03:30",
+  "scope": "Resume audit: filesystem, current service state, Git, document consistency, technical probes and sampled visual inspection. No full motion/audio or every-frame acceptance review.",
+  "batch": {
+    "id": "a8fd33bf-eb25-4f44-b36f-b18b6c8e0a7b",
+    "status": "succeeded",
+    "created_at": "2026-10-02T06:22:29.394048+00:00",
+    "updated_at": "2026-10-02T06:57:04.220351+00:00",
+    "job_ids": [
+      "1f10da49-d0a6-48b5-8998-e8bd92ae1da0",
+      "8289de92-dcc7-4fac-a1b3-6ad8a2373ea7",
+      "3172dd09-29ea-4e09-ac03-60434836636d",
+      "b0559dce-0d35-42d4-9826-94e5f0044475",
+      "bfdba8f7-30e8-4f78-9771-9b0dfc76c19f"
+    ],
+    "output_files": [
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/raw/clip-013-shot-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/raw/clip-064-shot-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/raw/clip-075-shot-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/raw/clip-099-shot-r003.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/raw/clip-124-shot-r003.mp4"
+    ],
+    "metrics": {
+      "started_at": "2026-10-02T06:22:29.394048+00:00",
+      "completed_at": "2026-10-02T06:57:04.204540+00:00",
+      "wall_elapsed_seconds": 2074.81,
+      "job_count": 5,
+      "status_counts": {
+        "succeeded": 5
+      },
+      "total_attempts": 5,
+      "total_job_execution_seconds": 2073.695,
+      "estimated_gpu_energy_wh": 84.046,
+      "gpu_memory_used_mib_peak": 15739.0,
+      "job_report_files": [
+        "/home/mhr/AI/comfy-video-automation/state/chronostick-episode-006/run-reports/1f10da49-d0a6-48b5-8998-e8bd92ae1da0.json",
+        "/home/mhr/AI/comfy-video-automation/state/chronostick-episode-006/run-reports/8289de92-dcc7-4fac-a1b3-6ad8a2373ea7.json",
+        "/home/mhr/AI/comfy-video-automation/state/chronostick-episode-006/run-reports/3172dd09-29ea-4e09-ac03-60434836636d.json",
+        "/home/mhr/AI/comfy-video-automation/state/chronostick-episode-006/run-reports/b0559dce-0d35-42d4-9826-94e5f0044475.json",
+        "/home/mhr/AI/comfy-video-automation/state/chronostick-episode-006/run-reports/bfdba8f7-30e8-4f78-9771-9b0dfc76c19f.json"
+      ]
+    }
+  },
+  "comfy_queue": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "git": {
+    "branch": "master",
+    "head": "63b944032f8c6cbc6866ee9c0eb278f4ca8acaa3",
+    "remote_master": "63b944032f8c6cbc6866ee9c0eb278f4ca8acaa3",
+    "modified_tracked_files": 19,
+    "untracked_files_before_audit": 791,
+    "episode_tracked_files_before_audit": 0,
+    "committed_or_pushed_in_this_audit": false
+  },
+  "inventory": {
+    "accepted_voice_seconds": 651.389388,
+    "planned_picture_seconds": 655,
+    "slots": 131,
+    "selected_still_anchors": 44,
+    "reference_hash_mismatches": [],
+    "prompts": 131,
+    "current_job_json": 131,
+    "active_revision_editorial_renders": 5,
+    "final_selected": 0,
+    "picture_master": null,
+    "distribution_master": null,
+    "unrendered_current_jobs": 126
+  },
+  "observed_failures": [
+    {
+      "clip": 13,
+      "sampled_bad_times_seconds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        4.958
+      ],
+      "finding": "Added full-size people and a red-cloth reveal despite zero-person, fixed-chart contract."
+    },
+    {
+      "clip": 64,
+      "sampled_bad_times_seconds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        4.958
+      ],
+      "finding": "Reference and output contain six navy British ship tokens plus one ochre Glasgow, instead of five plus one. Ships and Rawson token move despite fixed-position plan."
+    },
+    {
+      "clip": 75,
+      "sampled_bad_times_seconds": [
+        1,
+        2,
+        3,
+        4,
+        4.958
+      ],
+      "finding": "New dark harbour smoke appears during the final prefire minute. Exact 08:59 is legible in sampled frames but does not resolve chronology failure."
+    },
+    {
+      "clip": 99,
+      "sampled_bad_times_seconds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        4.958
+      ],
+      "finding": "Inherited six-British-ship reference failure. Prompt both fixes tokens and directs Khalid movement; sampled movement goes toward lower/right coast and does not demonstrate consulate arrival."
+    }
+  ],
+  "unapproved_candidate": {
+    "clip": 124,
+    "finding": "09:38 and the shoe-searcher remain recognizable in sampled frames. Whole motion, all text frames, sound and ending still require review."
+  },
+  "rejected_reference_ids": [
+    "map-harbour-table-prebattle",
+    "map-harbour-table-early-battle",
+    "map-harbour-table-aftermath",
+    "map-harbour-table-refuge"
+  ],
+  "reference_dependent_slots": [
+    7,
+    55,
+    64,
+    73,
+    76,
+    85,
+    88,
+    93,
+    94,
+    96,
+    99,
+    101,
+    105,
+    127
+  ],
+  "checks": {
+    "repository_validator": "passed before audit; four intentional episode-001 empty-prompt warnings",
+    "longform_validator": "passed before audit",
+    "skills_validator": "passed",
+    "git_diff_check": "passed before audit",
+    "all_44_reference_hashes": "match",
+    "voice_and_working_timing_hashes": "match",
+    "execution_plan_job_hashes": "match",
+    "pilot_current_prompts": "match emitted prompt prefix; service adds audio suffix",
+    "pilot_request_difference": "Only service-injected defaults: empty advanced configuration, empty loras and project_seed. Not prompt drift.",
+    "after_reconciliation": {
+      "repository_validator": "passed; only four documented episode-001 empty-prompt warnings",
+      "longform_validator": "passed",
+      "skills_validator": "passed",
+      "git_diff_check": "passed"
+    }
+  },
+  "production_gate": "needs_review",
+  "next_action": "Repair the four six-ship harbour references and their 14 dependent slots; resolve clip-099 token-motion contradiction; correct failed pilot families; rerender only failed candidates in immutable revisions, complete frame/motion/audio review, then preflight a remaining-jobs batch."
+}

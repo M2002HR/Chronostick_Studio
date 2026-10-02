@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "title_supplied": "The Shortest War EVER",
+  "source": {
+    "status": "reference_transcript_only",
+    "path": null,
+    "sha256": null
+  },
+  "research_waiver": "source/research-waiver.json",
+  "reference_video_role": "creative-example-and-story-outline-only",
+  "reference_video": {
+    "status": "supplied",
+    "manifest": "source/reference-video/manifest.json",
+    "influence_goal": "Use the supplied video and matching transcript as an early creative baseline for an energetic, inventive, sometimes humorous ChronoStick long-form episode; analyze actual frames, motion, editing and sound before choosing adaptations."
+  },
+  "project_seed": null,
+  "notes": [
+    "The supplied English transcript belongs to the reference video; it is not a verified verbatim transcript or historical citation.",
+    "The local video was reviewed with the transcript at intake; see source/reference-video/intake-review.md.",
+    "No separate historical source was supplied. The user later waived Stage 01 independent verification for this episode; see source/research-waiver.json. The Spanish script is a source-assumption draft, not a verified historical account."
+  ]
+}
