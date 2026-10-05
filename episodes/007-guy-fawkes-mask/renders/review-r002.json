@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-10-05T15:29:02.899356+00:00",
+  "reviewer": "user + assistant actualframeQC",
+  "media": "renders/editorial/episode-007-clip-04-letter-search-arrest-r002.mp4",
+  "sha256": "16096eb8893bc8924a2c4a1085a4aa1bdf0b9ec03a528f7995cf9761885efbd1",
+  "visual_decision": "approved_by_user",
+  "visual_user_quote": "انیمیشنش خوبه",
+  "audio_decision": "reject",
+  "audio_user_quote": "ولی بازم موسیقی داره",
+  "observed_material_composition_starts": [
+    0,
+    66,
+    81,
+    97
+  ],
+  "planned_shots": 7,
+  "actual_visual_limit": "Several requested cuts/inserts remain omitted or combined; no claim of seven exact hardcuts. User explicitly accepted this animation after actual output; approval scope is this candidate picture.",
+  "technical": "110editorialframes at24fps, native16steps, nativeaudio exists but contaminated.",
+  "reviewed_frame_evidence": "renders/review-evidence/clip-04-r002",
+  "required_audio_repair": "Completely exclude entire native soundtrack. Use reviewed isolated dry physical SFX and exactzero silence; preserve approved pictureframes. No music separator or contaminated cue snippets.",
+  "native_output_is_not_final_approved": true
+}

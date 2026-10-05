@@ -1,0 +1,49 @@
+{
+  "dry_run": true,
+  "valid": true,
+  "job_count": 6,
+  "jobs": [
+    {
+      "index": 1,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/jobs/clip-01-mask-to-1605.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 2,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/jobs/clip-02-conspiracy-target.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 3,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/jobs/clip-03-powder-watch.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 4,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/jobs/clip-04-letter-search-arrest.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 5,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/jobs/clip-05-consequence-and-mask.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 6,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/jobs/clip-06-symbol-payoff-cta.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

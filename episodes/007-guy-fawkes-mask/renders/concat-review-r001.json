@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-05T17:18:18.498168+00:00",
+  "concat": "final/episode-007-guy-fawkes-mask-concat-r001.mp4",
+  "sha256": "7dacc1d129931a110239fc7f3d66552bdd5540abddeadba1b4b0ad22d3265a40",
+  "all801_decoded_frames_identical_to_ordered_selected_inputs": true,
+  "frame_count": 801,
+  "frame_grid_seconds": 33.375,
+  "max_source_mux_pts_deviation_seconds": 0.020996333333334505,
+  "source_pts_caveat": "Stream-copy concat has up to21ms presentation rounding at seams; passthrough decode preserves all801 ordered pictures. Framewise upscale writes these same801 pictures on a fresh24fps grid. Final selected SFX stem separately aligns each clip to its exact frame-derived48k sample interval. No narration stretch or creative picture edit."
+}

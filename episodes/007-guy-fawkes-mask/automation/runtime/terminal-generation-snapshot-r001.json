@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-10-05T17:01:56.131375+00:00",
+  "batches": [
+    {
+      "batch_id": "7e5896e6-a7dd-4a5a-9ee3-ed20de64fd3e",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "f0fd37d6-9de9-48db-bc2c-642147f01ab2",
+          "status": "succeeded"
+        },
+        {
+          "id": "c4ad4b2a-bc6c-4e0c-b5c6-0b5eb5e120a0",
+          "status": "succeeded"
+        },
+        {
+          "id": "4d439e95-b52e-455d-8acf-33f2e10d5cfa",
+          "status": "succeeded"
+        },
+        {
+          "id": "48d5a515-3422-4a8e-ba77-9998f222df85",
+          "status": "succeeded"
+        },
+        {
+          "id": "f38172ed-37e0-4376-867c-413d8a4ce774",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "batch_id": "4c37a7d0-49fc-40e2-8ebe-6af1f08a55d5",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "713a610e-fd04-4b77-98cb-8e3d20b7c248",
+          "status": "succeeded"
+        },
+        {
+          "id": "2b5458e0-3e2c-4aca-9c4a-389f17fee9cf",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "batch_id": "682047ac-d1d6-4769-8117-423f30b8689b",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "f1efdd17-7ec6-485b-8f23-aa636ac23014",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "batch_id": "db9e0480-0b40-453b-928a-aa0623391aa2",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "d9fbf785-fa64-48ef-9973-49df430c920e",
+          "status": "succeeded"
+        }
+      ]
+    }
+  ],
+  "generation_complete": true,
+  "picture_choice": "renders/clip-06-picture-choice-r001.json",
+  "not_quality_approval": true
+}

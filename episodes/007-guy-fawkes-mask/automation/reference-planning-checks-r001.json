@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-05T12:20:01.220057+00:00",
+  "status": "passed",
+  "checks": {
+    "unit_tests": "18 passed (including wrong/missing storyboard mapping and changed accepted artifact)",
+    "reference_first_episode": "passed; selected identity hashes/paths and all 36 panel mappings checked",
+    "skills": [
+      "chronostick-references valid",
+      "chronostick-shot-plan valid"
+    ],
+    "git_diff_check": "passed"
+  },
+  "current_stage": "references",
+  "selected_identities": 3,
+  "remaining_identities": 3,
+  "remaining_scene_anchors": 11,
+  "scope": "Storyboard-driven reference planning and first reviewed identities; no certification of final voice sync, full reference coverage images, prompts, jobs or renders."
+}

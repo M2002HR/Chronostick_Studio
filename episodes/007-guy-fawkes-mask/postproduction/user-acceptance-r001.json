@@ -1,0 +1,26 @@
+{
+  "id": "accept-short-captions-and-continue-delivery-r001",
+  "recorded_at": "2026-10-05T17:58:04.342926+00:00",
+  "reviewer": "user",
+  "quote": "خوبه\nاز این به بعد بریا شورت دقیقا همینجوری زیر نویس میزاره درسته؟\nو اینکه تامبنیلش رو درست کن و همه چیزش آماده باشه",
+  "context": "Response to delivered r003 complete video and actual caption portrait preview. User accepts this caption style and asks to complete thumbnail/metadata.",
+  "interpretation": "Explicit caption-style acceptance and contextual acceptance of the current distribution candidate for packaging. Does not claim a full audio audition or authorize upload/publication.",
+  "scope": [
+    "shorts-caption-style",
+    "current-r003-distribution-for-delivery",
+    "thumbnail-generation",
+    "metadata-preparation"
+  ],
+  "artifacts": [
+    {
+      "path": "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+      "sha256": "1b636e7771046927599a99b36f60d0b01d261b5395c96f050eeacdd2af9e7ecd"
+    },
+    {
+      "path": "postproduction/exports/r003/manifest.json",
+      "output_revision": "r003"
+    }
+  ],
+  "no_assumed_full_listening": true,
+  "upload_authorized": false
+}

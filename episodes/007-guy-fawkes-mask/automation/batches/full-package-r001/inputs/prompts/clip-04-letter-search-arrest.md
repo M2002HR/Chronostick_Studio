@@ -1,0 +1,115 @@
+Create one detailed cinematic ChronoStick vertical 9:16 sequence at 24 fps. Engine request 5.000000 seconds; H3 output 124 frames / 5.166667 seconds. The authored picture is frames 0–109, ending at 4.583333 seconds. Deliver 9 materially distinct shots joined by instantaneous hard cuts, then the specified resolved raw-tail hold. Pacing idea: The warning leads to a search; discovery precedes the single restraining grip.
+
+Every visible pixel belongs to the approved illustrated stick-world: round off-white heads, sparse dot eyes/brows/closed mouths, narrow simplified bodies and limbs with detailed muted period/modern clothing, simple pale drawn hands, strong controlled dark contours, matte simplified surfaces and cinematic drawn shadows. Standard bodies retain roughly 5.0–5.8 head diameters; never broad realistic human anatomy. Architecture, water, stone, timber, wax, metal, foliage, clothes and smoke share that drawn rendering. No live action, photographic skin/textures/backgrounds, glossy 3D, anime or mixed style. No panels, grids, sheets, borders or inset views.
+
+Binding ordered reference roles; the first scene anchor supplies rendering authority for every pixel, and the remaining reviewed anchors supply only their explicit scene/identity/prop states in the same style:
+
+<Picture 1> is the warning-letter-handoff anchor. The folded-handoff anchor controls one compact tightly folded blank letter between one anonymous brown-sleeved sender hand from left and the slate-blue/pale-cuffed lead guard receiving hand on right. No author face, writing or seal. The guard is the clean round-faced plain-felt-hat role; do not invent another recipient.
+
+<Picture 2> is the warning-letter anchor. The reading anchor controls that same felt-hat slate-blue guard with pale collar/cuffs, one open creased blank sheet in his two hands and the departing anonymous brown-sleeved hand at the left edge. The change from folded to open paper occurs on its hard cut; retain one paper only.
+
+<Picture 3> is the cellar-door-search anchor. The closed-door anchor controls one blue/pale-collared felt-hat lead guard, one iron candle lantern low at outside-left, his free hand toward the iron latch at right, one closed left-hinged oak door and fixed stone arch. Lantern hand and free latch hand remain distinct; one tiny practical flame, no extra guards in these close crops.
+
+<Picture 4> is the search-arrest-threshold anchor. The open-threshold anchor controls exactly two guards and one Fawkes: lead felt-hat blue coat foreground left with his sole lantern low outside-left/free open palm toward center; buff-coat steel-gray open-face crested-helmet peer foreground right with his sole polearm held at outside-right; Fawkes dark felt hat/waves/moustache/beard/pale collar/dark cloak in aisle center. The same left-hinged oak door is open and closed barrels stay fixed. Open stop palm precedes the later one sleeve grip; no duplicate Fawkes, extra arrest hands or swapped guard props.
+
+Keep exact scene-specific counts, colors, head/hair/headwear silhouettes, costume cuts, owners and object shapes. Crops exclude other anchored subjects instead of duplicating or transforming them. Preserve screen placement within each setting and advance only through the explicit phases below. One primary action, at most one simple camera move and no more than the stated low-amplitude secondary motion per shot; never frantic motion or choreography. The era/location changes only on the listed hard cuts. Empty object inserts contain only their explicit inventory.
+
+
+
+0.000000–0.416667 s; frames 0–9 inclusive. Cut directly to the warning-letter-handoff scene/crop.
+
+Framing: Anonymous sender hand and compact folded letter. Visible inventory: Exactly two simple pale hands at the opposite edges of one compact folded blank letter: brown-sleeved anonymous sender on left, slate-blue/pale-cuffed receiver on right. Zero complete faces or visible author.. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: The sender presents the folded paper with a tiny forward motion. Camera: Fixed eye-level macro. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: The sender presents the folded paper with a tiny forward motion; all primary motion settles before the cut.
+
+Only one quiet dry cue: one brief paper brush, local 0.083333–0.208333 s; stop completely at the cue endpoint. Silence throughout the rest of this shot.
+
+
+
+0.416667–1.000000 s; frames 10–23 inclusive. Cut directly to the warning-letter-handoff scene/crop.
+
+Framing: Receiving pale hand with slate-blue coat cuff. Visible inventory: Exactly two simple hands at opposite edges of one blank folded sheet; sender brown cuff left, receiver blue/pale cuff right; zero complete faces. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: The lead guard takes the single folded letter as sender releases. Camera: Fixed close handoff; no extra fingers. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: The lead guard takes the single folded letter as sender releases; all primary motion settles before the cut.
+
+Silence in this shot; do not invent a cue, voice or ambience bed.
+
+
+
+1.000000–1.875000 s; frames 24–44 inclusive. Cut directly to the warning-letter scene/crop.
+
+Framing: Lead guard reading the now-open blank sheet. Visible inventory: Exactly one felt-hat slate-blue lead guard with one open creased blank paper, his two hands; anonymous sender hand retreats at left edge, no author face. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: He reacts with one small eyebrow drop; the sheet stays open. Camera: Fixed medium-close; folded-to-open advance occurs on the hard cut. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: He reacts with one small eyebrow drop; the sheet stays open; all primary motion settles before the cut.
+
+Silence in this shot; do not invent a cue, voice or ambience bed.
+
+
+
+1.875000–2.375000 s; frames 45–56 inclusive. Cut directly to the cellar-door-search scene/crop.
+
+Framing: Lantern and guard holding hand near closed door. Visible inventory: One lead-guard hand, one iron candle lantern with tiny flame; closed oak background door, no new guard or extra light. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: The one lantern is raised three centimetres, then steadied. Camera: Fixed tight lantern crop. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: The one lantern is raised three centimetres, then steadied; all primary motion settles before the cut.
+
+Only one quiet dry cue: one tiny dry iron-handle click, local 1.958333–2.083333 s; stop completely at the cue endpoint. Silence throughout the rest of this shot.
+
+
+
+2.375000–2.875000 s; frames 57–68 inclusive. Cut directly to the cellar-door-search scene/crop.
+
+Framing: Latch and blue/pale-cuffed free hand. Visible inventory: One pale lead-guard hand and one dark iron latch on the closed left-hinged oak door; no faces, no second latch. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: The guard releases the same latch once. Camera: Fixed latch-height insert. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: The guard releases the same latch once; all primary motion settles before the cut.
+
+Only one quiet dry cue: one short latch click, local 2.458333–2.583333 s; stop completely at the cue endpoint. Silence throughout the rest of this shot.
+
+
+
+2.875000–3.208333 s; frames 69–76 inclusive. Cut directly to the search-arrest-threshold scene/crop.
+
+Framing: Wide open threshold, looking into unchanged barrels. Visible inventory: Exactly lead guard foreground left with one lantern, helmeted buff peer right with one polearm, and one Fawkes in aisle center; same left-hinged door is open, dry barrels fixed. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: Reveal the already-open doorway on the hard cut; hold the three-person tableau. Camera: Fixed wide axis; no full door-swing animation within this short insert. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: Reveal the already-open doorway on the hard cut; hold the three-person tableau; all primary motion settles before the cut.
+
+Silence in this shot; do not invent a cue, voice or ambience bed.
+
+
+
+3.208333–3.666667 s; frames 77–87 inclusive. Cut directly to the search-arrest-threshold scene/crop.
+
+Framing: Medium confrontation; two guards and one Fawkes. Visible inventory: Exactly two guards and one Fawkes; felt hat/blue coat left, dark hat/cloak center, buff/helmet right; one lantern and one polearm retain owners. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: Lead guard moves his open free palm the last few centimetres toward Fawkes sleeve. Camera: Fixed medium; palm still open, no prior enclosing grip. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: Lead guard moves his open free palm the last few centimetres toward Fawkes sleeve; all primary motion settles before the cut.
+
+Only one quiet dry cue: one brief dry sleeve brush, local 3.291667–3.416667 s; stop completely at the cue endpoint. Silence throughout the rest of this shot.
+
+
+
+3.666667–4.000000 s; frames 88–95 inclusive. Cut directly to the search-arrest-threshold scene/crop.
+
+Framing: Close free hand and Fawkes sleeve. Visible inventory: One blue/pale-cuffed guard hand and one charcoal/umber Fawkes upper sleeve; no faces or additional grabbing hands. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: The lead guard closes one hand once around the sleeve, then holds. Camera: Fixed tight grip; simple drawn hand shape. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: The lead guard closes one hand once around the sleeve, then holds; all primary motion settles before the cut.
+
+Silence in this shot; do not invent a cue, voice or ambience bed.
+
+
+
+4.000000–4.583333 s; frames 96–109 inclusive. Cut directly to the search-arrest-threshold scene/crop.
+
+Framing: Close Fawkes face while restraint remains in force outside crop. Visible inventory: Exactly one Fawkes face with fixed hat/hair/moustache/beard/collar; his sleeve remains held off-frame; no speech or lip movement. Light/palette: Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.
+
+Primary action: Fawkes lifts his eyebrows slightly, freezes in surprise. Camera: Fixed portrait; fully resolved stop at end. Performance: Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features. Resolved end: Fawkes lifts his eyebrows slightly, freezes in surprise; all primary motion settles before the cut.
+
+Silence in this shot; do not invent a cue, voice or ambience bed.
+
+
+
+Resolved raw tail: local 4.583333–5.166667 s, frames 110–123 inclusive. Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail.
+
+Every cut is instantaneous and exact; no dissolve, temporal morph, whip-pan masking, speed ramp or unplanned scene. Zero dialogue, narration, lip sync, subtitles, readable writing, numbers, labels or buttons. Painted mask features remain fixed. Never add an unlisted person, hand, animal, prop or background event; no duplicated characters, costume/prop swaps, multiplying objects or unresolved action.
+
+Audio is solely the listed brief isolated non-tonal physical cues, with silence between them and throughout the raw tail. No continuous ambience/room tone, sound bed, musical notes, melody, harmony, beat, percussion, rhythmic effects, tonal drone/pad/pulse, riser, sting, score, singing, speech, whispers, human vocalization or voices.
+
+NO BACKGROUND MUSIC. Natural diegetic sound effects only.

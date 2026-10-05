@@ -1,0 +1,270 @@
+{
+  "created_at": "2026-10-05T16:08:30.374704+00:00",
+  "status": "partial_actual_direction_audit",
+  "timing_audit": "renders/timing-audit-r001.json",
+  "clips": [
+    {
+      "clip_id": "clip-01",
+      "review_method": "Actual dense editorial frames and every raw-tail frame inspected by assistant; not provider-estimated cuts",
+      "planned_shot_count": 8,
+      "actual_editorial_framing_states": 8,
+      "actual_cuts": [
+        {
+          "actual_start_frame_local": 0,
+          "actual_seconds_local": 0.0,
+          "matched_planned_shot": "C01-S01",
+          "planned_start_frame_local": 0,
+          "drift_frames": 0,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 14,
+          "actual_seconds_local": 0.5833333333333334,
+          "matched_planned_shot": "C01-S02",
+          "planned_start_frame_local": 16,
+          "drift_frames": -2,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 37,
+          "actual_seconds_local": 1.5416666666666667,
+          "matched_planned_shot": "C01-S03",
+          "planned_start_frame_local": 31,
+          "drift_frames": 6,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 54,
+          "actual_seconds_local": 2.25,
+          "matched_planned_shot": "C01-S04",
+          "planned_start_frame_local": 47,
+          "drift_frames": 7,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 65,
+          "actual_seconds_local": 2.7083333333333335,
+          "matched_planned_shot": "C01-S05",
+          "planned_start_frame_local": 63,
+          "drift_frames": 2,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 93,
+          "actual_seconds_local": 3.875,
+          "matched_planned_shot": "C01-S06",
+          "planned_start_frame_local": 85,
+          "drift_frames": 8,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 117,
+          "actual_seconds_local": 4.875,
+          "matched_planned_shot": "C01-S07",
+          "planned_start_frame_local": 108,
+          "drift_frames": 9,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 127,
+          "actual_seconds_local": 5.291666666666667,
+          "matched_planned_shot": "C01-S08",
+          "planned_start_frame_local": 119,
+          "drift_frames": 8,
+          "inside_editorial": true
+        }
+      ],
+      "unmatched_planned_shots": [],
+      "required_shots_in_discarded_tail": [],
+      "evidence": "renders/review-evidence/clip-01-r002",
+      "status": "picture_reviewed_with_recorded_cut_drift"
+    },
+    {
+      "clip_id": "clip-02",
+      "review_method": "Actual dense editorial frames and every raw-tail frame inspected by assistant; not provider-estimated cuts",
+      "planned_shot_count": 8,
+      "actual_editorial_framing_states": 6,
+      "actual_cuts": [
+        {
+          "actual_start_frame_local": 0,
+          "actual_seconds_local": 0.0,
+          "matched_planned_shot": "C02-S01",
+          "planned_start_frame_local": 0,
+          "drift_frames": 0,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 26,
+          "actual_seconds_local": 1.0833333333333333,
+          "matched_planned_shot": "C02-S02",
+          "planned_start_frame_local": 22,
+          "drift_frames": 4,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 52,
+          "actual_seconds_local": 2.1666666666666665,
+          "matched_planned_shot": "C02-S03",
+          "planned_start_frame_local": 43,
+          "drift_frames": 9,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 73,
+          "actual_seconds_local": 3.0416666666666665,
+          "matched_planned_shot": "C02-S04",
+          "planned_start_frame_local": 60,
+          "drift_frames": 13,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 101,
+          "actual_seconds_local": 4.208333333333333,
+          "matched_planned_shot": "C02-S05",
+          "planned_start_frame_local": 79,
+          "drift_frames": 22,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 126,
+          "actual_seconds_local": 5.25,
+          "matched_planned_shot": "C02-S07",
+          "planned_start_frame_local": 117,
+          "drift_frames": 9,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 154,
+          "actual_seconds_local": 6.416666666666667,
+          "matched_planned_shot": "C02-S08",
+          "planned_start_frame_local": 129,
+          "drift_frames": 25,
+          "inside_editorial": false
+        }
+      ],
+      "unmatched_planned_shots": [
+        "C02-S06"
+      ],
+      "required_shots_in_discarded_tail": [
+        "C02-S08"
+      ],
+      "evidence": "renders/review-evidence/clip-02-r002",
+      "status": "needs_direction_repair",
+      "failure": "Missing over-shoulder Parliament plan insert; final group return begins at raw frame154 beyond143-frame editorial endpoint. Crown shot is late for rey (global9.42s): actual start9.708333s."
+    },
+    {
+      "clip_id": "clip-03",
+      "review_method": "Actual dense editorial frames and every raw-tail frame inspected by assistant; not provider-estimated cuts",
+      "planned_shot_count": 6,
+      "actual_editorial_framing_states": 3,
+      "actual_cuts": [
+        {
+          "actual_start_frame_local": 0,
+          "actual_seconds_local": 0.0,
+          "matched_planned_shot": "C03-S01",
+          "planned_start_frame_local": 0,
+          "drift_frames": 0,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 49,
+          "actual_seconds_local": 2.0416666666666665,
+          "matched_planned_shot": "C03-S02",
+          "planned_start_frame_local": 17,
+          "drift_frames": 32,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 81,
+          "actual_seconds_local": 3.375,
+          "matched_planned_shot": "C03-S05",
+          "planned_start_frame_local": 69,
+          "drift_frames": 12,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 109,
+          "actual_seconds_local": 4.541666666666667,
+          "matched_planned_shot": "C03-S06",
+          "planned_start_frame_local": 85,
+          "drift_frames": 24,
+          "inside_editorial": false
+        }
+      ],
+      "unmatched_planned_shots": [
+        "C03-S03",
+        "C03-S04"
+      ],
+      "required_shots_in_discarded_tail": [
+        "C03-S06"
+      ],
+      "evidence": "renders/review-evidence/clip-03-r002",
+      "status": "needs_direction_repair",
+      "failure": "Boot close-up delayed32frames; hoop and stack coverage omitted; watchful face arrives only at raw frame109 after101-frame editorial endpoint."
+    },
+    {
+      "clip_id": "clip-04",
+      "review_method": "Actual dense editorial frames and every raw-tail frame inspected by assistant; not provider-estimated cuts",
+      "planned_shot_count": 7,
+      "actual_editorial_framing_states": 4,
+      "actual_cuts": [
+        {
+          "actual_start_frame_local": 0,
+          "actual_seconds_local": 0.0,
+          "matched_planned_shot": "C04-S01",
+          "planned_start_frame_local": 0,
+          "drift_frames": 0,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 66,
+          "actual_seconds_local": 2.75,
+          "matched_planned_shot": "C04-S03",
+          "planned_start_frame_local": 45,
+          "drift_frames": 21,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 81,
+          "actual_seconds_local": 3.375,
+          "matched_planned_shot": "C04-S05",
+          "planned_start_frame_local": 69,
+          "drift_frames": 12,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 97,
+          "actual_seconds_local": 4.041666666666667,
+          "matched_planned_shot": "C04-S06",
+          "planned_start_frame_local": 88,
+          "drift_frames": 9,
+          "inside_editorial": true
+        },
+        {
+          "actual_start_frame_local": 112,
+          "actual_seconds_local": 4.666666666666667,
+          "matched_planned_shot": "C04-S07",
+          "planned_start_frame_local": 96,
+          "drift_frames": 16,
+          "inside_editorial": false
+        }
+      ],
+      "unmatched_planned_shots": [
+        "C04-S02",
+        "C04-S04"
+      ],
+      "required_shots_in_discarded_tail": [
+        "C04-S07"
+      ],
+      "evidence": "renders/review-evidence/clip-04-r002",
+      "status": "accepted_actual_variant_by_user",
+      "variant_evidence": "plan/storyboard/actual-clip04-variant-r001.json",
+      "note": "First actual continuous handoff/read action covers S19-S21; not three separate hard cuts. Guard threshold/reach also one shot. User accepted this actual animation; do not generalize acceptance."
+    }
+  ],
+  "not_reviewed": [
+    "clip-05",
+    "clip-06"
+  ],
+  "policy": "Correct technical duration does not imply correct internal cuts or a resolved raw tail."
+}

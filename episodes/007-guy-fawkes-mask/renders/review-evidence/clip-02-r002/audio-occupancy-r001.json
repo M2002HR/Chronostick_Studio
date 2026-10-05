@@ -1,0 +1,14 @@
+{
+  "method": "Decoded mono48kHz,10msRMS bins,active above-48dBFS; occupancy is sound-duration evidence, not personal audition or a musical-genre classifier.",
+  "duration_seconds": 5.973333333333334,
+  "active_fraction": 0.9916387959866221,
+  "continuous_active_intervals": [
+    [
+      0.03,
+      5.96
+    ]
+  ],
+  "longest_active_seconds": 5.93,
+  "contract": "Brief <=150ms isolated physical cues with silence, no continuous background.",
+  "decision": "native_sound_contract_failed"
+}

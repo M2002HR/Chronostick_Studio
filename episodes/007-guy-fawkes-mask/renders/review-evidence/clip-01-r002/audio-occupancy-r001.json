@@ -1,0 +1,30 @@
+{
+  "media": "renders/editorial/episode-007-clip-01-mask-to-1605-r002.mp4",
+  "threshold_dbfs": -48,
+  "window_seconds": 0.01,
+  "active_intervals_seconds": [
+    [
+      0.21,
+      0.24000000000000002
+    ],
+    [
+      0.33,
+      0.34
+    ],
+    [
+      0.4,
+      0.41000000000000003
+    ],
+    [
+      0.6,
+      5.21
+    ],
+    [
+      5.23,
+      5.5
+    ]
+  ],
+  "active_bin_fraction": 0.8945454545454545,
+  "role": "Technicalactualaudiooccupancy only; notpersonalhearing ormusicalgenrelabel",
+  "sound_contract": "Onlytinyisolatedphysicalcueswithsilence; prolongednonsilentmaterialrequiresactualsoundreview andmayfailregardlessofmusiclabel"
+}

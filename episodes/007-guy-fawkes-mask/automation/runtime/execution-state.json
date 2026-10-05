@@ -1,0 +1,143 @@
+{
+  "batch_id": "7e5896e6-a7dd-4a5a-9ee3-ed20de64fd3e",
+  "submitted_at": "2026-10-05T14:52:51.066098+00:00",
+  "phase": "delivery_ready",
+  "watch_session_id": 82978,
+  "submission_evidence": "automation/batches/native-16step-remaining-r002/submission-response-r001.json",
+  "status": "production_complete_delivery_ready",
+  "no_resubmission": true,
+  "history": [
+    {
+      "batch_id": "c96936be-6d4d-40e9-83fa-01b4a496a745",
+      "status": "succeeded_but_rejected",
+      "review": "renders/review-r001.json"
+    },
+    {
+      "batch_id": "f843480a-57b7-4c02-b250-44534154f87a",
+      "status": "succeeded_picture_accepted_audio_rejected",
+      "review": "renders/review-r002.json"
+    }
+  ],
+  "review": "renders/review-r002.json",
+  "audio_strategy": "plan/native-sfx-priority-r001.json",
+  "native_audio_strategy": "PreferreviewednativeSFX; replaceonlyactualmusic-contaminatedaudio. Latestuserdecisionplan/native-sfx-priority-r001.json",
+  "previous_remaining_batch_terminal": {
+    "batch_id": "7e5896e6-a7dd-4a5a-9ee3-ed20de64fd3e",
+    "status": "succeeded"
+  },
+  "timing_repair_batch": {
+    "batch_id": "4c37a7d0-49fc-40e2-8ebe-6af1f08a55d5",
+    "job_ids": [
+      "2b5458e0-3e2c-4aca-9c4a-389f17fee9cf",
+      "713a610e-fd04-4b77-98cb-8e3d20b7c248"
+    ],
+    "status": "succeeded",
+    "inputs": "automation/retries/cut-timing-r003",
+    "scope": [
+      "clip-02",
+      "clip-03"
+    ],
+    "reason": "actual missing shots and required final shot delayed into discarded raw tail; no voice or duration changes"
+  },
+  "symbol_continuity_repair_batch": {
+    "id": "682047ac-d1d6-4769-8117-423f30b8689b",
+    "job_ids": [
+      "f1efdd17-7ec6-485b-8f23-aa636ac23014"
+    ],
+    "status": "succeeded",
+    "inputs": "automation/retries/symbol-continuity-r003",
+    "reason": "Fawkes reappears after execution and painted mask blinks; new reviewed empty-barrel authority"
+  },
+  "mask_rigidity_repair_batch": {
+    "id": "db9e0480-0b40-453b-928a-aa0623391aa2",
+    "job_ids": [
+      "d9fbf785-fa64-48ef-9973-49df430c920e"
+    ],
+    "status": "succeeded",
+    "inputs": "automation/retries/mask-rigidity-r004"
+  },
+  "updated_at": "2026-10-05T18:08:50.041171+00:00",
+  "actual_terminal_batches": [
+    {
+      "batch_id": "7e5896e6-a7dd-4a5a-9ee3-ed20de64fd3e",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "f0fd37d6-9de9-48db-bc2c-642147f01ab2",
+          "status": "succeeded"
+        },
+        {
+          "id": "c4ad4b2a-bc6c-4e0c-b5c6-0b5eb5e120a0",
+          "status": "succeeded"
+        },
+        {
+          "id": "4d439e95-b52e-455d-8acf-33f2e10d5cfa",
+          "status": "succeeded"
+        },
+        {
+          "id": "48d5a515-3422-4a8e-ba77-9998f222df85",
+          "status": "succeeded"
+        },
+        {
+          "id": "f38172ed-37e0-4376-867c-413d8a4ce774",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "batch_id": "4c37a7d0-49fc-40e2-8ebe-6af1f08a55d5",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "713a610e-fd04-4b77-98cb-8e3d20b7c248",
+          "status": "succeeded"
+        },
+        {
+          "id": "2b5458e0-3e2c-4aca-9c4a-389f17fee9cf",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "batch_id": "682047ac-d1d6-4769-8117-423f30b8689b",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "f1efdd17-7ec6-485b-8f23-aa636ac23014",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "batch_id": "db9e0480-0b40-453b-928a-aa0623391aa2",
+      "status": "succeeded",
+      "jobs": [
+        {
+          "id": "d9fbf785-fa64-48ef-9973-49df430c920e",
+          "status": "succeeded"
+        }
+      ]
+    }
+  ],
+  "quality_policy": "plan/usable-quality-policy-r001.json",
+  "clip06_picture_choice": "renders/clip-06-picture-choice-r001.json",
+  "selected_clips": [
+    "clip-01",
+    "clip-02",
+    "clip-03",
+    "clip-04",
+    "clip-05",
+    "clip-06"
+  ],
+  "pending_audio_reviews": [],
+  "no_further_cosmetic_retries": true,
+  "selection_manifest": "renders/selection-manifest.json",
+  "concat_job_id": "9e5f5d42-6388-484f-bb95-5ef6dba1d900",
+  "distribution_master": "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+  "distribution_sha256": "1b636e7771046927599a99b36f60d0b01d261b5395c96f050eeacdd2af9e7ecd",
+  "finish_manifest": "postproduction/exports/r003/manifest.json",
+  "finish_review": "postproduction/review-r003.json",
+  "delivery_package": "delivery/release/episode-007-es-release-r001.zip",
+  "thumbnail": "delivery/youtube/thumbnail-episode-007-r003.png",
+  "publication_performed": false
+}

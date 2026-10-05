@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-05T17:03:20.784551+00:00",
+  "status": "technical_clean_sfx_derivative_needs_release_review",
+  "source": "renders/editorial/episode-007-clip-06-symbol-payoff-cta-r003.mp4",
+  "source_sha256": "b4c4edbfd7bb7c4daa7d530d0f1947febb8cbd27aaa73b31542ff3b733252f3a",
+  "output": "renders/audio-corrected/episode-007-clip-06-r003-clean-sfx-r001.mp4",
+  "output_sha256": "595f36a77a5f07cccd1d4973295ad835d80aca9b9326716d9541493186eb5233",
+  "plan_sha256": "7c048aaf17d3869ddf9a6d573160baac29165d2e4bc5b85f09d758970293ac2e",
+  "stem": "audio/sfx/clip-06-clean-stem-r001.wav",
+  "stem_sha256": "375dc5a328a7e25b48e6163f8048cde6631d37794562ef6f80f307fe520a8707",
+  "sample_rate": 48000,
+  "stem_sample_count": 330000,
+  "native_audio_contribution_samples": 0,
+  "decoded_video_frames_identical": true,
+  "video_frames": 165,
+  "cue_generation": "Explicit recorded physical one-shots when asset_path is set; seeded non-periodic procedural transients only when separately declared. No native soundtrack/music separation, looping or sustained bed.",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/candidates-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "approved",
+      "review_evidence": "audio/sfx/selected-effects-r001.json",
+      "kind": "cloth",
+      "start_seconds": 3.4166666666666665,
+      "gain_db": -3,
+      "observed_action": "Actual charcoal cuff/holding hand settles the handheld mask at frames82–84; only this small physical adjustment receives the accepted dry cloth transient. Static powder and masked trio inserts remain silent.",
+      "start_sample": 164000,
+      "end_sample": 168800
+    }
+  ],
+  "exact_zero_silence_sample_intervals": [
+    [
+      0,
+      164000
+    ],
+    [
+      168800,
+      330000
+    ]
+  ],
+  "personal_listening_claimed": false,
+  "unapproved_preview": false,
+  "limits": "This proves source exclusion and declared silent PCM regions; actual encoded audiovisual release review remains separate."
+}

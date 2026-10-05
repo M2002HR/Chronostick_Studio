@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-05T15:06:22.306879+00:00",
+  "clip_id": "clip-04",
+  "revision": "r001",
+  "reviewer": "assistant (all 110 editorial frames inspected)",
+  "decision": "revise_reference_and_prompt",
+  "media": "renders/editorial/episode-007-clip-04-letter-search-arrest-r001.mp4",
+  "sha256": "c0e86872978adc689b52c1d8d625059841c34c5913de80596d401bef86259b83",
+  "evidence": "renders/review-evidence/pilot-r001",
+  "technical": {
+    "video_frames": 110,
+    "fps": 24,
+    "expected_editorial_frames": 110,
+    "duration_probe_seconds": 4.583008,
+    "audio_stream": true,
+    "native_steps": 16,
+    "wall_seconds": 496.138
+  },
+  "observed_shot_start_frames": [
+    0,
+    31,
+    50,
+    65,
+    77,
+    90,
+    104
+  ],
+  "planned_shots": 9,
+  "observed_material_shots": 7,
+  "findings": [
+    {
+      "first_frame": 6,
+      "time_seconds": 0.25,
+      "issue": "Guard spare hand enters the promised two-hand handoff crop; no duplicated anatomical arm claim, but inventory violated."
+    },
+    {
+      "first_frame": 10,
+      "issue": "Sender/receiver hard-cut crop omitted; extended handoff until frame 30."
+    },
+    {
+      "first_frame": 77,
+      "issue": "Open threshold and reach combined into one wide take; separate medium cut omitted."
+    },
+    {
+      "first_frame": 90,
+      "issue": "Grip crop fails to retain unambiguous blue lead cuff versus Fawkes brown sleeve; gripping hand initially open, resolves later; revise exact reference."
+    },
+    {
+      "time_seconds": null,
+      "reviewer": "user",
+      "issue": "Audible background music reported; whole candidate audio fails the mandatory no-music gate."
+    }
+  ],
+  "audio_review": {
+    "reviewer": "user (actual listening report)",
+    "decision": "reject",
+    "quote": "موسیقی پس زمینه داره!!!!!",
+    "issue": "Background music audible; music:false and written lock were insufficient. No clean-audio approval."
+  },
+  "next_action": "Dedicated S26 reference; consolidate two close-phase pairs into seven deliberate legible cuts, preserve all nine storyboard panels and event order, retry native16steps once before remaining batch."
+}

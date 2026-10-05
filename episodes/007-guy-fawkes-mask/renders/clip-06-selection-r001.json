@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-05T17:04:32.914507+00:00",
+  "clip_id": "clip-06",
+  "revision": "r003",
+  "status": "approved_selected_picture_and_reviewed_fallback_sfx",
+  "media": "renders/final-selected/clip-06-r003-clean-sfx-r001.mp4",
+  "sha256": "595f36a77a5f07cccd1d4973295ad835d80aca9b9326716d9541493186eb5233",
+  "source": "renders/audio-corrected/episode-007-clip-06-r003-clean-sfx-r001.mp4",
+  "source_sha256": "595f36a77a5f07cccd1d4973295ad835d80aca9b9326716d9541493186eb5233",
+  "picture_review": "renders/clip-06-picture-review-r001.json",
+  "picture_choice": "renders/clip-06-picture-choice-r001.json",
+  "audio_source": "previously user-heard approved cloth excerpt, placement reviewed by assistant against actual frames82–84",
+  "native_audio_rejection": {
+    "reviewer": "user",
+    "quote": "موسیقی هم دارد"
+  },
+  "cue_plan": "plan/clip06-clean-sfx-r001.json",
+  "derivative_evidence": "renders/audio-corrected/episode-007-clip-06-r003-clean-sfx-r001.clean-sfx.json",
+  "native_audio_contribution_samples": 0,
+  "decoded_picture_frames_identical": true,
+  "sound_policy": "Reviewed independent fallback only for demonstrated native failure. User has not reviewed this new full mix."
+}

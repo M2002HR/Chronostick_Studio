@@ -1,0 +1,18 @@
+{
+  "status": "approved_targeted_direction_repair_by_assistant",
+  "actual_failure": "Actual r003 mask openings close like eyelids at raw/editorial frames146\u2013151 despite rigid-mask instructions. Empty powder anchor successfully removed post-execution Fawkes; retain it.",
+  "source_evidence": "renders/review-evidence/clip-06-r003",
+  "unchanged_timing": "timestamps/timing-map.json clip06,165editorialframes/175rawframes/6.875s,16steps",
+  "changed_shots": [
+    "C06-S07",
+    "C06-S08"
+  ],
+  "panels": [
+    "S35",
+    "S36"
+  ],
+  "storyboard_reason": "Approved final held-mask echo and resolved frontal rhyme retained. Object-only detached prop with visible edge-holding hand replaces worn face/hood authority for final close shots; this prevents living eyelid priors without creative post-editing. Other six slots, three reference images, source voice, narration and story stay unchanged.",
+  "prompt_sha256": "72848f419ae273893ac0f9a3e79d3fbc01987f772e66e260554ce399dc26f08f",
+  "job_sha256": "b094cb62a03aef430e1be21f3cf2bedcdaf2473e0a858db1c7591ccbce264ba2",
+  "review_limit": "Actual new generation still requires visual/audio/timing review; no success inferred from changed wording."
+}

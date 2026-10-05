@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-05T17:01:56.131375+00:00",
+  "clip_id": "clip-06",
+  "revision": "r004",
+  "source": "renders/editorial/episode-007-clip-06-symbol-payoff-cta-r004.mp4",
+  "source_sha256": "8bef61dfabed8e9fd51d7178e897d37ecf406c8c581c9fb1ea6df0b4b964603a",
+  "reviewer": "assistant; all165 actual editorial frames inspected on six dense phone-size sheets",
+  "picture_decision": "reject_story_regression_use_existing_r003",
+  "evidence": "renders/review-evidence/clip-06-r004",
+  "actual_cut_frames": [
+    0,
+    33,
+    58,
+    78,
+    101,
+    120,
+    140
+  ],
+  "critical_failure": {
+    "first_visible_ignition_frame": 67,
+    "powder_barrels_burning_frame_range": [
+      82,
+      100
+    ],
+    "explanation": "A new flame appears in front of stored powder and the next shot shows open barrels burning; this contradicts inert unlit powder and the spoken La pólvora no estalló. This is a narrative regression, not a minor cosmetic defect."
+  },
+  "minor_details_not_retry_triggers": [
+    "Painted mask eye holes blink around38-47",
+    "Final held mask settles after cut"
+  ],
+  "chosen_picture": "renders/editorial/episode-007-clip-06-symbol-payoff-cta-r003.mp4",
+  "chosen_review": "renders/clip-06-picture-review-r001.json",
+  "quality_policy": "plan/usable-quality-policy-r001.json",
+  "next_action": "No further generation; retain usable r003 picture, review its actual native audio."
+}

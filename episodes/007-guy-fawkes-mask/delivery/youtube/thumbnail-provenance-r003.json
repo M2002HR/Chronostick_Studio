@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-05T18:08:50.041171+00:00",
+  "authorization": {
+    "reviewer": "user",
+    "quote": "تامبنیلش رو درست کن و همه چیزش آماده باشه",
+    "decision": "postproduction/user-acceptance-r001.json"
+  },
+  "provider": "built-in image_gen",
+  "prompt_revision": "r004",
+  "prompt_path": "delivery/youtube/thumbnail-prompt-r004.md",
+  "generation_call": "delivery/youtube/thumbnail-generation-r003.json",
+  "original_reference_roles": [
+    {
+      "path": "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png",
+      "sha256": "7d19eadf5aaafc89012bbf30bfa4be449b63d946c79983ef0d3888e11c6a9e49"
+    },
+    {
+      "path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+      "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361"
+    }
+  ],
+  "parent_sources": [
+    "delivery/youtube/thumbnail-episode-007-r001-source.png",
+    "delivery/youtube/thumbnail-episode-007-r002-source.png"
+  ],
+  "correction_scope": "Required upper-headline crop only; no perfection loop or external text overlay.",
+  "source": {
+    "path": "delivery/youtube/thumbnail-episode-007-r003-source.png",
+    "sha256": "110f08bba5a0cbb46297a773bda45361bccc81c49a0972d03afb2d7347eaebc2",
+    "width": 941,
+    "height": 1672
+  },
+  "master": {
+    "path": "delivery/youtube/thumbnail-episode-007-r003.png",
+    "sha256": "c570a9385aa42e39a939417c9c20e4e4e3e4360992a4835e289ff3913eb138ce",
+    "width": 2160,
+    "height": 3840,
+    "bytes": 8769407
+  },
+  "delivery_conversion": "delivery/youtube/thumbnail-delivery-conversion-r003.json",
+  "review": "delivery/youtube/thumbnail-review-r003.json",
+  "review_status": "passed_assistant_qc",
+  "user_approval": null,
+  "distribution_master": "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+  "distribution_sha256": "1b636e7771046927599a99b36f60d0b01d261b5395c96f050eeacdd2af9e7ecd",
+  "publication": {
+    "uploaded": false,
+    "published": false
+  }
+}

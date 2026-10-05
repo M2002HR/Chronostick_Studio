@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-05T14:52:04.022252+00:00",
+  "status": "validated_not_submitted",
+  "episode_id": "007-guy-fawkes-mask",
+  "job_plan_sha256": "3b9d3af196b183d226fc02f79df01ca7f8427e940df9772d2dbc2149d0f9f369",
+  "ready": {
+    "comfyui_reachable": true,
+    "system": {
+      "system": {
+        "os": "linux",
+        "ram_total": 32686161920,
+        "ram_free": 13742891008,
+        "comfyui_version": "0.35.0",
+        "required_frontend_version": "1.51.10",
+        "installed_templates_version": "0.11.59",
+        "required_templates_version": "0.11.59",
+        "comfy_package_versions": [
+          {
+            "name": "comfyui-frontend-package",
+            "installed": "1.51.10",
+            "required": "1.51.10"
+          },
+          {
+            "name": "comfyui-workflow-templates",
+            "installed": "0.11.59",
+            "required": "0.11.59"
+          },
+          {
+            "name": "comfyui-embedded-docs",
+            "installed": "0.5.11",
+            "required": "0.5.11"
+          },
+          {
+            "name": "comfy-kitchen",
+            "installed": "0.2.33",
+            "required": "0.2.33"
+          },
+          {
+            "name": "comfy-aimdo",
+            "installed": "0.5.3",
+            "required": "0.5.3"
+          }
+        ],
+        "python_version": "3.13.5 (main, Jun 12 2025, 12:40:22) [Clang 20.1.4 ]",
+        "pytorch_version": "2.13.0+cu130",
+        "embedded_python": false,
+        "deploy_environment": "local-git",
+        "argv": [
+          "main.py",
+          "--listen",
+          "127.0.0.1",
+          "--port",
+          "8188"
+        ]
+      },
+      "devices": [
+        {
+          "name": "cuda:0 NVIDIA GeForce RTX 4060 Ti : cudaMallocAsync",
+          "type": "cuda",
+          "index": 0,
+          "vram_total": 16719216640,
+          "vram_free": 15701442560,
+          "torch_vram_total": 0,
+          "torch_vram_free": 0
+        }
+      ]
+    },
+    "nodes": {
+      "AILab_FlashVSR_Advanced": true,
+      "BasicGuider": true,
+      "BasicScheduler": true,
+      "CLIPLoader": true,
+      "CreateVideo": true,
+      "KSamplerSelect": true,
+      "LoadImage": true,
+      "MiniMaxH3ReferenceToVideo": true,
+      "RandomNoise": true,
+      "SamplerCustomAdvanced": true,
+      "SaveVideo": true,
+      "UNETLoader": true,
+      "VAEDecode": true,
+      "VAEDecodeAudio": true,
+      "VAELoader": true,
+      "VHS_LoadVideo": true
+    },
+    "models": {
+      "diffusion_model": {
+        "name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "available": true
+      },
+      "text_encoder": {
+        "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "available": true
+      },
+      "video_vae": {
+        "name": "minimax_h3_video_vae_fp16.safetensors",
+        "available": true
+      },
+      "audio_vae": {
+        "name": "minimax_h3_audio_vae_fp32.safetensors",
+        "available": true
+      },
+      "lightning_lora": {
+        "name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "available": true
+      }
+    },
+    "ffmpeg": true,
+    "ffprobe": true,
+    "flashvsr_models": {
+      "root": "/home/mhr/AI/ComfyUI/models/FlashVSR",
+      "files": {
+        "FlashVSR1_1.safetensors": true,
+        "Wan2.1_VAE.safetensors": true,
+        "LQ_proj_in.safetensors": true,
+        "TCDecoder.safetensors": true,
+        "Prompt.safetensors": true
+      },
+      "available": true
+    },
+    "h3_available": true,
+    "lightning_available": true,
+    "flashvsr_available": true,
+    "ready": true
+  },
+  "comfy_queue": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "free_disk_bytes": 93912625152,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti, 975 MiB, 14970 MiB, 21 %, 55",
+  "jobs": [
+    {
+      "clip_id": "clip-01",
+      "valid": true,
+      "steps": 16,
+      "raw_frames": 141,
+      "editorial_frames": 132,
+      "response_path": "automation/live-validation-r003/clip-01.json",
+      "sha256": "8aaa56dfbb96abf02b8ab83fee46c046086e5a18f6fa2e946ffe59deb24bcbb1"
+    },
+    {
+      "clip_id": "clip-02",
+      "valid": true,
+      "steps": 16,
+      "raw_frames": 158,
+      "editorial_frames": 143,
+      "response_path": "automation/live-validation-r003/clip-02.json",
+      "sha256": "f5ea8b95043e8560326a3af93685260fec7ae920d8dc4d1639587578d8ddc4fd"
+    },
+    {
+      "clip_id": "clip-03",
+      "valid": true,
+      "steps": 16,
+      "raw_frames": 124,
+      "editorial_frames": 101,
+      "response_path": "automation/live-validation-r003/clip-03.json",
+      "sha256": "05839cbec9c0341ef10a38c3a54bfd12cc360ee10fa26c9fd8d06b6669f83ffc"
+    },
+    {
+      "clip_id": "clip-04",
+      "valid": true,
+      "steps": 16,
+      "raw_frames": 124,
+      "editorial_frames": 110,
+      "response_path": "automation/live-validation-r003/clip-04.json",
+      "sha256": "7aa180d84d3c4e029b071e0d0cceb07d44c747934bc17901e7646224c5712f1e"
+    },
+    {
+      "clip_id": "clip-05",
+      "valid": true,
+      "steps": 16,
+      "raw_frames": 158,
+      "editorial_frames": 150,
+      "response_path": "automation/live-validation-r003/clip-05.json",
+      "sha256": "b711b95684c7ca111fa88ef47954efca3244341dd1c01508201b6d51c4c555a6"
+    },
+    {
+      "clip_id": "clip-06",
+      "valid": true,
+      "steps": 16,
+      "raw_frames": 175,
+      "editorial_frames": 165,
+      "response_path": "automation/live-validation-r003/clip-06.json",
+      "sha256": "51c79e0abe53743ac66dc6e297b34ad50464cb8735b814c7855bf1ac8dcb0871"
+    }
+  ],
+  "dry_run": {
+    "command": [
+      "uv",
+      "run",
+      "comfy-video",
+      "batch",
+      "--service-url",
+      "http://127.0.0.1:8090",
+      "--folder",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/jobs",
+      "--settings",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/automation/batch-settings.json",
+      "--dry-run"
+    ],
+    "exit_code": 0,
+    "stdout": "automation/live-validation-r003/batch.stdout",
+    "stderr": "automation/live-validation-r003/batch.stderr"
+  },
+  "quality_limit": "Native 16-step pilot and actual motion/audio review still required."
+}

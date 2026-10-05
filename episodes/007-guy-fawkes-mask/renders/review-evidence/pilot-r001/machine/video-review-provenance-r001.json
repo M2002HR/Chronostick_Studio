@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-10-05T15:12:45.604605+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/editorial/episode-007-clip-04-letter-search-arrest-r001.mp4",
+  "video_sha256": "c0e86872978adc689b52c1d8d625059841c34c5913de80596d401bef86259b83",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/prompts/clip-04-letter-search-arrest.md",
+  "transcript_sha256": "50d22aa916d5c377345a952626ceb00376656e1f33fc15888e41d3ccbfe1a380",
+  "request_sha256": "e51baef7a31e9a714003ed02f938e1951edfe37eec0bf2d91d3b296a49ebca7e",
+  "status": "needs_review",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "instructions_path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/review-evidence/pilot-r001/instructions.txt",
+  "http_status": 200,
+  "response_sha256": "7748183e29bd11c6e3e3436290dd01df36257a0fcc6c6cfb35a8570068887b04"
+}

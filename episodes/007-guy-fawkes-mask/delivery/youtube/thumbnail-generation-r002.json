@@ -1,0 +1,15 @@
+{
+  "provider": "built-in image_gen",
+  "prompt_path": "delivery/youtube/thumbnail-prompt-r003.md",
+  "request": {
+    "prompt": "Edit the supplied generated ChronoStick thumbnail as one complete artwork.\nMake one focused layout correction: move the entire existing two-line headline\ndown so its TOPMOST visible pixel, INCLUDING the Ó accent, ¿ punctuation,\nblack outline, bevel/extrusion and drop shadow, starts14% below the full\nimage top edge. At2160×3840 this means about538px; at any resolution use14%\nof the full height. Keep every headline pixel below the12% line. Leave the\nstone arch visible above it. The exact words must remain first line\n\"¿DE DÓNDE\", second line \"SALIÓ?\", with both accent marks and question marks.\nKeep the same very-heavy rounded uppercase white/gold type, stroke and bevel.\nScale this existing text block down only enough to fit the safe upper area\nwithout touching the historical Fawkes hat. Keep large readable lettering.\nPreserve the iconic ivory/black/rose mask, charcoal-cuffed hand, historical\nFawkes hat/face/beard/brown costume, closed unlit barrels, rich illustrated\nstick world and amber/cool lighting. If essential for spacing, move the\nmask/Fawkes illustration modestly downward as one group; do not change their\nidentity, gestures or relative depth. Preserve vertical9:16 composition,\npreferably2160×3840. No new text, logo, watermark, person, fire, glowing powder,\nspark, fuse or explosion. Deliver one complete image with text inside the\nartwork, not a separate overlay. The actual full lettering bounds will be\nchecked on the produced image; safe top placement is required.\n\n",
+    "referenced_image_paths": [
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r001-source.png"
+    ],
+    "transparent_background": false
+  },
+  "result_output_hint": "Generated images are saved to /home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce as /home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-88055676-ca37-4b16-a90d-9bfc8dc16d79.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "delivery/youtube/thumbnail-episode-007-r002-source.png",
+  "status": "rejected_headline_top_inset",
+  "reason": "Actual accent/outline starts about10% below full image top; required12%."
+}

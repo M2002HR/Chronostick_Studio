@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-05T14:52:50.686238+00:00",
+  "reviewer": "assistant (session authorization audit)",
+  "status": "authorized_by_existing_user_instruction",
+  "user_instruction": "بعدش شروع میشه به ساخت کلیپ ها توسط موتور به صورت بچ",
+  "latest_continuation": "ادامه بده با دقت",
+  "scope": "Episode 007 reviewed 16-step pilot, then reviewed remaining five jobs when pilot passes; generation and ordinary review/assembly within requested complete-video workflow. No publishing.",
+  "reason": "User requested execution through complete sample production and described batch launch explicitly; latest continuation resumes that work.",
+  "full_preflight": "automation/preflight.json",
+  "pilot_folder": "automation/batches/native-16step-pilot-r001/jobs",
+  "remaining_folder": "automation/batches/native-16step-remaining-r001/jobs",
+  "quality_gate": "Inspect actual pilot motion/audio and duration before further submission; no approval inferred from successful generation."
+}

@@ -1,0 +1,14 @@
+{
+  "provider": "built-in image_gen",
+  "prompt_path": "delivery/youtube/thumbnail-prompt-r004.md",
+  "request": {
+    "prompt": "Keep this exact illustrated ChronoStick mask-origin thumbnail, but correct\nthe headline location decisively. The ENTIRE TOP ONE FIFTH of the full image\n(top20% of its height) must contain ONLY the painted stone arch and lighting:\nabsolutely NO letters, accent marks, punctuation, black text outline, bevel\nor text shadow in that top20% band. Move the existing whole two-line headline\ndown below that empty band. The highest visible headline effect starts22%\nbelow the full top edge (about368px in this1672px-high source). This is the\ntop of the accent/outline itself, not the baseline or main letter body.\nGenerate the identical exact words \"¿DE DÓNDE\" above \"SALIÓ?\", with both\naccents and question marks, very-heavy rounded white/yellow-gold uppercase\nlettering and near-black outline/shallow bevel. Keep it big and readable.\nIf necessary reduce the headline block height slightly and reposition the\nmask and Fawkes downward together so the lettering remains clear of his\nhat and both faces. The mask remains dominant in the lower-left foreground,\nand recognizable smaller Fawkes with hat, beard, pale collar and brown cloak\nremains at right beside closed unlit barrels. Preserve the image's specific\nidentities, stick-world style, rich amber/cool lighting and visual hierarchy.\nThe top20% empty stone band is mandatory. No extra text, logo, watermark,\nfire, spark, lit fuse, glowing powder or explosion. One complete9:16 artwork\nwith the headline generated inside it; no separate text overlay. Prefer\n2160×3840 output. All typography/effects must survive hiding the upper12%.\n\n",
+    "referenced_image_paths": [
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r002-source.png"
+    ],
+    "transparent_background": false
+  },
+  "result_output_hint": "Generated images are saved to /home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce as /home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-4482f0ee-97ca-4d51-8188-2637ae85f6e3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "delivery/youtube/thumbnail-episode-007-r003-source.png",
+  "status": "generated_pending_archived_actual_QC"
+}

@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-05T11:46:38.909654+00:00",
+  "scope": "User voice export ingestion, full audio preservation, actual Ajil voice STT",
+  "assembly_voice_candidate": "audio/narration-es-r001.wav",
+  "checks": {
+    "original_bytes_match_archive": true,
+    "native_aac_data_match": true,
+    "decoded_pcm_samples_match": true,
+    "episode_validator": "passed",
+    "transcribe_skill_validator": "passed",
+    "git_diff_check": "passed",
+    "python_compile": "passed"
+  },
+  "actual_voice_acceptance": null,
+  "actual_timing_provenance": "timestamps/ajil/voice-provenance-r001.json",
+  "duration_seconds": 33.365333,
+  "duration_vs_target": "3.365333 seconds over working target; no shortening or override assumed"
+}

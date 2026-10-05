@@ -1,0 +1,2874 @@
+{
+  "word_count": 76,
+  "cue_count": 41,
+  "event_count": 76,
+  "end_seconds": 33.28,
+  "style": {
+    "profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+    "font_size": 104,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 300,
+    "outline": 2,
+    "shadow": 2,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 4,
+    "max_cue_seconds": 1.8,
+    "break_gap_seconds": 0.3,
+    "max_lines": 1
+  },
+  "words": [
+    {
+      "index": 1,
+      "word": "Esta",
+      "source_start": 0.18,
+      "source_end": 0.4,
+      "start": 0.18,
+      "end": 0.4
+    },
+    {
+      "index": 2,
+      "word": "máscara",
+      "source_start": 0.4,
+      "source_end": 0.74,
+      "start": 0.4,
+      "end": 0.74
+    },
+    {
+      "index": 3,
+      "word": "esconde",
+      "source_start": 0.74,
+      "source_end": 1.18,
+      "start": 0.74,
+      "end": 1.18
+    },
+    {
+      "index": 4,
+      "word": "un",
+      "source_start": 1.18,
+      "source_end": 1.36,
+      "start": 1.18,
+      "end": 1.36
+    },
+    {
+      "index": 5,
+      "word": "plan",
+      "source_start": 1.36,
+      "source_end": 1.72,
+      "start": 1.36,
+      "end": 1.72
+    },
+    {
+      "index": 6,
+      "word": "explosivo.",
+      "source_start": 1.72,
+      "source_end": 3.54,
+      "start": 1.72,
+      "end": 3.54
+    },
+    {
+      "index": 7,
+      "word": "Londres,",
+      "source_start": 3.54,
+      "source_end": 4.36,
+      "start": 3.54,
+      "end": 4.36
+    },
+    {
+      "index": 8,
+      "word": "1605.",
+      "source_start": 4.36,
+      "source_end": 5.46,
+      "start": 4.36,
+      "end": 5.46
+    },
+    {
+      "index": 9,
+      "word": "Hartos",
+      "source_start": 5.46,
+      "source_end": 5.72,
+      "start": 5.46,
+      "end": 5.72
+    },
+    {
+      "index": 10,
+      "word": "de",
+      "source_start": 5.72,
+      "source_end": 5.84,
+      "start": 5.72,
+      "end": 5.84
+    },
+    {
+      "index": 11,
+      "word": "la",
+      "source_start": 5.84,
+      "source_end": 5.92,
+      "start": 5.84,
+      "end": 5.92
+    },
+    {
+      "index": 12,
+      "word": "persecución",
+      "source_start": 5.92,
+      "source_end": 6.38,
+      "start": 5.92,
+      "end": 6.38
+    },
+    {
+      "index": 13,
+      "word": "religiosa,",
+      "source_start": 6.38,
+      "source_end": 7.3,
+      "start": 6.38,
+      "end": 7.3
+    },
+    {
+      "index": 14,
+      "word": "unos",
+      "source_start": 7.3,
+      "source_end": 7.5,
+      "start": 7.3,
+      "end": 7.5
+    },
+    {
+      "index": 15,
+      "word": "conspiradores",
+      "source_start": 7.5,
+      "source_end": 8.1,
+      "start": 7.5,
+      "end": 8.1
+    },
+    {
+      "index": 16,
+      "word": "católicos",
+      "source_start": 8.1,
+      "source_end": 8.68,
+      "start": 8.1,
+      "end": 8.68
+    },
+    {
+      "index": 17,
+      "word": "querían",
+      "source_start": 8.68,
+      "source_end": 9.0,
+      "start": 8.68,
+      "end": 9.0
+    },
+    {
+      "index": 18,
+      "word": "matar",
+      "source_start": 9.0,
+      "source_end": 9.22,
+      "start": 9.0,
+      "end": 9.22
+    },
+    {
+      "index": 19,
+      "word": "al",
+      "source_start": 9.22,
+      "source_end": 9.42,
+      "start": 9.22,
+      "end": 9.42
+    },
+    {
+      "index": 20,
+      "word": "rey",
+      "source_start": 9.42,
+      "source_end": 9.66,
+      "start": 9.42,
+      "end": 9.66
+    },
+    {
+      "index": 21,
+      "word": "y",
+      "source_start": 9.66,
+      "source_end": 10.02,
+      "start": 9.66,
+      "end": 10.02
+    },
+    {
+      "index": 22,
+      "word": "volar",
+      "source_start": 10.02,
+      "source_end": 10.48,
+      "start": 10.02,
+      "end": 10.48
+    },
+    {
+      "index": 23,
+      "word": "el",
+      "source_start": 10.48,
+      "source_end": 10.62,
+      "start": 10.48,
+      "end": 10.62
+    },
+    {
+      "index": 24,
+      "word": "parlamento.",
+      "source_start": 10.62,
+      "source_end": 11.44,
+      "start": 10.62,
+      "end": 11.44
+    },
+    {
+      "index": 25,
+      "word": "Guy",
+      "source_start": 11.44,
+      "source_end": 11.9,
+      "start": 11.44,
+      "end": 11.9
+    },
+    {
+      "index": 26,
+      "word": "Fawkes",
+      "source_start": 11.9,
+      "source_end": 12.2,
+      "start": 11.9,
+      "end": 12.2
+    },
+    {
+      "index": 27,
+      "word": "custodiaba",
+      "source_start": 12.2,
+      "source_end": 12.82,
+      "start": 12.2,
+      "end": 12.82
+    },
+    {
+      "index": 28,
+      "word": "36",
+      "source_start": 12.82,
+      "source_end": 14.14,
+      "start": 12.82,
+      "end": 14.14
+    },
+    {
+      "index": 29,
+      "word": "barriles",
+      "source_start": 14.14,
+      "source_end": 14.78,
+      "start": 14.14,
+      "end": 14.78
+    },
+    {
+      "index": 30,
+      "word": "de",
+      "source_start": 14.78,
+      "source_end": 14.96,
+      "start": 14.78,
+      "end": 14.96
+    },
+    {
+      "index": 31,
+      "word": "pólvora,",
+      "source_start": 14.96,
+      "source_end": 15.66,
+      "start": 14.96,
+      "end": 15.66
+    },
+    {
+      "index": 32,
+      "word": "pero",
+      "source_start": 15.66,
+      "source_end": 15.86,
+      "start": 15.66,
+      "end": 15.86
+    },
+    {
+      "index": 33,
+      "word": "una",
+      "source_start": 15.86,
+      "source_end": 16.32,
+      "start": 15.86,
+      "end": 16.32
+    },
+    {
+      "index": 34,
+      "word": "carta",
+      "source_start": 16.32,
+      "source_end": 16.6,
+      "start": 16.32,
+      "end": 16.6
+    },
+    {
+      "index": 35,
+      "word": "de",
+      "source_start": 16.6,
+      "source_end": 16.78,
+      "start": 16.6,
+      "end": 16.78
+    },
+    {
+      "index": 36,
+      "word": "aviso",
+      "source_start": 16.78,
+      "source_end": 17.1,
+      "start": 16.78,
+      "end": 17.1
+    },
+    {
+      "index": 37,
+      "word": "desató",
+      "source_start": 17.1,
+      "source_end": 17.84,
+      "start": 17.1,
+      "end": 17.84
+    },
+    {
+      "index": 38,
+      "word": "la",
+      "source_start": 17.84,
+      "source_end": 17.98,
+      "start": 17.84,
+      "end": 17.98
+    },
+    {
+      "index": 39,
+      "word": "búsqueda.",
+      "source_start": 17.98,
+      "source_end": 18.54,
+      "start": 17.98,
+      "end": 18.54
+    },
+    {
+      "index": 40,
+      "word": "Lo",
+      "source_start": 18.54,
+      "source_end": 18.82,
+      "start": 18.54,
+      "end": 18.82
+    },
+    {
+      "index": 41,
+      "word": "atraparon",
+      "source_start": 18.82,
+      "source_end": 19.24,
+      "start": 18.82,
+      "end": 19.24
+    },
+    {
+      "index": 42,
+      "word": "antes",
+      "source_start": 19.24,
+      "source_end": 19.44,
+      "start": 19.24,
+      "end": 19.44
+    },
+    {
+      "index": 43,
+      "word": "de",
+      "source_start": 19.44,
+      "source_end": 19.62,
+      "start": 19.44,
+      "end": 19.62
+    },
+    {
+      "index": 44,
+      "word": "la",
+      "source_start": 19.62,
+      "source_end": 19.66,
+      "start": 19.62,
+      "end": 19.66
+    },
+    {
+      "index": 45,
+      "word": "explosión",
+      "source_start": 19.66,
+      "source_end": 20.12,
+      "start": 19.66,
+      "end": 20.12
+    },
+    {
+      "index": 46,
+      "word": "y",
+      "source_start": 20.12,
+      "source_end": 20.62,
+      "start": 20.12,
+      "end": 20.62
+    },
+    {
+      "index": 47,
+      "word": "acabó",
+      "source_start": 20.62,
+      "source_end": 21.0,
+      "start": 20.62,
+      "end": 21.0
+    },
+    {
+      "index": 48,
+      "word": "ejecutado.",
+      "source_start": 21.0,
+      "source_end": 21.78,
+      "start": 21.0,
+      "end": 21.78
+    },
+    {
+      "index": 49,
+      "word": "El",
+      "source_start": 21.78,
+      "source_end": 21.96,
+      "start": 21.78,
+      "end": 21.96
+    },
+    {
+      "index": 50,
+      "word": "plan",
+      "source_start": 21.96,
+      "source_end": 22.1,
+      "start": 21.96,
+      "end": 22.1
+    },
+    {
+      "index": 51,
+      "word": "fracasó.",
+      "source_start": 22.1,
+      "source_end": 23.0,
+      "start": 22.1,
+      "end": 23.0
+    },
+    {
+      "index": 52,
+      "word": "Siglos",
+      "source_start": 23.0,
+      "source_end": 23.36,
+      "start": 23.0,
+      "end": 23.36
+    },
+    {
+      "index": 53,
+      "word": "después,",
+      "source_start": 23.36,
+      "source_end": 24.18,
+      "start": 23.36,
+      "end": 24.18
+    },
+    {
+      "index": 54,
+      "word": "V.",
+      "source_start": 24.18,
+      "source_end": 24.4,
+      "start": 24.18,
+      "end": 24.4
+    },
+    {
+      "index": 55,
+      "word": "de",
+      "source_start": 24.4,
+      "source_end": 24.44,
+      "start": 24.4,
+      "end": 24.44
+    },
+    {
+      "index": 56,
+      "word": "Vendetta",
+      "source_start": 24.44,
+      "source_end": 24.8,
+      "start": 24.44,
+      "end": 24.8
+    },
+    {
+      "index": 57,
+      "word": "convirtió",
+      "source_start": 24.8,
+      "source_end": 25.38,
+      "start": 24.8,
+      "end": 25.38
+    },
+    {
+      "index": 58,
+      "word": "su",
+      "source_start": 25.38,
+      "source_end": 25.56,
+      "start": 25.38,
+      "end": 25.56
+    },
+    {
+      "index": 59,
+      "word": "rostro",
+      "source_start": 25.6,
+      "source_end": 25.94,
+      "start": 25.6,
+      "end": 25.94
+    },
+    {
+      "index": 60,
+      "word": "en",
+      "source_start": 25.94,
+      "source_end": 26.1,
+      "start": 25.94,
+      "end": 26.1
+    },
+    {
+      "index": 61,
+      "word": "símbolo",
+      "source_start": 26.1,
+      "source_end": 26.82,
+      "start": 26.1,
+      "end": 26.82
+    },
+    {
+      "index": 62,
+      "word": "de",
+      "source_start": 26.82,
+      "source_end": 26.94,
+      "start": 26.82,
+      "end": 26.94
+    },
+    {
+      "index": 63,
+      "word": "rebelión.",
+      "source_start": 26.94,
+      "source_end": 27.72,
+      "start": 26.94,
+      "end": 27.72
+    },
+    {
+      "index": 64,
+      "word": "La",
+      "source_start": 27.72,
+      "source_end": 28.26,
+      "start": 27.72,
+      "end": 28.26
+    },
+    {
+      "index": 65,
+      "word": "pólvora",
+      "source_start": 28.26,
+      "source_end": 28.66,
+      "start": 28.26,
+      "end": 28.66
+    },
+    {
+      "index": 66,
+      "word": "no",
+      "source_start": 28.66,
+      "source_end": 28.84,
+      "start": 28.66,
+      "end": 28.84
+    },
+    {
+      "index": 67,
+      "word": "estalló.",
+      "source_start": 28.84,
+      "source_end": 29.18,
+      "start": 28.84,
+      "end": 29.18
+    },
+    {
+      "index": 68,
+      "word": "La",
+      "source_start": 29.18,
+      "source_end": 29.84,
+      "start": 29.18,
+      "end": 29.84
+    },
+    {
+      "index": 69,
+      "word": "máscara",
+      "source_start": 29.84,
+      "source_end": 30.24,
+      "start": 29.84,
+      "end": 30.24
+    },
+    {
+      "index": 70,
+      "word": "sí",
+      "source_start": 30.24,
+      "source_end": 30.68,
+      "start": 30.24,
+      "end": 30.68
+    },
+    {
+      "index": 71,
+      "word": "dio",
+      "source_start": 30.68,
+      "source_end": 30.92,
+      "start": 30.68,
+      "end": 30.92
+    },
+    {
+      "index": 72,
+      "word": "la",
+      "source_start": 30.92,
+      "source_end": 31.1,
+      "start": 30.92,
+      "end": 31.1
+    },
+    {
+      "index": 73,
+      "word": "vuelta",
+      "source_start": 31.1,
+      "source_end": 31.34,
+      "start": 31.1,
+      "end": 31.34
+    },
+    {
+      "index": 74,
+      "word": "al",
+      "source_start": 31.34,
+      "source_end": 31.56,
+      "start": 31.34,
+      "end": 31.56
+    },
+    {
+      "index": 75,
+      "word": "mundo.",
+      "source_start": 31.56,
+      "source_end": 32.1,
+      "start": 31.56,
+      "end": 32.1
+    },
+    {
+      "index": 76,
+      "word": "Suscríbete.",
+      "source_start": 32.3,
+      "source_end": 33.28,
+      "start": 32.3,
+      "end": 33.28
+    }
+  ],
+  "cues": [
+    {
+      "words": [
+        {
+          "index": 1,
+          "word": "Esta",
+          "source_start": 0.18,
+          "source_end": 0.4,
+          "start": 0.18,
+          "end": 0.4
+        },
+        {
+          "index": 2,
+          "word": "máscara",
+          "source_start": 0.4,
+          "source_end": 0.74,
+          "start": 0.4,
+          "end": 0.74
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 1,
+            "word": "Esta",
+            "source_start": 0.18,
+            "source_end": 0.4,
+            "start": 0.18,
+            "end": 0.4
+          },
+          {
+            "index": 2,
+            "word": "máscara",
+            "source_start": 0.4,
+            "source_end": 0.74,
+            "start": 0.4,
+            "end": 0.74
+          }
+        ]
+      ],
+      "start": 0.18,
+      "end": 0.74
+    },
+    {
+      "words": [
+        {
+          "index": 3,
+          "word": "esconde",
+          "source_start": 0.74,
+          "source_end": 1.18,
+          "start": 0.74,
+          "end": 1.18
+        },
+        {
+          "index": 4,
+          "word": "un",
+          "source_start": 1.18,
+          "source_end": 1.36,
+          "start": 1.18,
+          "end": 1.36
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 3,
+            "word": "esconde",
+            "source_start": 0.74,
+            "source_end": 1.18,
+            "start": 0.74,
+            "end": 1.18
+          },
+          {
+            "index": 4,
+            "word": "un",
+            "source_start": 1.18,
+            "source_end": 1.36,
+            "start": 1.18,
+            "end": 1.36
+          }
+        ]
+      ],
+      "start": 0.74,
+      "end": 1.36
+    },
+    {
+      "words": [
+        {
+          "index": 5,
+          "word": "plan",
+          "source_start": 1.36,
+          "source_end": 1.72,
+          "start": 1.36,
+          "end": 1.72
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 5,
+            "word": "plan",
+            "source_start": 1.36,
+            "source_end": 1.72,
+            "start": 1.36,
+            "end": 1.72
+          }
+        ]
+      ],
+      "start": 1.36,
+      "end": 1.72
+    },
+    {
+      "words": [
+        {
+          "index": 6,
+          "word": "explosivo.",
+          "source_start": 1.72,
+          "source_end": 3.54,
+          "start": 1.72,
+          "end": 3.54
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 6,
+            "word": "explosivo.",
+            "source_start": 1.72,
+            "source_end": 3.54,
+            "start": 1.72,
+            "end": 3.54
+          }
+        ]
+      ],
+      "start": 1.72,
+      "end": 3.54
+    },
+    {
+      "words": [
+        {
+          "index": 7,
+          "word": "Londres,",
+          "source_start": 3.54,
+          "source_end": 4.36,
+          "start": 3.54,
+          "end": 4.36
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 7,
+            "word": "Londres,",
+            "source_start": 3.54,
+            "source_end": 4.36,
+            "start": 3.54,
+            "end": 4.36
+          }
+        ]
+      ],
+      "start": 3.54,
+      "end": 4.36
+    },
+    {
+      "words": [
+        {
+          "index": 8,
+          "word": "1605.",
+          "source_start": 4.36,
+          "source_end": 5.46,
+          "start": 4.36,
+          "end": 5.46
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 8,
+            "word": "1605.",
+            "source_start": 4.36,
+            "source_end": 5.46,
+            "start": 4.36,
+            "end": 5.46
+          }
+        ]
+      ],
+      "start": 4.36,
+      "end": 5.46
+    },
+    {
+      "words": [
+        {
+          "index": 9,
+          "word": "Hartos",
+          "source_start": 5.46,
+          "source_end": 5.72,
+          "start": 5.46,
+          "end": 5.72
+        },
+        {
+          "index": 10,
+          "word": "de",
+          "source_start": 5.72,
+          "source_end": 5.84,
+          "start": 5.72,
+          "end": 5.84
+        },
+        {
+          "index": 11,
+          "word": "la",
+          "source_start": 5.84,
+          "source_end": 5.92,
+          "start": 5.84,
+          "end": 5.92
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 9,
+            "word": "Hartos",
+            "source_start": 5.46,
+            "source_end": 5.72,
+            "start": 5.46,
+            "end": 5.72
+          },
+          {
+            "index": 10,
+            "word": "de",
+            "source_start": 5.72,
+            "source_end": 5.84,
+            "start": 5.72,
+            "end": 5.84
+          },
+          {
+            "index": 11,
+            "word": "la",
+            "source_start": 5.84,
+            "source_end": 5.92,
+            "start": 5.84,
+            "end": 5.92
+          }
+        ]
+      ],
+      "start": 5.46,
+      "end": 5.92
+    },
+    {
+      "words": [
+        {
+          "index": 12,
+          "word": "persecución",
+          "source_start": 5.92,
+          "source_end": 6.38,
+          "start": 5.92,
+          "end": 6.38
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 12,
+            "word": "persecución",
+            "source_start": 5.92,
+            "source_end": 6.38,
+            "start": 5.92,
+            "end": 6.38
+          }
+        ]
+      ],
+      "start": 5.92,
+      "end": 6.38
+    },
+    {
+      "words": [
+        {
+          "index": 13,
+          "word": "religiosa,",
+          "source_start": 6.38,
+          "source_end": 7.3,
+          "start": 6.38,
+          "end": 7.3
+        },
+        {
+          "index": 14,
+          "word": "unos",
+          "source_start": 7.3,
+          "source_end": 7.5,
+          "start": 7.3,
+          "end": 7.5
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 13,
+            "word": "religiosa,",
+            "source_start": 6.38,
+            "source_end": 7.3,
+            "start": 6.38,
+            "end": 7.3
+          },
+          {
+            "index": 14,
+            "word": "unos",
+            "source_start": 7.3,
+            "source_end": 7.5,
+            "start": 7.3,
+            "end": 7.5
+          }
+        ]
+      ],
+      "start": 6.38,
+      "end": 7.5
+    },
+    {
+      "words": [
+        {
+          "index": 15,
+          "word": "conspiradores",
+          "source_start": 7.5,
+          "source_end": 8.1,
+          "start": 7.5,
+          "end": 8.1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 15,
+            "word": "conspiradores",
+            "source_start": 7.5,
+            "source_end": 8.1,
+            "start": 7.5,
+            "end": 8.1
+          }
+        ]
+      ],
+      "start": 7.5,
+      "end": 8.1
+    },
+    {
+      "words": [
+        {
+          "index": 16,
+          "word": "católicos",
+          "source_start": 8.1,
+          "source_end": 8.68,
+          "start": 8.1,
+          "end": 8.68
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 16,
+            "word": "católicos",
+            "source_start": 8.1,
+            "source_end": 8.68,
+            "start": 8.1,
+            "end": 8.68
+          }
+        ]
+      ],
+      "start": 8.1,
+      "end": 8.68
+    },
+    {
+      "words": [
+        {
+          "index": 17,
+          "word": "querían",
+          "source_start": 8.68,
+          "source_end": 9.0,
+          "start": 8.68,
+          "end": 9.0
+        },
+        {
+          "index": 18,
+          "word": "matar",
+          "source_start": 9.0,
+          "source_end": 9.22,
+          "start": 9.0,
+          "end": 9.22
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 17,
+            "word": "querían",
+            "source_start": 8.68,
+            "source_end": 9.0,
+            "start": 8.68,
+            "end": 9.0
+          },
+          {
+            "index": 18,
+            "word": "matar",
+            "source_start": 9.0,
+            "source_end": 9.22,
+            "start": 9.0,
+            "end": 9.22
+          }
+        ]
+      ],
+      "start": 8.68,
+      "end": 9.22
+    },
+    {
+      "words": [
+        {
+          "index": 19,
+          "word": "al",
+          "source_start": 9.22,
+          "source_end": 9.42,
+          "start": 9.22,
+          "end": 9.42
+        },
+        {
+          "index": 20,
+          "word": "rey",
+          "source_start": 9.42,
+          "source_end": 9.66,
+          "start": 9.42,
+          "end": 9.66
+        },
+        {
+          "index": 21,
+          "word": "y",
+          "source_start": 9.66,
+          "source_end": 10.02,
+          "start": 9.66,
+          "end": 10.02
+        },
+        {
+          "index": 22,
+          "word": "volar",
+          "source_start": 10.02,
+          "source_end": 10.48,
+          "start": 10.02,
+          "end": 10.48
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 19,
+            "word": "al",
+            "source_start": 9.22,
+            "source_end": 9.42,
+            "start": 9.22,
+            "end": 9.42
+          },
+          {
+            "index": 20,
+            "word": "rey",
+            "source_start": 9.42,
+            "source_end": 9.66,
+            "start": 9.42,
+            "end": 9.66
+          },
+          {
+            "index": 21,
+            "word": "y",
+            "source_start": 9.66,
+            "source_end": 10.02,
+            "start": 9.66,
+            "end": 10.02
+          },
+          {
+            "index": 22,
+            "word": "volar",
+            "source_start": 10.02,
+            "source_end": 10.48,
+            "start": 10.02,
+            "end": 10.48
+          }
+        ]
+      ],
+      "start": 9.22,
+      "end": 10.48
+    },
+    {
+      "words": [
+        {
+          "index": 23,
+          "word": "el",
+          "source_start": 10.48,
+          "source_end": 10.62,
+          "start": 10.48,
+          "end": 10.62
+        },
+        {
+          "index": 24,
+          "word": "parlamento.",
+          "source_start": 10.62,
+          "source_end": 11.44,
+          "start": 10.62,
+          "end": 11.44
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 23,
+            "word": "el",
+            "source_start": 10.48,
+            "source_end": 10.62,
+            "start": 10.48,
+            "end": 10.62
+          },
+          {
+            "index": 24,
+            "word": "parlamento.",
+            "source_start": 10.62,
+            "source_end": 11.44,
+            "start": 10.62,
+            "end": 11.44
+          }
+        ]
+      ],
+      "start": 10.48,
+      "end": 11.44
+    },
+    {
+      "words": [
+        {
+          "index": 25,
+          "word": "Guy",
+          "source_start": 11.44,
+          "source_end": 11.9,
+          "start": 11.44,
+          "end": 11.9
+        },
+        {
+          "index": 26,
+          "word": "Fawkes",
+          "source_start": 11.9,
+          "source_end": 12.2,
+          "start": 11.9,
+          "end": 12.2
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 25,
+            "word": "Guy",
+            "source_start": 11.44,
+            "source_end": 11.9,
+            "start": 11.44,
+            "end": 11.9
+          },
+          {
+            "index": 26,
+            "word": "Fawkes",
+            "source_start": 11.9,
+            "source_end": 12.2,
+            "start": 11.9,
+            "end": 12.2
+          }
+        ]
+      ],
+      "start": 11.44,
+      "end": 12.2
+    },
+    {
+      "words": [
+        {
+          "index": 27,
+          "word": "custodiaba",
+          "source_start": 12.2,
+          "source_end": 12.82,
+          "start": 12.2,
+          "end": 12.82
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 27,
+            "word": "custodiaba",
+            "source_start": 12.2,
+            "source_end": 12.82,
+            "start": 12.2,
+            "end": 12.82
+          }
+        ]
+      ],
+      "start": 12.2,
+      "end": 12.82
+    },
+    {
+      "words": [
+        {
+          "index": 28,
+          "word": "36",
+          "source_start": 12.82,
+          "source_end": 14.14,
+          "start": 12.82,
+          "end": 14.14
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 28,
+            "word": "36",
+            "source_start": 12.82,
+            "source_end": 14.14,
+            "start": 12.82,
+            "end": 14.14
+          }
+        ]
+      ],
+      "start": 12.82,
+      "end": 14.14
+    },
+    {
+      "words": [
+        {
+          "index": 29,
+          "word": "barriles",
+          "source_start": 14.14,
+          "source_end": 14.78,
+          "start": 14.14,
+          "end": 14.78
+        },
+        {
+          "index": 30,
+          "word": "de",
+          "source_start": 14.78,
+          "source_end": 14.96,
+          "start": 14.78,
+          "end": 14.96
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 29,
+            "word": "barriles",
+            "source_start": 14.14,
+            "source_end": 14.78,
+            "start": 14.14,
+            "end": 14.78
+          },
+          {
+            "index": 30,
+            "word": "de",
+            "source_start": 14.78,
+            "source_end": 14.96,
+            "start": 14.78,
+            "end": 14.96
+          }
+        ]
+      ],
+      "start": 14.14,
+      "end": 14.96
+    },
+    {
+      "words": [
+        {
+          "index": 31,
+          "word": "pólvora,",
+          "source_start": 14.96,
+          "source_end": 15.66,
+          "start": 14.96,
+          "end": 15.66
+        },
+        {
+          "index": 32,
+          "word": "pero",
+          "source_start": 15.66,
+          "source_end": 15.86,
+          "start": 15.66,
+          "end": 15.86
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 31,
+            "word": "pólvora,",
+            "source_start": 14.96,
+            "source_end": 15.66,
+            "start": 14.96,
+            "end": 15.66
+          },
+          {
+            "index": 32,
+            "word": "pero",
+            "source_start": 15.66,
+            "source_end": 15.86,
+            "start": 15.66,
+            "end": 15.86
+          }
+        ]
+      ],
+      "start": 14.96,
+      "end": 15.86
+    },
+    {
+      "words": [
+        {
+          "index": 33,
+          "word": "una",
+          "source_start": 15.86,
+          "source_end": 16.32,
+          "start": 15.86,
+          "end": 16.32
+        },
+        {
+          "index": 34,
+          "word": "carta",
+          "source_start": 16.32,
+          "source_end": 16.6,
+          "start": 16.32,
+          "end": 16.6
+        },
+        {
+          "index": 35,
+          "word": "de",
+          "source_start": 16.6,
+          "source_end": 16.78,
+          "start": 16.6,
+          "end": 16.78
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 33,
+            "word": "una",
+            "source_start": 15.86,
+            "source_end": 16.32,
+            "start": 15.86,
+            "end": 16.32
+          },
+          {
+            "index": 34,
+            "word": "carta",
+            "source_start": 16.32,
+            "source_end": 16.6,
+            "start": 16.32,
+            "end": 16.6
+          },
+          {
+            "index": 35,
+            "word": "de",
+            "source_start": 16.6,
+            "source_end": 16.78,
+            "start": 16.6,
+            "end": 16.78
+          }
+        ]
+      ],
+      "start": 15.86,
+      "end": 16.78
+    },
+    {
+      "words": [
+        {
+          "index": 36,
+          "word": "aviso",
+          "source_start": 16.78,
+          "source_end": 17.1,
+          "start": 16.78,
+          "end": 17.1
+        },
+        {
+          "index": 37,
+          "word": "desató",
+          "source_start": 17.1,
+          "source_end": 17.84,
+          "start": 17.1,
+          "end": 17.84
+        },
+        {
+          "index": 38,
+          "word": "la",
+          "source_start": 17.84,
+          "source_end": 17.98,
+          "start": 17.84,
+          "end": 17.98
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 36,
+            "word": "aviso",
+            "source_start": 16.78,
+            "source_end": 17.1,
+            "start": 16.78,
+            "end": 17.1
+          },
+          {
+            "index": 37,
+            "word": "desató",
+            "source_start": 17.1,
+            "source_end": 17.84,
+            "start": 17.1,
+            "end": 17.84
+          },
+          {
+            "index": 38,
+            "word": "la",
+            "source_start": 17.84,
+            "source_end": 17.98,
+            "start": 17.84,
+            "end": 17.98
+          }
+        ]
+      ],
+      "start": 16.78,
+      "end": 17.98
+    },
+    {
+      "words": [
+        {
+          "index": 39,
+          "word": "búsqueda.",
+          "source_start": 17.98,
+          "source_end": 18.54,
+          "start": 17.98,
+          "end": 18.54
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 39,
+            "word": "búsqueda.",
+            "source_start": 17.98,
+            "source_end": 18.54,
+            "start": 17.98,
+            "end": 18.54
+          }
+        ]
+      ],
+      "start": 17.98,
+      "end": 18.54
+    },
+    {
+      "words": [
+        {
+          "index": 40,
+          "word": "Lo",
+          "source_start": 18.54,
+          "source_end": 18.82,
+          "start": 18.54,
+          "end": 18.82
+        },
+        {
+          "index": 41,
+          "word": "atraparon",
+          "source_start": 18.82,
+          "source_end": 19.24,
+          "start": 18.82,
+          "end": 19.24
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 40,
+            "word": "Lo",
+            "source_start": 18.54,
+            "source_end": 18.82,
+            "start": 18.54,
+            "end": 18.82
+          },
+          {
+            "index": 41,
+            "word": "atraparon",
+            "source_start": 18.82,
+            "source_end": 19.24,
+            "start": 18.82,
+            "end": 19.24
+          }
+        ]
+      ],
+      "start": 18.54,
+      "end": 19.24
+    },
+    {
+      "words": [
+        {
+          "index": 42,
+          "word": "antes",
+          "source_start": 19.24,
+          "source_end": 19.44,
+          "start": 19.24,
+          "end": 19.44
+        },
+        {
+          "index": 43,
+          "word": "de",
+          "source_start": 19.44,
+          "source_end": 19.62,
+          "start": 19.44,
+          "end": 19.62
+        },
+        {
+          "index": 44,
+          "word": "la",
+          "source_start": 19.62,
+          "source_end": 19.66,
+          "start": 19.62,
+          "end": 19.66
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 42,
+            "word": "antes",
+            "source_start": 19.24,
+            "source_end": 19.44,
+            "start": 19.24,
+            "end": 19.44
+          },
+          {
+            "index": 43,
+            "word": "de",
+            "source_start": 19.44,
+            "source_end": 19.62,
+            "start": 19.44,
+            "end": 19.62
+          },
+          {
+            "index": 44,
+            "word": "la",
+            "source_start": 19.62,
+            "source_end": 19.66,
+            "start": 19.62,
+            "end": 19.66
+          }
+        ]
+      ],
+      "start": 19.24,
+      "end": 19.66
+    },
+    {
+      "words": [
+        {
+          "index": 45,
+          "word": "explosión",
+          "source_start": 19.66,
+          "source_end": 20.12,
+          "start": 19.66,
+          "end": 20.12
+        },
+        {
+          "index": 46,
+          "word": "y",
+          "source_start": 20.12,
+          "source_end": 20.62,
+          "start": 20.12,
+          "end": 20.62
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 45,
+            "word": "explosión",
+            "source_start": 19.66,
+            "source_end": 20.12,
+            "start": 19.66,
+            "end": 20.12
+          },
+          {
+            "index": 46,
+            "word": "y",
+            "source_start": 20.12,
+            "source_end": 20.62,
+            "start": 20.12,
+            "end": 20.62
+          }
+        ]
+      ],
+      "start": 19.66,
+      "end": 20.62
+    },
+    {
+      "words": [
+        {
+          "index": 47,
+          "word": "acabó",
+          "source_start": 20.62,
+          "source_end": 21.0,
+          "start": 20.62,
+          "end": 21.0
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 47,
+            "word": "acabó",
+            "source_start": 20.62,
+            "source_end": 21.0,
+            "start": 20.62,
+            "end": 21.0
+          }
+        ]
+      ],
+      "start": 20.62,
+      "end": 21.0
+    },
+    {
+      "words": [
+        {
+          "index": 48,
+          "word": "ejecutado.",
+          "source_start": 21.0,
+          "source_end": 21.78,
+          "start": 21.0,
+          "end": 21.78
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 48,
+            "word": "ejecutado.",
+            "source_start": 21.0,
+            "source_end": 21.78,
+            "start": 21.0,
+            "end": 21.78
+          }
+        ]
+      ],
+      "start": 21.0,
+      "end": 21.78
+    },
+    {
+      "words": [
+        {
+          "index": 49,
+          "word": "El",
+          "source_start": 21.78,
+          "source_end": 21.96,
+          "start": 21.78,
+          "end": 21.96
+        },
+        {
+          "index": 50,
+          "word": "plan",
+          "source_start": 21.96,
+          "source_end": 22.1,
+          "start": 21.96,
+          "end": 22.1
+        },
+        {
+          "index": 51,
+          "word": "fracasó.",
+          "source_start": 22.1,
+          "source_end": 23.0,
+          "start": 22.1,
+          "end": 23.0
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 49,
+            "word": "El",
+            "source_start": 21.78,
+            "source_end": 21.96,
+            "start": 21.78,
+            "end": 21.96
+          },
+          {
+            "index": 50,
+            "word": "plan",
+            "source_start": 21.96,
+            "source_end": 22.1,
+            "start": 21.96,
+            "end": 22.1
+          },
+          {
+            "index": 51,
+            "word": "fracasó.",
+            "source_start": 22.1,
+            "source_end": 23.0,
+            "start": 22.1,
+            "end": 23.0
+          }
+        ]
+      ],
+      "start": 21.78,
+      "end": 23.0
+    },
+    {
+      "words": [
+        {
+          "index": 52,
+          "word": "Siglos",
+          "source_start": 23.0,
+          "source_end": 23.36,
+          "start": 23.0,
+          "end": 23.36
+        },
+        {
+          "index": 53,
+          "word": "después,",
+          "source_start": 23.36,
+          "source_end": 24.18,
+          "start": 23.36,
+          "end": 24.18
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 52,
+            "word": "Siglos",
+            "source_start": 23.0,
+            "source_end": 23.36,
+            "start": 23.0,
+            "end": 23.36
+          },
+          {
+            "index": 53,
+            "word": "después,",
+            "source_start": 23.36,
+            "source_end": 24.18,
+            "start": 23.36,
+            "end": 24.18
+          }
+        ]
+      ],
+      "start": 23.0,
+      "end": 24.18
+    },
+    {
+      "words": [
+        {
+          "index": 54,
+          "word": "V.",
+          "source_start": 24.18,
+          "source_end": 24.4,
+          "start": 24.18,
+          "end": 24.4
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 54,
+            "word": "V.",
+            "source_start": 24.18,
+            "source_end": 24.4,
+            "start": 24.18,
+            "end": 24.4
+          }
+        ]
+      ],
+      "start": 24.18,
+      "end": 24.4
+    },
+    {
+      "words": [
+        {
+          "index": 55,
+          "word": "de",
+          "source_start": 24.4,
+          "source_end": 24.44,
+          "start": 24.4,
+          "end": 24.44
+        },
+        {
+          "index": 56,
+          "word": "Vendetta",
+          "source_start": 24.44,
+          "source_end": 24.8,
+          "start": 24.44,
+          "end": 24.8
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 55,
+            "word": "de",
+            "source_start": 24.4,
+            "source_end": 24.44,
+            "start": 24.4,
+            "end": 24.44
+          },
+          {
+            "index": 56,
+            "word": "Vendetta",
+            "source_start": 24.44,
+            "source_end": 24.8,
+            "start": 24.44,
+            "end": 24.8
+          }
+        ]
+      ],
+      "start": 24.4,
+      "end": 24.8
+    },
+    {
+      "words": [
+        {
+          "index": 57,
+          "word": "convirtió",
+          "source_start": 24.8,
+          "source_end": 25.38,
+          "start": 24.8,
+          "end": 25.38
+        },
+        {
+          "index": 58,
+          "word": "su",
+          "source_start": 25.38,
+          "source_end": 25.56,
+          "start": 25.38,
+          "end": 25.56
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 57,
+            "word": "convirtió",
+            "source_start": 24.8,
+            "source_end": 25.38,
+            "start": 24.8,
+            "end": 25.38
+          },
+          {
+            "index": 58,
+            "word": "su",
+            "source_start": 25.38,
+            "source_end": 25.56,
+            "start": 25.38,
+            "end": 25.56
+          }
+        ]
+      ],
+      "start": 24.8,
+      "end": 25.56
+    },
+    {
+      "words": [
+        {
+          "index": 59,
+          "word": "rostro",
+          "source_start": 25.6,
+          "source_end": 25.94,
+          "start": 25.6,
+          "end": 25.94
+        },
+        {
+          "index": 60,
+          "word": "en",
+          "source_start": 25.94,
+          "source_end": 26.1,
+          "start": 25.94,
+          "end": 26.1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 59,
+            "word": "rostro",
+            "source_start": 25.6,
+            "source_end": 25.94,
+            "start": 25.6,
+            "end": 25.94
+          },
+          {
+            "index": 60,
+            "word": "en",
+            "source_start": 25.94,
+            "source_end": 26.1,
+            "start": 25.94,
+            "end": 26.1
+          }
+        ]
+      ],
+      "start": 25.6,
+      "end": 26.1
+    },
+    {
+      "words": [
+        {
+          "index": 61,
+          "word": "símbolo",
+          "source_start": 26.1,
+          "source_end": 26.82,
+          "start": 26.1,
+          "end": 26.82
+        },
+        {
+          "index": 62,
+          "word": "de",
+          "source_start": 26.82,
+          "source_end": 26.94,
+          "start": 26.82,
+          "end": 26.94
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 61,
+            "word": "símbolo",
+            "source_start": 26.1,
+            "source_end": 26.82,
+            "start": 26.1,
+            "end": 26.82
+          },
+          {
+            "index": 62,
+            "word": "de",
+            "source_start": 26.82,
+            "source_end": 26.94,
+            "start": 26.82,
+            "end": 26.94
+          }
+        ]
+      ],
+      "start": 26.1,
+      "end": 26.94
+    },
+    {
+      "words": [
+        {
+          "index": 63,
+          "word": "rebelión.",
+          "source_start": 26.94,
+          "source_end": 27.72,
+          "start": 26.94,
+          "end": 27.72
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 63,
+            "word": "rebelión.",
+            "source_start": 26.94,
+            "source_end": 27.72,
+            "start": 26.94,
+            "end": 27.72
+          }
+        ]
+      ],
+      "start": 26.94,
+      "end": 27.72
+    },
+    {
+      "words": [
+        {
+          "index": 64,
+          "word": "La",
+          "source_start": 27.72,
+          "source_end": 28.26,
+          "start": 27.72,
+          "end": 28.26
+        },
+        {
+          "index": 65,
+          "word": "pólvora",
+          "source_start": 28.26,
+          "source_end": 28.66,
+          "start": 28.26,
+          "end": 28.66
+        },
+        {
+          "index": 66,
+          "word": "no",
+          "source_start": 28.66,
+          "source_end": 28.84,
+          "start": 28.66,
+          "end": 28.84
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 64,
+            "word": "La",
+            "source_start": 27.72,
+            "source_end": 28.26,
+            "start": 27.72,
+            "end": 28.26
+          },
+          {
+            "index": 65,
+            "word": "pólvora",
+            "source_start": 28.26,
+            "source_end": 28.66,
+            "start": 28.26,
+            "end": 28.66
+          },
+          {
+            "index": 66,
+            "word": "no",
+            "source_start": 28.66,
+            "source_end": 28.84,
+            "start": 28.66,
+            "end": 28.84
+          }
+        ]
+      ],
+      "start": 27.72,
+      "end": 28.84
+    },
+    {
+      "words": [
+        {
+          "index": 67,
+          "word": "estalló.",
+          "source_start": 28.84,
+          "source_end": 29.18,
+          "start": 28.84,
+          "end": 29.18
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 67,
+            "word": "estalló.",
+            "source_start": 28.84,
+            "source_end": 29.18,
+            "start": 28.84,
+            "end": 29.18
+          }
+        ]
+      ],
+      "start": 28.84,
+      "end": 29.18
+    },
+    {
+      "words": [
+        {
+          "index": 68,
+          "word": "La",
+          "source_start": 29.18,
+          "source_end": 29.84,
+          "start": 29.18,
+          "end": 29.84
+        },
+        {
+          "index": 69,
+          "word": "máscara",
+          "source_start": 29.84,
+          "source_end": 30.24,
+          "start": 29.84,
+          "end": 30.24
+        },
+        {
+          "index": 70,
+          "word": "sí",
+          "source_start": 30.24,
+          "source_end": 30.68,
+          "start": 30.24,
+          "end": 30.68
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 68,
+            "word": "La",
+            "source_start": 29.18,
+            "source_end": 29.84,
+            "start": 29.18,
+            "end": 29.84
+          },
+          {
+            "index": 69,
+            "word": "máscara",
+            "source_start": 29.84,
+            "source_end": 30.24,
+            "start": 29.84,
+            "end": 30.24
+          },
+          {
+            "index": 70,
+            "word": "sí",
+            "source_start": 30.24,
+            "source_end": 30.68,
+            "start": 30.24,
+            "end": 30.68
+          }
+        ]
+      ],
+      "start": 29.18,
+      "end": 30.68
+    },
+    {
+      "words": [
+        {
+          "index": 71,
+          "word": "dio",
+          "source_start": 30.68,
+          "source_end": 30.92,
+          "start": 30.68,
+          "end": 30.92
+        },
+        {
+          "index": 72,
+          "word": "la",
+          "source_start": 30.92,
+          "source_end": 31.1,
+          "start": 30.92,
+          "end": 31.1
+        },
+        {
+          "index": 73,
+          "word": "vuelta",
+          "source_start": 31.1,
+          "source_end": 31.34,
+          "start": 31.1,
+          "end": 31.34
+        },
+        {
+          "index": 74,
+          "word": "al",
+          "source_start": 31.34,
+          "source_end": 31.56,
+          "start": 31.34,
+          "end": 31.56
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 71,
+            "word": "dio",
+            "source_start": 30.68,
+            "source_end": 30.92,
+            "start": 30.68,
+            "end": 30.92
+          },
+          {
+            "index": 72,
+            "word": "la",
+            "source_start": 30.92,
+            "source_end": 31.1,
+            "start": 30.92,
+            "end": 31.1
+          },
+          {
+            "index": 73,
+            "word": "vuelta",
+            "source_start": 31.1,
+            "source_end": 31.34,
+            "start": 31.1,
+            "end": 31.34
+          },
+          {
+            "index": 74,
+            "word": "al",
+            "source_start": 31.34,
+            "source_end": 31.56,
+            "start": 31.34,
+            "end": 31.56
+          }
+        ]
+      ],
+      "start": 30.68,
+      "end": 31.56
+    },
+    {
+      "words": [
+        {
+          "index": 75,
+          "word": "mundo.",
+          "source_start": 31.56,
+          "source_end": 32.1,
+          "start": 31.56,
+          "end": 32.1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 75,
+            "word": "mundo.",
+            "source_start": 31.56,
+            "source_end": 32.1,
+            "start": 31.56,
+            "end": 32.1
+          }
+        ]
+      ],
+      "start": 31.56,
+      "end": 32.1
+    },
+    {
+      "words": [
+        {
+          "index": 76,
+          "word": "Suscríbete.",
+          "source_start": 32.3,
+          "source_end": 33.28,
+          "start": 32.3,
+          "end": 33.28
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 76,
+            "word": "Suscríbete.",
+            "source_start": 32.3,
+            "source_end": 33.28,
+            "start": 32.3,
+            "end": 33.28
+          }
+        ]
+      ],
+      "start": 32.3,
+      "end": 33.28
+    }
+  ],
+  "events": [
+    {
+      "start_cs": 16,
+      "end_cs": 41,
+      "active_word_index": 1,
+      "text": "{\\1c&H00D7FF&}Esta{\\1c&HFFFFFF&} máscara",
+      "unquantized_start_cs": 18,
+      "unquantized_end_cs": 40
+    },
+    {
+      "start_cs": 41,
+      "end_cs": 75,
+      "active_word_index": 2,
+      "text": "Esta {\\1c&H00D7FF&}máscara{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 40,
+      "unquantized_end_cs": 74
+    },
+    {
+      "start_cs": 75,
+      "end_cs": 116,
+      "active_word_index": 3,
+      "text": "{\\1c&H00D7FF&}esconde{\\1c&HFFFFFF&} un",
+      "unquantized_start_cs": 74,
+      "unquantized_end_cs": 118
+    },
+    {
+      "start_cs": 116,
+      "end_cs": 137,
+      "active_word_index": 4,
+      "text": "esconde {\\1c&H00D7FF&}un{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 118,
+      "unquantized_end_cs": 136
+    },
+    {
+      "start_cs": 137,
+      "end_cs": 170,
+      "active_word_index": 5,
+      "text": "{\\1c&H00D7FF&}plan{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 136,
+      "unquantized_end_cs": 172
+    },
+    {
+      "start_cs": 170,
+      "end_cs": 354,
+      "active_word_index": 6,
+      "text": "{\\1c&H00D7FF&}explosivo.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 172,
+      "unquantized_end_cs": 354
+    },
+    {
+      "start_cs": 354,
+      "end_cs": 437,
+      "active_word_index": 7,
+      "text": "{\\1c&H00D7FF&}Londres,{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 354,
+      "unquantized_end_cs": 436
+    },
+    {
+      "start_cs": 437,
+      "end_cs": 545,
+      "active_word_index": 8,
+      "text": "{\\1c&H00D7FF&}1605.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 436,
+      "unquantized_end_cs": 546
+    },
+    {
+      "start_cs": 545,
+      "end_cs": 570,
+      "active_word_index": 9,
+      "text": "{\\1c&H00D7FF&}Hartos{\\1c&HFFFFFF&} de la",
+      "unquantized_start_cs": 546,
+      "unquantized_end_cs": 572
+    },
+    {
+      "start_cs": 570,
+      "end_cs": 583,
+      "active_word_index": 10,
+      "text": "Hartos {\\1c&H00D7FF&}de{\\1c&HFFFFFF&} la",
+      "unquantized_start_cs": 572,
+      "unquantized_end_cs": 584
+    },
+    {
+      "start_cs": 583,
+      "end_cs": 591,
+      "active_word_index": 11,
+      "text": "Hartos de {\\1c&H00D7FF&}la{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 584,
+      "unquantized_end_cs": 592
+    },
+    {
+      "start_cs": 591,
+      "end_cs": 637,
+      "active_word_index": 12,
+      "text": "{\\1c&H00D7FF&}persecución{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 592,
+      "unquantized_end_cs": 638
+    },
+    {
+      "start_cs": 637,
+      "end_cs": 729,
+      "active_word_index": 13,
+      "text": "{\\1c&H00D7FF&}religiosa,{\\1c&HFFFFFF&} unos",
+      "unquantized_start_cs": 638,
+      "unquantized_end_cs": 730
+    },
+    {
+      "start_cs": 729,
+      "end_cs": 750,
+      "active_word_index": 14,
+      "text": "religiosa, {\\1c&H00D7FF&}unos{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 730,
+      "unquantized_end_cs": 750
+    },
+    {
+      "start_cs": 750,
+      "end_cs": 808,
+      "active_word_index": 15,
+      "text": "{\\1c&H00D7FF&}conspiradores{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 750,
+      "unquantized_end_cs": 810
+    },
+    {
+      "start_cs": 808,
+      "end_cs": 866,
+      "active_word_index": 16,
+      "text": "{\\1c&H00D7FF&}católicos{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 810,
+      "unquantized_end_cs": 868
+    },
+    {
+      "start_cs": 866,
+      "end_cs": 900,
+      "active_word_index": 17,
+      "text": "{\\1c&H00D7FF&}querían{\\1c&HFFFFFF&} matar",
+      "unquantized_start_cs": 868,
+      "unquantized_end_cs": 900
+    },
+    {
+      "start_cs": 900,
+      "end_cs": 920,
+      "active_word_index": 18,
+      "text": "querían {\\1c&H00D7FF&}matar{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 900,
+      "unquantized_end_cs": 922
+    },
+    {
+      "start_cs": 920,
+      "end_cs": 941,
+      "active_word_index": 19,
+      "text": "{\\1c&H00D7FF&}al{\\1c&HFFFFFF&} rey y volar",
+      "unquantized_start_cs": 922,
+      "unquantized_end_cs": 942
+    },
+    {
+      "start_cs": 941,
+      "end_cs": 966,
+      "active_word_index": 20,
+      "text": "al {\\1c&H00D7FF&}rey{\\1c&HFFFFFF&} y volar",
+      "unquantized_start_cs": 942,
+      "unquantized_end_cs": 966
+    },
+    {
+      "start_cs": 966,
+      "end_cs": 1000,
+      "active_word_index": 21,
+      "text": "al rey {\\1c&H00D7FF&}y{\\1c&HFFFFFF&} volar",
+      "unquantized_start_cs": 966,
+      "unquantized_end_cs": 1002
+    },
+    {
+      "start_cs": 1000,
+      "end_cs": 1050,
+      "active_word_index": 22,
+      "text": "al rey y {\\1c&H00D7FF&}volar{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1002,
+      "unquantized_end_cs": 1048
+    },
+    {
+      "start_cs": 1050,
+      "end_cs": 1062,
+      "active_word_index": 23,
+      "text": "{\\1c&H00D7FF&}el{\\1c&HFFFFFF&} parlamento.",
+      "unquantized_start_cs": 1048,
+      "unquantized_end_cs": 1062
+    },
+    {
+      "start_cs": 1062,
+      "end_cs": 1145,
+      "active_word_index": 24,
+      "text": "el {\\1c&H00D7FF&}parlamento.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1062,
+      "unquantized_end_cs": 1144
+    },
+    {
+      "start_cs": 1145,
+      "end_cs": 1191,
+      "active_word_index": 25,
+      "text": "{\\1c&H00D7FF&}Guy{\\1c&HFFFFFF&} Fawkes",
+      "unquantized_start_cs": 1144,
+      "unquantized_end_cs": 1190
+    },
+    {
+      "start_cs": 1191,
+      "end_cs": 1220,
+      "active_word_index": 26,
+      "text": "Guy {\\1c&H00D7FF&}Fawkes{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1190,
+      "unquantized_end_cs": 1220
+    },
+    {
+      "start_cs": 1220,
+      "end_cs": 1283,
+      "active_word_index": 27,
+      "text": "{\\1c&H00D7FF&}custodiaba{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1220,
+      "unquantized_end_cs": 1282
+    },
+    {
+      "start_cs": 1283,
+      "end_cs": 1412,
+      "active_word_index": 28,
+      "text": "{\\1c&H00D7FF&}36{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1282,
+      "unquantized_end_cs": 1414
+    },
+    {
+      "start_cs": 1412,
+      "end_cs": 1479,
+      "active_word_index": 29,
+      "text": "{\\1c&H00D7FF&}barriles{\\1c&HFFFFFF&} de",
+      "unquantized_start_cs": 1414,
+      "unquantized_end_cs": 1478
+    },
+    {
+      "start_cs": 1479,
+      "end_cs": 1495,
+      "active_word_index": 30,
+      "text": "barriles {\\1c&H00D7FF&}de{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1478,
+      "unquantized_end_cs": 1496
+    },
+    {
+      "start_cs": 1495,
+      "end_cs": 1566,
+      "active_word_index": 31,
+      "text": "{\\1c&H00D7FF&}pólvora,{\\1c&HFFFFFF&} pero",
+      "unquantized_start_cs": 1496,
+      "unquantized_end_cs": 1566
+    },
+    {
+      "start_cs": 1566,
+      "end_cs": 1587,
+      "active_word_index": 32,
+      "text": "pólvora, {\\1c&H00D7FF&}pero{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1566,
+      "unquantized_end_cs": 1586
+    },
+    {
+      "start_cs": 1587,
+      "end_cs": 1633,
+      "active_word_index": 33,
+      "text": "{\\1c&H00D7FF&}una{\\1c&HFFFFFF&} carta de",
+      "unquantized_start_cs": 1586,
+      "unquantized_end_cs": 1632
+    },
+    {
+      "start_cs": 1633,
+      "end_cs": 1658,
+      "active_word_index": 34,
+      "text": "una {\\1c&H00D7FF&}carta{\\1c&HFFFFFF&} de",
+      "unquantized_start_cs": 1632,
+      "unquantized_end_cs": 1660
+    },
+    {
+      "start_cs": 1658,
+      "end_cs": 1679,
+      "active_word_index": 35,
+      "text": "una carta {\\1c&H00D7FF&}de{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1660,
+      "unquantized_end_cs": 1678
+    },
+    {
+      "start_cs": 1679,
+      "end_cs": 1708,
+      "active_word_index": 36,
+      "text": "{\\1c&H00D7FF&}aviso{\\1c&HFFFFFF&} desató la",
+      "unquantized_start_cs": 1678,
+      "unquantized_end_cs": 1710
+    },
+    {
+      "start_cs": 1708,
+      "end_cs": 1783,
+      "active_word_index": 37,
+      "text": "aviso {\\1c&H00D7FF&}desató{\\1c&HFFFFFF&} la",
+      "unquantized_start_cs": 1710,
+      "unquantized_end_cs": 1784
+    },
+    {
+      "start_cs": 1783,
+      "end_cs": 1800,
+      "active_word_index": 38,
+      "text": "aviso desató {\\1c&H00D7FF&}la{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1784,
+      "unquantized_end_cs": 1798
+    },
+    {
+      "start_cs": 1800,
+      "end_cs": 1854,
+      "active_word_index": 39,
+      "text": "{\\1c&H00D7FF&}búsqueda.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1798,
+      "unquantized_end_cs": 1854
+    },
+    {
+      "start_cs": 1854,
+      "end_cs": 1883,
+      "active_word_index": 40,
+      "text": "{\\1c&H00D7FF&}Lo{\\1c&HFFFFFF&} atraparon",
+      "unquantized_start_cs": 1854,
+      "unquantized_end_cs": 1882
+    },
+    {
+      "start_cs": 1883,
+      "end_cs": 1925,
+      "active_word_index": 41,
+      "text": "Lo {\\1c&H00D7FF&}atraparon{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1882,
+      "unquantized_end_cs": 1924
+    },
+    {
+      "start_cs": 1925,
+      "end_cs": 1945,
+      "active_word_index": 42,
+      "text": "{\\1c&H00D7FF&}antes{\\1c&HFFFFFF&} de la",
+      "unquantized_start_cs": 1924,
+      "unquantized_end_cs": 1944
+    },
+    {
+      "start_cs": 1945,
+      "end_cs": 1962,
+      "active_word_index": 43,
+      "text": "antes {\\1c&H00D7FF&}de{\\1c&HFFFFFF&} la",
+      "unquantized_start_cs": 1944,
+      "unquantized_end_cs": 1962
+    },
+    {
+      "start_cs": 1962,
+      "end_cs": 1966,
+      "active_word_index": 44,
+      "text": "antes de {\\1c&H00D7FF&}la{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1962,
+      "unquantized_end_cs": 1966
+    },
+    {
+      "start_cs": 1966,
+      "end_cs": 2012,
+      "active_word_index": 45,
+      "text": "{\\1c&H00D7FF&}explosión{\\1c&HFFFFFF&} y",
+      "unquantized_start_cs": 1966,
+      "unquantized_end_cs": 2012
+    },
+    {
+      "start_cs": 2012,
+      "end_cs": 2062,
+      "active_word_index": 46,
+      "text": "explosión {\\1c&H00D7FF&}y{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2012,
+      "unquantized_end_cs": 2062
+    },
+    {
+      "start_cs": 2062,
+      "end_cs": 2100,
+      "active_word_index": 47,
+      "text": "{\\1c&H00D7FF&}acabó{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2062,
+      "unquantized_end_cs": 2100
+    },
+    {
+      "start_cs": 2100,
+      "end_cs": 2179,
+      "active_word_index": 48,
+      "text": "{\\1c&H00D7FF&}ejecutado.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2100,
+      "unquantized_end_cs": 2178
+    },
+    {
+      "start_cs": 2179,
+      "end_cs": 2195,
+      "active_word_index": 49,
+      "text": "{\\1c&H00D7FF&}El{\\1c&HFFFFFF&} plan fracasó.",
+      "unquantized_start_cs": 2178,
+      "unquantized_end_cs": 2196
+    },
+    {
+      "start_cs": 2195,
+      "end_cs": 2208,
+      "active_word_index": 50,
+      "text": "El {\\1c&H00D7FF&}plan{\\1c&HFFFFFF&} fracasó.",
+      "unquantized_start_cs": 2196,
+      "unquantized_end_cs": 2210
+    },
+    {
+      "start_cs": 2208,
+      "end_cs": 2300,
+      "active_word_index": 51,
+      "text": "El plan {\\1c&H00D7FF&}fracasó.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2210,
+      "unquantized_end_cs": 2300
+    },
+    {
+      "start_cs": 2300,
+      "end_cs": 2337,
+      "active_word_index": 52,
+      "text": "{\\1c&H00D7FF&}Siglos{\\1c&HFFFFFF&} después,",
+      "unquantized_start_cs": 2300,
+      "unquantized_end_cs": 2336
+    },
+    {
+      "start_cs": 2337,
+      "end_cs": 2416,
+      "active_word_index": 53,
+      "text": "Siglos {\\1c&H00D7FF&}después,{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2336,
+      "unquantized_end_cs": 2418
+    },
+    {
+      "start_cs": 2416,
+      "end_cs": 2441,
+      "active_word_index": 54,
+      "text": "{\\1c&H00D7FF&}V.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2418,
+      "unquantized_end_cs": 2440
+    },
+    {
+      "start_cs": 2441,
+      "end_cs": 2445,
+      "active_word_index": 55,
+      "text": "{\\1c&H00D7FF&}de{\\1c&HFFFFFF&} Vendetta",
+      "unquantized_start_cs": 2440,
+      "unquantized_end_cs": 2444
+    },
+    {
+      "start_cs": 2445,
+      "end_cs": 2479,
+      "active_word_index": 56,
+      "text": "de {\\1c&H00D7FF&}Vendetta{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2444,
+      "unquantized_end_cs": 2480
+    },
+    {
+      "start_cs": 2479,
+      "end_cs": 2537,
+      "active_word_index": 57,
+      "text": "{\\1c&H00D7FF&}convirtió{\\1c&HFFFFFF&} su",
+      "unquantized_start_cs": 2480,
+      "unquantized_end_cs": 2538
+    },
+    {
+      "start_cs": 2537,
+      "end_cs": 2554,
+      "active_word_index": 58,
+      "text": "convirtió {\\1c&H00D7FF&}su{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2538,
+      "unquantized_end_cs": 2556
+    },
+    {
+      "start_cs": 2558,
+      "end_cs": 2595,
+      "active_word_index": 59,
+      "text": "{\\1c&H00D7FF&}rostro{\\1c&HFFFFFF&} en",
+      "unquantized_start_cs": 2560,
+      "unquantized_end_cs": 2594
+    },
+    {
+      "start_cs": 2595,
+      "end_cs": 2608,
+      "active_word_index": 60,
+      "text": "rostro {\\1c&H00D7FF&}en{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2594,
+      "unquantized_end_cs": 2610
+    },
+    {
+      "start_cs": 2608,
+      "end_cs": 2683,
+      "active_word_index": 61,
+      "text": "{\\1c&H00D7FF&}símbolo{\\1c&HFFFFFF&} de",
+      "unquantized_start_cs": 2610,
+      "unquantized_end_cs": 2682
+    },
+    {
+      "start_cs": 2683,
+      "end_cs": 2695,
+      "active_word_index": 62,
+      "text": "símbolo {\\1c&H00D7FF&}de{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2682,
+      "unquantized_end_cs": 2694
+    },
+    {
+      "start_cs": 2695,
+      "end_cs": 2770,
+      "active_word_index": 63,
+      "text": "{\\1c&H00D7FF&}rebelión.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2694,
+      "unquantized_end_cs": 2772
+    },
+    {
+      "start_cs": 2770,
+      "end_cs": 2825,
+      "active_word_index": 64,
+      "text": "{\\1c&H00D7FF&}La{\\1c&HFFFFFF&} pólvora no",
+      "unquantized_start_cs": 2772,
+      "unquantized_end_cs": 2826
+    },
+    {
+      "start_cs": 2825,
+      "end_cs": 2866,
+      "active_word_index": 65,
+      "text": "La {\\1c&H00D7FF&}pólvora{\\1c&HFFFFFF&} no",
+      "unquantized_start_cs": 2826,
+      "unquantized_end_cs": 2866
+    },
+    {
+      "start_cs": 2866,
+      "end_cs": 2883,
+      "active_word_index": 66,
+      "text": "La pólvora {\\1c&H00D7FF&}no{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2866,
+      "unquantized_end_cs": 2884
+    },
+    {
+      "start_cs": 2883,
+      "end_cs": 2916,
+      "active_word_index": 67,
+      "text": "{\\1c&H00D7FF&}estalló.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2884,
+      "unquantized_end_cs": 2918
+    },
+    {
+      "start_cs": 2916,
+      "end_cs": 2983,
+      "active_word_index": 68,
+      "text": "{\\1c&H00D7FF&}La{\\1c&HFFFFFF&} máscara sí",
+      "unquantized_start_cs": 2918,
+      "unquantized_end_cs": 2984
+    },
+    {
+      "start_cs": 2983,
+      "end_cs": 3025,
+      "active_word_index": 69,
+      "text": "La {\\1c&H00D7FF&}máscara{\\1c&HFFFFFF&} sí",
+      "unquantized_start_cs": 2984,
+      "unquantized_end_cs": 3024
+    },
+    {
+      "start_cs": 3025,
+      "end_cs": 3066,
+      "active_word_index": 70,
+      "text": "La máscara {\\1c&H00D7FF&}sí{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 3024,
+      "unquantized_end_cs": 3068
+    },
+    {
+      "start_cs": 3066,
+      "end_cs": 3091,
+      "active_word_index": 71,
+      "text": "{\\1c&H00D7FF&}dio{\\1c&HFFFFFF&} la vuelta al",
+      "unquantized_start_cs": 3068,
+      "unquantized_end_cs": 3092
+    },
+    {
+      "start_cs": 3091,
+      "end_cs": 3108,
+      "active_word_index": 72,
+      "text": "dio {\\1c&H00D7FF&}la{\\1c&HFFFFFF&} vuelta al",
+      "unquantized_start_cs": 3092,
+      "unquantized_end_cs": 3110
+    },
+    {
+      "start_cs": 3108,
+      "end_cs": 3133,
+      "active_word_index": 73,
+      "text": "dio la {\\1c&H00D7FF&}vuelta{\\1c&HFFFFFF&} al",
+      "unquantized_start_cs": 3110,
+      "unquantized_end_cs": 3134
+    },
+    {
+      "start_cs": 3133,
+      "end_cs": 3154,
+      "active_word_index": 74,
+      "text": "dio la vuelta {\\1c&H00D7FF&}al{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 3134,
+      "unquantized_end_cs": 3156
+    },
+    {
+      "start_cs": 3154,
+      "end_cs": 3208,
+      "active_word_index": 75,
+      "text": "{\\1c&H00D7FF&}mundo.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 3156,
+      "unquantized_end_cs": 3210
+    },
+    {
+      "start_cs": 3229,
+      "end_cs": 3329,
+      "active_word_index": 76,
+      "text": "{\\1c&H00D7FF&}Suscríbete.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 3230,
+      "unquantized_end_cs": 3328
+    }
+  ],
+  "overlap_rule": "latest start wins; no cumulative highlight",
+  "time_resolution_seconds": 0.01,
+  "display_quantization": "nearest picture frame; ASS boundary floored to centiseconds",
+  "fps": 24.0,
+  "max_lines": 1
+}

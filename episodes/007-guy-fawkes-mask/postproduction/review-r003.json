@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-05T17:43:28.736148+00:00",
+  "reviewer": "assistant (actual rendered frame inspection)",
+  "status": "technically_validated_visual_style_accepted_needs_user_playback",
+  "distribution_master": "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+  "distribution_sha256": "1b636e7771046927599a99b36f60d0b01d261b5395c96f050eeacdd2af9e7ecd",
+  "export_manifest": "postproduction/exports/r003/manifest.json",
+  "actual_frame_samples": [
+    9,
+    35,
+    93,
+    132,
+    217,
+    275,
+    310,
+    376,
+    445,
+    486,
+    523,
+    581,
+    682,
+    717,
+    787
+  ],
+  "evidence": [
+    {
+      "path": "postproduction/review-evidence-r003/phone-captions-r003.jpg",
+      "sha256": "57877e8f81e4be9b70c9dbeb005018723e66676f877516e1283840e51ea7b239"
+    },
+    {
+      "path": "postproduction/review-evidence-r003/portrait-caption-r003.png",
+      "sha256": "a60e91674c51b12520da7a5786f3d21bbf4f5b8cc4430bb36794304c89e80b48"
+    }
+  ],
+  "caption_review": {
+    "font": "Montserrat Bold",
+    "reference_font_identity": "Unknown screenshot typeface; selected visual approximation, not claimed exact identification.",
+    "font_size_at_1080x1920": 104,
+    "bottom_margin": 300,
+    "style": {
+      "profile": "shorts-reference-bold",
+      "font_family": "Montserrat",
+      "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+      "font_size": 104,
+      "max_width_fraction": 0.8,
+      "bottom_margin": 300,
+      "outline": 2,
+      "shadow": 2,
+      "highlight_ass_color": "&H00D7FF&",
+      "max_words": 4,
+      "max_cue_seconds": 1.8,
+      "break_gap_seconds": 0.3,
+      "max_lines": 1
+    },
+    "observed": "Actual 15-frame phone montage and468x832 portrait show readable bold short single-line text, white inactive words and yellow current word, above the bottom interface area. Light/dark scenes, all five clip seams, long names, numbers and final subscribe CTA sampled; no visible clipping in these samples.",
+    "word_count": 76,
+    "cue_count": 41,
+    "scope": "Actual samples plus renderer width/timing validation; not a claim to have manually inspected all801 caption frames."
+  },
+  "technical": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "frames": 801,
+    "duration_seconds": 33.375,
+    "full_decode": "passed",
+    "measured_integrated_lufs": -16.01,
+    "measured_true_peak_db": -1.33
+  },
+  "unchanged_inputs": {
+    "picture_master_sha256": "ef121e42d2a4e45262a33024d176d95d0fe55de5bbb7ccdd7092071ddc931454",
+    "accepted_narration_sha256": "f9a7e873c38baf9280804625de4e5f00cfe5ea73f2bbc3e69c38ca21e740a376",
+    "word_timing": "timestamps/word-timestamps-normalized.csv",
+    "sound_selection": "renders/selection-manifest.json"
+  },
+  "audio_review_limits": "Native02/03/05 user-confirmed short SFX; fallback01/04/06 uses reviewed recorded cues and zero failed native soundtrack. No music track added. Full distribution mix not claimed personally heard or user-approved.",
+  "whole_video_user_review": {
+    "status": "pending",
+    "approval": null
+  },
+  "new_clip_generation": false
+}

@@ -1,0 +1,225 @@
+{
+  "created_at": "2026-10-05T16:04:51.126707+00:00",
+  "timing_sha256": "7875bc21dc49a798ca7067ce1723b0110c40db91abfd7df87dc48b2cbc93180e",
+  "job_plan_sha256": "13fc8a897e19147fad4f6c7240d7c8602f9ded654e40f9a9e68ef99d98eaa6c6",
+  "fps": 24,
+  "expected_total_frames": 801,
+  "expected_total_seconds": 33.375,
+  "clips": [
+    {
+      "clip_id": "clip-01",
+      "job_identity": "episode-007-clip-01-mask-to-1605-r002",
+      "json_request_seconds": 5.5,
+      "expected_raw_frames": 141,
+      "expected_editorial_frames": 132,
+      "editorial_seconds": 5.5,
+      "global_start_frame": 0,
+      "global_end_frame": 132,
+      "planned_tail_trim_frames": 9,
+      "job_sha256": "cbf2fc9e2fcf323a35e13b220763c22839a39c4be54ff18047005520d1be3426",
+      "errors": [],
+      "run_sha256": "2a3ec737a742a510697501445504621beb4af6c5d8a260bb1d89251f8b97778c",
+      "executed_graph": {
+        "frames": 141,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-007-clip-01-mask-to-1605-r002.mp4",
+        "sha256": "08edb4f585bce345f797628b214dd4dfff9cf4e746b040d782cdfed953ebc925",
+        "decoded_frames": 141,
+        "video_stream_seconds": 5.875,
+        "frame_derived_seconds": 5.875,
+        "endpoint_rounding_seconds": 0.0,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-007-clip-01-mask-to-1605-r002.mp4",
+        "sha256": "10c4ebfe6c43935ac104d3d7b247f36c84ef2b1d347ee9f7c442fcad8818ebe5",
+        "decoded_frames": 132,
+        "video_stream_seconds": 5.5,
+        "frame_derived_seconds": 5.5,
+        "endpoint_rounding_seconds": 0.0,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 132,
+        "max_mae_255": 0.7146990740740741,
+        "mean_mae_255": 0.414898697624392,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 9,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-02",
+      "job_identity": "episode-007-clip-02-conspiracy-target-r002",
+      "json_request_seconds": 5.958333333333333,
+      "expected_raw_frames": 158,
+      "expected_editorial_frames": 143,
+      "editorial_seconds": 5.958333333333333,
+      "global_start_frame": 132,
+      "global_end_frame": 275,
+      "planned_tail_trim_frames": 15,
+      "job_sha256": "cc13608bbc2830c2fed2dcbbb86bd3a5724528e4112b2059bc71a46570acaa57",
+      "errors": [],
+      "run_sha256": "aefec42b4e53936bc929ce684057ba843225ca82b11e66df5692616b9c013b84",
+      "executed_graph": {
+        "frames": 158,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-007-clip-02-conspiracy-target-r002.mp4",
+        "sha256": "ce0558c0a5546563795a8389d379e0715c7af608c97418005b7880742396c2e1",
+        "decoded_frames": 158,
+        "video_stream_seconds": 6.583333,
+        "frame_derived_seconds": 6.583333333333333,
+        "endpoint_rounding_seconds": -3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-007-clip-02-conspiracy-target-r002.mp4",
+        "sha256": "0dbbc97b2a5e6b21b827c589798c58bac4143990d5dab7f71b9c89ba63e6d613",
+        "decoded_frames": 143,
+        "video_stream_seconds": 5.958333,
+        "frame_derived_seconds": 5.958333333333333,
+        "endpoint_rounding_seconds": -3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 143,
+        "max_mae_255": 0.5640817901234568,
+        "mean_mae_255": 0.3827287296037296,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 15,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-03",
+      "job_identity": "episode-007-clip-03-powder-watch-r002",
+      "json_request_seconds": 5,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 101,
+      "editorial_seconds": 4.208333333333333,
+      "global_start_frame": 275,
+      "global_end_frame": 376,
+      "planned_tail_trim_frames": 23,
+      "job_sha256": "0c209d0e11870cb30a6e0a1abd340e19261683a66226d9be2848c2a62d601c4a",
+      "errors": [],
+      "run_sha256": "29903ba920d783f651f297705450add32d7e2ab46a488c43c00a600311a2b151",
+      "executed_graph": {
+        "frames": 124,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-007-clip-03-powder-watch-r002.mp4",
+        "sha256": "95a5fc398d71530e95ed134c9f0237c7dfe15b44560c5ecf093e35b05e4b818a",
+        "decoded_frames": 124,
+        "video_stream_seconds": 5.166667,
+        "frame_derived_seconds": 5.166666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-007-clip-03-powder-watch-r002.mp4",
+        "sha256": "313f9106869fcb12f6bb66bf95f608c0adc1ba3f31961606220a8119520da9f9",
+        "decoded_frames": 101,
+        "video_stream_seconds": 4.208008,
+        "frame_derived_seconds": 4.208333333333333,
+        "endpoint_rounding_seconds": -0.0003253333333326225,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 101,
+        "max_mae_255": 0.7224922839506173,
+        "mean_mae_255": 0.45554791590270116,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 23,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-04",
+      "job_identity": "episode-007-clip-04-letter-search-arrest-r002",
+      "json_request_seconds": 5,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 110,
+      "editorial_seconds": 4.583333333333333,
+      "global_start_frame": 376,
+      "global_end_frame": 486,
+      "planned_tail_trim_frames": 14,
+      "job_sha256": "2b8ec59f9266b3ab9250c6bc52b956549b51c53702d04a69ab5c62e64cdc4bfa",
+      "errors": [],
+      "run_sha256": "4feb676ca430732b5927949f838bd80daa77c79795efae730e1d94992ce875a5",
+      "executed_graph": {
+        "frames": 124,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-007-clip-04-letter-search-arrest-r002.mp4",
+        "sha256": "1311ac109c9bd1840e3d93cb56804d051f18461622326cc05e899f37306a6884",
+        "decoded_frames": 124,
+        "video_stream_seconds": 5.166667,
+        "frame_derived_seconds": 5.166666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-007-clip-04-letter-search-arrest-r002.mp4",
+        "sha256": "16096eb8893bc8924a2c4a1085a4aa1bdf0b9ec03a528f7995cf9761885efbd1",
+        "decoded_frames": 110,
+        "video_stream_seconds": 4.583333,
+        "frame_derived_seconds": 4.583333333333333,
+        "endpoint_rounding_seconds": -3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 110,
+        "max_mae_255": 0.8846064814814815,
+        "mean_mae_255": 0.4807649410774412,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 14,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-05",
+      "job_identity": "episode-007-clip-05-consequence-and-mask-r002",
+      "json_request_seconds": 6.25,
+      "expected_raw_frames": 158,
+      "expected_editorial_frames": 150,
+      "editorial_seconds": 6.25,
+      "global_start_frame": 486,
+      "global_end_frame": 636,
+      "planned_tail_trim_frames": 8,
+      "job_sha256": "056808da674d72364cb556823ee09c01430a4bba32c938f1ef1bee1443de00a4",
+      "errors": [],
+      "status": "pending_media"
+    },
+    {
+      "clip_id": "clip-06",
+      "job_identity": "episode-007-clip-06-symbol-payoff-cta-r002",
+      "json_request_seconds": 6.875,
+      "expected_raw_frames": 175,
+      "expected_editorial_frames": 165,
+      "editorial_seconds": 6.875,
+      "global_start_frame": 636,
+      "global_end_frame": 801,
+      "planned_tail_trim_frames": 10,
+      "job_sha256": "a81ca891e491a942792f65f7594e01d24ce88fc3541d9822f2ab76eae5c30551",
+      "errors": [],
+      "status": "pending_media"
+    }
+  ],
+  "complete": false,
+  "status": "pending_remaining_media",
+  "limitations": "A technical duration pass does not approve actual shot timing, story, audio or tail stability. Review actual cuts and voice sync separately."
+}

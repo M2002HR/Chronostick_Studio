@@ -1,0 +1,9 @@
+{
+  "status": "validated_needs_user_review",
+  "pid": 1513579,
+  "revision": 3,
+  "started_at": "2026-10-05T17:33:43.863099+00:00",
+  "log": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/postproduction/render-r003.log",
+  "output": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+  "completed_at": "2026-10-05T17:33:55.646291+00:00"
+}

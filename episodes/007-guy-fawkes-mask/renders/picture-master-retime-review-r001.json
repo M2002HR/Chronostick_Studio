@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-05T17:23:16.655999+00:00",
+  "source": "final/episode-007-guy-fawkes-mask-picture-sfx-1080x1920-r001.mp4",
+  "output": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+  "all801_decoded_picture_frames_identical": true,
+  "no_picture_reencoding": true,
+  "target_fps": 24,
+  "duration_seconds": 33.375,
+  "audio_authority": "audio/sfx/selected-full-stem-r001.json",
+  "upscale_report": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.framewise-upscale.json"
+}

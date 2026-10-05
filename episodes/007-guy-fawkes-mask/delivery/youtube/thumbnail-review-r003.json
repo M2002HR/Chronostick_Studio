@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-05T18:08:50.041171+00:00",
+  "reviewer": "assistant (actual image QC)",
+  "status": "passed_assistant_qc",
+  "user_artwork_approval": null,
+  "source": "delivery/youtube/thumbnail-episode-007-r003-source.png",
+  "source_sha256": "110f08bba5a0cbb46297a773bda45361bccc81c49a0972d03afb2d7347eaebc2",
+  "delivery_master": "delivery/youtube/thumbnail-episode-007-r003.png",
+  "delivery_sha256": "c570a9385aa42e39a939417c9c20e4e4e3e4360992a4835e289ff3913eb138ce",
+  "dimensions": [
+    2160,
+    3840
+  ],
+  "source_dimensions": [
+    941,
+    1672
+  ],
+  "exact_headline": "¿DE DÓNDE SALIÓ?",
+  "checks": {
+    "spelling_accents_punctuation": "passed_actual_visual",
+    "no_extra_text": "passed_actual_visual",
+    "locked_rounded_heavy_white_gold_typography": "passed_actual_visual",
+    "dominant_mask_and_origin_question": "passed_actual_visual",
+    "mask_and_historical_identity": "passed_actual_visual",
+    "no_historical_Fawkes_wearing_modern_mask": "passed_actual_visual",
+    "closed_unlit_barrels_no_ignition": "passed_actual_visual",
+    "face_and_headline_separation": "passed_actual_visual",
+    "phone_readability": "passed_actual270x480_preview",
+    "upper12_percent_hidden": "passed_actual58px_hidden_phone_preview"
+  },
+  "headline_position": "upper",
+  "requested_complete_top_ratio": 0.22,
+  "observed_top_y_source": 304,
+  "observed_source_height": 1672,
+  "observed_top_ratio": 0.18181818181818182,
+  "conservative_complete_effects_top_y_source": 295,
+  "conservative_top_ratio": 0.17643540669856458,
+  "equivalent_top_y_delivery": 698,
+  "minimum_delivery_top_y": 461,
+  "measurement_method": "Actual source/cropped accent boundary inspection, assisted by first>=3 dark outline pixels at row304 in manually selected x500..594,y280..339 accent ROI (RGB<=20,15,10). Conservative9px allowance for subtle surrounding effect edges still clears12%. Not an automated whole-image text detector.",
+  "evidence": [
+    "delivery/youtube/thumbnail-phone-r003.png",
+    "delivery/youtube/thumbnail-upper12-hidden-r003.png",
+    "delivery/youtube/thumbnail-text-boundary-r003.png"
+  ],
+  "hook_mechanism": "Instantly recognizable detached mask plus unresolved origin question; historical Fawkes/unlit barrels hint at the actual story without giving away its modern-symbol payoff. No CTR guarantee.",
+  "limits": "Generated source941x1672 is resampled to2160x3840; not claimed native4K generation. Exact complete shadow boundary is visually estimated with conservative allowance."
+}

@@ -1,0 +1,90 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Montserrat,80,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,2,2,2,108,108,300,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.16,0:00:00.41,Caption,,0,0,0,,{\1c&H00D7FF&}Esta{\1c&HFFFFFF&} máscara
+Dialogue: 0,0:00:00.41,0:00:00.75,Caption,,0,0,0,,Esta {\1c&H00D7FF&}máscara{\1c&HFFFFFF&}
+Dialogue: 0,0:00:00.75,0:00:01.16,Caption,,0,0,0,,{\1c&H00D7FF&}esconde{\1c&HFFFFFF&} un plan
+Dialogue: 0,0:00:01.16,0:00:01.37,Caption,,0,0,0,,esconde {\1c&H00D7FF&}un{\1c&HFFFFFF&} plan
+Dialogue: 0,0:00:01.37,0:00:01.70,Caption,,0,0,0,,esconde un {\1c&H00D7FF&}plan{\1c&HFFFFFF&}
+Dialogue: 0,0:00:01.70,0:00:03.54,Caption,,0,0,0,,{\1c&H00D7FF&}explosivo.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:03.54,0:00:04.37,Caption,,0,0,0,,{\1c&H00D7FF&}Londres,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:04.37,0:00:05.45,Caption,,0,0,0,,{\1c&H00D7FF&}1605.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:05.45,0:00:05.70,Caption,,0,0,0,,{\1c&H00D7FF&}Hartos{\1c&HFFFFFF&} de la
+Dialogue: 0,0:00:05.70,0:00:05.83,Caption,,0,0,0,,Hartos {\1c&H00D7FF&}de{\1c&HFFFFFF&} la
+Dialogue: 0,0:00:05.83,0:00:05.91,Caption,,0,0,0,,Hartos de {\1c&H00D7FF&}la{\1c&HFFFFFF&}
+Dialogue: 0,0:00:05.91,0:00:06.37,Caption,,0,0,0,,{\1c&H00D7FF&}persecución{\1c&HFFFFFF&}
+Dialogue: 0,0:00:06.37,0:00:07.29,Caption,,0,0,0,,{\1c&H00D7FF&}religiosa,{\1c&HFFFFFF&} unos
+Dialogue: 0,0:00:07.29,0:00:07.50,Caption,,0,0,0,,religiosa, {\1c&H00D7FF&}unos{\1c&HFFFFFF&}
+Dialogue: 0,0:00:07.50,0:00:08.08,Caption,,0,0,0,,{\1c&H00D7FF&}conspiradores{\1c&HFFFFFF&}
+Dialogue: 0,0:00:08.08,0:00:08.66,Caption,,0,0,0,,{\1c&H00D7FF&}católicos{\1c&HFFFFFF&} querían
+Dialogue: 0,0:00:08.66,0:00:09.00,Caption,,0,0,0,,católicos {\1c&H00D7FF&}querían{\1c&HFFFFFF&}
+Dialogue: 0,0:00:09.00,0:00:09.20,Caption,,0,0,0,,{\1c&H00D7FF&}matar{\1c&HFFFFFF&} al rey y
+Dialogue: 0,0:00:09.20,0:00:09.41,Caption,,0,0,0,,matar {\1c&H00D7FF&}al{\1c&HFFFFFF&} rey y
+Dialogue: 0,0:00:09.41,0:00:09.66,Caption,,0,0,0,,matar al {\1c&H00D7FF&}rey{\1c&HFFFFFF&} y
+Dialogue: 0,0:00:09.66,0:00:10.00,Caption,,0,0,0,,matar al rey {\1c&H00D7FF&}y{\1c&HFFFFFF&}
+Dialogue: 0,0:00:10.00,0:00:10.50,Caption,,0,0,0,,{\1c&H00D7FF&}volar{\1c&HFFFFFF&} el parlamento.
+Dialogue: 0,0:00:10.50,0:00:10.62,Caption,,0,0,0,,volar {\1c&H00D7FF&}el{\1c&HFFFFFF&} parlamento.
+Dialogue: 0,0:00:10.62,0:00:11.45,Caption,,0,0,0,,volar el {\1c&H00D7FF&}parlamento.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:11.45,0:00:11.91,Caption,,0,0,0,,{\1c&H00D7FF&}Guy{\1c&HFFFFFF&} Fawkes
+Dialogue: 0,0:00:11.91,0:00:12.20,Caption,,0,0,0,,Guy {\1c&H00D7FF&}Fawkes{\1c&HFFFFFF&}
+Dialogue: 0,0:00:12.20,0:00:12.83,Caption,,0,0,0,,{\1c&H00D7FF&}custodiaba{\1c&HFFFFFF&}
+Dialogue: 0,0:00:12.83,0:00:14.12,Caption,,0,0,0,,{\1c&H00D7FF&}36{\1c&HFFFFFF&}
+Dialogue: 0,0:00:14.12,0:00:14.79,Caption,,0,0,0,,{\1c&H00D7FF&}barriles{\1c&HFFFFFF&} de pólvora,
+Dialogue: 0,0:00:14.79,0:00:14.95,Caption,,0,0,0,,barriles {\1c&H00D7FF&}de{\1c&HFFFFFF&} pólvora,
+Dialogue: 0,0:00:14.95,0:00:15.66,Caption,,0,0,0,,barriles de {\1c&H00D7FF&}pólvora,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:15.66,0:00:15.87,Caption,,0,0,0,,{\1c&H00D7FF&}pero{\1c&HFFFFFF&} una carta de
+Dialogue: 0,0:00:15.87,0:00:16.33,Caption,,0,0,0,,pero {\1c&H00D7FF&}una{\1c&HFFFFFF&} carta de
+Dialogue: 0,0:00:16.33,0:00:16.58,Caption,,0,0,0,,pero una {\1c&H00D7FF&}carta{\1c&HFFFFFF&} de
+Dialogue: 0,0:00:16.58,0:00:16.79,Caption,,0,0,0,,pero una carta {\1c&H00D7FF&}de{\1c&HFFFFFF&}
+Dialogue: 0,0:00:16.79,0:00:17.08,Caption,,0,0,0,,{\1c&H00D7FF&}aviso{\1c&HFFFFFF&} desató la
+Dialogue: 0,0:00:17.08,0:00:17.83,Caption,,0,0,0,,aviso {\1c&H00D7FF&}desató{\1c&HFFFFFF&} la
+Dialogue: 0,0:00:17.83,0:00:18.00,Caption,,0,0,0,,aviso desató {\1c&H00D7FF&}la{\1c&HFFFFFF&}
+Dialogue: 0,0:00:18.00,0:00:18.54,Caption,,0,0,0,,{\1c&H00D7FF&}búsqueda.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:18.54,0:00:18.83,Caption,,0,0,0,,{\1c&H00D7FF&}Lo{\1c&HFFFFFF&} atraparon antes
+Dialogue: 0,0:00:18.83,0:00:19.25,Caption,,0,0,0,,Lo {\1c&H00D7FF&}atraparon{\1c&HFFFFFF&} antes
+Dialogue: 0,0:00:19.25,0:00:19.45,Caption,,0,0,0,,Lo atraparon {\1c&H00D7FF&}antes{\1c&HFFFFFF&}
+Dialogue: 0,0:00:19.45,0:00:19.62,Caption,,0,0,0,,{\1c&H00D7FF&}de{\1c&HFFFFFF&} la explosión y
+Dialogue: 0,0:00:19.62,0:00:19.66,Caption,,0,0,0,,de {\1c&H00D7FF&}la{\1c&HFFFFFF&} explosión y
+Dialogue: 0,0:00:19.66,0:00:20.12,Caption,,0,0,0,,de la {\1c&H00D7FF&}explosión{\1c&HFFFFFF&} y
+Dialogue: 0,0:00:20.12,0:00:20.62,Caption,,0,0,0,,de la explosión {\1c&H00D7FF&}y{\1c&HFFFFFF&}
+Dialogue: 0,0:00:20.62,0:00:21.00,Caption,,0,0,0,,{\1c&H00D7FF&}acabó{\1c&HFFFFFF&} ejecutado.
+Dialogue: 0,0:00:21.00,0:00:21.79,Caption,,0,0,0,,acabó {\1c&H00D7FF&}ejecutado.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:21.79,0:00:21.95,Caption,,0,0,0,,{\1c&H00D7FF&}El{\1c&HFFFFFF&} plan fracasó.
+Dialogue: 0,0:00:21.95,0:00:22.08,Caption,,0,0,0,,El {\1c&H00D7FF&}plan{\1c&HFFFFFF&} fracasó.
+Dialogue: 0,0:00:22.08,0:00:23.00,Caption,,0,0,0,,El plan {\1c&H00D7FF&}fracasó.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:23.00,0:00:23.37,Caption,,0,0,0,,{\1c&H00D7FF&}Siglos{\1c&HFFFFFF&} después, V.
+Dialogue: 0,0:00:23.37,0:00:24.16,Caption,,0,0,0,,Siglos {\1c&H00D7FF&}después,{\1c&HFFFFFF&} V.
+Dialogue: 0,0:00:24.16,0:00:24.41,Caption,,0,0,0,,Siglos después, {\1c&H00D7FF&}V.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:24.41,0:00:24.45,Caption,,0,0,0,,{\1c&H00D7FF&}de{\1c&HFFFFFF&} Vendetta
+Dialogue: 0,0:00:24.45,0:00:24.79,Caption,,0,0,0,,de {\1c&H00D7FF&}Vendetta{\1c&HFFFFFF&}
+Dialogue: 0,0:00:24.79,0:00:25.37,Caption,,0,0,0,,{\1c&H00D7FF&}convirtió{\1c&HFFFFFF&} su rostro
+Dialogue: 0,0:00:25.37,0:00:25.54,Caption,,0,0,0,,convirtió {\1c&H00D7FF&}su{\1c&HFFFFFF&} rostro
+Dialogue: 0,0:00:25.54,0:00:25.58,Caption,,0,0,0,,convirtió su rostro
+Dialogue: 0,0:00:25.58,0:00:25.95,Caption,,0,0,0,,convirtió su {\1c&H00D7FF&}rostro{\1c&HFFFFFF&}
+Dialogue: 0,0:00:25.95,0:00:26.08,Caption,,0,0,0,,{\1c&H00D7FF&}en{\1c&HFFFFFF&} símbolo de
+Dialogue: 0,0:00:26.08,0:00:26.83,Caption,,0,0,0,,en {\1c&H00D7FF&}símbolo{\1c&HFFFFFF&} de
+Dialogue: 0,0:00:26.83,0:00:26.95,Caption,,0,0,0,,en símbolo {\1c&H00D7FF&}de{\1c&HFFFFFF&}
+Dialogue: 0,0:00:26.95,0:00:27.70,Caption,,0,0,0,,{\1c&H00D7FF&}rebelión.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:27.70,0:00:28.25,Caption,,0,0,0,,{\1c&H00D7FF&}La{\1c&HFFFFFF&} pólvora no
+Dialogue: 0,0:00:28.25,0:00:28.66,Caption,,0,0,0,,La {\1c&H00D7FF&}pólvora{\1c&HFFFFFF&} no
+Dialogue: 0,0:00:28.66,0:00:28.83,Caption,,0,0,0,,La pólvora {\1c&H00D7FF&}no{\1c&HFFFFFF&}
+Dialogue: 0,0:00:28.83,0:00:29.16,Caption,,0,0,0,,{\1c&H00D7FF&}estalló.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:29.16,0:00:29.83,Caption,,0,0,0,,{\1c&H00D7FF&}La{\1c&HFFFFFF&} máscara sí dio
+Dialogue: 0,0:00:29.83,0:00:30.25,Caption,,0,0,0,,La {\1c&H00D7FF&}máscara{\1c&HFFFFFF&} sí dio
+Dialogue: 0,0:00:30.25,0:00:30.66,Caption,,0,0,0,,La máscara {\1c&H00D7FF&}sí{\1c&HFFFFFF&} dio
+Dialogue: 0,0:00:30.66,0:00:30.91,Caption,,0,0,0,,La máscara sí {\1c&H00D7FF&}dio{\1c&HFFFFFF&}
+Dialogue: 0,0:00:30.91,0:00:31.08,Caption,,0,0,0,,{\1c&H00D7FF&}la{\1c&HFFFFFF&} vuelta al mundo.
+Dialogue: 0,0:00:31.08,0:00:31.33,Caption,,0,0,0,,la {\1c&H00D7FF&}vuelta{\1c&HFFFFFF&} al mundo.
+Dialogue: 0,0:00:31.33,0:00:31.54,Caption,,0,0,0,,la vuelta {\1c&H00D7FF&}al{\1c&HFFFFFF&} mundo.
+Dialogue: 0,0:00:31.54,0:00:32.08,Caption,,0,0,0,,la vuelta al {\1c&H00D7FF&}mundo.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:32.29,0:00:33.29,Caption,,0,0,0,,{\1c&H00D7FF&}Suscríbete.{\1c&HFFFFFF&}

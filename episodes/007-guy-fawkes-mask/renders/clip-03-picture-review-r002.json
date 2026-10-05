@@ -1,0 +1,20 @@
+{
+  "clip_id": "clip-03",
+  "revision": "r003",
+  "picture_decision": "approved_by_assistant_as_observed_coverage_variant",
+  "source": "renders/editorial/episode-007-clip-03-powder-watch-r003.mp4",
+  "sha256": "8f5187d61ffd2e674069c17770ab676cd9eacc5a75477a6882942fb301f1f504",
+  "actual_cut_frames": [
+    0,
+    30,
+    61,
+    89
+  ],
+  "planned_shots": 6,
+  "actual_shots": 4,
+  "reviewer": "assistant, every actual editorial frame inspected at phone size",
+  "notes": "Watchful Fawkes portrait restored at global15.166667s before editorial endpoint15.666667. Four actual compositions: full Fawkes/barrels, boot/barrel hoop, hand/barrel/back stack, watchful face. Separate hoop and stack inserts absorbed into visible barrel coverage; never counted as extra cuts. S13-S18 story legible, one Fawkes and closed barrels; no ignition or exact visible-count assertion.",
+  "audio_review": "renders/review-evidence/clip-03-r003/audio-occupancy-r001.json",
+  "audio_decision": "needs_actual_user_listening",
+  "no_personal_listening_claim": true
+}

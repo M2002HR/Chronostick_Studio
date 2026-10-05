@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "007-guy-fawkes-mask",
+  "prepared_at": "2026-10-05T17:14:05.967280+00:00",
+  "package_status": "ready_for_manual_upload_with_generated_qc_passed_thumbnail",
+  "language": "es",
+  "title": {
+    "primary": "¿De dónde salió esta máscara?",
+    "alternatives": [
+      "La historia detrás de esta máscara",
+      "Guy Fawkes: el origen de la máscara"
+    ],
+    "character_counts": [
+      29,
+      34,
+      35
+    ],
+    "character_limit": 100
+  },
+  "seo_target_keyword": "Esta máscara",
+  "seo_target_selection": "Editorial choice from truthful hook; no external keyword score or trend claim.",
+  "description": "¿De dónde salió esta máscara? Su historia empieza con Guy Fawkes, Londres en 1605 y un plan contra el Parlamento. Siglos después, V de Vendetta convirtió su rostro en símbolo de rebelión.\n\nLa pólvora no estalló. La máscara dio la vuelta al mundo. Suscríbete.\n\nAnimación histórica con escenas dramatizadas. La identidad del autor de la carta de aviso sigue sin conocerse; la vela apagada representa simbólicamente la ejecución posterior.\n\nFuentes:\nUK Parliament — discovery of the plot: https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/the-gunpowder-plot-of-1605/overview/the-plot-and-its-discovery/discovery-and-flight1/\nThe National Archives — Monteagle Letter: https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-monteagle-letter/\nLondon Museum — symbolism of Guy Fawkes: https://www.londonmuseum.org.uk/collections/london-stories/symbolism-of-guy-fawkes/\n\nSFX adicionales: breves extractos CC0 de BenjaminNelan, zazz.sound.design y scaevola (Freesound).\nhttps://freesound.org/people/BenjaminNelan/sounds/353125/\nhttps://freesound.org/people/zazz.sound.design/sounds/435296/\nhttps://freesound.org/people/scaevola/sounds/333260/\n\n#GuyFawkes #VDeVendetta #HistoriaAnimada #Shorts",
+  "description_character_count": 1242,
+  "description_utf8_byte_count": 1264,
+  "description_character_limit": 5000,
+  "tags": [
+    "Esta máscara",
+    "Guy Fawkes",
+    "Guy Fawkes máscara",
+    "máscara de Guy Fawkes",
+    "mascara de Guy Fawkes",
+    "V de Vendetta",
+    "V for Vendetta",
+    "Conspiración de la Pólvora",
+    "complot de 1605",
+    "Parlamento británico",
+    "Londres 1605",
+    "historia de Inglaterra",
+    "historia animada",
+    "shorts de historia",
+    "ChronoStick"
+  ],
+  "tag_count": 15,
+  "tag_field_count_including_commas_and_space_quotes": 291,
+  "tag_field_limit": 500,
+  "hashtags": [
+    "#GuyFawkes",
+    "#VDeVendetta",
+    "#ConspiracionDeLaPolvora",
+    "#Historia",
+    "#HistoriaAnimada",
+    "#Shorts",
+    "#YouTubeShorts",
+    "#ViralShorts"
+  ],
+  "hashtag_groups": {
+    "episode_topic": [
+      "#GuyFawkes",
+      "#VDeVendetta",
+      "#ConspiracionDeLaPolvora"
+    ],
+    "history_animation": [
+      "#Historia",
+      "#HistoriaAnimada"
+    ],
+    "format": [
+      "#Shorts",
+      "#YouTubeShorts",
+      "#ViralShorts"
+    ]
+  },
+  "description_hashtags": [
+    "#GuyFawkes",
+    "#VDeVendetta",
+    "#HistoriaAnimada",
+    "#Shorts"
+  ],
+  "comments": {
+    "pinned_candidates": [
+      "¿Qué te sorprendió más: los barriles o la carta?",
+      "La pólvora no estalló… pero el símbolo sigue aquí. ¿Conocías su origen?",
+      "¿Otra máscara con historia? Te leo 👇"
+    ],
+    "viewer_examples": [
+      "Yo solo la conocía por V de Vendetta.",
+      "Una carta cambió todo 😮",
+      "36 barriles… y ni una explosión.",
+      "No sabía que Guy Fawkes no lideraba el grupo.",
+      "Ahora voy a mirar esa máscara de otra forma."
+    ],
+    "viewer_examples_status": "Suggested examples, not audience reactions; none posted.",
+    "recommended_pinned": "¿Qué te sorprendió más: los barriles o la carta?"
+  },
+  "category": {
+    "name": "Education",
+    "education_type": "concept_overview"
+  },
+  "recording": {
+    "date": null,
+    "location": null,
+    "note": "Historical animated dramatization; do not claim live footage or the depicted date as a recording date."
+  },
+  "audience": {
+    "made_for_kids": null,
+    "operator_decision_required": true
+  },
+  "age_restriction": {
+    "restricted_to_adults": null,
+    "operator_decision_required": true
+  },
+  "related_video": {
+    "suggestion": "Another released ChronoStick historical Short, chosen by operator from public/unlisted channel videos.",
+    "url": null
+  },
+  "credits": {
+    "historical_sources": [
+      {
+        "name": "UK Parliament — discovery of the plot",
+        "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/the-gunpowder-plot-of-1605/overview/the-plot-and-its-discovery/discovery-and-flight1/"
+      },
+      {
+        "name": "The National Archives — Monteagle Letter",
+        "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-monteagle-letter/"
+      },
+      {
+        "name": "London Museum — symbolism of Guy Fawkes",
+        "url": "https://www.londonmuseum.org.uk/collections/london-stories/symbolism-of-guy-fawkes/"
+      }
+    ],
+    "independent_sfx": [
+      {
+        "name": "PaperRustle — BenjaminNelan",
+        "url": "https://freesound.org/people/BenjaminNelan/sounds/353125/",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "Cloth Rustle8 — zazz.sound.design",
+        "url": "https://freesound.org/people/zazz.sound.design/sounds/435296/",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "MetalClick — scaevola",
+        "url": "https://freesound.org/people/scaevola/sounds/333260/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "native_sfx": "MiniMax H3, user-confirmed clean clip02/03/05",
+    "source_video": "https://www.youtube.com/watch?v=JgBU_c7RVq0",
+    "source_video_role": "Directing inspiration; no original footage/audio reused in distribution."
+  },
+  "thumbnail": {
+    "prompt_path": "delivery/youtube/thumbnail-prompt-r004.md",
+    "image_path": "delivery/youtube/thumbnail-episode-007-r003.png",
+    "generation_authorized": true,
+    "status": "generated_passed_assistant_qc",
+    "authorization": "Current user:تامبنیلش رو درست کن و همه چیزش آماده باشه",
+    "image_sha256": "c570a9385aa42e39a939417c9c20e4e4e3e4360992a4835e289ff3913eb138ce",
+    "source_path": "delivery/youtube/thumbnail-episode-007-r003-source.png",
+    "review_path": "delivery/youtube/thumbnail-review-r003.json",
+    "provenance_path": "delivery/youtube/thumbnail-provenance-r003.json",
+    "user_approval": null
+  },
+  "media": {
+    "distribution_master": "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+    "distribution_sha256": "1b636e7771046927599a99b36f60d0b01d261b5395c96f050eeacdd2af9e7ecd",
+    "picture_selection": "renders/selection-manifest.json",
+    "expected_upload_filename": "mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+    "picture_master": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+    "captions_srt": "postproduction/exports/r003/captions.srt",
+    "captions_vtt": "postproduction/exports/r003/captions.vtt",
+    "duration_seconds": 33.375,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "release_archive": "delivery/release/episode-007-es-release-r001.zip"
+  },
+  "description_opening_check": {
+    "excerpt": "¿De dónde salió esta máscara? Su historia empieza con Guy Fawkes, Londres en 1605 y un plan contra el Parlamento. Siglos después, V de Vendetta convirtió su rostro en símbolo de rebelión.\n\nLa pólvora ",
+    "keyword": "Esta máscara",
+    "start_position_zero_based": 16,
+    "end_position_exclusive": 28,
+    "complete_keyword_before_character_201": true,
+    "exact_primary_title_match": true,
+    "exact_studio_tag_match": true,
+    "supporting_matches": [
+      "Guy Fawkes",
+      "Londres",
+      "1605",
+      "Parlamento",
+      "V de Vendetta"
+    ],
+    "external_tool_status": "Not observed; local text checks only, no vidIQ result or trend verification."
+  },
+  "platform_limits_checked": {
+    "date": "2026-10-05",
+    "title_description_source": "https://support.google.com/youtube/answer/57407?hl=en",
+    "tag_count_and_description_bytes_source": "https://developers.google.com/youtube/v3/docs/videos",
+    "tags_role_source": "https://support.google.com/youtube/answer/146402?hl=en",
+    "thumbnail_source": "https://support.google.com/youtube/answer/72431",
+    "shorts_custom_thumbnail_method": "YouTube Studio desktop upload; verified account required per current official Help.",
+    "shorts_thumbnail_width": 2160,
+    "shorts_thumbnail_height": 3840,
+    "desktop_thumbnail_max_bytes": 50000000
+  },
+  "upload_checklist": [
+    "Use accepted r003 distribution, matching saved captions and QC-passed r003 thumbnail.",
+    "Set made-for-kids, age-restriction and relevant AI-disclosure choices after review.",
+    "Paste exact saved title, description and separate Studio tags.",
+    "Upload the generated9:16 thumbnail in YouTube Studio desktop; choose a related published video.",
+    "Uploading/publication require a separate explicit instruction."
+  ],
+  "publication": {
+    "uploaded": false,
+    "published": false,
+    "authorization": null
+  },
+  "updated_at": "2026-10-05T18:08:50.041171+00:00"
+}

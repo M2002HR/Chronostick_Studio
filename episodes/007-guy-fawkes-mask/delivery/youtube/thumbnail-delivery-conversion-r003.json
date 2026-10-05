@@ -1,0 +1,62 @@
+{
+  "source": "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r003-source.png",
+  "commands": [
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-n",
+      "-i",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r003-source.png",
+      "-vf",
+      "scale=2160:3840:flags=lanczos",
+      "-frames:v",
+      "1",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r003.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-n",
+      "-i",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r003-source.png",
+      "-vf",
+      "scale=270:480:flags=lanczos",
+      "-frames:v",
+      "1",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-phone-r003.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-n",
+      "-i",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r003-source.png",
+      "-vf",
+      "scale=270:480:flags=lanczos,drawbox=x=0:y=0:w=iw:h=58:color=black:t=fill",
+      "-frames:v",
+      "1",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-upper12-hidden-r003.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-n",
+      "-i",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-episode-007-r003-source.png",
+      "-vf",
+      "crop=400:160:400:260,scale=800:320:flags=neighbor",
+      "-frames:v",
+      "1",
+      "episodes/007-guy-fawkes-mask/delivery/youtube/thumbnail-text-boundary-r003.png"
+    ]
+  ],
+  "note": "Technical PNG resampling only; all generated lettering stays inside original artwork. No compositing or text overlay applied to delivery master. Phone/hidden/boundary images are QC-only previews."
+}

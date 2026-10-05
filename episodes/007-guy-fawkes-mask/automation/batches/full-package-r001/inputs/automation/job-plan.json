@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "007-guy-fawkes-mask",
+  "revision": "r001",
+  "created_at": "2026-10-05T14:32:47.421944+00:00",
+  "status": "prepared_not_submitted",
+  "production_profile": "h3-short-dynamic-16step-20-30s",
+  "project_seed": 20261005007,
+  "timing_sha256": "7875bc21dc49a798ca7067ce1723b0110c40db91abfd7df87dc48b2cbc93180e",
+  "direction_sha256": "2c0109aa02c14876883b8ac979968575cc418c1a461af5c1087e9c9de4a0ab0c",
+  "reference_manifest_sha256": "505ef03b6fea537bfa3eaf75c7d1fa856fc725a978e3efacb90f549e65aac3ab",
+  "service_sources": [
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/models.py",
+      "sha256": "d89ae80728d4dcf840cadd8edf8beee4eadb7a4919df04e14a0a669e32f59fcb"
+    },
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/resolver.py",
+      "sha256": "3787c78ef4d46f98db82f0efaea49f3cac25f30486398b45ca8cd410e4d3d92a"
+    },
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/graph.py",
+      "sha256": "994944ff6e332d23a8f97256237eea2220a847e013668309e21abb064fb1fe43"
+    },
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/templates.py",
+      "sha256": "b9e239018bce74607bd4de59186e1aa40b0560fd7dfc36b876f44048cc46177e"
+    }
+  ],
+  "jobs": [
+    {
+      "clip_id": "clip-01",
+      "job_path": "automation/jobs/clip-01-mask-to-1605.json",
+      "job_identity": "episode-007-clip-01-mask-to-1605-r001",
+      "seed": 6737702200757494345,
+      "prompt_path": "prompts/clip-01-mask-to-1605.md",
+      "prompt_sha256": "79299344170c719f7d08a8c4fc1e3e19507429c5533b39d86960815cf5401ccd",
+      "reference_ids": [
+        "mask-hand",
+        "westminster-exterior",
+        "palace-entrance-window"
+      ],
+      "reference_hashes": [
+        "7d19eadf5aaafc89012bbf30bfa4be449b63d946c79983ef0d3888e11c6a9e49",
+        "81f584059b2fcbab997592d558c017bcef35ccb798f0e47dc3fe18bad80bf2c6",
+        "a503fc5a5a14dc1a45209d4c1a97ebe377c3be88db7f71ab529dd3cccb19c3bb"
+      ],
+      "requested_seconds": 5.5,
+      "expected_raw_frames": 141,
+      "editorial_frames": 132,
+      "editorial_seconds": 5.5,
+      "raw_tail_hold_frames": 9,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-02",
+      "job_path": "automation/jobs/clip-02-conspiracy-target.json",
+      "job_identity": "episode-007-clip-02-conspiracy-target-r001",
+      "seed": 5518860295933325578,
+      "prompt_path": "prompts/clip-02-conspiracy-target.md",
+      "prompt_sha256": "3a469a768a8840b7eb6dd8f7850058781bab3324d8418330f9803fdd0fa29da3",
+      "reference_ids": [
+        "conspiracy-table",
+        "conspiracy-plan-shoulder"
+      ],
+      "reference_hashes": [
+        "6c718dc03db1cd15c511f728b19702ce8bae458d3889d06859ca37f034a92fe8",
+        "5b3c70438a59d497f1140e1f525d6310cef352da5c9f0ffccada54769529edb2"
+      ],
+      "requested_seconds": 5.958333333333333,
+      "expected_raw_frames": 158,
+      "editorial_frames": 143,
+      "editorial_seconds": 5.958333333333333,
+      "raw_tail_hold_frames": 15,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-03",
+      "job_path": "automation/jobs/clip-03-powder-watch.json",
+      "job_identity": "episode-007-clip-03-powder-watch-r001",
+      "seed": 5372458778590217678,
+      "prompt_path": "prompts/clip-03-powder-watch.md",
+      "prompt_sha256": "009e6f6f5fedbde62cde20475bb826722ab87279bd9c64d6828548f1d1aeb827",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "reference_hashes": [
+        "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361"
+      ],
+      "requested_seconds": 5,
+      "expected_raw_frames": 124,
+      "editorial_frames": 101,
+      "editorial_seconds": 4.208333333333333,
+      "raw_tail_hold_frames": 23,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-04",
+      "job_path": "automation/jobs/clip-04-letter-search-arrest.json",
+      "job_identity": "episode-007-clip-04-letter-search-arrest-r001",
+      "seed": 4023403893736480801,
+      "prompt_path": "prompts/clip-04-letter-search-arrest.md",
+      "prompt_sha256": "50d22aa916d5c377345a952626ceb00376656e1f33fc15888e41d3ccbfe1a380",
+      "reference_ids": [
+        "warning-letter-handoff",
+        "warning-letter",
+        "cellar-door-search",
+        "search-arrest-threshold"
+      ],
+      "reference_hashes": [
+        "928acb150d8ea5ade46a6cf198e42e6b57a2486d388fe6ccc5a8b69c73b3faab",
+        "dfff5ce1f15bab3a28fdac8504d0aba699c8009b811b6a9c0fb18495d96e089a",
+        "fdb2a8167f71aeec0294c34df0e4e99bfc90febf1133634f8b6728be7eb5735f",
+        "1545ef8c506f18d279ab64c81133c0d3961c397246e280ed4d61cd4f6c461617"
+      ],
+      "requested_seconds": 5,
+      "expected_raw_frames": 124,
+      "editorial_frames": 110,
+      "editorial_seconds": 4.583333333333333,
+      "raw_tail_hold_frames": 14,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-05",
+      "job_path": "automation/jobs/clip-05-consequence-and-mask.json",
+      "job_identity": "episode-007-clip-05-consequence-and-mask-r001",
+      "seed": 5475029262596422265,
+      "prompt_path": "prompts/clip-05-consequence-and-mask.md",
+      "prompt_sha256": "6c6c6fe5f8e384a4ec12c3e0ea303321786642c5956e4ca7bb683a233f60331a",
+      "reference_ids": [
+        "custody-door",
+        "custody-candle",
+        "powder-undercroft",
+        "mask-book",
+        "modern-mask-lift"
+      ],
+      "reference_hashes": [
+        "3736f2cfe66cdd70eb82085992b15cd1223256e834857cd49af00a2a3d90e336",
+        "9f4da8e842e9ac41c16118ee8a994764c8621497b6acfea60a8271aac485d857",
+        "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+        "5cb2cbf39a3fd445594a6b5ef98b14d597644d254696de0a6d8b4808e23b3c6d",
+        "f48bb6381df0994fac9a9a1cb3ff75cf869222089bcdc9e256950bba151c7209"
+      ],
+      "requested_seconds": 6.25,
+      "expected_raw_frames": 158,
+      "editorial_frames": 150,
+      "editorial_seconds": 6.25,
+      "raw_tail_hold_frames": 8,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-06",
+      "job_path": "automation/jobs/clip-06-symbol-payoff-cta.json",
+      "job_identity": "episode-007-clip-06-symbol-payoff-cta-r001",
+      "seed": 870284225208429352,
+      "prompt_path": "prompts/clip-06-symbol-payoff-cta.md",
+      "prompt_sha256": "8c4215e7acc2c41b002c175fd4d8228bfaf15683a1c492aecc6f53bd6e412462",
+      "reference_ids": [
+        "modern-masked-group",
+        "powder-undercroft",
+        "mask-hand"
+      ],
+      "reference_hashes": [
+        "d5b57eced9e000b66d88079e2332149afefe709d160a2398c66bb460a60346d7",
+        "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+        "7d19eadf5aaafc89012bbf30bfa4be449b63d946c79983ef0d3888e11c6a9e49"
+      ],
+      "requested_seconds": 6.875,
+      "expected_raw_frames": 175,
+      "editorial_frames": 165,
+      "editorial_seconds": 6.875,
+      "raw_tail_hold_frames": 10,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    }
+  ],
+  "job_hashes": [
+    {
+      "path": "automation/jobs/clip-01-mask-to-1605.json",
+      "sha256": "0a1d311cbcc97384837d530d005c386bb224e73676ba628ab9bbc954aaea6fc8"
+    },
+    {
+      "path": "automation/jobs/clip-02-conspiracy-target.json",
+      "sha256": "990a0380c19fdebd72365ad4997e6e5729849091eac2cbffb311d6bb00b6f93a"
+    },
+    {
+      "path": "automation/jobs/clip-03-powder-watch.json",
+      "sha256": "d59a615fdff47caac11c789671bcc474118ebe31d2dd4fb708c7df2489ceb190"
+    },
+    {
+      "path": "automation/jobs/clip-04-letter-search-arrest.json",
+      "sha256": "214404f593779bebf717148685dd0da76e3548e82dbde6ec843e6b117f1ea78f"
+    },
+    {
+      "path": "automation/jobs/clip-05-consequence-and-mask.json",
+      "sha256": "c9ee6ae2299c80bf9c5b0bca176f2001b6e822d50890f05166e8ae10aa70b15e"
+    },
+    {
+      "path": "automation/jobs/clip-06-symbol-payoff-cta.json",
+      "sha256": "8b01ec96e78c90be66dc372120d4b38ce77692bdc288a7a5362bef90613016bd"
+    }
+  ],
+  "audio_suffix_reason": "Service default would duplicate required policy; explicit silence-separated non-tonal suffix keeps resolved prompt policy count one.",
+  "execution": "Sequential GPU; complete live dry-run and a reviewed native 16-step duration/cut pilot before relying on final quality."
+}

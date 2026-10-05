@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip-02",
+  "revision": "r003",
+  "picture_decision": "approved_by_assistant_as_observed_coverage_variant",
+  "source": "renders/editorial/episode-007-clip-02-conspiracy-target-r003.mp4",
+  "sha256": "d8df2308f52940631997570d3ac6657bce8acf4cad9492e17ed6fdc1cecc28b6",
+  "actual_cut_frames": [
+    0,
+    33,
+    61,
+    73,
+    93,
+    109,
+    127
+  ],
+  "planned_shots": 8,
+  "actual_shots": 7,
+  "reviewer": "assistant, every actual editorial frame inspected at phone size",
+  "notes": "Parliament over-shoulder insert restored at global10.041667s, aligned to volar10.02s. Crown starts9.375s before rey9.42s. Seven actual compositions rather than eight: final group return not separately present in editorial. Opening group and final decisive Fawkes retain decision meaning. Exactly three stable identities, one cross/crown and nonlettered two-gable target; no clock tower or extra people.",
+  "audio_review": "renders/review-evidence/clip-02-r003/audio-occupancy-r001.json",
+  "audio_decision": "needs_actual_user_listening",
+  "no_personal_listening_claim": true
+}

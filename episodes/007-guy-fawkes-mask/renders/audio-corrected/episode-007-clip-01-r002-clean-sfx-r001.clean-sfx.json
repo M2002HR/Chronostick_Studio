@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-05T16:13:13.821368+00:00",
+  "status": "technical_clean_sfx_derivative_needs_release_review",
+  "source": "renders/editorial/episode-007-clip-01-mask-to-1605-r002.mp4",
+  "source_sha256": "10c4ebfe6c43935ac104d3d7b247f36c84ef2b1d347ee9f7c442fcad8818ebe5",
+  "output": "renders/audio-corrected/episode-007-clip-01-r002-clean-sfx-r001.mp4",
+  "output_sha256": "874307c5cc5be29878d27820243a5bbf51f2ee22f9defb7083845223cfa91533",
+  "plan_sha256": "42710b7272fd56075bb0e2b7c173004d527b2b79aeaa9a2a72dff12c5d304024",
+  "stem": "audio/sfx/clip-01-clean-stem-r001.wav",
+  "stem_sha256": "966028a7c8df72a22f29dd0e97566b6b8b36b9907bdbcd0882f1bdfa7661d917",
+  "sample_rate": 48000,
+  "stem_sample_count": 264000,
+  "native_audio_contribution_samples": 0,
+  "decoded_video_frames_identical": true,
+  "video_frames": 132,
+  "cue_generation": "Explicit recorded physical one-shots when asset_path is set; seeded non-periodic procedural transients only when separately declared. No native soundtrack/music separation, looping or sustained bed.",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/candidates-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "approved",
+      "review_evidence": "audio/sfx/selected-effects-r001.json",
+      "kind": "cloth",
+      "start_seconds": 0.0833333333,
+      "gain_db": -3,
+      "observed_action": "Actual charcoal cuff and mask-holding hand tilt at first-shot frames2–4; no sound assigned to static macro inserts, untouched door or flame.",
+      "start_sample": 4000,
+      "end_sample": 8800
+    }
+  ],
+  "exact_zero_silence_sample_intervals": [
+    [
+      0,
+      4000
+    ],
+    [
+      8800,
+      264000
+    ]
+  ],
+  "personal_listening_claimed": false,
+  "unapproved_preview": false,
+  "limits": "This proves source exclusion and declared silent PCM regions; actual encoded audiovisual release review remains separate."
+}

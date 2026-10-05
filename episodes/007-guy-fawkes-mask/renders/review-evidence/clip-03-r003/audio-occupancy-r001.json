@@ -1,0 +1,28 @@
+{
+  "method": "Decoded48kmono10msRMS above-48dBFS: actual sound-duration evidence, not personal listening or genre classification.",
+  "active_fraction": 0.11583924349881797,
+  "continuous_active_intervals": [
+    [
+      0.65,
+      0.73
+    ],
+    [
+      0.74,
+      0.82
+    ],
+    [
+      1.74,
+      1.89
+    ],
+    [
+      3.04,
+      3.21
+    ],
+    [
+      3.24,
+      3.25
+    ]
+  ],
+  "longest_active_seconds": 0.16999999999999993,
+  "decision": "needs_actual_user_listening"
+}

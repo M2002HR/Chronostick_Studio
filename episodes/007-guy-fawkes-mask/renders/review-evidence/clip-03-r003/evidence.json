@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-05T16:36:34.754295+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-03",
+  "media": "renders/editorial/episode-007-clip-03-powder-watch-r003.mp4",
+  "media_sha256": "8f5187d61ffd2e674069c17770ab676cd9eacc5a75477a6882942fb301f1f504",
+  "actual_frames": 101,
+  "expected_frames": 101,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 6,
+  "planned_cut_frames": [
+    17,
+    30,
+    54,
+    69,
+    85
+  ],
+  "cut_inspection_frames": [
+    16,
+    17,
+    18,
+    29,
+    30,
+    31,
+    53,
+    54,
+    55,
+    68,
+    69,
+    70,
+    84,
+    85,
+    86
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

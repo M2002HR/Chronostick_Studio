@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-05T10:57:28.741237+00:00",
+  "scope": "intake through reviewable scenario/storyboard; does not certify production references, accepted voice, dynamic-duration pilot, jobs, renders or masters",
+  "checks": [
+    {
+      "command": "python3 -m unittest discover -s tests -p test_reference_first.py -v",
+      "result": "passed",
+      "test_count": 10,
+      "api_requests": 0
+    },
+    {
+      "command": "bash scripts/validate-skills.sh",
+      "result": "passed",
+      "skill_count": 26
+    },
+    {
+      "command": "bash scripts/validate-repo.sh",
+      "result": "passed",
+      "warnings": "4 intentionally missing Episode 001 prompts"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    },
+    {
+      "command": "python3 -m py_compile scripts/new-short-episode.py scripts/ajil-transcribe.py scripts/ajil-review-reference.py scripts/validate-reference-first.py tests/test_reference_first.py",
+      "result": "passed"
+    },
+    {
+      "check": "Actual storyboard image/request hashes, decodable PNGs, episode JSON, new episode/prompt whitespace and local secret-leak scan",
+      "result": "passed"
+    }
+  ],
+  "creative_approval": null,
+  "next_gate": "Actual user scenario/storyboard review"
+}

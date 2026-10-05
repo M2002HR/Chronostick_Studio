@@ -1,0 +1,368 @@
+{
+  "job_id": "9e5f5d42-6388-484f-bb95-5ef6dba1d900",
+  "request": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-concat-r001.mp4",
+    "fps": null,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-01-r002-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-02-r003-native-sfx.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-03-r003-native-sfx.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-04-r002-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-05-r002-native-sfx.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-06-r003-clean-sfx-r001.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-concat-r001.mp4"
+  },
+  "resolved_config": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-concat-r001.mp4",
+    "fps": null,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-01-r002-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-02-r003-native-sfx.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-03-r003-native-sfx.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-04-r002-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-05-r002-native-sfx.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/renders/final-selected/clip-06-r003-clean-sfx-r001.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-concat-r001.mp4"
+  },
+  "output_metadata": {
+    "path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-concat-r001.mp4",
+    "format": {
+      "filename": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-concat-r001.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "33.396000",
+      "size": "8521176",
+      "bit_rate": "2041244",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    },
+    "video": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 480,
+      "height": 864,
+      "coded_width": 480,
+      "coded_height": 864,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 30,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "2460672/102527",
+      "time_base": "1/12288",
+      "start_pts": 258,
+      "start_time": "0.020996",
+      "duration_ts": 410108,
+      "duration": "33.374674",
+      "bit_rate": "1968866",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "801",
+      "extradata_size": 49,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    "audio": {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1603008,
+      "duration": "33.396000",
+      "bit_rate": "67712",
+      "nb_frames": "1573",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    "width": 480,
+    "height": 864,
+    "fps": 24.000234084680134,
+    "duration": 33.396,
+    "has_audio": true
+  },
+  "timestamp": "2026-10-05T17:04:34.723330+00:00",
+  "queue_wait_seconds": 0.014,
+  "run_metrics": {
+    "attempts": [
+      {
+        "started_at": "2026-10-05T17:04:34.302537+00:00",
+        "completed_at": "2026-10-05T17:04:34.762348+00:00",
+        "elapsed_seconds": 0.46,
+        "sample_interval_seconds": 2,
+        "sample_count": 2,
+        "system": {
+          "cpu_percent_average": 14.5,
+          "cpu_percent_peak": 14.5,
+          "memory_used_mib_peak": 26971.94921875,
+          "memory_available_mib_min": 4200.00390625,
+          "service_rss_mib_peak": 73.98828125,
+          "load_1m_peak": 1.638671875,
+          "output_disk_free_gib_min": 84.16988372802734
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 17.0,
+            "utilization_percent_peak": 20.0,
+            "memory_used_mib_peak": 15198.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 53.0,
+            "power_w_average": 13.43,
+            "power_w_peak": 13.57,
+            "estimated_energy_wh": 0.002
+          }
+        ],
+        "sample_errors": [],
+        "samples": [
+          {
+            "timestamp": "2026-10-05T17:04:34.347451+00:00",
+            "elapsed_seconds": 0.045,
+            "system_cpu_percent": null,
+            "load_average": [
+              1.60693359375,
+              1.70556640625,
+              1.94580078125
+            ],
+            "memory": {
+              "total_mib": 31171.953125,
+              "available_mib": 4200.00390625,
+              "used_mib": 26971.94921875
+            },
+            "service_rss_mib": 73.66796875,
+            "output_disk_free_gib": 84.17783737182617,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 14.0,
+                "memory_used_mib": 15198.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 53.0,
+                "power_w": 13.57
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-10-05T17:04:34.762076+00:00",
+            "elapsed_seconds": 0.46,
+            "system_cpu_percent": 14.5,
+            "load_average": [
+              1.638671875,
+              1.7109375,
+              1.9462890625
+            ],
+            "memory": {
+              "total_mib": 31171.953125,
+              "available_mib": 4319.59375,
+              "used_mib": 26852.359375
+            },
+            "service_rss_mib": 73.98828125,
+            "output_disk_free_gib": 84.16988372802734,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 20.0,
+                "memory_used_mib": 15198.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 53.0,
+                "power_w": 13.29
+              }
+            ]
+          }
+        ],
+        "attempt": 1
+      }
+    ],
+    "latest": {
+      "started_at": "2026-10-05T17:04:34.302537+00:00",
+      "completed_at": "2026-10-05T17:04:34.762348+00:00",
+      "elapsed_seconds": 0.46,
+      "sample_interval_seconds": 2,
+      "sample_count": 2,
+      "system": {
+        "cpu_percent_average": 14.5,
+        "cpu_percent_peak": 14.5,
+        "memory_used_mib_peak": 26971.94921875,
+        "memory_available_mib_min": 4200.00390625,
+        "service_rss_mib_peak": 73.98828125,
+        "load_1m_peak": 1.638671875,
+        "output_disk_free_gib_min": 84.16988372802734
+      },
+      "gpus": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4060 Ti",
+          "utilization_percent_average": 17.0,
+          "utilization_percent_peak": 20.0,
+          "memory_used_mib_peak": 15198.0,
+          "memory_total_mib": 16380.0,
+          "temperature_c_peak": 53.0,
+          "power_w_average": 13.43,
+          "power_w_peak": 13.57,
+          "estimated_energy_wh": 0.002
+        }
+      ],
+      "sample_errors": [],
+      "samples": [
+        {
+          "timestamp": "2026-10-05T17:04:34.347451+00:00",
+          "elapsed_seconds": 0.045,
+          "system_cpu_percent": null,
+          "load_average": [
+            1.60693359375,
+            1.70556640625,
+            1.94580078125
+          ],
+          "memory": {
+            "total_mib": 31171.953125,
+            "available_mib": 4200.00390625,
+            "used_mib": 26971.94921875
+          },
+          "service_rss_mib": 73.66796875,
+          "output_disk_free_gib": 84.17783737182617,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 14.0,
+              "memory_used_mib": 15198.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 53.0,
+              "power_w": 13.57
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-05T17:04:34.762076+00:00",
+          "elapsed_seconds": 0.46,
+          "system_cpu_percent": 14.5,
+          "load_average": [
+            1.638671875,
+            1.7109375,
+            1.9462890625
+          ],
+          "memory": {
+            "total_mib": 31171.953125,
+            "available_mib": 4319.59375,
+            "used_mib": 26852.359375
+          },
+          "service_rss_mib": 73.98828125,
+          "output_disk_free_gib": 84.16988372802734,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 20.0,
+              "memory_used_mib": 15198.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 53.0,
+              "power_w": 13.29
+            }
+          ]
+        }
+      ],
+      "attempt": 1
+    },
+    "total_attempts": 1
+  }
+}

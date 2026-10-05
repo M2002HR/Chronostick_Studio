@@ -1,0 +1,4 @@
+usage: comfy-video [-h]
+                   {service,doctor,capabilities,validate-config,generate,batch,status,cancel,concat,upscale,upscale-long,pipeline,probe}
+                   ...
+comfy-video: error: unrecognized arguments: --url http://127.0.0.1:8090

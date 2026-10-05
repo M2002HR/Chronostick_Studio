@@ -1,0 +1,15 @@
+{
+  "clip_id": "clip-03",
+  "revision": "r003",
+  "status": "approved_selected_picture_and_native_sfx",
+  "media": "renders/final-selected/clip-03-r003-native-sfx.mp4",
+  "sha256": "8f5187d61ffd2e674069c17770ab676cd9eacc5a75477a6882942fb301f1f504",
+  "source": "renders/editorial/episode-007-clip-03-powder-watch-r003.mp4",
+  "source_sha256": "8f5187d61ffd2e674069c17770ab676cd9eacc5a75477a6882942fb301f1f504",
+  "picture_review": "renders/clip-03-picture-review-r002.json",
+  "sound_reviewer": "user",
+  "user_quote": "فقط اس اف ایکسه",
+  "scope": "Actual native soundtrack of exactly this r003 clip; preserve entire natural SFX, no independent replacement. Does not approve other renders.",
+  "selected_bytes_identical_to_user_listened_source": true,
+  "native_audio_preference": "Applied: user-confirmed clean engine SFX preferred."
+}

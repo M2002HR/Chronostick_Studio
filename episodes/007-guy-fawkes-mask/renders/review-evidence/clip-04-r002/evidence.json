@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-05T15:25:49.278638+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-04",
+  "media": "renders/editorial/episode-007-clip-04-letter-search-arrest-r002.mp4",
+  "media_sha256": "16096eb8893bc8924a2c4a1085a4aa1bdf0b9ec03a528f7995cf9761885efbd1",
+  "actual_frames": 110,
+  "expected_frames": 110,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 7,
+  "planned_cut_frames": [
+    24,
+    45,
+    57,
+    69,
+    88,
+    96
+  ],
+  "cut_inspection_frames": [
+    23,
+    24,
+    25,
+    44,
+    45,
+    46,
+    56,
+    57,
+    58,
+    68,
+    69,
+    70,
+    87,
+    88,
+    89,
+    95,
+    96,
+    97
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

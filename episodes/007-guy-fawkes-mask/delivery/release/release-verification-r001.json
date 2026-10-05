@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "archive": "delivery/release/episode-007-es-release-r001.zip",
+  "bytes": 46648459,
+  "sha256": "7e031f39a71e3f570b5d0b5962c9c67a01ce0327f4b37384408ccfa6d57dcc1c",
+  "checks": [
+    "All15 ZIP entries CRC pass",
+    "Every included payload SHA256 matches saved manifest",
+    "Current video/thumbnail hashes match metadata",
+    "Exact title/description/tag copy files and description Markdown mirror pass"
+  ],
+  "publication_performed": false
+}

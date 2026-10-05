@@ -1,0 +1,24 @@
+{
+  "clip_id": "clip-06",
+  "revision": "r003",
+  "picture_decision": "usable_under_latest_user_quality_policy",
+  "source": "renders/editorial/episode-007-clip-06-symbol-payoff-cta-r003.mp4",
+  "actual_cut_frames": [
+    0,
+    31,
+    46,
+    61,
+    82,
+    106,
+    129
+  ],
+  "planned_shots": 8,
+  "actual_shots": 7,
+  "reviewer": "assistant, all165actualframes reviewed at phone size",
+  "core_result": "Empty retrospective barrels correctly replace revived Fawkes. Three modern masked identities stay stable; no text/fire/explosion/extra people. Openingmodernsymbol,powdercontrast,heldmaskecho,trio and resolved frontalpayoff are present.",
+  "minor_variant": "Final central close shots are merged. Brief painted eye-hole closing at146\u2013151 is a cosmetic mask detail, recorded honestly; under latest user policy it no longer warrants further retries by itself.",
+  "timing_notes": "Powder contrast starts global28.416667s (localframe46), within powder word28.26\u201328.66; heldmask starts29.916667s within m\u00e1scara29.84\u201330.24; finalclose31.875s holds through complete CTA32.3\u201333.28.",
+  "quality_policy": "plan/usable-quality-policy-r001.json",
+  "already_running_repair": "automation/retries/mask-rigidity-r004; select better usable take once complete, no further cosmetic retry.",
+  "audio_decision": "not_yet_reviewed"
+}

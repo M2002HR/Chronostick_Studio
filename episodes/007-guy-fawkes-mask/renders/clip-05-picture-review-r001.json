@@ -1,0 +1,21 @@
+{
+  "clip_id": "clip-05",
+  "picture_decision": "approved_by_assistant_with_recorded_actual_timing_variant",
+  "audio_decision": "needs_actual_user_listening",
+  "source": "renders/editorial/episode-007-clip-05-consequence-and-mask-r002.mp4",
+  "sha256": "d77dc3ee0b6ce2b8c9471bd3fad3624e6577c0d1140bb2013ab34cbf7827c2d8",
+  "reviewer": "assistant, all150editorialframes inspected at phone size",
+  "actual_cut_frames": [
+    0,
+    34,
+    46,
+    57,
+    70,
+    114
+  ],
+  "actual_shots": 6,
+  "planned_shots": 9,
+  "evidence": "renders/review-evidence/clip-05-r002",
+  "notes": "Custody door closes, unlit candle marks the later consequence, intact barrels show failure, blank nonliteral book reveals a painted mask, modern hoodie lifts one mask onto head. Single blue guard identity consistent; no Fawkes alive, gore, text or ignition. Candle starts global21.666667s vsplanned21s, only0.113333s before executed-word endpoint; late but within spoken phrase. Book begins23.166667s withinSiglos. Modern mask covers face aroundglobal25.875s and remains fixed through26.5s. Door/candle/book/hoodie scene changes are clear; no separate pageflip or mask-portrait closeup is claimed.",
+  "native_audio": "34.7percent occupancy and0.86second continuous event are physical-duration evidence only; no music-genre or personal listening claim. Awaitactual user feedback before preferring native versus fallback."
+}

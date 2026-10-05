@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-05T15:42:48.931259+00:00",
+  "status": "technical_clean_sfx_derivative_needs_release_review",
+  "source": "renders/editorial/episode-007-clip-04-letter-search-arrest-r002.mp4",
+  "source_sha256": "16096eb8893bc8924a2c4a1085a4aa1bdf0b9ec03a528f7995cf9761885efbd1",
+  "output": "renders/audio-corrected/episode-007-clip-04-r002-clean-sfx-preview-r001.mp4",
+  "output_sha256": "f71d7fdf50bc28a166a97041f66486bc61e928d0b1226c15f2ec972e6b17dbb0",
+  "plan_sha256": "4770ab733932300db16ada5898c1e2d73867217d13dfffb9a987c08c3b0add59",
+  "stem": "audio/sfx/clip-04-clean-stem-preview-r001.wav",
+  "stem_sha256": "d9bf4494206e045eaaa042d055252ccb200c8a7aee863a6e40947157341ddbea",
+  "sample_rate": 48000,
+  "stem_sample_count": 220000,
+  "native_audio_contribution_samples": 0,
+  "decoded_video_frames_identical": true,
+  "video_frames": 110,
+  "cue_generation": "Explicit recorded physical one-shots when asset_path is set; seeded non-periodic procedural transients only when separately declared. No native soundtrack/music separation, looping or sustained bed.",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/candidates-r001/paper-short-r001.wav",
+      "asset_sha256": "52b363d47b03c4a496dc5fab9bf5a19b71c2ae421bf3a37a27c8083320fac39e",
+      "review_status": "needs_actual_sound_review",
+      "review_evidence": "audio/sfx/candidates-r001/manifest.json",
+      "kind": "paper",
+      "start_seconds": 0.79,
+      "gain_db": 0,
+      "observed_action": "Actualsenderrelease and foldedpaperhandoff aroundframe19",
+      "start_sample": 37920,
+      "end_sample": 42720
+    },
+    {
+      "asset_path": "audio/sfx/candidates-r001/metal-short-r001.wav",
+      "asset_sha256": "01ea8cf947b03789cfaf3c5ffb34fe5dac310ce60586c81c48512a29a6069cc0",
+      "review_status": "needs_actual_sound_review",
+      "review_evidence": "audio/sfx/candidates-r001/manifest.json",
+      "kind": "metal",
+      "start_seconds": 2.79,
+      "gain_db": 0,
+      "observed_action": "Actualironsinglelantern-handle motion afterframe66",
+      "start_sample": 133920,
+      "end_sample": 138240
+    },
+    {
+      "asset_path": "audio/sfx/candidates-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "needs_actual_sound_review",
+      "review_evidence": "audio/sfx/candidates-r001/manifest.json",
+      "kind": "cloth",
+      "start_seconds": 4.25,
+      "gain_db": 0,
+      "observed_action": "Actualoneblueguardhandcloses onFawkesbrown sleeve aroundframe102",
+      "start_sample": 204000,
+      "end_sample": 208800
+    }
+  ],
+  "exact_zero_silence_sample_intervals": [
+    [
+      0,
+      37920
+    ],
+    [
+      42720,
+      133920
+    ],
+    [
+      138240,
+      204000
+    ],
+    [
+      208800,
+      220000
+    ]
+  ],
+  "personal_listening_claimed": false,
+  "unapproved_preview": true,
+  "limits": "This proves source exclusion and declared silent PCM regions; actual encoded audiovisual release review remains separate."
+}

@@ -1,0 +1,16 @@
+{
+  "reviewer": "user (actualpicture and cleanSFXpreview) + assistant (frame/provenance checks)",
+  "approved_at": "2026-10-05T15:52:40.917635+00:00",
+  "scope": "This clip04picture+independentfallback sound only",
+  "picture_user_quote": "انیمیشنش خوبه",
+  "sound_decision": "plan/native-sfx-priority-r001.json",
+  "selected": "renders/final-selected/clip-04-r002-clean-sfx-r001.mp4",
+  "sha256": "f71d7fdf50bc28a166a97041f66486bc61e928d0b1226c15f2ec972e6b17dbb0",
+  "source": "renders/audio-corrected/episode-007-clip-04-r002-clean-sfx-preview-r001.mp4",
+  "source_sidecar": "renders/audio-corrected/episode-007-clip-04-r002-clean-sfx-preview-r001.clean-sfx.json",
+  "frames": 110,
+  "native_audio_contribution_samples": 0,
+  "source_music_status": "Native r002 track rejectedbyuser; selectedderivative completely excludesit",
+  "selected_audio": "ThreeactualrecordedCC0 shortphysical one-shots; exactsilence outsidecuewindows",
+  "remaining_clips": "NativeSFXpreferwhereactuallyclean; no blanketreplacement orapproval."
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-05T17:02:26.174984+00:00",
+  "clip_id": "clip-05",
+  "revision": "r002",
+  "status": "approved_selected_picture_and_native_sfx",
+  "media": "renders/final-selected/clip-05-r002-native-sfx.mp4",
+  "sha256": "d77dc3ee0b6ce2b8c9471bd3fad3624e6577c0d1140bb2013ab34cbf7827c2d8",
+  "source": "renders/editorial/episode-007-clip-05-consequence-and-mask-r002.mp4",
+  "source_sha256": "d77dc3ee0b6ce2b8c9471bd3fad3624e6577c0d1140bb2013ab34cbf7827c2d8",
+  "picture_review": "renders/clip-05-picture-review-r001.json",
+  "sound_reviewer": "user",
+  "user_quote": "فقط SFX",
+  "scope": "Actual native audio of this exact r002 clip; preserve original synchronized engine SFX. Does not approve other clips or final mix.",
+  "selected_bytes_identical_to_user_listened_source": true,
+  "native_audio_preference": "User-confirmed clean native engine SFX preserved."
+}

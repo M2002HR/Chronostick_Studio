@@ -1,0 +1,13 @@
+{
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf",
+  "source_sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+  "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+  "license": "SIL-OFL-1.1",
+  "license_sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+  "font_path": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+  "font_sha256": "a43fe47df9f4474c78defcd15404968b354ab748055484b8313f42879c7d62cd",
+  "family": "Montserrat",
+  "face": "Bold",
+  "weight": 700,
+  "processing": "Static700-weight instance of official Google Fonts variable source; no outline or glyph edits"
+}

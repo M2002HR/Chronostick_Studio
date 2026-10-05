@@ -1,0 +1,1 @@
+[0:a]apad,atrim=duration=33.375,asetpts=PTS-STARTPTS[voice];[1:a]atrim=start=0:duration=33.375,asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,volume=0dB,adelay=0S:all=1,apad,atrim=duration=33.375[t1];[voice][t1]amix=inputs=2:duration=longest:normalize=0,atrim=duration=33.375[mix]

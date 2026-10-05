@@ -1,0 +1,8 @@
+{
+  "evidence": "video-review-text-r001.md",
+  "provider": "gemini",
+  "role": "supplementary machine review",
+  "visual_discrepancy": "It repeats all nine planned exact cut times, but direct inspection of110actualframes shows seven shot states at frames0,31,50,65,77,90,104. Not reliablecut evidence.",
+  "audio": "Model reports continuous music, consistent with actual user report, but claimed exact cue times mirror suppliedprompt. User listening is primary rejection authority; machine text not standalone proof or personalhearing.",
+  "fix": "Futuremedia-onlyaudit omits generationprompt and planned timings."
+}

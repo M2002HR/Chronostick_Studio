@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-05T11:12:59.016890+00:00",
+  "scope": "Google Vids registered-tag paste input and workflow integration",
+  "checks": [
+    {
+      "command": "python3 -m unittest discover -s tests -p 'test_*.py' -v",
+      "status": "passed",
+      "test_count": 15
+    },
+    {
+      "command": "bash scripts/validate-skills.sh",
+      "status": "passed",
+      "skill_count": 27
+    },
+    {
+      "command": "bash scripts/validate-repo.sh",
+      "status": "passed",
+      "warnings": "4 intentionally missing Episode 001 prompts"
+    },
+    {
+      "command": "git diff --check",
+      "status": "passed"
+    },
+    {
+      "check": "New voice/helper/skill files whitespace and Python compile",
+      "status": "passed"
+    }
+  ],
+  "voice_script_validation": "script/voice-direction-validation-r001.json",
+  "actual_voice_accepted": false,
+  "next_action": "User generates audio from the tagged Google Vids paste input; review it before Ajil voice transcription"
+}

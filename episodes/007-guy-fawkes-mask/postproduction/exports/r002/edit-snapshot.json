@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "picture": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+  "picture_sha256": "ef121e42d2a4e45262a33024d176d95d0fe55de5bbb7ccdd7092071ddc931454",
+  "narration": {
+    "path": "audio/narration-es-r001.wav",
+    "sha256": "f9a7e873c38baf9280804625de4e5f00cfe5ea73f2bbc3e69c38ca21e740a376",
+    "offset_seconds": 0
+  },
+  "timing": {
+    "path": "timestamps/word-timestamps-normalized.csv",
+    "sha256": "646b5a5f665cd2b2a93bb99ab772c39e6bb3d926afc6a03c5b6d0abae80d7526",
+    "source_voice_sha256": "f9a7e873c38baf9280804625de4e5f00cfe5ea73f2bbc3e69c38ca21e740a376"
+  },
+  "native_audio": {
+    "mode": "preserve",
+    "gain_db": 0,
+    "review_evidence": "renders/selection-manifest.json",
+    "note": "Exact selected native02/03/05 and approved recorded fallback01/04/06; aligned once in the clean master, no contaminated originals."
+  },
+  "tracks": [],
+  "external_music_allowed": false,
+  "captions": {
+    "profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+    "font_size": 80,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 300,
+    "outline": 2,
+    "shadow": 2,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 4,
+    "max_cue_seconds": 1.8,
+    "break_gap_seconds": 0.3,
+    "max_lines": 1
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbtp": -1.5,
+    "lra": 11
+  },
+  "encoding": {
+    "crf": 16,
+    "preset": "fast",
+    "threads": 8
+  },
+  "audio_language_iso639_2": "spa",
+  "output_stem": "mascara-guy-fawkes-complot-1605-es-007",
+  "review_status": "needs_user_review_of_short_specific_caption_revision"
+}

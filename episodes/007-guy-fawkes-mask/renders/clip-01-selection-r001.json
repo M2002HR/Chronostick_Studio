@@ -1,0 +1,16 @@
+{
+  "clip_id": "clip-01",
+  "status": "selected_by_assistant_picture_and_technical_sfx_review",
+  "source_revision": "r002",
+  "media": "renders/final-selected/clip-01-r002-clean-sfx-r001.mp4",
+  "sha256": "874307c5cc5be29878d27820243a5bbf51f2ee22f9defb7083845223cfa91533",
+  "editorial_frames": 132,
+  "picture_review": "renders/clip-01-picture-review-r001.json",
+  "timing_review": "renders/timing-audit-r002.json",
+  "native_audio_decision": "excluded_completely_after_actual_sustained_audio_failure",
+  "source_audio_review": "renders/review-evidence/clip-01-r002/audio-occupancy-r001.json",
+  "cue_source_review": "audio/sfx/selected-effects-r001.json",
+  "placement_review": "plan/clip01-clean-sfx-r001.json",
+  "frame_preservation_proof": "renders/audio-corrected/episode-007-clip-01-r002-clean-sfx-r001.clean-sfx.json",
+  "release_listening": "Not claimed; full encoded release review remains separate."
+}
