@@ -11,6 +11,9 @@ __pycache__/
 .env.*
 !.env.example
 
+# Local delivery archives must never be committed.
+*.[zZ][iI][pP]
+
 # Video files are large, revisioned production artifacts and must remain local,
 # regardless of which repository directory contains them.
 *.[mM][pP]4
@@ -50,3 +53,7 @@ logs/*.log
 
 # Local automation service database; generated at runtime, not episode provenance.
 /state/
+
+# Lossless finishing stems and locally installed commercial fonts stay local.
+episodes/*/postproduction/exports/*/*.flac
+episodes/*/postproduction/exports/*/fonts/

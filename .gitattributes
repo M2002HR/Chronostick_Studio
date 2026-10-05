@@ -18,3 +18,11 @@ episodes/006-shortest-war-ever/timestamps/word-timestamps-provider-raw.csv -text
 episodes/006-shortest-war-ever/timestamps/word-timestamps-source.csv -text whitespace=cr-at-eol
 
 episodes/006-shortest-war-ever/source/reference-video/the-shortest-war-ever-transcript.txt -text
+
+# Preserve immutable provider timing and downloaded evidence byte-for-byte.
+episodes/*/timestamps/**/*.csv -text whitespace=cr-at-eol
+episodes/*/source/reference-video/transcription/*.csv -text whitespace=cr-at-eol
+episodes/*/timestamps/ajil/*response*.json -text
+episodes/*/source/reference-video/transcription/*response*.json -text
+episodes/*/audio/sfx/sources/*.html -text -whitespace
+episodes/*/renders/**/*.provider.json -text -whitespace
