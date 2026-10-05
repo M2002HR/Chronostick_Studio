@@ -1,0 +1,17 @@
+{
+  "number": 50,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-050-shot-r004.mp4",
+  "source_sha256": "75b0b3bd677b2126dc2eead6084736900af8d8bccb790a40e09d018fc85dd48c",
+  "pcm_sha256": "01bdfa933952bf6a5771682e40ee5f04e447666dcd89e04ab51ef468d45245a8",
+  "peak_pcm16": 2020,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, high-pitched, somewhat ethereal musical tone is present. There are no distinct melodies or rhythms, just a continuous, unchanging sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

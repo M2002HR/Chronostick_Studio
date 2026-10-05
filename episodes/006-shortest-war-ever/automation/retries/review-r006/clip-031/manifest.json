@@ -1,0 +1,30 @@
+{
+  "number": 31,
+  "decision": "revise_prompt",
+  "reason": "At2.375s extreme chest crop cuts the cream scroll almost completely out of frame; held-message action becomes unreadable.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-031.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r005.mp4",
+  "baseline_sha256": "a5cd51c994fa6f0b70faab9647c4d5a2cb8afadff5a4f84aa85c52f4b09a51e6",
+  "reviewed_at": "2026-10-03T18:52:36.172823+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 4618680303675549562,
+  "previous_seed": 8900166919952576624,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-031/prompts/clip-031.md",
+  "prompt_sha256": "a2713db71ccdb964443201bcb401ad3fc55c324dc2a1e64af31bf017ad910b05",
+  "job": "006-shortest-war-ever:clip-031:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+      "sha256": "9aa801eeacbec66ad150d8f6cc80f3b9690e42f02703ed4576c24aa67729f32a"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "44592ea9-3615-496c-8c51-5cf44168f2cc",
+  "job_ids": [
+    "f0bc0118-41e2-4edb-88e1-9fb461d8c500"
+  ],
+  "submitted_at": "2026-10-03T18:52:36.281649+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-031.jpg"
+}

@@ -1,0 +1,17 @@
+{
+  "number": 23,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r004.mp4",
+  "source_sha256": "26a2e2939171da6703d119eea6c7da1cc7ea4f5177423e8e2475a823bce0a8ac",
+  "pcm_sha256": "72e2087c77b9a909606e81b80c56ffac02e49d714bd50d64ce49cbe21811ac8f",
+  "peak_pcm16": 15007,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thunk' sound is heard, followed by a brief silence. Then, a short, melodic, and somewhat melancholic musical phrase plays, featuring what sounds like a plucked string instrument or a music box. There is no speech.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

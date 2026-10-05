@@ -1,0 +1,30 @@
+{
+  "number": 2,
+  "decision": "revise_prompt",
+  "reason": "At 2.25–4.96s the loose shoe is stacked above the worn shoe while a second foot is already shod; intended bare foot/held empty shoe relation is lost.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-002.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r004.mp4",
+  "baseline_sha256": "5e2fea6aa3912a306158bc3244bb80bcc2404036fadb6cae6003aad085e70e71",
+  "reviewed_at": "2026-10-03T18:43:52.223571+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 6163882181954358151,
+  "previous_seed": 5798604692037920003,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-002/prompts/clip-002.md",
+  "prompt_sha256": "3ee5af0dc073653edd2072f9b3830fe0412e1e56937e8257465ff4d1c4bbb4e5",
+  "job": "006-shortest-war-ever:clip-002:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+      "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "5ca450b8-6b5e-4eb9-b91b-837a25021973",
+  "job_ids": [
+    "7dd214cd-6843-4a94-b2c2-b910e1485499"
+  ],
+  "submitted_at": "2026-10-03T18:43:52.363494+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-002.jpg f54–119"
+}

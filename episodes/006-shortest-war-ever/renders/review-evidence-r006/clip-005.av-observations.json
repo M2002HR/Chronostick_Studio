@@ -1,0 +1,63 @@
+{
+  "number": 5,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-005-shot-r004.mp4",
+  "source_sha256": "c6a4e5867c79ae713b4e3bf7f3dc6ad808e17c4f10337f10b6366c48a7b377be",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "issue": "Khalid's head and body morph and shift position slightly, and his expression changes from thoughtful to neutral, which is not 'unchanged scene'.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.8,
+        "end": 3.5,
+        "issue": "Khalid does not glance at the clock. He shifts his weight, his head bobs, and his expression changes, but his gaze remains forward.",
+        "severity": "major"
+      },
+      {
+        "start": 3.5,
+        "end": 5.0,
+        "issue": "Khalid's head bobs and his expression changes slightly, which is not a 'resolved scene' or 'hold'.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A single mechanical tick at 0.00s, followed by silence. A bird chirps at 0.02s, 0.03s, and 0.04s.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "description": "mechanical tick"
+        },
+        {
+          "start": 0.02,
+          "end": 0.02,
+          "description": "bird chirp"
+        },
+        {
+          "start": 0.03,
+          "end": 0.03,
+          "description": "bird chirp"
+        },
+        {
+          "start": 0.04,
+          "end": 0.04,
+          "description": "bird chirp"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the intended action and hold states. Khalid does not glance at the clock as requested, and there are minor morphing and shifting issues throughout the 'unchanged' and 'resolved' scene segments. The audio includes bird chirps not specified in the prompt, in addition to the requested mechanical tick."
+  }
+}

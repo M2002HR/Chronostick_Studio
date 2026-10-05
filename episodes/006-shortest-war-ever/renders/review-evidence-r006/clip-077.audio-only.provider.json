@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A train is heard, with a distinct 'clackety-clack' sound of its wheels on the tracks. There is also a continuous, low-frequency rumble, likely from the train's movement. No speech or music is present.\",\n  \"speech\": false,\n  \"exact_words\": \"\",\n  \"music\": false,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": true,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 109,
+    "totalTokenCount": 349,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "zVTBapCpFPXl7M8P9d2FuAo"
+}

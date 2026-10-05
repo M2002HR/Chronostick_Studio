@@ -1,0 +1,12 @@
+{
+  "number": 14,
+  "source": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-014-map-r005.mp4",
+  "source_sha256": "cd22feae3bdaf50fdebd51a126b1eb28683ded51a529d908e8dd3415fb6791c7",
+  "pcm_sha256": "e2d88f07a61e95aac4c0f3180e835d85ee26ae3b66dd81f71639abc59ad8a803",
+  "peak_pcm16": 0,
+  "status": "verified_digital_silence",
+  "music": false,
+  "speech": false,
+  "tonal_bed": false,
+  "heard": "All decoded audio samples are zero."
+}

@@ -1,0 +1,17 @@
+{
+  "number": 68,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r004.mp4",
+  "source_sha256": "136ae8a136696f9203684ead890ef0af57be6f0d3e8671d92d78f6471dab30ae",
+  "pcm_sha256": "d2489dcb7e490f8dcfc4e8291e55aa5fb7d13489bdecd13aeafc50059d9f5542",
+  "peak_pcm16": 4608,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, distinct chime or bell sound, followed by a brief period of silence, then the faint chirping of crickets. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

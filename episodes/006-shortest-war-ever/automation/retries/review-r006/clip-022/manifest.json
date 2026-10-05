@@ -1,0 +1,30 @@
+{
+  "number": 22,
+  "decision": "revise_prompt",
+  "reason": "Second shot invents a ship full of foreground people with giant heads, violating nearest-bow-only reference coverage.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-022.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r004.mp4",
+  "baseline_sha256": "55c0ba444e06deab928e686518b7dcedaf8e1e56b9fb02b32c36f4d4f29606bf",
+  "reviewed_at": "2026-10-03T18:49:28.633155+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 7208152622199191977,
+  "previous_seed": 6983847242862435404,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-022/prompts/clip-022.md",
+  "prompt_sha256": "3508289e85f6ac5412f7159ba46b75016bb11965d5c2afe45752990ae87660c5",
+  "job": "006-shortest-war-ever:clip-022:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+      "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "969a1e9b-88e4-46d1-b1ec-096239be40e2",
+  "job_ids": [
+    "704703af-7ab0-4412-a60c-53a22de66d90"
+  ],
+  "submitted_at": "2026-10-03T18:49:28.747521+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-022.jpg f53–119"
+}

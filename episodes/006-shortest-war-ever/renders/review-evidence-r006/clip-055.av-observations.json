@@ -1,0 +1,144 @@
+{
+  "number": 55,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r005.mp4",
+  "source_sha256": "bce1662acf5437efb5424cb6375dae1658e38dad404e609f2611e8a05600f133",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The British flag on the ship in the mid-ground is replaced with an American flag. The flag on the palace is also changed from green to a different green with a white symbol.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Rawson's left hand is missing from the binoculars.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The paper on the railing is missing.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Rawson's uniform has a belt and a sword/scabbard that are not present in the reference image.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The ship's rigging behind Rawson is missing.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The palace architecture is altered, with some windows and details changed.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The water texture and reflections are different from the reference.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The clouds in the sky are different from the reference.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The British flag on the ship in the mid-ground is replaced with an American flag. The flag on the palace is also changed from green to a different green with a white symbol.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Rawson's left hand is missing from the binoculars.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The paper on the railing is missing.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Rawson's uniform has a belt and a sword/scabbard that are not present in the reference image.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The ship's rigging behind Rawson is missing.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The palace architecture is altered, with some windows and details changed.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The water texture and reflections are different from the reference.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The clouds in the sky are different from the reference.",
+        "severity": "minor"
+      },
+      {
+        "start": 3.75,
+        "end": 4.9,
+        "issue": "A cannon firing effect and smoke appear from the ship in the mid-ground, which contradicts the prompt's instruction of 'no cannon flash, blast, battle smoke, damage or firing order'.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A single, short, sharp 'thump' sound, followed by a loud cannon blast and a 'whoosh' sound.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.75,
+          "description": "Silence"
+        },
+        {
+          "start": 3.75,
+          "end": 3.85,
+          "description": "Short 'thump' sound"
+        },
+        {
+          "start": 4.0,
+          "end": 4.9,
+          "description": "Loud cannon blast and 'whoosh' sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the reference image in several key aspects, including flag identities, Rawson's hand position, the presence of a paper on the railing, and details of Rawson's uniform and the ship's rigging. The palace architecture, water, and clouds also show minor deviations. Critically, the animation includes a cannon firing effect and associated sound, directly violating the prompt's explicit instruction against any pre-battle action or damage. The audio also includes a cannon blast, which is not compliant with the prompt's request for a single small cloth, water, or masonry sound."
+  }
+}

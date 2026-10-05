@@ -1,0 +1,2425 @@
+{
+  "id": "95be9ef1-db4f-485c-bba7-24fb4ab1f822",
+  "status": "queued",
+  "created_at": "2026-10-04T03:24:54.488644+00:00",
+  "updated_at": "2026-10-04T03:24:54.488644+00:00",
+  "error_json": null,
+  "metrics_json": null,
+  "request": {
+    "jobs": [
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-002.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 6163882181954358151,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-002-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-002:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-004.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 3147562331209331462,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-004-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-004:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-007.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 3851639468019452186,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-007-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-007:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-010.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 2928344508585080636,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-010-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-010:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-012.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 9011901976467369857,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-012-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-012:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-013.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 8328919275203799420,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-013-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-013:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-015.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 8625710823919398761,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-015-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-015:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-017.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 1336908119407528091,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-017-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-017:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-019.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 4345754132354453851,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-019-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-019:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-022.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 7208152622199191977,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-022-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-022:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-025.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 3110851343791805544,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-025-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-025:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-031.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 4618680303675549562,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-031-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-031:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-032.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 7597995768285970614,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-032-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-032:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-033.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 1019760120684584740,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-033-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-033:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-034.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 4079899827098710947,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-034-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-034:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-035.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 2035173174357678067,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-035-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-035:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-036.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 5796486122309733778,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-036-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-036:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-037.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 41351785065304866,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-037-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-037:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-045.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 2555681644079120112,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-045-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-045:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-047.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 8780210556760100772,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-047-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-047:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-058.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 5385514967370872332,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-058-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-058:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-062.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 8120151602235812612,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-062-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-062:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-063.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 440285204768587930,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-063-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-063:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-067.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 4563670679901105828,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-067-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-067:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-070.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-stern-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 3845681940732665235,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-070-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-070:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-072.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 4585820001343620851,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-072-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-072:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-073.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 4394363298881589881,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-073-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-073:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-077.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 5135651508952306963,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-077-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-077:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-078.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 2717500746477058768,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-078-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-078:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-080.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 5022782552429652547,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-080-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-080:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-081.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 7734769441425546765,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-081-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-081:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-082.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0900-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 3844396634229154876,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-082-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-082:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-093.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 9059622211159557714,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-093-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-093:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-094.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 7034138130607491514,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-094-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-094:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-095.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 6302835599183895452,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-095-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-095:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-097.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 867464484341946885,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-097-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-097:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-103.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 6109411393095180505,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-103-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-103:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-105.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 5955589117614390943,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-105-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-105:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-110.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 5244368590972159851,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-110-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-110:r008:20step-same-r006-seed"
+      },
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-126.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 20,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 7302927968861061754,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-126-shot-r008",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-126:r008:20step-same-r006-seed"
+      }
+    ],
+    "settings": {
+      "continue_on_error": true,
+      "stop_on_error": false,
+      "max_retries": 1,
+      "concat_on_complete": false,
+      "upscale_on_complete": false,
+      "output": null
+    }
+  },
+  "job_ids": [
+    "e6120e46-9147-4602-960f-9c3e33b0cf34",
+    "b15b6427-804f-48f9-96dd-4fc09113bb2e",
+    "6b2847fc-75c8-4f16-af48-ff3e0185510a",
+    "8614ee82-919c-45cd-a152-14b12bbcd7df",
+    "a9a42449-c762-4065-8cbd-350da9553bc7",
+    "358e096a-3940-4904-8214-ae5ccc16219b",
+    "e436070b-9a7f-4c19-b42f-d3dd21506a15",
+    "cfecb5cf-eb8f-4ef6-981c-b98f8077e628",
+    "1f34f3a4-d0ec-4b1b-9459-70aa4c6793a2",
+    "b0aca67a-f0da-45fb-a525-221fc601ffb3",
+    "712cd6b6-af4a-4b61-8bf5-46999e85b3e9",
+    "6a232474-7da3-4690-9878-d2740e3cf9c8",
+    "ce456e82-00b3-48f3-b924-8fec5b6d9ff0",
+    "c2d5f695-ac68-44da-afec-a7b9c5382e43",
+    "0edf34c2-31be-4ad1-80ce-0b1be3f9a7c1",
+    "b21e338b-d25a-4325-8655-f1229934173e",
+    "a6867a34-ad6d-401c-9288-1bd4f87c66a9",
+    "c6c81d9f-1bfd-4a01-8cb1-014987538ff3",
+    "b8a75f30-6188-4b9f-b945-8c700e814d45",
+    "446d9527-04bc-4ea8-8c23-679b9ec00a9e",
+    "df806f54-6ff6-4b21-ab4d-d4d274d5af72",
+    "725e044a-f508-4e86-b96f-685b13f68723",
+    "1a8babfe-8336-449e-8424-721d86083a07",
+    "d23bd88b-a4cc-4e72-88c4-86a851a17167",
+    "a6f72edd-ec4b-4fb7-9704-f5584a03834c",
+    "a732469d-1e9e-42e2-9f9b-e30455be4166",
+    "0f68c496-330d-45d2-abfd-ca3db1aaa0bc",
+    "053e0522-429d-43a8-8531-904d6eb7fd74",
+    "b4ec21ee-da1d-4e4d-b960-18f9d7d35894",
+    "bc351d15-6d3b-4027-8f6b-6cedf3efcf57",
+    "65872bdc-da14-474b-9eed-8968bd601800",
+    "3051e2e7-ada9-4ffa-8b69-13f328af1f7f",
+    "6299e2ce-c592-475e-a817-e0347a9cfffc",
+    "a939c60c-ecb1-4bb2-b569-3228edabb884",
+    "761a4037-b570-45dd-9459-902c71adbeff",
+    "b4e7ef88-063f-4a2a-855d-d9d58ed8d6bd",
+    "7491a830-bff1-4321-b012-2b9e780b0914",
+    "f84b85a3-7e90-4711-a92f-15d8c9b88ed5",
+    "206c3f7e-7c26-4b31-896d-e6eccd9748a4",
+    "ceb0121e-027a-4669-a312-a57d20f37517"
+  ],
+  "output_files": [],
+  "error": null,
+  "metrics": null
+}

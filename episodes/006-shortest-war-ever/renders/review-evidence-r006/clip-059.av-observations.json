@@ -1,0 +1,61 @@
+{
+  "number": 59,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r004.mp4",
+  "source_sha256": "bb8ef50dc6c4a4da60ac660bb695fa6d0b6db27bcd0387416dc9d681113acc2d",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "issue": "Khalid's costume color is teal/green instead of the reference image's maroon/red. This is a major identity mismatch.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "issue": "Khalid's pose is different from the reference image. He is standing with hands on hips instead of hand to chin.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.8,
+        "end": 3.5,
+        "issue": "Khalid does not give the placard a focused glance; his head remains fixed forward.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The animation is not a continuous locked shot. There is a slight camera shake throughout the entire duration.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "Two distinct mechanical ticks, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.79,
+          "end": 0.99,
+          "description": "mechanical tick"
+        },
+        {
+          "start": 1.79,
+          "end": 1.99,
+          "description": "mechanical tick"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [],
+    "final_resolved": false,
+    "exact_text_seen": [
+      "08:00"
+    ],
+    "summary": "The animation fails to match the reference image for Khalid's costume color and initial pose. The specified action of Khalid giving the placard a focused glance does not occur. The camera is not locked as requested, exhibiting a slight shake. The audio contains two mechanical ticks, while the prompt requested only one. The text '08:00' is correctly displayed and stable."
+  }
+}

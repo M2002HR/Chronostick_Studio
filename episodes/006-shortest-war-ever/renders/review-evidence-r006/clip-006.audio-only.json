@@ -1,0 +1,17 @@
+{
+  "number": 6,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r004.mp4",
+  "source_sha256": "f84a218fd7b4e416a1bcd34c857e76cbe1db5ef9ae0634df5ecc7cc0066ebde1",
+  "pcm_sha256": "fddebb5e4f445e03d27fb0ec557d42b06ab0e5b31a6f70b69c170ac4cc6c5684",
+  "peak_pcm16": 7046,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A male voice is speaking in a language other than English. There is a slight echo, and a continuous, low-level ambient hum is present throughout the audio.",
+    "speech": true,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

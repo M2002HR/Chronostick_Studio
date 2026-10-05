@@ -1,0 +1,17 @@
+{
+  "number": 107,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r004.mp4",
+  "source_sha256": "7cf0da9f132bcdb14f08578c4e0c71ea05b44a64b1ca284fffa107d43c39a7b3",
+  "pcm_sha256": "08122b33de6aec00949448079f96306b0b66171d3d42571bbe5010aa5680642e",
+  "peak_pcm16": 5159,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A wind instrument, possibly a flute or recorder, plays a melodic, somewhat mournful tune. There is a continuous, subtle ambience in the background.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

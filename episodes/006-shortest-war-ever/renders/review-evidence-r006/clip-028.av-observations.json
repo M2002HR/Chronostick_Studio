@@ -1,0 +1,50 @@
+{
+  "number": 28,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r005.mp4",
+  "source_sha256": "c84085dd11c9ed9daac1247d7dd89bebb2bbf1e5c79f739088d9ffdd7be0e4b5",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The basket holder (trader on the left) does not make any adjustment to the basket. The action is unreadable.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The camera is not locked; it slowly zooms in during the first shot.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; it slowly zooms in during the second shot.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A brief, isolated, high-pitched string pluck sound, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "description": "String pluck sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to execute the specified action of the basket holder making an adjustment. The camera also fails to remain locked in both shots, exhibiting a slow zoom. The audio contains a single string pluck sound, which does not match the requested 'small cloth, water or masonry sound appropriate to the single declared action'."
+  }
+}

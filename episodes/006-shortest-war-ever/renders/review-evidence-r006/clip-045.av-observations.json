@@ -1,0 +1,61 @@
+{
+  "number": 45,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r004.mp4",
+  "source_sha256": "bef9a4ac6f3fba33085b6ad9049115d5c34c3f31323be5efe4e7ad7226e5868c",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Hamoud does not stand at the left of the throne; he is leaning on it. His green sash is not clearly readable as it is partially obscured by his arm and the throne. The action is not completed and settled by 2.10s; he is still moving and changing expression.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The scene is not a tighter crop of the same ivory turban, green sash, and existing throne arm. Instead, a new character's arm and part of their body appear on the left side of the frame, pulling on Hamoud's sash. This introduces a new person and action not supported by the anchor or allowed by the prompt.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "Hamoud's expression changes from angry to sad/confused, which is not a 'tiny eyebrow, cloth or water adjustment' and implies a narrative not in the prompt.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'Hamoud stands at left of the throne' and 'Show the already completed action's resulting state'. The animation shows Hamoud leaning on the throne and then interacting with another character, which is a different action and state.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A soft cloth or parchment movement is heard at 0.00s, followed by silence. Then, a sustained tonal bed with music starts at 0.00s and continues throughout the clip.",
+      "music": true,
+      "speech": false,
+      "tonal_bed": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "description": "Soft cloth or parchment movement"
+        },
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "description": "Sustained tonal bed with music"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the intended action and composition. Hamoud does not stand as instructed, and a new character is introduced, which is a major deviation. The audio also includes continuous music and a tonal bed, directly violating the prompt's instruction for 'silence between isolated effects; no sustained ambience or tonal bed'."
+  }
+}

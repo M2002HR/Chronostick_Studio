@@ -1,0 +1,17 @@
+{
+  "number": 28,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r005.mp4",
+  "source_sha256": "c84085dd11c9ed9daac1247d7dd89bebb2bbf1e5c79f739088d9ffdd7be0e4b5",
+  "pcm_sha256": "3a69f36b8bf7f6311ada9d67cd43a18e25ed8581a121ead47449fe6578887057",
+  "peak_pcm16": 17921,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, distinct, low-pitched musical note, possibly from a string instrument or synthesizer, followed by a brief silence.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

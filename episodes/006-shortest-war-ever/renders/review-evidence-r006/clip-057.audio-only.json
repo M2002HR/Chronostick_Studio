@@ -1,0 +1,17 @@
+{
+  "number": 57,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-057-shot-r004.mp4",
+  "source_sha256": "00806e7ae90626a867b100bb09dae4f4d011c894311b274acd855b7c305739f4",
+  "pcm_sha256": "0f7548bae92d383a9c7f847bf12cfde48e54bca8ac97d363a1c98789a55cb95d",
+  "peak_pcm16": 8009,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'plink' sound, followed by the continuous gurgling of water. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

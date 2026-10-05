@@ -1,0 +1,30 @@
+{
+  "promptFeedback": {
+    "blockReason": "OTHER"
+  },
+  "usageMetadata": {
+    "promptTokenCount": 17724,
+    "totalTokenCount": 17724,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1262
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "kk7BatqAEL-9vdIPxsqq2Qg"
+}

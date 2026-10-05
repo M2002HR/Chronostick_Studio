@@ -1,0 +1,17 @@
+{
+  "number": 12,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r005.mp4",
+  "source_sha256": "aa28177a51fc428734e44b946f399582abd7278bf44d5760fd54ef21806fd31c",
+  "pcm_sha256": "c9961c7b8dfb66b836cc8c2308d93f0f588c1a0cb8b5ec460104487bd8d4425c",
+  "peak_pcm16": 25389,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a brief silence, and then a loud, sustained 'boom' with a reverberating quality. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

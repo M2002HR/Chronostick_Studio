@@ -1,0 +1,17 @@
+{
+  "number": 63,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r004.mp4",
+  "source_sha256": "5918e5a1047aad5478bd2bcfcd4905d8e9977fa9b4df0c8806d5c95429de0999",
+  "pcm_sha256": "6e2af6c6bfbbf16aedddae7a691e167d4878e31f804bca1385bfff01f2a58084",
+  "peak_pcm16": 1658,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'clunk' sound is heard, followed by a brief period of silence, and then another 'clunk'. There is no speech or music. The ambience is not continuous.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

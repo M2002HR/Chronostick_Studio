@@ -1,0 +1,17 @@
+{
+  "number": 25,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r004.mp4",
+  "source_sha256": "c708d1c4fb297994721c31e13f395e0d70ed3689084481e48f594ca698f229cd",
+  "pcm_sha256": "4a0f9b4f485ae517de334c464e474f128fdb86be5ec454db8f151f7cf26bb1c0",
+  "peak_pcm16": 18208,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A low, sustained hum transitions into a distinct, deep, resonant tone, followed by a brief silence and then a soft, continuous ambient sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

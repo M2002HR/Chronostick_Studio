@@ -1,0 +1,30 @@
+{
+  "number": 88,
+  "decision": "revise_prompt",
+  "reason": "0.25–1.5s invented glowing projectile travels out of palace toward water; close-up open mouths.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-088.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r005.mp4",
+  "baseline_sha256": "6b4ef49d0ad41f57f0a9b15b6ffff9c0ea91aa7c1ba257463c60931d1ada3903",
+  "reviewed_at": "2026-10-03T19:05:10.544762+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 6964680170667348113,
+  "previous_seed": 1926116434144057355,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-088/prompts/clip-088.md",
+  "prompt_sha256": "bbf592f37b9b31d0cd96e31b8e7a4eb60a0fd66b016411505d6284e6c3b972a7",
+  "job": "006-shortest-war-ever:clip-088:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+      "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "4f1729d4-d117-44b5-993c-eaba9997d493",
+  "job_ids": [
+    "30ac5682-3517-4330-9a37-42c8a4d920c5"
+  ],
+  "submitted_at": "2026-10-03T19:05:10.651869+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-088.jpg"
+}

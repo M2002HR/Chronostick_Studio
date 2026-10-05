@@ -1,0 +1,17 @@
+{
+  "number": 93,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r005.mp4",
+  "source_sha256": "5c089122f702da49ca75bf55c40ea4f59e91ba9b3a87407510a0618d5e139537",
+  "pcm_sha256": "fa14e73943469824e7abfd1de19be35268ab1a3d35c872c36d7aa3d46e212806",
+  "peak_pcm16": 11391,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'whoosh' sound, followed by a low-frequency hum that quickly fades. There are no discernible words or musical elements. The sound suggests a brief, powerful air movement and then a sustained, but diminishing, background noise.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "number": 32,
+  "decision": "revise_prompt",
+  "reason": "Continuous zoom invents close deck coverage and foreground residents, displacing initial fleet view and drifting to final frame.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-032.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r004.mp4",
+  "baseline_sha256": "c4d712ef8260d785d404c62ecd9707fdf636d368da81dbb4341940d7c427227a",
+  "reviewed_at": "2026-10-03T18:52:36.643531+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 7597995768285970614,
+  "previous_seed": 8985278555275068062,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-032/prompts/clip-032.md",
+  "prompt_sha256": "cb1e8e7edfb46826a104b427d12458f4405c1e1a9302dbd3ba645d0ca57e8f7c",
+  "job": "006-shortest-war-ever:clip-032:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+      "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "46c882f9-692a-4f02-9e7b-9cb30dfe22d9",
+  "job_ids": [
+    "4fe1318a-56e9-4f6c-9633-ea97ac7340ef"
+  ],
+  "submitted_at": "2026-10-03T18:52:36.787222+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-032.jpg"
+}

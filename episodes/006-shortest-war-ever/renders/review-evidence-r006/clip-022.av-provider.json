@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The nearest ship does not rock once by a few centimeters; instead, the entire water surface and all five ships subtly shift and undulate, creating a continuous, unnatural motion rather than a single, settled rock.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The other four ships do not retain their positions; they also subtly undulate with the water, contradicting the prompt's instruction for them to remain stationary.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The second shot is not a closer crop of the nearest existing bow and the same shore beyond. It is a completely different scene with stick figures on a ship, a Union Jack flag, and a different background, which is a major deviation from the prompt and shot plan.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The prompt explicitly states 'other fleet vessels merely leave the crop, never disappear from the harbour' for the second shot. However, the second shot shows no other fleet vessels or the harbour from the first shot.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The prompt states 'Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.' The second shot is an entirely new scene, not a continuation or closer crop of the first, and shows no 'resulting state' of the ship rocking.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The style of the stick figures in the second shot (round off-white heads, dot eyes, thin limbs, bold dark contours) matches the prompt, but their presence is unauthorized as the prompt only describes ships and a harbour scene.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The Union Jack flag in the second shot is an unauthorized prop, as it was not present in the reference image or mentioned in the prompt's initial inventory.\",\n      \"severity\": \"major\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"A single water slap/hull creak, followed by silence, then a second water slap/hull creak, followed by silence.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 1.5,\n        \"end\": 1.8,\n        \"description\": \"Water slap/hull creak\"\n      },\n      {\n        \"start\": 3.0,\n        \"end\": 3.3,\n        \"description\": \"Water slap/hull creak\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.3\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails significantly in visual execution. The first shot shows continuous, subtle undulation of all ships and water instead of a single rock of the nearest hull, and the other ships do not remain stationary. The second shot is a complete departure from the prompt, showing stick figures on a ship with a Union Jack flag, rather than a closer crop of the original harbour scene. This constitutes a major deviation from the shot plan and generator prompt. The audio partially matches the prompt, providing two isolated water/hull sounds, but the prompt requested only 'one short hull creak or water slap, then silence'.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17585,
+    "candidatesTokenCount": 936,
+    "totalTokenCount": 18521,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1123
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "hE7BasSHJouPvdIPvryWyA0"
+}

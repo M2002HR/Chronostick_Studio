@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 0.8,\n      \"issue\": \"Khalid's costume color is teal/green instead of the reference image's maroon/red. This is a major identity mismatch.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 0.8,\n      \"issue\": \"Khalid's pose is different from the reference image. He is standing with hands on hips instead of hand to chin.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.8,\n      \"end\": 3.5,\n      \"issue\": \"Khalid does not give the placard a focused glance; his head remains fixed forward.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The animation is not a continuous locked shot. There is a slight camera shake throughout the entire duration.\",\n      \"severity\": \"minor\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"Two distinct mechanical ticks, followed by silence.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.79,\n        \"end\": 0.99,\n        \"description\": \"mechanical tick\"\n      },\n      {\n        \"start\": 1.79,\n        \"end\": 1.99,\n        \"description\": \"mechanical tick\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [\n    \"08:00\"\n  ],\n  \"summary\": \"The animation fails to match the reference image for Khalid's costume color and initial pose. The specified action of Khalid giving the placard a focused glance does not occur. The camera is not locked as requested, exhibiting a slight shake. The audio contains two mechanical ticks, while the prompt requested only one. The text '08:00' is correctly displayed and stable.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17471,
+    "candidatesTokenCount": 532,
+    "totalTokenCount": 18003,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1009
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "41DBatSBPczm7M8PhbLyiAw"
+}

@@ -1,0 +1,17 @@
+{
+  "number": 38,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-038-shot-r005.mp4",
+  "source_sha256": "539e7c1dc784acd2edd649f3cd10d1923f6968861f19b78a34403fa3074524a9",
+  "pcm_sha256": "67bbd76c2250d522803e61cab08744c75c16936922223d6c5a10b0caecbb1307",
+  "peak_pcm16": 7982,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, distinct 'ding' sound, followed by the chirping of birds. There is a continuous, low-level ambient hum throughout the audio.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

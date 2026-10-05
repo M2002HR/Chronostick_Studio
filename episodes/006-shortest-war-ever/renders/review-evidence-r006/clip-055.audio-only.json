@@ -1,0 +1,17 @@
+{
+  "number": 55,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r005.mp4",
+  "source_sha256": "bce1662acf5437efb5424cb6375dae1658e38dad404e609f2611e8a05600f133",
+  "pcm_sha256": "90b0a71c0e79d9eed11760abe1a8af86d59d555bebffaecc6f8b6235b4b0cd0e",
+  "peak_pcm16": 31361,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thump' sound is followed by a loud, sudden 'bang' or 'explosion' sound. There are no other discernible sounds.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

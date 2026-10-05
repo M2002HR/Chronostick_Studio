@@ -1,0 +1,17 @@
+{
+  "number": 66,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-066-shot-r004.mp4",
+  "source_sha256": "ecf4ff3f28edfc46af022a4bf39530f20142bcb328789c381dca219ae8f70bfa",
+  "pcm_sha256": "04c2e5de0fc5a1b40912742a2338c3e705fca32c0d719808441d34f4204274d0",
+  "peak_pcm16": 16839,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct click is followed by a continuous, high-pitched whirring sound. There are no other discernible sounds.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

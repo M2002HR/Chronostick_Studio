@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A faint, high-pitched squeak or creak is audible. It sounds mechanical.\",\n  \"speech\": \"No intelligible words are audible.\",\n  \"music\": \"No musical notes are audible.\",\n  \"confidence\": 0.8\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 210,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 270,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 50
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 160
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "J1fBauf1IYXMnsEPjcWy0Q4"
+}

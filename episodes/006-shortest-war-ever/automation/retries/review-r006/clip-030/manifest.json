@@ -1,0 +1,30 @@
+{
+  "number": 30,
+  "decision": "revise_prompt",
+  "reason": "At1.50–2.00s officials overlap/morph into one hybrid body while desk geometry and dispatch positions change; later continuous drift persists.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-030.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r005.mp4",
+  "baseline_sha256": "a2feceadcb08347e8ff6f407b51853985e76ff9d9c5673e75440548ed9741030",
+  "reviewed_at": "2026-10-03T18:52:35.671198+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 1414481281995305367,
+  "previous_seed": 7441225553459792520,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-030/prompts/clip-030.md",
+  "prompt_sha256": "a2ed4e9c61411515c216bd6e7d30916182780bf2df84540636045bae5cd82b40",
+  "job": "006-shortest-war-ever:clip-030:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "342511a9-b709-4520-88cc-19a35382592d",
+  "job_ids": [
+    "2c6403e5-7533-4177-b347-57499d1f9d09"
+  ],
+  "submitted_at": "2026-10-03T18:52:35.776872+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-030.jpg"
+}

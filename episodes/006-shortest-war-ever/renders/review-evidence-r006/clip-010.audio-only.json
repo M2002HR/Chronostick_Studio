@@ -1,0 +1,17 @@
+{
+  "number": 10,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r004.mp4",
+  "source_sha256": "a6e1e9c851cfe15758c74b57c2d835216513aff9e850c8bb2ca442fd86a1d8dc",
+  "pcm_sha256": "ec424e652441e7e750f992303b913d2bbff81f82db463b4e7794a8e5c79c6f68",
+  "peak_pcm16": 8833,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, high-pitched, somewhat dissonant tone, possibly from a synthesizer or electronic instrument, with a continuous ambient background.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

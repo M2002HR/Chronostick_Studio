@@ -1,0 +1,104 @@
+{
+  "number": 46,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-046-shot-r004.mp4",
+  "source_sha256": "5f46e9ad116c314145d34a6cd9e0b3891b24e106821ba22026e70ff9ab775d2a",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "Khalid's head and turban briefly morph and shift at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The guard's head and hat briefly morph and shift at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The throne's details briefly morph and shift at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The scroll in Khalid's hand briefly morphs and shifts at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The small globe on the table briefly morphs and shifts at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The table and rug details briefly morph and shift at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The background elements, including the city and ships, briefly morph and shift at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid does not take one measured step nearer the throne. He remains stationary.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 2.34,
+        "issue": "Khalid's head and turban briefly morph and shift at the beginning of the second shot.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 2.34,
+        "issue": "The scroll in Khalid's hand briefly morphs and shifts at the beginning of the second shot.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 2.34,
+        "issue": "The background elements briefly morph and shift at the beginning of the second shot.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Khalid's eyes blink and his eyebrows move, which is an unauthorized adjustment beyond a 'tiny eyebrow, cloth or water adjustment'.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A soft rustling sound, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 1.68,
+          "end": 1.92,
+          "description": "soft rustling sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to execute the primary action of Khalid taking a step. Both shots exhibit minor morphing and shifting of elements at their start. Additionally, Khalid's facial expression changes in the second shot, which is an unauthorized adjustment. The audio correctly features a single soft rustling sound followed by silence."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "number": 54,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-054-shot-r004.mp4",
+  "source_sha256": "2a483ef78494fc1accf69a4e484b4f33c5b7c75187d5d1de02703cba49755e88",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Rawson's head and body subtly shift and scale, and his right arm (viewer's left) moves unnaturally, causing the binoculars to appear to float and then snap into place. The action is not settled by 2.10s as requested.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Rawson's head and body continue to subtly shift and scale, and his right arm (viewer's left) moves unnaturally, causing the binoculars to appear to float and then snap into place. The action is not settled by 4.35s as requested.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The water in the background shows continuous, unnatural rippling and morphing, not calm as requested.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The clouds in the background subtly morph and shift throughout the entire clip, not remaining identical as requested.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The flag on the palace in the background subtly morphs and shifts throughout the entire clip, not remaining identical as requested.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The boats in the background subtly morph and shift throughout the entire clip, not remaining identical as requested.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A short, sharp metallic clang, followed by a brief, low-frequency rumble, then silence. A distinct 'click' sound is heard at the end.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.98,
+          "end": 1.08,
+          "description": "metallic clang"
+        },
+        {
+          "start": 1.5,
+          "end": 1.7,
+          "description": "low-frequency rumble"
+        },
+        {
+          "start": 3.6,
+          "end": 3.7,
+          "description": "click"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to meet the prompt's requirements for settled action and static background elements. Rawson's movement is unnatural and not settled as specified, and the background elements like water, clouds, and distant objects exhibit continuous morphing. The audio contains multiple distinct sounds, not just one short hull creak or water slap as requested."
+  }
+}

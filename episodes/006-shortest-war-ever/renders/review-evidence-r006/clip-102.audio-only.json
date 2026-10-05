@@ -1,0 +1,17 @@
+{
+  "number": 102,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-102-shot-r004.mp4",
+  "source_sha256": "321a7434d90e628ba7ac1399886fc47a1354584e3744014e75c620fa367655e0",
+  "pcm_sha256": "b0db12d153e14e4d870c9edd4d4779e5c7dde0f4904f64e54d6f09aac2dfd0bb",
+  "peak_pcm16": 3726,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'clink' sound, followed by the chirping of birds and a continuous, subtle ambient hum.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

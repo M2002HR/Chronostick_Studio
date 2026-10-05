@@ -1,0 +1,17 @@
+{
+  "number": 27,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r004.mp4",
+  "source_sha256": "75daa244dc2bf19941bf0e68e4d0fbabfe136bebf88da581cd1e089101632c33",
+  "pcm_sha256": "3ea6127682d0f4667cec722bfc89178af02ee158b7444fb6c29311c9711ab7d4",
+  "peak_pcm16": 13889,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Footsteps on a hard surface, possibly pavement or concrete. The footsteps are distinct and rhythmic, suggesting walking. No other sounds are present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

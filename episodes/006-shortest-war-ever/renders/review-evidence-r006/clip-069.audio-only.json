@@ -1,0 +1,17 @@
+{
+  "number": 69,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r004.mp4",
+  "source_sha256": "3ac6f15aac3ccd7504298f6a0bc32dc8346b7e251c07037669317d3942ea9417",
+  "pcm_sha256": "774a91591fc887e10fa14a5d677575785ede2591b8d4610e7379ecc95c48fb42",
+  "peak_pcm16": 9333,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct click, followed by a sustained, low-frequency hum or drone. There's a subtle, continuous ambient sound throughout the clip.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

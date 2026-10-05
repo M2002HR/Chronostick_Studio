@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 0.8,\n      \"issue\": \"Khalid's head and body morph and shift position slightly, and his expression changes from thoughtful to neutral, which is not 'unchanged scene'.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.8,\n      \"end\": 3.5,\n      \"issue\": \"Khalid does not glance at the clock. He shifts his weight, his head bobs, and his expression changes, but his gaze remains forward.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 3.5,\n      \"end\": 5.0,\n      \"issue\": \"Khalid's head bobs and his expression changes slightly, which is not a 'resolved scene' or 'hold'.\",\n      \"severity\": \"minor\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"A single mechanical tick at 0.00s, followed by silence. A bird chirps at 0.02s, 0.03s, and 0.04s.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.0,\n        \"end\": 0.0,\n        \"description\": \"mechanical tick\"\n      },\n      {\n        \"start\": 0.02,\n        \"end\": 0.02,\n        \"description\": \"bird chirp\"\n      },\n      {\n        \"start\": 0.03,\n        \"end\": 0.03,\n        \"description\": \"bird chirp\"\n      },\n      {\n        \"start\": 0.04,\n        \"end\": 0.04,\n        \"description\": \"bird chirp\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to match the intended action and hold states. Khalid does not glance at the clock as requested, and there are minor morphing and shifting issues throughout the 'unchanged' and 'resolved' scene segments. The audio includes bird chirps not specified in the prompt, in addition to the requested mechanical tick.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17423,
+    "candidatesTokenCount": 572,
+    "totalTokenCount": 17995,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 961
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "jU3BasSML_uYkdUPpsPDuAg"
+}

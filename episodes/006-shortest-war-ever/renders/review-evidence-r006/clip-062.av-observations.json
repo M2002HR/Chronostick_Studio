@@ -1,0 +1,103 @@
+{
+  "number": 62,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r004.mp4",
+  "source_sha256": "2e984c35a9f2010a211a3673ec1e2463321e9f322b5781e44bb8866a038992fb",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The animation does not match the requested style of drawn stick figures with round off-white heads, dot eyes, thin limbs, bold dark contours. Instead, it shows a realistic, detailed illustration of ships and a harbor.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The British ships are not occupying fixed positions facing the shore; there is subtle movement in the water and the ships appear to be gently swaying.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The animation does not match the requested style of drawn stick figures with round off-white heads, dot eyes, thin limbs, bold dark contours. Instead, it shows a realistic, detailed illustration of a ship's bow and people.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt requested 'only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed' for the second shot. However, the second shot introduces multiple stick figures on the ship's deck, which is a significant addition not supported by the anchor image and not a 'tiny adjustment'.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot introduces stick figures with mouths that change expression, which contradicts the prompt's instruction that 'Mouths stay closed'.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot shows a different number of ships than the first shot (only one ship is visible in the close-up), and the prompt stated 'other fleet vessels merely leave the crop, never disappear from the harbour'. While they leave the crop, the close-up implies a different scene rather than a continuous harbor view.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A distinct 'clunk' or 'thud' sound, followed by a 'whoosh' or 'swish' sound, then silence. Another 'clunk' or 'thud' sound, followed by a 'whoosh' or 'swish' sound, then silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "description": "short hull creak/water slap"
+        },
+        {
+          "start": 0.08,
+          "end": 1.7,
+          "description": "silence"
+        },
+        {
+          "start": 1.7,
+          "end": 1.8,
+          "description": "short hull creak/water slap"
+        },
+        {
+          "start": 1.8,
+          "end": 2.3,
+          "description": "silence"
+        },
+        {
+          "start": 2.3,
+          "end": 2.4,
+          "description": "short hull creak/water slap"
+        },
+        {
+          "start": 2.4,
+          "end": 3.7,
+          "description": "silence"
+        },
+        {
+          "start": 3.7,
+          "end": 3.8,
+          "description": "short hull creak/water slap"
+        },
+        {
+          "start": 3.8,
+          "end": 5.0,
+          "description": "silence"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to adhere to the specified 'drawn stick figures' style, instead presenting a realistic illustration. The first shot shows subtle movement in the ships and water, contradicting the 'fixed positions' instruction. The second shot introduces numerous stick figures with changing facial expressions, which is a major deviation from the 'tiny adjustment' and 'mouths stay closed' rules. The audio, however, largely complies with the 'one short hull creak or water slap, then silence' instruction, with isolated diegetic sounds and no continuous ambience, music, or speech."
+  }
+}

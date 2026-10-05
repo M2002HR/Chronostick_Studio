@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.00,\n      \"end\": 2.30,\n      \"issue\": \"The messenger's action is described as 'turns toward the peaceful but oddly hushed harbour', but only a slight head and eye shift is observed, not a full body turn, making the action incomplete or unreadable.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.30,\n      \"end\": 5.00,\n      \"issue\": \"The dhow, which was static in the reference image and not declared as an active element, is shown moving and creating a significant"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 33374,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 37456,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1132
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 31823
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "thoughtsTokenCount": 3930,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "pkzBatCfMtSLxN8P-6P52Ak"
+}

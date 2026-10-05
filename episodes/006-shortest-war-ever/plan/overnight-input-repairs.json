@@ -1,0 +1,776 @@
+{
+  "schema_version": "1.0",
+  "authorization": "User explicitly requested correcting prompts and necessary inputs,20step generation, latest-revision selection, concatenation and anime6B upscale in a detached overnight pipeline.",
+  "scope": [
+    10,
+    12,
+    17,
+    19,
+    35,
+    58,
+    73,
+    93,
+    94,
+    95,
+    97,
+    105,
+    110,
+    126
+  ],
+  "shots": [
+    {
+      "number": 10,
+      "revision": 9,
+      "seed": 1700789067484570096,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r008.mp4",
+      "previous_direction": {
+        "number": 10,
+        "start": 45,
+        "end": 50,
+        "chapter_id": "C01",
+        "narration": "una flota británica espera a que venza el plazo para que salga. Hay una nave de Zanzíbar en",
+        "action": "The five ships hold position across the palace-facing water in a wide calm view.",
+        "asset_ids": [
+          "fleet-prebattle"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png"
+        ],
+        "start_inventory": "exactly five distinct British warships across the water; intact palace in distance",
+        "end_inventory": "exactly five distinct British warships across the water; intact palace in distance",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "The five ships hold position across the palace-facing water in a wide calm view. Complete and settle this single action by 2.10s.",
+            "hold_from": 2.0999999999999996,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a closer crop of the nearest existing bow and the same shore beyond; other fleet vessels merely leave the crop, never disappear from the harbour",
+            "camera": "locked",
+            "action": "Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C012",
+        "reference_analysis_id": "RV07"
+      },
+      "inventory": "Exactly five British warships in the pictured arrangement: one large near ship on the left and four smaller ships across the middle distance. Retain the already visible tiny navy deck crew at their pictured positions and scale. Water between the vessels stays open. The intact palace, quay, palm trees, rigging and chain retain their existing shapes.",
+      "action": "A single small outlined ripple passes beside the near hull; the five vessels hold their positions.",
+      "sound": "One short water slap at 1.00s, followed by silence.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-010.md",
+      "prompt_sha256": "f54a568fe4ea39e7560a36fb17eeb0e9438473e8b0edeeb9aecd9224efa43834",
+      "reference": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+      "reference_sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 12,
+      "revision": 9,
+      "seed": 8218626889198150048,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r008.mp4",
+      "previous_direction": {
+        "number": 12,
+        "start": 55,
+        "end": 60,
+        "chapter_id": "C01",
+        "narration": "mueve, los cañones van a hacerlo. ¿Cómo llegó una isla a este punto? Rebobinemos.",
+        "action": "Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water.",
+        "asset_ids": [
+          "rawson-bridge-over-shoulder"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
+        ],
+        "start_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+        "end_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water. Complete by 2.10s.",
+            "hold_from": 2.1,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a closer crop of the same officer and intact shore",
+            "camera": "locked",
+            "action": "Hold the already completed action and existing world state; no second action.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C012",
+        "reference_analysis_id": "RV07",
+        "method": "h3_12_step"
+      },
+      "inventory": "Exactly one older white-haired, white-bearded naval officer at screen right, viewed from the pictured rear shoulder in the same navy coat and cap. His binoculars remain at their original chest-height position. His visible hands retain their simple mitten silhouettes. The existing paper, railing, distant fleet and intact palace retain their pictured positions and scale.",
+      "action": "The officer makes one slight head inclination toward the distant harbour, then holds; his hands and binoculars remain at rest.",
+      "sound": "One short timber creak at 1.00s, followed by silence.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-012.md",
+      "prompt_sha256": "99df36264fbf87cd7f06ffab4125118363f24c031b09497d94b3241424993334",
+      "reference": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "reference_sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 17,
+      "revision": 9,
+      "seed": 7443510223033382686,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r008.mp4",
+      "previous_direction": {
+        "number": 17,
+        "start": 80,
+        "end": 85,
+        "chapter_id": "C02",
+        "narration": "distintos. Gran Bretaña quería influir en ese cruce. Alemania también tenía planes en África",
+        "action": "The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated.",
+        "asset_ids": [
+          "diplomatic-dispatches"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
+        ],
+        "start_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+        "end_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated. Complete by 2.10s.",
+            "hold_from": 2.1,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a closer crop of the two separate closed dispatches on the same desk",
+            "camera": "locked",
+            "action": "Hold the already completed action and existing world state; no second action.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C007",
+        "reference_analysis_id": "RV02",
+        "method": "h3_12_step"
+      },
+      "inventory": "Exactly two seated clean-shaven officials, navy and gold at left, charcoal and ochre at right. Exactly two closed cream dispatch rolls with red wax seals lie on the desk: one in front of each official, separated by the original clear gap. Each roll stays sealed, rigid and in its own place. The two officials' simple cream mitten hands stay in their original resting positions.",
+      "action": "The right official gives one small head inclination toward the left official, then holds. Both sealed rolls remain motionless on the desk.",
+      "sound": "Silence throughout.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-017.md",
+      "prompt_sha256": "dc37517d9dee73af8cc958c87b4a2e301f25c3e01bb21e1c8c2d4450f886dffe",
+      "reference": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "reference_sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 19,
+      "revision": 9,
+      "seed": 2648719123088416572,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r008.mp4",
+      "previous_direction": {
+        "number": 19,
+        "start": 90,
+        "end": 95,
+        "chapter_id": "C02",
+        "narration": "colorear sin más. Tenía gobernantes, habitantes y conflictos propios. Esa",
+        "action": "An unoccupied local throne holds in the lived-in island court, asserting that Zanzibar had its own rulers.",
+        "asset_ids": [
+          "empty-throne"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png"
+        ],
+        "start_inventory": "one empty ornate blue-and-gold throne in the same council chamber; exactly zero people",
+        "end_inventory": "one empty ornate blue-and-gold throne in the same council chamber; exactly zero people",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "An unoccupied local throne holds in the lived-in island court, asserting that Zanzibar had its own rulers. Complete and settle this single action by 2.10s.",
+            "hold_from": 2.0999999999999996,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a closer crop of the same empty throne back and arm, with exactly zero people",
+            "camera": "locked",
+            "action": "Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C007",
+        "reference_analysis_id": "RV02"
+      },
+      "inventory": "An unoccupied architectural interior. Exactly one empty blue-and-gold carved throne occupies the right half of the room. The open doorway, wooden lattice, teal hangings, brass lanterns, floor and potted plants retain their pictured arrangement. The entire interior contains zero people.",
+      "action": "The empty room holds its quiet settled state; only one existing plant leaf makes a tiny movement and settles.",
+      "sound": "Silence throughout.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-019.md",
+      "prompt_sha256": "5a0e381e1ab38615cc65eaafa7fa1dc54af1b4ca884072b00e05f8dcb07ccc11",
+      "reference": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+      "reference_sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 35,
+      "revision": 9,
+      "seed": 6632402201828628909,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r008.mp4",
+      "previous_direction": {
+        "number": 35,
+        "start": 170,
+        "end": 175,
+        "chapter_id": "C02",
+        "narration": "ninguna flota puede resolver con buenos modales: ¿qué pasa si el hombre que reclama el trono no",
+        "action": "The empty throne waits behind closed doors as the question of who may claim it sharpens.",
+        "asset_ids": [
+          "empty-throne"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png"
+        ],
+        "start_inventory": "one empty ornate blue-and-gold throne in the same council chamber; exactly zero people",
+        "end_inventory": "one empty ornate blue-and-gold throne in the same council chamber; exactly zero people",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "The empty throne waits behind closed doors as the question of who may claim it sharpens. Complete and settle this single action by 2.10s.",
+            "hold_from": 2.0999999999999996,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a closer crop of the same empty throne back and arm, with exactly zero people",
+            "camera": "locked",
+            "action": "Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C007",
+        "reference_analysis_id": "RV03"
+      },
+      "inventory": "An unoccupied architectural interior with exactly one empty ornate blue-and-gold throne at screen right. The open harbour doorway at screen left, patterned stone walls, wooden furniture, teal banners and brass objects retain their original arrangement. The entire interior contains zero people.",
+      "action": "A single existing plant leaf moves slightly and settles while the empty throne remains unchanged.",
+      "sound": "Silence throughout.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-035.md",
+      "prompt_sha256": "6f0e3c75b417448b0bbbd081e801c3ca46c23bd90997a20279e3ad626bae7368",
+      "reference": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+      "reference_sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 58,
+      "revision": 9,
+      "seed": 626068959705624859,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r008.mp4",
+      "previous_direction": {
+        "number": 58,
+        "start": 285,
+        "end": 290,
+        "chapter_id": "C04",
+        "narration": "que las palabras por sí solas no están funcionando. Así que la diplomacia saca su",
+        "action": "Rawson folds the existing paper once and keeps it in his hand, with no prop transfer to the rail.",
+        "asset_ids": [
+          "rawson-bridge-over-shoulder"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png"
+        ],
+        "start_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+        "end_inventory": "same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "Rawson folds the existing paper once and keeps it in his hand, with no prop transfer to the rail. Complete and settle this single action by 2.10s.",
+            "hold_from": 2.0999999999999996,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a tighter crop of the same officer's cap, white beard and single paper already held in the anchor",
+            "camera": "locked",
+            "action": "Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C012",
+        "reference_analysis_id": "RV05"
+      },
+      "inventory": "Exactly one older white-haired, white-bearded Rawson at screen right, viewed from his original rear shoulder, in the same navy coat and cap. The existing cream paper stays in its pictured position on the bridge surface. Both visible hands retain the original simple mitten shapes and resting positions. The distant vessels remain background-sized in the same harbour.",
+      "action": "Rawson makes one small head inclination toward the existing paper, then holds. Paper and hands remain at rest.",
+      "sound": "One short wood creak at 1.00s, followed by silence.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-058.md",
+      "prompt_sha256": "447966d09edc5e26841d800807eafcc0c2ef84e4124524003191ccf3238ba9ad",
+      "reference": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "reference_sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 73,
+      "revision": 9,
+      "seed": 4896811353278336487,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r008.mp4",
+      "previous_direction": {
+        "number": 73,
+        "start": 360,
+        "end": 365,
+        "chapter_id": "C04",
+        "narration": "si los británicos van a cumplir su amenaza. Ya vimos muchas piezas de esta historia;",
+        "action": "The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs.",
+        "asset_ids": [
+          "british-gun-deck"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png"
+        ],
+        "start_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+        "end_inventory": "exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs. Complete by 2.10s.",
+            "hold_from": 2.1,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a closer crop of the same sailor and loaded but quiet cannon",
+            "camera": "locked",
+            "action": "Hold the already completed action and existing world state; no second action.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C012",
+        "reference_analysis_id": "RV07",
+        "method": "h3_12_step"
+      },
+      "inventory": "Exactly two foreground British sailors, both at screen left, in the original navy coats and white caps. The rear sailor retains his single slung long gun. The nearer sailor rests his simple black mitten hands at the original quiet cannon, on its original wooden carriage. The intact palace and tiny shore residents remain far across the water. Both sailors keep their original positions and silhouettes.",
+      "action": "The nearer sailor gives one tiny head inclination toward the distant palace and settles. The cannon and both sailors' hands remain motionless.",
+      "sound": "One short timber creak at 1.00s, followed by silence.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-073.md",
+      "prompt_sha256": "8c9a36d4161dd93255a5e77b44890b4c29b269392951944b95fb72983cbbac73",
+      "reference": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+      "reference_sha256": "cc4c67ec5fb47a8da599e5fa936bcad36b9015b93679bba2225406d9cd68f3b5",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 93,
+      "revision": 9,
+      "seed": 4353796232041314488,
+      "hold_from": 4.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r008.mp4",
+      "previous_direction": {
+        "number": 93,
+        "start": 460,
+        "end": 465,
+        "chapter_id": "C05",
+        "narration": "Los barcos británicos contestan y el Glasgow se hunde. También aparecen embarcaciones menores",
+        "action": "Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s.",
+        "asset_ids": [
+          "glasgow-sinking-start"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png"
+        ],
+        "start_inventory": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop",
+        "end_inventory": "one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 5.0,
+            "framing": "one continuous close waterline view with the empty tender at the far right excluded by the initial crop; no crew or drowning people",
+            "camera": "locked",
+            "action": "Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C014",
+        "reference_analysis_id": "RV08",
+        "method": "h3_12_step"
+      },
+      "inventory": "One damaged black-and-ochre Glasgow vessel with its original funnel, two rigged masts and empty visible deck. Preserve the existing small empty tender at far right. The foreground consists entirely of open teal water. The damaged palace and tiny shore silhouettes stay in their original background positions. Visible people on the ship and in the foreground water: zero.",
+      "action": "The single Glasgow hull descends vertically by only about20pixels into the water, retaining rigid proportions and the same horizontal position. Its upper deck, funnel and masts remain visible. The small tender stays fixed at far right. The new lower waterline is held through the last frame.",
+      "sound": "One short water slap at 3.20s, followed by silence.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-093.md",
+      "prompt_sha256": "90304f9742104405dfdeeccc6fa1f2410bdef1f833f6ce10287d0c40ac5c61d2",
+      "reference": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+      "reference_sha256": "f77f8b2d2fb28e68f8129ea1fca787b48d55ca03882da40f8a4f1f3c7eb562cc",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 94,
+      "revision": 9,
+      "seed": 2414203040396167993,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r008.mp4",
+      "previous_direction": {
+        "number": 94,
+        "start": 465,
+        "end": 470,
+        "chapter_id": "C05",
+        "narration": "menores intentando intervenir, pero la diferencia de fuerza sigue intacta. Una defensa",
+        "action": "The already partially submerged Glasgow holds its tilted wreck state as one small outlined water ripple crosses its hull.",
+        "asset_ids": [
+          "glasgow-sunken-close"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png"
+        ],
+        "start_inventory": "exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero people aboard or in foreground, existing tiny shore residents stay background-sized; no other ships; damaged palace beyond",
+        "end_inventory": "exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero people aboard or in foreground, existing tiny shore residents stay background-sized; no other ships; damaged palace beyond",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 5.0,
+            "framing": "the exact full-frame anchor viewpoint",
+            "camera": "locked",
+            "action": "The already partially submerged Glasgow holds its tilted wreck state as one small outlined water ripple crosses its hull.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00 only"
+          }
+        ],
+        "source_claim": "C014",
+        "reference_analysis_id": "RV08"
+      },
+      "inventory": "Exactly one already tilted and partially submerged black-and-ochre Glasgow wreck with its original funnel and rigged masts. The deck and foreground water contain zero people. The damaged palace, existing residual smoke and tiny shore residents retain their pictured background positions. The blue daylight sky and bright teal water retain their exact starting brightness and palette throughout.",
+      "action": "One small outlined ripple crosses the hull and settles. The tilted wreck, waterline and daylight remain fixed.",
+      "sound": "Silence throughout.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-094.md",
+      "prompt_sha256": "6e0fcd598c08383c7117ed28caaa8dc6b6dd19e4d80a32e42a52a937b9b825f8",
+      "reference": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+      "reference_sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 95,
+      "revision": 9,
+      "seed": 2140954317908001829,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r008.mp4",
+      "previous_direction": {
+        "number": 95,
+        "start": 470,
+        "end": 475,
+        "chapter_id": "C05",
+        "narration": "defensa cae, luego otra. El combate avanza deprisa y, aun así, cada giro tiene una causa",
+        "action": "One small loose stone falls a short distance down the already damaged wall; the two defenders remain still.",
+        "asset_ids": [
+          "palace-battle-arcade"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png"
+        ],
+        "start_inventory": "damaged palace side arcade, two retreating defenders, one distant British ship",
+        "end_inventory": "damaged palace side arcade, two retreating defenders, one distant British ship",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.05,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "One small loose stone falls a short distance down the already damaged wall; the two defenders remain still. Complete and settle this single action by 1.85s.",
+            "hold_from": 1.8499999999999999,
+            "cut": "hard cut at 2.05s"
+          },
+          {
+            "start": 2.05,
+            "end": 5.0,
+            "framing": "a closer crop of the already pictured damaged arcade and two defenders; existing damage and figure count carry through",
+            "camera": "locked",
+            "action": "Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C014",
+        "reference_analysis_id": "RV08"
+      },
+      "inventory": "Exactly two cream-robed, ivory-turbaned defenders at the original screen-right arcade opening, each retaining his existing small brown satchel. Their bodies stay in the pictured bent-forward retreat stance with the same original foot positions; this is a tense paused retreat. The damaged stone arcade, palace and distant ship retain their pictured arrangement and scale. Existing background smoke and fire remain confined to their original locations.",
+      "action": "The smaller defender makes one slight head inclination toward his companion, then holds. Their feet, satchels, bodies and screen positions remain at rest.",
+      "sound": "One brief distant masonry crack at 1.00s, followed by silence.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-095.md",
+      "prompt_sha256": "3207217a3289c51f60104aee5ba4e68ff8ccd26d19db70fc48b06e6fbc6e8c20",
+      "reference": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+      "reference_sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 97,
+      "revision": 9,
+      "seed": 6888873417889267239,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r008.mp4",
+      "previous_direction": {
+        "number": 97,
+        "start": 480,
+        "end": 485,
+        "chapter_id": "C06",
+        "narration": "más capacidad de fuego. Pasan los minutos. El palacio arde y sus defensas se deshacen.",
+        "action": "The existing thin residual plume drifts a few centimeters above the already damaged palace; no new damage occurs.",
+        "asset_ids": [
+          "palace-battle"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png"
+        ],
+        "start_inventory": "one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship",
+        "end_inventory": "one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.05,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "The existing thin residual plume drifts a few centimeters above the already damaged palace; no new damage occurs. Complete and settle this single action by 1.85s.",
+            "hold_from": 1.8499999999999999,
+            "cut": "hard cut at 2.05s"
+          },
+          {
+            "start": 2.05,
+            "end": 5.0,
+            "framing": "a closer crop of the already pictured damaged arcade and two defenders; existing damage and figure count carry through",
+            "camera": "locked",
+            "action": "Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C017",
+        "reference_analysis_id": "RV09"
+      },
+      "inventory": "Exactly two cream-robed, ivory-turbaned defenders at the original screen-right doorway, each with his original small brown satchel. Preserve their pictured bent-forward retreat stance and original foot positions as a tense paused retreat. The damaged palace, distant single ship, existing splash shapes and background smoke retain their original layout. Existing fire is confined to the pictured battle locations.",
+      "action": "A small upper edge of the existing background smoke drifts slightly and settles. The same pair remain at rest at the doorway with unchanged feet and satchels.",
+      "sound": "One brief distant masonry crack at 1.00s, followed by silence.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-097.md",
+      "prompt_sha256": "b7f3f16c9668e78ebaedaa0a40e0ee352c8b8e51b251f462924901c6b0573a64",
+      "reference": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+      "reference_sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 105,
+      "revision": 9,
+      "seed": 7850970029097185789,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r008.mp4",
+      "previous_direction": {
+        "number": 105,
+        "start": 520,
+        "end": 525,
+        "chapter_id": "C06",
+        "narration": "que aparece la señal de rendición. Entonces, por fin, el puerto queda en silencio.",
+        "action": "The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached.",
+        "asset_ids": [
+          "palace-surrender-cloth"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png"
+        ],
+        "start_inventory": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke",
+        "end_inventory": "one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 5.0,
+            "framing": "Begin on a tight crop of the existing lower damaged masonry with the white cloth entirely outside the crop. At 0.68s begin one gentle pull-back, finish by 3.50s to reveal the existing white cloth and short pole, then hold through the narrated silence and final frame.",
+            "camera": "one timed pull-back",
+            "action": "The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C017",
+        "reference_analysis_id": "RV09",
+        "method": "h3_12_step"
+      },
+      "inventory": "A full-width landscape view of the already damaged palace. One existing white surrender cloth remains on its original slender pole above the damaged roof near the centre of the picture. Keep the entire original building, roof, blue sky and residual smoke in the same horizontal composition. The cloth is clearly visible from the opening frame. All pictured architecture remains fixed.",
+      "action": "The single white cloth makes one small flutter on its original fixed pole and settles. Its location and the full-width landscape composition remain unchanged.",
+      "sound": "Silence throughout.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-105.md",
+      "prompt_sha256": "40974161dc8a720ab325eeb65f892b3e2be334c3003a093d9482b66ddbb718f0",
+      "reference": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+      "reference_sha256": "9b684095fa8b4cd93441c33369753be0835f86e8fa0dbf377f87512d5e38c712",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 110,
+      "revision": 9,
+      "seed": 2157109613834720798,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r008.mp4",
+      "previous_direction": {
+        "number": 110,
+        "start": 545,
+        "end": 550,
+        "chapter_id": "C07",
+        "narration": "sorpresa con una broma sobre quienes sufrieron. La diferencia entre las fuerzas dejó una consecuencia",
+        "action": "The fallen basket and masonry stay still; the same two distant civilians quietly lower their heads once.",
+        "asset_ids": [
+          "aftermath-quay-detail"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png"
+        ],
+        "start_inventory": "one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray shawl and sand robe at left; damaged palace and submerged Glasgow beyond; tiny existing shore residents remain background-sized",
+        "end_inventory": "one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray shawl and sand robe at left; damaged palace and submerged Glasgow beyond; tiny existing shore residents remain background-sized",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 5.0,
+            "framing": "the exact full-frame anchor viewpoint",
+            "camera": "locked",
+            "action": "The fallen basket and masonry stay still; the same two distant civilians quietly lower their heads once.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00 only"
+          }
+        ],
+        "source_claim": "C016",
+        "reference_analysis_id": "RV08"
+      },
+      "inventory": "Exactly two existing civilians together at screen left: the original blue-gray-shawled woman and sand-robed companion. Preserve their visible reference size and original positions, including the clear empty foreground quay to their right. One fallen wicker basket, the rope coil, bollard and masonry pieces keep their original positions. The damaged palace and low warm light remain unchanged.",
+      "action": "The blue-gray-shawled civilian makes one tiny head inclination toward the damaged waterfront, then holds. Both residents' bodies and feet stay at rest.",
+      "sound": "Silence throughout.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-110.md",
+      "prompt_sha256": "641acda48121d6fd4c31f7a3c2d0b7fd091f1944b82b53234ab8400dcc5fbef4",
+      "reference": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+      "reference_sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    },
+    {
+      "number": 126,
+      "revision": 9,
+      "seed": 2879105537841225376,
+      "hold_from": 2.0,
+      "previous_selected_candidate": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r008.mp4",
+      "previous_direction": {
+        "number": 126,
+        "start": 625,
+        "end": 630,
+        "chapter_id": "C07",
+        "narration": "no era el problema: las piezas llevaban años colocándose y, al llegar la hora, la diferencia",
+        "action": "Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs.",
+        "asset_ids": [
+          "diplomatic-dispatches"
+        ],
+        "references": [
+          "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png"
+        ],
+        "start_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+        "end_inventory": "exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant",
+        "shots": [
+          {
+            "start": 0.0,
+            "end": 2.3,
+            "framing": "the anchor's original composition",
+            "camera": "locked",
+            "action": "Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs. Complete by 2.10s.",
+            "hold_from": 2.1,
+            "cut": "hard cut at 2.30s"
+          },
+          {
+            "start": 2.3,
+            "end": 5.0,
+            "framing": "a closer crop of the same two closed dispatches, seals and desk as the narration explains accumulated decisions",
+            "camera": "locked",
+            "action": "Hold the already completed action and existing world state; no second action.",
+            "hold_from": 4.35,
+            "cut": "hard cut at 5.00s"
+          }
+        ],
+        "source_claim": "C015",
+        "reference_analysis_id": "RV10",
+        "method": "h3_12_step"
+      },
+      "inventory": "Exactly two seated clean-shaven officials in the original positions: navy-and-gold official at left, charcoal-and-ochre official at right. Exactly two closed cream dispatch rolls, each with one red wax seal, remain separated on the desk in front of their respective owners. The officials' original simple cream mitten hands remain resting behind those rolls.",
+      "action": "The left official makes one small head inclination toward the right official, then holds. The two sealed rolls retain their exact positions, sizes and closed state.",
+      "sound": "Silence throughout.",
+      "prompt": "episodes/006-shortest-war-ever/automation/overnight-finish/prompts/clip-126.md",
+      "prompt_sha256": "b882914cf5ad8133a121caa4fbc550a6b004f01533df313830a01a632da0bfd4",
+      "reference": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "reference_sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a",
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r009.mp4",
+      "reference_decision": "Actual full-resolution anchor reviewed in the input audit; reuse unchanged and align the shot to it. No new invented angle or incompatible pose.",
+      "review_status": "input_contract_reviewed_output_pending",
+      "final_approval": false
+    }
+  ]
+}

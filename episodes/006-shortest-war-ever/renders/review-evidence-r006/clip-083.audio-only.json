@@ -1,0 +1,17 @@
+{
+  "number": 83,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-083-shot-r004.mp4",
+  "source_sha256": "1fc88d38815c6f82d4bdcfbcb16d34a25dca68ff7700dcd48c5ca402ac6cf370",
+  "pcm_sha256": "f95a89b227fb3787968b7523368f5334a3ee23f7306a325ac5327c7e0117d7ad",
+  "peak_pcm16": 14561,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thud' sound is heard, followed by a brief period of silence, and then the emergence of a tonal bed. No speech or continuous ambience is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

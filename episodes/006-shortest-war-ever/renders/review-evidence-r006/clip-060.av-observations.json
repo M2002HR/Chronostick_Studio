@@ -1,0 +1,78 @@
+{
+  "number": 60,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r004.mp4",
+  "source_sha256": "075529fea2c09c30d7e00f32556c2bc3f8f363b70eb57091330a1fa13b3d73c7",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "issue": "The scene is not established as unchanged for the specified duration. Khalid's head and body are already moving slightly from the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "Khalid's head and body exhibit continuous, subtle, and unnecessary morphing and impossible motion throughout the entire clip, even during the 'hold' phases. This includes slight changes in head shape, turban details, and the position of his hands and arms.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The clock's hands and dial marks, which were specified to stay fixed, show subtle, continuous morphing and slight shifts in position throughout the animation.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The '08:00' text on the placard, specified to remain stable in every frame, exhibits subtle morphing and slight shifts in its letter/digit shapes and placement.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The background elements, including the sky, clouds, water, and shore silhouettes, which were specified to remain identical from first to last frame, show subtle, continuous morphing and slight shifts in their details and positions.",
+        "severity": "major"
+      },
+      {
+        "start": 3.5,
+        "end": 5.0,
+        "issue": "The scene is not held as a resolved scene from 3.50s to 5.00s. Khalid's head and body continue to subtly morph and move, and background elements also show slight, continuous changes.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "one isolated mechanical tick, then silence, followed by bird chirping sounds.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.75,
+          "end": 0.95,
+          "description": "mechanical tick"
+        },
+        {
+          "start": 2.75,
+          "end": 2.95,
+          "description": "bird chirping"
+        },
+        {
+          "start": 3.75,
+          "end": 3.95,
+          "description": "bird chirping"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [],
+    "final_resolved": false,
+    "exact_text_seen": [
+      "08:00"
+    ],
+    "summary": "The animation fails to meet several key requirements. Khalid's action of lowering his gaze is present, but the animation suffers from continuous, subtle morphing and impossible motion of Khalid, the clock, the text, and the background throughout the entire 5-second duration, including during specified 'establish' and 'hold' phases. The audio includes bird chirping sounds in addition to the requested mechanical tick, violating the 'one isolated mechanical tick, then silence' instruction. The scene is never truly 'settled' or 'resolved' due to the persistent visual instability."
+  }
+}

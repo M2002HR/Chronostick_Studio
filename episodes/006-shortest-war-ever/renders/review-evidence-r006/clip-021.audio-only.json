@@ -1,0 +1,17 @@
+{
+  "number": 21,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r005.mp4",
+  "source_sha256": "2f997bf9d87af5db7db815ee444b9dc7e90eb966fdba1aa49094fb7a61bfb129",
+  "pcm_sha256": "6777f00fbeaf5f6869d339442e4482ef88ff97098c83d54708ec2a7015793e42",
+  "peak_pcm16": 26968,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short musical phrase with a distinct 'ding' sound, followed by a sustained, low-frequency hum or drone. The music has a somewhat ethereal quality.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

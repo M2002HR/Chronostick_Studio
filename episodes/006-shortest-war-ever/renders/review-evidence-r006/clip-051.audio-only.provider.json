@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A vehicle is heard starting and driving away. There's a distinct engine sound, followed by the vehicle moving on a surface. No speech or music is present.\",\n  \"speech\": false,\n  \"exact_words\": \"\",\n  \"music\": false,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": false,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 92,
+    "totalTokenCount": 332,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "plTBarfZHu3V7M8P1uyB-Ac"
+}

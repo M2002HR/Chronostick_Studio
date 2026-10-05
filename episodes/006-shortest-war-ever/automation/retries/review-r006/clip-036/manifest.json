@@ -1,0 +1,30 @@
+{
+  "number": 36,
+  "decision": "revise_prompt",
+  "reason": "At1.00s closed scroll unrolls; at2.75s extreme view slides protagonist off screen, losing planned grip/action and resolved end.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-036.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r004.mp4",
+  "baseline_sha256": "3ab91dc9156d6f49d45352ec7b3c2f11e25d8d8e37ed2dfe4e2266379c0f57e0",
+  "reviewed_at": "2026-10-03T18:52:38.926014+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 5796486122309733778,
+  "previous_seed": 7521649282189254920,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-036/prompts/clip-036.md",
+  "prompt_sha256": "a56a646b35a2e0bafaa7adb4e3295e76694975b49b3c37ad881ca6223345dcd2",
+  "job": "006-shortest-war-ever:clip-036:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+      "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "cd15492f-5a4c-44d9-9b4c-103cd4e95fa4",
+  "job_ids": [
+    "9d921cb9-96e2-45f3-90de-fe3c7123ab06"
+  ],
+  "submitted_at": "2026-10-03T18:52:39.035628+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-036.jpg"
+}

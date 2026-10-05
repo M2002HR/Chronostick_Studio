@@ -1,0 +1,5 @@
+{
+  "status": "superseded_during_render",
+  "reason": "User superseded 64px/two-line experiment with exact 60px, single-line and unchanged width. Render terminated before release; complete r002 preserved; r004 is the replacement.",
+  "approval": null
+}

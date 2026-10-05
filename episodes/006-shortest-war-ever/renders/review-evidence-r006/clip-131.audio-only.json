@@ -1,0 +1,17 @@
+{
+  "number": 131,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r004.mp4",
+  "source_sha256": "bb5fb6359f9052fc1d58c69c51a728dd7ca79dc73a7ca93092452ac9b99b7c43",
+  "pcm_sha256": "baef2f8940f036bb8d0129972fb1ef546fc34f7fe9653d03644d0d33b26c6e7f",
+  "peak_pcm16": 10297,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, like something hitting a surface, followed by a brief rustling or shuffling sound. No speech or music is present. There is no continuous ambience or tonal bed.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

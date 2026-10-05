@@ -1,0 +1,17 @@
+{
+  "number": 22,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r004.mp4",
+  "source_sha256": "55c0ba444e06deab928e686518b7dcedaf8e1e56b9fb02b32c36f4d4f29606bf",
+  "pcm_sha256": "5793f51768fb3c680485ee47e42b324ca40762963bb7598ec2544a549e399e6e",
+  "peak_pcm16": 7684,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Ocean waves are heard crashing, with a continuous ambient sound of water. No speech or music is present. There is no distinct tonal bed.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

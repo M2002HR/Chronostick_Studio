@@ -1,0 +1,17 @@
+{
+  "number": 56,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-056-shot-r004.mp4",
+  "source_sha256": "c747dd6404e7c6f8ac391d9c106bb9de29e976d7aad3b67b3d9564d72473a5ad",
+  "pcm_sha256": "503b13775a7a16730337dd514fa89220371dfc03e450751f77d7acb023f30861",
+  "peak_pcm16": 4048,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Acoustic guitar arpeggios are played with a gentle, flowing rhythm. The sound is clear and resonant, with no other audible sounds present. There is a continuous, ambient quality to the music.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

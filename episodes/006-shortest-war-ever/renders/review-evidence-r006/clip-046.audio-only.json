@@ -1,0 +1,17 @@
+{
+  "number": 46,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-046-shot-r004.mp4",
+  "source_sha256": "5f46e9ad116c314145d34a6cd9e0b3891b24e106821ba22026e70ff9ab775d2a",
+  "pcm_sha256": "5c3e0c851d3c803c057d42c2e0049797aa6f4fa9b6b8062dca1f4ec28b91aeef",
+  "peak_pcm16": 2873,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, distinct 'thwip' sound, like a small object moving quickly through the air, followed by a brief, sustained tonal bed. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

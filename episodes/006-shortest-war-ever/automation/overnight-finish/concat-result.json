@@ -1,0 +1,719 @@
+{
+  "id": "995b71a3-e5c7-412c-8cca-41d790c7713d",
+  "type": "concat",
+  "status": "succeeded",
+  "created_at": "2026-10-04T23:15:56.765153+00:00",
+  "updated_at": "2026-10-04T23:16:05.249047+00:00",
+  "comfy_prompt_id": null,
+  "batch_id": null,
+  "error_json": null,
+  "retry_count": 0,
+  "seed": null,
+  "template_version": null,
+  "template_hash": null,
+  "stage": "succeeded",
+  "progress_current": null,
+  "progress_total": null,
+  "progress_percent": 100.0,
+  "request": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4",
+    "fps": 24.0,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-001-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-002-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-003-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-004-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-005-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-006-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-007-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-008-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-009-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-010-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-011-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-012-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-013-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-014-map-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-015-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-016-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-017-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-018-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-019-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-020-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-021-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-022-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-023-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-024-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-025-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-026-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-027-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-028-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-029-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-030-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-031-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-032-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-033-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-034-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-035-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-036-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-037-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-038-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-039-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-040-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-041-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-042-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-043-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-044-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-045-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-046-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-047-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-048-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-049-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-050-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-051-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-052-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-053-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-054-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-055-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-056-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-057-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-058-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-059-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-060-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-061-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-062-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-063-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-064-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-065-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-066-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-067-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-068-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-069-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-070-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-071-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-072-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-073-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-074-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-075-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-076-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-077-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-078-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-079-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-080-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-081-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-082-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-083-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-084-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-085-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-086-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-087-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-088-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-089-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-090-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-091-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-092-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-093-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-094-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-095-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-096-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-097-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-098-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-099-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-100-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-101-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-102-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-103-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-104-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-105-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-106-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-107-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-108-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-109-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-110-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-111-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-112-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-113-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-114-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-115-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-116-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-117-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-118-map-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-119-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-120-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-121-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-122-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-123-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-124-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-125-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-126-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-127-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-128-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-129-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-130-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-131-shot-r006.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4"
+  },
+  "resolved": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4",
+    "fps": 24.0,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-001-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-002-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-003-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-004-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-005-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-006-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-007-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-008-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-009-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-010-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-011-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-012-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-013-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-014-map-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-015-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-016-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-017-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-018-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-019-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-020-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-021-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-022-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-023-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-024-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-025-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-026-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-027-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-028-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-029-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-030-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-031-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-032-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-033-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-034-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-035-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-036-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-037-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-038-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-039-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-040-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-041-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-042-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-043-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-044-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-045-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-046-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-047-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-048-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-049-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-050-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-051-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-052-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-053-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-054-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-055-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-056-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-057-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-058-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-059-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-060-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-061-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-062-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-063-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-064-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-065-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-066-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-067-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-068-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-069-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-070-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-071-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-072-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-073-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-074-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-075-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-076-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-077-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-078-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-079-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-080-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-081-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-082-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-083-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-084-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-085-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-086-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-087-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-088-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-089-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-090-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-091-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-092-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-093-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-094-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-095-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-096-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-097-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-098-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-099-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-100-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-101-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-102-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-103-shot-r008.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-104-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-105-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-106-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-107-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-108-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-109-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-110-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-111-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-112-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-113-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-114-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-115-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-116-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-117-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-118-map-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-119-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-120-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-121-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-122-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-123-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-124-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-125-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-126-shot-r009.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-127-shot-r005.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-128-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-129-shot-r004.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-130-shot-r006.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/final-selected/clip-131-shot-r006.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4"
+  },
+  "output_files": [
+    "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4",
+    "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.run.json"
+  ],
+  "error": null,
+  "warnings": [],
+  "metrics": {
+    "attempts": [
+      {
+        "started_at": "2026-10-04T23:15:56.779222+00:00",
+        "completed_at": "2026-10-04T23:16:05.244470+00:00",
+        "elapsed_seconds": 8.465,
+        "sample_interval_seconds": 2,
+        "sample_count": 6,
+        "system": {
+          "cpu_percent_average": 9.928,
+          "cpu_percent_peak": 11.14,
+          "memory_used_mib_peak": 27336.75,
+          "memory_available_mib_min": 3835.17578125,
+          "service_rss_mib_peak": 163.96484375,
+          "load_1m_peak": 1.720703125,
+          "output_disk_free_gib_min": 97.30831909179688
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 0.667,
+            "utilization_percent_peak": 4.0,
+            "memory_used_mib_peak": 15029.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 48.0,
+            "power_w_average": 8.175,
+            "power_w_peak": 8.26,
+            "estimated_energy_wh": 0.019
+          }
+        ],
+        "sample_errors": [],
+        "samples": [
+          {
+            "timestamp": "2026-10-04T23:15:56.812845+00:00",
+            "elapsed_seconds": 0.034,
+            "system_cpu_percent": null,
+            "load_average": [
+              1.34814453125,
+              1.69384765625,
+              1.9052734375
+            ],
+            "memory": {
+              "total_mib": 31171.92578125,
+              "available_mib": 3971.078125,
+              "used_mib": 27200.84765625
+            },
+            "service_rss_mib": 163.59765625,
+            "output_disk_free_gib": 97.57827377319336,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 0.0,
+                "memory_used_mib": 15025.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 47.0,
+                "power_w": 8.12
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-10-04T23:15:58.869328+00:00",
+            "elapsed_seconds": 2.09,
+            "system_cpu_percent": 11.14,
+            "load_average": [
+              1.720703125,
+              1.765625,
+              1.927734375
+            ],
+            "memory": {
+              "total_mib": 31171.92578125,
+              "available_mib": 3835.17578125,
+              "used_mib": 27336.75
+            },
+            "service_rss_mib": 163.92578125,
+            "output_disk_free_gib": 97.57823181152344,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 4.0,
+                "memory_used_mib": 15029.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 47.0,
+                "power_w": 8.26
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-10-04T23:16:00.901585+00:00",
+            "elapsed_seconds": 4.122,
+            "system_cpu_percent": 9.69,
+            "load_average": [
+              1.720703125,
+              1.765625,
+              1.927734375
+            ],
+            "memory": {
+              "total_mib": 31171.92578125,
+              "available_mib": 3867.23828125,
+              "used_mib": 27304.6875
+            },
+            "service_rss_mib": 163.92578125,
+            "output_disk_free_gib": 97.5782470703125,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 0.0,
+                "memory_used_mib": 15028.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 47.0,
+                "power_w": 8.14
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-10-04T23:16:02.935758+00:00",
+            "elapsed_seconds": 6.157,
+            "system_cpu_percent": 9.07,
+            "load_average": [
+              1.720703125,
+              1.765625,
+              1.927734375
+            ],
+            "memory": {
+              "total_mib": 31171.92578125,
+              "available_mib": 3958.30078125,
+              "used_mib": 27213.625
+            },
+            "service_rss_mib": 163.92578125,
+            "output_disk_free_gib": 97.57823181152344,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 0.0,
+                "memory_used_mib": 15028.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 47.0,
+                "power_w": 8.13
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-10-04T23:16:04.969120+00:00",
+            "elapsed_seconds": 8.19,
+            "system_cpu_percent": 10.15,
+            "load_average": [
+              1.66259765625,
+              1.75244140625,
+              1.92236328125
+            ],
+            "memory": {
+              "total_mib": 31171.92578125,
+              "available_mib": 3894.6875,
+              "used_mib": 27277.23828125
+            },
+            "service_rss_mib": 163.9453125,
+            "output_disk_free_gib": 97.34775924682617,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 0.0,
+                "memory_used_mib": 15025.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 48.0,
+                "power_w": 8.19
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-10-04T23:16:05.244186+00:00",
+            "elapsed_seconds": 8.465,
+            "system_cpu_percent": 9.59,
+            "load_average": [
+              1.66259765625,
+              1.75244140625,
+              1.92236328125
+            ],
+            "memory": {
+              "total_mib": 31171.92578125,
+              "available_mib": 3911.7265625,
+              "used_mib": 27260.19921875
+            },
+            "service_rss_mib": 163.96484375,
+            "output_disk_free_gib": 97.30831909179688,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 0.0,
+                "memory_used_mib": 15025.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 48.0,
+                "power_w": 8.21
+              }
+            ]
+          }
+        ],
+        "attempt": 1
+      }
+    ],
+    "latest": {
+      "started_at": "2026-10-04T23:15:56.779222+00:00",
+      "completed_at": "2026-10-04T23:16:05.244470+00:00",
+      "elapsed_seconds": 8.465,
+      "sample_interval_seconds": 2,
+      "sample_count": 6,
+      "system": {
+        "cpu_percent_average": 9.928,
+        "cpu_percent_peak": 11.14,
+        "memory_used_mib_peak": 27336.75,
+        "memory_available_mib_min": 3835.17578125,
+        "service_rss_mib_peak": 163.96484375,
+        "load_1m_peak": 1.720703125,
+        "output_disk_free_gib_min": 97.30831909179688
+      },
+      "gpus": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4060 Ti",
+          "utilization_percent_average": 0.667,
+          "utilization_percent_peak": 4.0,
+          "memory_used_mib_peak": 15029.0,
+          "memory_total_mib": 16380.0,
+          "temperature_c_peak": 48.0,
+          "power_w_average": 8.175,
+          "power_w_peak": 8.26,
+          "estimated_energy_wh": 0.019
+        }
+      ],
+      "sample_errors": [],
+      "samples": [
+        {
+          "timestamp": "2026-10-04T23:15:56.812845+00:00",
+          "elapsed_seconds": 0.034,
+          "system_cpu_percent": null,
+          "load_average": [
+            1.34814453125,
+            1.69384765625,
+            1.9052734375
+          ],
+          "memory": {
+            "total_mib": 31171.92578125,
+            "available_mib": 3971.078125,
+            "used_mib": 27200.84765625
+          },
+          "service_rss_mib": 163.59765625,
+          "output_disk_free_gib": 97.57827377319336,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 0.0,
+              "memory_used_mib": 15025.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 47.0,
+              "power_w": 8.12
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-04T23:15:58.869328+00:00",
+          "elapsed_seconds": 2.09,
+          "system_cpu_percent": 11.14,
+          "load_average": [
+            1.720703125,
+            1.765625,
+            1.927734375
+          ],
+          "memory": {
+            "total_mib": 31171.92578125,
+            "available_mib": 3835.17578125,
+            "used_mib": 27336.75
+          },
+          "service_rss_mib": 163.92578125,
+          "output_disk_free_gib": 97.57823181152344,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 4.0,
+              "memory_used_mib": 15029.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 47.0,
+              "power_w": 8.26
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-04T23:16:00.901585+00:00",
+          "elapsed_seconds": 4.122,
+          "system_cpu_percent": 9.69,
+          "load_average": [
+            1.720703125,
+            1.765625,
+            1.927734375
+          ],
+          "memory": {
+            "total_mib": 31171.92578125,
+            "available_mib": 3867.23828125,
+            "used_mib": 27304.6875
+          },
+          "service_rss_mib": 163.92578125,
+          "output_disk_free_gib": 97.5782470703125,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 0.0,
+              "memory_used_mib": 15028.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 47.0,
+              "power_w": 8.14
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-04T23:16:02.935758+00:00",
+          "elapsed_seconds": 6.157,
+          "system_cpu_percent": 9.07,
+          "load_average": [
+            1.720703125,
+            1.765625,
+            1.927734375
+          ],
+          "memory": {
+            "total_mib": 31171.92578125,
+            "available_mib": 3958.30078125,
+            "used_mib": 27213.625
+          },
+          "service_rss_mib": 163.92578125,
+          "output_disk_free_gib": 97.57823181152344,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 0.0,
+              "memory_used_mib": 15028.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 47.0,
+              "power_w": 8.13
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-04T23:16:04.969120+00:00",
+          "elapsed_seconds": 8.19,
+          "system_cpu_percent": 10.15,
+          "load_average": [
+            1.66259765625,
+            1.75244140625,
+            1.92236328125
+          ],
+          "memory": {
+            "total_mib": 31171.92578125,
+            "available_mib": 3894.6875,
+            "used_mib": 27277.23828125
+          },
+          "service_rss_mib": 163.9453125,
+          "output_disk_free_gib": 97.34775924682617,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 0.0,
+              "memory_used_mib": 15025.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 48.0,
+              "power_w": 8.19
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-04T23:16:05.244186+00:00",
+          "elapsed_seconds": 8.465,
+          "system_cpu_percent": 9.59,
+          "load_average": [
+            1.66259765625,
+            1.75244140625,
+            1.92236328125
+          ],
+          "memory": {
+            "total_mib": 31171.92578125,
+            "available_mib": 3911.7265625,
+            "used_mib": 27260.19921875
+          },
+          "service_rss_mib": 163.96484375,
+          "output_disk_free_gib": 97.30831909179688,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 0.0,
+              "memory_used_mib": 15025.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 48.0,
+              "power_w": 8.21
+            }
+          ]
+        }
+      ],
+      "attempt": 1
+    },
+    "total_attempts": 1
+  }
+}

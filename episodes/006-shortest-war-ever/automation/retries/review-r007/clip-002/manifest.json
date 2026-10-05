@@ -1,0 +1,30 @@
+{
+  "number": 2,
+  "decision": "revise_prompt",
+  "reason": "Reviewed latest r006: warm floor/lighting become flat blue; restore literal anchor palette and shoe inventory.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-002-r006.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r006.mp4",
+  "baseline_sha256": "6ebb4692ebeb71534ae70550fe339a87193469c779e03c6462c0b5ff02aff946",
+  "reviewed_at": "2026-10-03T19:26:38.531250+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 1359145097469953347,
+  "previous_seed": 6163882181954358151,
+  "revision": 7,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r007/clip-002/prompts/clip-002.md",
+  "prompt_sha256": "41a021ebae7b1196820fd22466662b1259640c65414aab5f23f0f3b0c607651b",
+  "job": "006-shortest-war-ever:clip-002:r007",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+      "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "c4b09d73-5157-4595-b0b8-a783e2212de5",
+  "job_ids": [
+    "5b4ded22-9fa8-44dd-9e87-3b572227edeb"
+  ],
+  "submitted_at": "2026-10-03T19:26:38.713686+00:00",
+  "baseline_request": "automation/retries/review-r006/clip-002/jobs/clip-002.json"
+}

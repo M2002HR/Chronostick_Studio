@@ -1,0 +1,17 @@
+{
+  "number": 105,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r005.mp4",
+  "source_sha256": "6f2eb3d9e183046003667220ed3171c0defee82cd1230418546563c8ffca7ac0",
+  "pcm_sha256": "ea993f1e391e7fff6381e364475c24ccadd639d5cce626ac6979f53a948ad219",
+  "peak_pcm16": 5083,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, clear, high-pitched chime sound, followed by a brief silence, then a distinct 'click' sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

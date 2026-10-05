@@ -1,0 +1,17 @@
+{
+  "number": 16,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r005.mp4",
+  "source_sha256": "5edba5a60fa0213b8ca3c7b8dc81fed332436633e389fdd9ad0b62152d37de6d",
+  "pcm_sha256": "4adf37e1d26651c5c3ad2ef7095116e79a5940e24afd56c0f905d710824e76a4",
+  "peak_pcm16": 5368,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, low-frequency hum transitions into a higher-pitched, continuous tone, resembling a drone or ambient music. There are no distinct percussive elements or speech present.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "number": 33,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r005.mp4",
+  "source_sha256": "e6c47cbdb970c6694cee5d4780eb4aceb0da8554e95715af737146574c6ae589",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The first shot is a closer crop than the 'anchor's original composition' specified in the prompt. The reference image shows the full fleet and palace, while the video starts with a closer view of the nearest ship and only one other ship visible.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The prompt specifies 'exactly five distinct British warships across the water'. The first shot only shows two ships.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The prompt states 'All five existing British ships remain at their fixed stations'. Since only two ships are visible, this condition is not fully met.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is a continuation of the first shot's framing, not 'a closer crop inside the same composition showing a British hull and intact palace beyond' as specified. The framing remains largely the same, and the palace is not more prominent.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt states 'exactly five distinct British warships across the water' for the end state. The second shot, like the first, only shows two ships.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The animation style deviates from 'drawn stick figures with round off-white heads, dot eyes, thin limbs, bold dark contours'. The figures have more detailed faces and bodies, and the overall style is more rendered than drawn stick figures.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "One short hull creak, then silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "description": "hull creak"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the specified framing and number of ships in both shots. The character design also deviates from the 'drawn stick figures' style. The audio correctly features a single hull creak followed by silence, as requested."
+  }
+}

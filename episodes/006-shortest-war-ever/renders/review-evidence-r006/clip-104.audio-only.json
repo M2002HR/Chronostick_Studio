@@ -1,0 +1,17 @@
+{
+  "number": 104,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-104-shot-r004.mp4",
+  "source_sha256": "7221051729f9b8021bd67be5246c36708558515c5ca841278074a264af97a90f",
+  "pcm_sha256": "85a444cebdcbcd9647f32f241fa7f19dd80ed8cc6e79c9cd76791d06dc607353",
+  "peak_pcm16": 6567,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct click, followed by a brief, low-frequency hum. There is a continuous ambient sound throughout the recording.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

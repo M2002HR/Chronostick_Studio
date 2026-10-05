@@ -1,0 +1,66 @@
+{
+  "number": 1,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-001-shot-r004.mp4",
+  "source_sha256": "51c1e5a39ae93c5edeb57082fb26ccd0c79e3414dacbf0048c8a5005af3947f5",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 1.5,
+        "issue": "The action specified as 'one startled step' resulted in the character taking multiple steps (at least two distinct footfalls) before settling, deviating from the singular step implied.",
+        "severity": "minor"
+      },
+      {
+        "start": 1.5,
+        "end": 2.3,
+        "issue": "The action was completed and settled around 1.50s, earlier than the specified 2.10s, meaning the hold period started earlier than planned.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's eyes repeatedly close and open (blinking/expression change) throughout the second shot. The prompt allowed 'only a tiny eyebrow, cloth or water adjustment', and this eye movement exceeds that allowance.",
+        "severity": "minor"
+      },
+      {
+        "start": 4.35,
+        "end": 5.0,
+        "issue": "The character's eyes continue to move/blink after 4.35s, indicating the frame is not fully 'held settled' as requested from that point.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "Multiple shoe scuff sounds.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.01,
+          "description": "Shoe scuff"
+        },
+        {
+          "start": 0.01,
+          "end": 0.02,
+          "description": "Shoe scuff"
+        },
+        {
+          "start": 0.02,
+          "end": 0.03,
+          "description": "Shoe scuff"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation adheres to the requested visual style and overall narrative. However, the character's movement in the first shot involved multiple steps instead of a single one, and the settling time was earlier than specified. In the second shot, the character exhibits excessive eye blinking, which goes beyond the 'tiny adjustment' allowance and prevents the frame from being fully settled as requested. The audio provided multiple shoe scuff sounds, whereas the prompt requested 'one light shoe scuff or jacket swish'."
+  }
+}

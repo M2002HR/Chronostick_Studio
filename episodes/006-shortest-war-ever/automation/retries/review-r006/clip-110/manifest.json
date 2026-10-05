@@ -1,0 +1,30 @@
+{
+  "number": 110,
+  "decision": "revise_prompt",
+  "reason": "Frame zero adds two unsupported foreground women while original two remain.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-110.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r004.mp4",
+  "baseline_sha256": "419676e44e5f9f63f4964dbafae49e6ff5bf0e12f74d7cd68008f848a5c28dc4",
+  "reviewed_at": "2026-10-03T19:12:14.424208+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 5244368590972159851,
+  "previous_seed": 2108735166196957166,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-110/prompts/clip-110.md",
+  "prompt_sha256": "e35e5419943c8fb83fde4e770b1940a578556a5daece605afe04ad6c8c1a58b3",
+  "job": "006-shortest-war-ever:clip-110:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+      "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "4ac3d6ad-8453-4f39-8ac3-e5f8df49ee09",
+  "job_ids": [
+    "9f80ff71-d2c6-4394-a7cc-423054bcfa27"
+  ],
+  "submitted_at": "2026-10-03T19:12:14.553870+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-110.jpg"
+}

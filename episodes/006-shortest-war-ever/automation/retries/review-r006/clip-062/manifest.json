@@ -1,0 +1,30 @@
+{
+  "number": 62,
+  "decision": "revise_prompt",
+  "reason": "From 1.0s invented foreground crew and new huge occupied bow.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-062.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r004.mp4",
+  "baseline_sha256": "2e984c35a9f2010a211a3673ec1e2463321e9f322b5781e44bb8866a038992fb",
+  "reviewed_at": "2026-10-03T19:02:04.989424+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8120151602235812612,
+  "previous_seed": 6596317081109935584,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-062/prompts/clip-062.md",
+  "prompt_sha256": "a38afacb7d7c6930467cbb3b4eeb2adebd12bb9bc2d592da1ca825bdf26efc54",
+  "job": "006-shortest-war-ever:clip-062:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+      "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "d7220d33-0ff6-4871-957c-64080deca8e4",
+  "job_ids": [
+    "948210cb-9c67-4830-afb5-7ee584d12231"
+  ],
+  "submitted_at": "2026-10-03T19:02:05.131350+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-062.jpg"
+}

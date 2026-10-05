@@ -1,0 +1,17 @@
+{
+  "number": 130,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-130-shot-r004.mp4",
+  "source_sha256": "a1a61bb70c40d0cfb251610fc1d48376ac31ef1b448b843e47336908ac1e04cc",
+  "pcm_sha256": "63299f04fdc302f18d8f7b0b2a73f72a9dc7960f925f085b73ad5d949cbf346c",
+  "peak_pcm16": 13619,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, playful melody with a distinct, plucked string instrument, possibly a ukulele or mandolin. There's also a subtle, continuous ambient sound, like a distant hum or very soft wind.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

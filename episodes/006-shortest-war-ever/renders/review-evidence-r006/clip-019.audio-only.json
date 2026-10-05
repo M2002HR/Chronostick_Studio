@@ -1,0 +1,17 @@
+{
+  "number": 19,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r004.mp4",
+  "source_sha256": "3c3f736376231b89e1d219470d41cfc0887f0594171119f2ab3521c399fdb029",
+  "pcm_sha256": "caae3eb9f290aa98da559b31e3e265f78cf7e8df28b0eb925ebad259cec862d9",
+  "peak_pcm16": 16038,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Acoustic guitar, with a distinct strumming pattern, plays a melodic phrase. A subtle, continuous ambient hum underlies the guitar. No speech or singing is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

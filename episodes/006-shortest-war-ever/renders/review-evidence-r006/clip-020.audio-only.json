@@ -1,0 +1,17 @@
+{
+  "number": 20,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-020-shot-r005.mp4",
+  "source_sha256": "9397c7aa8de4421866bb4e9f59d43c33d57507baf7876e19561354867680c8dc",
+  "pcm_sha256": "a7e797521fc55f813aa2bd7412d70a8c83a3feb84204159db94d9b5614d2c74c",
+  "peak_pcm16": 1743,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct gurgling sound, possibly water draining or bubbling. There are no other discernible sounds.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

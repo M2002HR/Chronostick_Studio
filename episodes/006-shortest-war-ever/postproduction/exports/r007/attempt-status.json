@@ -1,0 +1,6 @@
+{
+  "status": "interrupted_before_release",
+  "exit_status": 143,
+  "reason": "Render process received termination before finishing; no complete output or approval. Same validated edit is relaunched detached as r008.",
+  "approval": null
+}

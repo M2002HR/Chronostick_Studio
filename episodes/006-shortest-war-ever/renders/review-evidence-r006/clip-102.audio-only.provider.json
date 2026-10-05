@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A distinct 'clink' sound, followed by the chirping of birds and a continuous, subtle ambient hum.\",\n  \"speech\": false,\n  \"exact_words\": \"\",\n  \"music\": false,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": true,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 322,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "9FTBaueLD4qGxN8Pj-WvqAk"
+}

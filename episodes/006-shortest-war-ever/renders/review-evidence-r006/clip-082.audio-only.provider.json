@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A short, sharp, percussive sound, possibly a gunshot, followed by a reverberating metallic clang and a sustained, low-frequency hum.\",\n  \"speech\": false,\n  \"exact_words\": \"\",\n  \"music\": false,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": false,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 329,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "01TBat6nDdf4vdIP_4-K6Qw"
+}

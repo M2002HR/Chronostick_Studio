@@ -1,0 +1,17 @@
+{
+  "number": 7,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r005.mp4",
+  "source_sha256": "85f6a3894634b7be521fd2677f5b78fae29f42742159760a31ea5898a2a574a2",
+  "pcm_sha256": "bdcda12986b2e4b2d336dbc732f85efd46ca384d751d1ef14fe79b6ac4ba3f7a",
+  "peak_pcm16": 8473,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A vehicle passes by, followed by a short musical interlude with a tonal bed. There is a continuous ambient hum throughout the audio.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

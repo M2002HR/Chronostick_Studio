@@ -1,0 +1,17 @@
+{
+  "number": 52,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-052-shot-r004.mp4",
+  "source_sha256": "02e6ea2e608629fb02f17ec6778630719247fdd4e99969722a265f9f422809ae",
+  "pcm_sha256": "e4a8bf709ed1d89a8253eeda4683713e5e493cf4fc8b0c3a00cf8314736aa602",
+  "peak_pcm16": 5535,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short musical phrase with a distinct melody and harmony, played on what sounds like a string instrument, possibly a cello or viola. There is a continuous, subtle ambient hum throughout the audio.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

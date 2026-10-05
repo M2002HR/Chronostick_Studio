@@ -1,0 +1,30 @@
+{
+  "number": 94,
+  "decision": "revise_prompt",
+  "reason": "Frame zero onward invented large crowd obscures wreck; bodies morph and new people arrive.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-094.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r004.mp4",
+  "baseline_sha256": "bfa77607ec4539f4b023f348af8ca94160fca87b8ed1a915aa24ee0bd2d16b4f",
+  "reviewed_at": "2026-10-03T19:06:32.349921+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 7034138130607491514,
+  "previous_seed": 5183393093162797323,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-094/prompts/clip-094.md",
+  "prompt_sha256": "d9f27d2fd8c2f88f79b44b017d7ee06a0429582e084e2156bcd869f0848c98fc",
+  "job": "006-shortest-war-ever:clip-094:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+      "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "3507a009-ce7f-46a9-9852-1d142cb38e7c",
+  "job_ids": [
+    "71d26c1f-ba9f-4c4e-aaca-0954bf9309a4"
+  ],
+  "submitted_at": "2026-10-03T19:06:32.514342+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-094.jpg"
+}

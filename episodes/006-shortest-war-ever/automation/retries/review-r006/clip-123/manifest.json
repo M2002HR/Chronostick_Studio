@@ -1,0 +1,30 @@
+{
+  "number": 123,
+  "decision": "revise_prompt",
+  "reason": "Held shoe disappears at 0.5s; foot remains barefoot until replacement shoe pops on at 1.5s.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-123.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r004.mp4",
+  "baseline_sha256": "539f6cb7bfe6369d66ade4c24f3b83409ef645d32082f1873529bd58543e334e",
+  "reviewed_at": "2026-10-03T19:12:17.342330+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 1209108470603055142,
+  "previous_seed": 3869984483667737281,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-123/prompts/clip-123.md",
+  "prompt_sha256": "8d5928009cc6b5587814b56c041527c4507b2573bc574eb90f08002f8981bfce",
+  "job": "006-shortest-war-ever:clip-123:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+      "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "fc1a9e9e-9b21-4048-9dc3-030325d45803",
+  "job_ids": [
+    "2f4ad5c7-fe5b-4b4e-8e49-8dc81377e6ce"
+  ],
+  "submitted_at": "2026-10-03T19:12:17.474088+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-123.jpg"
+}

@@ -1,0 +1,17 @@
+{
+  "number": 90,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-090-shot-r004.mp4",
+  "source_sha256": "50b2837ef365c57ff0d5ea46b7bc8c29ee640386d868853fe413a52b34c7e6c5",
+  "pcm_sha256": "c06b6eb1b70d6924ae9edcab633d202e4a18807903fe1680c21205f01ff01eb8",
+  "peak_pcm16": 3021,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'click' sound is followed by a short, simple musical jingle. There are no other discernible sounds.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

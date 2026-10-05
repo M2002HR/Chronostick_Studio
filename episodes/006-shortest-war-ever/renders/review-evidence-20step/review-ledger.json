@@ -1,0 +1,535 @@
+{
+  "scope": "Only completed r006 outputs, no earlier/later revisions screened",
+  "reviewed_count": 74,
+  "failed_count": 40,
+  "pending_round006_outputs": [
+    119,
+    130
+  ],
+  "all_frame_text_observations": {
+    "059": "08:00 preserved in all120frames",
+    "060": "08:00 preserved in all120frames",
+    "124": "09:38 preserved in all120frames",
+    "082": "Placard obscured by Khalid in laterframes; failure queued"
+  },
+  "clips": [
+    {
+      "number": 2,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r006.mp4",
+      "source_sha256": "6ebb4692ebeb71534ae70550fe339a87193469c779e03c6462c0b5ff02aff946",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r006.mp4",
+      "source_sha256": "10e9bf6b949ee0ff5cc9842a505a3c52c3463a586de08709ed8dc89b5760a654",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r006.mp4",
+      "source_sha256": "32dac68c9f2d99529ce383cfe29025baffec9935f14a2c3a2aa541d3f8ca1599",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 7,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r006.mp4",
+      "source_sha256": "90982a61635f9894faf5fbba645c410ae870b6dcc50a824f236c4d67ceaf7358",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r006.mp4",
+      "source_sha256": "accd79fb87036ee096be3f75ab10ee12ae5377abdd654412af74897a38d4292f",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 10,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r006.mp4",
+      "source_sha256": "b823e851c6357e2928a1c26615175f119c9247b62523e5364a489f2f2240e432",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 12,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r006.mp4",
+      "source_sha256": "a43663b05be5a6cac2698601c7f8a0c95527f3ccac7fef137c471b717f9274f6",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 13,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r006.mp4",
+      "source_sha256": "1615ebce28232c095fda7761261d5f99cd19eea93d00543119067bdf146ae4a9",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 15,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r006.mp4",
+      "source_sha256": "fabf79fefb28daed0adb596ac22e395e21292d0fac48570cfce3ff8a08bb30b0",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 16,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r006.mp4",
+      "source_sha256": "158e81a9c97bcf914965e6b645092abb5c71479a09dc4377f7cce6485bf08b76",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 17,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r006.mp4",
+      "source_sha256": "3a54f09fc0319073f70f51d0320ef0bf960aed859ec7c9bc6cfcc75500c0f0df",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 19,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r006.mp4",
+      "source_sha256": "88ba685ae8fb2eff5180c83e97cd2283e737c9da9b4e3387306183606c493fd5",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 21,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r006.mp4",
+      "source_sha256": "3471c79e761d5b6cac59e3b6071d887ab7b6f929e75e16dbc40676d6e23f4e6a",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 22,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r006.mp4",
+      "source_sha256": "75ea2091fb8614d21c2ab35cb8e597b01f861193041e6481fdd9cd6c4838192d",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 23,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r006.mp4",
+      "source_sha256": "6e4fdaef4fb144d20f17ae07925a354ec46da33dcd8a758279adbf93cd9ad1e1",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 24,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r006.mp4",
+      "source_sha256": "236c97dcee0f7188306f2470c89a71faabc7d24df683f4583b2d1b8feb70d232",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 25,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r006.mp4",
+      "source_sha256": "c9879c6d8964d7d59eb79b86f2bc6d788fc603a89a071dc88a3adc093631da06",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 26,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r006.mp4",
+      "source_sha256": "632c70ab7367ce8f7e625000ba719d748b3b6d472c48c8c5d2289cad8ee18d2c",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 27,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r006.mp4",
+      "source_sha256": "ef2de8b4660dd1337aaaafad986397638cd8cbe651b80fd174be4de48c32aaba",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 28,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r006.mp4",
+      "source_sha256": "8b0fd4be9f6a34ddeccf6a6bd936f6d66fd54bc90bb63be1b2792acad2627d00",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 30,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r006.mp4",
+      "source_sha256": "cd0e8e503e9c6bbf811d23b91e227afe390ba99c9971f16daa402e55e85ea3c6",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 31,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r006.mp4",
+      "source_sha256": "642b0a1150a576543c5d2be375c4a732e7157f2169b72573d152165af75af20c",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 32,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r006.mp4",
+      "source_sha256": "065ade3a069e2091d3c6755956b7ecad4c83b3a5c47a75505aa2c7f83de5fe56",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 33,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r006.mp4",
+      "source_sha256": "b221310875a0a08d343e7d13a7fea0a3fef2f69fdb53121342bd1bccfd57e565",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 34,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r006.mp4",
+      "source_sha256": "d4d6224a2f4843cbb44d58a5912e2733b1716488e63c2bae6964917c226b05f7",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 35,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r006.mp4",
+      "source_sha256": "054a279c9ab5e92049a945a933586a3bec0c4ceb55f51c1b9d8f0d1584a1c574",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 36,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r006.mp4",
+      "source_sha256": "f3620fc58a9120987dddcb8028cb3dcae785f90378a6a6b0cc808af52d30c322",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 37,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r006.mp4",
+      "source_sha256": "dd84fb933c488496e6bcade7011a6a7952972a7b235238e3398306fa0fd2dc21",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 43,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r006.mp4",
+      "source_sha256": "c15c03c48ad103aa026fc27daf666976545535f9ddaa184a5039da0d8e717f45",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 44,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r006.mp4",
+      "source_sha256": "eb708ab96b81d0d9afa2ce375a84f23cdf16fcc94c87a1a408874eedd8661b59",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 45,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r006.mp4",
+      "source_sha256": "96c0d06d26d9e8c97c26bcbcfe92381e47d582ee3770669859050cac361ac53d",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 47,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r006.mp4",
+      "source_sha256": "a6db9f045c94a4e9d4633ea8170b9ffc6e8f9928c6e4cd05e3f5dd8fc7007599",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 51,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r006.mp4",
+      "source_sha256": "ef853bf7a1b1c0e7cbaf390318e2e8207a6c375e5ef9a40cdbc55b81884d9ee0",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 53,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-053-shot-r006.mp4",
+      "source_sha256": "86738e080b8552bf6ea43fcd5f41150c58d441ae2f7aedaa07964a9be448aa54",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 55,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r006.mp4",
+      "source_sha256": "23de00de5b32f0fb32c1799d394114f48e96fd52dd96277b02ff4fbe8f6f2780",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 58,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r006.mp4",
+      "source_sha256": "5425857594d07ed3da874752046985abc3dfa7b64b00c799d72faa19b5f558a4",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 59,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r006.mp4",
+      "source_sha256": "dae5959025e8cd7fa6f752085ed098157b96797a318f104254e394ebb3bffa8c",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 60,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r006.mp4",
+      "source_sha256": "ff2ecc6ac045658f05bc472558363a3424661760c77d96bc5f7c1cd37fcfcf4d",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 62,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r006.mp4",
+      "source_sha256": "41d4e9767b21c26249d3bed4b2761d6f22c4875b62cd646e216ff2c946a2e601",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 63,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r006.mp4",
+      "source_sha256": "77e6d3fec9f39f23a274eca5edce17be1e29de3c5971aea9a51e874d858edfce",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 67,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r006.mp4",
+      "source_sha256": "9ff39974c2d6b6656a02a9065ea6e385b15dab0e097afdee16c565b6f1f3ab1d",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 68,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r006.mp4",
+      "source_sha256": "0b5f71681511a389948558a2599d5983e75b73746bd1269272ef7030852556b5",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 69,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r006.mp4",
+      "source_sha256": "4ae002f9fcb7fbec4d39386ab98853aca1f3d38f3256719607a53eead885478b",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 70,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r006.mp4",
+      "source_sha256": "feb0ebaf165f70efb714fc253141ac996485c2ad29a98280af853171ce330138",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 72,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r006.mp4",
+      "source_sha256": "9f833b055227383257a4add2ee40d0a8a370c896842ad0087106fbc51cf91a31",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 73,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r006.mp4",
+      "source_sha256": "80ccbbf7a0102f1b1f8f17f609b917b43a2beee317046647f351744c9a9ed4e6",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 76,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-076-shot-r006.mp4",
+      "source_sha256": "3148f76e15ebc9798f8ffd2a39614b835686dad2acd0aac66de8408165240126",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 77,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r006.mp4",
+      "source_sha256": "e151ed07f6a58600e3ee8d6a04bedc638a1e60d714b99388b423f724cbd1e76a",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 78,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r006.mp4",
+      "source_sha256": "70b34ef677e93d9d1f8c27d062bae947814bb364b908cdf301dc941afd8e5427",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 79,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-079-shot-r006.mp4",
+      "source_sha256": "56a388710b8fcf0b2702a6819d4f40ae87fb72b40d2e6983509b822deca1e162",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 80,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r006.mp4",
+      "source_sha256": "e4a828e585626165fa7abc722000a0d8157b731abe68fc4b20c4e8094b9be427",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 81,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r006.mp4",
+      "source_sha256": "9e11bd4e8d2583017903bf5ba2ebc88c07b56ea670d7da63e796cfa7bccb0704",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 82,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r006.mp4",
+      "source_sha256": "8b2e4cb202d6fd68c68f9fb244f39888e01cbbd20ba91d1bad1ee2cf6f3fb5ac",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 84,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r006.mp4",
+      "source_sha256": "a4145545ca06f9ae7164d93d8ca5e632eaa8ba83b0a3b71497a705c0648511d1",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 88,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r006.mp4",
+      "source_sha256": "1cdcdbe272ef02640bd4bb89b8ba203176d87a52e1186628cbd2213554975d9f",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 93,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r006.mp4",
+      "source_sha256": "f131b852fdb8e93cbed44c4736ac38619bcd350da465329a880f8fde2400d120",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 94,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r006.mp4",
+      "source_sha256": "5454442def33e4778f05b19fe0e9f77d49d8a7784749fdd491e45eb37a84de09",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 95,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r006.mp4",
+      "source_sha256": "3707245aadf29bdfba486bb1985401093fd05e8926ad27f972e8018db82b5ce3",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 96,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r006.mp4",
+      "source_sha256": "4ded501c6dafce40c84ba75b3f52b370bd8a89cb598294e350e71f509e3ea56e",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 97,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r006.mp4",
+      "source_sha256": "67ffc4ea226df5813d129a4295b38a5cae0724aa86943abb888a391673e518a7",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 100,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r006.mp4",
+      "source_sha256": "a43e695661ab8fc5ca14f1f25fa4c33732d4ee23175c32d50b8eb9f4b9f50062",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 103,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r006.mp4",
+      "source_sha256": "153b96a78f8ffb320982a46241339b92281abe6defc523b1969041e0e6f1cec3",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 105,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r006.mp4",
+      "source_sha256": "474b2683e01787fa1008b767dc9f64f3632cb0b9911fbb5ac1f773bff3820b4e",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 107,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r006.mp4",
+      "source_sha256": "ec3f82f6c9acc28b4f2f2d30d65a4788f7f3bac0f048d2bd612275170d88bc32",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 108,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r006.mp4",
+      "source_sha256": "448e8473ce49b135f90e8f75ae5319277239d61c9469eadce60bc5278d714fe9",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 110,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r006.mp4",
+      "source_sha256": "fd2f3134186e5aabf66fbd125c96f73944b4dc071a0a76b4223b495fa9bb9f02",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 113,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r006.mp4",
+      "source_sha256": "2180e7ccaf6716eb8a6ca668ad22596797de42a43065bf3b832a842726bf2ce3",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 114,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r006.mp4",
+      "source_sha256": "c0c3e2c81fe49b032955b9c10cffdb11a3fbf4feb759ad0562222f3295cc7b94",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 115,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r006.mp4",
+      "source_sha256": "97c42123193f2e24a28e0466f05ea7c4c201b9309544c75243dd3c8ff6804a50",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 117,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-117-shot-r006.mp4",
+      "source_sha256": "10ba35a93c4fcd0b280f215991bdc48efcf37b45aec742b65e310f9dda5e23f4",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 123,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r006.mp4",
+      "source_sha256": "e4eae2c14f590a5a8b88b97ba662d0b162f53754ea5c0ea3f070097578e9ee0c",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 124,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-124-shot-r006.mp4",
+      "source_sha256": "8bbd50269626337fe416faa3b45be72e4e35adc347c0e119057ee7776c95a94b",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    },
+    {
+      "number": 126,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r006.mp4",
+      "source_sha256": "14a616e2b5300ee0bef8dbbe279f000b2625f18ae8943b1f9748001e344fd352",
+      "decision": "20step_test_queued",
+      "final_approved": false
+    },
+    {
+      "number": 131,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r006.mp4",
+      "source_sha256": "8a5773c6e5df2e22a9fe35ef864810ee943253f8af2eff4e079c125fe139165c",
+      "decision": "no_obvious_major_visual_failure_in_rapid_screening",
+      "final_approved": false
+    }
+  ]
+}

@@ -39,5 +39,14 @@
     "provider_raw_path": "timestamps/word-timestamps-provider-raw.csv",
     "provider_raw_sha256": "59b8141a5b6aa314b11376a62c79dc45f43aec1e61e2f3437578f95a79a6bebb",
     "correction_report": "timestamps/correction-report.json"
+  },
+  "postproduction_voice_export": {
+    "path": "audio/narration-es-google-vids-r002.mp4",
+    "sha256": "777b6cb5d9c6a6e2cc0063eb9848c559a97cb46127e61d4eafea9f4b0a83174a",
+    "original_user_path": "historia_06_old.mp4",
+    "status": "user_supplied_for_postproduction",
+    "timing_source": "timestamps/word-timestamps-source.csv",
+    "alignment_evidence": "postproduction/voice-alignment.json",
+    "processing": "Archived source byte-for-byte; only audio is mapped in the distribution. Original accepted voice and timing retained."
   }
 }

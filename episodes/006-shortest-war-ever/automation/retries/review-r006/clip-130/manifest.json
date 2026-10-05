@@ -1,0 +1,29 @@
+{
+  "number": 130,
+  "decision": "revise_prompt",
+  "reason": "Reviewed latest baseline: fully shod searcher lifts an invented loose third shoe; preserve two worn shoes and empty hands.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-130.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-130-shot-r004.mp4",
+  "baseline_sha256": "a1a61bb70c40d0cfb251610fc1d48376ac31ef1b448b843e47336908ac1e04cc",
+  "reviewed_at": "2026-10-03T19:26:40.474854+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 357583236159170554,
+  "previous_seed": 1579845186464602028,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-130/prompts/clip-130.md",
+  "prompt_sha256": "c8f159a51305e5f3794c302a5a38a3ba90ab9e0c7822f3a3babdf573d6e7452b",
+  "job": "006-shortest-war-ever:clip-130:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-resolved-r001.png",
+      "sha256": "12ef191d787e803ce5c3ade0eac43efc63fd9f7f68ec477f5feca39e51626fc3"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "857f1a24-f4eb-4e3d-9e1e-796e07c69cf8",
+  "job_ids": [
+    "35120195-2825-4940-8d54-c970c373a869"
+  ],
+  "submitted_at": "2026-10-03T19:26:40.891025+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "number": 10,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r004.mp4",
+  "source_sha256": "a6e1e9c851cfe15758c74b57c2d835216513aff9e850c8bb2ca442fd86a1d8dc",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The animation includes numerous stick figures on the ships, which are not present in the reference image or mentioned in the prompt. The prompt explicitly states 'no extra subject appears'.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The flag on the nearest ship is a solid red flag, not the Union Jack as depicted in the reference image and implied by 'British warships'.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The first shot does not match the 'anchor's original composition' from the reference image. It is a closer view of the nearest ship, not the wide calm view with five distinct British warships across the water.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is not a 'closer crop of the nearest existing bow and the same shore beyond' from the *first shot's* composition, but rather a continuation of the same close-up view from the first shot, with additional stick figures appearing on the left side of the ship.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Additional stick figures appear on the left side of the ship during the second segment, which is an unauthorized addition of subjects and a change in composition not supported by the prompt's allowance for 'only a tiny eyebrow, cloth or water adjustment'.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'exactly five distinct British warships across the water'. The animation shows only three visible ships in the background, and the foreground ship is not one of the five distinct British warships from the reference image, but a different ship with stick figures.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A single, brief, metallic creak or groan sound is heard at the beginning of the clip, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "description": "brief metallic creak/groan"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the visual prompt and reference image significantly. It introduces numerous stick figures on the ships, which are not in the reference and explicitly forbidden by the prompt. The flag on the main ship is incorrect. The initial composition is not the wide view requested, and the second segment does not correctly crop from the first, instead adding more unauthorized figures. The number of visible warships is also incorrect. The audio correctly features a single, brief diegetic sound followed by silence."
+  }
+}

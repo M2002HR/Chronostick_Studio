@@ -1,0 +1,30 @@
+{
+  "number": 37,
+  "decision": "revise_prompt",
+  "reason": "Continuous zoom toward right-facing face replaces declared turn toward throne and drifts through final frame.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-037.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r004.mp4",
+  "baseline_sha256": "4bdeb445005da1ca0f245058bfb3f670e65735375c75844cdfad20ff0b3de3df",
+  "reviewed_at": "2026-10-03T18:52:39.391726+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 41351785065304866,
+  "previous_seed": 3939364883599185052,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-037/prompts/clip-037.md",
+  "prompt_sha256": "e19ead64a2c17e8eccc4bf4196014846f8a9c591004377eba3328781ae35abf9",
+  "job": "006-shortest-war-ever:clip-037:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+      "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "35e12fd5-9882-4259-aca1-4450670aa3fa",
+  "job_ids": [
+    "224ebf7f-defb-4cee-b727-2288d0a51771"
+  ],
+  "submitted_at": "2026-10-03T18:52:39.541328+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-037.jpg"
+}

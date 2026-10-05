@@ -1,0 +1,30 @@
+{
+  "number": 80,
+  "decision": "revise_prompt",
+  "reason": "Frame zero omits Khalid, then he walks in; blank placard turns black.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-080.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r004.mp4",
+  "baseline_sha256": "afe009d6c85353246030acbda2d79d789cb5df49a8af19e7d0f25abc303735d1",
+  "reviewed_at": "2026-10-03T19:03:51.966112+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 5022782552429652547,
+  "previous_seed": 1488375588045416140,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-080/prompts/clip-080.md",
+  "prompt_sha256": "cc7f70f5b0d25a99baf49c61f954df780f68057059c7de0873df3f8b33394d84",
+  "job": "006-shortest-war-ever:clip-080:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+      "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "aeb41489-677d-48a1-b6c9-c784753072d4",
+  "job_ids": [
+    "34b13581-f519-4f63-9f75-efba588ea989"
+  ],
+  "submitted_at": "2026-10-03T19:03:52.072928+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-080.jpg"
+}

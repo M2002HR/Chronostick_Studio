@@ -1,0 +1,17 @@
+{
+  "number": 67,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r004.mp4",
+  "source_sha256": "b160ac23dbdb635b300701755721d14109cfb74d80100e6e53be1bba9237b0ce",
+  "pcm_sha256": "c3a48de60b93993ad296f011ff9c04f99483a10ef73c4047e0bd4b367f0406fd",
+  "peak_pcm16": 2503,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A continuous, low-frequency hum with a subtle, rising tonal shift. No distinct speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

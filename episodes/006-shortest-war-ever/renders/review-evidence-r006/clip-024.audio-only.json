@@ -1,0 +1,17 @@
+{
+  "number": 24,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r004.mp4",
+  "source_sha256": "deccdfc56f139d6b6e7aa3ce8d0a4fd86af8a80b03197e5f449380ec69ccd5da",
+  "pcm_sha256": "8b30d721ab0626534fb2aceb3fb3a634c0fa081fbd4c9a4cc2f0692cd7aa0485",
+  "peak_pcm16": 6897,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, high-pitched musical phrase with a sustained, low-frequency hum underneath. The phrase has a somewhat ethereal quality.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

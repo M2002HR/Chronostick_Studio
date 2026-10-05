@@ -1,0 +1,56 @@
+{
+  "number": 29,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-029-shot-r004.mp4",
+  "source_sha256": "34d195f760e06a78687a7045edca7a3c840ea323ab395121b8c9a4d8bafa9010",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The navy-robed shopper does not rest one mitten hand on the large basket. Instead, the shopper's hand is hovering over the basket, and the trader's hand is resting on the basket. This is a reversal of the intended action.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The trader's position is not kept; the trader's left hand is resting on the large basket, which was not the initial state in the reference image.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action's resulting state is not as intended. The navy-robed shopper's hand is still hovering, and the trader's hand is still resting on the basket, which is a continuation of the incorrect action from the first segment.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; there is a slight zoom in and out, and a subtle shift in position.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "Music is present throughout the entire clip. There is also a distinct 'thump' sound event at the beginning of the second segment.",
+      "music": true,
+      "speech": false,
+      "tonal_bed": true,
+      "events": [
+        {
+          "start": 2.3,
+          "end": 2.5,
+          "description": "Thump sound event"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to execute the specified action for the navy-robed shopper and the trader in both segments. The camera is not locked as requested. Additionally, the audio contains continuous music and a distinct 'thump' sound event, which contradicts the prompt's requirement for brief, isolated natural diegetic effects with silence."
+  }
+}

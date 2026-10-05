@@ -1,0 +1,30 @@
+{
+  "number": 33,
+  "decision": "revise_prompt",
+  "reason": "Initial shot replaces full panorama with unsupported enlarged deck and crew; continuous drift replaces planned cut and final hold.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-033.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r005.mp4",
+  "baseline_sha256": "e6c47cbdb970c6694cee5d4780eb4aceb0da8554e95715af737146574c6ae589",
+  "reviewed_at": "2026-10-03T18:52:37.151829+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 1019760120684584740,
+  "previous_seed": 8318981341979591058,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-033/prompts/clip-033.md",
+  "prompt_sha256": "1f763eb9eb0436a5d8564fea74a768039b55f03b9717e30140281ebe19c542ad",
+  "job": "006-shortest-war-ever:clip-033:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+      "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "fab3c912-1054-4859-b6b0-88e38f597c49",
+  "job_ids": [
+    "4997f93b-797b-49f2-a9de-41da38d0b04f"
+  ],
+  "submitted_at": "2026-10-03T18:52:37.266064+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-033.jpg"
+}

@@ -1,0 +1,3695 @@
+{
+  "scope": "Only manually screened failed completed r006 renders. No r004/r005/r007 candidates reviewed or used.",
+  "control": "Original r006 render at12steps; identical original prompt bytes, seed, references, sampler, scheduler, resolution, audio and all generation options; test changes only steps12→20. Output identity/path are new for immutability.",
+  "pairs": [
+    {
+      "number": 2,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Warm reference palette becomes blue; hand/foot morphology changes.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r006.mp4",
+      "baseline_sha256": "6ebb4692ebeb71534ae70550fe339a87193469c779e03c6462c0b5ff02aff946",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 6163882181954358151,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-002/prompts/clip-002.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-002.md",
+      "prompt_sha256": "3ee5af0dc073653edd2072f9b3830fe0412e1e56937e8257465ff4d1c4bbb4e5",
+      "effective_prompt_sha256": "c8afd92af98a993772893dab244a1828f548c378adc057e874781123e4fb46ae",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+          "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-01.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T18:43:52.363803+00:00",
+        "completed_at": "2026-10-03T18:51:01.366032+00:00",
+        "elapsed_seconds": 429.002,
+        "sample_interval_seconds": 2,
+        "sample_count": 213,
+        "system": {
+          "cpu_percent_average": 20.287,
+          "cpu_percent_peak": 44.52,
+          "memory_used_mib_peak": 29791.203125,
+          "memory_available_mib_min": 1380.72265625,
+          "service_rss_mib_peak": 136.67578125,
+          "load_1m_peak": 4.18994140625,
+          "output_disk_free_gib_min": 99.98827743530273
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 95.624,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15689.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 73.0,
+            "power_w_average": 142.495,
+            "power_w_peak": 165.23,
+            "estimated_energy_wh": 16.981
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Blue palette and major limb rendering improve; new broad white vignette masks the scene, and shoe inventory still needs repair.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T03:58:37.474018+00:00",
+        "completed_at": "2026-10-04T04:09:23.486441+00:00",
+        "elapsed_seconds": 646.012,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 12.833,
+          "cpu_percent_peak": 78.23,
+          "memory_used_mib_peak": 29319.61328125,
+          "memory_available_mib_min": 1852.3125,
+          "service_rss_mib_peak": 128.88671875,
+          "load_1m_peak": 3.46240234375,
+          "output_disk_free_gib_min": 98.81097793579102
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.429,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15693.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.164,
+            "power_w_peak": 164.88,
+            "estimated_energy_wh": 26.588
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 4,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–2.00",
+      "reason": "Added foreground haze obscures and changes the intact palace.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r006.mp4",
+      "baseline_sha256": "10e9bf6b949ee0ff5cc9842a505a3c52c3463a586de08709ed8dc89b5760a654",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 3147562331209331462,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-004/prompts/clip-004.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-004.md",
+      "prompt_sha256": "ff1ddd5b5ae74e614e26d4fef5cb55edbbe8c9d53d8903a7ebe46009a5cc92ef",
+      "effective_prompt_sha256": "8cff150ce293ba5e7da4aeee52c5efe95065d015fe0da4c01b3f4ae49522d55d",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+          "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-01.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T18:51:01.441185+00:00",
+        "completed_at": "2026-10-03T18:58:05.183502+00:00",
+        "elapsed_seconds": 423.742,
+        "sample_interval_seconds": 2,
+        "sample_count": 210,
+        "system": {
+          "cpu_percent_average": 19.802,
+          "cpu_percent_peak": 69.06,
+          "memory_used_mib_peak": 29753.78125,
+          "memory_available_mib_min": 1418.14453125,
+          "service_rss_mib_peak": 140.734375,
+          "load_1m_peak": 4.740234375,
+          "output_disk_free_gib_min": 99.73213577270508
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.948,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15689.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 73.0,
+            "power_w_average": 143.846,
+            "power_w_peak": 165.15,
+            "estimated_energy_wh": 16.932
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Opening fog is removed and intact palace is visible; second half changes to orange late-day light and altered scene geometry.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T04:09:23.538619+00:00",
+        "completed_at": "2026-10-04T04:20:08.120969+00:00",
+        "elapsed_seconds": 644.582,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 11.311,
+          "cpu_percent_peak": 71.3,
+          "memory_used_mib_peak": 29396.3515625,
+          "memory_available_mib_min": 1775.57421875,
+          "service_rss_mib_peak": 129.92578125,
+          "load_1m_peak": 4.2333984375,
+          "output_disk_free_gib_min": 98.79184341430664
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.186,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15661.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.258,
+            "power_w_peak": 164.95,
+            "estimated_energy_wh": 26.546
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 7,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "1.75–5.00",
+      "reason": "An additional approaching hull overlays the five fixed ships.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r006.mp4",
+      "baseline_sha256": "90982a61635f9894faf5fbba645c410ae870b6dcc50a824f236c4d67ceaf7358",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 3851639468019452186,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-007/prompts/clip-007.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-007.md",
+      "prompt_sha256": "da5f8ad7b83c4b6071692c2410cdbe8a337ab3744a53e29e914476c464e3aa95",
+      "effective_prompt_sha256": "1a9f970d7f3111b24a9b0fe02d17962c8063245f03c12365fc13b482939cc27a",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+          "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-01.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T19:04:59.264301+00:00",
+        "completed_at": "2026-10-03T19:12:09.354979+00:00",
+        "elapsed_seconds": 430.084,
+        "sample_interval_seconds": 2,
+        "sample_count": 213,
+        "system": {
+          "cpu_percent_average": 23.258,
+          "cpu_percent_peak": 53.56,
+          "memory_used_mib_peak": 30056.8984375,
+          "memory_available_mib_min": 1115.02734375,
+          "service_rss_mib_peak": 132.58203125,
+          "load_1m_peak": 4.98876953125,
+          "output_disk_free_gib_min": 99.64387893676758
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.141,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15760.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 142.43,
+            "power_w_peak": 164.99,
+            "estimated_energy_wh": 17.016
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Approaching giant bow remains; fixed fleet/world positions are still violated.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T04:20:08.176486+00:00",
+        "completed_at": "2026-10-04T04:30:51.031194+00:00",
+        "elapsed_seconds": 642.854,
+        "sample_interval_seconds": 2,
+        "sample_count": 317,
+        "system": {
+          "cpu_percent_average": 11.621,
+          "cpu_percent_peak": 76.47,
+          "memory_used_mib_peak": 29569.5546875,
+          "memory_available_mib_min": 1602.37109375,
+          "service_rss_mib_peak": 131.20703125,
+          "load_1m_peak": 2.95068359375,
+          "output_disk_free_gib_min": 98.78016662597656
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.397,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15685.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.1,
+            "power_w_peak": 165.0,
+            "estimated_energy_wh": 26.446
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 10,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "1.25–4.25",
+      "reason": "Invented large person at bow chain sinks into open water.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r006.mp4",
+      "baseline_sha256": "b823e851c6357e2928a1c26615175f119c9247b62523e5364a489f2f2240e432",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 2928344508585080636,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-010/prompts/clip-010.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-010.md",
+      "prompt_sha256": "0e7680abd6f7b465ee955f8e77098b201d623acabde0046ea9fa38b2b70428de",
+      "effective_prompt_sha256": "d0e5244e0d4c08f2b4187839c7a06fb3abd2d2c73ccb0394989c964090c4481e",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+          "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-01.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T19:19:08.902389+00:00",
+        "completed_at": "2026-10-03T19:26:04.272539+00:00",
+        "elapsed_seconds": 415.369,
+        "sample_interval_seconds": 2,
+        "sample_count": 206,
+        "system": {
+          "cpu_percent_average": 15.953,
+          "cpu_percent_peak": 86.67,
+          "memory_used_mib_peak": 29772.71875,
+          "memory_available_mib_min": 1399.20703125,
+          "service_rss_mib_peak": 120.7890625,
+          "load_1m_peak": 4.55224609375,
+          "output_disk_free_gib_min": 99.45380783081055
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.359,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15766.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 145.211,
+            "power_w_peak": 165.12,
+            "estimated_energy_wh": 16.754
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Invented person remains at the bow and sinks in open water; unsupported small boat also appears.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T04:30:51.136445+00:00",
+        "completed_at": "2026-10-04T04:41:38.617665+00:00",
+        "elapsed_seconds": 647.481,
+        "sample_interval_seconds": 2,
+        "sample_count": 320,
+        "system": {
+          "cpu_percent_average": 11.492,
+          "cpu_percent_peak": 50.68,
+          "memory_used_mib_peak": 29484.67578125,
+          "memory_available_mib_min": 1687.25,
+          "service_rss_mib_peak": 130.3046875,
+          "load_1m_peak": 3.17919921875,
+          "output_disk_free_gib_min": 98.76247024536133
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.6,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15728.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.962,
+            "power_w_peak": 165.05,
+            "estimated_energy_wh": 26.612
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "confirmed_reference_prompt_conflict",
+        "note": "Reference visibly includes deck crew and a large foreground vessel; prompt requires exactly five distant ships with zero visible crew. The unsupported person sinking in foreground water is still a real output deviation.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 12,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "Officer changes screen side; new close vessel/view replaces original distant fleet.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r006.mp4",
+      "baseline_sha256": "a43663b05be5a6cac2698601c7f8a0c95527f3ccac7fef137c471b717f9274f6",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 9011901976467369857,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-012/prompts/clip-012.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-012.md",
+      "prompt_sha256": "809316363798c6dc0a029aeb4be212cc78609e84f7909f740830ccfa5407c82f",
+      "effective_prompt_sha256": "3b827fc9400f9c669b2c14f46f125b2080a0d7bb7ade87a0ad540d9ea32dcbc4",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+          "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-01.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T19:26:04.331149+00:00",
+        "completed_at": "2026-10-03T19:33:02.784909+00:00",
+        "elapsed_seconds": 418.453,
+        "sample_interval_seconds": 2,
+        "sample_count": 207,
+        "system": {
+          "cpu_percent_average": 17.814,
+          "cpu_percent_peak": 89.47,
+          "memory_used_mib_peak": 29854.453125,
+          "memory_available_mib_min": 1317.47265625,
+          "service_rss_mib_peak": 125.5625,
+          "load_1m_peak": 4.7900390625,
+          "output_disk_free_gib_min": 99.37458038330078
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 95.768,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15753.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 144.751,
+            "power_w_peak": 165.03,
+            "estimated_energy_wh": 16.825
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Opening now resembles the anchor and officer/instrument are clearer; opposite-side second viewpoint and invented close ship remain.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T04:41:38.675665+00:00",
+        "completed_at": "2026-10-04T04:52:24.733194+00:00",
+        "elapsed_seconds": 646.057,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 11.583,
+          "cpu_percent_peak": 59.33,
+          "memory_used_mib_peak": 29449.93359375,
+          "memory_available_mib_min": 1721.9921875,
+          "service_rss_mib_peak": 132.16015625,
+          "load_1m_peak": 3.40185546875,
+          "output_disk_free_gib_min": 98.75094604492188
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.276,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15725.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.279,
+            "power_w_peak": 165.74,
+            "estimated_energy_wh": 26.61
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "unsupported_framing_or_viewpoint_inference",
+        "note": "Reference covers the original over-shoulder view. Requested closer framing is described without a separate crop anchor. Opposite-side view and new close ship exceed a literal crop of the source. Reference is useful for the original view; it does not validate an invented reverse angle.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 13,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Moored reference dhow moves and changes scale/orientation instead of static crop.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r006.mp4",
+      "baseline_sha256": "1615ebce28232c095fda7761261d5f99cd19eea93d00543119067bdf146ae4a9",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 8328919275203799420,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-013/prompts/clip-013.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-013.md",
+      "prompt_sha256": "fa205edd612dc2e1d7da3618084fe377d08fea9b772e44b96c0bbc4f892e8ef5",
+      "effective_prompt_sha256": "126d739eece113635ad85bdc3000a3a3c5f72ef95d4fedcbf2294ec0de20cd64",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+          "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-01.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T19:33:02.827350+00:00",
+        "completed_at": "2026-10-03T19:40:01.554363+00:00",
+        "elapsed_seconds": 418.727,
+        "sample_interval_seconds": 2,
+        "sample_count": 207,
+        "system": {
+          "cpu_percent_average": 16.245,
+          "cpu_percent_peak": 69.47,
+          "memory_used_mib_peak": 29354.51171875,
+          "memory_available_mib_min": 1817.4140625,
+          "service_rss_mib_peak": 119.765625,
+          "load_1m_peak": 4.970703125,
+          "output_disk_free_gib_min": 99.36721801757812
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.493,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15703.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 145.734,
+            "power_w_peak": 164.88,
+            "estimated_energy_wh": 16.951
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Moored dhow still travels/grows and changes orientation in the second half.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T04:52:24.800537+00:00",
+        "completed_at": "2026-10-04T05:03:12.162821+00:00",
+        "elapsed_seconds": 647.362,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 11.661,
+          "cpu_percent_peak": 63.37,
+          "memory_used_mib_peak": 29278.0390625,
+          "memory_available_mib_min": 1893.88671875,
+          "service_rss_mib_peak": 134.73046875,
+          "load_1m_peak": 2.59619140625,
+          "output_disk_free_gib_min": 98.73638153076172
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.947,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15724.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.135,
+            "power_w_peak": 165.22,
+            "estimated_energy_wh": 26.638
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 15,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Two new foreground people appear in the single-messenger scene.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r006.mp4",
+      "baseline_sha256": "fabf79fefb28daed0adb596ac22e395e21292d0fac48570cfce3ff8a08bb30b0",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 8625710823919398761,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-015/prompts/clip-015.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-015.md",
+      "prompt_sha256": "55840fc190359de64cf61ca167c2f4718ec2c129bef6dc0c332efca17f0cf3a2",
+      "effective_prompt_sha256": "fe099ab365f0a4f7aea34b930b3633e8f120659d4f541661cf22b3147a433554",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+          "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-02.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T19:40:01.593595+00:00",
+        "completed_at": "2026-10-03T19:46:58.129117+00:00",
+        "elapsed_seconds": 416.535,
+        "sample_interval_seconds": 2,
+        "sample_count": 206,
+        "system": {
+          "cpu_percent_average": 17.098,
+          "cpu_percent_peak": 83.62,
+          "memory_used_mib_peak": 29797.27734375,
+          "memory_available_mib_min": 1374.6484375,
+          "service_rss_mib_peak": 119.9296875,
+          "load_1m_peak": 4.484375,
+          "output_disk_free_gib_min": 99.31212615966797
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.398,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15704.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.838,
+            "power_w_peak": 165.29,
+            "estimated_energy_wh": 16.99
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "original_major_defect_removed",
+      "steps_effect_conclusion": "The two invented foreground people disappear; only the original cream-clad worker remains. All120frames checked for the original count defect. Initial composition is still a close crop rather than literal full reference.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T05:03:12.218741+00:00",
+        "completed_at": "2026-10-04T05:14:04.546639+00:00",
+        "elapsed_seconds": 652.327,
+        "sample_interval_seconds": 2,
+        "sample_count": 322,
+        "system": {
+          "cpu_percent_average": 11.581,
+          "cpu_percent_peak": 70.1,
+          "memory_used_mib_peak": 29662.984375,
+          "memory_available_mib_min": 1508.94140625,
+          "service_rss_mib_peak": 136.75390625,
+          "load_1m_peak": 3.41259765625,
+          "output_disk_free_gib_min": 98.72612380981445
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.643,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15668.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.987,
+            "power_w_peak": 164.97,
+            "estimated_energy_wh": 26.816
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 17,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "3.50–5.00",
+      "reason": "Three dispatches replace the exactly two closed reference dispatches; transition overlay.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r006.mp4",
+      "baseline_sha256": "3a54f09fc0319073f70f51d0320ef0bf960aed859ec7c9bc6cfcc75500c0f0df",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 1336908119407528091,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-017/prompts/clip-017.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-017.md",
+      "prompt_sha256": "2bd49a293932cd6820b91fe37efb64c5a0ebc069c71128dc2b7f6a81fa63e8c3",
+      "effective_prompt_sha256": "5759904065650a9b8663d984c4abecd216084e3db2ef4618ea55bec2e7e01943",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+          "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-02.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T19:53:48.336419+00:00",
+        "completed_at": "2026-10-03T20:00:38.009987+00:00",
+        "elapsed_seconds": 409.673,
+        "sample_interval_seconds": 2,
+        "sample_count": 203,
+        "system": {
+          "cpu_percent_average": 11.452,
+          "cpu_percent_peak": 53.74,
+          "memory_used_mib_peak": 29412.23828125,
+          "memory_available_mib_min": 1759.6875,
+          "service_rss_mib_peak": 118.8203125,
+          "load_1m_peak": 3.89111328125,
+          "output_disk_free_gib_min": 99.32182312011719
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.98,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15683.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.977,
+            "power_w_peak": 165.18,
+            "estimated_energy_wh": 16.726
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Transition is cleaner, but exactly two closed dispatches still become unfolded sheets and another roll.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T05:14:04.592839+00:00",
+        "completed_at": "2026-10-04T05:24:55.893963+00:00",
+        "elapsed_seconds": 651.3,
+        "sample_interval_seconds": 2,
+        "sample_count": 320,
+        "system": {
+          "cpu_percent_average": 11.694,
+          "cpu_percent_peak": 84.47,
+          "memory_used_mib_peak": 29609.46484375,
+          "memory_available_mib_min": 1562.4609375,
+          "service_rss_mib_peak": 139.8671875,
+          "load_1m_peak": 3.783203125,
+          "output_disk_free_gib_min": 98.71446990966797
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.956,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15725.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.448,
+            "power_w_peak": 165.09,
+            "estimated_energy_wh": 26.857
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "clear_output_deviation_with_adequate_inventory_reference",
+        "note": "Reference clearly contains two closed sealed cream rolls and two officers. Output opening/adding rolls departs from that concrete inventory. This does not establish whether model dynamics or prompt wording causes the deviation.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 19,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–3.00",
+      "reason": "Crowd appears in the empty throne room.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r006.mp4",
+      "baseline_sha256": "88ba685ae8fb2eff5180c83e97cd2283e737c9da9b4e3387306183606c493fd5",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 4345754132354453851,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-019/prompts/clip-019.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-019.md",
+      "prompt_sha256": "dd801592798463ca8aa7de4ae4d5bc3dcb12f984994d3cc6154a678442fc7509",
+      "effective_prompt_sha256": "7a7f6ea0d22e03a330da93d47ec8e7b19ea5fe797f5d63178f8c74e3cd442dbb",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+          "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-02.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T20:00:38.050552+00:00",
+        "completed_at": "2026-10-03T20:07:30.203834+00:00",
+        "elapsed_seconds": 412.153,
+        "sample_interval_seconds": 2,
+        "sample_count": 204,
+        "system": {
+          "cpu_percent_average": 17.087,
+          "cpu_percent_peak": 82.89,
+          "memory_used_mib_peak": 29967.9765625,
+          "memory_available_mib_min": 1203.94921875,
+          "service_rss_mib_peak": 118.22265625,
+          "load_1m_peak": 3.4814453125,
+          "output_disk_free_gib_min": 99.30990982055664
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.696,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15735.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.625,
+            "power_w_peak": 165.67,
+            "estimated_energy_wh": 16.787
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Large invented group remains in the empty throne room.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T05:24:55.949105+00:00",
+        "completed_at": "2026-10-04T05:35:43.590486+00:00",
+        "elapsed_seconds": 647.641,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 11.576,
+          "cpu_percent_peak": 79.28,
+          "memory_used_mib_peak": 29598.02734375,
+          "memory_available_mib_min": 1573.8984375,
+          "service_rss_mib_peak": 142.30078125,
+          "load_1m_peak": 3.55859375,
+          "output_disk_free_gib_min": 98.70416259765625
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.727,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15696.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.909,
+            "power_w_peak": 164.92,
+            "estimated_energy_wh": 26.609
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "prompt_conditioning_ambiguity",
+        "note": "Reference is genuinely an empty throne room. Prompt simultaneously requires no people and describes heads, eyes, limbs, hands and period clothing. Added crowd is absent from reference; contribution of the human vocabulary requires an ablation to prove.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 22,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Unlisted foreground crowd appears in open harbour water.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r006.mp4",
+      "baseline_sha256": "75ea2091fb8614d21c2ab35cb8e597b01f861193041e6481fdd9cd6c4838192d",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 7208152622199191977,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-022/prompts/clip-022.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-022.md",
+      "prompt_sha256": "3508289e85f6ac5412f7159ba46b75016bb11965d5c2afe45752990ae87660c5",
+      "effective_prompt_sha256": "5d065cad757bd772abba2c61255473dc69ac1d347f9edea799254a89baad9c2f",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+          "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-02.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T20:14:39.520894+00:00",
+        "completed_at": "2026-10-03T20:21:50.705524+00:00",
+        "elapsed_seconds": 431.184,
+        "sample_interval_seconds": 2,
+        "sample_count": 214,
+        "system": {
+          "cpu_percent_average": 15.318,
+          "cpu_percent_peak": 67.81,
+          "memory_used_mib_peak": 29510.578125,
+          "memory_available_mib_min": 1661.34765625,
+          "service_rss_mib_peak": 118.015625,
+          "load_1m_peak": 5.12109375,
+          "output_disk_free_gib_min": 99.19651412963867
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.949,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15770.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 143.532,
+            "power_w_peak": 165.13,
+            "estimated_energy_wh": 17.191
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Unlisted crowd remains in harbour foreground/open water.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T05:35:43.646818+00:00",
+        "completed_at": "2026-10-04T05:46:34.131426+00:00",
+        "elapsed_seconds": 650.483,
+        "sample_interval_seconds": 2,
+        "sample_count": 320,
+        "system": {
+          "cpu_percent_average": 11.521,
+          "cpu_percent_peak": 56.68,
+          "memory_used_mib_peak": 29461.74609375,
+          "memory_available_mib_min": 1710.1796875,
+          "service_rss_mib_peak": 146.1171875,
+          "load_1m_peak": 3.31201171875,
+          "output_disk_free_gib_min": 98.69375610351562
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.553,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15730.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.34,
+            "power_w_peak": 165.05,
+            "estimated_energy_wh": 26.804
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 25,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Two close foreground people appear in the zero-person fleet scene.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r006.mp4",
+      "baseline_sha256": "c9879c6d8964d7d59eb79b86f2bc6d788fc603a89a071dc88a3adc093631da06",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 3110851343791805544,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-025/prompts/clip-025.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-025.md",
+      "prompt_sha256": "2efe347b81877985a4a837fa745bbabedbce7be0aa854d592382fc6d1ad0b6fe",
+      "effective_prompt_sha256": "024a0d1222b992a7e78bb857008578e86e49a8c6b0589ad0122a4d6101a55b0a",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+          "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-03.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T20:36:10.602872+00:00",
+        "completed_at": "2026-10-03T20:43:21.050306+00:00",
+        "elapsed_seconds": 430.447,
+        "sample_interval_seconds": 2,
+        "sample_count": 213,
+        "system": {
+          "cpu_percent_average": 18.421,
+          "cpu_percent_peak": 56.93,
+          "memory_used_mib_peak": 29488.63671875,
+          "memory_available_mib_min": 1683.2890625,
+          "service_rss_mib_peak": 117.5703125,
+          "load_1m_peak": 4.7109375,
+          "output_disk_free_gib_min": 98.3768310546875
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.484,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15736.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 143.822,
+            "power_w_peak": 164.87,
+            "estimated_energy_wh": 17.197
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Two invented foreground people remain in the zero-person fleet scene.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T05:46:34.180710+00:00",
+        "completed_at": "2026-10-04T05:57:24.887640+00:00",
+        "elapsed_seconds": 650.706,
+        "sample_interval_seconds": 2,
+        "sample_count": 320,
+        "system": {
+          "cpu_percent_average": 11.481,
+          "cpu_percent_peak": 61.59,
+          "memory_used_mib_peak": 29361.01171875,
+          "memory_available_mib_min": 1810.9140625,
+          "service_rss_mib_peak": 148.6953125,
+          "load_1m_peak": 2.84375,
+          "output_disk_free_gib_min": 98.67436599731445
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.256,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15726.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.39,
+            "power_w_peak": 165.14,
+            "estimated_energy_wh": 26.822
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 31,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "Giant unsupported foreground hands and morphing scrolls replace the original courier crop.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r006.mp4",
+      "baseline_sha256": "642b0a1150a576543c5d2be375c4a732e7157f2169b72573d152165af75af20c",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 4618680303675549562,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-031/prompts/clip-031.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-031.md",
+      "prompt_sha256": "a2713db71ccdb964443201bcb401ad3fc55c324dc2a1e64af31bf017ad910b05",
+      "effective_prompt_sha256": "f9dae8e30b74c2b99812de9e22e4abbdaac54f6c1cbc1273751c052545632f9b",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+          "sha256": "9aa801eeacbec66ad150d8f6cc80f3b9690e42f02703ed4576c24aa67729f32a"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-03.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T21:11:37.855128+00:00",
+        "completed_at": "2026-10-03T21:18:36.838559+00:00",
+        "elapsed_seconds": 418.983,
+        "sample_interval_seconds": 2,
+        "sample_count": 207,
+        "system": {
+          "cpu_percent_average": 16.284,
+          "cpu_percent_peak": 68.79,
+          "memory_used_mib_peak": 29910.875,
+          "memory_available_mib_min": 1261.05078125,
+          "service_rss_mib_peak": 117.48828125,
+          "load_1m_peak": 4.2529296875,
+          "output_disk_free_gib_min": 99.02498245239258
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.565,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15755.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 145.338,
+            "power_w_peak": 165.76,
+            "estimated_energy_wh": 16.915
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Giant unsupported hands/scrolls remain and the scroll opens.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T05:57:24.950066+00:00",
+        "completed_at": "2026-10-04T06:08:12.103766+00:00",
+        "elapsed_seconds": 647.153,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 11.77,
+          "cpu_percent_peak": 53.39,
+          "memory_used_mib_peak": 29471.921875,
+          "memory_available_mib_min": 1700.00390625,
+          "service_rss_mib_peak": 152.58203125,
+          "load_1m_peak": 4.2138671875,
+          "output_disk_free_gib_min": 98.65579223632812
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.928,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15718.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.024,
+            "power_w_peak": 164.74,
+            "estimated_energy_wh": 26.609
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 32,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "1.00–5.00",
+      "reason": "Red flare appears before battle; invented close deck crew/view follows.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r006.mp4",
+      "baseline_sha256": "065ade3a069e2091d3c6755956b7ecad4c83b3a5c47a75505aa2c7f83de5fe56",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 7597995768285970614,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-032/prompts/clip-032.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-032.md",
+      "prompt_sha256": "cb1e8e7edfb46826a104b427d12458f4405c1e1a9302dbd3ba645d0ca57e8f7c",
+      "effective_prompt_sha256": "a15181a2af2507635415e933a965f5e92bea7b19eac6a1a637131f4fb6d9fc80",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+          "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-03.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T21:18:36.880022+00:00",
+        "completed_at": "2026-10-03T21:25:31.750626+00:00",
+        "elapsed_seconds": 414.87,
+        "sample_interval_seconds": 2,
+        "sample_count": 206,
+        "system": {
+          "cpu_percent_average": 18.138,
+          "cpu_percent_peak": 80.6,
+          "memory_used_mib_peak": 29681.5546875,
+          "memory_available_mib_min": 1490.37109375,
+          "service_rss_mib_peak": 117.8671875,
+          "load_1m_peak": 5.44091796875,
+          "output_disk_free_gib_min": 99.0246353149414
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.602,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15764.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 145.664,
+            "power_w_peak": 164.79,
+            "estimated_energy_wh": 16.787
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Premature red flare disappears; invented close deck crew/view remains.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T06:08:12.159629+00:00",
+        "completed_at": "2026-10-04T06:19:00.706239+00:00",
+        "elapsed_seconds": 648.546,
+        "sample_interval_seconds": 2,
+        "sample_count": 320,
+        "system": {
+          "cpu_percent_average": 11.676,
+          "cpu_percent_peak": 54.86,
+          "memory_used_mib_peak": 29502.7578125,
+          "memory_available_mib_min": 1669.16796875,
+          "service_rss_mib_peak": 155.078125,
+          "load_1m_peak": 3.21484375,
+          "output_disk_free_gib_min": 98.6444091796875
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.194,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15687.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.329,
+            "power_w_peak": 165.29,
+            "estimated_energy_wh": 26.722
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 33,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Invented white hull drawing appears on the original unmarked hull.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r006.mp4",
+      "baseline_sha256": "b221310875a0a08d343e7d13a7fea0a3fef2f69fdb53121342bd1bccfd57e565",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 1019760120684584740,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-033/prompts/clip-033.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-033.md",
+      "prompt_sha256": "1f763eb9eb0436a5d8564fea74a768039b55f03b9717e30140281ebe19c542ad",
+      "effective_prompt_sha256": "0db7bc3fdd7c380756e70ef7bc3d935d30af4f368a476fe9738071266f01081b",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+          "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-03.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T21:25:31.789395+00:00",
+        "completed_at": "2026-10-03T21:32:25.912203+00:00",
+        "elapsed_seconds": 414.122,
+        "sample_interval_seconds": 2,
+        "sample_count": 205,
+        "system": {
+          "cpu_percent_average": 21.372,
+          "cpu_percent_peak": 72.6,
+          "memory_used_mib_peak": 29702.15625,
+          "memory_available_mib_min": 1469.76953125,
+          "service_rss_mib_peak": 117.45703125,
+          "load_1m_peak": 4.76806640625,
+          "output_disk_free_gib_min": 98.9912109375
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.58,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15718.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 145.749,
+            "power_w_peak": 164.89,
+            "estimated_energy_wh": 16.766
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "original_major_defect_removed",
+      "steps_effect_conclusion": "Unlisted chalk-like hull drawing disappears; hull stays unmarked in all120frames. Remaining shot/camera/audio approval is separate.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T06:19:00.761189+00:00",
+        "completed_at": "2026-10-04T06:29:48.212596+00:00",
+        "elapsed_seconds": 647.451,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 11.823,
+          "cpu_percent_peak": 80.31,
+          "memory_used_mib_peak": 29692.890625,
+          "memory_available_mib_min": 1479.03515625,
+          "service_rss_mib_peak": 158.921875,
+          "load_1m_peak": 3.35205078125,
+          "output_disk_free_gib_min": 98.6340217590332
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.544,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15716.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.175,
+            "power_w_peak": 164.9,
+            "estimated_energy_wh": 26.649
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 34,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Extra foreground and background people appear in the empty reference room.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r006.mp4",
+      "baseline_sha256": "d4d6224a2f4843cbb44d58a5912e2733b1716488e63c2bae6964917c226b05f7",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 4079899827098710947,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-034/prompts/clip-034.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-034.md",
+      "prompt_sha256": "c929a549d42b19f7fc56200eed9bb377536e18b36d70b7902caaacefaa64369d",
+      "effective_prompt_sha256": "ed45a5ab75ea934fb91b95adb7f5204386e018c17ef8957553c80506ce0b8312",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png",
+          "sha256": "84381b682dd4762338ab1b78badf4a2101dfaf63e6e552d4a61bea9e3d50e421"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-04.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T21:32:25.950658+00:00",
+        "completed_at": "2026-10-03T21:39:15.786494+00:00",
+        "elapsed_seconds": 409.835,
+        "sample_interval_seconds": 2,
+        "sample_count": 202,
+        "system": {
+          "cpu_percent_average": 15.107,
+          "cpu_percent_peak": 70.47,
+          "memory_used_mib_peak": 29348.34765625,
+          "memory_available_mib_min": 1823.578125,
+          "service_rss_mib_peak": 117.359375,
+          "load_1m_peak": 3.62548828125,
+          "output_disk_free_gib_min": 98.99381256103516
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.96,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15707.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.08,
+            "power_w_peak": 165.37,
+            "estimated_energy_wh": 16.744
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Unlisted crowd remains, with additional foreground heads compared with12steps.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T06:29:48.268132+00:00",
+        "completed_at": "2026-10-04T06:40:35.624565+00:00",
+        "elapsed_seconds": 647.356,
+        "sample_interval_seconds": 2,
+        "sample_count": 315,
+        "system": {
+          "cpu_percent_average": 14.378,
+          "cpu_percent_peak": 57.48,
+          "memory_used_mib_peak": 29642.2421875,
+          "memory_available_mib_min": 1529.68359375,
+          "service_rss_mib_peak": 161.74609375,
+          "load_1m_peak": 3.802734375,
+          "output_disk_free_gib_min": 98.62511444091797
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.752,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15752.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.999,
+            "power_w_peak": 164.9,
+            "estimated_energy_wh": 26.613
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 35,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Unlisted group of people appears beside the empty throne.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r006.mp4",
+      "baseline_sha256": "054a279c9ab5e92049a945a933586a3bec0c4ceb55f51c1b9d8f0d1584a1c574",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 2035173174357678067,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-035/prompts/clip-035.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-035.md",
+      "prompt_sha256": "aeb466d783ca9cd0d743f14d13917e16f01e8c9b4e733487da0a19e0de24ef62",
+      "effective_prompt_sha256": "693d6acaa7baa5b378e76f642043543aa9736fe34925238e20cfff7db76718a8",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+          "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-04.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T21:39:15.827021+00:00",
+        "completed_at": "2026-10-03T21:46:10.352964+00:00",
+        "elapsed_seconds": 414.525,
+        "sample_interval_seconds": 2,
+        "sample_count": 205,
+        "system": {
+          "cpu_percent_average": 17.5,
+          "cpu_percent_peak": 63.22,
+          "memory_used_mib_peak": 29691.2109375,
+          "memory_available_mib_min": 1480.71484375,
+          "service_rss_mib_peak": 117.328125,
+          "load_1m_peak": 2.91748046875,
+          "output_disk_free_gib_min": 98.99999237060547
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.385,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15689.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 146.777,
+            "power_w_peak": 165.16,
+            "estimated_energy_wh": 16.901
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Unlisted group remains beside the empty throne.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T06:40:35.669173+00:00",
+        "completed_at": "2026-10-04T06:51:23.533664+00:00",
+        "elapsed_seconds": 647.864,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 11.909,
+          "cpu_percent_peak": 79.09,
+          "memory_used_mib_peak": 29568.22265625,
+          "memory_available_mib_min": 1603.703125,
+          "service_rss_mib_peak": 164.578125,
+          "load_1m_peak": 4.89697265625,
+          "output_disk_free_gib_min": 98.6170768737793
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.412,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15716.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.38,
+            "power_w_peak": 164.96,
+            "estimated_energy_wh": 26.703
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "prompt_conditioning_ambiguity",
+        "note": "Empty-room reference is adequate for the inventory. Generic human anatomy/costume vocabulary is unnecessary conditioning. Added crowd is a real output deviation, with an avoidable prompt ambiguity.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 36,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Khalid disappears at opening; changed viewpoint, fingered hand and opened scroll follow.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r006.mp4",
+      "baseline_sha256": "f3620fc58a9120987dddcb8028cb3dcae785f90378a6a6b0cc808af52d30c322",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 5796486122309733778,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-036/prompts/clip-036.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-036.md",
+      "prompt_sha256": "a56a646b35a2e0bafaa7adb4e3295e76694975b49b3c37ad881ca6223345dcd2",
+      "effective_prompt_sha256": "aaa76dc68637fcb80f508d00723bf69ab90a6cf6c036e839b9257cb4c5e3faf1",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+          "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-04.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T21:46:10.392125+00:00",
+        "completed_at": "2026-10-03T21:53:02.874063+00:00",
+        "elapsed_seconds": 412.481,
+        "sample_interval_seconds": 2,
+        "sample_count": 204,
+        "system": {
+          "cpu_percent_average": 13.937,
+          "cpu_percent_peak": 73.36,
+          "memory_used_mib_peak": 29540.6875,
+          "memory_available_mib_min": 1631.23828125,
+          "service_rss_mib_peak": 117.375,
+          "load_1m_peak": 2.69482421875,
+          "output_disk_free_gib_min": 98.98490142822266
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.946,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15693.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.979,
+            "power_w_peak": 164.9,
+            "estimated_energy_wh": 16.841
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "original_major_defect_removed",
+      "steps_effect_conclusion": "Khalid remains visible from the opening and keeps a closed roll; unsupported hand/open-scroll defect removed. All120frames checked. Cut occurs earlier than planned, so this is not final approval.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T06:51:23.595613+00:00",
+        "completed_at": "2026-10-04T07:02:15.072435+00:00",
+        "elapsed_seconds": 651.476,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 11.908,
+          "cpu_percent_peak": 67.43,
+          "memory_used_mib_peak": 29696.046875,
+          "memory_available_mib_min": 1475.87890625,
+          "service_rss_mib_peak": 167.3046875,
+          "load_1m_peak": 2.88671875,
+          "output_disk_free_gib_min": 98.60902786254883
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.887,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15716.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.487,
+            "power_w_peak": 165.09,
+            "estimated_energy_wh": 26.871
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 37,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "An additional guard appears; reference arrangement changes.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r006.mp4",
+      "baseline_sha256": "dd84fb933c488496e6bcade7011a6a7952972a7b235238e3398306fa0fd2dc21",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 41351785065304866,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-037/prompts/clip-037.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-037.md",
+      "prompt_sha256": "e19ead64a2c17e8eccc4bf4196014846f8a9c591004377eba3328781ae35abf9",
+      "effective_prompt_sha256": "591a15387bad3d7d2db31b019ab715ef722c3a2dcf7d6569748892fbf612ab2c",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-04.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T21:53:02.906904+00:00",
+        "completed_at": "2026-10-03T21:59:50.128836+00:00",
+        "elapsed_seconds": 407.221,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 11.989,
+          "cpu_percent_peak": 51.62,
+          "memory_used_mib_peak": 29498.00390625,
+          "memory_available_mib_min": 1673.921875,
+          "service_rss_mib_peak": 117.328125,
+          "load_1m_peak": 4.05224609375,
+          "output_disk_free_gib_min": 98.98293685913086
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.741,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15696.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.264,
+            "power_w_peak": 165.32,
+            "estimated_energy_wh": 16.658
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Extra guard and reference-world rearrangement remain.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T07:02:15.140484+00:00",
+        "completed_at": "2026-10-04T07:13:06.066518+00:00",
+        "elapsed_seconds": 650.925,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 12.049,
+          "cpu_percent_peak": 81.01,
+          "memory_used_mib_peak": 29704.4609375,
+          "memory_available_mib_min": 1467.46484375,
+          "service_rss_mib_peak": 170.49609375,
+          "load_1m_peak": 4.01708984375,
+          "output_disk_free_gib_min": 98.58460235595703
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.069,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15716.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 148.377,
+            "power_w_peak": 165.01,
+            "estimated_energy_wh": 26.828
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 45,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Giant foreground Hamoud is duplicated while original Hamoud remains by the throne.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r006.mp4",
+      "baseline_sha256": "96c0d06d26d9e8c97c26bcbcfe92381e47d582ee3770669859050cac361ac53d",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 2555681644079120112,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-045/prompts/clip-045.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-045.md",
+      "prompt_sha256": "8053c29f1b2fb1b8a7f1072dd7d9334bcfcd97fbeb269bf356dfd4c9706fb59c",
+      "effective_prompt_sha256": "aa95b15275443e5d166ff53747b02e26524cd2937a82824d5e825f52ab17d837",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+          "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-04.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T22:13:13.114368+00:00",
+        "completed_at": "2026-10-03T22:19:58.081155+00:00",
+        "elapsed_seconds": 404.966,
+        "sample_interval_seconds": 2,
+        "sample_count": 200,
+        "system": {
+          "cpu_percent_average": 12.362,
+          "cpu_percent_peak": 49.86,
+          "memory_used_mib_peak": 29557.0078125,
+          "memory_available_mib_min": 1614.91796875,
+          "service_rss_mib_peak": 117.484375,
+          "load_1m_peak": 2.60498046875,
+          "output_disk_free_gib_min": 99.01731872558594
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.91,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15719.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.408,
+            "power_w_peak": 165.68,
+            "estimated_energy_wh": 16.582
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Duplicate Hamoud remains while another Hamoud is still visible in the original throne scene.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T07:13:06.126206+00:00",
+        "completed_at": "2026-10-04T07:23:52.664084+00:00",
+        "elapsed_seconds": 646.537,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 11.931,
+          "cpu_percent_peak": 79.06,
+          "memory_used_mib_peak": 29515.9296875,
+          "memory_available_mib_min": 1655.99609375,
+          "service_rss_mib_peak": 173.01953125,
+          "load_1m_peak": 4.27392578125,
+          "output_disk_free_gib_min": 98.57527923583984
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.761,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15684.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.62,
+            "power_w_peak": 164.98,
+            "estimated_energy_wh": 26.512
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 47,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Unlisted cloth/head wiping action changes Hamoud turban silhouette and covers face.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r006.mp4",
+      "baseline_sha256": "a6db9f045c94a4e9d4633ea8170b9ffc6e8f9928c6e4cd05e3f5dd8fc7007599",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 8780210556760100772,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-047/prompts/clip-047.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-047.md",
+      "prompt_sha256": "c32233f745356c9486cc82a615dee5a065cfe670e4d86974a652ff03d2ff0445",
+      "effective_prompt_sha256": "f2fdf297ba2c5a0897cfe0df202c596b5a8bffb456418e53b041c8f39c42999e",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+          "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-04.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T22:19:58.118929+00:00",
+        "completed_at": "2026-10-03T22:26:44.002335+00:00",
+        "elapsed_seconds": 405.883,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.305,
+          "cpu_percent_peak": 57.62,
+          "memory_used_mib_peak": 29652.515625,
+          "memory_available_mib_min": 1519.41015625,
+          "service_rss_mib_peak": 117.53515625,
+          "load_1m_peak": 3.037109375,
+          "output_disk_free_gib_min": 99.0053596496582
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.025,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15694.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.786,
+            "power_w_peak": 164.84,
+            "estimated_energy_wh": 16.549
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Unlisted cloth wiping disappears; replaced by another unlisted action, sitting down on the throne.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T07:23:52.721085+00:00",
+        "completed_at": "2026-10-04T07:34:38.291848+00:00",
+        "elapsed_seconds": 645.57,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 12.023,
+          "cpu_percent_peak": 65.6,
+          "memory_used_mib_peak": 29621.1171875,
+          "memory_available_mib_min": 1550.80859375,
+          "service_rss_mib_peak": 176.765625,
+          "load_1m_peak": 2.90673828125,
+          "output_disk_free_gib_min": 98.55750274658203
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.236,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15709.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.546,
+            "power_w_peak": 164.87,
+            "estimated_energy_wh": 26.459
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 58,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Large fingered hands replace the specified simple mitten hands in unsupported close framing.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r006.mp4",
+      "baseline_sha256": "5425857594d07ed3da874752046985abc3dfa7b64b00c799d72faa19b5f558a4",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 5385514967370872332,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-058/prompts/clip-058.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-058.md",
+      "prompt_sha256": "8e62c7d13d7e94ed71cd8e5fcc0cb83d425695f40c8e97ae78575394a81ab8a1",
+      "effective_prompt_sha256": "6299d82a632b7a85e2a786c4ec97cf9c6ffdd4b2aa8e4d600a424a67cf2124bd",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+          "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-05.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T22:47:10.348025+00:00",
+        "completed_at": "2026-10-03T22:53:57.703741+00:00",
+        "elapsed_seconds": 407.355,
+        "sample_interval_seconds": 2,
+        "sample_count": 202,
+        "system": {
+          "cpu_percent_average": 12.276,
+          "cpu_percent_peak": 53.9,
+          "memory_used_mib_peak": 29633.60546875,
+          "memory_available_mib_min": 1538.3203125,
+          "service_rss_mib_peak": 118.05859375,
+          "load_1m_peak": 2.7353515625,
+          "output_disk_free_gib_min": 98.95288467407227
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.901,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15691.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.942,
+            "power_w_peak": 165.61,
+            "estimated_energy_wh": 16.627
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Unsupported initial close crop and detailed fingered hands remain.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T07:34:38.401424+00:00",
+        "completed_at": "2026-10-04T07:45:28.766465+00:00",
+        "elapsed_seconds": 650.364,
+        "sample_interval_seconds": 2,
+        "sample_count": 320,
+        "system": {
+          "cpu_percent_average": 11.959,
+          "cpu_percent_peak": 80.04,
+          "memory_used_mib_peak": 29703.1171875,
+          "memory_available_mib_min": 1468.80859375,
+          "service_rss_mib_peak": 180.08984375,
+          "load_1m_peak": 4.388671875,
+          "output_disk_free_gib_min": 98.54190063476562
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.506,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15713.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.257,
+            "power_w_peak": 164.83,
+            "estimated_energy_wh": 26.603
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "clear_output_deviation_and_framing_control_gap",
+        "note": "Reference uses simple mitten hands and the original over-shoulder composition. Detailed fingered hands and an initial unsupported close composition are real deviations. Prompt-only literal-first-frame wording does not constitute an actual supplied I2V first-frame control.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 62,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "Added close foreground people and ship approach; more invented deck figures follow.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r006.mp4",
+      "baseline_sha256": "41d4e9767b21c26249d3bed4b2761d6f22c4875b62cd646e216ff2c946a2e601",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 8120151602235812612,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-062/prompts/clip-062.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-062.md",
+      "prompt_sha256": "a38afacb7d7c6930467cbb3b4eeb2adebd12bb9bc2d592da1ca825bdf26efc54",
+      "effective_prompt_sha256": "00140f75d8ea1ff790081ef8c29a1e527483986bad43d1e64eea82436051ac17",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+          "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-05.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T23:00:43.129630+00:00",
+        "completed_at": "2026-10-03T23:07:28.759860+00:00",
+        "elapsed_seconds": 405.629,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 15.629,
+          "cpu_percent_peak": 67.55,
+          "memory_used_mib_peak": 29532.73046875,
+          "memory_available_mib_min": 1639.1953125,
+          "service_rss_mib_peak": 118.3046875,
+          "load_1m_peak": 2.7763671875,
+          "output_disk_free_gib_min": 98.92510604858398
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.328,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15685.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.17,
+            "power_w_peak": 164.77,
+            "estimated_energy_wh": 16.582
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Initial two invented foreground people disappear; second half still invents a large close deck crowd.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T07:45:28.821687+00:00",
+        "completed_at": "2026-10-04T07:56:16.025498+00:00",
+        "elapsed_seconds": 647.203,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 12.2,
+          "cpu_percent_peak": 56.04,
+          "memory_used_mib_peak": 29577.34765625,
+          "memory_available_mib_min": 1594.578125,
+          "service_rss_mib_peak": 182.90234375,
+          "load_1m_peak": 2.69140625,
+          "output_disk_free_gib_min": 98.53191757202148
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.495,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15773.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.072,
+            "power_w_peak": 165.54,
+            "estimated_energy_wh": 26.44
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 63,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Close crew and new gun dominate the required hull/funnel crop with deck excluded.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r006.mp4",
+      "baseline_sha256": "77e6d3fec9f39f23a274eca5edce17be1e29de3c5971aea9a51e874d858edfce",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 440285204768587930,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-063/prompts/clip-063.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-063.md",
+      "prompt_sha256": "960de43e6bb1d5f8683e83ada5a8306a29fd6314de27e701d3acbfc99bb313e8",
+      "effective_prompt_sha256": "fc37fe1eebfd80068a44da8d9c00578b8f6e6fe7cd39531afdcd1a28af47d1ed",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png",
+          "sha256": "29001102e1a72d51b8377dfab582ccdda28c4f80beb058b651007c764a438f3a"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-05.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T23:07:28.841352+00:00",
+        "completed_at": "2026-10-03T23:14:14.762164+00:00",
+        "elapsed_seconds": 405.92,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 15.397,
+          "cpu_percent_peak": 66.53,
+          "memory_used_mib_peak": 29467.21484375,
+          "memory_available_mib_min": 1704.7109375,
+          "service_rss_mib_peak": 118.37890625,
+          "load_1m_peak": 4.28759765625,
+          "output_disk_free_gib_min": 98.91296005249023
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.99,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15686.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.821,
+            "power_w_peak": 164.87,
+            "estimated_energy_wh": 16.555
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Close crew and new gun still occupy the specified hull/funnel crop.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T07:56:16.081474+00:00",
+        "completed_at": "2026-10-04T08:07:04.235290+00:00",
+        "elapsed_seconds": 648.153,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 12.132,
+          "cpu_percent_peak": 54.21,
+          "memory_used_mib_peak": 29642.265625,
+          "memory_available_mib_min": 1529.66015625,
+          "service_rss_mib_peak": 186.49609375,
+          "load_1m_peak": 4.47900390625,
+          "output_disk_free_gib_min": 98.52078247070312
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.138,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15677.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.148,
+            "power_w_peak": 165.09,
+            "estimated_energy_wh": 26.493
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 67,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "1.00–5.00",
+      "reason": "New foreground residents appear and grow across single-messenger harbour scene.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r006.mp4",
+      "baseline_sha256": "9ff39974c2d6b6656a02a9065ea6e385b15dab0e097afdee16c565b6f1f3ab1d",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 4563670679901105828,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-067/prompts/clip-067.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-067.md",
+      "prompt_sha256": "2e9f9035993445497210632c580879907e9e5facf7e0fa18d6763bb719bfa7db",
+      "effective_prompt_sha256": "d0d3d5a13770e628466e3f06bcb9bd3729a5c23eafdf4494141bca03abe9d85d",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+          "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-06.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T23:27:50.756140+00:00",
+        "completed_at": "2026-10-03T23:34:35.892854+00:00",
+        "elapsed_seconds": 405.136,
+        "sample_interval_seconds": 2,
+        "sample_count": 200,
+        "system": {
+          "cpu_percent_average": 12.255,
+          "cpu_percent_peak": 49.22,
+          "memory_used_mib_peak": 29695.48828125,
+          "memory_available_mib_min": 1476.4375,
+          "service_rss_mib_peak": 118.48046875,
+          "load_1m_peak": 3.701171875,
+          "output_disk_free_gib_min": 98.87759017944336
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.49,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15738.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.267,
+            "power_w_peak": 165.48,
+            "estimated_energy_wh": 16.573
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "original_major_defect_removed",
+      "steps_effect_conclusion": "Invented foreground residents disappear; one original worker retained through all120frames. Motion/audio contract approval is separate.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T08:07:04.301135+00:00",
+        "completed_at": "2026-10-04T08:17:51.194209+00:00",
+        "elapsed_seconds": 646.892,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 12.243,
+          "cpu_percent_peak": 88.49,
+          "memory_used_mib_peak": 29588.59375,
+          "memory_available_mib_min": 1583.33203125,
+          "service_rss_mib_peak": 189.31640625,
+          "load_1m_peak": 4.47900390625,
+          "output_disk_free_gib_min": 98.49867248535156
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.415,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15678.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.279,
+            "power_w_peak": 164.82,
+            "estimated_energy_wh": 26.465
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 70,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "1.00–5.00",
+      "reason": "Premature blast/smoke in waiting beat followed by invented close cannon crew.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r006.mp4",
+      "baseline_sha256": "feb0ebaf165f70efb714fc253141ac996485c2ad29a98280af853171ce330138",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 3845681940732665235,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-070/prompts/clip-070.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-070.md",
+      "prompt_sha256": "22062cfabb2932301bd457f380e4168cfd06886a94bb1280db397dae72c3eaf9",
+      "effective_prompt_sha256": "6a66dc3471c4bf98349a7f5742d8def39f12cd8122fc259cd71bb970a0a64e4a",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-stern-r001.png",
+          "sha256": "2cae0fb9c7a63686a1abd4024085b94ff095719ea18d7ff658eddf1e8c925d81"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-06.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T23:34:35.929130+00:00",
+        "completed_at": "2026-10-03T23:41:21.811903+00:00",
+        "elapsed_seconds": 405.882,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.439,
+          "cpu_percent_peak": 69.39,
+          "memory_used_mib_peak": 29551.265625,
+          "memory_available_mib_min": 1620.66015625,
+          "service_rss_mib_peak": 118.5625,
+          "load_1m_peak": 2.95166015625,
+          "output_disk_free_gib_min": 98.86109161376953
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.144,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15672.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.004,
+            "power_w_peak": 165.8,
+            "estimated_energy_wh": 16.574
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Premature muzzle flash remains; new sail/deck crew view also appears.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T08:17:51.250580+00:00",
+        "completed_at": "2026-10-04T08:28:37.822818+00:00",
+        "elapsed_seconds": 646.571,
+        "sample_interval_seconds": 2,
+        "sample_count": 318,
+        "system": {
+          "cpu_percent_average": 12.259,
+          "cpu_percent_peak": 57.83,
+          "memory_used_mib_peak": 29623.6875,
+          "memory_available_mib_min": 1548.23828125,
+          "service_rss_mib_peak": 193.78515625,
+          "load_1m_peak": 3.79638671875,
+          "output_disk_free_gib_min": 98.48908996582031
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.695,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15742.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.611,
+            "power_w_peak": 164.85,
+            "estimated_energy_wh": 26.511
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 72,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–2.00",
+      "reason": "Unlisted fog obscures Khalid and the clear-air palace scene.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r006.mp4",
+      "baseline_sha256": "9f833b055227383257a4add2ee40d0a8a370c896842ad0087106fbc51cf91a31",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 4585820001343620851,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-072/prompts/clip-072.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-072.md",
+      "prompt_sha256": "cde025c71ad065c09ad0e90accd508afd93af228555a9840e54e493348078060",
+      "effective_prompt_sha256": "71e71154202eef086d5b3340020b04c2894260fed90e359b73bb4fd4ff33f92e",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+          "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-06.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T23:41:21.848758+00:00",
+        "completed_at": "2026-10-03T23:48:09.480390+00:00",
+        "elapsed_seconds": 407.631,
+        "sample_interval_seconds": 2,
+        "sample_count": 202,
+        "system": {
+          "cpu_percent_average": 12.47,
+          "cpu_percent_peak": 61.19,
+          "memory_used_mib_peak": 29462.41015625,
+          "memory_available_mib_min": 1709.515625,
+          "service_rss_mib_peak": 118.58984375,
+          "load_1m_peak": 4.16357421875,
+          "output_disk_free_gib_min": 98.85211944580078
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.535,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15707.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.868,
+            "power_w_peak": 164.97,
+            "estimated_energy_wh": 16.63
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Opening clears and haze is shorter/weaker, but an unlisted bright veil/dissolve still appears.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T08:28:37.879442+00:00",
+        "completed_at": "2026-10-04T08:39:27.184717+00:00",
+        "elapsed_seconds": 649.304,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 12.214,
+          "cpu_percent_peak": 53.65,
+          "memory_used_mib_peak": 29906.12109375,
+          "memory_available_mib_min": 1265.8046875,
+          "service_rss_mib_peak": 196.328125,
+          "load_1m_peak": 3.85791015625,
+          "output_disk_free_gib_min": 98.47952651977539
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.777,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15686.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.487,
+            "power_w_peak": 164.93,
+            "estimated_energy_wh": 26.601
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 73,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–2.00",
+      "reason": "Additional navy gunner appears beside the existing stationary cannon crew.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r006.mp4",
+      "baseline_sha256": "80ccbbf7a0102f1b1f8f17f609b917b43a2beee317046647f351744c9a9ed4e6",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 4394363298881589881,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-073/prompts/clip-073.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-073.md",
+      "prompt_sha256": "4c6cb9786970724c290e824243257e6766c9266f311ff35b1c7983769604857d",
+      "effective_prompt_sha256": "72cb8548960063188a9eff51e8c5c1d756a4c6c2fca86a021704fb6aed29a6ac",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+          "sha256": "cc4c67ec5fb47a8da599e5fa936bcad36b9015b93679bba2225406d9cd68f3b5"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-06.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-03T23:48:09.511361+00:00",
+        "completed_at": "2026-10-03T23:54:54.974737+00:00",
+        "elapsed_seconds": 405.463,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.286,
+          "cpu_percent_peak": 49.96,
+          "memory_used_mib_peak": 29464.2578125,
+          "memory_available_mib_min": 1707.66796875,
+          "service_rss_mib_peak": 118.67578125,
+          "load_1m_peak": 3.1396484375,
+          "output_disk_free_gib_min": 98.83918380737305
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.189,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15707.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.672,
+            "power_w_peak": 166.06,
+            "estimated_energy_wh": 16.519
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Extra navy gunner remains in the opening section.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T08:39:27.231579+00:00",
+        "completed_at": "2026-10-04T08:50:14.660426+00:00",
+        "elapsed_seconds": 647.428,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 12.057,
+          "cpu_percent_peak": 54.66,
+          "memory_used_mib_peak": 29215.109375,
+          "memory_available_mib_min": 1956.81640625,
+          "service_rss_mib_peak": 200.24609375,
+          "load_1m_peak": 4.67724609375,
+          "output_disk_free_gib_min": 98.46521377563477
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.445,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15711.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 146.884,
+            "power_w_peak": 165.15,
+            "estimated_energy_wh": 26.416
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "clear_output_deviation_with_adequate_inventory_reference",
+        "note": "Reference shows two foreground sailors, matching the prompt. A third foreground gunner is a genuine addition.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 77,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Close deck crew replaces the specified hull/waterline view with deck excluded.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r006.mp4",
+      "baseline_sha256": "e151ed07f6a58600e3ee8d6a04bedc638a1e60d714b99388b423f724cbd1e76a",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 5135651508952306963,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-077/prompts/clip-077.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-077.md",
+      "prompt_sha256": "d1322e2a74ecc7a603d58b795cacdfe1f90dd0b03aa6eeb73755bfa932ec2682",
+      "effective_prompt_sha256": "ad8fe88c7bf058caed0797911313f9e3962af30fdec590139bf89e76c873a82e",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+          "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-06.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T00:01:40.877209+00:00",
+        "completed_at": "2026-10-04T00:08:26.626154+00:00",
+        "elapsed_seconds": 405.748,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.241,
+          "cpu_percent_peak": 56.55,
+          "memory_used_mib_peak": 29432.015625,
+          "memory_available_mib_min": 1739.91015625,
+          "service_rss_mib_peak": 118.74609375,
+          "load_1m_peak": 2.10888671875,
+          "output_disk_free_gib_min": 98.8109130859375
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.567,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15699.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.796,
+            "power_w_peak": 164.94,
+            "estimated_energy_wh": 16.545
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Excluded deck view still appears with an even larger invented crowd.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T08:50:14.710050+00:00",
+        "completed_at": "2026-10-04T09:01:03.021294+00:00",
+        "elapsed_seconds": 648.31,
+        "sample_interval_seconds": 2,
+        "sample_count": 319,
+        "system": {
+          "cpu_percent_average": 12.329,
+          "cpu_percent_peak": 79.63,
+          "memory_used_mib_peak": 29598.3828125,
+          "memory_available_mib_min": 1573.54296875,
+          "service_rss_mib_peak": 203.078125,
+          "load_1m_peak": 3.70703125,
+          "output_disk_free_gib_min": 98.45304870605469
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.298,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15708.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 146.943,
+            "power_w_peak": 164.9,
+            "estimated_energy_wh": 26.462
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 78,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "1.00–5.00",
+      "reason": "Premature burning ship and smoke replace the waiting balcony/fleet scene.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r006.mp4",
+      "baseline_sha256": "70b34ef677e93d9d1f8c27d062bae947814bb364b908cdf301dc941afd8e5427",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 2717500746477058768,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-078/prompts/clip-078.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-078.md",
+      "prompt_sha256": "a9831991d56161d96ce12fdb47dfa1cc55eb2f164c4f2e9185d1a41afcbb714a",
+      "effective_prompt_sha256": "29efb1cd3e5731b191645f8a0177c93d5a8a275d02070dc0933f9265f4f3a702",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+          "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-07.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T00:08:26.661423+00:00",
+        "completed_at": "2026-10-04T00:15:14.893098+00:00",
+        "elapsed_seconds": 408.231,
+        "sample_interval_seconds": 2,
+        "sample_count": 202,
+        "system": {
+          "cpu_percent_average": 12.178,
+          "cpu_percent_peak": 71.32,
+          "memory_used_mib_peak": 29565.2734375,
+          "memory_available_mib_min": 1606.65234375,
+          "service_rss_mib_peak": 118.76171875,
+          "load_1m_peak": 3.060546875,
+          "output_disk_free_gib_min": 98.7925796508789
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.649,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15732.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.748,
+            "power_w_peak": 164.84,
+            "estimated_energy_wh": 16.641
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Premature burning/exploding fleet persists and extends to more ships.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T09:01:03.076008+00:00",
+        "completed_at": "2026-10-04T09:11:54.087147+00:00",
+        "elapsed_seconds": 651.01,
+        "sample_interval_seconds": 2,
+        "sample_count": 320,
+        "system": {
+          "cpu_percent_average": 12.237,
+          "cpu_percent_peak": 63.82,
+          "memory_used_mib_peak": 29657.04296875,
+          "memory_available_mib_min": 1514.8828125,
+          "service_rss_mib_peak": 207.01953125,
+          "load_1m_peak": 3.70703125,
+          "output_disk_free_gib_min": 98.44006729125977
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.766,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15684.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 146.877,
+            "power_w_peak": 164.88,
+            "estimated_energy_wh": 26.561
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 80,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "Khalid walks out and disappears despite required unchanged still clock scene.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r006.mp4",
+      "baseline_sha256": "e4a828e585626165fa7abc722000a0d8157b731abe68fc4b20c4e8094b9be427",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 5022782552429652547,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-080/prompts/clip-080.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-080.md",
+      "prompt_sha256": "cc7f70f5b0d25a99baf49c61f954df780f68057059c7de0873df3f8b33394d84",
+      "effective_prompt_sha256": "c0826d57dd2fa87c7877a7bdb8fe27bee7dcd8f6d724fd15f98ec0c5c30164d4",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+          "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-07.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T00:22:01.384837+00:00",
+        "completed_at": "2026-10-04T00:28:47.042113+00:00",
+        "elapsed_seconds": 405.657,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.599,
+          "cpu_percent_peak": 67.99,
+          "memory_used_mib_peak": 29736.0078125,
+          "memory_available_mib_min": 1435.91796875,
+          "service_rss_mib_peak": 118.859375,
+          "load_1m_peak": 4.5859375,
+          "output_disk_free_gib_min": 98.76431655883789
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.896,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15732.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.918,
+            "power_w_peak": 164.7,
+            "estimated_energy_wh": 16.555
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "original_major_defect_removed",
+      "steps_effect_conclusion": "Khalid remains visible throughout instead of exiting/disappearing. All120frames inspected; framing/pose still changes and final approval is separate.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T09:11:54.146770+00:00",
+        "completed_at": "2026-10-04T09:22:40.200927+00:00",
+        "elapsed_seconds": 646.053,
+        "sample_interval_seconds": 2,
+        "sample_count": 317,
+        "system": {
+          "cpu_percent_average": 12.284,
+          "cpu_percent_peak": 76.42,
+          "memory_used_mib_peak": 29590.97265625,
+          "memory_available_mib_min": 1580.953125,
+          "service_rss_mib_peak": 211.52734375,
+          "load_1m_peak": 2.83154296875,
+          "output_disk_free_gib_min": 98.42669296264648
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.552,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15700.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.365,
+            "power_w_peak": 164.86,
+            "estimated_energy_wh": 26.446
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 81,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Palace dissolves into fog/empty shoreline despite required unchanged intact harbour.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r006.mp4",
+      "baseline_sha256": "9e11bd4e8d2583017903bf5ba2ebc88c07b56ea670d7da63e796cfa7bccb0704",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 7734769441425546765,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-081/prompts/clip-081.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-081.md",
+      "prompt_sha256": "bc4247268f6df9a54a7beb676fe2027905816eb996850ae00ce21f89d2dbe99a",
+      "effective_prompt_sha256": "a78e93212c37ccb5e0acc281892f4728feb4484627884156d920a7b01644e62d",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+          "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-07.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T00:28:47.077040+00:00",
+        "completed_at": "2026-10-04T00:35:33.182688+00:00",
+        "elapsed_seconds": 406.105,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.357,
+          "cpu_percent_peak": 66.43,
+          "memory_used_mib_peak": 29663.25390625,
+          "memory_available_mib_min": 1508.671875,
+          "service_rss_mib_peak": 118.8359375,
+          "load_1m_peak": 3.28759765625,
+          "output_disk_free_gib_min": 98.75223541259766
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.373,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15701.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.911,
+            "power_w_peak": 164.87,
+            "estimated_energy_wh": 16.573
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Palace/shore still dissolves into largely empty background in the second half.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T09:22:40.255662+00:00",
+        "completed_at": "2026-10-04T09:33:26.805128+00:00",
+        "elapsed_seconds": 646.548,
+        "sample_interval_seconds": 2,
+        "sample_count": 317,
+        "system": {
+          "cpu_percent_average": 12.25,
+          "cpu_percent_peak": 74.2,
+          "memory_used_mib_peak": 29433.05078125,
+          "memory_available_mib_min": 1738.875,
+          "service_rss_mib_peak": 215.0859375,
+          "load_1m_peak": 2.94873046875,
+          "output_disk_free_gib_min": 98.39936447143555
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.388,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15732.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.238,
+            "power_w_peak": 164.82,
+            "estimated_energy_wh": 26.443
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 82,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "Khalid obscures the required 09:00 placard; exact text no longer visible throughout.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r006.mp4",
+      "baseline_sha256": "8b2e4cb202d6fd68c68f9fb244f39888e01cbbd20ba91d1bad1ee2cf6f3fb5ac",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 3844396634229154876,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-082/prompts/clip-082.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-082.md",
+      "prompt_sha256": "0e375ba437f4d91dc9598fd7b797a042148d139209a6ea561ebb40c316e3cb7f",
+      "effective_prompt_sha256": "6ef6c8ecd5c81cde996be3a2052c9f0531286612e31a3484f031b1478f7a7e47",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0900-r001.png",
+          "sha256": "fb36193d516abf76fd477c0158bbc18cbbc0f41a6dee92b3a106935e7268a43c"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-07.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T00:35:33.214595+00:00",
+        "completed_at": "2026-10-04T00:42:18.620009+00:00",
+        "elapsed_seconds": 405.405,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.101,
+          "cpu_percent_peak": 49.28,
+          "memory_used_mib_peak": 29462.7578125,
+          "memory_available_mib_min": 1709.16796875,
+          "service_rss_mib_peak": 118.88671875,
+          "load_1m_peak": 2.4296875,
+          "output_disk_free_gib_min": 98.7346420288086
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.756,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15701.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.866,
+            "power_w_peak": 165.02,
+            "estimated_energy_wh": 16.539
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "original_major_defect_removed",
+      "steps_effect_conclusion": "Required09:00 placard remains fully visible and correct in all120frames; Khalid no longer covers it. Existing visible distant flame and complete sound contract still require review.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T09:33:26.854902+00:00",
+        "completed_at": "2026-10-04T09:44:12.009536+00:00",
+        "elapsed_seconds": 645.154,
+        "sample_interval_seconds": 2,
+        "sample_count": 316,
+        "system": {
+          "cpu_percent_average": 12.389,
+          "cpu_percent_peak": 59.3,
+          "memory_used_mib_peak": 29437.28515625,
+          "memory_available_mib_min": 1734.640625,
+          "service_rss_mib_peak": 174.6015625,
+          "load_1m_peak": 3.373046875,
+          "output_disk_free_gib_min": 98.3895492553711
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.253,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15704.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.3,
+            "power_w_peak": 165.01,
+            "estimated_energy_wh": 26.397
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 93,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–3.00",
+      "reason": "Large invented crowd stands and sinks in water around the Glasgow.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r006.mp4",
+      "baseline_sha256": "f131b852fdb8e93cbed44c4736ac38619bcd350da465329a880f8fde2400d120",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 9059622211159557714,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-093/prompts/clip-093.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-093.md",
+      "prompt_sha256": "6abbda1fe5359631e7a1b223d7f3a11e922e61d1ac8828e46a85b3cc59225602",
+      "effective_prompt_sha256": "a92ead11b29e1b08346ccf98c25201d7bd6fd36d69ed112bb529db8b3719016e",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+          "sha256": "f77f8b2d2fb28e68f8129ea1fca787b48d55ca03882da40f8a4f1f3c7eb562cc"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-07.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T00:55:50.596694+00:00",
+        "completed_at": "2026-10-04T01:02:36.879328+00:00",
+        "elapsed_seconds": 406.282,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 13.038,
+          "cpu_percent_peak": 67.72,
+          "memory_used_mib_peak": 29439.30859375,
+          "memory_available_mib_min": 1732.6171875,
+          "service_rss_mib_peak": 118.9765625,
+          "load_1m_peak": 3.1904296875,
+          "output_disk_free_gib_min": 98.68834686279297
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.746,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15730.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 146.59,
+            "power_w_peak": 164.95,
+            "estimated_energy_wh": 16.544
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Invented crowd still stands and sinks in the water around the Glasgow.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T09:44:12.135609+00:00",
+        "completed_at": "2026-10-04T09:54:58.703786+00:00",
+        "elapsed_seconds": 646.567,
+        "sample_interval_seconds": 2,
+        "sample_count": 316,
+        "system": {
+          "cpu_percent_average": 12.411,
+          "cpu_percent_peak": 53.94,
+          "memory_used_mib_peak": 29460.73828125,
+          "memory_available_mib_min": 1711.1875,
+          "service_rss_mib_peak": 174.6015625,
+          "load_1m_peak": 3.373046875,
+          "output_disk_free_gib_min": 98.37658309936523
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.168,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15732.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 146.874,
+            "power_w_peak": 164.59,
+            "estimated_energy_wh": 26.379
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "clear_output_deviation_and_prompt_conditioning_ambiguity",
+        "note": "Reference has no foreground crowd in water. Output invents one. Prompt nevertheless contains human anatomy styling and repeated crew/drowning/falling-people concepts in prohibitions. Their causal role is plausible but untested.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 94,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "Daylight wreck becomes orange sunset, breaking unchanged light/time continuity.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r006.mp4",
+      "baseline_sha256": "5454442def33e4778f05b19fe0e9f77d49d8a7784749fdd491e45eb37a84de09",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 7034138130607491514,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-094/prompts/clip-094.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-094.md",
+      "prompt_sha256": "d9f27d2fd8c2f88f79b44b017d7ee06a0429582e084e2156bcd869f0848c98fc",
+      "effective_prompt_sha256": "2effe9b98dcc1bfa6c1f46c07e60b2d1eb2574d6bdc8824365f573a941076aff",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+          "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-08.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T01:02:36.942102+00:00",
+        "completed_at": "2026-10-04T01:09:21.009957+00:00",
+        "elapsed_seconds": 404.067,
+        "sample_interval_seconds": 2,
+        "sample_count": 200,
+        "system": {
+          "cpu_percent_average": 12.307,
+          "cpu_percent_peak": 61.76,
+          "memory_used_mib_peak": 29834.9765625,
+          "memory_available_mib_min": 1336.94921875,
+          "service_rss_mib_peak": 119.01953125,
+          "load_1m_peak": 3.1904296875,
+          "output_disk_free_gib_min": 98.67777252197266
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 96.765,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15728.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 146.883,
+            "power_w_peak": 164.91,
+            "estimated_energy_wh": 16.486
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Daylight still changes into orange sunset.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T09:54:58.755968+00:00",
+        "completed_at": "2026-10-04T10:05:44.381783+00:00",
+        "elapsed_seconds": 645.625,
+        "sample_interval_seconds": 2,
+        "sample_count": 315,
+        "system": {
+          "cpu_percent_average": 12.265,
+          "cpu_percent_peak": 77.67,
+          "memory_used_mib_peak": 29618.421875,
+          "memory_available_mib_min": 1553.50390625,
+          "service_rss_mib_peak": 178.62109375,
+          "load_1m_peak": 3.23681640625,
+          "output_disk_free_gib_min": 98.37178802490234
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.53,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15732.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.359,
+            "power_w_peak": 164.83,
+            "estimated_energy_wh": 26.427
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "clear_output_deviation_with_adequate_state_reference",
+        "note": "Reference is blue-sky daylight and prompt requests a fixed anchor view with only one ripple. Both outputs turn orange/dusk. Source image does not require that change.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 95,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–3.00",
+      "reason": "Originally still crouched defenders become running close figures, followed by dissolve.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r006.mp4",
+      "baseline_sha256": "3707245aadf29bdfba486bb1985401093fd05e8926ad27f972e8018db82b5ce3",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 6302835599183895452,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-095/prompts/clip-095.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-095.md",
+      "prompt_sha256": "15505ed1bd205ca3889220532eb3dc1848fe6a54c05434447af3974116407648",
+      "effective_prompt_sha256": "e5b5f5d132de109c100da93111eec28fe68a9d267af832fe12218c08f07ed144",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+          "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-08.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T01:09:21.045772+00:00",
+        "completed_at": "2026-10-04T01:16:07.162685+00:00",
+        "elapsed_seconds": 406.116,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.849,
+          "cpu_percent_peak": 74.69,
+          "memory_used_mib_peak": 29734.43359375,
+          "memory_available_mib_min": 1437.4921875,
+          "service_rss_mib_peak": 118.91015625,
+          "load_1m_peak": 3.6396484375,
+          "output_disk_free_gib_min": 98.66541290283203
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.567,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15698.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.167,
+            "power_w_peak": 164.86,
+            "estimated_energy_wh": 16.602
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "input_conflict_reassessment_required",
+      "steps_effect_conclusion": "Full-resolution reference shows two bent-forward retreating defenders with lifted/stepping legs, not an unambiguous stationary crouch. Prompt itself calls them retreating and also requires original crouching poses. Withdraw the earlier reference-mismatch diagnosis based solely on standing/running pose. Motion, transition and inventory still require their own checks; this is not approval.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T10:05:44.439649+00:00",
+        "completed_at": "2026-10-04T10:16:30.802273+00:00",
+        "elapsed_seconds": 646.361,
+        "sample_interval_seconds": 2,
+        "sample_count": 315,
+        "system": {
+          "cpu_percent_average": 12.345,
+          "cpu_percent_peak": 60.35,
+          "memory_used_mib_peak": 29377.6171875,
+          "memory_available_mib_min": 1794.30859375,
+          "service_rss_mib_peak": 219.0625,
+          "load_1m_peak": 2.8505859375,
+          "output_disk_free_gib_min": 98.47985458374023
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.743,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15668.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.343,
+            "power_w_peak": 165.45,
+            "estimated_energy_wh": 26.455
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "confirmed_reference_prompt_conflict_and_review_correction",
+        "note": "Full-resolution reference shows two bent-forward retreating defenders with lifted/stepping legs, not an unambiguous stationary crouch. Prompt itself calls them retreating and also requires original crouching poses. Withdraw the earlier reference-mismatch diagnosis based solely on standing/running pose. Motion, transition and inventory still require their own checks; this is not approval.",
+        "final_approval": false
+      },
+      "previous_test_review_status": "no_material_repair_or_regression"
+    },
+    {
+      "number": 97,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.30–5.00",
+      "reason": "Originally crouching defenders stand/run with altered pose instead of remaining still.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r006.mp4",
+      "baseline_sha256": "67ffc4ea226df5813d129a4295b38a5cae0724aa86943abb888a391673e518a7",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 867464484341946885,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-097/prompts/clip-097.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-097.md",
+      "prompt_sha256": "d3e245165b85135f2394eb8578ff75ff9b34a277e6c82b77567524fca5777164",
+      "effective_prompt_sha256": "666c29e255d0b915eff08668c17e8b6dc02f740179d90362438fe415976c9e59",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+          "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-08.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T01:22:51.206508+00:00",
+        "completed_at": "2026-10-04T01:29:36.401565+00:00",
+        "elapsed_seconds": 405.195,
+        "sample_interval_seconds": 2,
+        "sample_count": 200,
+        "system": {
+          "cpu_percent_average": 13.676,
+          "cpu_percent_peak": 47.07,
+          "memory_used_mib_peak": 29435.1015625,
+          "memory_available_mib_min": 1736.82421875,
+          "service_rss_mib_peak": 118.984375,
+          "load_1m_peak": 4.42333984375,
+          "output_disk_free_gib_min": 98.63550567626953
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.91,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15730.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.486,
+            "power_w_peak": 164.92,
+            "estimated_energy_wh": 16.6
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "input_conflict_reassessment_required",
+      "steps_effect_conclusion": "Full-resolution reference likewise shows two retreating bent-forward defenders. Prompt describes retreating defenders and original crouching poses simultaneously. Earlier crouch-based failure attribution is disputed. Existing battle flashes also make a residual-smoke-only interpretation ambiguous; not final approval.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T10:16:30.861472+00:00",
+        "completed_at": "2026-10-04T10:27:18.710713+00:00",
+        "elapsed_seconds": 647.848,
+        "sample_interval_seconds": 2,
+        "sample_count": 316,
+        "system": {
+          "cpu_percent_average": 12.362,
+          "cpu_percent_peak": 54.55,
+          "memory_used_mib_peak": 29314.8046875,
+          "memory_available_mib_min": 1857.12109375,
+          "service_rss_mib_peak": 233.4609375,
+          "load_1m_peak": 2.81982421875,
+          "output_disk_free_gib_min": 98.47157287597656
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.089,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15669.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.201,
+            "power_w_peak": 164.98,
+            "estimated_energy_wh": 26.49
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "confirmed_reference_prompt_conflict_and_review_correction",
+        "note": "Full-resolution reference likewise shows two retreating bent-forward defenders. Prompt describes retreating defenders and original crouching poses simultaneously. Earlier crouch-based failure attribution is disputed. Existing battle flashes also make a residual-smoke-only interpretation ambiguous; not final approval.",
+        "final_approval": false
+      },
+      "previous_test_review_status": "no_material_repair_or_regression"
+    },
+    {
+      "number": 103,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–4.00",
+      "reason": "Full-frame smoke hides the original doorway characters; dissolving scene replaces reference opening.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r006.mp4",
+      "baseline_sha256": "153b96a78f8ffb320982a46241339b92281abe6defc523b1969041e0e6f1cec3",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 6109411393095180505,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-103/prompts/clip-103.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-103.md",
+      "prompt_sha256": "2d33776c68f9f019c63bd7549c378855d0eb86873ade678ed56e1a756741e620",
+      "effective_prompt_sha256": "01f6d7bc35ce5789bae66361ef365add4360ea1cd187def0190f135dcd0e8954",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png",
+          "sha256": "e47494715cce50748434357f525eff8054093c8df0aa20534d935d594a5f6bb5"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-08.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T01:36:24.658707+00:00",
+        "completed_at": "2026-10-04T01:43:10.187997+00:00",
+        "elapsed_seconds": 405.529,
+        "sample_interval_seconds": 2,
+        "sample_count": 200,
+        "system": {
+          "cpu_percent_average": 12.298,
+          "cpu_percent_peak": 54.51,
+          "memory_used_mib_peak": 29460.87109375,
+          "memory_available_mib_min": 1711.0546875,
+          "service_rss_mib_peak": 119.08984375,
+          "load_1m_peak": 2.55712890625,
+          "output_disk_free_gib_min": 98.61750411987305
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.585,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15690.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.413,
+            "power_w_peak": 165.11,
+            "estimated_energy_wh": 16.606
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "partial_improvement_still_failed",
+      "steps_effect_conclusion": "Opening characters are now visible and the main smoke obstruction is much weaker; unlisted haze/dissolve remains.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T10:27:18.764361+00:00",
+        "completed_at": "2026-10-04T10:38:05.477462+00:00",
+        "elapsed_seconds": 646.712,
+        "sample_interval_seconds": 2,
+        "sample_count": 315,
+        "system": {
+          "cpu_percent_average": 12.376,
+          "cpu_percent_peak": 63.41,
+          "memory_used_mib_peak": 29412.10546875,
+          "memory_available_mib_min": 1759.8203125,
+          "service_rss_mib_peak": 237.40234375,
+          "load_1m_peak": 2.99560546875,
+          "output_disk_free_gib_min": 98.4617691040039
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.422,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15727.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.153,
+            "power_w_peak": 165.12,
+            "estimated_energy_wh": 26.435
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false
+    },
+    {
+      "number": 105,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "Landscape scene collapses into narrow portrait insert with large black side panels.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r006.mp4",
+      "baseline_sha256": "474b2683e01787fa1008b767dc9f64f3632cb0b9911fbb5ac1f773bff3820b4e",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 5955589117614390943,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-105/prompts/clip-105.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-105.md",
+      "prompt_sha256": "2aafc68f1a2722a9590fadb1fb32fc6afb50e1b8427d61155aaaa73df1ec0c4d",
+      "effective_prompt_sha256": "13216d1e857a5b3228b7c35d265d8f3604d36c13619f0da88a4aa1f8729ef423",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+          "sha256": "9b684095fa8b4cd93441c33369753be0835f86e8fa0dbf377f87512d5e38c712"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-08.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T01:43:10.223993+00:00",
+        "completed_at": "2026-10-04T01:49:57.658894+00:00",
+        "elapsed_seconds": 407.434,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.461,
+          "cpu_percent_peak": 53.65,
+          "memory_used_mib_peak": 29794.68359375,
+          "memory_available_mib_min": 1377.2421875,
+          "service_rss_mib_peak": 119.08984375,
+          "load_1m_peak": 3.84619140625,
+          "output_disk_free_gib_min": 98.60723495483398
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.677,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15722.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.554,
+            "power_w_peak": 165.41,
+            "estimated_energy_wh": 16.7
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Large black side panels persist and appear even earlier.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T10:38:05.531763+00:00",
+        "completed_at": "2026-10-04T10:48:54.824325+00:00",
+        "elapsed_seconds": 649.291,
+        "sample_interval_seconds": 2,
+        "sample_count": 316,
+        "system": {
+          "cpu_percent_average": 12.31,
+          "cpu_percent_peak": 71.54,
+          "memory_used_mib_peak": 29410.21875,
+          "memory_available_mib_min": 1761.70703125,
+          "service_rss_mib_peak": 240.28515625,
+          "load_1m_peak": 2.68408203125,
+          "output_disk_free_gib_min": 98.44571685791016
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.323,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15697.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.542,
+            "power_w_peak": 164.96,
+            "estimated_energy_wh": 26.611
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "clear_output_deviation_and_framing_control_gap",
+        "note": "Reference is full landscape without black side panels. Both outputs introduce pillarboxing, a real composition deviation. Tight lower-wall opening and reveal are specified in words but no explicit start-crop frame is supplied; missing framing control is a plausible contributor, not proved cause.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 110,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "0.00–5.00",
+      "reason": "New foreground woman and crate appear while original two civilians remain behind.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r006.mp4",
+      "baseline_sha256": "fd2f3134186e5aabf66fbd125c96f73944b4dc071a0a76b4223b495fa9bb9f02",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 5244368590972159851,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-110/prompts/clip-110.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-110.md",
+      "prompt_sha256": "e35e5419943c8fb83fde4e770b1940a578556a5daece605afe04ad6c8c1a58b3",
+      "effective_prompt_sha256": "d63796b50a570f34de9a92a149cf4fcc5576211cb223e179d6dbf0d90df00a70",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+          "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-09.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T02:03:28.736604+00:00",
+        "completed_at": "2026-10-04T02:10:13.208887+00:00",
+        "elapsed_seconds": 404.472,
+        "sample_interval_seconds": 2,
+        "sample_count": 200,
+        "system": {
+          "cpu_percent_average": 12.341,
+          "cpu_percent_peak": 70.85,
+          "memory_used_mib_peak": 29537.1796875,
+          "memory_available_mib_min": 1634.74609375,
+          "service_rss_mib_peak": 119.08984375,
+          "load_1m_peak": 2.126953125,
+          "output_disk_free_gib_min": 98.56578826904297
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.87,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15659.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.144,
+            "power_w_peak": 165.02,
+            "estimated_energy_wh": 16.532
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Invented foreground civilians remain and more people are introduced.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T10:48:54.879240+00:00",
+        "completed_at": "2026-10-04T10:59:40.721099+00:00",
+        "elapsed_seconds": 645.841,
+        "sample_interval_seconds": 2,
+        "sample_count": 314,
+        "system": {
+          "cpu_percent_average": 12.546,
+          "cpu_percent_peak": 55.72,
+          "memory_used_mib_peak": 29618.7109375,
+          "memory_available_mib_min": 1553.21484375,
+          "service_rss_mib_peak": 233.3125,
+          "load_1m_peak": 2.68359375,
+          "output_disk_free_gib_min": 98.42698669433594
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 98.344,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15726.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.423,
+            "power_w_peak": 165.59,
+            "estimated_energy_wh": 26.448
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "confirmed_reference_prompt_scale_conflict",
+        "note": "Reference has two foreground civilians of substantial visible size; prompt calls those original people small and distant while retaining the original composition. Output nevertheless adds separate foreground civilians absent from the reference, a real count deviation.",
+        "final_approval": false
+      }
+    },
+    {
+      "number": 126,
+      "decision": "retry_same_prompt_seed_increase_steps",
+      "bad_times": "2.00–5.00",
+      "reason": "Closed dispatches become an unfolded sheet and oversized fingered hands; prop state changes.",
+      "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r006.mp4",
+      "baseline_sha256": "14a616e2b5300ee0bef8dbbe279f000b2625f18ae8943b1f9748001e344fd352",
+      "baseline_steps": 12,
+      "test_steps": 20,
+      "seed": 7302927968861061754,
+      "baseline_prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-126/prompts/clip-126.md",
+      "test_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-126.md",
+      "prompt_sha256": "c93dce971723691dbfff99f70b0424080d4f12bd030c12651485c9f2ec2b8b57",
+      "effective_prompt_sha256": "51a66c6b9f5f4d4dd699c3f35a583f545adb3470d1b70aab3b7ecacd7f0044ed",
+      "references": [
+        {
+          "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+          "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a"
+        }
+      ],
+      "output": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r008.mp4",
+      "review_evidence": "episodes/006-shortest-war-ever/renders/review-evidence-20step/overview-10.jpg",
+      "baseline_run_metrics_summary": {
+        "started_at": "2026-10-04T02:44:00.711537+00:00",
+        "completed_at": "2026-10-04T02:50:48.298710+00:00",
+        "elapsed_seconds": 407.587,
+        "sample_interval_seconds": 2,
+        "sample_count": 201,
+        "system": {
+          "cpu_percent_average": 12.271,
+          "cpu_percent_peak": 54.51,
+          "memory_used_mib_peak": 29702.76171875,
+          "memory_available_mib_min": 1469.1640625,
+          "service_rss_mib_peak": 119.2734375,
+          "load_1m_peak": 2.54736328125,
+          "output_disk_free_gib_min": 98.53174209594727
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.473,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15723.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 75.0,
+            "power_w_average": 147.395,
+            "power_w_peak": 165.57,
+            "estimated_energy_wh": 16.688
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "test_review_status": "no_material_repair_or_regression",
+      "steps_effect_conclusion": "Dispatches now stay rolled rather than open, but approximately four closed rolls replace the required two; prop count remains broken.",
+      "test_run_metrics_summary": {
+        "started_at": "2026-10-04T10:59:40.775441+00:00",
+        "completed_at": "2026-10-04T11:10:31.004463+00:00",
+        "elapsed_seconds": 650.228,
+        "sample_interval_seconds": 2,
+        "sample_count": 316,
+        "system": {
+          "cpu_percent_average": 13.121,
+          "cpu_percent_peak": 56.65,
+          "memory_used_mib_peak": 29457.90234375,
+          "memory_available_mib_min": 1714.0234375,
+          "service_rss_mib_peak": 236.25390625,
+          "load_1m_peak": 3.58984375,
+          "output_disk_free_gib_min": 98.41575241088867
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 97.87,
+            "utilization_percent_peak": 100.0,
+            "memory_used_mib_peak": 15726.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 74.0,
+            "power_w_average": 147.114,
+            "power_w_peak": 165.05,
+            "estimated_energy_wh": 26.572
+          }
+        ],
+        "sample_errors": [],
+        "attempt": 1
+      },
+      "final_approval": false,
+      "input_audit": {
+        "category": "clear_output_deviation_with_adequate_inventory_reference",
+        "note": "Reference shows two closed rolls; 20-step output close shot contains roughly four. The requested count is consistent with the source image. Close-shot adherence remains a generation/control problem, not a reference count defect.",
+        "final_approval": false
+      }
+    }
+  ],
+  "review_method": "Rapid actual-frame/reference visual screening at0/1/2/3/4/4.958seconds plus existing dense replacement evidence. Not final all-frame motion/audio approval.",
+  "created_at": "2026-10-04T03:24:47.223538+00:00",
+  "visual_review_summary": {
+    "pairs": 40,
+    "original_major_defect_removed": 6,
+    "partial_improvement_still_failed": 8,
+    "no_material_repair_or_regression": 26,
+    "baseline_mean_seconds": 411.477475,
+    "test_mean_seconds": 647.77865,
+    "time_ratio": 1.5742748737339751,
+    "extra_time_percent": 57.42748737339751,
+    "baseline_total_hours": 4.571971944444444,
+    "test_total_hours": 7.197540555555554,
+    "full_clip_approvals": 0,
+    "limitation": "Purposively selected failed12step clips, not random first-pass production sample.15% is observed original-defect removal in this failed set, not20step global success rate. Visual comparison only; audio not reviewed. Same actual/effective prompts and seeds verified for all40pairs."
+  },
+  "review_report": "renders/step-comparison-r008/report.md"
+}

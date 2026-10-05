@@ -1,0 +1,17 @@
+{
+  "number": 9,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r004.mp4",
+  "source_sha256": "84700bb7c3dc5677a4c083a01938022f7123a3368be45293fb15dbc1a0608e01",
+  "pcm_sha256": "921f76d58717dec4bdfbb7ac89ae66d514eb700103e338a5f2fe11fffd0dbdff",
+  "peak_pcm16": 5094,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A single, sustained cello note transitions into a plucked string sound, possibly a pizzicato. This is followed by a continuous, low-frequency hum, suggesting an ambient tonal bed.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

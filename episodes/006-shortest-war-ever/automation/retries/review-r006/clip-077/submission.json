@@ -1,0 +1,85 @@
+{
+  "id": "990d31ce-13d9-4ef2-ac3b-68e1af64545a",
+  "status": "queued",
+  "created_at": "2026-10-03T19:03:50.316721+00:00",
+  "updated_at": "2026-10-03T19:03:50.316721+00:00",
+  "error_json": null,
+  "metrics_json": null,
+  "request": {
+    "jobs": [
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-077/prompts/clip-077.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 12,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 5135651508952306963,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-077-shot-r006",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-077:r006"
+      }
+    ],
+    "settings": {
+      "continue_on_error": true,
+      "stop_on_error": false,
+      "max_retries": 1,
+      "concat_on_complete": false,
+      "upscale_on_complete": false,
+      "output": null
+    }
+  },
+  "job_ids": [
+    "834b0e7b-4eb5-4108-b73c-80fdefc7a1a1"
+  ],
+  "output_files": [],
+  "error": null,
+  "metrics": null
+}

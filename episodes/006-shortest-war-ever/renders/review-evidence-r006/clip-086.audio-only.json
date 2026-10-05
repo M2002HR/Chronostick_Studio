@@ -1,0 +1,17 @@
+{
+  "number": 86,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-086-shot-r004.mp4",
+  "source_sha256": "2d836bcbd76b984a6347aa1d1d33cf5fb78b21f48289917bd50a9499733ef934",
+  "pcm_sha256": "4116654831090bfda8159b0cb61a0644709a9387646620b6fd397c56de85bb4c",
+  "peak_pcm16": 18436,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A loud, sudden bang or explosion, followed by a brief, high-pitched ringing sound that quickly fades. No speech is present. There is no music or tonal bed. There is no continuous ambience.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

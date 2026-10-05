@@ -1,0 +1,17 @@
+{
+  "number": 85,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-085-shot-r005.mp4",
+  "source_sha256": "9d2fb511c7ab049c490293c762e90b34f83e68e531a62235c1a566beb04839af",
+  "pcm_sha256": "ca774eb4509e3337ee0a81b1ee53fbba016eab7ca8fc9a60113c2eced81cfbea",
+  "peak_pcm16": 30837,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a sustained, high-pitched whirring or grinding noise. The whirring then stops abruptly with another 'thwack' sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

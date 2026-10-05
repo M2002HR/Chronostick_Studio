@@ -1,0 +1,30 @@
+{
+  "number": 59,
+  "decision": "revise_prompt",
+  "reason": "Khalid robe is teal green instead of maroon.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-059.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r004.mp4",
+  "baseline_sha256": "bb8ef50dc6c4a4da60ac660bb695fa6d0b6db27bcd0387416dc9d681113acc2d",
+  "reviewed_at": "2026-10-03T19:02:04.531205+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8980540850106927898,
+  "previous_seed": 8372443536822806134,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-059/prompts/clip-059.md",
+  "prompt_sha256": "231cfa7a9a1d4f557686cc9a22a2a56254099f984515f2dc3583ed98f8b1b183",
+  "job": "006-shortest-war-ever:clip-059:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+      "sha256": "b50f2ddffc510212785224eba2e166c3545680a628e5422bcb27fec6592630ad"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "3d6cd6c1-86c2-43ba-833c-f0102ffc0bc6",
+  "job_ids": [
+    "b1b26624-918b-4a11-ab38-4897fa1cd9e5"
+  ],
+  "submitted_at": "2026-10-03T19:02:04.640334+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-059.jpg"
+}

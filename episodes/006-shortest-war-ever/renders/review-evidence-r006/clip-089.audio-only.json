@@ -1,0 +1,17 @@
+{
+  "number": 89,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-089-shot-r004.mp4",
+  "source_sha256": "bf57bde911fbe9f6264a988bf491f61e308f89318e1b9ed581a91ea2e0b76f8e",
+  "pcm_sha256": "3ff69673ad86ae0730c864a49c7248685bce6141d6fb956a438d73c3d3214236",
+  "peak_pcm16": 10874,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A loud bang, followed by a sustained, low-frequency rumble. There's a distinct whoosh sound, and then a continuous, subtle ambient hum.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

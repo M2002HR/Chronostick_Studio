@@ -1,0 +1,14 @@
+{
+  "dry_run": true,
+  "valid": true,
+  "job_count": 1,
+  "jobs": [
+    {
+      "index": 1,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/retries/review-r006/clip-078/jobs/clip-078.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

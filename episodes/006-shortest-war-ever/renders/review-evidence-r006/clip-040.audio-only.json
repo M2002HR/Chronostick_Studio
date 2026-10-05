@@ -1,0 +1,17 @@
+{
+  "number": 40,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-040-shot-r005.mp4",
+  "source_sha256": "5f70be5b66a7999cde824cb1ce24fcf5b835885bf963569d6074be6ae1cd1523",
+  "pcm_sha256": "a846a2cdc8ac48e38e17b1754444e106e1c2b7ccc61e907b80d8a61df7033b1c",
+  "peak_pcm16": 3861,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A plucked string instrument, possibly a zither or harp, plays a short, melodic phrase. The sound is clear and resonant. There is no speech or continuous ambience.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

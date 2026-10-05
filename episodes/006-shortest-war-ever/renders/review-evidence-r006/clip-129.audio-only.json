@@ -1,0 +1,17 @@
+{
+  "number": 129,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-129-shot-r004.mp4",
+  "source_sha256": "b31424487ba36e066affbfbb25eb9111046420d4da3c42c942dd72a582066958",
+  "pcm_sha256": "9ac8b9137d0267b35b2cd686a27d1a18fe7aec7300e793a3a031c93e28d8daed",
+  "peak_pcm16": 21961,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A male voice is singing, accompanied by a guitar. The singing is melodic and clear. There is a continuous ambient sound, possibly room tone, throughout the audio.",
+    "speech": true,
+    "exact_words": "geisa gei la casca",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

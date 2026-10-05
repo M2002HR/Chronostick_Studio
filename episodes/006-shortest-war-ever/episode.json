@@ -35,9 +35,9 @@
   "style_authority": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
   "accepted_voice": "audio/narration-es-google-vids-r001.mp4",
   "accepted_timing_map": "timestamps/timing-map.json",
-  "picture_master": null,
-  "distribution_master": null,
-  "next_action": "Allow117 queued twelve-step jobs to finish in persistent service; then review all129 H3 candidates alongside the two approved controlled maps before selection.",
+  "picture_master": "final/picture-sfx-1920x1080-r001.mp4",
+  "distribution_master": "final/episode-006-shortest-war-ever-es-1920x1080-r008.mp4",
+  "next_action": "Review local r008 distribution with user-selected 64px single-line active-word captions and muted native sound; add supplied music/background/SFX later as separate tracks.",
   "generation_steps": 12,
   "generation_step_authority": "explicit user instruction 2026-10-02",
   "voice_duration_seconds": 651.389388,
@@ -104,8 +104,108 @@
     "job_count": 117,
     "revision": 5,
     "manifest": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/manifest.json",
-    "status": "running",
+    "status": "succeeded",
     "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
-    "started_verified_at": "2026-10-02T19:50:54.940150+00:00"
+    "started_verified_at": "2026-10-02T19:50:54.940150+00:00",
+    "finished_at": "2026-10-03T09:00:59.022807+00:00",
+    "child_status_counts": {
+      "succeeded": 117
+    }
+  },
+  "incremental_review": {
+    "status": "repair_queue_running_review_incomplete",
+    "baseline": "renders/review-evidence-r006/baseline.json",
+    "ledger": "renders/review-evidence-r006/review-ledger.json",
+    "report": "plan/review-r006.md",
+    "queue_status": "automation/retries/review-r006/status.json",
+    "reviewed_initial_slots": 131,
+    "submitted_repair_jobs": 81,
+    "submitted_repair_slots": 76,
+    "updated_at": "2026-10-03T19:36:03.368880+00:00",
+    "approval": null
+  },
+  "step_experiment": {
+    "status": "generation_succeeded_visual_comparison_complete",
+    "batch_id": "95be9ef1-db4f-485c-bba7-24fb4ab1f822",
+    "steps": [
+      12,
+      20
+    ],
+    "same_prompt_and_seed": true,
+    "report": "renders/step-comparison-r008/report.md",
+    "summary": {
+      "pairs": 40,
+      "original_major_defect_removed": 6,
+      "partial_improvement_still_failed": 8,
+      "no_material_repair_or_regression": 24,
+      "baseline_mean_seconds": 411.477475,
+      "test_mean_seconds": 647.77865,
+      "time_ratio": 1.5742748737339751,
+      "extra_time_percent": 57.42748737339751,
+      "baseline_total_hours": 4.571971944444444,
+      "test_total_hours": 7.197540555555554,
+      "full_clip_approvals": 0,
+      "limitation": "Purposively selected failed12step clips, not random first-pass production sample.15% is observed original-defect removal in this failed set, not20step global success rate. Visual comparison only; audio not reviewed. Same actual/effective prompts and seeds verified for all40pairs. Subsequent full-reference audit disputes crouch-only failure criteria for095/097; these two are separated pending reassessment. Counts do not isolate model capacity from inconsistent inputs.",
+      "input_conflict_reassessment_required": 2
+    },
+    "approval": null,
+    "input_audit": "renders/step-comparison-r008/input-audit.md"
+  },
+  "overnight_pipeline": {
+    "manifest": "automation/overnight-finish/manifest.json",
+    "status": "completed",
+    "steps": 20,
+    "repair_slots": [
+      10,
+      12,
+      17,
+      19,
+      35,
+      58,
+      73,
+      93,
+      94,
+      95,
+      97,
+      105,
+      110,
+      126
+    ],
+    "selection_policy": "highest_completed_revision_per_slot_explicit_user_override",
+    "final_approval": null,
+    "stage": "complete",
+    "runtime": "automation/overnight-finish/status.json",
+    "updated_at": "2026-10-05T10:20:07.383457+00:00",
+    "completed_at": "2026-10-05T10:20:06.663399+00:00",
+    "technical_qc": "passed",
+    "creative_approval": null
+  },
+  "postproduction": {
+    "config": "postproduction/edit.json",
+    "review": "postproduction/review.md",
+    "manifest": "postproduction/exports/r008/manifest.json",
+    "status": "validated_needs_user_review",
+    "revision": 8,
+    "native_audio": "mute",
+    "narration": "audio/narration-es-google-vids-r002.mp4",
+    "captions": {
+      "font": "Arial Bold",
+      "size": 64,
+      "max_lines": 1,
+      "max_width_fraction": 0.8,
+      "bottom_margin": 88,
+      "base_color": "white",
+      "active_word_color": "yellow",
+      "words": 1772,
+      "cues": 295
+    },
+    "pending_layers": [
+      "music",
+      "ambience",
+      "sfx"
+    ],
+    "picture_approval_inherited": false,
+    "approval": null,
+    "updated_at": "2026-10-05T16:25:34.756557+03:30"
   }
 }

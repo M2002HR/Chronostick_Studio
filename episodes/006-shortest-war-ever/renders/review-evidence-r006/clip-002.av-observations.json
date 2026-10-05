@@ -1,0 +1,44 @@
+{
+  "number": 2,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r004.mp4",
+  "source_sha256": "5e2fea6aa3912a306158bc3244bb80bcc2404036fadb6cae6003aad085e70e71",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.1,
+        "issue": "The held brown shoe is placed *under* the unshod foot, with the foot resting on it, rather than lowering toward the unshod foot and stopping, or being worn. This is an impossible motion/mismatched story state given the context of putting on a shoe.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot displays the incorrect final state from the first shot, where the shoe remains placed *under* the unshod foot, which rests upon it. This perpetuates the mismatched story state.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A single, brief 'clunk' or 'thud' sound, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 1.8,
+          "end": 1.9,
+          "description": "Brief shoe/foot contact sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation adheres to the specified visual style and background stability. The audio is compliant, featuring a single diegetic sound effect followed by silence. However, the core action is misinterpreted: instead of the held shoe lowering towards the unshod foot and stopping, it is placed directly *under* the unshod foot, with the foot resting on it. This creates an impossible or unintended story state that is carried through both shots, failing to resolve the intended action of preparing to wear the shoe."
+  }
+}

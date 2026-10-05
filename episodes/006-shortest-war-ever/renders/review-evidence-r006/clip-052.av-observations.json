@@ -1,0 +1,79 @@
+{
+  "number": 52,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-052-shot-r004.mp4",
+  "source_sha256": "02e6ea2e608629fb02f17ec6778630719247fdd4e99969722a265f9f422809ae",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "Khalid's head and turban briefly morph and shift at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The guard behind Khalid is not still; his spear and body subtly shift and morph throughout the first segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid's scroll is not drawn closer to his chest; instead, his hand slightly adjusts its grip on the scroll, and the scroll itself subtly morphs and shifts.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second segment is not a tighter crop of the same visible turban, minimal face, and scroll. It is a completely different shot, zoomed in on Khalid's hand and the scroll, with the throne visible in the background. This constitutes a change in composition and subject matter beyond a 'tighter crop'.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The guard is not at his established world position in the second segment; he is completely out of frame, which is allowed by the prompt, but the shot itself is not a tighter crop of the *same visible turban, minimal face and scroll* as requested.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action's resulting state is not shown; instead, Khalid's hand continues to subtly adjust its grip on the scroll, and the scroll itself continues to subtly morph and shift, which is more than 'only a tiny eyebrow, cloth or water adjustment'.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The throne in the background of the second segment subtly morphs and shifts.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A brief, isolated 'thump' sound, followed by a short musical flourish, then silence.",
+      "music": true,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.04,
+          "description": "Brief 'thump' sound"
+        },
+        {
+          "start": 0.04,
+          "end": 0.08,
+          "description": "Short musical flourish"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to accurately depict the requested action and camera work. Khalid's scroll action is not as described, and the guard is not still. The second segment is a completely different shot composition, not merely a tighter crop, and the action continues rather than showing a settled state. The audio includes unauthorized music."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "number": 47,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r004.mp4",
+  "source_sha256": "2f0ec53f6c6c5f437b84bd0f389abbee70d527b9e76624e25fbc7017c1faaec8",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "A large white sheet or banner covers Hamoud, obscuring his identity and the intended action of holding alone for a clean identity comparison. This is a major deviation from the prompt and shot plan.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is a tighter crop of Hamoud's head, but the white sheet still covers him, preventing the display of the 'already completed action's resulting state' and the 'ivory turban, green sash and existing throne arm' as intended. This is a major deviation from the prompt and shot plan.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt explicitly states 'Hamoud's cream-and-green silhouette holds alone for a clean identity comparison' and 'Show the already completed action's resulting state'. The presence of the large white sheet covering Hamoud throughout the entire animation prevents these actions from being observed.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A series of distinct, non-continuous sound effects, including a 'whoosh' or 'swish' sound, followed by a 'ding' or 'chime' sound, and then a 'thump' or 'impact' sound.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.001,
+          "end": 0.002,
+          "description": "Soft cloth or parchment movement (whoosh/swish)"
+        },
+        {
+          "start": 0.002,
+          "end": 0.003,
+          "description": "Ding/chime sound"
+        },
+        {
+          "start": 0.003,
+          "end": 0.004,
+          "description": "Thump/impact sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to meet the visual requirements of the prompt and shot plan. A large white sheet covers Hamoud throughout the entire 5-second duration, preventing the intended 'clean identity comparison' and the display of his 'ivory turban, green sash and existing throne arm'. The audio, however, adheres to the prompt's request for brief, isolated natural diegetic effects with silence, without continuous ambience, music, tonal drones, speech, vocal reactions, or lip sync."
+  }
+}

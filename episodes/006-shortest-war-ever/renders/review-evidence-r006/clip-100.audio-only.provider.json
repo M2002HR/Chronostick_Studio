@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A distinct 'pop' sound, followed by a brief period of silence. Then, a male voice speaks a few words, and a short, simple musical tune plays.\",\n  \"speech\": true,\n  \"exact_words\": \"What then the row, Barry, they saw.\",\n  \"music\": true,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": false,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 103,
+    "totalTokenCount": 343,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "8lTBau64L73k7M8PxaCN4Q4"
+}

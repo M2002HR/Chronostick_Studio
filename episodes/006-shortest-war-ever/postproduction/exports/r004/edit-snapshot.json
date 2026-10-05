@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "picture": "final/picture-sfx-1920x1080-r001.mp4",
+  "picture_sha256": "2b7cef0a5f97b73d0a00bc18e44ca4ff4c50eb80469e74b68a15e34a6e58a838",
+  "narration": {
+    "path": "audio/narration-es-google-vids-r002.mp4",
+    "sha256": "777b6cb5d9c6a6e2cc0063eb9848c559a97cb46127e61d4eafea9f4b0a83174a",
+    "offset_seconds": 0,
+    "original_user_path": "historia_06_old.mp4"
+  },
+  "timing": {
+    "path": "timestamps/word-timestamps-source.csv",
+    "sha256": "0a426edf24a706241e44b92321c9fccb8b4b0abae4dc3ec599805dee91b3f009",
+    "source_voice_sha256": "dc63ffc1080a705bfaa3d4df8b9ccbdd8b1601b889411f1f641e622bc8400e50",
+    "alignment_evidence": "postproduction/voice-alignment.json",
+    "adjustments": [
+      {
+        "first_word_index": 1495,
+        "offset_seconds": 0.036281179138321996
+      }
+    ]
+  },
+  "native_audio": {
+    "mode": "mute",
+    "authority": "Explicit user request 2026-10-05: completely remove original video sound; add background audio/SFX separately later."
+  },
+  "external_music_allowed": true,
+  "tracks": [],
+  "pending_layers": [
+    "music",
+    "ambience",
+    "sfx"
+  ],
+  "captions": {
+    "font_family": "Arial",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-arial/Arialbd.TTF",
+    "font_size": 60,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 68,
+    "outline": 2.5,
+    "shadow": 1,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 12,
+    "max_cue_seconds": 4.0,
+    "break_gap_seconds": 0.45,
+    "size_authority": "User final typography instruction: 60px, one line only, do not increase width; 2026-10-05.",
+    "max_lines": 1
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbtp": -1.5,
+    "lra": 11
+  },
+  "encoding": {
+    "crf": 16,
+    "preset": "fast",
+    "threads": 8
+  },
+  "audio_language_iso639_2": "spa",
+  "output_stem": "episode-006-shortest-war-ever-es-1920x1080",
+  "review_status": "needs_user_review"
+}

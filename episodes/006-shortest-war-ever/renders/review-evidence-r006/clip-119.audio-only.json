@@ -1,0 +1,17 @@
+{
+  "number": 119,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-119-shot-r004.mp4",
+  "source_sha256": "0cac602462cd9a08f033558ac92c86fd18b7a0707743f97758abba0c64ac4e0d",
+  "pcm_sha256": "c50fcf4a9c08f2235ed7894be820a358b202804ed92d0233c84e516c958bae1a",
+  "peak_pcm16": 31524,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A plucked string instrument plays a melody, followed by a male voice speaking. The instrument has a distinct, bright sound. The speech is clear and at a moderate pace.",
+    "speech": true,
+    "exact_words": "Sisi la A-liu-shun",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

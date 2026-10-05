@@ -1,0 +1,31 @@
+{
+  "number": 93,
+  "decision": "retry",
+  "reason": "Frame zero invents a large crowd standing in water; dozens appear to sink through whole clip.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-093.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r005.mp4",
+  "baseline_sha256": "5c089122f702da49ca75bf55c40ea4f59e91ba9b3a87407510a0618d5e139537",
+  "reviewed_at": "2026-10-03T19:05:11.325065+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 9059622211159557714,
+  "previous_seed": 226676119202785969,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-093/prompts/clip-093.md",
+  "prompt_sha256": "6abbda1fe5359631e7a1b223d7f3a11e922e61d1ac8828e46a85b3cc59225602",
+  "job": "006-shortest-war-ever:clip-093:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+      "sha256": "f77f8b2d2fb28e68f8129ea1fca787b48d55ca03882da40f8a4f1f3c7eb562cc"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "9fddc1f3-f47f-4f22-864e-c11cb945c3a6",
+  "job_ids": [
+    "9017223e-45b7-4f30-a4c7-f400894c5d62"
+  ],
+  "submitted_at": "2026-10-03T19:05:11.434645+00:00",
+  "prompt_note": "r006 retries the original sound specification with a new seed. The precise water/inventory lock is now in the active prompt for a later revision only if r006 fails.",
+  "evidence_label": "renders/review-evidence-r006/clip-093.jpg"
+}

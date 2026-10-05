@@ -1,0 +1,17 @@
+{
+  "number": 101,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-101-shot-r005.mp4",
+  "source_sha256": "e6201852ff128a72573fe123e7a871911c8ee7b7069144bc2575c8adb3750443",
+  "pcm_sha256": "faccc6c6d2832b89df373b8c43a601b7d7401c14f24f590edec06f89cac4c088",
+  "peak_pcm16": 8349,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A low, sustained hum or drone, possibly from an appliance or machinery. There are also distinct 'uh' sounds, like someone clearing their throat or a vocal hesitation.",
+    "speech": true,
+    "exact_words": "uh, uh",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

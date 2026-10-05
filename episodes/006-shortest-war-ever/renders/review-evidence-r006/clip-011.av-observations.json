@@ -1,0 +1,112 @@
+{
+  "number": 11,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-011-shot-r004.mp4",
+  "source_sha256": "13840c28be0defe04efbccfc0c5919de94139dcf46c78d4c2b50aaada747e781",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The first frame does not exactly match the reference image. The character on the right is already turned towards the harbor, and the character in the middle is already turned towards the harbor and looking at the character on the right. The character on the left is also already looking at the character in the middle.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The action 'Three townspeople stop their ordinary trading and turn toward the harbour' is not completed by 2.10s. The characters are already in the turned position from the start of the clip.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The camera is not locked; there is a slight zoom in and out throughout the first segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; there is a slight zoom in and out throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second segment is not a closer crop of the same three residents and the large existing basket. It is a different composition where the character on the left is closer to the camera and the character on the right is further away, and the basket is not the 'large existing basket' from the first segment.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action 'Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed' is not met. The characters' positions and interactions change significantly, with the middle character now holding a basket and the right character interacting with it.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The identities of the three residents are not preserved. The character on the left has a different headwrap and clothing, and the character on the right has a different head covering and dress pattern.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The props are not preserved. The character in the middle gains a basket, and the character on the right's basket changes in size and content.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The sky, clouds, air, water, and shore silhouettes do not remain identical from first to last frame. There are noticeable shifts and changes in the background elements.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "footstep, basket rustle",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.89,
+          "end": 0.99,
+          "description": "footstep"
+        },
+        {
+          "start": 1.69,
+          "end": 1.79,
+          "description": "footstep"
+        },
+        {
+          "start": 2.09,
+          "end": 2.19,
+          "description": "footstep"
+        },
+        {
+          "start": 2.69,
+          "end": 2.79,
+          "description": "basket rustle"
+        },
+        {
+          "start": 3.69,
+          "end": 3.79,
+          "description": "basket rustle"
+        },
+        {
+          "start": 4.69,
+          "end": 4.79,
+          "description": "basket rustle"
+        }
+      ],
+      "confidence": "medium"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3,
+      5.0
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to meet several key requirements of the prompt and shot plan. The initial frame does not match the reference, and the specified action of turning towards the harbor is not performed as the characters are already in that state. The camera is not locked in either segment, and the second segment is not a simple crop but a significantly altered scene with different character identities, props, and interactions. The background elements also show changes. The audio contains multiple footstep and basket rustle sounds, which aligns with the 'one basket or footstep sound, then silence' instruction if interpreted as 'one type of sound, then silence', but the prompt also states 'isolated natural diegetic effects with silence, no continuous ambience'. The multiple sounds are not 'isolated' in the sense of being a single event."
+  }
+}

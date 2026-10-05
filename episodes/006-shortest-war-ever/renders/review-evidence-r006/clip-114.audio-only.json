@@ -1,0 +1,17 @@
+{
+  "number": 114,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r004.mp4",
+  "source_sha256": "685c87f35bd4d51389b46454a453de73979e3ced8523187ac171325204368877",
+  "pcm_sha256": "ae27dc69bd21e27f4692b25499675a681939329822593831466aefe264a01eed",
+  "peak_pcm16": 3684,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, low-frequency hum with a subtle, high-pitched whine. No distinct speech or music is present. The sound is continuous and ambient.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

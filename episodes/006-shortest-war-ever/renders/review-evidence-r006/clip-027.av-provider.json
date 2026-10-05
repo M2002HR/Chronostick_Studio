@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The three residents do not pause; they are already paused and static. The action 'Three residents pause at the market while the narration refuses a simplistic hero-versus-villain frame' is not performed. The scene is static from the beginning.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The prompt requested 'Complete and settle this single action by 2.10s. Camera locked; hold from 2.10s.' The action is not completed by 2.10s because no action occurs. The scene is static.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The prompt requested 'Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.' No action was completed in the first segment, and the characters perform a new action (passing a basket) in this segment, which is not a 'tiny eyebrow, cloth or water adjustment'.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The prompt specified 'camera locked' for both segments. However, a hard cut occurs at 2.30s, and the second segment is a closer crop, indicating a camera change, not a locked camera.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The prompt stated 'only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.' However, the characters perform a significant action of passing a basket, which is not a 'tiny adjustment'.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The prompt requested 'Hold settled from 4.35s; hard cut at 5.00s.' The action of passing the basket is still ongoing at 4.35s and does not settle.\",\n      \"severity\": \"major\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"footstep, basket rustle\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.0,\n        \"end\": 0.08,\n        \"description\": \"footstep\"\n      },\n      {\n        \"start\": 2.3,\n        \"end\": 2.38,\n        \"description\": \"basket rustle\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.3\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to execute the primary action of 'three residents pause' in the first segment, as the characters are static. The second segment introduces a new, unrequested action of passing a basket, violating the instruction for only minor adjustments. The camera is not locked as specified, with a clear cut and zoom between segments. The action in the second segment does not settle by the requested time. Audio correctly contains only isolated diegetic effects.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17562,
+    "candidatesTokenCount": 831,
+    "totalTokenCount": 18393,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1100
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "wk7BavKgFoqGxN8Pj-WvqAk"
+}

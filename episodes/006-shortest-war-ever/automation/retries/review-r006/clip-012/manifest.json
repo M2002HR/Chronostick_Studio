@@ -1,0 +1,30 @@
+{
+  "number": 12,
+  "decision": "revise_prompt",
+  "reason": "Frame0 shows darkened battle sky, smoke and fiery descending objects; by2.5s explosions destroy intact shore before the battle chronology. Negative future-event wording activated the forbidden event.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-012.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r005.mp4",
+  "baseline_sha256": "aa28177a51fc428734e44b946f399582abd7278bf44d5760fd54ef21806fd31c",
+  "reviewed_at": "2026-10-03T18:48:02.449763+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 9011901976467369857,
+  "previous_seed": 4622150788589149292,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-012/prompts/clip-012.md",
+  "prompt_sha256": "809316363798c6dc0a029aeb4be212cc78609e84f7909f740830ccfa5407c82f",
+  "job": "006-shortest-war-ever:clip-012:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "7ae5258f-fdd1-4398-b9c3-35362ca4a19f",
+  "job_ids": [
+    "a92fa46e-dafb-42ea-9c84-192ac258ed00"
+  ],
+  "submitted_at": "2026-10-03T18:48:02.584691+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-012.jpg f0–119"
+}

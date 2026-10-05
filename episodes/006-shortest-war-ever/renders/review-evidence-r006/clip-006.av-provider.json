@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The scene shows five stick figures in a council chamber, whereas the prompt and shot plan explicitly state 'exactly zero people' and 'one empty ornate blue-and-gold throne'. The throne is also not empty, as it is obscured by the figures.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The camera is not locked as requested. There is a slight camera movement throughout the clip.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The action 'The empty carved throne waits in a quiet room as the mystery turns from the clock toward succession' is not depicted. Instead, five figures are standing and looking at each other.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The scene does not match the reference image at all. The reference image shows an empty room with a throne, while the animation shows five characters.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The second shot is not a closer crop of the same empty throne back and arm. It is the same shot as the first segment, still showing five figures.\",\n      \"severity\": \"major\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"apagaron los cañones? Para responder, primero hay que entender cómo una pelea por un trono acabó con cinco siglos de la que es la nación africana.\",\n    \"music\": false,\n    \"speech\": true,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 1.48,\n        \"end\": 4.98,\n        \"description\": \"Spanish narration\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation completely fails to meet the prompt and shot plan requirements. It depicts five stick figures in a council chamber with narration, instead of an empty throne in silence. The camera is not locked, and the specified action and crops are entirely absent. The visual content is a major deviation from the instructions and reference.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17551,
+    "candidatesTokenCount": 611,
+    "totalTokenCount": 18162,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "mE3BaofUIKvn28oP89ixqAw"
+}

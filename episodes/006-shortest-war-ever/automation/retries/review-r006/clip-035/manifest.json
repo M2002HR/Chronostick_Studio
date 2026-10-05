@@ -1,0 +1,30 @@
+{
+  "number": 35,
+  "decision": "revise_prompt",
+  "reason": "Frame0 contains an invented crowd and at1.75s a new smiling teal-clothed figure sits on throne; succession chronology fails.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-035.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r004.mp4",
+  "baseline_sha256": "dd641f8ba990a1ae6efc864e01c11616cdfa9d5f476b049b9c3c2e2d0d85255a",
+  "reviewed_at": "2026-10-03T18:52:38.423160+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2035173174357678067,
+  "previous_seed": 8482831412677269971,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-035/prompts/clip-035.md",
+  "prompt_sha256": "aeb466d783ca9cd0d743f14d13917e16f01e8c9b4e733487da0a19e0de24ef62",
+  "job": "006-shortest-war-ever:clip-035:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+      "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "69a9848f-0001-427e-9abd-6f8dba5be7f0",
+  "job_ids": [
+    "0111c646-1c09-4680-847f-c97ba72f151c"
+  ],
+  "submitted_at": "2026-10-03T18:52:38.535880+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-035.jpg"
+}

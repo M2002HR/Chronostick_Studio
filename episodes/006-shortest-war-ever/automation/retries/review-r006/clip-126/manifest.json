@@ -1,0 +1,30 @@
+{
+  "number": 126,
+  "decision": "revise_prompt",
+  "reason": "0.75s onward third dispatch appears beside right official; final crop shows three.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-126.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r005.mp4",
+  "baseline_sha256": "7c80abd22b8eba2d3f56bacddaf18c51bf48c9c6314c44f42bb942bdd9faaf91",
+  "reviewed_at": "2026-10-03T19:12:17.909473+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 7302927968861061754,
+  "previous_seed": 4720926444809502801,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-126/prompts/clip-126.md",
+  "prompt_sha256": "c93dce971723691dbfff99f70b0424080d4f12bd030c12651485c9f2ec2b8b57",
+  "job": "006-shortest-war-ever:clip-126:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "6fb5f9f6-a5e9-43be-8973-6e467ed7aa67",
+  "job_ids": [
+    "255a2909-3c88-42f2-b860-9c3ede7873a1"
+  ],
+  "submitted_at": "2026-10-03T19:12:18.026358+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-126.jpg"
+}

@@ -1,0 +1,17 @@
+{
+  "number": 64,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-064-shot-r005.mp4",
+  "source_sha256": "b36afc6150632a32dbc85e5b4764509ac13119b526c77ad77ca4a166768cf39f",
+  "pcm_sha256": "b830e3c37259fd6f4a2e5449b4c582837e94002f7d8ab4f0a14a0d52b99e7613",
+  "peak_pcm16": 14528,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a brief, high-pitched whine that quickly fades. There's a low rumble throughout the audio.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

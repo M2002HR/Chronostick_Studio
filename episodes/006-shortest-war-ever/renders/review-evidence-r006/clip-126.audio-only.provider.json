@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A person speaking clearly, with distinct words. No music or tonal bed is present. There is no continuous ambience. The speech is the primary and only audible sound.\",\n  \"speech\": true,\n  \"exact_words\": \"When would and you the years on your stare same audition.\",\n  \"music\": false,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": false,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 104,
+    "totalTokenCount": 344,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "FVXBapnPNt_ikdUPooWL0Ac"
+}

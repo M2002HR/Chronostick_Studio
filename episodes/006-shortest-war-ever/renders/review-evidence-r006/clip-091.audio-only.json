@@ -1,0 +1,17 @@
+{
+  "number": 91,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-091-shot-r004.mp4",
+  "source_sha256": "afb63b76549340c8c36bdb1dc93724a17bfd66650b6a6a71877295a8b8dd2847",
+  "pcm_sha256": "bfce377f58347bc839876218cc51d19dc21ce5cf90b4a12645e9fcd9f58069c4",
+  "peak_pcm16": 30597,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a brief silence, and then a low, continuous hum or rumble. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

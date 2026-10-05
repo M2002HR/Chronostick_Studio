@@ -1,0 +1,17 @@
+{
+  "number": 84,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r004.mp4",
+  "source_sha256": "4109d63d013add8953df6cdd0bf433c2907f8bcbcb5ced1519dd7c1b5c7f03cd",
+  "pcm_sha256": "caa04757ff31ac441299d3cf6ae5cda8437b24e331dff49a791358899155a6e3",
+  "peak_pcm16": 29451,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a sustained, low-frequency hum or drone. There's also a subtle, continuous ambient sound throughout the clip.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

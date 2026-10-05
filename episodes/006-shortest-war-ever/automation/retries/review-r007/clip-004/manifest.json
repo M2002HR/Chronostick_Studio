@@ -1,0 +1,30 @@
+{
+  "number": 4,
+  "decision": "revise_prompt",
+  "reason": "Reviewed latest r006: foreground haze obscures the intact palace and geometry changes; retain clean fixed anchor geometry.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-004-r006.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r006.mp4",
+  "baseline_sha256": "10e9bf6b949ee0ff5cc9842a505a3c52c3463a586de08709ed8dc89b5760a654",
+  "reviewed_at": "2026-10-03T19:26:39.204850+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 5917019139243594768,
+  "previous_seed": 3147562331209331462,
+  "revision": 7,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r007/clip-004/prompts/clip-004.md",
+  "prompt_sha256": "f4bb11554af7a5a64e246121b540fbe88b98bedf8f8b9d47163565076fae418b",
+  "job": "006-shortest-war-ever:clip-004:r007",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+      "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "ed277281-3497-46c4-9f95-a7050116b9a0",
+  "job_ids": [
+    "c1d3d646-9685-4b45-be00-68a9549ec4c5"
+  ],
+  "submitted_at": "2026-10-03T19:26:39.327530+00:00",
+  "baseline_request": "automation/retries/review-r006/clip-004/jobs/clip-004.json"
+}

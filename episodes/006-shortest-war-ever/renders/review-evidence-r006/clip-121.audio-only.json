@@ -1,0 +1,17 @@
+{
+  "number": 121,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-121-shot-r004.mp4",
+  "source_sha256": "7bb077741525d2a425b9bc6ba0276d38fab2b4d2d3d2502a46efc4ffb067efe5",
+  "pcm_sha256": "2c697312bc53adf6379bf0c249769bdcb243519b11bc63f3c8792ccd5a7b998e",
+  "peak_pcm16": 6071,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A low hum, like a didgeridoo, with a distinct 'thwack' sound. No speech or music is present. The hum is continuous.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

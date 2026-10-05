@@ -1,0 +1,17 @@
+{
+  "number": 88,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r005.mp4",
+  "source_sha256": "6b4ef49d0ad41f57f0a9b15b6ffff9c0ea91aa7c1ba257463c60931d1ada3903",
+  "pcm_sha256": "a0ef464423426b0f5956b140d2f2be582240b65887519439193ec883d0347894",
+  "peak_pcm16": 20662,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, sharp whistle is followed by a distinct 'thump' and a sustained, low-frequency rumble. There is no discernible speech or music.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

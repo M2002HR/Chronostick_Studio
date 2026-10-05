@@ -1,0 +1,79 @@
+{
+  "number": 22,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r004.mp4",
+  "source_sha256": "55c0ba444e06deab928e686518b7dcedaf8e1e56b9fb02b32c36f4d4f29606bf",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The nearest ship does not rock once by a few centimeters; instead, the entire water surface and all five ships subtly shift and undulate, creating a continuous, unnatural motion rather than a single, settled rock.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The other four ships do not retain their positions; they also subtly undulate with the water, contradicting the prompt's instruction for them to remain stationary.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is not a closer crop of the nearest existing bow and the same shore beyond. It is a completely different scene with stick figures on a ship, a Union Jack flag, and a different background, which is a major deviation from the prompt and shot plan.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt explicitly states 'other fleet vessels merely leave the crop, never disappear from the harbour' for the second shot. However, the second shot shows no other fleet vessels or the harbour from the first shot.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt states 'Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.' The second shot is an entirely new scene, not a continuation or closer crop of the first, and shows no 'resulting state' of the ship rocking.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The style of the stick figures in the second shot (round off-white heads, dot eyes, thin limbs, bold dark contours) matches the prompt, but their presence is unauthorized as the prompt only describes ships and a harbour scene.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The Union Jack flag in the second shot is an unauthorized prop, as it was not present in the reference image or mentioned in the prompt's initial inventory.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A single water slap/hull creak, followed by silence, then a second water slap/hull creak, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 1.5,
+          "end": 1.8,
+          "description": "Water slap/hull creak"
+        },
+        {
+          "start": 3.0,
+          "end": 3.3,
+          "description": "Water slap/hull creak"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails significantly in visual execution. The first shot shows continuous, subtle undulation of all ships and water instead of a single rock of the nearest hull, and the other ships do not remain stationary. The second shot is a complete departure from the prompt, showing stick figures on a ship with a Union Jack flag, rather than a closer crop of the original harbour scene. This constitutes a major deviation from the shot plan and generator prompt. The audio partially matches the prompt, providing two isolated water/hull sounds, but the prompt requested only 'one short hull creak or water slap, then silence'."
+  }
+}

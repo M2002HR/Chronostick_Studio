@@ -1,0 +1,61 @@
+{
+  "number": 40,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-040-shot-r005.mp4",
+  "source_sha256": "5f70be5b66a7999cde824cb1ce24fcf5b835885bf963569d6074be6ae1cd1523",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "Khalid's head and turban briefly morph and shift at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid's scroll is already held close to his chest at the start of the animation and does not draw closer as specified. The action is unreadable.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid's eyes blink and his mouth changes expression, which is not permitted by the prompt's 'minimal mouths can change expression without speech' and 'Mouths stay closed' instructions. The prompt also states 'black dot eyes' which implies no blinking.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Khalid's eyes blink and his mouth changes expression, which is not permitted by the prompt's 'minimal mouths can change expression without speech' and 'Mouths stay closed' instructions. The prompt also states 'black dot eyes' which implies no blinking.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A brief rustling sound, followed by a short, high-pitched string or chime sound, then silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "description": "Rustling sound"
+        },
+        {
+          "start": 0.08,
+          "end": 0.17,
+          "description": "High-pitched string/chime sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to execute the primary action of Khalid drawing the scroll closer to his chest; the scroll is already in the 'closer' position at the start. Khalid's facial expressions (blinking eyes, changing mouth) are not compliant with the prompt's restrictions. There is a minor visual morphing issue at the very beginning. The audio includes a rustling sound and a chime, which is not a 'small cloth, water or masonry sound appropriate to the single declared action' and introduces an unauthorized musical element (chime)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "number": 72,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r004.mp4",
+  "source_sha256": "9994f3b96ec69636321e6cb925f4d1763c45c468d89cbf3d446af3d444f32d52",
+  "pcm_sha256": "3114c61dab189da0726e8605f15fd94c8fd29b4222950048b47bb0190f8bee91",
+  "peak_pcm16": 5830,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, melancholic musical phrase with a sustained string instrument, possibly a cello or viola, playing a slow, deliberate melody. There is a subtle, continuous ambient hum in the background.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

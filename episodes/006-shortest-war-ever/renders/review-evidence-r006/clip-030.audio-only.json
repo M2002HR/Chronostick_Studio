@@ -1,0 +1,17 @@
+{
+  "number": 30,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r005.mp4",
+  "source_sha256": "a2feceadcb08347e8ff6f407b51853985e76ff9d9c5673e75440548ed9741030",
+  "pcm_sha256": "55d729b3b2e96e29044ddac33816b4339c7773ea77a0a35a115f616e77aec84a",
+  "peak_pcm16": 6752,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'whoosh' sound, followed by a brief, high-pitched, sustained tone, and then a soft, continuous hum. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

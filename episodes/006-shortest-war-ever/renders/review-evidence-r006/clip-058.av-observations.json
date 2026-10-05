@@ -1,0 +1,85 @@
+{
+  "number": 58,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r004.mp4",
+  "source_sha256": "5c9dd6fac1592eff67070290c84beaeb0a006650032ec3454b82fb9e340ca0a9",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "An additional character is present in the foreground, not in the reference image or prompt.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The paper is not on the rail as in the reference image, but held by the additional character.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character identified as Rawson in the background is holding binoculars, but the reference image shows him with a paper on the rail.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The action of Rawson folding the paper is not performed by the correct character, nor is the paper in the correct initial position.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The scene includes a green, smoky or misty effect in the foreground, which is not present in the reference image or described in the prompt.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character in the foreground is wearing a maroon uniform, which is not consistent with the 'dark navy uniform' specified for Rawson.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character in the foreground is holding the paper and folding it, which is an action intended for Rawson in the background.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is not a tighter crop of the same officer's cap, white beard, and single paper already held by Rawson, but rather a continuation of the two-character scene with the foreground character holding the paper.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "paper rustle, faint tonal bed",
+      "music": false,
+      "speech": false,
+      "tonal_bed": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.04,
+          "description": "faint tonal bed"
+        },
+        {
+          "start": 1.08,
+          "end": 1.16,
+          "description": "paper rustle"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation introduces an unauthorized foreground character who performs the intended action of folding paper, while the character meant to be Rawson is in the background holding binoculars. The paper is not on the rail as specified. A green misty effect is present. The second shot is not a tighter crop of Rawson but a continuation of the two-character scene. There is also a faint tonal bed present in the audio, which was explicitly forbidden."
+  }
+}

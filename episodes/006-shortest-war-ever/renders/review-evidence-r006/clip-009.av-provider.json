@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 2.30,\n      \"issue\": \"Khalid does not grip the scroll beside the throne, chin set toward the distant harbour. He is already gripping the scroll and looking forward, not toward the harbour. The action is not completed by 2.10s; it is already completed at the start.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 2.30,\n      \"issue\": \"The camera is not locked; there is a subtle zoom in and out, and slight horizontal movement.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.30,\n      \"end\": 5.00,\n      \"issue\": \"The crop is not a tighter crop of the same visible turban, minimal face and scroll. It is a tighter crop of Khalid's hands and the scroll, with his face mostly out of frame.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.30,\n      \"end\": 5.00,\n      \"issue\": \"The background guard is removed from the crop, which is allowed, but the prompt states he 'stays at his established world position', implying he should still be visible if the crop allowed, or at least not completely disappear if the crop was meant to be a tighter version of the previous frame. The crop is too tight.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.30,\n      \"end\": 5.00,\n      \"issue\": \"The camera is not locked; there is a subtle zoom in and out, and slight horizontal movement.\",\n      \"severity\": \"minor\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"One soft cloth or parchment movement.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 1.87,\n        \"end\": 2.07,\n        \"description\": \"soft cloth or parchment movement\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.30\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to match the intended action and camera movements. Khalid's action of gripping the scroll is not performed; he is already in that state from the beginning. The camera is not locked in either segment, showing subtle movements. The second segment's crop is significantly different from what was described, focusing on the hands and scroll rather than the turban and minimal face, and the background guard is completely out of frame, which, while allowed by the crop, deviates from the spirit of 'stays at his established world position'. The audio correctly features a single soft cloth or parchment movement followed by silence.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17596,
+    "candidatesTokenCount": 695,
+    "totalTokenCount": 18291,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1134
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "vU3Bat3xObK0xN8P4PSToAc"
+}

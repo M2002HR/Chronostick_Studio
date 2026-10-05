@@ -1,0 +1,30 @@
+{
+  "number": 70,
+  "decision": "revise_prompt",
+  "reason": "1.25s premature muzzle flashes and shore blast; giant crew and invented deck close-up at 2.75s.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-070.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r004.mp4",
+  "baseline_sha256": "8a00699efb0349fa4c39b0b5cba426f8fd5e4ff5036f34ca9eaf786911d2903e",
+  "reviewed_at": "2026-10-03T19:03:48.009620+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 3845681940732665235,
+  "previous_seed": 1108898510705917934,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-070/prompts/clip-070.md",
+  "prompt_sha256": "22062cfabb2932301bd457f380e4168cfd06886a94bb1280db397dae72c3eaf9",
+  "job": "006-shortest-war-ever:clip-070:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-stern-r001.png",
+      "sha256": "2cae0fb9c7a63686a1abd4024085b94ff095719ea18d7ff658eddf1e8c925d81"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "d0dc43ac-07d1-436f-b5c3-e044004b8393",
+  "job_ids": [
+    "97d19cb5-453b-41d1-916c-dfbae129d4b9"
+  ],
+  "submitted_at": "2026-10-03T19:03:48.118844+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-070.jpg"
+}

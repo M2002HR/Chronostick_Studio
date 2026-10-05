@@ -1,0 +1,30 @@
+{
+  "number": 107,
+  "decision": "revise_prompt",
+  "reason": "Invented hand touches temple; turban develops long loose ribbon across shoulder; continuous ending drift.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-107.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r004.mp4",
+  "baseline_sha256": "7cf0da9f132bcdb14f08578c4e0c71ea05b44a64b1ca284fffa107d43c39a7b3",
+  "reviewed_at": "2026-10-03T19:08:01.403748+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 309609705844482265,
+  "previous_seed": 3957744698653976364,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-107/prompts/clip-107.md",
+  "prompt_sha256": "1e532dd5c7aa29a7e7b77e8f70dedc2cbca5144a8393e08b19b1cc922f854e9d",
+  "job": "006-shortest-war-ever:clip-107:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png",
+      "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "fe2197fe-8caf-4e52-8d9d-1fbf4aae27e5",
+  "job_ids": [
+    "c94632c8-0ff3-421b-a0f8-ef61abd87605"
+  ],
+  "submitted_at": "2026-10-03T19:08:01.514402+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-107.jpg"
+}

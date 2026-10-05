@@ -1,0 +1,67 @@
+{
+  "number": 35,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r004.mp4",
+  "source_sha256": "dd641f8ba990a1ae6efc864e01c11616cdfa9d5f476b049b9c3c2e2d0d85255a",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The scene shows multiple stick figures, including one sitting on the throne and others standing around, which contradicts the prompt's requirement of 'exactly zero people' and 'one empty ornate blue-and-gold throne'.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The action described in the prompt, 'The empty throne waits behind closed doors as the question of who may claim it sharpens', is not depicted. Instead, there is a gathering of people.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is a closer crop of a stick figure sitting on the throne, not a closer crop of an 'empty throne back and arm'. This contradicts the prompt's instruction.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt explicitly states 'exactly zero people' for the second segment, but a stick figure is clearly visible sitting on the throne.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The overall style of the animation, while drawn stick figures, does not match the 'round off-white heads, dot eyes, thin limbs, bold dark contours' as described in the prompt. The stick figures have more detailed faces and expressions than 'dot eyes' and their limbs are not 'thin'.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A short, distinct musical flourish plays at the beginning of the first segment, and again at the beginning of the second segment.",
+      "music": true,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "description": "Musical flourish"
+        },
+        {
+          "start": 2.3,
+          "end": 2.301,
+          "description": "Musical flourish"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to meet the core requirements of the prompt and shot plan. Instead of an empty throne, the scene is populated with multiple stick figures, including one sitting on the throne. The specified action of the throne waiting behind closed doors is not depicted. The audio contains musical flourishes, which directly contradicts the 'silence' instruction in the prompt."
+  }
+}

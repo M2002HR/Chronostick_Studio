@@ -1,0 +1,5 @@
+{
+  "pid": 3211495,
+  "command": "python scripts/monitor-episode-006-repairs.py --watch",
+  "scope": "all review revisions; evidence preparation only, never automatic approval"
+}

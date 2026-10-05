@@ -1,0 +1,17 @@
+{
+  "number": 106,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-106-shot-r004.mp4",
+  "source_sha256": "beb29f8eb66cd369fddbc8427216fc2a87331de222886b154b8ea6fc56ba69d0",
+  "pcm_sha256": "1a7c2e709774f47bf9f53d4f97454c3dcc6f136afb41c79270d5fba3164a6ac7",
+  "peak_pcm16": 5239,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A low, sustained hum transitions into a clear, rising synth melody with a slow tempo. No distinct speech is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

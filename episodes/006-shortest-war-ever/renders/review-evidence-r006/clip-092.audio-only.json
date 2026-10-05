@@ -1,0 +1,17 @@
+{
+  "number": 92,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-092-shot-r004.mp4",
+  "source_sha256": "8a1a321cbd45be430a1df0f6fa1b198dbed8ace008bb3dd8222d31327fae1eb9",
+  "pcm_sha256": "5cb24f442d6cc34fda96cab3e97e690d17554ca05e2af5a4eed01e8ddd37c3b2",
+  "peak_pcm16": 9611,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thump' sound is heard, followed by a brief period of silence, and then a clear human voice speaking. There is no music or continuous ambience.",
+    "speech": true,
+    "exact_words": "Thump, low, stirrup, shot, say.",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "number": 15,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r004.mp4",
+  "source_sha256": "f56a8fba74a9eab0909b2bb3aaa740853e79014c9f078e1a14102ff41939964a",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.95,
+        "issue": "The quay worker's hand is already on the crate at the start of the clip, not lowering onto it as specified by the action. The action is already completed.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The water in the harbor is not calm; it has significant, unnatural, and distracting rippling motion throughout the first shot.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The dhow's mast and sail are morphing and shifting unnaturally throughout the first shot.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The quay worker's head and turban are morphing and shifting unnaturally throughout the first shot.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The palace and background buildings are subtly morphing and shifting unnaturally throughout the first shot.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The water in the harbor is not calm; it has significant, unnatural, and distracting rippling motion throughout the second shot.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The dhow's mast and sail are morphing and shifting unnaturally throughout the second shot.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The quay worker's hand and arm are morphing and shifting unnaturally throughout the second shot.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The crate is subtly morphing and shifting unnaturally throughout the second shot.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A single, brief 'thud' sound, followed by silence. Then a 'clunk' sound, followed by silence. Then a 'thud' sound, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.95,
+          "end": 1.05,
+          "description": "Brief 'thud' sound"
+        },
+        {
+          "start": 2.05,
+          "end": 2.15,
+          "description": "Brief 'clunk' sound"
+        },
+        {
+          "start": 4.85,
+          "end": 4.95,
+          "description": "Brief 'thud' sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to execute the specified action, as the worker's hand is already on the crate at the start. Both shots exhibit significant and unnatural morphing in the water, dhow, and character, indicating a lack of stability. The audio includes three distinct, brief diegetic sounds, which aligns with the prompt's request for isolated effects and silence."
+  }
+}

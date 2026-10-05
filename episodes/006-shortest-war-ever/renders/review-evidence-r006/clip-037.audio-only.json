@@ -1,0 +1,17 @@
+{
+  "number": 37,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r004.mp4",
+  "source_sha256": "4bdeb445005da1ca0f245058bfb3f670e65735375c75844cdfad20ff0b3de3df",
+  "pcm_sha256": "0b8cec848353dce332cf395cfbd6e698d765e84178ae85f8ca6b0abe9619b568",
+  "peak_pcm16": 15304,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A single, distinct 'thwack' sound is heard, followed by a brief silence. This is then followed by a series of chirping sounds, consistent with a bird.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

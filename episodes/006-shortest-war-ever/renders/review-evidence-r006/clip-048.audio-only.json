@@ -1,0 +1,17 @@
+{
+  "number": 48,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-048-shot-r004.mp4",
+  "source_sha256": "adef915dabbb00a79dd5f5af9dc93fe3e78838bae5259afd0cc1651f34fbb0f3",
+  "pcm_sha256": "19ea9257c318c96d7f912ee38dc067d96775709f946866c1f933018654247b51",
+  "peak_pcm16": 6346,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a human gasp. No music or tonal bed is present. There is no continuous ambience.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

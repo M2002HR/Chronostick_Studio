@@ -1,0 +1,38 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 0.0,\n      \"issue\": \"The reference image is a blank world map. The actual video shows a world map with three pins already present at the start of the clip. One blue pin is in the UK, one yellow pin is in Germany, and one red pin is on the coast of East Africa. This contradicts the prompt's instruction for an 'empty world chart; exactly zero people, tokens or new labels'.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The prompt specifies 'drawn stick figures with round off-white heads, dot eyes, thin limbs, bold dark contours and drawn period backgrounds throughout'. The actual video shows a realistic, detailed world map with no stick figures or drawn period backgrounds.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The prompt specifies 'Native affine zoom settles by 3.50s; hold through 5.00s'. The actual video shows a zoom that starts at 0.0s and continues to zoom in on the red pin until the end of the clip at 5.0s, without settling by 3.50s or holding.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The prompt specifies 'End: same fixed empty chart; zero people; existing pins and Zanzibar ring unchanged; settled final frame'. The actual video does not end on an empty chart, and the zoom is still in progress at the end of the clip, meaning it is not a settled final frame.\",\n      \"severity\": \"major\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"Speech in Spanish: \\\"está frente a la costa oriental de África. En un mapa parece un punto pequeño; para\\\"\",\n    \"music\": false,\n    \"speech\": true,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.0,\n        \"end\": 5.0,\n        \"description\": \"Speech in Spanish\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The video fails to meet the visual and audio requirements of the prompt. Visually, the map is not empty at the start, contains pre-existing pins, and the zoom action does not settle as specified. The artistic style is completely different from the drawn stick figures requested. Audio-wise, there is continuous speech throughout the clip, which directly contradicts the instruction for 'brief isolated natural diegetic effects with silence, no continuous ambience, music, tonal drones, speech, vocal reactions or lip sync'.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 16747,
+    "candidatesTokenCount": 692,
+    "totalTokenCount": 17439,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 543
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "_03Bauz4D8rtxs0PtZmx4Qw"
+}

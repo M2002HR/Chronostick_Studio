@@ -1,0 +1,17 @@
+{
+  "number": 80,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r004.mp4",
+  "source_sha256": "afe009d6c85353246030acbda2d79d789cb5df49a8af19e7d0f25abc303735d1",
+  "pcm_sha256": "179b6b6a99002ea95769987c96957ba41b3dffe95e451ee936434c975096f92b",
+  "peak_pcm16": 25558,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, high-pitched, sustained tone, possibly from a wind instrument, followed by a brief silence and then a distinct click sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

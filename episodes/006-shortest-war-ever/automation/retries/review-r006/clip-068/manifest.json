@@ -1,0 +1,30 @@
+{
+  "number": 68,
+  "decision": "revise_prompt",
+  "reason": "2.0s duplicate giant foreground Khalid persists to end.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-068.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r004.mp4",
+  "baseline_sha256": "136ae8a136696f9203684ead890ef0af57be6f0d3e8671d92d78f6471dab30ae",
+  "reviewed_at": "2026-10-03T19:02:05.990395+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 3658826569574176434,
+  "previous_seed": 2844399593566782135,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-068/prompts/clip-068.md",
+  "prompt_sha256": "3879dd3e85cbbe8b104afc43121fe661ea794f59c0cb7f30168764e0f6448d79",
+  "job": "006-shortest-war-ever:clip-068:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+      "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "85cfea96-802e-4322-97b3-4b331b3b717f",
+  "job_ids": [
+    "285b1781-0cec-4afb-a96c-be61e72aa896"
+  ],
+  "submitted_at": "2026-10-03T19:02:06.098842+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-068.jpg"
+}

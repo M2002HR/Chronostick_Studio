@@ -1,0 +1,17 @@
+{
+  "number": 61,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-061-shot-r004.mp4",
+  "source_sha256": "c239f8ad786104b4a0322669418829d5a7dcc4474773f61fab4aeb6cf2522e23",
+  "pcm_sha256": "4e43b5681b50eb8ea8ebfcfb6ffb1e078eb2f9f80497a173bee2052fd31cf6fd",
+  "peak_pcm16": 8064,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct click, followed by a sustained, high-pitched hum or whine, possibly electronic in nature. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

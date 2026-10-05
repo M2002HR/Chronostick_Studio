@@ -1,0 +1,115 @@
+{
+  "number": 36,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r004.mp4",
+  "source_sha256": "3ab91dc9156d6f49d45352ec7b3c2f11e25d8d8e37ed2dfe4e2266379c0f57e0",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "Khalid's head and turban are slightly larger than in the reference image, causing a minor identity mismatch.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The guard's head is slightly larger than in the reference image, causing a minor identity mismatch.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The throne is slightly larger than in the reference image, causing a minor prop mismatch.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The scroll is slightly larger than in the reference image, causing a minor prop mismatch.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The palace chamber background elements are slightly larger than in the reference image, causing a minor background mismatch.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The outdoor city and sea view are slightly larger than in the reference image, causing a minor background mismatch.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The overall composition is slightly zoomed in compared to the reference image, affecting the framing of all elements.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The initial frame does not exactly match the reference image's composition and scale.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The camera is not locked; it zooms in slightly during the first segment.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; it zooms in slightly during the second segment.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second segment is not a tighter crop of the *same visible turban, minimal face and scroll* as the first segment. It is a new, tighter crop that removes the guard and throne from view, which is allowed, but the framing of Khalid's head and scroll is different from a simple crop of the previous frame.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action of drawing the scroll closer is not 'already completed' at the start of the second segment; Khalid's hands and the scroll continue to adjust slightly.",
+        "severity": "minor"
+      },
+      {
+        "start": 4.35,
+        "end": 5.0,
+        "issue": "The frame is not held settled from 4.35s; there are minor movements in Khalid's hands and the scroll.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "One soft cloth or parchment movement, then silence, followed by a brief musical sting.",
+      "music": true,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.96,
+          "end": 1.06,
+          "description": "soft cloth or parchment movement"
+        },
+        {
+          "start": 3.6,
+          "end": 5.0,
+          "description": "brief musical sting"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the reference image exactly at the start, with all elements appearing slightly larger. The camera is not locked throughout the animation, exhibiting a continuous zoom. The second segment is not a simple crop of the first, and the action of drawing the scroll is not fully settled as instructed. A musical sting is present at the end, violating the 'no background music' and 'natural diegetic sound effects only' rules. The overall visual and audio execution deviates significantly from the prompt and shot plan."
+  }
+}

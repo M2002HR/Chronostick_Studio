@@ -1,0 +1,66 @@
+{
+  "number": 26,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r004.mp4",
+  "source_sha256": "ed687416a36c19b857e6e962b108bb1fc7a42aacfa604315198239614a7c71dd",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The quay worker's head turn is not completed and settled by 2.10s as specified. The head continues to move until approximately 2.25s.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The quay worker's hands are not stylized as mitten hands as specified in the prompt. They appear as more detailed, gloved hands.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The quay worker's head and body move slightly during the hold period, which was supposed to be a settled state with only tiny adjustments allowed.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The quay worker's head turns further and looks down at the rope coil, which is not 'the already completed action's resulting state' from the first shot, nor a 'tiny eyebrow, cloth or water adjustment'.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A brief, isolated 'thump' sound, followed by silence, then a 'thump' sound, then silence, then a 'thump' sound, then silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.05,
+          "description": "thump sound"
+        },
+        {
+          "start": 1.0,
+          "end": 1.05,
+          "description": "thump sound"
+        },
+        {
+          "start": 2.0,
+          "end": 2.05,
+          "description": "thump sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to fully match the action and hold specifications. The head turn in the first shot is not settled by the specified time. The second shot introduces new, unauthorized action with the worker's head turning and looking down at the rope, and the hands are not stylized as mittens. The audio contains three 'thump' sounds, which deviates from the 'one brief literal wicker, rope or wood touch, then silence' instruction."
+  }
+}

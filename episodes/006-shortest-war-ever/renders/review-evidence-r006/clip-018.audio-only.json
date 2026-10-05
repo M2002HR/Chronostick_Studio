@@ -1,0 +1,17 @@
+{
+  "number": 18,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-018-shot-r004.mp4",
+  "source_sha256": "f9f16c6ba550011ae9179e9879ce3dc8afab980bcbe2d550b21229ab70691f61",
+  "pcm_sha256": "64cc9a3145b597dc71adf3fda0b488d896b4820dfd64ed507bd2f7f36c2259b1",
+  "peak_pcm16": 15285,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, high-pitched tone, possibly from a wind instrument or electronic source, with a subtle, continuous ambient hum in the background.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

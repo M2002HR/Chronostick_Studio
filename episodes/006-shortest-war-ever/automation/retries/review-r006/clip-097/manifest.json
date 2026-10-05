@@ -1,0 +1,30 @@
+{
+  "number": 97,
+  "decision": "revise_prompt",
+  "reason": "1.0s new explosive projectile and damage; invented large blue backpack in close-up.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-097.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r004.mp4",
+  "baseline_sha256": "e252d390c42b84b2404fd9f434e06be284de4e7f13d3c322a78ea60b9d7e8317",
+  "reviewed_at": "2026-10-03T19:06:33.989946+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 867464484341946885,
+  "previous_seed": 5076815664825659212,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-097/prompts/clip-097.md",
+  "prompt_sha256": "d3e245165b85135f2394eb8578ff75ff9b34a277e6c82b77567524fca5777164",
+  "job": "006-shortest-war-ever:clip-097:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+      "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "3f8765d3-cb0f-492d-b019-9dfb00f31a3d",
+  "job_ids": [
+    "0b43c598-cac0-40e3-992a-a8b8aec0c49e"
+  ],
+  "submitted_at": "2026-10-03T19:06:34.147141+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-097.jpg"
+}

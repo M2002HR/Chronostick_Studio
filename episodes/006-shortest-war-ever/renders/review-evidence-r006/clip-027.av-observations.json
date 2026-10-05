@@ -1,0 +1,73 @@
+{
+  "number": 27,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r004.mp4",
+  "source_sha256": "75daa244dc2bf19941bf0e68e4d0fbabfe136bebf88da581cd1e089101632c33",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The three residents do not pause; they are already paused and static. The action 'Three residents pause at the market while the narration refuses a simplistic hero-versus-villain frame' is not performed. The scene is static from the beginning.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The prompt requested 'Complete and settle this single action by 2.10s. Camera locked; hold from 2.10s.' The action is not completed by 2.10s because no action occurs. The scene is static.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt requested 'Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.' No action was completed in the first segment, and the characters perform a new action (passing a basket) in this segment, which is not a 'tiny eyebrow, cloth or water adjustment'.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt specified 'camera locked' for both segments. However, a hard cut occurs at 2.30s, and the second segment is a closer crop, indicating a camera change, not a locked camera.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt stated 'only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.' However, the characters perform a significant action of passing a basket, which is not a 'tiny adjustment'.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt requested 'Hold settled from 4.35s; hard cut at 5.00s.' The action of passing the basket is still ongoing at 4.35s and does not settle.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "footstep, basket rustle",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "description": "footstep"
+        },
+        {
+          "start": 2.3,
+          "end": 2.38,
+          "description": "basket rustle"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to execute the primary action of 'three residents pause' in the first segment, as the characters are static. The second segment introduces a new, unrequested action of passing a basket, violating the instruction for only minor adjustments. The camera is not locked as specified, with a clear cut and zoom between segments. The action in the second segment does not settle by the requested time. Audio correctly contains only isolated diegetic effects."
+  }
+}

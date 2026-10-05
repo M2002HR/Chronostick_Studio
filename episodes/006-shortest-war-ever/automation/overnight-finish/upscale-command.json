@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-05T06:25:34.241335+00:00",
+  "argv": [
+    "/home/mhr/AI/ComfyUI/.venv/bin/python",
+    "/home/mhr/Code/chronostick-studio/scripts/upscale-framewise-batched-video.py",
+    "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4",
+    "--output",
+    "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1920x1080-r001.mp4",
+    "--model",
+    "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "--width",
+    "1920",
+    "--height",
+    "1080",
+    "--fit",
+    "cover",
+    "--tile",
+    "1024",
+    "--overlap",
+    "32",
+    "--batch-size",
+    "1",
+    "--precision",
+    "fp16",
+    "--crf",
+    "16",
+    "--preset",
+    "medium",
+    "--progress-every",
+    "120"
+  ]
+}

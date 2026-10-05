@@ -1,0 +1,17 @@
+{
+  "number": 128,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-128-shot-r004.mp4",
+  "source_sha256": "8d0048c338699c18fa79ad8c011aa56c7665eb7c88edf8d3e1f791db0ae15338",
+  "pcm_sha256": "c11c44ba6055a1dba09a9582e3b60883651a10f1628a877420d0bcbfdfad0ecc",
+  "peak_pcm16": 961,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Water sounds are present, including sloshing and bubbling. There's also a distinct 'thump' sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "number": 115,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r004.mp4",
+  "source_sha256": "a0ea54d2ee2f3a930f5bd14f1f99e64419c14684172764cb0b099e8ee88809e3",
+  "pcm_sha256": "ac6ab24beeea599c6ba4b7c8552afec24fb1b0a1e32e9694906c2fbea46d2d05",
+  "peak_pcm16": 7467,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Acoustic guitar fingerpicking a melody with a slight reverb. The sound is clear and isolated, suggesting a recording.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

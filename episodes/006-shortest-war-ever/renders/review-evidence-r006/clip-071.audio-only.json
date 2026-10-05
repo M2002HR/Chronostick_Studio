@@ -1,0 +1,17 @@
+{
+  "number": 71,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-071-shot-r004.mp4",
+  "source_sha256": "f04496e497171779de412ff47f903d8be2a8043bfec3e246183831c6daba9c91",
+  "pcm_sha256": "6b51821fc315ee27e3341051f5dc8c98247187d748360463eabf3cd3fe066786",
+  "peak_pcm16": 6990,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, distinct pluck of a stringed instrument, possibly a banjo or ukulele, followed by a brief silence and then a continuous, high-pitched tonal bed. No speech or continuous ambience is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

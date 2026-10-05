@@ -1,0 +1,17 @@
+{
+  "number": 116,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-116-shot-r004.mp4",
+  "source_sha256": "a7c9701e99b77c3326b55f8c5b9d4c321e7324dd5fc0555ed17158f46fc35b26",
+  "pcm_sha256": "0ea7491b6800ca3ab020501e5a00d8265a267f62baf427130aa23c0e663f5411",
+  "peak_pcm16": 2562,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, high-pitched, resonant tone, possibly from a singing bowl or similar instrument, with a subtle, continuous ambient hum in the background.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

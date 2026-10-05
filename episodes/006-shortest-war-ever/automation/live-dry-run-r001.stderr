@@ -1,0 +1,262 @@
+{"timestamp": "2026-10-01T23:30:51.968628+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+01/131 VALID clip-001.json
+{"timestamp": "2026-10-01T23:30:52.185200+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+02/131 VALID clip-002.json
+{"timestamp": "2026-10-01T23:30:52.289902+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+03/131 VALID clip-003.json
+{"timestamp": "2026-10-01T23:30:52.374148+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+04/131 VALID clip-004.json
+{"timestamp": "2026-10-01T23:30:52.475384+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+05/131 VALID clip-005.json
+{"timestamp": "2026-10-01T23:30:52.571011+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+06/131 VALID clip-006.json
+{"timestamp": "2026-10-01T23:30:52.652521+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+07/131 VALID clip-007.json
+{"timestamp": "2026-10-01T23:30:52.744024+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+08/131 VALID clip-008.json
+{"timestamp": "2026-10-01T23:30:55.285433+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+09/131 VALID clip-009.json
+{"timestamp": "2026-10-01T23:30:55.374789+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+10/131 VALID clip-010.json
+{"timestamp": "2026-10-01T23:30:55.481025+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+11/131 VALID clip-011.json
+{"timestamp": "2026-10-01T23:30:55.558083+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+12/131 VALID clip-012.json
+{"timestamp": "2026-10-01T23:30:55.636291+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+13/131 VALID clip-013.json
+{"timestamp": "2026-10-01T23:30:55.719888+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+14/131 VALID clip-014.json
+{"timestamp": "2026-10-01T23:30:55.789014+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+15/131 VALID clip-015.json
+{"timestamp": "2026-10-01T23:30:55.867014+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+16/131 VALID clip-016.json
+{"timestamp": "2026-10-01T23:30:55.939415+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+17/131 VALID clip-017.json
+{"timestamp": "2026-10-01T23:30:56.276370+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+18/131 VALID clip-018.json
+{"timestamp": "2026-10-01T23:30:56.352327+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+19/131 VALID clip-019.json
+{"timestamp": "2026-10-01T23:30:56.421421+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+20/131 VALID clip-020.json
+{"timestamp": "2026-10-01T23:30:56.501292+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+21/131 VALID clip-021.json
+{"timestamp": "2026-10-01T23:30:56.571260+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+22/131 VALID clip-022.json
+{"timestamp": "2026-10-01T23:30:56.647549+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+23/131 VALID clip-023.json
+{"timestamp": "2026-10-01T23:30:56.730948+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+24/131 VALID clip-024.json
+{"timestamp": "2026-10-01T23:30:56.802243+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+25/131 VALID clip-025.json
+{"timestamp": "2026-10-01T23:30:56.873122+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+26/131 VALID clip-026.json
+{"timestamp": "2026-10-01T23:30:56.953765+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+27/131 VALID clip-027.json
+{"timestamp": "2026-10-01T23:30:57.288437+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+28/131 VALID clip-028.json
+{"timestamp": "2026-10-01T23:30:57.366859+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+29/131 VALID clip-029.json
+{"timestamp": "2026-10-01T23:30:57.450852+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+30/131 VALID clip-030.json
+{"timestamp": "2026-10-01T23:30:57.518566+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+31/131 VALID clip-031.json
+{"timestamp": "2026-10-01T23:30:57.591864+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+32/131 VALID clip-032.json
+{"timestamp": "2026-10-01T23:30:57.674046+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+33/131 VALID clip-033.json
+{"timestamp": "2026-10-01T23:30:57.743228+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+34/131 VALID clip-034.json
+{"timestamp": "2026-10-01T23:30:57.812434+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+35/131 VALID clip-035.json
+{"timestamp": "2026-10-01T23:30:57.884151+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+36/131 VALID clip-036.json
+{"timestamp": "2026-10-01T23:30:58.217217+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+37/131 VALID clip-037.json
+{"timestamp": "2026-10-01T23:30:58.286285+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+38/131 VALID clip-038.json
+{"timestamp": "2026-10-01T23:30:58.359387+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+39/131 VALID clip-039.json
+{"timestamp": "2026-10-01T23:30:58.441948+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+40/131 VALID clip-040.json
+{"timestamp": "2026-10-01T23:30:58.533982+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+41/131 VALID clip-041.json
+{"timestamp": "2026-10-01T23:30:58.607197+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+42/131 VALID clip-042.json
+{"timestamp": "2026-10-01T23:30:58.689384+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+43/131 VALID clip-043.json
+{"timestamp": "2026-10-01T23:30:58.759518+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+44/131 VALID clip-044.json
+{"timestamp": "2026-10-01T23:30:58.856467+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+45/131 VALID clip-045.json
+{"timestamp": "2026-10-01T23:30:58.936750+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+46/131 VALID clip-046.json
+{"timestamp": "2026-10-01T23:30:59.247580+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+47/131 VALID clip-047.json
+{"timestamp": "2026-10-01T23:30:59.319853+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+48/131 VALID clip-048.json
+{"timestamp": "2026-10-01T23:30:59.404569+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+49/131 VALID clip-049.json
+{"timestamp": "2026-10-01T23:30:59.472874+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+50/131 VALID clip-050.json
+{"timestamp": "2026-10-01T23:30:59.543803+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+51/131 VALID clip-051.json
+{"timestamp": "2026-10-01T23:30:59.628004+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+52/131 VALID clip-052.json
+{"timestamp": "2026-10-01T23:30:59.697653+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+53/131 VALID clip-053.json
+{"timestamp": "2026-10-01T23:30:59.770468+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+54/131 VALID clip-054.json
+{"timestamp": "2026-10-01T23:30:59.841610+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+55/131 VALID clip-055.json
+{"timestamp": "2026-10-01T23:31:00.168928+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+56/131 VALID clip-056.json
+{"timestamp": "2026-10-01T23:31:00.239378+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+57/131 VALID clip-057.json
+{"timestamp": "2026-10-01T23:31:00.307931+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+58/131 VALID clip-058.json
+{"timestamp": "2026-10-01T23:31:00.402445+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+59/131 VALID clip-059.json
+{"timestamp": "2026-10-01T23:31:00.469486+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+60/131 VALID clip-060.json
+{"timestamp": "2026-10-01T23:31:00.542216+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+61/131 VALID clip-061.json
+{"timestamp": "2026-10-01T23:31:00.626923+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+62/131 VALID clip-062.json
+{"timestamp": "2026-10-01T23:31:00.721783+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+63/131 VALID clip-063.json
+{"timestamp": "2026-10-01T23:31:00.792945+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+64/131 VALID clip-064.json
+{"timestamp": "2026-10-01T23:31:00.877691+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+65/131 VALID clip-065.json
+{"timestamp": "2026-10-01T23:31:01.186497+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+66/131 VALID clip-066.json
+{"timestamp": "2026-10-01T23:31:01.256133+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+67/131 VALID clip-067.json
+{"timestamp": "2026-10-01T23:31:01.354243+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+68/131 VALID clip-068.json
+{"timestamp": "2026-10-01T23:31:01.427709+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+69/131 VALID clip-069.json
+{"timestamp": "2026-10-01T23:31:01.502445+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+70/131 VALID clip-070.json
+{"timestamp": "2026-10-01T23:31:01.587398+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+71/131 VALID clip-071.json
+{"timestamp": "2026-10-01T23:31:01.659896+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+72/131 VALID clip-072.json
+{"timestamp": "2026-10-01T23:31:01.730732+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+73/131 VALID clip-073.json
+{"timestamp": "2026-10-01T23:31:01.805149+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+74/131 VALID clip-074.json
+{"timestamp": "2026-10-01T23:31:02.128118+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+75/131 VALID clip-075.json
+{"timestamp": "2026-10-01T23:31:02.194847+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+76/131 VALID clip-076.json
+{"timestamp": "2026-10-01T23:31:02.263547+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+77/131 VALID clip-077.json
+{"timestamp": "2026-10-01T23:31:02.346395+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+78/131 VALID clip-078.json
+{"timestamp": "2026-10-01T23:31:02.415852+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+79/131 VALID clip-079.json
+{"timestamp": "2026-10-01T23:31:02.492233+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+80/131 VALID clip-080.json
+{"timestamp": "2026-10-01T23:31:02.580030+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+81/131 VALID clip-081.json
+{"timestamp": "2026-10-01T23:31:02.665825+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+82/131 VALID clip-082.json
+{"timestamp": "2026-10-01T23:31:02.767256+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+83/131 VALID clip-083.json
+{"timestamp": "2026-10-01T23:31:02.849265+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+84/131 VALID clip-084.json
+{"timestamp": "2026-10-01T23:31:03.168257+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+85/131 VALID clip-085.json
+{"timestamp": "2026-10-01T23:31:03.238501+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+86/131 VALID clip-086.json
+{"timestamp": "2026-10-01T23:31:03.334023+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+87/131 VALID clip-087.json
+{"timestamp": "2026-10-01T23:31:03.404234+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+88/131 VALID clip-088.json
+{"timestamp": "2026-10-01T23:31:03.479726+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+89/131 VALID clip-089.json
+{"timestamp": "2026-10-01T23:31:03.583067+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+90/131 VALID clip-090.json
+{"timestamp": "2026-10-01T23:31:03.655107+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+91/131 VALID clip-091.json
+{"timestamp": "2026-10-01T23:31:03.727538+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+92/131 VALID clip-092.json
+{"timestamp": "2026-10-01T23:31:03.811198+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+93/131 VALID clip-093.json
+{"timestamp": "2026-10-01T23:31:04.140568+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+94/131 VALID clip-094.json
+{"timestamp": "2026-10-01T23:31:04.213984+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+95/131 VALID clip-095.json
+{"timestamp": "2026-10-01T23:31:04.285111+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+96/131 VALID clip-096.json
+{"timestamp": "2026-10-01T23:31:04.370110+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+97/131 VALID clip-097.json
+{"timestamp": "2026-10-01T23:31:04.439286+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+98/131 VALID clip-098.json
+{"timestamp": "2026-10-01T23:31:04.519831+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+99/131 VALID clip-099.json
+{"timestamp": "2026-10-01T23:31:04.623666+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+100/131 VALID clip-100.json
+{"timestamp": "2026-10-01T23:31:04.692570+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+101/131 VALID clip-101.json
+{"timestamp": "2026-10-01T23:31:04.761944+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+102/131 VALID clip-102.json
+{"timestamp": "2026-10-01T23:31:04.847453+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+103/131 VALID clip-103.json
+{"timestamp": "2026-10-01T23:31:05.159519+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+104/131 VALID clip-104.json
+{"timestamp": "2026-10-01T23:31:05.238555+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+105/131 VALID clip-105.json
+{"timestamp": "2026-10-01T23:31:05.348908+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+106/131 VALID clip-106.json
+{"timestamp": "2026-10-01T23:31:05.437740+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+107/131 VALID clip-107.json
+{"timestamp": "2026-10-01T23:31:05.507664+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+108/131 VALID clip-108.json
+{"timestamp": "2026-10-01T23:31:05.612479+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+109/131 VALID clip-109.json
+{"timestamp": "2026-10-01T23:31:05.682786+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+110/131 VALID clip-110.json
+{"timestamp": "2026-10-01T23:31:05.752320+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+111/131 VALID clip-111.json
+{"timestamp": "2026-10-01T23:31:05.826257+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+112/131 VALID clip-112.json
+{"timestamp": "2026-10-01T23:31:06.157132+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+113/131 VALID clip-113.json
+{"timestamp": "2026-10-01T23:31:06.227323+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+114/131 VALID clip-114.json
+{"timestamp": "2026-10-01T23:31:06.302303+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+115/131 VALID clip-115.json
+{"timestamp": "2026-10-01T23:31:06.380799+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+116/131 VALID clip-116.json
+{"timestamp": "2026-10-01T23:31:06.450156+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+117/131 VALID clip-117.json
+{"timestamp": "2026-10-01T23:31:06.522210+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+118/131 VALID clip-118.json
+{"timestamp": "2026-10-01T23:31:06.605549+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+119/131 VALID clip-119.json
+{"timestamp": "2026-10-01T23:31:06.678872+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+120/131 VALID clip-120.json
+{"timestamp": "2026-10-01T23:31:06.751430+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+121/131 VALID clip-121.json
+{"timestamp": "2026-10-01T23:31:06.837753+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+122/131 VALID clip-122.json
+{"timestamp": "2026-10-01T23:31:07.166515+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+123/131 VALID clip-123.json
+{"timestamp": "2026-10-01T23:31:07.246238+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+124/131 VALID clip-124.json
+{"timestamp": "2026-10-01T23:31:07.346801+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+125/131 VALID clip-125.json
+{"timestamp": "2026-10-01T23:31:07.422553+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+126/131 VALID clip-126.json
+{"timestamp": "2026-10-01T23:31:07.495624+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+127/131 VALID clip-127.json
+{"timestamp": "2026-10-01T23:31:07.589226+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+128/131 VALID clip-128.json
+{"timestamp": "2026-10-01T23:31:07.663158+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+129/131 VALID clip-129.json
+{"timestamp": "2026-10-01T23:31:07.757348+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+130/131 VALID clip-130.json
+{"timestamp": "2026-10-01T23:31:07.833148+00:00", "level": "info", "job_id": null, "batch_id": null, "stage": null, "component": "httpx", "message": "HTTP Request: POST http://127.0.0.1:8090/v1/validate?dump_graph=false \"HTTP/1.1 200 OK\""}
+131/131 VALID clip-131.json

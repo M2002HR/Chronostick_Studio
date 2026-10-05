@@ -1,0 +1,85 @@
+{
+  "id": "9fddc1f3-f47f-4f22-864e-c11cb945c3a6",
+  "status": "queued",
+  "created_at": "2026-10-03T19:05:11.426769+00:00",
+  "updated_at": "2026-10-03T19:05:11.426769+00:00",
+  "error_json": null,
+  "metrics_json": null,
+  "request": {
+    "jobs": [
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-093/prompts/clip-093.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 12,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 9059622211159557714,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-093-shot-r006",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-093:r006"
+      }
+    ],
+    "settings": {
+      "continue_on_error": true,
+      "stop_on_error": false,
+      "max_retries": 1,
+      "concat_on_complete": false,
+      "upscale_on_complete": false,
+      "output": null
+    }
+  },
+  "job_ids": [
+    "9017223e-45b7-4f30-a4c7-f400894c5d62"
+  ],
+  "output_files": [],
+  "error": null,
+  "metrics": null
+}

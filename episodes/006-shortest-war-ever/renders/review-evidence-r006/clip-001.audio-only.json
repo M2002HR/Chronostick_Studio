@@ -1,0 +1,17 @@
+{
+  "number": 1,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-001-shot-r004.mp4",
+  "source_sha256": "51c1e5a39ae93c5edeb57082fb26ccd0c79e3414dacbf0048c8a5005af3947f5",
+  "pcm_sha256": "d92ebf69a8f78558d6e3a81144daa6691fe6897389f6c15a09fde6b37f95b563",
+  "peak_pcm16": 5843,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, possibly a door closing or an object hitting a surface. There's also a faint, continuous hum or buzz in the background.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "number": 131,
+  "decision": "revise_prompt",
+  "reason": "Starts outside then walks in; 3.25s loose shoes fly in and land in hand despite fully shod still ending.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-131.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r004.mp4",
+  "baseline_sha256": "bb5fb6359f9052fc1d58c69c51a728dd7ca79dc73a7ca93092452ac9b99b7c43",
+  "reviewed_at": "2026-10-03T19:12:18.405754+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8872027405322560787,
+  "previous_seed": 7100594075292040304,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-131/prompts/clip-131.md",
+  "prompt_sha256": "47cfe87159c9f35177b76aa4ccb4138f75a4290716ff1011eeac0da8b814c538",
+  "job": "006-shortest-war-ever:clip-131:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-resolved-r001.png",
+      "sha256": "12ef191d787e803ce5c3ade0eac43efc63fd9f7f68ec477f5feca39e51626fc3"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "dc1931d1-837d-472a-92bf-bfab0ccf0e13",
+  "job_ids": [
+    "e723d234-407a-4d21-afc5-69f043456e8a"
+  ],
+  "submitted_at": "2026-10-03T19:12:18.538257+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-131.jpg"
+}

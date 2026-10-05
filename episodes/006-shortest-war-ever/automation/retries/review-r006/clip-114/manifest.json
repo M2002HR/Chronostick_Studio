@@ -1,0 +1,30 @@
+{
+  "number": 114,
+  "decision": "revise_prompt",
+  "reason": "Invented giant anchor and third woman standing waist-deep in water.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-114.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r004.mp4",
+  "baseline_sha256": "685c87f35bd4d51389b46454a453de73979e3ced8523187ac171325204368877",
+  "reviewed_at": "2026-10-03T19:12:15.431938+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8409492898908588391,
+  "previous_seed": 4825027979840847950,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-114/prompts/clip-114.md",
+  "prompt_sha256": "76bb1acac6b30f63cee4a1e69b6c780cb5b0045273263baeee6ae5994574689b",
+  "job": "006-shortest-war-ever:clip-114:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+      "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "fa75fbc7-c06a-4b37-aa69-969afdc755b1",
+  "job_ids": [
+    "c9cd17c6-4404-4535-b3e6-b417105e5586"
+  ],
+  "submitted_at": "2026-10-03T19:12:15.554158+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-114.jpg"
+}

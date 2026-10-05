@@ -1,0 +1,17 @@
+{
+  "number": 125,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-125-shot-r004.mp4",
+  "source_sha256": "27643c1c019571074e978ee3a0a71ade30fe523c08cd8e9733f07629141841b8",
+  "pcm_sha256": "a8d8031f4503fbf9869a178db004d69ef53928344c0b6f05995517bab5ccb4d9",
+  "peak_pcm16": 11262,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A plucked string instrument, possibly a zither or koto, plays a simple, melodic phrase. There are no other distinct sounds.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

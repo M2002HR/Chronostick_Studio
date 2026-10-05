@@ -1,0 +1,17 @@
+{
+  "number": 60,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r004.mp4",
+  "source_sha256": "075529fea2c09c30d7e00f32556c2bc3f8f363b70eb57091330a1fa13b3d73c7",
+  "pcm_sha256": "e9380969478d6643f36b554c378e8eb7fa0652f05d958174cd1e89afdce70aff",
+  "peak_pcm16": 7492,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a series of chirps and tweets, suggesting bird vocalizations. There's a continuous, low-level ambient hum throughout the recording.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

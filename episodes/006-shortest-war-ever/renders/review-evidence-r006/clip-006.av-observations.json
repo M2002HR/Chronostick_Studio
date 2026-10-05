@@ -1,0 +1,60 @@
+{
+  "number": 6,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r004.mp4",
+  "source_sha256": "f84a218fd7b4e416a1bcd34c857e76cbe1db5ef9ae0634df5ecc7cc0066ebde1",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The scene shows five stick figures in a council chamber, whereas the prompt and shot plan explicitly state 'exactly zero people' and 'one empty ornate blue-and-gold throne'. The throne is also not empty, as it is obscured by the figures.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The camera is not locked as requested. There is a slight camera movement throughout the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The action 'The empty carved throne waits in a quiet room as the mystery turns from the clock toward succession' is not depicted. Instead, five figures are standing and looking at each other.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The scene does not match the reference image at all. The reference image shows an empty room with a throne, while the animation shows five characters.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is not a closer crop of the same empty throne back and arm. It is the same shot as the first segment, still showing five figures.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "apagaron los cañones? Para responder, primero hay que entender cómo una pelea por un trono acabó con cinco siglos de la que es la nación africana.",
+      "music": false,
+      "speech": true,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 1.48,
+          "end": 4.98,
+          "description": "Spanish narration"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation completely fails to meet the prompt and shot plan requirements. It depicts five stick figures in a council chamber with narration, instead of an empty throne in silence. The camera is not locked, and the specified action and crops are entirely absent. The visual content is a major deviation from the instructions and reference."
+  }
+}

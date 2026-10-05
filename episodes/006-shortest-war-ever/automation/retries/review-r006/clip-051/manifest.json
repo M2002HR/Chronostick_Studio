@@ -1,0 +1,30 @@
+{
+  "number": 51,
+  "decision": "revise_prompt",
+  "reason": "Camera drifts and removes messenger through ending.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-051.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r004.mp4",
+  "baseline_sha256": "8da7c55af8f95ba30b5f0b3d48e58c412b8ef737e2e6e5b35a801506a516932b",
+  "reviewed_at": "2026-10-03T19:02:02.267793+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 233918482413367597,
+  "previous_seed": 4556607014535893286,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-051/prompts/clip-051.md",
+  "prompt_sha256": "b934c7c8e483f7534462aa26aab0a397cab26cfe6483b11956192281cde2fca0",
+  "job": "006-shortest-war-ever:clip-051:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+      "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "26e9c4ce-f813-4eaa-8729-f4b85df8c327",
+  "job_ids": [
+    "6ef5660d-29a1-4811-be2c-a9dbe68f1104"
+  ],
+  "submitted_at": "2026-10-03T19:02:02.429286+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-051.jpg"
+}

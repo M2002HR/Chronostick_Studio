@@ -1,0 +1,17 @@
+{
+  "number": 82,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r004.mp4",
+  "source_sha256": "3ae9f3ff17cc014f85ee586c9f198ba08a263ecb84ea302b39fa5cf6f43c872b",
+  "pcm_sha256": "c24edb251e8d7a2d8b76d3a07a9d9ebd20dfabbce1ec49513717479be3b57574",
+  "peak_pcm16": 22482,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, sharp, percussive sound, possibly a gunshot, followed by a reverberating metallic clang and a sustained, low-frequency hum.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

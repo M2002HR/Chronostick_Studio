@@ -1,0 +1,30 @@
+{
+  "number": 16,
+  "decision": "revise_prompt",
+  "reason": "Continuous zoom drifts through all five seconds, removes worker and ends without resolved camera hold; no planned hard cut.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-016.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r005.mp4",
+  "baseline_sha256": "5edba5a60fa0213b8ca3c7b8dc81fed332436633e389fdd9ad0b62152d37de6d",
+  "reviewed_at": "2026-10-03T18:48:04.703488+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 6188547016371599046,
+  "previous_seed": 6465064844531548493,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-016/prompts/clip-016.md",
+  "prompt_sha256": "eb72b046ddd8ebf7272d96ba83a75cc01cd9f36f78ff9f4a1008ebf13d72f6e7",
+  "job": "006-shortest-war-ever:clip-016:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+      "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "49ec22c1-68cd-49c0-a23d-f3d98c5eaa64",
+  "job_ids": [
+    "656349e6-66e0-4749-bf6f-79042351edd9"
+  ],
+  "submitted_at": "2026-10-03T18:48:04.815631+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-016.jpg f0–119"
+}

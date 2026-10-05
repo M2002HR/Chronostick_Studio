@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The scene depicted is entirely different from the reference image and prompt. The reference image shows an empty ornate throne in a council chamber, while the animation shows three stick figures, one of whom is sitting on the throne. This is a major deviation from the intended visual.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The prompt explicitly states 'zero people' and 'empty ornate throne'. The animation contains three stick figures, with one occupying the throne, which is a direct contradiction.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The prompt specifies 'Camera locked; hold from 2.10s' and 'Camera locked; hold from 4.35s'. The animation shows continuous movement of the stick figures and changes in their expressions, indicating the camera is not locked and the action is not settled as requested.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The prompt specifies 'The pictured clear blue sky, golden cloud shapes, clear air, calm water and intact shore silhouettes remain identical from first to last frame.' The animation does not show the exterior view through a doorway as in the reference, but rather an interior scene with a window showing a similar but not identical sky and water.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The prompt specifies 'Only the declared small foreground action changes.' The animation introduces significant foreground elements (the stick figures) that are not part of the 'small foreground action' of an empty throne.\",\n      \"severity\": \"major\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"historia sentarse era justamente lo que estaba en disputa. En agosto de mil ochocientos. bad. Perina love and say it now.\",\n    \"music\": false,\n    \"speech\": true,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.0,\n        \"end\": 2.0,\n        \"description\": \"Speech: 'historia sentarse era justamente lo que estaba en disputa. En agosto de mil ochocientos.'\"\n      },\n      {\n        \"start\": 2.0,\n        \"end\": 2.1,\n        \"description\": \"Speech: 'bad.'\"\n      },\n      {\n        \"start\": 2.7,\n        \"end\": 3.0,\n        \"description\": \"Speech: 'Perina love and say it now.'\"\n      },\n      {\n        \"start\": 3.3,\n        \"end\": 3.4,\n        \"description\": \"Sound effect: 'thump'\"\n      },\n      {\n        \"start\": 4.6,\n        \"end\": 4.7,\n        \"description\": \"Sound effect: 'thump'\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation completely fails to match the visual requirements of the prompt and shot plan. Instead of an empty throne in a council chamber, it shows three stick figures, one of whom is seated on the throne. The camera is not locked, and there is continuous character animation and speech, which directly contradicts the instructions for silence and a settled scene. The audio contains speech and sound effects, violating the 'silence' and 'natural diegetic sound effects only' instructions. The core visual and audio elements are entirely mismatched with the provided instructions.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17513,
+    "candidatesTokenCount": 912,
+    "totalTokenCount": 18425,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1051
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "o0_BaurwONTfxs0Pj-iT-Aw"
+}

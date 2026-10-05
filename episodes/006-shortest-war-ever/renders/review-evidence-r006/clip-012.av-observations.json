@@ -1,0 +1,115 @@
+{
+  "number": 12,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r005.mp4",
+  "source_sha256": "aa28177a51fc428734e44b946f399582abd7278bf44d5760fd54ef21806fd31c",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The scene depicts a battle with cannon fire, explosions, and smoke, which contradicts the prompt's instruction: 'This is before first fire: no cannon flash, blast, battle smoke, damage or firing order.' Also, the time of day is night/dusk with stars, while the reference image and prompt imply daytime ('before 09:00').",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The flag on the ship in the mid-ground is an American flag, not a British flag as seen in the reference image.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "Rawson's binoculars are already lowered at the start of the animation, and he does not perform the action of lowering them slightly as specified in the prompt. Instead, he raises them slightly at 0.00s and then lowers them at 0.01s, then holds them in a lowered position.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The camera is not locked; there is a slight camera shake/movement throughout the first segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; there is a slight camera shake/movement throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The character's head is not round off-white, but rather a more natural skin tone with a round shape.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The character's eyes are not simple black dots; they have some detail and shading.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The character's hands are not mitten hands; they have distinct fingers.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A brief cloth rustle, followed by a series of explosions and a cannon firing sound.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.001,
+          "end": 0.002,
+          "description": "Cloth rustle"
+        },
+        {
+          "start": 1.68,
+          "end": 1.78,
+          "description": "Explosion"
+        },
+        {
+          "start": 2.08,
+          "end": 2.18,
+          "description": "Explosion"
+        },
+        {
+          "start": 2.68,
+          "end": 2.78,
+          "description": "Explosion"
+        },
+        {
+          "start": 3.08,
+          "end": 3.18,
+          "description": "Explosion"
+        },
+        {
+          "start": 3.68,
+          "end": 3.78,
+          "description": "Explosion"
+        },
+        {
+          "start": 4.08,
+          "end": 4.18,
+          "description": "Explosion"
+        },
+        {
+          "start": 4.48,
+          "end": 4.58,
+          "description": "Cannon fire"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the prompt and shot plan significantly. The scene depicts a battle with explosions and smoke, contradicting the 'prebattle' and 'no cannon flash, blast, battle smoke, damage or firing order' instructions. The time of day is incorrect (night/dusk instead of morning). Rawson's action of lowering binoculars is not performed as specified; instead, he slightly raises and then lowers them, holding a lowered position. The flag on one of the ships is incorrect. Minor style deviations are also present regarding character features. The audio includes multiple explosions and a cannon fire sound, which directly violates the 'one small cloth, water or masonry sound appropriate to the single declared action, then silence' instruction."
+  }
+}

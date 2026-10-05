@@ -1,0 +1,17 @@
+{
+  "number": 31,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r005.mp4",
+  "source_sha256": "a5cd51c994fa6f0b70faab9647c4d5a2cb8afadff5a4f84aa85c52f4b09a51e6",
+  "pcm_sha256": "df6881d09de22b6cac8ad3fa19102d7fbb72a764586571cbbfaa3e3066eff3e1",
+  "peak_pcm16": 2593,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'click' sound is followed by a short, melancholic musical phrase played on what sounds like a piano or keyboard. The music has a slightly somber and reflective quality.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

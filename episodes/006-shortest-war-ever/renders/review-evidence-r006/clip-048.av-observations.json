@@ -1,0 +1,59 @@
+{
+  "number": 48,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-048-shot-r004.mp4",
+  "source_sha256": "adef915dabbb00a79dd5f5af9dc93fe3e78838bae5259afd0cc1651f34fbb0f3",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid's expression changes from angry to neutral and back to angry, and his head bobs slightly, which is not a settled action.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Khalid's expression changes from angry to neutral and back to angry, and his head bobs slightly, which is not a settled action.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A soft cloth or parchment movement is heard at 0.01s, followed by silence. Another soft cloth or parchment movement is heard at 0.02s, followed by silence. A soft cloth or parchment movement is heard at 0.03s, followed by silence. A soft cloth or parchment movement is heard at 0.04s, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.01,
+          "end": 0.01,
+          "description": "soft cloth or parchment movement"
+        },
+        {
+          "start": 0.02,
+          "end": 0.02,
+          "description": "soft cloth or parchment movement"
+        },
+        {
+          "start": 0.03,
+          "end": 0.03,
+          "description": "soft cloth or parchment movement"
+        },
+        {
+          "start": 0.04,
+          "end": 0.04,
+          "description": "soft cloth or parchment movement"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to maintain a settled action for Khalid in both segments, as his expression and head position subtly change. The audio correctly features brief, isolated cloth/parchment sounds with silence in between, adhering to the prompt's requirements."
+  }
+}

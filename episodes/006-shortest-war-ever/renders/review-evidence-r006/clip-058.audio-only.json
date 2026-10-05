@@ -1,0 +1,17 @@
+{
+  "number": 58,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r004.mp4",
+  "source_sha256": "5c9dd6fac1592eff67070290c84beaeb0a006650032ec3454b82fb9e340ca0a9",
+  "pcm_sha256": "62254a27b4448f89e4f2d112ae86369e59563f4863e09357899ce145e5fb5191",
+  "peak_pcm16": 4885,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, distinct musical phrase with a clear melody and harmony. No speech or continuous ambience is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

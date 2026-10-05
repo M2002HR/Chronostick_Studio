@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 0.04,\n      \"issue\": \"Khalid's head and turban briefly morph and shift at the very beginning of the animation.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 0.04,\n      \"issue\": \"The guard's head and hat briefly morph and shift at the very beginning of the animation.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 0.04,\n      \"issue\": \"The throne's details briefly morph and shift at the very beginning of the animation.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 0.04,\n      \"issue\": \"The scroll in Khalid's hand briefly morphs and shifts at the very beginning of the animation.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 0.04,\n      \"issue\": \"The small globe on the table briefly morphs and shifts at the very beginning of the animation.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 0.04,\n      \"issue\": \"The table and rug details briefly morph and shift at the very beginning of the animation.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 0.04,\n      \"issue\": \"The background elements, including the city and ships, briefly morph and shift at the very beginning of the animation.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"Khalid does not take one measured step nearer the throne. He remains stationary.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 2.34,\n      \"issue\": \"Khalid's head and turban briefly morph and shift at the beginning of the second shot.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 2.34,\n      \"issue\": \"The scroll in Khalid's hand briefly morphs and shifts at the beginning of the second shot.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 2.34,\n      \"issue\": \"The background elements briefly morph and shift at the beginning of the second shot.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"Khalid's eyes blink and his eyebrows move, which is an unauthorized adjustment beyond a 'tiny eyebrow, cloth or water adjustment'.\",\n      \"severity\": \"minor\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"A soft rustling sound, followed by silence.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 1.68,\n        \"end\": 1.92,\n        \"description\": \"soft rustling sound\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.3\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to execute the primary action of Khalid taking a step. Both shots exhibit minor morphing and shifting of elements at their start. Additionally, Khalid's facial expression changes in the second shot, which is an unauthorized adjustment. The audio correctly features a single soft rustling sound followed by silence.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17589,
+    "candidatesTokenCount": 951,
+    "totalTokenCount": 18540,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1127
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "yk_Bao2OHeebxN8P4daJ4A4"
+}

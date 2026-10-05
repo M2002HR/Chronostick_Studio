@@ -1,0 +1,17 @@
+{
+  "number": 15,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r004.mp4",
+  "source_sha256": "f56a8fba74a9eab0909b2bb3aaa740853e79014c9f078e1a14102ff41939964a",
+  "pcm_sha256": "0787efe489fb3a49e91e8bd13b46d968f7c3a21931eb287fa1e4375d20e443b9",
+  "peak_pcm16": 13063,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thunk' sound, followed by a continuous, low-frequency hum or rumble. There's also a subtle, high-pitched whine that fades in and out.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

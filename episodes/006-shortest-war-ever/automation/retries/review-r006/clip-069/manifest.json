@@ -1,0 +1,30 @@
+{
+  "number": 69,
+  "decision": "revise_prompt",
+  "reason": "2.75s extreme crop invents realistic fingered hands and cuts away head.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-069.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r004.mp4",
+  "baseline_sha256": "3ac6f15aac3ccd7504298f6a0bc32dc8346b7e251c07037669317d3942ea9417",
+  "reviewed_at": "2026-10-03T19:02:06.728348+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 9204388829076355447,
+  "previous_seed": 4768726284048956191,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-069/prompts/clip-069.md",
+  "prompt_sha256": "af5aca28201baae27dab4c3b6a26c41984b39510e1bd5e323d2d02b45af00f06",
+  "job": "006-shortest-war-ever:clip-069:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-focused-r001.png",
+      "sha256": "489a1c21b0a2c4715fff51aa51b8e4f1cdf31e1097d24b7fbf26499e735c4e0b"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "8ca9672c-b43f-48d0-80d1-0752fa3061f7",
+  "job_ids": [
+    "1e0b30f6-1950-4f5e-821b-9b11da996d78"
+  ],
+  "submitted_at": "2026-10-03T19:02:06.868401+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-069.jpg"
+}

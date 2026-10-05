@@ -1,0 +1,17 @@
+{
+  "number": 100,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r004.mp4",
+  "source_sha256": "887eab8290eff553f8370475871be49619c73a4f46e23f5f9e2ee0f89d79e781",
+  "pcm_sha256": "19ed1a1b5c4da50afd7513a7c50560b8b3775e347d3b43d5815f9bad54b7dbfa",
+  "peak_pcm16": 15188,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'pop' sound, followed by a brief period of silence. Then, a male voice speaks a few words, and a short, simple musical tune plays.",
+    "speech": true,
+    "exact_words": "What then the row, Barry, they saw.",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

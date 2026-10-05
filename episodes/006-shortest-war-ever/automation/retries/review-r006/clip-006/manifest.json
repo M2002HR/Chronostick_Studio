@@ -1,0 +1,30 @@
+{
+  "number": 6,
+  "decision": "revise_prompt",
+  "reason": "From frame 0 the empty-throne scene contains five invented foreground council figures; zero-person contract fails throughout.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-006.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r004.mp4",
+  "baseline_sha256": "f84a218fd7b4e416a1bcd34c857e76cbe1db5ef9ae0634df5ecc7cc0066ebde1",
+  "reviewed_at": "2026-10-03T18:45:33.593862+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 7200163333655928271,
+  "previous_seed": 9002623882137594033,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-006/prompts/clip-006.md",
+  "prompt_sha256": "c0a59d9cba46ec1627813b0e627b0b859c82e81bc20e816c5a26ee0ded7aa58f",
+  "job": "006-shortest-war-ever:clip-006:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+      "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "70ddd06e-b639-461d-9f7e-5c600c25e5fc",
+  "job_ids": [
+    "e5c43a8a-8e51-4087-bfa6-d9b0e25fc13d"
+  ],
+  "submitted_at": "2026-10-03T18:45:36.247889+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-006.jpg f0–119"
+}

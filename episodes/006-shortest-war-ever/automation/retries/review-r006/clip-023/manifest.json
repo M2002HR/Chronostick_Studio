@@ -1,0 +1,30 @@
+{
+  "number": 23,
+  "decision": "revise_prompt",
+  "reason": "Close-up invents a gigantic green fruit that changes shape and scale and occupies the entire basket, instead of holding original small fruit.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-023.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r004.mp4",
+  "baseline_sha256": "26a2e2939171da6703d119eea6c7da1cc7ea4f5177423e8e2475a823bce0a8ac",
+  "reviewed_at": "2026-10-03T18:49:29.237475+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2137105254690987790,
+  "previous_seed": 2449684274551441269,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-023/prompts/clip-023.md",
+  "prompt_sha256": "b842fd51068c3d037ffd769ab26d1ae4b86d7e43b8dead04835c57e9b69d342b",
+  "job": "006-shortest-war-ever:clip-023:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+      "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "cb737b0d-297b-4e6a-8300-2b05ce4f4af4",
+  "job_ids": [
+    "d00be388-0fbc-4766-b178-0e76119133f3"
+  ],
+  "submitted_at": "2026-10-03T18:49:29.348853+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-023.jpg f53–119"
+}

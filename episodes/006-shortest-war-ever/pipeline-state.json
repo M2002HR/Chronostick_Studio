@@ -278,19 +278,16 @@
       "skill": "chronostick-longform-review",
       "status": "needs_review",
       "inputs": [
-        "renders/editorial/clip-013-shot-r003.mp4",
-        "renders/editorial/clip-064-shot-r003.mp4",
-        "renders/editorial/clip-075-shot-r003.mp4",
-        "renders/editorial/clip-099-shot-r003.mp4",
-        "renders/editorial/clip-124-shot-r003.mp4"
+        "renders/review-evidence-r006/baseline.json"
       ],
       "outputs": [
-        "plan/resume-audit.json",
-        "plan/resume-audit.md"
+        "plan/review-r006.md",
+        "renders/review-evidence-r006/review-ledger.json",
+        "automation/retries/review-r006/status.json"
       ],
       "approved_by": null,
-      "decision_notes": "Batch stopped at user request because map scenes are unsatisfactory. Replacement direction is pending; existing completed clips remain unreviewed candidates.",
-      "next_action": "Review actual12-step H3 candidates after batch completion; select one approved artifact per131 slots.",
+      "decision_notes": "All131 initial latest candidates received sampled visual/reference review; incremental immutable repair queue active. Native audio and replacement QC remain incomplete; no selected picture timeline.",
+      "next_action": "Review each latest completed replacement; resolve audio and exact-text checks; queue only necessary revisions.",
       "previous_review": {
         "status": "missing",
         "approved_by": null,
@@ -308,12 +305,21 @@
       "id": "11",
       "name": "finish",
       "skill": "chronostick-longform-finish",
-      "status": "missing",
-      "inputs": [],
-      "outputs": [],
+      "status": "needs_review",
+      "inputs": [
+        "final/picture-sfx-1920x1080-r001.mp4",
+        "audio/narration-es-google-vids-r002.mp4",
+        "timestamps/word-timestamps-source.csv"
+      ],
+      "outputs": [
+        "final/episode-006-shortest-war-ever-es-1920x1080-r008.mp4",
+        "postproduction/edit.json",
+        "postproduction/review.md",
+        "postproduction/exports/r008/manifest.json"
+      ],
       "approved_by": null,
-      "decision_notes": null,
-      "next_action": null
+      "decision_notes": "User-authorized existing-picture finishing completed. Actual sampled subtitle review and full technical decode passed: Arial Bold 64px, single line, unchanged 80% width, raised 20px, current word yellow, all others white, no native sound. Voice export drift and three provider boundary repairs are disclosed in a separate display map. Underlying picture and full user playback are not newly approved; music/ambience/SFX remain unsupplied.",
+      "next_action": "User reviews r008; add supplied music/background/SFX in a later immutable distribution revision."
     },
     {
       "id": "12",
@@ -345,8 +351,24 @@
     "job_count": 117,
     "revision": 5,
     "manifest": "episodes/006-shortest-war-ever/automation/batches/map-redirection-12step-r005/manifest.json",
-    "status": "running",
+    "status": "succeeded",
     "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
-    "started_verified_at": "2026-10-02T19:50:54.940150+00:00"
+    "started_verified_at": "2026-10-02T19:50:54.940150+00:00",
+    "finished_at": "2026-10-03T09:00:59.023289+00:00",
+    "child_status_counts": {
+      "succeeded": 117
+    }
+  },
+  "incremental_review": {
+    "status": "repair_queue_running_review_incomplete",
+    "baseline": "renders/review-evidence-r006/baseline.json",
+    "ledger": "renders/review-evidence-r006/review-ledger.json",
+    "report": "plan/review-r006.md",
+    "queue_status": "automation/retries/review-r006/status.json",
+    "reviewed_initial_slots": 131,
+    "submitted_repair_jobs": 81,
+    "submitted_repair_slots": 76,
+    "updated_at": "2026-10-03T19:36:03.368880+00:00",
+    "approval": null
   }
 }

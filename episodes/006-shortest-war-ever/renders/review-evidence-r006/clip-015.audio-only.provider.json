@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A distinct 'thunk' sound, followed by a continuous, low-frequency hum or rumble. There's also a subtle, high-pitched whine that fades in and out.\",\n  \"speech\": false,\n  \"exact_words\": \"\",\n  \"music\": false,\n  \"tonal_bed\": true,\n  \"continuous_ambience\": true,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 96,
+    "totalTokenCount": 336,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "blTBasHlC8aevdIPoZOKiAg"
+}

@@ -1,0 +1,85 @@
+{
+  "number": 18,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-018-shot-r004.mp4",
+  "source_sha256": "f9f16c6ba550011ae9179e9879ce3dc8afab980bcbe2d550b21229ab70691f61",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The three local residents do not continue their exchange; they remain static. The action of exchanging is not completed or settled.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The camera is not locked; there is a subtle zoom in during this segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action's resulting state is not shown as completed; the characters are still static and not engaged in an exchange.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; there is a subtle zoom in during this segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The crop is not a closer crop of the same three residents and the large existing basket; it is a different composition and angle, showing only the upper bodies of the characters and a different background.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The background changes significantly between the first and second segments, from an outdoor market by the water to an indoor market setting with different hanging lamps and wall patterns.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character identities are not perfectly preserved; the facial features and head shapes are slightly different, and the clothing details have minor variations.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The basket contents change; the basket held by the character on the left in the first segment contains green olives, but in the second segment, it contains red berries. The basket held by the character on the right also changes from red berries to green olives.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "Speech in Spanish, followed by a basket sound, then silence.",
+      "music": false,
+      "speech": true,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.2,
+          "description": "Speech in Spanish"
+        },
+        {
+          "start": 2.2,
+          "end": 2.3,
+          "description": "Basket sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the intended action and visual continuity. The characters remain static instead of exchanging goods, and the camera is not locked as specified. A major defect is the significant change in background and composition at the cut, along with alterations to character identities and prop contents. The audio contains unauthorized speech, which is a critical deviation from the prompt's requirement for only brief, isolated natural diegetic effects and silence."
+  }
+}

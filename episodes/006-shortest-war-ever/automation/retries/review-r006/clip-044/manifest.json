@@ -1,0 +1,30 @@
+{
+  "number": 44,
+  "decision": "revise_prompt",
+  "reason": "Atframe0 numerous invented figures are gathered beside throne, including a fallen/sitting figure; intended death conveyed by empty seat becomes an invented ceremony.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-044.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r004.mp4",
+  "baseline_sha256": "61923c120ef1b3b0afedaffa9249d4b46739601ee323ddaf734007ec431e198f",
+  "reviewed_at": "2026-10-03T18:54:33.871716+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 4586814788406179429,
+  "previous_seed": 402137565543356014,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-044/prompts/clip-044.md",
+  "prompt_sha256": "c0a59d9cba46ec1627813b0e627b0b859c82e81bc20e816c5a26ee0ded7aa58f",
+  "job": "006-shortest-war-ever:clip-044:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+      "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "14073d46-5f0a-483e-bf2c-d70502008ced",
+  "job_ids": [
+    "c770ee60-6f48-4bdd-9e00-3b04b207a7c5"
+  ],
+  "submitted_at": "2026-10-03T18:54:34.269944+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-044.jpg"
+}

@@ -1,0 +1,30 @@
+{
+  "number": 43,
+  "decision": "revise_prompt",
+  "reason": "Atframe0 two invented people occupy throne view; later another figure and giant blank board enter scene, violating zero-person contract.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-043.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r004.mp4",
+  "baseline_sha256": "8f0bc3696cfd5a54a2cb1d91eabd8f045c42e14ff3a38aa72be1edf6c244150a",
+  "reviewed_at": "2026-10-03T18:54:33.367091+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 6143303857427767088,
+  "previous_seed": 127194728436828753,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-043/prompts/clip-043.md",
+  "prompt_sha256": "68df2913ecfaf0dc303de7e3f03557a68c7c57b06135b4b80ec41e8da6ae72b0",
+  "job": "006-shortest-war-ever:clip-043:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png",
+      "sha256": "84381b682dd4762338ab1b78badf4a2101dfaf63e6e552d4a61bea9e3d50e421"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "38e2f789-11c8-4c88-b851-9306e6767f8b",
+  "job_ids": [
+    "6096920c-60a0-4d37-a56a-512b2d683080"
+  ],
+  "submitted_at": "2026-10-03T18:54:33.479137+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-043.jpg"
+}

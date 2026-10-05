@@ -1,0 +1,30 @@
+{
+  "number": 77,
+  "decision": "revise_prompt",
+  "reason": "1.5s cut invents three foreground crew holding a maroon banner.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-077.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r004.mp4",
+  "baseline_sha256": "d7006ed3418edaf73efac3392afb98a1d5fdd4e68221c30ae736455db554bcf4",
+  "reviewed_at": "2026-10-03T19:03:50.216529+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 5135651508952306963,
+  "previous_seed": 4749550810909146344,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-077/prompts/clip-077.md",
+  "prompt_sha256": "d1322e2a74ecc7a603d58b795cacdfe1f90dd0b03aa6eeb73755bfa932ec2682",
+  "job": "006-shortest-war-ever:clip-077:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+      "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "990d31ce-13d9-4ef2-ac3b-68e1af64545a",
+  "job_ids": [
+    "834b0e7b-4eb5-4108-b73c-80fdefc7a1a1"
+  ],
+  "submitted_at": "2026-10-03T19:03:50.324261+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-077.jpg"
+}

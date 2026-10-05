@@ -1,0 +1,17 @@
+{
+  "number": 81,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r004.mp4",
+  "source_sha256": "1f13d6d5f42f04e7e535e6bae62becc2fea850416ff27b34c2bf9f36b4162edf",
+  "pcm_sha256": "432e8e09a5230ff1d2ce8dcedbe8967a9441beab051d9f139b960a161cc9016a",
+  "peak_pcm16": 2540,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A continuous, low-frequency hum is present throughout the audio. There are no distinct sounds or speech.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "number": 14,
+  "source": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-014-map-r005.mp4",
+  "source_sha256": "cd22feae3bdaf50fdebd51a126b1eb28683ded51a529d908e8dd3415fb6791c7",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.0,
+        "issue": "The reference image is a blank world map. The actual video shows a world map with three pins already present at the start of the clip. One blue pin is in the UK, one yellow pin is in Germany, and one red pin is on the coast of East Africa. This contradicts the prompt's instruction for an 'empty world chart; exactly zero people, tokens or new labels'.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'drawn stick figures with round off-white heads, dot eyes, thin limbs, bold dark contours and drawn period backgrounds throughout'. The actual video shows a realistic, detailed world map with no stick figures or drawn period backgrounds.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'Native affine zoom settles by 3.50s; hold through 5.00s'. The actual video shows a zoom that starts at 0.0s and continues to zoom in on the red pin until the end of the clip at 5.0s, without settling by 3.50s or holding.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'End: same fixed empty chart; zero people; existing pins and Zanzibar ring unchanged; settled final frame'. The actual video does not end on an empty chart, and the zoom is still in progress at the end of the clip, meaning it is not a settled final frame.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "Speech in Spanish: \"está frente a la costa oriental de África. En un mapa parece un punto pequeño; para\"",
+      "music": false,
+      "speech": true,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "description": "Speech in Spanish"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The video fails to meet the visual and audio requirements of the prompt. Visually, the map is not empty at the start, contains pre-existing pins, and the zoom action does not settle as specified. The artistic style is completely different from the drawn stick figures requested. Audio-wise, there is continuous speech throughout the clip, which directly contradicts the instruction for 'brief isolated natural diegetic effects with silence, no continuous ambience, music, tonal drones, speech, vocal reactions or lip sync'."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "number": 105,
+  "decision": "revise_prompt",
+  "reason": "Frame zero invents huge foreground flag bearer, hiding damaged masonry; reference contains no flag bearer.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-105.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r005.mp4",
+  "baseline_sha256": "6f2eb3d9e183046003667220ed3171c0defee82cd1230418546563c8ffca7ac0",
+  "reviewed_at": "2026-10-03T19:08:00.888101+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 5955589117614390943,
+  "previous_seed": 6059816794904748998,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-105/prompts/clip-105.md",
+  "prompt_sha256": "2aafc68f1a2722a9590fadb1fb32fc6afb50e1b8427d61155aaaa73df1ec0c4d",
+  "job": "006-shortest-war-ever:clip-105:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+      "sha256": "9b684095fa8b4cd93441c33369753be0835f86e8fa0dbf377f87512d5e38c712"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "562c402f-2f9b-4777-813b-27d7de41d627",
+  "job_ids": [
+    "ca1f79d3-a139-4388-b93d-a34bed9d1165"
+  ],
+  "submitted_at": "2026-10-03T19:08:01.036492+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-105.jpg"
+}

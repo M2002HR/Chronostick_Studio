@@ -1,0 +1,30 @@
+{
+  "number": 96,
+  "decision": "revise_prompt",
+  "reason": "Entire clip invents many civilians standing in water in front of wreck.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-096.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r004.mp4",
+  "baseline_sha256": "51f90e705914e534ef1f276ce47f07e56e4f16597c29566a72aa89aca56b906c",
+  "reviewed_at": "2026-10-03T19:06:33.481438+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2427734541796148334,
+  "previous_seed": 2549878443527253970,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-096/prompts/clip-096.md",
+  "prompt_sha256": "8de4741f8dc56f2acbdfe35dd15d7d6143f5c21c385dd97db5658a1eedbefd32",
+  "job": "006-shortest-war-ever:clip-096:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+      "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "9c239dab-1375-4aab-b494-f798752e7349",
+  "job_ids": [
+    "51b7736e-e823-4771-97fc-3d3598469beb"
+  ],
+  "submitted_at": "2026-10-03T19:06:33.603598+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-096.jpg"
+}

@@ -1,0 +1,17 @@
+{
+  "number": 110,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r004.mp4",
+  "source_sha256": "419676e44e5f9f63f4964dbafae49e6ff5bf0e12f74d7cd68008f848a5c28dc4",
+  "pcm_sha256": "4bd813396777b73f6e1b379bc721ffb03cd341a0d467587cef4699b9de92afbd",
+  "peak_pcm16": 1347,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thump' sound is heard, followed by a brief period of silence, and then a series of rustling sounds.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

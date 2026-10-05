@@ -1,0 +1,17 @@
+{
+  "number": 59,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r004.mp4",
+  "source_sha256": "bb8ef50dc6c4a4da60ac660bb695fa6d0b6db27bcd0387416dc9d681113acc2d",
+  "pcm_sha256": "4135489f2ec31fe646a2f849aacbb5b9a92ae8399e08bf27a6de2082241dd27a",
+  "peak_pcm16": 11362,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'meow' from a cat, followed by a brief silence, and then a sustained, low-frequency hum or drone. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

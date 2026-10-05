@@ -1,0 +1,17 @@
+{
+  "number": 75,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-075-shot-r004.mp4",
+  "source_sha256": "58c3b21406e400436fb32580ba0e670393264ad7ac602637b458e7b75c02d394",
+  "pcm_sha256": "24a1a11876411a7d53491475392186f7244f01631a7d8c16cb3899317ba0dfb4",
+  "peak_pcm16": 9626,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, distinct, high-pitched musical phrase with a clear melody and harmony, followed by a sustained, low-frequency hum or drone.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

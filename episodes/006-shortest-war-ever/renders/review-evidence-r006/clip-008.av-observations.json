@@ -1,0 +1,68 @@
+{
+  "number": 8,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-008-shot-r004.mp4",
+  "source_sha256": "54bc45a0184b27d7f93865665367695b499a09728a391a06c085241893d80cef",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "issue": "Khalid's head and body morph slightly, and his right arm moves slightly, during the 'establish the unchanged scene' phase, which should be static.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.8,
+        "end": 3.5,
+        "issue": "Khalid's action is not a 'tense glance' but rather a series of head movements, a slight body shift, and a hand gesture that does not align with 'gives the clock one tense glance'. His hand moves from his chin to his side.",
+        "severity": "major"
+      },
+      {
+        "start": 0.8,
+        "end": 3.5,
+        "issue": "The clock's minute hand moves slightly between 0.80s and 3.50s, which contradicts 'The brass clock's existing hand angles and dial marks stay fixed'.",
+        "severity": "minor"
+      },
+      {
+        "start": 3.5,
+        "end": 5.0,
+        "issue": "Khalid's head and body continue to morph slightly during the 'hold the resolved scene' phase, which should be static.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The '08:59' text on the enamel placard is not perfectly steady and legible throughout the animation; it flickers and slightly changes shape and position.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The background elements, such as the ships in the harbor and the distant city, show slight morphing and flickering, contradicting 'The pictured clear blue sky, golden cloud shapes, clear air, calm water and intact shore silhouettes remain identical from first to last frame'.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "One isolated mechanical tick, then silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.001,
+          "end": 0.002,
+          "description": "Isolated mechanical tick"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [],
+    "final_resolved": false,
+    "exact_text_seen": [
+      "08:59"
+    ],
+    "summary": "The animation fails to maintain a continuous locked shot with static background elements and a fixed clock as specified. Khalid's action does not match the 'tense glance' description, and the '08:59' text is not perfectly steady. The audio correctly features a single mechanical tick followed by silence."
+  }
+}

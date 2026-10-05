@@ -1,0 +1,17 @@
+{
+  "number": 13,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r005.mp4",
+  "source_sha256": "f99efb852d8ef681887fcd6205499279eab679613a6b31e717b13a0c28b0721f",
+  "pcm_sha256": "121be88fb8ed8be43a1a499796e1dac40bd545b7f25fc721ff9d84591b1f8913",
+  "peak_pcm16": 21819,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A person speaking, with background sounds of indistinct chatter and a continuous, low-level hum. The speech is clear but the words are not fully discernible. No music or distinct tonal bed is present.",
+    "speech": true,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "medium"
+  }
+}

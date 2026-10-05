@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "engine": "framewise-spandrel-batched",
+  "model": {
+    "path": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+    "scale": 4
+  },
+  "input": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4",
+  "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1920x1080-r001.mp4",
+  "source": {
+    "width": 1024,
+    "height": 576,
+    "fps": 24.0,
+    "frames": 15720,
+    "duration": 655.021333,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 289773526
+  },
+  "final": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 15720,
+    "duration": 655.021333,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 1185589953
+  },
+  "settings": {
+    "input": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4",
+    "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/picture-sfx-1920x1080-r001.mp4",
+    "model": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "width": 1920,
+    "height": 1080,
+    "fit": "cover",
+    "tile": 1024,
+    "overlap": 32,
+    "batch_size": 1,
+    "precision": "fp16",
+    "blend": 1.0,
+    "crf": 16,
+    "preset": "medium",
+    "progress_every": 120,
+    "overwrite": false
+  },
+  "batching": {
+    "effective_batch_size": 1,
+    "largest_successful_batch": 1,
+    "fallbacks": []
+  },
+  "started_at": "2026-10-05T06:26:00.571141+00:00",
+  "completed_at": "2026-10-05T10:14:43.238603+00:00",
+  "elapsed_seconds": 13722.667,
+  "processing_fps": 1.146,
+  "resources": {
+    "sample_count": 132,
+    "gpu_memory_used_mib_peak": 10886.0,
+    "gpu_utilization_percent_average": 84.227,
+    "gpu_power_w_peak": 127.03,
+    "gpu_temperature_c_peak": 60.0
+  }
+}

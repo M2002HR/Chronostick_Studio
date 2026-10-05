@@ -1,0 +1,190 @@
+{
+  "id": "009c432e-2d25-4824-8090-d1aa27948fa0",
+  "type": "generation",
+  "status": "queued",
+  "created_at": "2026-10-02T00:24:02.603495+00:00",
+  "updated_at": "2026-10-02T00:24:02.619275+00:00",
+  "comfy_prompt_id": null,
+  "batch_id": null,
+  "error_json": null,
+  "retry_count": 0,
+  "seed": 8441670039654859411,
+  "template_version": "1.0.0",
+  "template_hash": "4d8f4ccec5b7a0caa70346f3a261b3aec8f9935a23fa75c2eb41a8ba251d4a35",
+  "stage": "queued",
+  "progress_current": 0.0,
+  "progress_total": null,
+  "progress_percent": 0.0,
+  "metrics_json": null,
+  "request": {
+    "schema_version": "1.0",
+    "template": "h3_ref2va",
+    "profile": "youtube_shorts_hq",
+    "prompt": {
+      "text": null,
+      "file": "episodes/006-shortest-war-ever/prompts/clip-064.md"
+    },
+    "references": [
+      {
+        "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-prebattle-r001.png",
+        "role": "scene",
+        "name": "Picture 1"
+      }
+    ],
+    "generation": {
+      "aspect_ratio": "16:9",
+      "megapixel": 0.6,
+      "width": 1024,
+      "height": 576,
+      "duration_seconds": 5.0,
+      "fps": 24.0,
+      "steps": 12,
+      "sampler": "res_multistep",
+      "scheduler": "beta",
+      "seed": 8441670039654859411,
+      "seed_mode": "fixed",
+      "project_seed": 123456,
+      "lightning": false,
+      "ref_image_size": "match",
+      "loras": []
+    },
+    "audio": {
+      "enabled": true,
+      "mode": "sfx_only",
+      "dialogue": false,
+      "narration": false,
+      "music": false,
+      "prompt_suffix": null,
+      "require_audio_stream": true
+    },
+    "output": {
+      "directory": "episodes/006-shortest-war-ever/renders/pilot",
+      "prefix": "pilot-map-064-r002",
+      "container": "mp4",
+      "overwrite": false,
+      "editorial_directory": "episodes/006-shortest-war-ever/renders/pilot/editorial",
+      "editorial_duration_seconds": 5.0
+    },
+    "postprocess": {
+      "concat": false,
+      "upscale": false
+    },
+    "advanced": {
+      "engine_options": {},
+      "node_overrides": {}
+    },
+    "job_identity": "006-shortest-war-ever:pilot-map-064:r002"
+  },
+  "resolved": {
+    "schema_version": "1.0",
+    "template": "h3_ref2va",
+    "profile": "youtube_shorts_hq",
+    "prompt": {
+      "text": null,
+      "file": "episodes/006-shortest-war-ever/prompts/clip-064.md"
+    },
+    "references": [
+      {
+        "path": "assets/episodes/006-shortest-war-ever/references/map-harbour-prebattle-r001.png",
+        "role": "scene",
+        "name": "Picture 1"
+      }
+    ],
+    "generation": {
+      "aspect_ratio": "16:9",
+      "megapixel": 0.6,
+      "width": 1024,
+      "height": 576,
+      "duration_seconds": 5.0,
+      "fps": 24.0,
+      "steps": 12,
+      "sampler": "res_multistep",
+      "scheduler": "beta",
+      "seed": 8441670039654859411,
+      "seed_mode": "fixed",
+      "project_seed": 123456,
+      "lightning": false,
+      "ref_image_size": "match",
+      "loras": []
+    },
+    "audio": {
+      "enabled": true,
+      "mode": "sfx_only",
+      "dialogue": false,
+      "narration": false,
+      "music": false,
+      "prompt_suffix": null,
+      "require_audio_stream": true
+    },
+    "output": {
+      "directory": "episodes/006-shortest-war-ever/renders/pilot",
+      "prefix": "pilot-map-064-r002",
+      "container": "mp4",
+      "overwrite": false,
+      "editorial_directory": "episodes/006-shortest-war-ever/renders/pilot/editorial",
+      "editorial_duration_seconds": 5.0
+    },
+    "postprocess": {
+      "concat": false,
+      "upscale": false
+    },
+    "advanced": {
+      "engine_options": {},
+      "node_overrides": {}
+    },
+    "job_identity": "006-shortest-war-ever:pilot-map-064:r002",
+    "prompt_text": "Create exactly 5.00 seconds of landscape 16:9 animation at 24 fps, composed for 1024×576. <Picture 1> is the sole full-frame scene reference and controls exact setting, figure silhouettes, illustrated surface, object count and placement. Render every pixel as one cohesive detailed hand-inked ChronoStick world: round off-white heads, tiny black dot eyes, spare stick limbs, bold clean dark contours, period-grounded clothing and vessels, muted sand, parchment, teal and navy, soft drawn shadows. The immediate story phase is 27 August 1896 before 09:00; palace and Glasgow intact. The visible starting inventory is schematic west/left water, east/right palace, five British ship icons and one separate Glasgow icon. Keep the composition locked orthographic top-down illustrated map; coastline and icon positions remain fixed. The camera is locked camera with no zoom, pan or roll. From 0.00 to 0.80 seconds, establish the reference's existing physical arrangement, steady light, subject count and object condition. From 0.80 to 3.80 seconds, perform exactly this one primary visible action: The tactical diagram shows British ships to the west/left, palace east/right, Glasgow separate. Limit background activity to at most a slight cloth, water or smoke movement already present in the reference. From 3.80 to 4.60 seconds, stop the primary action and preserve its resulting positions and damage state. From 4.60 to 5.00 seconds, hold a fully resolved final frame with no new event, jump, duplication or camera movement. Stable fixed coastline, western water at screen left and palace on eastern screen right; all existing ships retain their icon positions. No readable letters, digits, labels, dates or captions appear anywhere in this clip. Sound: one dry paper/map rustle, then silence; leave silence between isolated effects. No speech, generated narration, vocal reactions, mouth movement tied to speech, subtitles, lyric text, montage panels, alternate views, extra foreground people, extra ships or photorealistic pixels. NO BACKGROUND MUSIC. Natural diegetic sound effects only.\n\nAUDIO LOCK — SOUND EFFECTS ONLY. Generate only literal, natural, synchronized diegetic sound effects caused by the visible actions and environment.\nNo music. Do not generate music or musical sound design of any kind: no melody, harmony, rhythm bed, beat, percussion, tonal drone, tonal pad, pulse, strings, piano, synth, choir, cinematic score, soundtrack, transition sting, or singing. Do not turn wind, engines, rumbles, ambience, or impacts into tonal or rhythmic music.\nNo dialogue. No narration. No speech. No whispers. No human vocalization. No voices.\nNO BACKGROUND MUSIC. Natural diegetic sound effects only.",
+    "reference_paths": [
+      "/home/mhr/Code/chronostick-studio/assets/episodes/006-shortest-war-ever/references/map-harbour-prebattle-r001.png"
+    ],
+    "width": 1024,
+    "height": 576,
+    "frame_count": 124,
+    "steps": 12,
+    "seed": 8441670039654859411,
+    "lightning": false,
+    "output_directory": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/pilot",
+    "editorial_output_directory": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/renders/pilot/editorial",
+    "output_prefix": "pilot-map-064-r002",
+    "models": {
+      "diffusion_model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "text_encoder": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "video_vae": "minimax_h3_video_vae_fp16.safetensors",
+      "audio_vae": "minimax_h3_audio_vae_fp32.safetensors",
+      "lightning_lora": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+    },
+    "template_metadata": {
+      "name": "h3_ref2va",
+      "version": "1.0.0",
+      "description": "MiniMax H3 reference-image to video with native audio",
+      "required_nodes": [
+        "UNETLoader",
+        "CLIPLoader",
+        "VAELoader",
+        "LoadImage",
+        "MiniMaxH3ReferenceToVideo",
+        "RandomNoise",
+        "BasicGuider",
+        "KSamplerSelect",
+        "BasicScheduler",
+        "SamplerCustomAdvanced",
+        "VAEDecode",
+        "VAEDecodeAudio",
+        "CreateVideo",
+        "SaveVideo"
+      ],
+      "model_requirements": {
+        "diffusion_model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "text_encoder": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "video_vae": "minimax_h3_video_vae_fp16.safetensors",
+        "audio_vae": "minimax_h3_audio_vae_fp32.safetensors",
+        "lightning_lora": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+      },
+      "hash": "4d8f4ccec5b7a0caa70346f3a261b3aec8f9935a23fa75c2eb41a8ba251d4a35"
+    }
+  },
+  "output_files": [],
+  "error": null,
+  "warnings": [],
+  "metrics": null
+}

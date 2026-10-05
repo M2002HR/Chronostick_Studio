@@ -1,0 +1,30 @@
+{
+  "number": 100,
+  "decision": "revise_prompt",
+  "reason": "4.0s close-up changes into a white blurred vignette instead of full-frame drawn scene.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-100.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r004.mp4",
+  "baseline_sha256": "887eab8290eff553f8370475871be49619c73a4f46e23f5f9e2ee0f89d79e781",
+  "reviewed_at": "2026-10-03T19:06:34.818738+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 1664985978127340286,
+  "previous_seed": 4997138332593350267,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-100/prompts/clip-100.md",
+  "prompt_sha256": "41baadef7b7313dee2af5fbef18235a696d2e1930e3c5d04a418bc8b5d505166",
+  "job": "006-shortest-war-ever:clip-100:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png",
+      "sha256": "23ef05e6a14a795cd8fb650205a51b35702f1c5c80cd32b78b1a408e8f3a2749"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "cf26f62b-05bc-4cba-abc7-1cf2bb727160",
+  "job_ids": [
+    "88d6c18e-671d-4ed7-a29b-e348ad1c7136"
+  ],
+  "submitted_at": "2026-10-03T19:06:34.938729+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-100.jpg"
+}

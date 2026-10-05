@@ -1,0 +1,17 @@
+{
+  "number": 123,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r004.mp4",
+  "source_sha256": "539f6cb7bfe6369d66ade4c24f3b83409ef645d32082f1873529bd58543e334e",
+  "pcm_sha256": "fdbbfa3905dd3a1bf7f9f6c9c8e3fb3d52ada752c70cd431438d35273188deca",
+  "peak_pcm16": 5811,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A car door opens and closes, followed by a brief, low-pitched hum. A soft, melancholic piano melody then begins, accompanied by a sustained, ambient pad sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

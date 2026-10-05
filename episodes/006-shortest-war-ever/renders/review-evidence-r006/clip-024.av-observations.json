@@ -1,0 +1,73 @@
+{
+  "number": 24,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r004.mp4",
+  "source_sha256": "deccdfc56f139d6b6e7aa3ce8d0a4fd86af8a80b03197e5f449380ec69ccd5da",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The initial frame does not exactly match the reference image. The worker's head is slightly different, and the rope coil on the ground is not identical.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The rope end does not shift slightly as described. Instead, the worker's hands appear to be hovering over the rope without direct interaction, and the rope itself does not move.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action of the rope shifting is not 'already completed' at the start of the second shot. The worker's hands are still hovering, and the rope only begins to move and be picked up from 3.5 seconds onwards, which contradicts the prompt's instruction for the action to be completed by 2.10s and the second shot to show the resulting state.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The worker's hands are mitten-like in the first shot but become more articulated and finger-like in the second shot, which is an anatomical morphing and identity change.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The rope coil on the ground in the first shot is not present in the second shot, indicating a prop removal that was not authorized by the prompt.",
+        "severity": "major"
+      },
+      {
+        "start": 3.5,
+        "end": 5.0,
+        "issue": "The action of the worker picking up the rope is not 'unreadable action' but it is an unauthorized action as the prompt specified only a 'slight shift' of one rope end and for the action to be completed by 2.10s, with the second shot showing the 'already completed action's resulting state'. The worker actively picking up the rope is a new, unprompted action.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A brief, isolated 'thump' or 'clunk' sound, followed by silence, then a 'whoosh' or 'swish' sound, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.99,
+          "end": 1.09,
+          "description": "A brief 'thump' or 'clunk' sound, possibly wood or rope."
+        },
+        {
+          "start": 3.5,
+          "end": 3.6,
+          "description": "A 'whoosh' or 'swish' sound as the rope is picked up."
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the reference image at the start and deviates significantly from the intended action and timing. The rope action is not a 'slight shift' but a full pickup, and it occurs much later than specified. There are also visual inconsistencies in the worker's hands and the presence of props between cuts. The audio includes two distinct diegetic sounds, which aligns with the prompt's request for 'one brief literal wicker, rope or wood touch, then silence' but the second sound is not explicitly requested."
+  }
+}

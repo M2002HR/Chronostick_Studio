@@ -1,0 +1,60 @@
+{
+  "number": 21,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r005.mp4",
+  "source_sha256": "2f997bf9d87af5db7db815ee444b9dc7e90eb966fdba1aa49094fb7a61bfb129",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.05,
+        "issue": "The nearer sailor does not tighten his grip on the cannon carriage. Instead, the cannon fires immediately at the start of the clip.",
+        "severity": "major"
+      },
+      {
+        "start": 0.05,
+        "end": 2.3,
+        "issue": "The cannon fires with a flash and smoke, which directly contradicts the prompt's instruction for the loaded gun to remain completely quiet and for no cannon flash, blast, battle smoke, damage, or firing order.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "A small ship appears in the background on the water, which was not present in the reference image and contradicts the 'zero other visible warships' instruction.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A loud cannon blast followed by a ship creak and then silence, followed by a brief musical flourish.",
+      "music": true,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.05,
+          "end": 0.08,
+          "description": "Cannon blast"
+        },
+        {
+          "start": 2.7,
+          "end": 2.78,
+          "description": "Ship creak"
+        },
+        {
+          "start": 3.5,
+          "end": 4.0,
+          "description": "Musical flourish"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to follow the primary action instruction for the nearer sailor and the cannon. Instead of the sailor tightening his grip and the cannon remaining quiet, the cannon fires immediately with a flash and smoke. The audio also includes a cannon blast and unauthorized music, directly contradicting the prompt. Additionally, a new ship appears in the background in the second shot."
+  }
+}

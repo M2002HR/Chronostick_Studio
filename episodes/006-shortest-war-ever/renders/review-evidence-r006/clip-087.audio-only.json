@@ -1,0 +1,17 @@
+{
+  "number": 87,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-087-shot-r004.mp4",
+  "source_sha256": "c3e0d52ed81abf6afbcd4871e0f0e65d8337ae40b794d91e2d3fc4a5db4c8403",
+  "pcm_sha256": "c61e312be89696817234d849ceaf7f5433728c5516987554b2edeadd8d1aac9f",
+  "peak_pcm16": 13919,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A low, sustained hum or drone with a distinct, deep 'thump' sound occurring once. There is a subtle, continuous ambient background noise throughout the clip.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

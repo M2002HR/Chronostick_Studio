@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The basket holder (trader on the left) does not make any adjustment to the basket. The action is unreadable.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The camera is not locked; it slowly zooms in during the first shot.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The camera is not locked; it slowly zooms in during the second shot.\",\n      \"severity\": \"minor\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"A brief, isolated, high-pitched string pluck sound, followed by silence.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.0,\n        \"end\": 0.08,\n        \"description\": \"String pluck sound\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.3\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to execute the specified action of the basket holder making an adjustment. The camera also fails to remain locked in both shots, exhibiting a slow zoom. The audio contains a single string pluck sound, which does not match the requested 'small cloth, water or masonry sound appropriate to the single declared action'.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17601,
+    "candidatesTokenCount": 410,
+    "totalTokenCount": 18011,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1139
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "1E7BaobMBLSDvdIPpd3z6Ak"
+}

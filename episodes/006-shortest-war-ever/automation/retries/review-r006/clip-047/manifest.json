@@ -1,0 +1,31 @@
+{
+  "number": 47,
+  "decision": "retry",
+  "reason": "Frame0 giant cream cloth covers almost entire composition; second shot cuts face off and adds wrapping cloth, destroying clean fixed identity comparison.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-047.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r004.mp4",
+  "baseline_sha256": "2f0ec53f6c6c5f437b84bd0f389abbee70d527b9e76624e25fbc7017c1faaec8",
+  "reviewed_at": "2026-10-03T18:54:35.140967+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8780210556760100772,
+  "previous_seed": 2068170925864219353,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-047/prompts/clip-047.md",
+  "prompt_sha256": "c32233f745356c9486cc82a615dee5a065cfe670e4d86974a652ff03d2ff0445",
+  "job": "006-shortest-war-ever:clip-047:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+      "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "4072fbd1-570d-46d5-80e6-8bfa508c7977",
+  "job_ids": [
+    "a85c598d-9520-4d34-9bcc-248a56368f1f"
+  ],
+  "submitted_at": "2026-10-03T18:54:35.253982+00:00",
+  "prompt_revision_note": "The r006 batch was submitted with the original sound single-person specification and a new fixed seed. More explicit standing/sash/crop direction has since been saved to active prompt; it is not the frozen r006 input. If r006 fails, use that direction for a new immutable attempt.",
+  "evidence_label": "renders/review-evidence-r006/clip-047.jpg"
+}

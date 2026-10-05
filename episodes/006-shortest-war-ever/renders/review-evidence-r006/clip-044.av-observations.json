@@ -1,0 +1,71 @@
+{
+  "number": 44,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r004.mp4",
+  "source_sha256": "61923c120ef1b3b0afedaffa9249d4b46739601ee323ddaf734007ec431e198f",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The scene shows six stick figures in the council chamber, whereas the prompt explicitly states 'exactly zero people'. This is a major deviation from the intended composition.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The action described in the prompt is 'The silent empty throne conveys Hamad’s death and an open succession without showing a body.' However, the presence of multiple figures, one of whom is holding a box and interacting, contradicts the 'empty throne' and 'silent' aspects of the intended action.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second segment of the animation is supposed to be 'a closer crop of the same empty throne back and arm, with exactly zero people'. The actual video shows a closer crop, but it still includes a stick figure's arm and body on the left side of the frame, violating the 'exactly zero people' instruction.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The overall visual content of the animation, featuring stick figures, is a complete departure from the reference image which depicts an empty, ornate council chamber. The prompt's instruction to use the 'pictured scene as the literal first frame' and maintain the 'same detailed hand-inked ChronoStick world' was not followed in terms of subject matter.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A distinct 'thump' sound is heard at 0.00s, followed by a 'clink' at 0.01s, and then footsteps at 0.02s and 0.04s.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "description": "Thump sound"
+        },
+        {
+          "start": 0.01,
+          "end": 0.01,
+          "description": "Clink sound"
+        },
+        {
+          "start": 0.02,
+          "end": 0.02,
+          "description": "Footstep sound"
+        },
+        {
+          "start": 0.04,
+          "end": 0.04,
+          "description": "Footstep sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the visual requirements of the prompt and reference image significantly. Instead of an empty throne, the scene is populated with six stick figures, and the intended action of an empty throne conveying death and succession is entirely absent. The audio, while consisting of isolated diegetic effects, was not explicitly requested in the prompt's sound instructions, which specified 'silence'. The presence of characters and their actions directly contradicts the core visual and narrative intent."
+  }
+}

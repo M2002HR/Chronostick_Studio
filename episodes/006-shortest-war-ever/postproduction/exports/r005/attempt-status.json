@@ -1,0 +1,5 @@
+{
+  "status": "superseded_during_preparation",
+  "reason": "Latest user typography supersedes 60px/68px margin with 64px and 88px bottom inset. Keep single-line, 80% width and explicit provider boundary repairs. r006 is the replacement.",
+  "approval": null
+}

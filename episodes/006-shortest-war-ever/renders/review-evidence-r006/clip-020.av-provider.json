@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The messenger character is not quietly in place; they are walking and their head is bobbing. The ripple action is not visible.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The prompt requested a closer crop of the same palace with broad water still visible, but the water is not visible in the second shot.\",\n      \"severity\": \"major\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"One distinct 'plop' sound, followed by silence.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.9,\n        \"end\": 1.0,\n        \"description\": \"A 'plop' sound, like a small object falling into water.\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.3\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to match the visual action and cropping instructions. The messenger is walking instead of remaining still, and the ripple action is not visible. The second shot does not include broad water as requested. The audio correctly features a single diegetic sound event followed by silence.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17503,
+    "candidatesTokenCount": 366,
+    "totalTokenCount": 17869,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1041
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "ak7BaoemOMXhvdIPq9DU0Ak"
+}

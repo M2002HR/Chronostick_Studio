@@ -1,0 +1,5 @@
+{
+  "at": "2026-10-03T19:28:35.837790+00:00",
+  "job_identity": "006-shortest-war-ever:clip-010:r007",
+  "instruction": "Inspect persisted service state if receipt is missing; do not blindly resubmit."
+}

@@ -1,0 +1,30 @@
+{
+  "number": 58,
+  "decision": "revise_prompt",
+  "reason": "Duplicate Rawson from frame zero; invented haze and paper marks.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-058.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r004.mp4",
+  "baseline_sha256": "5c9dd6fac1592eff67070290c84beaeb0a006650032ec3454b82fb9e340ca0a9",
+  "reviewed_at": "2026-10-03T19:02:04.052177+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 5385514967370872332,
+  "previous_seed": 3981380873701461889,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-058/prompts/clip-058.md",
+  "prompt_sha256": "8e62c7d13d7e94ed71cd8e5fcc0cb83d425695f40c8e97ae78575394a81ab8a1",
+  "job": "006-shortest-war-ever:clip-058:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "608c3fce-a802-4f8a-9ca4-6ae0ae1911ec",
+  "job_ids": [
+    "896318b5-b4fa-4ced-9949-ba4f97d25fe1"
+  ],
+  "submitted_at": "2026-10-03T19:02:04.158410+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-058.jpg"
+}

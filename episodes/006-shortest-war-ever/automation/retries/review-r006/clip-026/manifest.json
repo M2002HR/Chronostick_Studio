@@ -1,0 +1,30 @@
+{
+  "number": 26,
+  "decision": "revise_prompt",
+  "reason": "At1.75–4.96s a new close view invents rope handling and continues moving through the final hold, rather than head turn and settled crate/rope.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-026.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r004.mp4",
+  "baseline_sha256": "ed687416a36c19b857e6e962b108bb1fc7a42aacfa604315198239614a7c71dd",
+  "reviewed_at": "2026-10-03T18:52:33.735032+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 7471746438645020983,
+  "previous_seed": 4381957805740973404,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-026/prompts/clip-026.md",
+  "prompt_sha256": "e7dd72b6bab2e1090d1181f15165ad76d943fad3b2d2870020d138abb9cf002b",
+  "job": "006-shortest-war-ever:clip-026:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+      "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "90ef0b48-7fa4-420f-b729-96beebf71743",
+  "job_ids": [
+    "3e7fa7e8-6ed8-42fb-b7e5-8049921af591"
+  ],
+  "submitted_at": "2026-10-03T18:52:33.845059+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-026.jpg"
+}

@@ -1,0 +1,50 @@
+{
+  "number": 13,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r005.mp4",
+  "source_sha256": "f99efb852d8ef681887fcd6205499279eab679613a6b31e717b13a0c28b0721f",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The messenger character is holding an envelope and looking at it, rather than quietly facing the intact shore as specified in the action. This is an unauthorized action.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The messenger character's head and body subtly morph and shift throughout the first shot, indicating anatomical morphing.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The dhow in the water subtly shifts and morphs, particularly its sail and hull, indicating rigid-object morphing.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The dhow in the water subtly shifts and morphs, particularly its sail and hull, indicating rigid-object morphing.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "I thought insiders knew Gring X is there and it.",
+      "music": false,
+      "speech": true,
+      "tonal_bed": false,
+      "events": [],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the specified action for the messenger character, who is actively looking at an envelope instead of quietly facing the shore. There is also subtle morphing of both the messenger and the dhow throughout the animation. The audio contains unauthorized speech, which is a major deviation from the prompt's requirement for only brief, isolated natural diegetic effects and silence."
+  }
+}

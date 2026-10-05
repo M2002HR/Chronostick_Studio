@@ -1,0 +1,17 @@
+{
+  "number": 109,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-109-shot-r004.mp4",
+  "source_sha256": "01e7476dfcb2e3f6e36180a3395bf526c6ca89b0bc9ab51087af6b7ebc371ca0",
+  "pcm_sha256": "eadfa4dfa645e458143edf70be4fde77047a7598117e77cdf23e079cdce7383e",
+  "peak_pcm16": 4937,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, high-pitched string instrument plays a melodic, somewhat melancholic tune. There is no speech, and the sound is continuous.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

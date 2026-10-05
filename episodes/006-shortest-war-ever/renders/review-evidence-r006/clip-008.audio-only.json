@@ -1,0 +1,17 @@
+{
+  "number": 8,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-008-shot-r004.mp4",
+  "source_sha256": "54bc45a0184b27d7f93865665367695b499a09728a391a06c085241893d80cef",
+  "pcm_sha256": "a41a2879fdefe97aab38be8606d995ab98632c8bbde4955e6487386a58ede798",
+  "peak_pcm16": 24271,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A bird chirping, a distinct 'thud' sound, and a continuous ambient hum.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

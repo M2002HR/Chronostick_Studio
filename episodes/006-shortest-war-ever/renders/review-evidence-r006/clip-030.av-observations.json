@@ -1,0 +1,67 @@
+{
+  "number": 30,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r005.mp4",
+  "source_sha256": "a2feceadcb08347e8ff6f407b51853985e76ff9d9c5673e75440548ed9741030",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.08,
+        "issue": "The charcoal-coated official's dispatch is already nudged slightly to the left at the start of the clip, before the action is supposed to begin.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.08,
+        "end": 0.17,
+        "issue": "The charcoal-coated official's dispatch moves further to the left, then snaps back to its initial slightly nudged position, then moves again to the left. This is not a smooth 'nudges...then stops' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The charcoal-coated official's dispatch is nudged by 0.17s, but the prompt states 'Complete by 2.10s. Camera locked; hold from 2.10s.' The action is completed too early.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is a closer crop of the dispatches, but the dispatches are not centered in the frame as would be expected for a 'closer crop of the same two separate sealed dispatches'. The left dispatch is partially cut off.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt states 'Hold the already completed action and existing world state; no second action.' However, the dispatches appear to shift slightly in position and size during the second shot, indicating a lack of a perfectly held state.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A short dry parchment scuff is heard at 0.08s, followed by silence. Another short dry parchment scuff is heard at 3.75s, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.08,
+          "end": 0.17,
+          "description": "dry parchment scuff"
+        },
+        {
+          "start": 3.75,
+          "end": 3.83,
+          "description": "dry parchment scuff"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation shows two stick figure officials at a desk with two sealed dispatches. The charcoal-coated official nudges his dispatch, but the movement is not smooth and occurs too early compared to the prompt. The second shot is a closer crop of the dispatches, but they are not centered and appear to shift slightly. Two parchment scuff sounds are heard, one at the beginning of the first shot and another during the second shot, which deviates from the prompt's 'one short dry parchment scuff, then silence'."
+  }
+}

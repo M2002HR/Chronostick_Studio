@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.0",
+  "reviewer": "Codex actual dense-frame review",
+  "clips": [
+    {
+      "number": 26,
+      "lock": "One ivory-turbaned cream-robed worker with his existing simple black mitten hands, one timber crate and one stationary rope coil. The tied wooden dhow stays rigid and fixed. The worker only turns his head toward the palace; both hands stay in their initial resting positions. The rope coil stays on the quay untouched and retains every loop.",
+      "crop": "a modest locked crop of the original crate and stationary rope coil, retaining only the SAME already visible attached forearm at the same scale",
+      "reason": "At1.75–4.96s a new close view invents rope handling and continues moving through the final hold, rather than head turn and settled crate/rope.",
+      "evidence": "renders/review-evidence-r006/clip-026.jpg"
+    },
+    {
+      "number": 27,
+      "lock": "Exactly three existing residents keep their screen positions, cream-turbaned trader left, navy-turbaned shopper center, cream/red-shawled woman right. They pause without passing objects. Every existing basket stays with its original owner and size.",
+      "crop": "a modest static crop of the SAME three residents in SAME left-center-right order, with their original baskets",
+      "reason": "At2.00s the second shot swaps navy shopper and woman, invents shared oversized basket and extra fruit-transfer action during the intended pause.",
+      "evidence": "renders/review-evidence-r006/clip-027.jpg"
+    },
+    {
+      "number": 28,
+      "lock": "Exactly three original market residents keep clothing and ownership unchanged: cream trader left, navy/ochre shopper center, red/cream resident right. The shopper's BOTH sleeves remain NAVY with ochre trim. The existing green fruit stay small and rigid in the original basket. Camera is fixed within each shot.",
+      "crop": "a modest STATIC crop of the existing large basket and its cream-robed holder with original fruit scale",
+      "reason": "At0.50s navy sleeve changes to purple, then continuous zoom drifts through final frame with no settled hold.",
+      "evidence": "renders/review-evidence-r006/clip-028.jpg"
+    },
+    {
+      "number": 30,
+      "lock": "Exactly TWO seated clean-shaven officials: navy/gold left and charcoal/ochre right, one head and two attached hands each. Exactly TWO separate closed cream wax-sealed dispatches stay in front of their original owners. Only the charcoal official slides his OWN dispatch a few centimetres and stops; the navy one keeps still.",
+      "crop": "a modest static crop of the SAME TWO dispatches at their respective original left and right desk positions, with fixed sealed ends",
+      "reason": "At1.50–2.00s officials overlap/morph into one hybrid body while desk geometry and dispatch positions change; later continuous drift persists.",
+      "evidence": "renders/review-evidence-r006/clip-030.jpg"
+    },
+    {
+      "number": 31,
+      "lock": "Exactly one cream-robed ivory-turbaned messenger with his pictured black mitten hands and exactly one closed blank cream scroll. The scroll is held at chest height and keeps rigid cream silhouette. Keep the ENTIRE scroll readable as a physical unlettered prop, with both ends visible, after the cut.",
+      "crop": "a modest fixed crop of the ENTIRE one cream closed scroll, its two ends and attached hands, with same palace beyond",
+      "reason": "At2.375s extreme chest crop cuts the cream scroll almost completely out of frame; held-message action becomes unreadable.",
+      "evidence": "renders/review-evidence-r006/clip-031.jpg"
+    },
+    {
+      "number": 32,
+      "lock": "Exactly five British vessels retain reference-scale rigid hulls, masts and their positions across the harbour. Only the already pictured tiny deck occupants remain at their existing tiny scale; no foreground faces. Camera stays fixed during each shot and all ships remain moored.",
+      "crop": "a modest static crop of the nearest ORIGINAL hull waterline and existing chain, preserving the panoramic quay viewpoint",
+      "reason": "Continuous zoom invents close deck coverage and foreground residents, displacing initial fleet view and drifting to final frame.",
+      "evidence": "renders/review-evidence-r006/clip-032.jpg"
+    },
+    {
+      "number": 33,
+      "lock": "Exactly five British vessels remain at fixed reference stations and scales until the ONE framing cut. Their existing tiny deck silhouettes stay tiny; zero new foreground people. The first shot is the full original panorama and the second is only a modest hull-waterline crop.",
+      "crop": "a modest STATIC crop of original nearest hull waterline and chain from same quay camera height",
+      "reason": "Initial shot replaces full panorama with unsupported enlarged deck and crew; continuous drift replaces planned cut and final hold.",
+      "evidence": "renders/review-evidence-r006/clip-033.jpg"
+    },
+    {
+      "number": 34,
+      "lock": "This is an EMPTY council chamber with one empty blue-and-gold carved throne. Exactly ZERO people, ZERO human silhouettes, ZERO hands and ZERO animals exist for all five seconds. Show only the existing architecture and furniture, doorway framing and the unoccupied floor.",
+      "crop": "a modest locked crop of the SAME empty throne, empty seat and carved armrest with zero figures",
+      "reason": "Frame0 introduces a large invented crowd that crosses the empty-throne room, violating zero-person contract.",
+      "evidence": "renders/review-evidence-r006/clip-034.jpg"
+    },
+    {
+      "number": 35,
+      "lock": "Show an EMPTY throne chamber: exactly ZERO people, ZERO human silhouettes, ZERO hands and ZERO animals across the entire clip. Preserve the one empty blue-and-gold throne, empty seat, unoccupied patterned floor and existing architectural setting.",
+      "crop": "a modest locked crop of the same EMPTY throne back and armrest with zero human elements",
+      "reason": "Frame0 contains an invented crowd and at1.75s a new smiling teal-clothed figure sits on throne; succession chronology fails.",
+      "evidence": "renders/review-evidence-r006/clip-035.jpg"
+    },
+    {
+      "number": 36,
+      "lock": "Exactly one Khalid with ivory turban, jewel, BLACK beard and maroon/gold robe, plus the SAME single clean-shaven red-fez guard in the background. One throne and one CLOSED rolled cream scroll. Khalid draws the existing closed scroll a few centimetres toward his chest and stops; it stays rolled throughout.",
+      "crop": "a modest static crop retaining Khalid's ENTIRE turbaned head, beard, shoulder and the ENTIRE CLOSED scroll; no face drifts off screen",
+      "reason": "At1.00s closed scroll unrolls; at2.75s extreme view slides protagonist off screen, losing planned grip/action and resolved end.",
+      "evidence": "renders/review-evidence-r006/clip-036.jpg"
+    },
+    {
+      "number": 37,
+      "lock": "One Khalid in ivory turban with jewel, black beard and maroon/gold robe, one clean-shaven guard and one empty throne. Khalid turns his eyes and head slightly LEFT toward the existing throne, holds the closed scroll and stops by1.80s. Keep room light and camera position unchanged.",
+      "crop": "a modest STATIC crop retaining the ENTIRE head and closed scroll beside the SAME throne from unchanged chamber viewpoint",
+      "reason": "Continuous zoom toward right-facing face replaces declared turn toward throne and drifts through final frame.",
+      "evidence": "renders/review-evidence-r006/clip-037.jpg"
+    },
+    {
+      "number": 43,
+      "lock": "EMPTY doorway-framed council room, exactly ZERO people, ZERO human silhouettes and ZERO hands. One empty carved throne remains at the far wall and the foreground floor is unoccupied.",
+      "crop": "a modest static crop of the SAME empty seat and carved armrest, zero human elements",
+      "reason": "Atframe0 two invented people occupy throne view; later another figure and giant blank board enter scene, violating zero-person contract.",
+      "evidence": "renders/review-evidence-r006/clip-043.jpg"
+    },
+    {
+      "number": 44,
+      "lock": "EMPTY throne chamber, exactly ZERO people, ZERO human silhouettes and ZERO hands. Keep one empty blue-and-gold throne and the unoccupied floor in the original room.",
+      "crop": "a modest static crop of the SAME empty seat and carved armrest, zero human elements",
+      "reason": "Atframe0 numerous invented figures are gathered beside throne, including a fallen/sitting figure; intended death conveyed by empty seat becomes an invented ceremony.",
+      "evidence": "renders/review-evidence-r006/clip-044.jpg"
+    },
+    {
+      "number": 45,
+      "lock": "Exactly ONE Hamoud stands upright to the LEFT of the same empty ornate throne. He has an ivory turban, black beard, cream robe and deep-green sash fixed across his waist. His feet stay planted and the sash stays worn; the seat remains empty. Exactly two attached arms; both hands keep their reference resting positions.",
+      "crop": "a modest static crop of STANDING Hamoud's entire head, cream robe and fixed green sash with empty throne beside him",
+      "reason": "Frame0 changes standing identity comparison to crouching at throne, then invents an extra maroon-sleeved arm pulling sash from another person; fixed single-person sash/pose fails.",
+      "evidence": "renders/review-evidence-r006/clip-045.jpg"
+    },
+    {
+      "number": 47,
+      "lock": "Exactly ONE Hamoud stands upright at screen left of the empty throne, ivory turban, black beard, cream robe and green waist sash. The sash is a narrow garment already worn around his waist; its size and position remain unchanged. His full head and green sash are visible throughout; his hands stay resting.",
+      "crop": "a modest static crop retaining the ENTIRE one head and fixed green waist sash with the same empty throne",
+      "reason": "Frame0 giant cream cloth covers almost entire composition; second shot cuts face off and adds wrapping cloth, destroying clean fixed identity comparison.",
+      "evidence": "renders/review-evidence-r006/clip-047.jpg"
+    },
+    {
+      "number": 51,
+      "lock": "Camera is a fixed tripod in each composition. Cut once at 2.30s to a moderate crop retaining the complete messenger, dhow and palace frontage. From 3.50s to 5.00s every position and camera scale is fixed.",
+      "reason": "Camera drifts and removes messenger through ending.",
+      "evidence": "renders/review-evidence-r006/clip-051.jpg",
+      "crop": "a moderate crop of the same messenger, complete dhow and palace frontage"
+    },
+    {
+      "number": 53,
+      "lock": "The ivory turban is a compact fixed wrapped shape on Khalid’s head. Its outlines and short cloth folds keep their exact reference lengths. Khalid holds the same closed scroll against his chest with two attached mitten hands. Keep his entire turban, beard and scroll inside both compositions; finish the grip by 2.10s then hold.",
+      "reason": "3.25–4.25s turban becomes a long ribbon across face.",
+      "evidence": "renders/review-evidence-r006/clip-053.jpg",
+      "crop": "a moderate crop retaining the entire compact turban, face, beard, both mitten hands and closed scroll"
+    },
+    {
+      "number": 55,
+      "lock": "This is a quiet observation beat: intact vessels at anchor, clear blue sky and clear unobstructed air above calm water. Rawson alone makes the declared small gesture and holds it; the complete harbour retains the clean reference state for all five seconds.",
+      "reason": "4.0s premature flame across harbour.",
+      "evidence": "renders/review-evidence-r006/clip-055.jpg"
+    },
+    {
+      "number": 58,
+      "lock": "Exactly ONE Rawson occupies his original reference position. Keep the same over-shoulder viewpoint in both shots; the second shot is a modest crop of this one officer including the single blank paper. The paper remains a plain unmarked cream surface while being folded once. Clear air and intact stationary harbour.",
+      "reason": "Duplicate Rawson from frame zero; invented haze and paper marks.",
+      "evidence": "renders/review-evidence-r006/clip-058.jpg",
+      "crop": "a modest crop of the same single Rawson in the same over-shoulder viewpoint, with his one blank folded paper"
+    },
+    {
+      "number": 59,
+      "lock": "Khalid wears exactly the pictured MAROON robe with narrow gold trim and ivory turban throughout. His black beard and off-white head remain identical to the reference. He stays screen-right of the fixed clock, gives it one small glance and settles by 3.50s. The exact 08:00 placard and clock hand angles remain fixed every frame.",
+      "reason": "Khalid robe is teal green instead of maroon.",
+      "evidence": "renders/review-evidence-r006/clip-059.jpg"
+    },
+    {
+      "number": 62,
+      "lock": "The five anchored ships retain exactly their original reference positions and sizes in shot one. Their distant decks remain the same tiny details pictured in the reference. Shot two crops only the nearest existing bow with its deck outside the upper crop; preserve the same hull outline and intact palace. End on a fixed held composition.",
+      "reason": "From 1.0s invented foreground crew and new huge occupied bow.",
+      "evidence": "renders/review-evidence-r006/clip-062.jpg",
+      "crop": "a crop of only the nearest existing bow and shore, with the deck above the top edge"
+    },
+    {
+      "number": 63,
+      "lock": "Keep the reference Glasgow hull, mast, funnel and tiny existing crew at exactly their pictured scale. The second shot is a moderate crop of the hull and funnel with the deck edge above the crop. The intact vessel remains afloat and stationary, and the whole final second holds.",
+      "reason": "2.75s adds giant foreground gunners and cannon not present in reference.",
+      "evidence": "renders/review-evidence-r006/clip-063.jpg",
+      "crop": "a moderate crop of the existing Glasgow hull and funnel, with its deck edge above the crop"
+    },
+    {
+      "number": 68,
+      "lock": "There is exactly ONE Khalid on the left and the same ONE secondary guard on the right. Hold their original world positions. The second composition crops the SAME Khalid from head to waist and includes the same harbour opening; his full compact turban remains inside frame. A crop only magnifies existing pixels and retains the single character inventory.",
+      "reason": "2.0s duplicate giant foreground Khalid persists to end.",
+      "evidence": "renders/review-evidence-r006/clip-068.jpg",
+      "crop": "the same single Khalid from entire turban to waist, with the same harbour opening"
+    },
+    {
+      "number": 69,
+      "lock": "Rawson’s two hands remain small simplified mitten shapes as in the reference, attached to his navy cuffs. Both shots retain his entire cap, round face, white beard and binoculars; the second crop is only 1.3 times closer. Lift the binoculars once, then hold the completed gesture with a fixed camera for the last second.",
+      "reason": "2.75s extreme crop invents realistic fingered hands and cuts away head.",
+      "evidence": "renders/review-evidence-r006/clip-069.jpg",
+      "crop": "a 1.3-times closer crop keeping Rawson’s entire cap, face, white beard, two mitten hands and binoculars"
+    },
+    {
+      "number": 67,
+      "lock": "The reference dhow stays moored at its original position and original size. Only one small water lap moves by 2.10s; keep the mooring, sail, hull and skyline fixed afterwards.",
+      "reason": "Dhow crosses harbour and grows continuously through final frame.",
+      "evidence": "renders/review-evidence-r006/clip-067.jpg",
+      "crop": "a modest closer crop of the same existing subjects, preserving their full identity and reference world positions"
+    },
+    {
+      "number": 70,
+      "lock": "The single intact Glasgow and its tiny original crew remain as pictured. Clear blue sky and unobstructed air; the shore and vessel retain their intact reference state. Crop only hull, funnel and rigging at modest scale.",
+      "reason": "1.25s premature muzzle flashes and shore blast; giant crew and invented deck close-up at 2.75s.",
+      "evidence": "renders/review-evidence-r006/clip-070.jpg",
+      "crop": "a moderate crop of the same existing Glasgow hull, funnel and rigging, keeping crew at tiny reference scale"
+    },
+    {
+      "number": 72,
+      "lock": "The same scroll remains CLOSED: a short rigid rolled cylinder held below Khalid’s beard throughout. Keep Khalid’s entire turban, minimal face, beard and both mitten hands visible in a moderate crop. His grip steadies once, then holds.",
+      "reason": "1.25s scroll unfurls horizontally across face; turban and face cut away.",
+      "evidence": "renders/review-evidence-r006/clip-072.jpg",
+      "crop": "a moderate crop retaining Khalid’s entire compact turban, face, beard, both mitten hands and closed rolled scroll"
+    },
+    {
+      "number": 73,
+      "lock": "The cannon is a quiet fixed dark metal barrel on its wooden carriage. One sailor gives one small glance and holds. Clear air, intact palace and calm harbour remain the complete scene through the final cut.",
+      "reason": "4.0–4.35s premature firing while this is a waiting beat.",
+      "evidence": "renders/review-evidence-r006/clip-073.jpg",
+      "crop": "a modest closer crop of the same existing subjects, preserving their full identity and reference world positions",
+      "action": "The nearer sailor makes one small glance across calm water toward the intact palace, then holds beside the quiet stationary cannon."
+    },
+    {
+      "number": 76,
+      "lock": "This entire clip is a calm observation: Rawson makes one small head turn toward the intact palace. Ships retain their pictured intact hulls and clean deck details in clear air. Water remains calm. Hold the completed glance by 2.10s and preserve this quiet reference state through the cut.",
+      "reason": "1.5s onward large premature harbour explosions and smoke.",
+      "evidence": "renders/review-evidence-r006/clip-076.jpg",
+      "crop": "a modest closer crop of the same existing subjects, preserving their full identity and reference world positions",
+      "action": "Rawson makes one small head turn toward the intact palace across calm water, then holds this quiet observation."
+    },
+    {
+      "number": 77,
+      "lock": "Five ships remain at their original anchor positions. Crop only the nearest existing hull and waterline, with the deck above the top crop edge. Every detail remains at reference scale; the small waterline bob settles by 2.10s.",
+      "reason": "1.5s cut invents three foreground crew holding a maroon banner.",
+      "evidence": "renders/review-evidence-r006/clip-077.jpg",
+      "crop": "the nearest existing hull and waterline, with its deck above the top edge"
+    },
+    {
+      "number": 78,
+      "lock": "The exact five anchored British ships stay intact in clear air throughout. Khalid alone makes the declared small gesture from his reference position and settles; the same calm harbour retains the reference appearance through the final frame.",
+      "reason": "2.75s onward two British ships burn during prebattle observation.",
+      "evidence": "renders/review-evidence-r006/clip-078.jpg",
+      "crop": "a modest closer crop of the same existing subjects, preserving their full identity and reference world positions"
+    },
+    {
+      "number": 79,
+      "lock": "Keep the same quay-side messenger, dhow and waterfront palace in both shots. The messenger holds his original closed scroll, with the same tiny distant residents at their reference scale. The second crop retains the entire messenger and palace across water; use the same camera direction.",
+      "reason": "2.0s invents new opposite viewpoint, large crowd, seated messenger and open paper.",
+      "evidence": "renders/review-evidence-r006/clip-079.jpg",
+      "crop": "a moderate crop of the same complete quay-side messenger, closed scroll and palace across water"
+    },
+    {
+      "number": 80,
+      "lock": "Begin with Khalid already standing in his exact reference position to the right of the blank clock. He remains there for all five seconds. Keep the clock’s blank ivory enamel placard, exact hand angles and room lighting fixed. One small head movement finishes by 3.50s, then hold.",
+      "reason": "Frame zero omits Khalid, then he walks in; blank placard turns black.",
+      "evidence": "renders/review-evidence-r006/clip-080.jpg"
+    },
+    {
+      "number": 81,
+      "lock": "The dhow retains its original moored position and original size. Both compositions remain fixed tripod views; the second is a moderate crop inside the same picture retaining the complete messenger, dhow and palace. Finish the action by 2.10s and hold the completed state and camera through the final second.",
+      "reason": "Continuous drift and dhow motion through final frame; no resolved hold.",
+      "evidence": "renders/review-evidence-r006/clip-081.jpg",
+      "crop": "a moderate crop retaining the same complete messenger, moored dhow and palace"
+    },
+    {
+      "number": 82,
+      "lock": "The complete clock and Khalid room is clearly visible from the very first frame through the final cut. The exact enamel 09:00 is unobstructed at every moment. Preserve the reference lighting and clear air inside the room. Khalid holds his pictured maroon costume beside the clock.",
+      "reason": "0.00–3.0s smoke covers entire scene and mandatory 09:00 text.",
+      "evidence": "renders/review-evidence-r006/clip-082.jpg"
+    },
+    {
+      "number": 84,
+      "lock": "There are exactly TWO defenders, the same original pair. They take one short retreating step at their original scale and finish by 1.85s. Cut at 2.05s to a modest crop of these same two defenders, with the surrounding arcade still visible. Their former positions are empty after their single step.",
+      "reason": "2.375s duplicate foreground pair appears while original pair remains behind.",
+      "evidence": "renders/review-evidence-r006/clip-084.jpg",
+      "crop": "a modest crop of the same two original defenders after their single retreating step, with the damaged arcade around them"
+    },
+    {
+      "number": 88,
+      "lock": "Keep the existing damaged palace, water splashes, two defenders and smoke in their precise reference states. Animate only the single declared localized action, then settle. Existing damage remains visually continuous; keep the same defender faces and closed mouths in the second crop.",
+      "reason": "0.25–1.5s invented glowing projectile travels out of palace toward water; close-up open mouths.",
+      "evidence": "renders/review-evidence-r006/clip-088.jpg"
+    },
+    {
+      "number": 93,
+      "lock": "The reference water around the Glasgow is open water with exactly the original small ripples. The intact original crew remain aboard their original deck. The single vessel performs only the declared action; the second composition crops the same existing hull and rigging with the water surface still empty and unobstructed.",
+      "reason": "Frame zero invents a large crowd standing in water; dozens appear to sink through whole clip.",
+      "evidence": "renders/review-evidence-r006/clip-093.jpg"
+    },
+    {
+      "number": 94,
+      "lock": "The image contains ONLY the already tilted partially submerged Glasgow wreck, open water, distant damaged palace and skyline. Preserve all these reference shapes. One small outlined ripple passes its hull; the tilted vessel stays fixed.",
+      "reason": "Frame zero onward invented large crowd obscures wreck; bodies morph and new people arrive.",
+      "evidence": "renders/review-evidence-r006/clip-094.jpg"
+    },
+    {
+      "number": 95,
+      "lock": "Exactly the original TWO crouching defenders stay at their original arcade positions. One small loose stone drops by 1.85s. Shot two is a moderate crop of this same original pair and damaged wall; both retain their small brown satchels, cream robes and fixed compact turbans.",
+      "reason": "0.5s adds third giant foreground defender with backpack while original pair stays behind.",
+      "evidence": "renders/review-evidence-r006/clip-095.jpg"
+    },
+    {
+      "number": 96,
+      "lock": "The image contains ONLY the reference sunken Glasgow wreck, open water, damaged palace and skyline. This is a quiet static aftermath. All original wreck shapes and waterline remain fixed through the last frame.",
+      "reason": "Entire clip invents many civilians standing in water in front of wreck.",
+      "evidence": "renders/review-evidence-r006/clip-096.jpg"
+    },
+    {
+      "number": 97,
+      "lock": "Animate only a slight drift of the existing residual smoke above the already damaged palace. The same original TWO crouching defenders and their small brown satchels stay in their original poses. Hold the existing masonry and their cream costumes steady through the closer crop.",
+      "reason": "1.0s new explosive projectile and damage; invented large blue backpack in close-up.",
+      "evidence": "renders/review-evidence-r006/clip-097.jpg"
+    },
+    {
+      "number": 100,
+      "lock": "Preserve the full drawn rectangular image all the way to its four edges throughout. Khalid takes the declared short approach toward the single doorway attendant and settles. The second composition is a modest rectangular crop retaining both full heads, doorway and stone wall; lighting remains identical to the reference.",
+      "reason": "4.0s close-up changes into a white blurred vignette instead of full-frame drawn scene.",
+      "evidence": "renders/review-evidence-r006/clip-100.jpg"
+    },
+    {
+      "number": 103,
+      "lock": "Khalid keeps his single closed rolled scroll held against his maroon chest with the same attached mitten hand throughout, including the ending. Keep the doorway guard at his original side and preserve the damaged distant harbour through both compositions.",
+      "reason": "3.5s closed scroll disappears from Khalid’s hand.",
+      "evidence": "renders/review-evidence-r006/clip-103.jpg"
+    },
+    {
+      "number": 105,
+      "lock": "The entire scene consists solely of damaged palace masonry, the small white surrender cloth attached to its existing short pole, smoke and sky. The cloth is fixed to masonry at its reference position. Begin on the specified masonry crop, gently pull back once from 0.68s, finish by 3.50s and hold the complete scene.",
+      "reason": "Frame zero invents huge foreground flag bearer, hiding damaged masonry; reference contains no flag bearer.",
+      "evidence": "renders/review-evidence-r006/clip-105.jpg"
+    },
+    {
+      "number": 107,
+      "lock": "Hamoud remains seated in the same throne with his reference cream robe and green sash. Both mitten hands rest on the original throne arms throughout. His ivory turban remains a compact fixed wrap with folds ending at the reference length above his shoulder. Hold his serious gaze, settle by 2.10s, then fixed crop.",
+      "reason": "Invented hand touches temple; turban develops long loose ribbon across shoulder; continuous ending drift.",
+      "evidence": "renders/review-evidence-r006/clip-107.jpg"
+    },
+    {
+      "number": 108,
+      "lock": "Preserve the exact original two civilian identities, costume colours and their original left-right positions. Shot two is a moderate 1.3-times crop retaining both complete heads and upper bodies plus quay and damaged palace. Fix this camera composition through the final second.",
+      "reason": "Ending zoom continues into oversized faces with right head cut off.",
+      "evidence": "renders/review-evidence-r006/clip-108.jpg"
+    },
+    {
+      "number": 110,
+      "lock": "Exactly the reference TWO residents remain small and distant at their original left quay positions. The nearer empty quay stones, basket, rope and bollard remain unchanged. These same two residents lower their heads once and hold; the fixed original viewpoint lasts all five seconds.",
+      "reason": "Frame zero adds two unsupported foreground women while original two remain.",
+      "evidence": "renders/review-evidence-r006/clip-110.jpg"
+    },
+    {
+      "number": 113,
+      "lock": "Water is a calm flat harbour surface with small reference-scale ripples throughout. The three residents hold their original quiet reference poses, and the damaged skyline stays fixed. The full original frame remains a fixed tripod composition through the final cut.",
+      "reason": "1.5s onward giant tsunami wave rises behind residents and overtops quay.",
+      "evidence": "renders/review-evidence-r006/clip-113.jpg"
+    },
+    {
+      "number": 114,
+      "lock": "The original two residents stay entirely on their original dry quay positions. The rope stays coiled beside the existing small fixed bollard and tipped basket. Harbour water remains empty and calm.",
+      "reason": "Invented giant anchor and third woman standing waist-deep in water.",
+      "evidence": "renders/review-evidence-r006/clip-114.jpg"
+    },
+    {
+      "number": 115,
+      "lock": "The room contains ONLY the brass clock, blank ivory placard, original furniture, patterned walls and distant damaged harbour beyond the window. Interior air is clear and evenly lit; only the original distant residual plume remains outside. Fixed clock hand angles and unchanged blank placard throughout.",
+      "reason": "Frame zero adds crowd; smoke floods empty clock room.",
+      "evidence": "renders/review-evidence-r006/clip-115.jpg"
+    },
+    {
+      "number": 117,
+      "lock": "Hamoud wears his exact reference CREAM robe with the narrow GREEN sash across it throughout. His compact ivory turban, black beard and mitten hands remain identical. Preserve his whole head, cream chest, green sash and throne arms in the second crop and hold the finished posture.",
+      "reason": "2.75s changes cream robe into entirely green costume; head and turban cut off.",
+      "evidence": "renders/review-evidence-r006/clip-117.jpg"
+    },
+    {
+      "number": 123,
+      "lock": "There are exactly TWO brown shoes. Shoe A stays worn on the grounded foot. The hand carries shoe B continuously to the raised bare foot: the bare toes enter its opening, the heel slides fully inside, and only then the hand releases the now-worn shoe. Keep this entire physical transfer visible without a gap or substitution; finish by 2.10s and hold both shod feet.",
+      "reason": "Held shoe disappears at 0.5s; foot remains barefoot until replacement shoe pops on at 1.5s.",
+      "evidence": "renders/review-evidence-r006/clip-123.jpg"
+    },
+    {
+      "number": 126,
+      "lock": "Exactly TWO closed cream dispatches remain present throughout: one by the left navy official and one by the right charcoal official. Each has exactly one wax seal. Each official steadies only his own original dispatch; their positions never cross. The second shot shows these same two dispatches and desk at a modest scale.",
+      "reason": "0.75s onward third dispatch appears beside right official; final crop shows three.",
+      "evidence": "renders/review-evidence-r006/clip-126.jpg"
+    },
+    {
+      "number": 131,
+      "lock": "The searcher is ALREADY inside the doorway in his exact reference pose at frame one. Exactly two brown shoes remain worn on his two feet for every frame; his empty mitten hands rest at his sides. Hold this pose and the original camera unchanged for the entire five seconds.",
+      "reason": "Starts outside then walks in; 3.25s loose shoes fly in and land in hand despite fully shod still ending.",
+      "evidence": "renders/review-evidence-r006/clip-131.jpg"
+    },
+    {
+      "number": 60,
+      "lock": "The camera is a fixed tripod with the exact reference scale and placement throughout every frame. The entire brass clock and its complete 08:00 enamel placard stay inside frame with the same margins as the reference. The placard shape, digits, colon, spacing and position stay fixed for all 120 frames. Only the pictured character makes the declared small gesture and holds it by 3.50s.",
+      "reason": "Continuous camera drift changes mandatory placard placement; clock progressively leaves frame.",
+      "evidence": "renders/review-evidence-r006/clip-060-text-allframes.jpg"
+    },
+    {
+      "number": 124,
+      "lock": "The camera is a fixed tripod with the exact reference scale and placement throughout every frame. The entire brass clock and its complete 09:38 enamel placard stay inside frame with the same margins as the reference. The placard shape, digits, colon, spacing and position stay fixed for all 120 frames. Only the pictured character makes the declared small gesture and holds it by 3.50s.",
+      "reason": "Continuous camera drift changes mandatory placard placement; clock progressively leaves frame.",
+      "evidence": "renders/review-evidence-r006/clip-124-text-allframes.jpg"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "number": 9,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r004.mp4",
+  "source_sha256": "84700bb7c3dc5677a4c083a01938022f7123a3368be45293fb15dbc1a0608e01",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid does not grip the scroll beside the throne, chin set toward the distant harbour. He is already gripping the scroll and looking forward, not toward the harbour. The action is not completed by 2.10s; it is already completed at the start.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The camera is not locked; there is a subtle zoom in and out, and slight horizontal movement.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The crop is not a tighter crop of the same visible turban, minimal face and scroll. It is a tighter crop of Khalid's hands and the scroll, with his face mostly out of frame.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The background guard is removed from the crop, which is allowed, but the prompt states he 'stays at his established world position', implying he should still be visible if the crop allowed, or at least not completely disappear if the crop was meant to be a tighter version of the previous frame. The crop is too tight.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; there is a subtle zoom in and out, and slight horizontal movement.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "One soft cloth or parchment movement.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 1.87,
+          "end": 2.07,
+          "description": "soft cloth or parchment movement"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the intended action and camera movements. Khalid's action of gripping the scroll is not performed; he is already in that state from the beginning. The camera is not locked in either segment, showing subtle movements. The second segment's crop is significantly different from what was described, focusing on the hands and scroll rather than the turban and minimal face, and the background guard is completely out of frame, which, while allowed by the crop, deviates from the spirit of 'stays at his established world position'. The audio correctly features a single soft cloth or parchment movement followed by silence."
+  }
+}

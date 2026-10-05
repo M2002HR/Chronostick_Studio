@@ -1,0 +1,17 @@
+{
+  "number": 73,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r005.mp4",
+  "source_sha256": "454e35ff32236936de192df467f1104773173832fc4d2d83d1c0c28020980405",
+  "pcm_sha256": "58581cd4cde6f52ae9c83825ebaa5491cd5b4259fccadbd9df593a5bd8feba38",
+  "peak_pcm16": 23582,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A car door closes, followed by a distinct 'thud' or impact sound. There's a brief moment of silence before a loud, sharp bang occurs.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

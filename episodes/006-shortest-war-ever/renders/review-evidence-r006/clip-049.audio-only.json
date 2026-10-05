@@ -1,0 +1,17 @@
+{
+  "number": 49,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-049-shot-r004.mp4",
+  "source_sha256": "5fdb2925e755d484cb7107bfe34ebc047811b131355cf0ffe491d90e5f25c20b",
+  "pcm_sha256": "ea21a548339bae7c82c1eda8dc41f95ec624dab02848df34b3b93d0eb7af5ff1",
+  "peak_pcm16": 2533,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A vehicle passes by with a distinct whoosh sound. There's a continuous, low-frequency hum in the background, suggesting ambient noise. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

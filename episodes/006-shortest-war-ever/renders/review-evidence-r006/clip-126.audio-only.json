@@ -1,0 +1,17 @@
+{
+  "number": 126,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r005.mp4",
+  "source_sha256": "7c80abd22b8eba2d3f56bacddaf18c51bf48c9c6314c44f42bb942bdd9faaf91",
+  "pcm_sha256": "cca4afb9b08f4f4eb249b2e85e364abb79b288071bccc90b2785bcf5b0a12401",
+  "peak_pcm16": 12617,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A person speaking clearly, with distinct words. No music or tonal bed is present. There is no continuous ambience. The speech is the primary and only audible sound.",
+    "speech": true,
+    "exact_words": "When would and you the years on your stare same audition.",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

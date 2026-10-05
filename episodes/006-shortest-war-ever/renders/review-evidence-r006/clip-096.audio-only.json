@@ -1,0 +1,17 @@
+{
+  "number": 96,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r004.mp4",
+  "source_sha256": "51f90e705914e534ef1f276ce47f07e56e4f16597c29566a72aa89aca56b906c",
+  "pcm_sha256": "fc1d55514193867992e838798c99e45a133273cc851c0af55d494fe151a11428",
+  "peak_pcm16": 15846,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A person speaking in a non-English language, possibly Italian, with distinct syllables and some background rustling.",
+    "speech": true,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

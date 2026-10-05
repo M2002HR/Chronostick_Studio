@@ -1,0 +1,30 @@
+{
+  "number": 113,
+  "decision": "revise_prompt",
+  "reason": "1.5s onward giant tsunami wave rises behind residents and overtops quay.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-113.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r004.mp4",
+  "baseline_sha256": "b16d0c0a235a0e3cfcf2e1b0b4755df5dfbc5b34638bbd6d1cf3f6cee1deb0da",
+  "reviewed_at": "2026-10-03T19:12:14.921924+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2557190102599095437,
+  "previous_seed": 6790603217895980862,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-113/prompts/clip-113.md",
+  "prompt_sha256": "cfe30babd19c763930ccf8883fd83a89db765df6ad47f9e548177de4f4411efa",
+  "job": "006-shortest-war-ever:clip-113:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-r001.png",
+      "sha256": "004130557832ecd3d1fc700d7399f7e0acb1d298de3271e3e97e1cdef0abc2ae"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "fbac5fb4-f92c-4dc3-bb15-ba0f8e6b8fc7",
+  "job_ids": [
+    "3fb0e0f9-3d61-4dca-ab4e-92f8816e20ab"
+  ],
+  "submitted_at": "2026-10-03T19:12:15.076721+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-113.jpg"
+}

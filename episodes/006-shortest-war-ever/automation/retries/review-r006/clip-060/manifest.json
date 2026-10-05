@@ -1,0 +1,30 @@
+{
+  "number": 60,
+  "decision": "revise_prompt",
+  "reason": "Continuous camera drift changes mandatory placard placement; clock progressively leaves frame.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-060-text-allframes.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r004.mp4",
+  "baseline_sha256": "075529fea2c09c30d7e00f32556c2bc3f8f363b70eb57091330a1fa13b3d73c7",
+  "reviewed_at": "2026-10-03T19:14:44.743381+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8664637671733710483,
+  "previous_seed": 4781702081980521722,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-060/prompts/clip-060.md",
+  "prompt_sha256": "0f28b4dacf5baceff6e82f489f5a1f1cc7fa96f0390b110195de90341297ce4b",
+  "job": "006-shortest-war-ever:clip-060:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+      "sha256": "b50f2ddffc510212785224eba2e166c3545680a628e5422bcb27fec6592630ad"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "443c624c-e96e-4353-aa58-d4efb1a1dbc0",
+  "job_ids": [
+    "6a37157a-58d9-4c4a-8f33-f84bf854c54c"
+  ],
+  "submitted_at": "2026-10-03T19:14:44.856395+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-060-text-allframes.jpg"
+}

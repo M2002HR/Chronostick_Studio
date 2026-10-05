@@ -1,0 +1,30 @@
+{
+  "number": 95,
+  "decision": "revise_prompt",
+  "reason": "0.5s adds third giant foreground defender with backpack while original pair stays behind.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-095.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r004.mp4",
+  "baseline_sha256": "8654a16a2cb1a0f1d2573f9e4cba4715e94e0c0fe7fc0b42159fed59d6d9feed",
+  "reviewed_at": "2026-10-03T19:06:32.901340+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 6302835599183895452,
+  "previous_seed": 1871802764342673613,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-095/prompts/clip-095.md",
+  "prompt_sha256": "15505ed1bd205ca3889220532eb3dc1848fe6a54c05434447af3974116407648",
+  "job": "006-shortest-war-ever:clip-095:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+      "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "b5d03bb4-0857-41a6-a831-1d96df2819fd",
+  "job_ids": [
+    "bdfe8423-35a7-4082-874f-5fa8816e69b1"
+  ],
+  "submitted_at": "2026-10-03T19:06:33.025791+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-095.jpg"
+}

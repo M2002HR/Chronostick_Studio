@@ -1,0 +1,96 @@
+{
+  "number": 41,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-041-shot-r004.mp4",
+  "source_sha256": "c57f5af211d46f178a04b2b782e19a9426c5cdee15beebcea12f915f688fe242",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The initial frame does not exactly match the reference image. The officer's head is slightly larger and his uniform details are different.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The officer's head and uniform details subtly morph throughout the first shot, deviating from the reference and the initial frame.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The paper in the officer's hands is not present at the start of the animation, but appears and is then lowered. The prompt states 'the one paper already in his hands'.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The action of lowering the gaze to the paper is not completed and settled by 2.10s as requested. The paper is still moving at 2.10s and the head continues to move until the cut.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot is not a tighter crop of the *same* officer's cap, white beard and single paper already held in the anchor. The officer's head, uniform, and the paper are significantly different in appearance and position compared to the end of the first shot.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second shot shows a new action of the officer looking down at the paper, then looking up, which contradicts the prompt's instruction to 'Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed'.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action in the second shot is not settled by 4.35s; the officer's head and paper are still moving at this time.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The flags on the ships in the background are American flags, not British flags as seen in the reference image.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The overall style of the animation, while drawn, lacks the 'bold clean dark outlines' and specific texture of the reference image, appearing softer and less detailed.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A single, distinct 'thud' sound, followed by a brief, high-pitched, sustained tonal sound, then silence. Later, a different, lower-pitched, sustained tonal sound.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": true,
+      "events": [
+        {
+          "start": 0.99,
+          "end": 1.09,
+          "description": "Thud sound"
+        },
+        {
+          "start": 1.69,
+          "end": 2.29,
+          "description": "High-pitched tonal sound"
+        },
+        {
+          "start": 2.99,
+          "end": 4.09,
+          "description": "Lower-pitched tonal sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the reference image and prompt instructions in several key areas. The officer's appearance and the presence of the paper at the start are incorrect. The specified action of lowering the gaze is not completed as requested, and the second shot introduces a new, unrequested action and a different visual state of the character. The flags on the ships are incorrect. The audio contains sustained tonal sounds, which violates the 'no continuous ambience, music, tonal drones' instruction."
+  }
+}

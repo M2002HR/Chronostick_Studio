@@ -1,0 +1,17 @@
+{
+  "number": 54,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-054-shot-r004.mp4",
+  "source_sha256": "2a483ef78494fc1accf69a4e484b4f33c5b7c75187d5d1de02703cba49755e88",
+  "pcm_sha256": "5224ee02dfbebe18e45b8cf1b73e9e9cd83d425f730ba552efb0d77a028e4163",
+  "peak_pcm16": 21696,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A car door opens and closes, followed by a brief, almost imperceptible musical flourish. The sound of a car engine is also present, along with some continuous ambient noise.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

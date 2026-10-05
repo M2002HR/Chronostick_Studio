@@ -1,0 +1,30 @@
+{
+  "number": 63,
+  "decision": "revise_prompt",
+  "reason": "2.75s adds giant foreground gunners and cannon not present in reference.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-063.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r004.mp4",
+  "baseline_sha256": "5918e5a1047aad5478bd2bcfcd4905d8e9977fa9b4df0c8806d5c95429de0999",
+  "reviewed_at": "2026-10-03T19:02:05.491005+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 440285204768587930,
+  "previous_seed": 5171703446272315760,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-063/prompts/clip-063.md",
+  "prompt_sha256": "960de43e6bb1d5f8683e83ada5a8306a29fd6314de27e701d3acbfc99bb313e8",
+  "job": "006-shortest-war-ever:clip-063:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png",
+      "sha256": "29001102e1a72d51b8377dfab582ccdda28c4f80beb058b651007c764a438f3a"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "17da8072-5504-4a4f-b264-cf00a4fad39f",
+  "job_ids": [
+    "4f3df32f-8f53-4b60-958b-2f9b2df3051a"
+  ],
+  "submitted_at": "2026-10-03T19:02:05.598759+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-063.jpg"
+}

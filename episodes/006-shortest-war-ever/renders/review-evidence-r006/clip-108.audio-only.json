@@ -1,0 +1,17 @@
+{
+  "number": 108,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r004.mp4",
+  "source_sha256": "878aadf3b961456b76b39204a20c5ea6d6e385377ec7586295ed09f47c901c65",
+  "pcm_sha256": "b8b6a41a91ea6dfe28e722d63b74d3dc0e7641cf77ea61e271e2af55d61190f7",
+  "peak_pcm16": 8238,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, melancholic musical phrase with a sustained, ambient background.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

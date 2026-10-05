@@ -1,0 +1,30 @@
+{
+  "number": 21,
+  "decision": "revise_prompt",
+  "reason": "At1.00s the prebattle quiet cannon fires a prolonged flame and smoke plume despite planned hand-rest action; chronology fails.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-021.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r005.mp4",
+  "baseline_sha256": "2f997bf9d87af5db7db815ee444b9dc7e90eb966fdba1aa49094fb7a61bfb129",
+  "reviewed_at": "2026-10-03T18:49:28.015700+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2494678170624674894,
+  "previous_seed": 2710466670713737328,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-021/prompts/clip-021.md",
+  "prompt_sha256": "e442f4afb4cec9ae2b5eaf41b3cf82a4b6ecdcbbc9e374c897e2980b6e00a5b3",
+  "job": "006-shortest-war-ever:clip-021:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+      "sha256": "cc4c67ec5fb47a8da599e5fa936bcad36b9015b93679bba2225406d9cd68f3b5"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "2eab9e6a-97ba-4dc9-92f6-7a36fd589fcc",
+  "job_ids": [
+    "68f66af0-2462-47e4-8f85-c8144e57625a"
+  ],
+  "submitted_at": "2026-10-03T18:49:28.164654+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-021.jpg f24–60"
+}

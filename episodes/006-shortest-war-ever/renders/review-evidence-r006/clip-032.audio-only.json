@@ -1,0 +1,17 @@
+{
+  "number": 32,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r004.mp4",
+  "source_sha256": "c4d712ef8260d785d404c62ecd9707fdf636d368da81dbb4341940d7c427227a",
+  "pcm_sha256": "e9e96baec0565a6c5d111ef03fab16f6f3a6435abd69dfa586bfc025a88c3c71",
+  "peak_pcm16": 9681,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct, continuous hum, possibly from a vehicle or machinery, with a consistent, low-frequency drone. No other sounds are present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

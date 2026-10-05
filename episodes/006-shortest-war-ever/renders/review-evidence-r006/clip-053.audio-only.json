@@ -1,0 +1,17 @@
+{
+  "number": 53,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-053-shot-r004.mp4",
+  "source_sha256": "88117aad5ba3e9154bc90f9551f2d2ac00b1c5345e2fa534e9aff72a62912a5b",
+  "pcm_sha256": "09b0f59c25ab53b0198958bda1b4fa1f97fdea1729d18f8124488efcf43ce4fa",
+  "peak_pcm16": 6078,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short musical phrase with a distinct melody and harmony, followed by a brief silence, then a sustained ambient sound.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

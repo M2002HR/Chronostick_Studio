@@ -1,0 +1,3126 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-03T19:36:03.368880+00:00",
+  "baseline": "baseline.json",
+  "reviewed_through": 131,
+  "reviewed_slots": 131,
+  "review_scope": "All initial latest candidates compared against actual approved references using sampled frames. Further audio and motion review remains; no new full timeline approval.",
+  "clips": [
+    {
+      "number": 1,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-001-shot-r004.mp4",
+      "sha256": "51c1e5a39ae93c5edeb57082fb26ccd0c79e3414dacbf0048c8a5005af3947f5",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-001.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-001.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 2,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r004.mp4",
+      "sha256": "5e2fea6aa3912a306158bc3244bb80bcc2404036fadb6cae6003aad085e70e71",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-002.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-002.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "5ca450b8-6b5e-4eb9-b91b-837a25021973",
+          "reason": "At 2.25–4.96s the loose shoe is stacked above the worn shoe while a second foot is already shod; intended bare foot/held empty shoe relation is lost.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r004.mp4"
+        },
+        {
+          "revision": 7,
+          "batch_id": "c4b09d73-5157-4595-b0b8-a783e2212de5",
+          "reason": "Reviewed latest r006: warm floor/lighting become flat blue; restore literal anchor palette and shoe inventory.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r006.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 3,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-003-shot-r004.mp4",
+      "sha256": "90d546d7e9fefb45b7e9e2381206080394c58bb03e7042287ca22f1ddcbe6984",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-003.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-003.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r005.mp4",
+      "sha256": "213bf7a554a292e329ca8a4298a241e4eafc624eaa37b3c089ade7fd30456d55",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-004.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-004.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "969e8688-a56e-4b9a-a167-565fdd74808c",
+          "reason": "Whole clip performs continuous camera drift instead of the planned two locked shots; transient unmotivated pale haze and drifting dhow change the peaceful fixed harbour state; camera never resolves.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r005.mp4"
+        },
+        {
+          "revision": 7,
+          "batch_id": "ed277281-3497-46c4-9f95-a7050116b9a0",
+          "reason": "Reviewed latest r006: foreground haze obscures the intact palace and geometry changes; retain clean fixed anchor geometry.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r006.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-005-shot-r004.mp4",
+      "sha256": "c6a4e5867c79ae713b4e3bf7f3dc6ad808e17c4f10337f10b6366c48a7b377be",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-005.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-005.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r004.mp4",
+      "sha256": "f84a218fd7b4e416a1bcd34c857e76cbe1db5ef9ae0634df5ecc7cc0066ebde1",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-006.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-006.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "70ddd06e-b639-461d-9f7e-5c600c25e5fc",
+          "reason": "From frame 0 the empty-throne scene contains five invented foreground council figures; zero-person contract fails throughout.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 7,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r005.mp4",
+      "sha256": "85f6a3894634b7be521fd2677f5b78fae29f42742159760a31ea5898a2a574a2",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-007.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-007.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "09b6d59b-f845-4be9-964f-9b28993822b8",
+          "reason": "At 1.50s the fleet view cuts to an unsupported occupied deck with numerous invented figures including giant heads; nearest-bow crop was not followed.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r005.mp4"
+        },
+        {
+          "revision": 7,
+          "batch_id": "3100fedd-955f-45b8-9523-1262d1b7b642",
+          "reason": "Reviewed latest r006: overlay introduces another moving hull; retain five fixed separated ships in both compositions.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r006.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-008-shot-r004.mp4",
+      "sha256": "54bc45a0184b27d7f93865665367695b499a09728a391a06c085241893d80cef",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-008.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-008.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r004.mp4",
+      "sha256": "84700bb7c3dc5677a4c083a01938022f7123a3368be45293fb15dbc1a0608e01",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-009.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-009.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "98e34402-0018-41f9-b234-4b13530854c3",
+          "reason": "Close-up at 2.25s changes the secondary clean-shaven guard to a second black-bearded identity, partially averaging Khalid identity into the guard.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 10,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r004.mp4",
+      "sha256": "a6e1e9c851cfe15758c74b57c2d835216513aff9e850c8bb2ca442fd86a1d8dc",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-010.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-010.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "eb52b0f1-1b36-4cd2-807d-f957534e0bad",
+          "reason": "Frame0 invents an occupied foreground bow instead of five distant vessels, then drifts continuously; crew scale not controlled by anchor.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r004.mp4"
+        },
+        {
+          "revision": 7,
+          "batch_id": "d86e325e-1aaa-46f5-a845-b8f3c744e32a",
+          "reason": "Latest r006 adds a giant person at the bow chain and lowers him into the sea; replace risky waterline closeup with a fixed wide crop of the same five ships.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r006.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 11,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-011-shot-r004.mp4",
+      "sha256": "13840c28be0defe04efbccfc0c5919de94139dcf46c78d4c2b50aaada747e781",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-011.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-011.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 12,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r005.mp4",
+      "sha256": "aa28177a51fc428734e44b946f399582abd7278bf44d5760fd54ef21806fd31c",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-012.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-012.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "7ae5258f-fdd1-4398-b9c3-35362ca4a19f",
+          "reason": "Frame0 shows darkened battle sky, smoke and fiery descending objects; by2.5s explosions destroy intact shore before the battle chronology. Negative future-event wording activated the forbidden event.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r005.mp4"
+        },
+        {
+          "revision": 7,
+          "batch_id": "968778eb-ec5e-48c6-999e-893d5f96604e",
+          "reason": "Latest r006 reverses the officer from screen right to screen left and invents a large nearby vessel with an altered flag; keep original officer position and distant fleet in a modest centered crop.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r006.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 13,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r005.mp4",
+      "sha256": "f99efb852d8ef681887fcd6205499279eab679613a6b31e717b13a0c28b0721f",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-013.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-013.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "31dbace2-80bd-4ef0-906e-bc6004c568ff",
+          "reason": "Continuous zoom replaces hard cut and keeps moving through final frame; planned locked harbour is unresolved.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 14,
+      "source": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-014-map-r005.mp4",
+      "sha256": "cd22feae3bdaf50fdebd51a126b1eb28683ded51a529d908e8dd3415fb6791c7",
+      "revision": 5,
+      "visual_review": "prior_controlled_map_approval_retained",
+      "evidence": "renders/review-evidence-r006/clip-014.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-014.audio-only.json",
+      "audio_status": "verified_digital_silence",
+      "audio_flags": {
+        "speech": null,
+        "music": null,
+        "tonal_bed": null,
+        "continuous_ambience": null
+      },
+      "repair_requests": [],
+      "final_approval": false,
+      "approval_reference": "plan/map-method-decision.md"
+    },
+    {
+      "number": 15,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r004.mp4",
+      "sha256": "f56a8fba74a9eab0909b2bb3aaa740853e79014c9f078e1a14102ff41939964a",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-015.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-015.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "376393c0-88fb-4373-8834-43aa7420e3d0",
+          "reason": "At1.50s a second disconnected sail/bow-shaped triangle emerges beside existing moored dhow and persists, corrupting single rigid vessel geometry.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 16,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r005.mp4",
+      "sha256": "5edba5a60fa0213b8ca3c7b8dc81fed332436633e389fdd9ad0b62152d37de6d",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-016.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-016.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "49ec22c1-68cd-49c0-a23d-f3d98c5eaa64",
+          "reason": "Continuous zoom drifts through all five seconds, removes worker and ends without resolved camera hold; no planned hard cut.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 17,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r005.mp4",
+      "sha256": "fbfb170d2e1edd147afd5df923b05f6a8aed3b48bf9377b13e2d90a4d2b5bb8b",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-017.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-017.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "44fc6ea4-c7d9-4031-8540-046767ea8e9f",
+          "reason": "At1.00s the desk has three dispatches and a disconnected extra arm; required exactly two sealed dispatches fails.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 18,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-018-shot-r004.mp4",
+      "sha256": "f9f16c6ba550011ae9179e9879ce3dc8afab980bcbe2d550b21229ab70691f61",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-018.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-018.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 19,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r004.mp4",
+      "sha256": "3c3f736376231b89e1d219470d41cfc0887f0594171119f2ab3521c399fdb029",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-019.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-019.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "d16a6b8d-2fa7-4400-b9f7-43aa85649dc4",
+          "reason": "Frame0 contains six invented council figures; later an unattached hand touches throne; empty unoccupied-room contract fails throughout.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 20,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-020-shot-r005.mp4",
+      "sha256": "9397c7aa8de4421866bb4e9f59d43c33d57507baf7876e19561354867680c8dc",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-020.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-020.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 21,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r005.mp4",
+      "sha256": "2f997bf9d87af5db7db815ee444b9dc7e90eb966fdba1aa49094fb7a61bfb129",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-021.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-021.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "2eab9e6a-97ba-4dc9-92f6-7a36fd589fcc",
+          "reason": "At1.00s the prebattle quiet cannon fires a prolonged flame and smoke plume despite planned hand-rest action; chronology fails.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 22,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r004.mp4",
+      "sha256": "55c0ba444e06deab928e686518b7dcedaf8e1e56b9fb02b32c36f4d4f29606bf",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-022.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-022.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "969a1e9b-88e4-46d1-b1ec-096239be40e2",
+          "reason": "Second shot invents a ship full of foreground people with giant heads, violating nearest-bow-only reference coverage.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 23,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r004.mp4",
+      "sha256": "26a2e2939171da6703d119eea6c7da1cc7ea4f5177423e8e2475a823bce0a8ac",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-023.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-023.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "cb737b0d-297b-4e6a-8300-2b05ce4f4af4",
+          "reason": "Close-up invents a gigantic green fruit that changes shape and scale and occupies the entire basket, instead of holding original small fruit.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 24,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r004.mp4",
+      "sha256": "deccdfc56f139d6b6e7aa3ce8d0a4fd86af8a80b03197e5f449380ec69ccd5da",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-024.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-024.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "b7d9e0cd-a894-4124-92af-97f43f2f3dfe",
+          "reason": "Close-up changes hands to dark realistic glove silhouettes and starts lifting/pulling rope during final hold, violating fixed crate/rope state.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 25,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r004.mp4",
+      "sha256": "c708d1c4fb297994721c31e13f395e0d70ed3689084481e48f594ca698f229cd",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-025.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-025.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "dc137036-9cf8-4708-95a9-56a86df666be",
+          "reason": "Frame0 introduces an approaching giant crew-filled hull, with numerous invented foreground people; intended fixed distant fleet is lost.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 26,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r004.mp4",
+      "sha256": "ed687416a36c19b857e6e962b108bb1fc7a42aacfa604315198239614a7c71dd",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-026.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-026.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "90ef0b48-7fa4-420f-b729-96beebf71743",
+          "reason": "At1.75–4.96s a new close view invents rope handling and continues moving through the final hold, rather than head turn and settled crate/rope.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 27,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r004.mp4",
+      "sha256": "75daa244dc2bf19941bf0e68e4d0fbabfe136bebf88da581cd1e089101632c33",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-027.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-027.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "da97b128-ec40-415a-9f9e-d741e0eddd5e",
+          "reason": "At2.00s the second shot swaps navy shopper and woman, invents shared oversized basket and extra fruit-transfer action during the intended pause.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 28,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r005.mp4",
+      "sha256": "c84085dd11c9ed9daac1247d7dd89bebb2bbf1e5c79f739088d9ffdd7be0e4b5",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-028.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-028.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "fc61e9df-90d4-4ba7-8f89-1d4782a09907",
+          "reason": "At0.50s navy sleeve changes to purple, then continuous zoom drifts through final frame with no settled hold.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 29,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-029-shot-r004.mp4",
+      "sha256": "34d195f760e06a78687a7045edca7a3c840ea323ab395121b8c9a4d8bafa9010",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-029.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-029.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 30,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r005.mp4",
+      "sha256": "a2feceadcb08347e8ff6f407b51853985e76ff9d9c5673e75440548ed9741030",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-030.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-030.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "342511a9-b709-4520-88cc-19a35382592d",
+          "reason": "At1.50–2.00s officials overlap/morph into one hybrid body while desk geometry and dispatch positions change; later continuous drift persists.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 31,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r005.mp4",
+      "sha256": "a5cd51c994fa6f0b70faab9647c4d5a2cb8afadff5a4f84aa85c52f4b09a51e6",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-031.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-031.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "44592ea9-3615-496c-8c51-5cf44168f2cc",
+          "reason": "At2.375s extreme chest crop cuts the cream scroll almost completely out of frame; held-message action becomes unreadable.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 32,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r004.mp4",
+      "sha256": "c4d712ef8260d785d404c62ecd9707fdf636d368da81dbb4341940d7c427227a",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-032.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-032.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "46c882f9-692a-4f02-9e7b-9cb30dfe22d9",
+          "reason": "Continuous zoom invents close deck coverage and foreground residents, displacing initial fleet view and drifting to final frame.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 33,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r005.mp4",
+      "sha256": "e6c47cbdb970c6694cee5d4780eb4aceb0da8554e95715af737146574c6ae589",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-033.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-033.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "fab3c912-1054-4859-b6b0-88e38f597c49",
+          "reason": "Initial shot replaces full panorama with unsupported enlarged deck and crew; continuous drift replaces planned cut and final hold.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 34,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r004.mp4",
+      "sha256": "535fbec75689b6fdf7210168c605875834b8f19fcf8d2fd05b8cb8e8a75c6173",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-034.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-034.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "ee975461-6447-4225-b251-09cd769e5664",
+          "reason": "Frame0 introduces a large invented crowd that crosses the empty-throne room, violating zero-person contract.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 35,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r004.mp4",
+      "sha256": "dd641f8ba990a1ae6efc864e01c11616cdfa9d5f476b049b9c3c2e2d0d85255a",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-035.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-035.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "69a9848f-0001-427e-9abd-6f8dba5be7f0",
+          "reason": "Frame0 contains an invented crowd and at1.75s a new smiling teal-clothed figure sits on throne; succession chronology fails.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 36,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r004.mp4",
+      "sha256": "3ab91dc9156d6f49d45352ec7b3c2f11e25d8d8e37ed2dfe4e2266379c0f57e0",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-036.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-036.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "cd15492f-5a4c-44d9-9b4c-103cd4e95fa4",
+          "reason": "At1.00s closed scroll unrolls; at2.75s extreme view slides protagonist off screen, losing planned grip/action and resolved end.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 37,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r004.mp4",
+      "sha256": "4bdeb445005da1ca0f245058bfb3f670e65735375c75844cdfad20ff0b3de3df",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-037.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-037.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "35e12fd5-9882-4259-aca1-4450670aa3fa",
+          "reason": "Continuous zoom toward right-facing face replaces declared turn toward throne and drifts through final frame.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 38,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-038-shot-r005.mp4",
+      "sha256": "539e7c1dc784acd2edd649f3cd10d1923f6968861f19b78a34403fa3074524a9",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-038.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-038.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 39,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-039-shot-r004.mp4",
+      "sha256": "fc8b9b76a4415a0cdad37f9de6fb824d8e5d36066277fe0c117a48645f1af6fe",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-039.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-039.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 40,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-040-shot-r005.mp4",
+      "sha256": "5f70be5b66a7999cde824cb1ce24fcf5b835885bf963569d6074be6ae1cd1523",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-040.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-040.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 41,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-041-shot-r004.mp4",
+      "sha256": "c57f5af211d46f178a04b2b782e19a9426c5cdee15beebcea12f915f688fe242",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-041.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-041.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 42,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-042-shot-r004.mp4",
+      "sha256": "a53573e294d6c8c64c0dfaa98dec010e384b36fdc34f69cec744a20795f075f7",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-042.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-042.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 43,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r004.mp4",
+      "sha256": "8f0bc3696cfd5a54a2cb1d91eabd8f045c42e14ff3a38aa72be1edf6c244150a",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-043.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-043.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "38e2f789-11c8-4c88-b851-9306e6767f8b",
+          "reason": "Atframe0 two invented people occupy throne view; later another figure and giant blank board enter scene, violating zero-person contract.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 44,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r004.mp4",
+      "sha256": "61923c120ef1b3b0afedaffa9249d4b46739601ee323ddaf734007ec431e198f",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-044.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-044.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "14073d46-5f0a-483e-bf2c-d70502008ced",
+          "reason": "Atframe0 numerous invented figures are gathered beside throne, including a fallen/sitting figure; intended death conveyed by empty seat becomes an invented ceremony.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 45,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r004.mp4",
+      "sha256": "bef9a4ac6f3fba33085b6ad9049115d5c34c3f31323be5efe4e7ad7226e5868c",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-045.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-045.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "2f4f5b28-344f-45d0-9a13-0fe72963f42c",
+          "reason": "Frame0 changes standing identity comparison to crouching at throne, then invents an extra maroon-sleeved arm pulling sash from another person; fixed single-person sash/pose fails.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 46,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-046-shot-r004.mp4",
+      "sha256": "5f46e9ad116c314145d34a6cd9e0b3891b24e106821ba22026e70ff9ab775d2a",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-046.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-046.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 47,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r004.mp4",
+      "sha256": "2f0ec53f6c6c5f437b84bd0f389abbee70d527b9e76624e25fbc7017c1faaec8",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-047.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-047.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "4072fbd1-570d-46d5-80e6-8bfa508c7977",
+          "reason": "Frame0 giant cream cloth covers almost entire composition; second shot cuts face off and adds wrapping cloth, destroying clean fixed identity comparison.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 48,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-048-shot-r004.mp4",
+      "sha256": "adef915dabbb00a79dd5f5af9dc93fe3e78838bae5259afd0cc1651f34fbb0f3",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-048.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-048.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 49,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-049-shot-r004.mp4",
+      "sha256": "5fdb2925e755d484cb7107bfe34ebc047811b131355cf0ffe491d90e5f25c20b",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-049.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-049.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 50,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-050-shot-r004.mp4",
+      "sha256": "75b0b3bd677b2126dc2eead6084736900af8d8bccb790a40e09d018fc85dd48c",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-050.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-050.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 51,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r004.mp4",
+      "sha256": "8da7c55af8f95ba30b5f0b3d48e58c412b8ef737e2e6e5b35a801506a516932b",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-051.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-051.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "26e9c4ce-f813-4eaa-8729-f4b85df8c327",
+          "reason": "Camera drifts and removes messenger through ending.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 52,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-052-shot-r004.mp4",
+      "sha256": "02e6ea2e608629fb02f17ec6778630719247fdd4e99969722a265f9f422809ae",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-052.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-052.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 53,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-053-shot-r004.mp4",
+      "sha256": "88117aad5ba3e9154bc90f9551f2d2ac00b1c5345e2fa534e9aff72a62912a5b",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-053.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-053.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "9bb8efd4-5252-439d-9162-367e376f1d55",
+          "reason": "3.25–4.25s turban becomes a long ribbon across face.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-053-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 54,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-054-shot-r004.mp4",
+      "sha256": "2a483ef78494fc1accf69a4e484b4f33c5b7c75187d5d1de02703cba49755e88",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-054.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-054.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 55,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r005.mp4",
+      "sha256": "bce1662acf5437efb5424cb6375dae1658e38dad404e609f2611e8a05600f133",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-055.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-055.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "fe39b109-0be7-42ae-9855-13329a53d187",
+          "reason": "4.0s premature flame across harbour.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 56,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-056-shot-r004.mp4",
+      "sha256": "c747dd6404e7c6f8ac391d9c106bb9de29e976d7aad3b67b3d9564d72473a5ad",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-056.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-056.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 57,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-057-shot-r004.mp4",
+      "sha256": "00806e7ae90626a867b100bb09dae4f4d011c894311b274acd855b7c305739f4",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-057.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-057.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 58,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r004.mp4",
+      "sha256": "5c9dd6fac1592eff67070290c84beaeb0a006650032ec3454b82fb9e340ca0a9",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-058.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-058.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "608c3fce-a802-4f8a-9ca4-6ae0ae1911ec",
+          "reason": "Duplicate Rawson from frame zero; invented haze and paper marks.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 59,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r004.mp4",
+      "sha256": "bb8ef50dc6c4a4da60ac660bb695fa6d0b6db27bcd0387416dc9d681113acc2d",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-059.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-059.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "3d6cd6c1-86c2-43ba-833c-f0102ffc0bc6",
+          "reason": "Khalid robe is teal green instead of maroon.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 60,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r004.mp4",
+      "sha256": "075529fea2c09c30d7e00f32556c2bc3f8f363b70eb57091330a1fa13b3d73c7",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-060.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-060.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "443c624c-e96e-4353-aa58-d4efb1a1dbc0",
+          "reason": "Continuous camera drift changes mandatory placard placement; clock progressively leaves frame.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 61,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-061-shot-r004.mp4",
+      "sha256": "c239f8ad786104b4a0322669418829d5a7dcc4474773f61fab4aeb6cf2522e23",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-061.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-061.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 62,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r004.mp4",
+      "sha256": "2e984c35a9f2010a211a3673ec1e2463321e9f322b5781e44bb8866a038992fb",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-062.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-062.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "d7220d33-0ff6-4871-957c-64080deca8e4",
+          "reason": "From 1.0s invented foreground crew and new huge occupied bow.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 63,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r004.mp4",
+      "sha256": "5918e5a1047aad5478bd2bcfcd4905d8e9977fa9b4df0c8806d5c95429de0999",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-063.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-063.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "17da8072-5504-4a4f-b264-cf00a4fad39f",
+          "reason": "2.75s adds giant foreground gunners and cannon not present in reference.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 64,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-064-shot-r005.mp4",
+      "sha256": "b36afc6150632a32dbc85e5b4764509ac13119b526c77ad77ca4a166768cf39f",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-064.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-064.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 65,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-065-shot-r004.mp4",
+      "sha256": "e36b22de752d35a4e5cdc51e56b4f30de8599272fd12521baa7a4b8077782db8",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-065.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-065.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 66,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-066-shot-r004.mp4",
+      "sha256": "ecf4ff3f28edfc46af022a4bf39530f20142bcb328789c381dca219ae8f70bfa",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-066.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-066.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 67,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r004.mp4",
+      "sha256": "b160ac23dbdb635b300701755721d14109cfb74d80100e6e53be1bba9237b0ce",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-067.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-067.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "db7f338b-e6af-4aa6-ab24-d62d6b5d0ece",
+          "reason": "Dhow crosses harbour and grows continuously through final frame.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 68,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r004.mp4",
+      "sha256": "136ae8a136696f9203684ead890ef0af57be6f0d3e8671d92d78f6471dab30ae",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-068.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-068.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "85cfea96-802e-4322-97b3-4b331b3b717f",
+          "reason": "2.0s duplicate giant foreground Khalid persists to end.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 69,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r004.mp4",
+      "sha256": "3ac6f15aac3ccd7504298f6a0bc32dc8346b7e251c07037669317d3942ea9417",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-069.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-069.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "8ca9672c-b43f-48d0-80d1-0752fa3061f7",
+          "reason": "2.75s extreme crop invents realistic fingered hands and cuts away head.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 70,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r004.mp4",
+      "sha256": "8a00699efb0349fa4c39b0b5cba426f8fd5e4ff5036f34ca9eaf786911d2903e",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-070.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-070.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "d0dc43ac-07d1-436f-b5c3-e044004b8393",
+          "reason": "1.25s premature muzzle flashes and shore blast; giant crew and invented deck close-up at 2.75s.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 71,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-071-shot-r004.mp4",
+      "sha256": "f04496e497171779de412ff47f903d8be2a8043bfec3e246183831c6daba9c91",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-071.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-071.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 72,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r004.mp4",
+      "sha256": "9994f3b96ec69636321e6cb925f4d1763c45c468d89cbf3d446af3d444f32d52",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-072.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-072.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "ca7df7b9-8900-4a2e-b41e-07d67073cc68",
+          "reason": "1.25s scroll unfurls horizontally across face; turban and face cut away.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 73,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r005.mp4",
+      "sha256": "454e35ff32236936de192df467f1104773173832fc4d2d83d1c0c28020980405",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-073.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-073.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "88464aa1-dbc8-4b40-9d58-a64a78718d33",
+          "reason": "4.0–4.35s premature firing while this is a waiting beat.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 74,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-074-shot-r004.mp4",
+      "sha256": "3332f0b786738ae0b3dae6a4b88b8da767192ffa1107fe4f6f0f815d875a263c",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-074.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-074.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 75,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-075-shot-r004.mp4",
+      "sha256": "58c3b21406e400436fb32580ba0e670393264ad7ac602637b458e7b75c02d394",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-075.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-075.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 76,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-076-shot-r005.mp4",
+      "sha256": "d2522d7959844b9d23315084a4478164fd7cffecaa0b5fbb795c5d3c624401be",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-076.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-076.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "510a877b-8806-44e3-a306-77e1ec18428f",
+          "reason": "1.5s onward large premature harbour explosions and smoke.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-076-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 77,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r004.mp4",
+      "sha256": "d7006ed3418edaf73efac3392afb98a1d5fdd4e68221c30ae736455db554bcf4",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-077.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-077.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "990d31ce-13d9-4ef2-ac3b-68e1af64545a",
+          "reason": "1.5s cut invents three foreground crew holding a maroon banner.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 78,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r004.mp4",
+      "sha256": "e65bc205eb1c2547c99125befcc5992862dc1cd34a0ec8e03060de73403c64b2",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-078.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-078.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "a18f0d91-043f-482b-a33e-72862f41e822",
+          "reason": "2.75s onward two British ships burn during prebattle observation.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 79,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-079-shot-r004.mp4",
+      "sha256": "6b4c085bc62b67fd7d0bda845b0119499b20ce131266556dac13ede49ad6bfb4",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-079.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-079.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "d8684ed0-250a-4700-b3c2-e60c7d960fc7",
+          "reason": "2.0s invents new opposite viewpoint, large crowd, seated messenger and open paper.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-079-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 80,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r004.mp4",
+      "sha256": "afe009d6c85353246030acbda2d79d789cb5df49a8af19e7d0f25abc303735d1",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-080.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-080.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "aeb41489-677d-48a1-b6c9-c784753072d4",
+          "reason": "Frame zero omits Khalid, then he walks in; blank placard turns black.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 81,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r004.mp4",
+      "sha256": "1f13d6d5f42f04e7e535e6bae62becc2fea850416ff27b34c2bf9f36b4162edf",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-081.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-081.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "7239d810-734f-448f-9353-091ba335c9a8",
+          "reason": "Continuous drift and dhow motion through final frame; no resolved hold.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 82,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r004.mp4",
+      "sha256": "3ae9f3ff17cc014f85ee586c9f198ba08a263ecb84ea302b39fa5cf6f43c872b",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-082.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-082.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "1e30971a-eb16-4ec4-9011-3adbf97ec409",
+          "reason": "0.00–3.0s smoke covers entire scene and mandatory 09:00 text.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 83,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-083-shot-r004.mp4",
+      "sha256": "1fc88d38815c6f82d4bdcfbcb16d34a25dca68ff7700dcd48c5ca402ac6cf370",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-083.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-083.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 84,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r004.mp4",
+      "sha256": "4109d63d013add8953df6cdd0bf433c2907f8bcbcb5ced1519dd7c1b5c7f03cd",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-084.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-084.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "d9318963-0c99-4093-be11-d29fc0b716e1",
+          "reason": "2.375s duplicate foreground pair appears while original pair remains behind.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 85,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-085-shot-r005.mp4",
+      "sha256": "9d2fb511c7ab049c490293c762e90b34f83e68e531a62235c1a566beb04839af",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-085.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-085.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 86,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-086-shot-r004.mp4",
+      "sha256": "2d836bcbd76b984a6347aa1d1d33cf5fb78b21f48289917bd50a9499733ef934",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-086.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-086.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 87,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-087-shot-r004.mp4",
+      "sha256": "c3e0d52ed81abf6afbcd4871e0f0e65d8337ae40b794d91e2d3fc4a5db4c8403",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-087.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-087.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 88,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r005.mp4",
+      "sha256": "6b4ef49d0ad41f57f0a9b15b6ffff9c0ea91aa7c1ba257463c60931d1ada3903",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-088.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-088.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "4f1729d4-d117-44b5-993c-eaba9997d493",
+          "reason": "0.25–1.5s invented glowing projectile travels out of palace toward water; close-up open mouths.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 89,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-089-shot-r004.mp4",
+      "sha256": "bf57bde911fbe9f6264a988bf491f61e308f89318e1b9ed581a91ea2e0b76f8e",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-089.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-089.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 90,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-090-shot-r004.mp4",
+      "sha256": "50b2837ef365c57ff0d5ea46b7bc8c29ee640386d868853fe413a52b34c7e6c5",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-090.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-090.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 91,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-091-shot-r004.mp4",
+      "sha256": "afb63b76549340c8c36bdb1dc93724a17bfd66650b6a6a71877295a8b8dd2847",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-091.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-091.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 92,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-092-shot-r004.mp4",
+      "sha256": "8a1a321cbd45be430a1df0f6fa1b198dbed8ace008bb3dd8222d31327fae1eb9",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-092.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-092.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 93,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r005.mp4",
+      "sha256": "5c089122f702da49ca75bf55c40ea4f59e91ba9b3a87407510a0618d5e139537",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-093.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-093.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "9fddc1f3-f47f-4f22-864e-c11cb945c3a6",
+          "reason": "Frame zero invents a large crowd standing in water; dozens appear to sink through whole clip.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 94,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r004.mp4",
+      "sha256": "bfa77607ec4539f4b023f348af8ca94160fca87b8ed1a915aa24ee0bd2d16b4f",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-094.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-094.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "3507a009-ce7f-46a9-9852-1d142cb38e7c",
+          "reason": "Frame zero onward invented large crowd obscures wreck; bodies morph and new people arrive.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 95,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r004.mp4",
+      "sha256": "8654a16a2cb1a0f1d2573f9e4cba4715e94e0c0fe7fc0b42159fed59d6d9feed",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-095.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-095.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "b5d03bb4-0857-41a6-a831-1d96df2819fd",
+          "reason": "0.5s adds third giant foreground defender with backpack while original pair stays behind.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 96,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r004.mp4",
+      "sha256": "51f90e705914e534ef1f276ce47f07e56e4f16597c29566a72aa89aca56b906c",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-096.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-096.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "9c239dab-1375-4aab-b494-f798752e7349",
+          "reason": "Entire clip invents many civilians standing in water in front of wreck.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 97,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r004.mp4",
+      "sha256": "e252d390c42b84b2404fd9f434e06be284de4e7f13d3c322a78ea60b9d7e8317",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-097.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-097.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "3f8765d3-cb0f-492d-b019-9dfb00f31a3d",
+          "reason": "1.0s new explosive projectile and damage; invented large blue backpack in close-up.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 98,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-098-shot-r004.mp4",
+      "sha256": "20de5ff2b86faa7da4de08e68d8aa384f98864675c91861536dd66f3ad803fa0",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-098.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-098.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 99,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-099-shot-r005.mp4",
+      "sha256": "8367a2904ca3a2861dba9d880b2ecf53583db8f8549bd2e86b81c57f2641b5d9",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-099.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-099.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 100,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r004.mp4",
+      "sha256": "887eab8290eff553f8370475871be49619c73a4f46e23f5f9e2ee0f89d79e781",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-100.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-100.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "cf26f62b-05bc-4cba-abc7-1cf2bb727160",
+          "reason": "4.0s close-up changes into a white blurred vignette instead of full-frame drawn scene.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 101,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-101-shot-r005.mp4",
+      "sha256": "e6201852ff128a72573fe123e7a871911c8ee7b7069144bc2575c8adb3750443",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-101.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-101.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 102,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-102-shot-r004.mp4",
+      "sha256": "321a7434d90e628ba7ac1399886fc47a1354584e3744014e75c620fa367655e0",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-102.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-102.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 103,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r004.mp4",
+      "sha256": "f0c3fddb50bfc38fc82c868af0dfa67764b3f621223d0200508db45fbcf7061e",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-103.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-103.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "59feb606-0b40-4ceb-8b18-b149b5ae244b",
+          "reason": "3.5s closed scroll disappears from Khalid’s hand.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 104,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-104-shot-r004.mp4",
+      "sha256": "7221051729f9b8021bd67be5246c36708558515c5ca841278074a264af97a90f",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-104.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-104.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 105,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r005.mp4",
+      "sha256": "6f2eb3d9e183046003667220ed3171c0defee82cd1230418546563c8ffca7ac0",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-105.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-105.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "562c402f-2f9b-4777-813b-27d7de41d627",
+          "reason": "Frame zero invents huge foreground flag bearer, hiding damaged masonry; reference contains no flag bearer.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 106,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-106-shot-r004.mp4",
+      "sha256": "beb29f8eb66cd369fddbc8427216fc2a87331de222886b154b8ea6fc56ba69d0",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-106.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-106.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 107,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r004.mp4",
+      "sha256": "7cf0da9f132bcdb14f08578c4e0c71ea05b44a64b1ca284fffa107d43c39a7b3",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-107.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-107.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "fe2197fe-8caf-4e52-8d9d-1fbf4aae27e5",
+          "reason": "Invented hand touches temple; turban develops long loose ribbon across shoulder; continuous ending drift.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 108,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r004.mp4",
+      "sha256": "878aadf3b961456b76b39204a20c5ea6d6e385377ec7586295ed09f47c901c65",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-108.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-108.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "3c9bcfd9-f470-4d55-afe4-ca86cd2026e2",
+          "reason": "Ending zoom continues into oversized faces with right head cut off.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 109,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-109-shot-r004.mp4",
+      "sha256": "01e7476dfcb2e3f6e36180a3395bf526c6ca89b0bc9ab51087af6b7ebc371ca0",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-109.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-109.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 110,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r004.mp4",
+      "sha256": "419676e44e5f9f63f4964dbafae49e6ff5bf0e12f74d7cd68008f848a5c28dc4",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-110.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-110.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "4ac3d6ad-8453-4f39-8ac3-e5f8df49ee09",
+          "reason": "Frame zero adds two unsupported foreground women while original two remain.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 111,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-111-shot-r004.mp4",
+      "sha256": "511427981af49b8a8044f94de32f17ecac74e3277becc3cba61a582169c81fb9",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-111.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-111.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 112,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-112-shot-r004.mp4",
+      "sha256": "02dc732f69b05f92d7bbe7b824e4bef1298190aa7bb85d2374558e3e8f1c804e",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-112.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-112.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 113,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r004.mp4",
+      "sha256": "b16d0c0a235a0e3cfcf2e1b0b4755df5dfbc5b34638bbd6d1cf3f6cee1deb0da",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-113.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-113.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "fbac5fb4-f92c-4dc3-bb15-ba0f8e6b8fc7",
+          "reason": "1.5s onward giant tsunami wave rises behind residents and overtops quay.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 114,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r004.mp4",
+      "sha256": "685c87f35bd4d51389b46454a453de73979e3ced8523187ac171325204368877",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-114.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-114.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "fa75fbc7-c06a-4b37-aa69-969afdc755b1",
+          "reason": "Invented giant anchor and third woman standing waist-deep in water.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 115,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r004.mp4",
+      "sha256": "a0ea54d2ee2f3a930f5bd14f1f99e64419c14684172764cb0b099e8ee88809e3",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-115.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-115.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "e367a29b-32dd-4636-8677-6bc196854a18",
+          "reason": "Frame zero adds crowd; smoke floods empty clock room.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 116,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-116-shot-r004.mp4",
+      "sha256": "a7c9701e99b77c3326b55f8c5b9d4c321e7324dd5fc0555ed17158f46fc35b26",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-116.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-116.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 117,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-117-shot-r004.mp4",
+      "sha256": "cbecde24d5f510d8197437a5f6eaa7a3d2abcfb4fc04499c2b8598a0f4c76c09",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-117.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-117.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "69dd176c-53cc-4294-9628-3a994773eb3a",
+          "reason": "2.75s changes cream robe into entirely green costume; head and turban cut off.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-117-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 118,
+      "source": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-118-map-r005.mp4",
+      "sha256": "6c16ca52dabd1b0df94194d2b030225c68c839bafb417c36bb52f548f723c261",
+      "revision": 5,
+      "visual_review": "prior_controlled_map_approval_retained",
+      "evidence": "renders/review-evidence-r006/clip-118.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-118.audio-only.json",
+      "audio_status": "verified_digital_silence",
+      "audio_flags": {
+        "speech": null,
+        "music": null,
+        "tonal_bed": null,
+        "continuous_ambience": null
+      },
+      "repair_requests": [],
+      "final_approval": false,
+      "approval_reference": "plan/map-method-decision.md"
+    },
+    {
+      "number": 119,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-119-shot-r004.mp4",
+      "sha256": "0cac602462cd9a08f033558ac92c86fd18b7a0707743f97758abba0c64ac4e0d",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-119.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-119.audio-only.json",
+      "audio_status": "confirmed_unwanted_music_and_speech",
+      "audio_flags": {
+        "speech": true,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "c550ab73-5e3e-4d6c-8f14-14240344ed86",
+          "reason": "Independent audio-only observations and a second context-free check both identify a plucked instrumental melody and intelligible unwanted male speech; use an explicit silent audio timeline.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-119-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 120,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-120-shot-r004.mp4",
+      "sha256": "cf5bc8f95d4688d3d85186ac8c811fa3f96bceb470c2c1371b556f23955382cf",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-120.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-120.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 121,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-121-shot-r004.mp4",
+      "sha256": "7bb077741525d2a425b9bc6ba0276d38fab2b4d2d3d2502a46efc4ffb067efe5",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-121.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-121.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 122,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-122-shot-r004.mp4",
+      "sha256": "be989800bf82cfa7a78ee3aa3ff4a7c4dac74b48d0778a7eaa7e60da0b22ed7e",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-122.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-122.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 123,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r004.mp4",
+      "sha256": "539f6cb7bfe6369d66ade4c24f3b83409ef645d32082f1873529bd58543e334e",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-123.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-123.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "fc1a9e9e-9b21-4048-9dc3-030325d45803",
+          "reason": "Held shoe disappears at 0.5s; foot remains barefoot until replacement shoe pops on at 1.5s.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 124,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-124-shot-r004.mp4",
+      "sha256": "f7bb2e575414883dffd62532c903411d8bfc2e3ad6c670da87de97ccaddc3166",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-124.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-124.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "8bc94a08-f724-43a1-af5f-f13209ed1f50",
+          "reason": "Continuous camera drift changes mandatory placard placement; clock progressively leaves frame.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-124-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 125,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-125-shot-r004.mp4",
+      "sha256": "27643c1c019571074e978ee3a0a71ade30fe523c08cd8e9733f07629141841b8",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-125.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-125.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 126,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r005.mp4",
+      "sha256": "7c80abd22b8eba2d3f56bacddaf18c51bf48c9c6314c44f42bb942bdd9faaf91",
+      "revision": 5,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-126.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-126.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "6fb5f9f6-a5e9-43be-8973-6e467ed7aa67",
+          "reason": "0.75s onward third dispatch appears beside right official; final crop shows three.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r005.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 127,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-127-shot-r005.mp4",
+      "sha256": "ba7d128c93e25b9f4b78aa9079c037cfb6fde33da58bc2c46b280140e8b745a0",
+      "revision": 5,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-127.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-127.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": true,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 128,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-128-shot-r004.mp4",
+      "sha256": "8d0048c338699c18fa79ad8c011aa56c7665eb7c88edf8d3e1f791db0ae15338",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-128.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-128.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 129,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-129-shot-r004.mp4",
+      "sha256": "b31424487ba36e066affbfbb25eb9111046420d4da3c42c942dd72a582066958",
+      "revision": 4,
+      "visual_review": "sampled_visual_pass_pending_motion_and_audio",
+      "evidence": "renders/review-evidence-r006/clip-129.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-129.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": true,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [],
+      "final_approval": false
+    },
+    {
+      "number": 130,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-130-shot-r004.mp4",
+      "sha256": "a1a61bb70c40d0cfb251610fc1d48376ac31ef1b448b843e47336908ac1e04cc",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-130.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-130.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": true,
+        "tonal_bed": false,
+        "continuous_ambience": true
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "857f1a24-f4eb-4e3d-9e1e-796e07c69cf8",
+          "reason": "Reviewed latest baseline: fully shod searcher lifts an invented loose third shoe; preserve two worn shoes and empty hands.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-130-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    },
+    {
+      "number": 131,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r004.mp4",
+      "sha256": "bb5fb6359f9052fc1d58c69c51a728dd7ca79dc73a7ca93092452ac9b99b7c43",
+      "revision": 4,
+      "visual_review": "failed_replacement_queued",
+      "evidence": "renders/review-evidence-r006/clip-131.jpg",
+      "review_method": "Reference comparison and sequential contact sheet sampling at 0.25s plus dense cut/final frames; not all-frame approval.",
+      "audio_evidence": "renders/review-evidence-r006/clip-131.audio-only.json",
+      "audio_status": "observations_require_independent_review",
+      "audio_flags": {
+        "speech": false,
+        "music": false,
+        "tonal_bed": false,
+        "continuous_ambience": false
+      },
+      "repair_requests": [
+        {
+          "revision": 6,
+          "batch_id": "dc1931d1-837d-472a-92bf-bfab0ccf0e13",
+          "reason": "Starts outside then walks in; 3.25s loose shoes fly in and land in hand despite fully shod still ending.",
+          "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r004.mp4"
+        }
+      ],
+      "final_approval": false
+    }
+  ],
+  "submitted_jobs": 81,
+  "submitted_slots": 76,
+  "replacement_reviews": [
+    {
+      "number": 2,
+      "revision": 6,
+      "status": "failed_r007_queued",
+      "reason": "Warm reference floor, light and fabric palette changed to cold flat blue."
+    },
+    {
+      "number": 4,
+      "revision": 6,
+      "status": "failed_r007_queued",
+      "reason": "Added foreground haze obscures intact palace; reference geometry changes."
+    },
+    {
+      "number": 6,
+      "revision": 6,
+      "status": "visual_improved_motion_and_audio_pending",
+      "reason": "Empty throne and identity restored; early cut and continuing pan need full-motion decision."
+    },
+    {
+      "number": 7,
+      "revision": 6,
+      "status": "failed_r007_queued",
+      "reason": "Additional moving bow overlay violates fixed five-ship inventory."
+    },
+    {
+      "number": 9,
+      "revision": 6,
+      "status": "sampled_visual_pass_audio_pending",
+      "reason": "Khalid, scroll, clothing and guard preserved; cut occurs about 2.08s rather than 2.30s."
+    },
+    {
+      "number": 10,
+      "revision": 6,
+      "status": "failed_r007_queued",
+      "reason": "Invented large person beside bow chain enters water and disappears; replace risky bow closeup with modest wide crop."
+    },
+    {
+      "number": 12,
+      "revision": 6,
+      "status": "failed_r007_queued",
+      "reason": "Officer changes from screen right to screen left; invented close vessel and altered flag. Preserve original layout and distant fleet."
+    }
+  ],
+  "text_frame_reviews": {
+    "8": "08:59 stable all 120 frames",
+    "60": "08:00 late first digit partly clipped; repair queued",
+    "75": "08:59 stable all 120 frames",
+    "90": "09:05 stable all 120 frames",
+    "124": "09:38 placard changes position and scale; repair queued",
+    "125": "38 MINUTOS stable all 120 frames",
+    "59": "identity failure queued; replacement requires all-frame text QC",
+    "82": "09:00 initially obscured by smoke; replacement requires all-frame text QC"
+  },
+  "audio_limitations": [
+    "Full-video observations were contaminated by supplied narration context and must not establish audio decisions.",
+    "Audio-only check removed story context; a silence control still elicited a faint squeak and clip003 speech was contradicted by a second check. Initial model flags alone are not approval or conclusive rejection.",
+    "Clip119 musical instrument and intelligible unwanted male speech reported consistently by two independent audio-only checks; replacement queued.",
+    "Further independent confirmation requests encountered upstream 5xx/403; unresolved cases remain pending."
+  ],
+  "approval": "No new final approval or selected picture master; prior controlled-map approvals remain separately recorded."
+}

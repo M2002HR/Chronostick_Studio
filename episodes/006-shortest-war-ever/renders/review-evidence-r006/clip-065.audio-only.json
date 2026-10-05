@@ -1,0 +1,17 @@
+{
+  "number": 65,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-065-shot-r004.mp4",
+  "source_sha256": "e36b22de752d35a4e5cdc51e56b4f30de8599272fd12521baa7a4b8077782db8",
+  "pcm_sha256": "8d7d0b708ae7f545330e70c02bb4bcf4fef40a4bba8128986513f8cccbdaa0cd",
+  "peak_pcm16": 7181,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, high-pitched, and slightly wavering tone, reminiscent of a singing bowl or a sustained string instrument. There are no distinct musical notes or speech.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

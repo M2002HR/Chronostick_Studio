@@ -1,0 +1,31 @@
+{
+  "number": 45,
+  "decision": "retry",
+  "reason": "Frame0 changes standing identity comparison to crouching at throne, then invents an extra maroon-sleeved arm pulling sash from another person; fixed single-person sash/pose fails.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-045.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r004.mp4",
+  "baseline_sha256": "bef9a4ac6f3fba33085b6ad9049115d5c34c3f31323be5efe4e7ad7226e5868c",
+  "reviewed_at": "2026-10-03T18:54:34.632317+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2555681644079120112,
+  "previous_seed": 3184267945148503645,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-045/prompts/clip-045.md",
+  "prompt_sha256": "8053c29f1b2fb1b8a7f1072dd7d9334bcfcd97fbeb269bf356dfd4c9706fb59c",
+  "job": "006-shortest-war-ever:clip-045:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+      "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "2f4f5b28-344f-45d0-9a13-0fe72963f42c",
+  "job_ids": [
+    "286b9edf-d7e4-429f-993b-bd06bc0a5c9a"
+  ],
+  "submitted_at": "2026-10-03T18:54:34.774935+00:00",
+  "prompt_revision_note": "The r006 batch was submitted with the original sound single-person specification and a new fixed seed. More explicit standing/sash/crop direction has since been saved to active prompt; it is not the frozen r006 input. If r006 fails, use that direction for a new immutable attempt.",
+  "evidence_label": "renders/review-evidence-r006/clip-045.jpg"
+}

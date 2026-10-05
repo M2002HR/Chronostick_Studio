@@ -1,0 +1,29 @@
+{
+  "number": 119,
+  "decision": "revise_prompt",
+  "reason": "Independent audio-only observations and a second context-free check both identify a plucked instrumental melody and intelligible unwanted male speech; use an explicit silent audio timeline.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/audio-control-119.provider.json",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-119-shot-r004.mp4",
+  "baseline_sha256": "0cac602462cd9a08f033558ac92c86fd18b7a0707743f97758abba0c64ac4e0d",
+  "reviewed_at": "2026-10-03T19:29:19.248333+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8528206133677065749,
+  "previous_seed": 9006723704939125759,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-119/prompts/clip-119.md",
+  "prompt_sha256": "367900f8fc075caee6304d14a73226adf3f99c905657cec3b6dfca7818be1c4b",
+  "job": "006-shortest-war-ever:clip-119:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png",
+      "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "c550ab73-5e3e-4d6c-8f14-14240344ed86",
+  "job_ids": [
+    "90244e11-84e6-4cf2-9978-bca4f36023b5"
+  ],
+  "submitted_at": "2026-10-03T19:29:19.356761+00:00"
+}

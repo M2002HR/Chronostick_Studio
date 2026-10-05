@@ -1,0 +1,17 @@
+{
+  "number": 5,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-005-shot-r004.mp4",
+  "source_sha256": "c6a4e5867c79ae713b4e3bf7f3dc6ad808e17c4f10337f10b6366c48a7b377be",
+  "pcm_sha256": "ecc5f35f33846b8736b7f41266e5e32d52cf871000201777362e2670bab9f04f",
+  "peak_pcm16": 12264,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, high-pitched whistle is heard, followed by a brief pause and then a continuous, low-level ambient sound. There is no discernible speech or music.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

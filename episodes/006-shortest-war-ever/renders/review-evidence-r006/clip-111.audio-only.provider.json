@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"Speech in an unknown language, possibly French, with a distinct 'r' sound. No music or tonal bed. Continuous ambience is present, but not clearly identifiable.\",\n  \"speech\": true,\n  \"exact_words\": \"\",\n  \"music\": false,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": true,\n  \"confidence\": \"medium\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 92,
+    "totalTokenCount": 332,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "AVXBauKBG-brnsEP6N6BoQM"
+}

@@ -1,0 +1,30 @@
+{
+  "number": 13,
+  "decision": "revise_prompt",
+  "reason": "Continuous zoom replaces hard cut and keeps moving through final frame; planned locked harbour is unresolved.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-013.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r005.mp4",
+  "baseline_sha256": "f99efb852d8ef681887fcd6205499279eab679613a6b31e717b13a0c28b0721f",
+  "reviewed_at": "2026-10-03T18:48:03.430857+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8328919275203799420,
+  "previous_seed": 4376704361200760853,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-013/prompts/clip-013.md",
+  "prompt_sha256": "fa205edd612dc2e1d7da3618084fe377d08fea9b772e44b96c0bbc4f892e8ef5",
+  "job": "006-shortest-war-ever:clip-013:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+      "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "31dbace2-80bd-4ef0-906e-bc6004c568ff",
+  "job_ids": [
+    "9538b137-4fc2-4001-8693-4383853f4b0a"
+  ],
+  "submitted_at": "2026-10-03T18:48:03.587265+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-013.jpg f6–119"
+}

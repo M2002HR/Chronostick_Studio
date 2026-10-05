@@ -1,0 +1,78 @@
+{
+  "number": 31,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r005.mp4",
+  "source_sha256": "a5cd51c994fa6f0b70faab9647c4d5a2cb8afadff5a4f84aa85c52f4b09a51e6",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The messenger's head and turban morph and distort, particularly around the back of the head and the folds of the turban. The messenger's right arm and hand holding the scroll also show minor morphing.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The scroll held by the messenger shows minor morphing and distortion, particularly at the edges and the rolled ends.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The water in the foreground exhibits a shimmering, almost boiling effect, which is an impossible motion for still water.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The messenger's head and turban continue to morph and distort, particularly around the back of the head and the folds of the turban. The messenger's right arm and hand holding the scroll also show minor morphing.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The scroll held by the messenger shows minor morphing and distortion, particularly at the edges and the rolled ends.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The water in the foreground exhibits a shimmering, almost boiling effect, which is an impossible motion for still water.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A single, brief rustling sound, followed by silence, then a distinct 'whoosh' sound, and finally a 'thump' or 'clunk' sound.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.001,
+          "end": 0.091,
+          "description": "Rustling sound"
+        },
+        {
+          "start": 3.68,
+          "end": 3.92,
+          "description": "Whoosh sound"
+        },
+        {
+          "start": 4.68,
+          "end": 4.92,
+          "description": "Thump/clunk sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation largely maintains the requested visual style and composition, with a hard cut at 2.30s as planned. However, there are noticeable morphing issues with the messenger's head, turban, and the scroll, as well as an impossible shimmering motion in the water throughout both segments. The audio includes three distinct diegetic sounds, which is more than the 'one small cloth, water or masonry sound' specified in the prompt, and the 'whoosh' and 'thump' sounds do not directly correspond to the declared action of 'steadies his one closed blank scroll'."
+  }
+}

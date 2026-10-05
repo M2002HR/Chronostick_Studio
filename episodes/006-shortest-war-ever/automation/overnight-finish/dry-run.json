@@ -1,0 +1,105 @@
+{
+  "dry_run": true,
+  "valid": true,
+  "job_count": 14,
+  "jobs": [
+    {
+      "index": 1,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-010.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 2,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-012.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 3,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-017.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 4,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-019.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 5,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-035.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 6,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-058.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 7,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-073.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 8,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-093.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 9,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-094.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 10,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-095.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 11,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-097.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 12,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-105.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 13,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-110.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 14,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/jobs/clip-126.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

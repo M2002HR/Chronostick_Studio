@@ -1,0 +1,4 @@
+{
+  "jobs": [],
+  "fallback_policy": "Wait until every repair has a terminal outcome. If a new repair fails technically, keep the last existing completed revision and report that fallback; never skip a timeline slot."
+}

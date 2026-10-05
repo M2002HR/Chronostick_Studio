@@ -1,0 +1,44 @@
+{
+  "number": 20,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-020-shot-r005.mp4",
+  "source_sha256": "9397c7aa8de4421866bb4e9f59d43c33d57507baf7876e19561354867680c8dc",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The messenger character is not quietly in place; they are walking and their head is bobbing. The ripple action is not visible.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The prompt requested a closer crop of the same palace with broad water still visible, but the water is not visible in the second shot.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "One distinct 'plop' sound, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.9,
+          "end": 1.0,
+          "description": "A 'plop' sound, like a small object falling into water."
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the visual action and cropping instructions. The messenger is walking instead of remaining still, and the ripple action is not visible. The second shot does not include broad water as requested. The audio correctly features a single diegetic sound event followed by silence."
+  }
+}

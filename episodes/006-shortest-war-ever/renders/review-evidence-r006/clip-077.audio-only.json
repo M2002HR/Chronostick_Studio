@@ -1,0 +1,17 @@
+{
+  "number": 77,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r004.mp4",
+  "source_sha256": "d7006ed3418edaf73efac3392afb98a1d5fdd4e68221c30ae736455db554bcf4",
+  "pcm_sha256": "787be7c8cf70a28081fd3d777387b9b566d14653a2cad9b1a45a6f1b4257ccaa",
+  "peak_pcm16": 17251,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A train is heard, with a distinct 'clackety-clack' sound of its wheels on the tracks. There is also a continuous, low-frequency rumble, likely from the train's movement. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

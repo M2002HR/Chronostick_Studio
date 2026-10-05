@@ -1,0 +1,149 @@
+{
+  "number": 57,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-057-shot-r004.mp4",
+  "source_sha256": "00806e7ae90626a867b100bb09dae4f4d011c894311b274acd855b7c305739f4",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The messenger's head and scroll are not in the anchor's original composition at the start of the clip. The messenger is looking down at the scroll, not at the palace.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The messenger does not give the intact palace an expectant glance; instead, the messenger looks down at the scroll throughout the first segment.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The action of giving an expectant glance is not completed and settled by 2.10s, as the messenger's gaze remains fixed on the scroll.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The second segment is not a closer crop of the same messenger's head and single closed scroll with the same intact palace beyond. The camera remains at the same wide shot as the first segment.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The action's resulting state is not shown in a closer crop; the messenger's head and scroll are not closer, and the messenger's gaze is still directed at the scroll, not the palace.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The messenger's head is not round off-white, but rather a more detailed, slightly textured white with some shading.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The messenger's eyes are not simple black dots; they have a slight outline and a small white highlight.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The messenger's limbs are not spare stick limbs; they are more detailed and have some anatomical definition.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The messenger's hands are not mitten hands; they are more detailed and show distinct fingers.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specified 'bold clean dark outlines', but the outlines in the animation are not consistently bold or clean; some lines are thinner or have a slightly painterly quality.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The messenger's head and turban show slight morphing and flickering throughout the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The scroll held by the messenger shows slight morphing and flickering throughout the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The water in the foreground shows continuous, subtle movement, which contradicts the 'camera locked' instruction for both segments and the 'only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed' for the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The clouds in the sky show subtle movement and changes in shape, which contradicts the instruction that the 'clear blue sky, golden cloud shapes, clear air, calm water and intact shore silhouettes remain identical from first to last frame'.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The dhow in the background shows subtle movement, which contradicts the 'camera locked' instruction and the expectation that only the foreground action changes.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The palace and other background elements show subtle flickering and minor changes in detail, which contradicts the instruction that the background elements remain identical.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A brief, isolated 'thump' sound, followed by silence. Then a brief, isolated 'thump' sound, followed by silence. Then a brief, isolated 'thump' sound, followed by silence. Then a brief, isolated 'thump' sound, followed by silence. Then a brief, isolated 'thump' sound, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.04,
+          "description": "Brief 'thump' sound"
+        },
+        {
+          "start": 1.0,
+          "end": 1.04,
+          "description": "Brief 'thump' sound"
+        },
+        {
+          "start": 2.0,
+          "end": 2.04,
+          "description": "Brief 'thump' sound"
+        },
+        {
+          "start": 3.0,
+          "end": 3.04,
+          "description": "Brief 'thump' sound"
+        },
+        {
+          "start": 4.0,
+          "end": 4.04,
+          "description": "Brief 'thump' sound"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3,
+      5.0
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the intended action and camera work. The messenger does not look at the palace with an expectant glance, but rather at the scroll throughout the entire clip. The camera does not perform the specified closer crop in the second segment, remaining in the initial wide shot. There are also several minor visual defects, including morphing of the messenger's head, turban, and scroll, and subtle, continuous movement in the water, clouds, and background elements, which contradicts the 'camera locked' and 'remain identical' instructions. The character style also deviates slightly from the 'drawn stick figures' and 'dot eyes' description. The audio consists of repeated 'thump' sounds, which are isolated and diegetic, but not clearly tied to the declared action of 'giving an expectant glance' or 'shoe or cloth touch'."
+  }
+}

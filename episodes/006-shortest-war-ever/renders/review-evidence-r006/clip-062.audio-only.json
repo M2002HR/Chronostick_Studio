@@ -1,0 +1,17 @@
+{
+  "number": 62,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r004.mp4",
+  "source_sha256": "2e984c35a9f2010a211a3673ec1e2463321e9f322b5781e44bb8866a038992fb",
+  "pcm_sha256": "efa1f905821051d0fb6777f8e0bea652d2888ca9ad0ba5432baa1b516bc782f4",
+  "peak_pcm16": 18503,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct whooshing sound, like air rushing, is present. There's a subtle, continuous hum in the background.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

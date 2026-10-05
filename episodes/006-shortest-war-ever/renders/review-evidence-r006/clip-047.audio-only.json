@@ -1,0 +1,17 @@
+{
+  "number": 47,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r004.mp4",
+  "source_sha256": "2f0ec53f6c6c5f437b84bd0f389abbee70d527b9e76624e25fbc7017c1faaec8",
+  "pcm_sha256": "487ba96a46140874dfe485136df7ffe0abe57818dbf7aa621b33cd018b4d1d3a",
+  "peak_pcm16": 9699,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, melancholic musical phrase with a sustained string instrument and a plucked string instrument. The music has a slow tempo and a somewhat somber mood.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

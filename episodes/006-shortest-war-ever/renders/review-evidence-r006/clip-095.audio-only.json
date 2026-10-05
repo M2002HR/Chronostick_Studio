@@ -1,0 +1,17 @@
+{
+  "number": 95,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r004.mp4",
+  "source_sha256": "8654a16a2cb1a0f1d2573f9e4cba4715e94e0c0fe7fc0b42159fed59d6d9feed",
+  "pcm_sha256": "b65da15e5aa0ae12c7c06c9d3c0d75bbd2563c2f87d872d1a7b6119cf85835f5",
+  "peak_pcm16": 12895,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A loud bang, followed by a distinct 'thud' and then a faint, continuous hum. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

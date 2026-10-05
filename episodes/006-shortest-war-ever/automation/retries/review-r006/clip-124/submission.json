@@ -1,0 +1,85 @@
+{
+  "id": "8bc94a08-f724-43a1-af5f-f13209ed1f50",
+  "status": "queued",
+  "created_at": "2026-10-03T19:14:45.398564+00:00",
+  "updated_at": "2026-10-03T19:14:45.398564+00:00",
+  "error_json": null,
+  "metrics_json": null,
+  "request": {
+    "jobs": [
+      {
+        "schema_version": "1.0",
+        "template": "h3_ref2va",
+        "profile": "youtube_shorts_hq",
+        "prompt": {
+          "text": null,
+          "file": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-124/prompts/clip-124.md"
+        },
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-0938-r001.png",
+            "role": "scene",
+            "name": "Picture 1"
+          }
+        ],
+        "generation": {
+          "aspect_ratio": "16:9",
+          "megapixel": 0.6,
+          "width": 1024,
+          "height": 576,
+          "duration_seconds": 5.0,
+          "fps": 24.0,
+          "steps": 12,
+          "sampler": "res_multistep",
+          "scheduler": "beta",
+          "seed": 136144202331373387,
+          "seed_mode": "fixed",
+          "project_seed": 123456,
+          "lightning": false,
+          "ref_image_size": "match",
+          "loras": []
+        },
+        "audio": {
+          "enabled": true,
+          "mode": "sfx_only",
+          "dialogue": false,
+          "narration": false,
+          "music": false,
+          "prompt_suffix": null,
+          "require_audio_stream": true
+        },
+        "output": {
+          "directory": "episodes/006-shortest-war-ever/renders/raw",
+          "prefix": "clip-124-shot-r006",
+          "container": "mp4",
+          "overwrite": false,
+          "editorial_directory": "episodes/006-shortest-war-ever/renders/editorial",
+          "editorial_duration_seconds": 5.0
+        },
+        "postprocess": {
+          "concat": false,
+          "upscale": false
+        },
+        "advanced": {
+          "engine_options": {},
+          "node_overrides": {}
+        },
+        "job_identity": "006-shortest-war-ever:clip-124:r006"
+      }
+    ],
+    "settings": {
+      "continue_on_error": true,
+      "stop_on_error": false,
+      "max_retries": 1,
+      "concat_on_complete": false,
+      "upscale_on_complete": false,
+      "output": null
+    }
+  },
+  "job_ids": [
+    "00f93bcf-9571-4e20-8b8d-4f527b2af54e"
+  ],
+  "output_files": [],
+  "error": null,
+  "metrics": null
+}

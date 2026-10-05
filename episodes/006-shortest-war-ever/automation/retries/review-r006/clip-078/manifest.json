@@ -1,0 +1,30 @@
+{
+  "number": 78,
+  "decision": "revise_prompt",
+  "reason": "2.75s onward two British ships burn during prebattle observation.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-078.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r004.mp4",
+  "baseline_sha256": "e65bc205eb1c2547c99125befcc5992862dc1cd34a0ec8e03060de73403c64b2",
+  "reviewed_at": "2026-10-03T19:03:50.712297+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2717500746477058768,
+  "previous_seed": 2446367526267043207,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-078/prompts/clip-078.md",
+  "prompt_sha256": "a9831991d56161d96ce12fdb47dfa1cc55eb2f164c4f2e9185d1a41afcbb714a",
+  "job": "006-shortest-war-ever:clip-078:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+      "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "a18f0d91-043f-482b-a33e-72862f41e822",
+  "job_ids": [
+    "a1e66cef-ced3-4115-8a5a-afc8bdd4b695"
+  ],
+  "submitted_at": "2026-10-03T19:03:50.820632+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-078.jpg"
+}

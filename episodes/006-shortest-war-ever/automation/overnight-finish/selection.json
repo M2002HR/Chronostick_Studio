@@ -1,0 +1,2498 @@
+{
+  "schema_version": "1.0",
+  "selected_at": "2026-10-05T06:24:43.831064+00:00",
+  "policy": "User-directed latest revision; overrides approval-only selection. Creative approval is not inferred.",
+  "slot_count": 131,
+  "clips": [
+    {
+      "number": 1,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-001-shot-r004.mp4",
+      "filename": "clip-001-shot-r004.mp4",
+      "sha256": "51c1e5a39ae93c5edeb57082fb26ccd0c79e3414dacbf0048c8a5005af3947f5",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 2,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r008.mp4",
+      "filename": "clip-002-shot-r008.mp4",
+      "sha256": "2b6d78c1d2ba95f0084b4650d214489e0bf602a54d89678d4b59b94fe46deba5",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 3,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-003-shot-r004.mp4",
+      "filename": "clip-003-shot-r004.mp4",
+      "sha256": "90d546d7e9fefb45b7e9e2381206080394c58bb03e7042287ca22f1ddcbe6984",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 4,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r008.mp4",
+      "filename": "clip-004-shot-r008.mp4",
+      "sha256": "760ff56db902bcb20725aaeca8148de3c4723e4007ac59aba9674fd0e5f886a2",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 5,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-005-shot-r004.mp4",
+      "filename": "clip-005-shot-r004.mp4",
+      "sha256": "c6a4e5867c79ae713b4e3bf7f3dc6ad808e17c4f10337f10b6366c48a7b377be",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 6,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r006.mp4",
+      "filename": "clip-006-shot-r006.mp4",
+      "sha256": "32dac68c9f2d99529ce383cfe29025baffec9935f14a2c3a2aa541d3f8ca1599",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 7,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r008.mp4",
+      "filename": "clip-007-shot-r008.mp4",
+      "sha256": "f94dd14565ce6051d68a176a7fea14474cb0000a6110195c0dbe18401ff39cc9",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 8,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-008-shot-r004.mp4",
+      "filename": "clip-008-shot-r004.mp4",
+      "sha256": "54bc45a0184b27d7f93865665367695b499a09728a391a06c085241893d80cef",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 9,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r006.mp4",
+      "filename": "clip-009-shot-r006.mp4",
+      "sha256": "accd79fb87036ee096be3f75ab10ee12ae5377abdd654412af74897a38d4292f",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 10,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r009.mp4",
+      "filename": "clip-010-shot-r009.mp4",
+      "sha256": "65cdcc7b167eaf7d2b5ae012c9694667a9b5f6f77e322cf5c0c523ea87f6498f",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 11,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-011-shot-r004.mp4",
+      "filename": "clip-011-shot-r004.mp4",
+      "sha256": "13840c28be0defe04efbccfc0c5919de94139dcf46c78d4c2b50aaada747e781",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 12,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r009.mp4",
+      "filename": "clip-012-shot-r009.mp4",
+      "sha256": "96098ff0ddbf131d05fb6a82cf09457eefcc067d8a516e1242d38109ae07579e",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 13,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r008.mp4",
+      "filename": "clip-013-shot-r008.mp4",
+      "sha256": "be75939604f5cc2414972e9ff301a4d8e7649a4cc1b41df59fef929d874cc3f0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 14,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-014-map-r005.mp4",
+      "filename": "clip-014-map-r005.mp4",
+      "sha256": "cd22feae3bdaf50fdebd51a126b1eb28683ded51a529d908e8dd3415fb6791c7",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 15,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r008.mp4",
+      "filename": "clip-015-shot-r008.mp4",
+      "sha256": "5121ac208d34511448ad847310703ca3afc885ba181dfb54a5673f6b06d6129a",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 16,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r006.mp4",
+      "filename": "clip-016-shot-r006.mp4",
+      "sha256": "158e81a9c97bcf914965e6b645092abb5c71479a09dc4377f7cce6485bf08b76",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 17,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r009.mp4",
+      "filename": "clip-017-shot-r009.mp4",
+      "sha256": "302ae5f91134817c2b81a20ce44c4190fc8be89980be736c0117b765561748be",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 18,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-018-shot-r004.mp4",
+      "filename": "clip-018-shot-r004.mp4",
+      "sha256": "f9f16c6ba550011ae9179e9879ce3dc8afab980bcbe2d550b21229ab70691f61",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 19,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r009.mp4",
+      "filename": "clip-019-shot-r009.mp4",
+      "sha256": "9eac7d9b392d1979e8933b20637f39be4ad0674fb71e1c3cb7f315d1fc6810a9",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 20,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-020-shot-r005.mp4",
+      "filename": "clip-020-shot-r005.mp4",
+      "sha256": "9397c7aa8de4421866bb4e9f59d43c33d57507baf7876e19561354867680c8dc",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 21,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r006.mp4",
+      "filename": "clip-021-shot-r006.mp4",
+      "sha256": "3471c79e761d5b6cac59e3b6071d887ab7b6f929e75e16dbc40676d6e23f4e6a",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 22,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r008.mp4",
+      "filename": "clip-022-shot-r008.mp4",
+      "sha256": "01578723c5508189c92bc7f1d35c69b80c47851b98c14d14e0045451e6df20dc",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 23,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r006.mp4",
+      "filename": "clip-023-shot-r006.mp4",
+      "sha256": "6e4fdaef4fb144d20f17ae07925a354ec46da33dcd8a758279adbf93cd9ad1e1",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 24,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r006.mp4",
+      "filename": "clip-024-shot-r006.mp4",
+      "sha256": "236c97dcee0f7188306f2470c89a71faabc7d24df683f4583b2d1b8feb70d232",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 25,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r008.mp4",
+      "filename": "clip-025-shot-r008.mp4",
+      "sha256": "3f56c6846ef8f9a97e06231c74adf0744a66134ce8cf926a2d4f5cd4fb340ead",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 26,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r006.mp4",
+      "filename": "clip-026-shot-r006.mp4",
+      "sha256": "632c70ab7367ce8f7e625000ba719d748b3b6d472c48c8c5d2289cad8ee18d2c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 27,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r006.mp4",
+      "filename": "clip-027-shot-r006.mp4",
+      "sha256": "ef2de8b4660dd1337aaaafad986397638cd8cbe651b80fd174be4de48c32aaba",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 28,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r006.mp4",
+      "filename": "clip-028-shot-r006.mp4",
+      "sha256": "8b0fd4be9f6a34ddeccf6a6bd936f6d66fd54bc90bb63be1b2792acad2627d00",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 29,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-029-shot-r004.mp4",
+      "filename": "clip-029-shot-r004.mp4",
+      "sha256": "34d195f760e06a78687a7045edca7a3c840ea323ab395121b8c9a4d8bafa9010",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 30,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r006.mp4",
+      "filename": "clip-030-shot-r006.mp4",
+      "sha256": "cd0e8e503e9c6bbf811d23b91e227afe390ba99c9971f16daa402e55e85ea3c6",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 31,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r008.mp4",
+      "filename": "clip-031-shot-r008.mp4",
+      "sha256": "70e833450d8a4f5590f1ed2787dbb7bf6c2a5eee32b918e432f55d47f5338f28",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 32,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r008.mp4",
+      "filename": "clip-032-shot-r008.mp4",
+      "sha256": "4e960bac9389175629dce70491c3e4db24fe500d71821600698fd336106ad8f8",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 33,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r008.mp4",
+      "filename": "clip-033-shot-r008.mp4",
+      "sha256": "88aaaee1bf18ee7975e8e71c132c5d90fe39a983aa522663304349daddc0ed49",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 34,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r008.mp4",
+      "filename": "clip-034-shot-r008.mp4",
+      "sha256": "c8c47837a06e068e94010185fedbd6ce5d62a324ecd9b3274157174c1c2b255e",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 35,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r009.mp4",
+      "filename": "clip-035-shot-r009.mp4",
+      "sha256": "9bd873f62560a2e604b5496f3fbef47e85d615b3254f5c576fce90e1e1a6671a",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 36,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r008.mp4",
+      "filename": "clip-036-shot-r008.mp4",
+      "sha256": "ff5dd113aa9c7739ba3f13c45bc480b89dd16d72c135a3c4dce2fb9f7ebead91",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 37,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r008.mp4",
+      "filename": "clip-037-shot-r008.mp4",
+      "sha256": "a223c0725da8fef698d105e3fa5e2618a6ee1af90ba2b7d7f049aa129461c264",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 38,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-038-shot-r005.mp4",
+      "filename": "clip-038-shot-r005.mp4",
+      "sha256": "539e7c1dc784acd2edd649f3cd10d1923f6968861f19b78a34403fa3074524a9",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 39,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-039-shot-r004.mp4",
+      "filename": "clip-039-shot-r004.mp4",
+      "sha256": "fc8b9b76a4415a0cdad37f9de6fb824d8e5d36066277fe0c117a48645f1af6fe",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 40,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-040-shot-r005.mp4",
+      "filename": "clip-040-shot-r005.mp4",
+      "sha256": "5f70be5b66a7999cde824cb1ce24fcf5b835885bf963569d6074be6ae1cd1523",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 41,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-041-shot-r004.mp4",
+      "filename": "clip-041-shot-r004.mp4",
+      "sha256": "c57f5af211d46f178a04b2b782e19a9426c5cdee15beebcea12f915f688fe242",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 42,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-042-shot-r004.mp4",
+      "filename": "clip-042-shot-r004.mp4",
+      "sha256": "a53573e294d6c8c64c0dfaa98dec010e384b36fdc34f69cec744a20795f075f7",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 43,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r006.mp4",
+      "filename": "clip-043-shot-r006.mp4",
+      "sha256": "c15c03c48ad103aa026fc27daf666976545535f9ddaa184a5039da0d8e717f45",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 44,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r006.mp4",
+      "filename": "clip-044-shot-r006.mp4",
+      "sha256": "eb708ab96b81d0d9afa2ce375a84f23cdf16fcc94c87a1a408874eedd8661b59",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 45,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r008.mp4",
+      "filename": "clip-045-shot-r008.mp4",
+      "sha256": "05b3a6b16b5ea1ae68d9c57554c7d5bc81c8a668c653eade615923cdcf0dc367",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 46,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-046-shot-r004.mp4",
+      "filename": "clip-046-shot-r004.mp4",
+      "sha256": "5f46e9ad116c314145d34a6cd9e0b3891b24e106821ba22026e70ff9ab775d2a",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 47,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r008.mp4",
+      "filename": "clip-047-shot-r008.mp4",
+      "sha256": "498b5b246d3ba28affd23c7cc18213f5abe2e99f3e08dc9f825f6ca081c7c883",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 48,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-048-shot-r004.mp4",
+      "filename": "clip-048-shot-r004.mp4",
+      "sha256": "adef915dabbb00a79dd5f5af9dc93fe3e78838bae5259afd0cc1651f34fbb0f3",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 49,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-049-shot-r004.mp4",
+      "filename": "clip-049-shot-r004.mp4",
+      "sha256": "5fdb2925e755d484cb7107bfe34ebc047811b131355cf0ffe491d90e5f25c20b",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 50,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-050-shot-r004.mp4",
+      "filename": "clip-050-shot-r004.mp4",
+      "sha256": "75b0b3bd677b2126dc2eead6084736900af8d8bccb790a40e09d018fc85dd48c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 51,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r006.mp4",
+      "filename": "clip-051-shot-r006.mp4",
+      "sha256": "ef853bf7a1b1c0e7cbaf390318e2e8207a6c375e5ef9a40cdbc55b81884d9ee0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 52,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-052-shot-r004.mp4",
+      "filename": "clip-052-shot-r004.mp4",
+      "sha256": "02e6ea2e608629fb02f17ec6778630719247fdd4e99969722a265f9f422809ae",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 53,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-053-shot-r006.mp4",
+      "filename": "clip-053-shot-r006.mp4",
+      "sha256": "86738e080b8552bf6ea43fcd5f41150c58d441ae2f7aedaa07964a9be448aa54",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 54,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-054-shot-r004.mp4",
+      "filename": "clip-054-shot-r004.mp4",
+      "sha256": "2a483ef78494fc1accf69a4e484b4f33c5b7c75187d5d1de02703cba49755e88",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 55,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r006.mp4",
+      "filename": "clip-055-shot-r006.mp4",
+      "sha256": "23de00de5b32f0fb32c1799d394114f48e96fd52dd96277b02ff4fbe8f6f2780",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 56,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-056-shot-r004.mp4",
+      "filename": "clip-056-shot-r004.mp4",
+      "sha256": "c747dd6404e7c6f8ac391d9c106bb9de29e976d7aad3b67b3d9564d72473a5ad",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 57,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-057-shot-r004.mp4",
+      "filename": "clip-057-shot-r004.mp4",
+      "sha256": "00806e7ae90626a867b100bb09dae4f4d011c894311b274acd855b7c305739f4",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 58,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r009.mp4",
+      "filename": "clip-058-shot-r009.mp4",
+      "sha256": "c2b1c65fdb64d5e525298f7e60cd1cabb28d30e4699bb72a51a7a1a6b5a48341",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 59,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r006.mp4",
+      "filename": "clip-059-shot-r006.mp4",
+      "sha256": "dae5959025e8cd7fa6f752085ed098157b96797a318f104254e394ebb3bffa8c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 60,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r006.mp4",
+      "filename": "clip-060-shot-r006.mp4",
+      "sha256": "ff2ecc6ac045658f05bc472558363a3424661760c77d96bc5f7c1cd37fcfcf4d",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 61,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-061-shot-r004.mp4",
+      "filename": "clip-061-shot-r004.mp4",
+      "sha256": "c239f8ad786104b4a0322669418829d5a7dcc4474773f61fab4aeb6cf2522e23",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 62,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r008.mp4",
+      "filename": "clip-062-shot-r008.mp4",
+      "sha256": "c2679010b210251cd1e4ec0313ba93e61926116641f6c562a5c1184040a981eb",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 63,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r008.mp4",
+      "filename": "clip-063-shot-r008.mp4",
+      "sha256": "989b6ad6f436ca0be9d3ea736fd312af37896d224c8f7a5c0b8e5c23690fac5e",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 64,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-064-shot-r005.mp4",
+      "filename": "clip-064-shot-r005.mp4",
+      "sha256": "b36afc6150632a32dbc85e5b4764509ac13119b526c77ad77ca4a166768cf39f",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 65,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-065-shot-r004.mp4",
+      "filename": "clip-065-shot-r004.mp4",
+      "sha256": "e36b22de752d35a4e5cdc51e56b4f30de8599272fd12521baa7a4b8077782db8",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 66,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-066-shot-r004.mp4",
+      "filename": "clip-066-shot-r004.mp4",
+      "sha256": "ecf4ff3f28edfc46af022a4bf39530f20142bcb328789c381dca219ae8f70bfa",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 67,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r008.mp4",
+      "filename": "clip-067-shot-r008.mp4",
+      "sha256": "b36e179674fcdcb855d6c02ce7ccee22bc57096887a81d04628514a07d144487",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 68,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r006.mp4",
+      "filename": "clip-068-shot-r006.mp4",
+      "sha256": "0b5f71681511a389948558a2599d5983e75b73746bd1269272ef7030852556b5",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 69,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r006.mp4",
+      "filename": "clip-069-shot-r006.mp4",
+      "sha256": "4ae002f9fcb7fbec4d39386ab98853aca1f3d38f3256719607a53eead885478b",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 70,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r008.mp4",
+      "filename": "clip-070-shot-r008.mp4",
+      "sha256": "4ad6731aea8cab58ed7a7de492ba97ca6ac02f503849e5f5f97fabfffe8ae122",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 71,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-071-shot-r004.mp4",
+      "filename": "clip-071-shot-r004.mp4",
+      "sha256": "f04496e497171779de412ff47f903d8be2a8043bfec3e246183831c6daba9c91",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 72,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r008.mp4",
+      "filename": "clip-072-shot-r008.mp4",
+      "sha256": "0f3bd8eb2a9b44bd097aee74de1e9ce1006a349dd716e6e2ed2f22f563cf20aa",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 73,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r009.mp4",
+      "filename": "clip-073-shot-r009.mp4",
+      "sha256": "01f3995caf0a9675acb55dd98a4837ae5f231a45bd4ea626b4ae4679f4e41844",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 74,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-074-shot-r004.mp4",
+      "filename": "clip-074-shot-r004.mp4",
+      "sha256": "3332f0b786738ae0b3dae6a4b88b8da767192ffa1107fe4f6f0f815d875a263c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 75,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-075-shot-r004.mp4",
+      "filename": "clip-075-shot-r004.mp4",
+      "sha256": "58c3b21406e400436fb32580ba0e670393264ad7ac602637b458e7b75c02d394",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 76,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-076-shot-r006.mp4",
+      "filename": "clip-076-shot-r006.mp4",
+      "sha256": "3148f76e15ebc9798f8ffd2a39614b835686dad2acd0aac66de8408165240126",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 77,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r008.mp4",
+      "filename": "clip-077-shot-r008.mp4",
+      "sha256": "690bfd0b9db5d949b866ec851e578e9977490504f981a0f90ecb3e12ecd59689",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 78,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r008.mp4",
+      "filename": "clip-078-shot-r008.mp4",
+      "sha256": "9dec4c03cc7994ecbfc16a3a73c4dd67329e2199a098c350f0fef72a5f537456",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 79,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-079-shot-r006.mp4",
+      "filename": "clip-079-shot-r006.mp4",
+      "sha256": "56a388710b8fcf0b2702a6819d4f40ae87fb72b40d2e6983509b822deca1e162",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 80,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r008.mp4",
+      "filename": "clip-080-shot-r008.mp4",
+      "sha256": "9261190129d22ff0eff5a3632c969a9a894e1aea06aaa1487131c56c31ccbcf0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 81,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r008.mp4",
+      "filename": "clip-081-shot-r008.mp4",
+      "sha256": "f8fa16d4cece2a46ebd394245855d5ffc55c1ef05f283c784a32552e8ebe8a3f",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 82,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r008.mp4",
+      "filename": "clip-082-shot-r008.mp4",
+      "sha256": "339725dfdae69ba9a8d5f734bfb1803ed09ad414481624a3b047f287cda9eaa4",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 83,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-083-shot-r004.mp4",
+      "filename": "clip-083-shot-r004.mp4",
+      "sha256": "1fc88d38815c6f82d4bdcfbcb16d34a25dca68ff7700dcd48c5ca402ac6cf370",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 84,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r006.mp4",
+      "filename": "clip-084-shot-r006.mp4",
+      "sha256": "a4145545ca06f9ae7164d93d8ca5e632eaa8ba83b0a3b71497a705c0648511d1",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 85,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-085-shot-r005.mp4",
+      "filename": "clip-085-shot-r005.mp4",
+      "sha256": "9d2fb511c7ab049c490293c762e90b34f83e68e531a62235c1a566beb04839af",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 86,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-086-shot-r004.mp4",
+      "filename": "clip-086-shot-r004.mp4",
+      "sha256": "2d836bcbd76b984a6347aa1d1d33cf5fb78b21f48289917bd50a9499733ef934",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 87,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-087-shot-r004.mp4",
+      "filename": "clip-087-shot-r004.mp4",
+      "sha256": "c3e0d52ed81abf6afbcd4871e0f0e65d8337ae40b794d91e2d3fc4a5db4c8403",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 88,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r006.mp4",
+      "filename": "clip-088-shot-r006.mp4",
+      "sha256": "1cdcdbe272ef02640bd4bb89b8ba203176d87a52e1186628cbd2213554975d9f",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 89,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-089-shot-r004.mp4",
+      "filename": "clip-089-shot-r004.mp4",
+      "sha256": "bf57bde911fbe9f6264a988bf491f61e308f89318e1b9ed581a91ea2e0b76f8e",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 90,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-090-shot-r004.mp4",
+      "filename": "clip-090-shot-r004.mp4",
+      "sha256": "50b2837ef365c57ff0d5ea46b7bc8c29ee640386d868853fe413a52b34c7e6c5",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 91,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-091-shot-r004.mp4",
+      "filename": "clip-091-shot-r004.mp4",
+      "sha256": "afb63b76549340c8c36bdb1dc93724a17bfd66650b6a6a71877295a8b8dd2847",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 92,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-092-shot-r004.mp4",
+      "filename": "clip-092-shot-r004.mp4",
+      "sha256": "8a1a321cbd45be430a1df0f6fa1b198dbed8ace008bb3dd8222d31327fae1eb9",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 93,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r009.mp4",
+      "filename": "clip-093-shot-r009.mp4",
+      "sha256": "4c2463582032b5e252111184da640d61d2a2910648d7bed415bae80a45d96e97",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 94,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r009.mp4",
+      "filename": "clip-094-shot-r009.mp4",
+      "sha256": "ddb5961b26281304d834a9a4ef55082fedf857f47d17602e310f14eaa671cb96",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 95,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r009.mp4",
+      "filename": "clip-095-shot-r009.mp4",
+      "sha256": "0409f939b6889139516218302d7826ae491a3e1d2a7189e52daef23fa0655ed4",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 96,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r006.mp4",
+      "filename": "clip-096-shot-r006.mp4",
+      "sha256": "4ded501c6dafce40c84ba75b3f52b370bd8a89cb598294e350e71f509e3ea56e",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 97,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r009.mp4",
+      "filename": "clip-097-shot-r009.mp4",
+      "sha256": "91d10f582a676f0fe87b8ffa74364cad8346c8290f0b85684d128a13d8c053af",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 98,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-098-shot-r004.mp4",
+      "filename": "clip-098-shot-r004.mp4",
+      "sha256": "20de5ff2b86faa7da4de08e68d8aa384f98864675c91861536dd66f3ad803fa0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 99,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-099-shot-r005.mp4",
+      "filename": "clip-099-shot-r005.mp4",
+      "sha256": "8367a2904ca3a2861dba9d880b2ecf53583db8f8549bd2e86b81c57f2641b5d9",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 100,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r006.mp4",
+      "filename": "clip-100-shot-r006.mp4",
+      "sha256": "a43e695661ab8fc5ca14f1f25fa4c33732d4ee23175c32d50b8eb9f4b9f50062",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 101,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-101-shot-r005.mp4",
+      "filename": "clip-101-shot-r005.mp4",
+      "sha256": "e6201852ff128a72573fe123e7a871911c8ee7b7069144bc2575c8adb3750443",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 102,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-102-shot-r004.mp4",
+      "filename": "clip-102-shot-r004.mp4",
+      "sha256": "321a7434d90e628ba7ac1399886fc47a1354584e3744014e75c620fa367655e0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 103,
+      "revision": 8,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r008.mp4",
+      "filename": "clip-103-shot-r008.mp4",
+      "sha256": "e9129c6d292a1c77d8145671485303f084a7fcbf135470b3373033eb6ac9a726",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 104,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-104-shot-r004.mp4",
+      "filename": "clip-104-shot-r004.mp4",
+      "sha256": "7221051729f9b8021bd67be5246c36708558515c5ca841278074a264af97a90f",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 105,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r009.mp4",
+      "filename": "clip-105-shot-r009.mp4",
+      "sha256": "33d2b2ae78af3192f54c78db781c45e31348bbd7c9104e8030f6fdcdb627596c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 106,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-106-shot-r004.mp4",
+      "filename": "clip-106-shot-r004.mp4",
+      "sha256": "beb29f8eb66cd369fddbc8427216fc2a87331de222886b154b8ea6fc56ba69d0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 107,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r006.mp4",
+      "filename": "clip-107-shot-r006.mp4",
+      "sha256": "ec3f82f6c9acc28b4f2f2d30d65a4788f7f3bac0f048d2bd612275170d88bc32",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 108,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r006.mp4",
+      "filename": "clip-108-shot-r006.mp4",
+      "sha256": "448e8473ce49b135f90e8f75ae5319277239d61c9469eadce60bc5278d714fe9",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 109,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-109-shot-r004.mp4",
+      "filename": "clip-109-shot-r004.mp4",
+      "sha256": "01e7476dfcb2e3f6e36180a3395bf526c6ca89b0bc9ab51087af6b7ebc371ca0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 110,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r009.mp4",
+      "filename": "clip-110-shot-r009.mp4",
+      "sha256": "da2c3fb41bdcb8801acfa35dc534a603f6570be5987216241ebd8bc10d7eced0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 111,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-111-shot-r004.mp4",
+      "filename": "clip-111-shot-r004.mp4",
+      "sha256": "511427981af49b8a8044f94de32f17ecac74e3277becc3cba61a582169c81fb9",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 112,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-112-shot-r004.mp4",
+      "filename": "clip-112-shot-r004.mp4",
+      "sha256": "02dc732f69b05f92d7bbe7b824e4bef1298190aa7bb85d2374558e3e8f1c804e",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 113,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r006.mp4",
+      "filename": "clip-113-shot-r006.mp4",
+      "sha256": "2180e7ccaf6716eb8a6ca668ad22596797de42a43065bf3b832a842726bf2ce3",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 114,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r006.mp4",
+      "filename": "clip-114-shot-r006.mp4",
+      "sha256": "c0c3e2c81fe49b032955b9c10cffdb11a3fbf4feb759ad0562222f3295cc7b94",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 115,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r006.mp4",
+      "filename": "clip-115-shot-r006.mp4",
+      "sha256": "97c42123193f2e24a28e0466f05ea7c4c201b9309544c75243dd3c8ff6804a50",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 116,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-116-shot-r004.mp4",
+      "filename": "clip-116-shot-r004.mp4",
+      "sha256": "a7c9701e99b77c3326b55f8c5b9d4c321e7324dd5fc0555ed17158f46fc35b26",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 117,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-117-shot-r006.mp4",
+      "filename": "clip-117-shot-r006.mp4",
+      "sha256": "10ba35a93c4fcd0b280f215991bdc48efcf37b45aec742b65e310f9dda5e23f4",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 118,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/controlled-maps/clip-118-map-r005.mp4",
+      "filename": "clip-118-map-r005.mp4",
+      "sha256": "6c16ca52dabd1b0df94194d2b030225c68c839bafb417c36bb52f548f723c261",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 119,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-119-shot-r006.mp4",
+      "filename": "clip-119-shot-r006.mp4",
+      "sha256": "f5801dc179e1ca2c5da5795cd68c8a9efa07da8a2dc5058d09f31482b7be1f45",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 120,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-120-shot-r004.mp4",
+      "filename": "clip-120-shot-r004.mp4",
+      "sha256": "cf5bc8f95d4688d3d85186ac8c811fa3f96bceb470c2c1371b556f23955382cf",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 121,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-121-shot-r004.mp4",
+      "filename": "clip-121-shot-r004.mp4",
+      "sha256": "7bb077741525d2a425b9bc6ba0276d38fab2b4d2d3d2502a46efc4ffb067efe5",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 122,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-122-shot-r004.mp4",
+      "filename": "clip-122-shot-r004.mp4",
+      "sha256": "be989800bf82cfa7a78ee3aa3ff4a7c4dac74b48d0778a7eaa7e60da0b22ed7e",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 123,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r006.mp4",
+      "filename": "clip-123-shot-r006.mp4",
+      "sha256": "e4eae2c14f590a5a8b88b97ba662d0b162f53754ea5c0ea3f070097578e9ee0c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 124,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-124-shot-r006.mp4",
+      "filename": "clip-124-shot-r006.mp4",
+      "sha256": "8bbd50269626337fe416faa3b45be72e4e35adc347c0e119057ee7776c95a94b",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 125,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-125-shot-r004.mp4",
+      "filename": "clip-125-shot-r004.mp4",
+      "sha256": "27643c1c019571074e978ee3a0a71ade30fe523c08cd8e9733f07629141841b8",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 126,
+      "revision": 9,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r009.mp4",
+      "filename": "clip-126-shot-r009.mp4",
+      "sha256": "8ed56abfbf4855b4b1095628199ef961f73106c837fb285399676efb60da2c9a",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 127,
+      "revision": 5,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-127-shot-r005.mp4",
+      "filename": "clip-127-shot-r005.mp4",
+      "sha256": "ba7d128c93e25b9f4b78aa9079c037cfb6fde33da58bc2c46b280140e8b745a0",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 128,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-128-shot-r004.mp4",
+      "filename": "clip-128-shot-r004.mp4",
+      "sha256": "8d0048c338699c18fa79ad8c011aa56c7665eb7c88edf8d3e1f791db0ae15338",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 129,
+      "revision": 4,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-129-shot-r004.mp4",
+      "filename": "clip-129-shot-r004.mp4",
+      "sha256": "b31424487ba36e066affbfbb25eb9111046420d4da3c42c942dd72a582066958",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 130,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-130-shot-r006.mp4",
+      "filename": "clip-130-shot-r006.mp4",
+      "sha256": "14e143dcbdf01537861eb38168bc604634b54ac73c588a4d0a961109a0c5b67c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    },
+    {
+      "number": 131,
+      "revision": 6,
+      "source": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r006.mp4",
+      "filename": "clip-131-shot-r006.mp4",
+      "sha256": "8a5773c6e5df2e22a9fe35ef864810ee943253f8af2eff4e079c125fe139165c",
+      "probe": {
+        "width": 1024,
+        "height": 576,
+        "fps": 24.0,
+        "frames": 120,
+        "duration": 5.0,
+        "has_audio": true,
+        "audio_sample_rate": "48000"
+      },
+      "selection_basis": "highest_numeric_completed_revision_explicit_user_instruction",
+      "creative_approval": null,
+      "rejected_incomplete_candidates": []
+    }
+  ],
+  "final_approval": null
+}

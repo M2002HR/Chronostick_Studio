@@ -1,0 +1,17 @@
+{
+  "number": 122,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-122-shot-r004.mp4",
+  "source_sha256": "be989800bf82cfa7a78ee3aa3ff4a7c4dac74b48d0778a7eaa7e60da0b22ed7e",
+  "pcm_sha256": "7c3c8e92af88b2bc5d908e3c7e332e09bd45b845944a51027206820c6c4158e3",
+  "peak_pcm16": 7466,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'clink' sound is heard, followed by a brief period of silence, and then a bird chirping. There is no speech or music.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

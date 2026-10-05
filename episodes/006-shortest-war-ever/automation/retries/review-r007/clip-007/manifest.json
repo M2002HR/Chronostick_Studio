@@ -1,0 +1,30 @@
+{
+  "number": 7,
+  "decision": "revise_prompt",
+  "reason": "Reviewed latest r006: overlay introduces another moving hull; retain five fixed separated ships in both compositions.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-007-r006.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r006.mp4",
+  "baseline_sha256": "90982a61635f9894faf5fbba645c410ae870b6dcc50a824f236c4d67ceaf7358",
+  "reviewed_at": "2026-10-03T19:26:39.820653+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 4079715567554553729,
+  "previous_seed": 3851639468019452186,
+  "revision": 7,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r007/clip-007/prompts/clip-007.md",
+  "prompt_sha256": "9a42be8be47cff5749296cadbaaf9a9214a5e8020a8b78ebff96784ca82b911c",
+  "job": "006-shortest-war-ever:clip-007:r007",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+      "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "3100fedd-955f-45b8-9523-1262d1b7b642",
+  "job_ids": [
+    "f30f3263-8335-488e-8f71-9e8abcabe827"
+  ],
+  "submitted_at": "2026-10-03T19:26:39.975862+00:00",
+  "baseline_request": "automation/retries/review-r006/clip-007/jobs/clip-007.json"
+}

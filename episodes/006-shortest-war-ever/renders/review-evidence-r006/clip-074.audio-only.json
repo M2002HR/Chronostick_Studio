@@ -1,0 +1,17 @@
+{
+  "number": 74,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-074-shot-r004.mp4",
+  "source_sha256": "3332f0b786738ae0b3dae6a4b88b8da767192ffa1107fe4f6f0f815d875a263c",
+  "pcm_sha256": "12e6440ed76b8107edbd1ab92d4c0c3c39d9bc5ae5253f6077aa740b8bbf605b",
+  "peak_pcm16": 29564,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'clink' sound, followed by a sustained, high-pitched ringing that gradually fades. There is a very subtle, continuous ambient hum throughout the recording.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

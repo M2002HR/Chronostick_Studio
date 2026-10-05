@@ -1,0 +1,76 @@
+{
+  "number": 34,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r004.mp4",
+  "source_sha256": "535fbec75689b6fdf7210168c605875834b8f19fcf8d2fd05b8cb8e8a75c6173",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The scene shows numerous stick figures in the council chamber, which contradicts the prompt's instruction for 'zero people' and the reference image showing an empty room.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The camera is not locked; it pans to the right as the stick figures walk out of frame.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The scene is not a closer crop of the empty throne back and arm; it is the same wide shot as the first segment, with the stick figures having exited the frame.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The camera is not locked; there is a slight, almost imperceptible, drift in the camera position.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "Spanish narration, followed by footsteps.",
+      "music": false,
+      "speech": true,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.01,
+          "description": "Spanish narration begins."
+        },
+        {
+          "start": 0.01,
+          "end": 0.02,
+          "description": "Footsteps sound."
+        },
+        {
+          "start": 0.02,
+          "end": 0.03,
+          "description": "Footsteps sound."
+        },
+        {
+          "start": 0.03,
+          "end": 0.04,
+          "description": "Footsteps sound."
+        },
+        {
+          "start": 0.04,
+          "end": 0.05,
+          "description": "Spanish narration continues."
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to meet the prompt's requirements significantly. The scene is populated with numerous stick figures, directly contradicting the 'zero people' instruction and the reference image. The camera is not locked as requested, exhibiting panning and slight drift. The second segment is not a closer crop but the same wide shot. Furthermore, the audio contains Spanish narration and footsteps, violating the 'silence' and 'no generated voice, dialogue, narration' instructions."
+  }
+}

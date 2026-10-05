@@ -1,0 +1,17 @@
+{
+  "number": 94,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r004.mp4",
+  "source_sha256": "bfa77607ec4539f4b023f348af8ca94160fca87b8ed1a915aa24ee0bd2d16b4f",
+  "pcm_sha256": "eade8f09c91a0b4cc72487de313d854054ec2f8080f943e4bd5d31e9b0148ae8",
+  "peak_pcm16": 26122,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A man is speaking, but the words are not discernible. There is also music playing in the background.",
+    "speech": true,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

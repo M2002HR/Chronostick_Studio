@@ -1,0 +1,30 @@
+{
+  "number": 82,
+  "decision": "revise_prompt",
+  "reason": "0.00–3.0s smoke covers entire scene and mandatory 09:00 text.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-082.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r004.mp4",
+  "baseline_sha256": "3ae9f3ff17cc014f85ee586c9f198ba08a263ecb84ea302b39fa5cf6f43c872b",
+  "reviewed_at": "2026-10-03T19:05:09.485447+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 3844396634229154876,
+  "previous_seed": 8214589994714753541,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-082/prompts/clip-082.md",
+  "prompt_sha256": "0e375ba437f4d91dc9598fd7b797a042148d139209a6ea561ebb40c316e3cb7f",
+  "job": "006-shortest-war-ever:clip-082:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0900-r001.png",
+      "sha256": "fb36193d516abf76fd477c0158bbc18cbbc0f41a6dee92b3a106935e7268a43c"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "1e30971a-eb16-4ec4-9011-3adbf97ec409",
+  "job_ids": [
+    "dbfaba9f-7faa-4970-be13-06d21a859aba"
+  ],
+  "submitted_at": "2026-10-03T19:05:09.615556+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-082.jpg"
+}

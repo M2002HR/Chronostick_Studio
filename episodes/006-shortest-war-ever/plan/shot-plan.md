@@ -1,6 +1,6 @@
 # Episode 006 — active map-free direction r005
 
-131 five-second slots; 655.000 seconds. Accepted Spanish voice and word timing unchanged. 129 H3 slots at12steps, two controlled geographic inserts with zero people. Ordinary action uses two simple shots; sinking, decision to leave, timed surrender reveal, clocks and quiet passages retain continuous comprehension. See map-method-decision.md.
+131 five-second slots; 655.000 seconds. Accepted Spanish voice and word timing unchanged. 129 H3 slots at12steps, two controlled geographic inserts with zero people. Ordinary action uses two simple shots; sinking, decision to leave, timed surrender reveal, clocks and quiet passages retain continuous comprehension. See map-method-decision.md. The user-authorized overnight repair overrides14specific slots to20steps and a reference-compatible continuous view; see overnight-input-repairs.json.
 
 ## Clip 001 · 0.00–5.00s · C01
 
@@ -112,13 +112,13 @@ End: one foreground Khalid with ivory turban, black beard and maroon gold-trimme
 
 Narration: una flota británica espera a que venza el plazo para que salga. Hay una nave de Zanzíbar en
 
-Method: h3_12_step
-Start: prebattle harbour, fleet west of palace; exactly five distinct British warships across the water; intact palace in distance.
-Action: The five ships hold position across the palace-facing water in a wide calm view.
+Method: h3_20_step_input_repair
+Start: Exactly five British warships in the pictured arrangement: one large near ship on the left and four smaller ships across the middle distance. Retain the already visible tiny navy deck crew at their pictured positions and scale. Water between the vessels stays open. The intact palace, quay, palm trees, rigging and chain retain their existing shapes.
+Action: A single small outlined ripple passes beside the near hull; the five vessels hold their positions.
 References in order: assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png.
-- 0.00–2.30s: the anchor's original composition; The five ships hold position across the palace-facing water in a wide calm view. Complete and settle this single action by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a closer crop of the nearest existing bow and the same shore beyond; other fleet vessels merely leave the crop, never disappear from the harbour; Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed. Camera locked; hold from 4.35s.
-End: exactly five distinct British warships across the water; intact palace in distance; settled final frame. Source claim C012; adaptation RV07.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. A single small outlined ripple passes beside the near hull; the five vessels hold their positions. Settle by 2.00s and hold through the final frame.
+
+End: Exactly five British warships in the pictured arrangement: one large near ship on the left and four smaller ships across the middle distance. Retain the already visible tiny navy deck crew at their pictured positions and scale. Water between the vessels stays open. The intact palace, quay, palm trees, rigging and chain retain their existing shapes.; settled final frame. Source claim C012; adaptation RV07.
 
 ## Clip 011 · 50.00–55.00s · C01
 
@@ -136,13 +136,13 @@ End: three prominent local stick-figure residents, wicker baskets, shaded market
 
 Narration: mueve, los cañones van a hacerlo. ¿Cómo llegó una isla a este punto? Rebobinemos.
 
-Method: h3_12_step
-Start: British ship bridge before 09:00; same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace.
-Action: Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water.
+Method: h3_20_step_input_repair
+Start: Exactly one older white-haired, white-bearded naval officer at screen right, viewed from the pictured rear shoulder in the same navy coat and cap. His binoculars remain at their original chest-height position. His visible hands retain their simple mitten silhouettes. The existing paper, railing, distant fleet and intact palace retain their pictured positions and scale.
+Action: The officer makes one slight head inclination toward the distant harbour, then holds; his hands and binoculars remain at rest.
 References in order: assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png.
-- 0.00–2.30s: the anchor's original composition; Rawson lowers his already pictured binoculars slightly while the intact palace remains quiet across the water. Complete by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a closer crop of the same officer and intact shore; Hold the already completed action and existing world state; no second action. Camera locked; hold from 4.35s.
-End: same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace; settled final frame. Source claim C012; adaptation RV07.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The officer makes one slight head inclination toward the distant harbour, then holds; his hands and binoculars remain at rest. Settle by 2.00s and hold through the final frame.
+
+End: Exactly one older white-haired, white-bearded naval officer at screen right, viewed from the pictured rear shoulder in the same navy coat and cap. His binoculars remain at their original chest-height position. His visible hands retain their simple mitten silhouettes. The existing paper, railing, distant fleet and intact palace retain their pictured positions and scale.; settled final frame. Source claim C012; adaptation RV07.
 
 ## Clip 013 · 60.00–65.00s · C01
 
@@ -195,13 +195,13 @@ End: one cream-robed ivory-turbaned quay worker, one foreground timber crate, on
 
 Narration: distintos. Gran Bretaña quería influir en ese cruce. Alemania también tenía planes en África
 
-Method: h3_12_step
-Start: clip-specific physical scene; see continuity ledger; exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant.
-Action: The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated.
+Method: h3_20_step_input_repair
+Start: Exactly two seated clean-shaven officials, navy and gold at left, charcoal and ochre at right. Exactly two closed cream dispatch rolls with red wax seals lie on the desk: one in front of each official, separated by the original clear gap. Each roll stays sealed, rigid and in its own place. The two officials' simple cream mitten hands stay in their original resting positions.
+Action: The right official gives one small head inclination toward the left official, then holds. Both sealed rolls remain motionless on the desk.
 References in order: assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png.
-- 0.00–2.30s: the anchor's original composition; The navy-coated anonymous official rests one mitten beside his own sealed dispatch; the other official stays seated. Complete by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a closer crop of the two separate closed dispatches on the same desk; Hold the already completed action and existing world state; no second action. Camera locked; hold from 4.35s.
-End: exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant; settled final frame. Source claim C007; adaptation RV02.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The right official gives one small head inclination toward the left official, then holds. Both sealed rolls remain motionless on the desk. Settle by 2.00s and hold through the final frame.
+
+End: Exactly two seated clean-shaven officials, navy and gold at left, charcoal and ochre at right. Exactly two closed cream dispatch rolls with red wax seals lie on the desk: one in front of each official, separated by the original clear gap. Each roll stays sealed, rigid and in its own place. The two officials' simple cream mitten hands stay in their original resting positions.; settled final frame. Source claim C007; adaptation RV02.
 
 ## Clip 018 · 85.00–90.00s · C02
 
@@ -219,13 +219,13 @@ End: same three prominent local residents as market, baskets and quay from a dif
 
 Narration: colorear sin más. Tenía gobernantes, habitantes y conflictos propios. Esa
 
-Method: h3_12_step
-Start: Zanzibari council chamber before successor is named; one empty ornate blue-and-gold throne in the same council chamber; exactly zero people.
-Action: An unoccupied local throne holds in the lived-in island court, asserting that Zanzibar had its own rulers.
+Method: h3_20_step_input_repair
+Start: An unoccupied architectural interior. Exactly one empty blue-and-gold carved throne occupies the right half of the room. The open doorway, wooden lattice, teal hangings, brass lanterns, floor and potted plants retain their pictured arrangement. The entire interior contains zero people.
+Action: The empty room holds its quiet settled state; only one existing plant leaf makes a tiny movement and settles.
 References in order: assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png.
-- 0.00–2.30s: the anchor's original composition; An unoccupied local throne holds in the lived-in island court, asserting that Zanzibar had its own rulers. Complete and settle this single action by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a closer crop of the same empty throne back and arm, with exactly zero people; Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed. Camera locked; hold from 4.35s.
-End: one empty ornate blue-and-gold throne in the same council chamber; exactly zero people; settled final frame. Source claim C007; adaptation RV02.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The empty room holds its quiet settled state; only one existing plant leaf makes a tiny movement and settles. Settle by 2.00s and hold through the final frame.
+
+End: An unoccupied architectural interior. Exactly one empty blue-and-gold carved throne occupies the right half of the room. The open doorway, wooden lattice, teal hangings, brass lanterns, floor and potted plants retain their pictured arrangement. The entire interior contains zero people.; settled final frame. Source claim C007; adaptation RV02.
 
 ## Clip 020 · 95.00–100.00s · C02
 
@@ -411,13 +411,13 @@ End: same empty ornate throne seen through council-room doorway; zero people; se
 
 Narration: ninguna flota puede resolver con buenos modales: ¿qué pasa si el hombre que reclama el trono no
 
-Method: h3_12_step
-Start: Zanzibari council chamber before successor is named; one empty ornate blue-and-gold throne in the same council chamber; exactly zero people.
-Action: The empty throne waits behind closed doors as the question of who may claim it sharpens.
+Method: h3_20_step_input_repair
+Start: An unoccupied architectural interior with exactly one empty ornate blue-and-gold throne at screen right. The open harbour doorway at screen left, patterned stone walls, wooden furniture, teal banners and brass objects retain their original arrangement. The entire interior contains zero people.
+Action: A single existing plant leaf moves slightly and settles while the empty throne remains unchanged.
 References in order: assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png.
-- 0.00–2.30s: the anchor's original composition; The empty throne waits behind closed doors as the question of who may claim it sharpens. Complete and settle this single action by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a closer crop of the same empty throne back and arm, with exactly zero people; Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed. Camera locked; hold from 4.35s.
-End: one empty ornate blue-and-gold throne in the same council chamber; exactly zero people; settled final frame. Source claim C007; adaptation RV03.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. A single existing plant leaf moves slightly and settles while the empty throne remains unchanged. Settle by 2.00s and hold through the final frame.
+
+End: An unoccupied architectural interior with exactly one empty ornate blue-and-gold throne at screen right. The open harbour doorway at screen left, patterned stone walls, wooden furniture, teal banners and brass objects retain their original arrangement. The entire interior contains zero people.; settled final frame. Source claim C007; adaptation RV03.
 
 ## Clip 036 · 175.00–180.00s · C03
 
@@ -687,13 +687,13 @@ End: exactly one foreground cream-robed ivory-turbaned messenger, one closed bla
 
 Narration: que las palabras por sí solas no están funcionando. Así que la diplomacia saca su
 
-Method: h3_12_step
-Start: British ship bridge before 09:00; same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace.
-Action: Rawson folds the existing paper once and keeps it in his hand, with no prop transfer to the rail.
+Method: h3_20_step_input_repair
+Start: Exactly one older white-haired, white-bearded Rawson at screen right, viewed from his original rear shoulder, in the same navy coat and cap. The existing cream paper stays in its pictured position on the bridge surface. Both visible hands retain the original simple mitten shapes and resting positions. The distant vessels remain background-sized in the same harbour.
+Action: Rawson makes one small head inclination toward the existing paper, then holds. Paper and hands remain at rest.
 References in order: assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png.
-- 0.00–2.30s: the anchor's original composition; Rawson folds the existing paper once and keeps it in his hand, with no prop transfer to the rail. Complete and settle this single action by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a tighter crop of the same officer's cap, white beard and single paper already held in the anchor; Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed. Camera locked; hold from 4.35s.
-End: same older white-bearded Rawson in dark navy uniform on ship bridge seen over his shoulder; prebattle fleet and intact palace; settled final frame. Source claim C012; adaptation RV05.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. Rawson makes one small head inclination toward the existing paper, then holds. Paper and hands remain at rest. Settle by 2.00s and hold through the final frame.
+
+End: Exactly one older white-haired, white-bearded Rawson at screen right, viewed from his original rear shoulder, in the same navy coat and cap. The existing cream paper stays in its pictured position on the bridge surface. Both visible hands retain the original simple mitten shapes and resting positions. The distant vessels remain background-sized in the same harbour.; settled final frame. Source claim C012; adaptation RV05.
 
 ## Clip 059 · 290.00–295.00s · C04
 
@@ -864,13 +864,13 @@ End: one foreground Khalid with ivory turban, black beard and maroon gold-trimme
 
 Narration: si los británicos van a cumplir su amenaza. Ya vimos muchas piezas de esta historia;
 
-Method: h3_12_step
-Start: clip-specific physical scene; see continuity ledger; exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships.
-Action: The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs.
+Method: h3_20_step_input_repair
+Start: Exactly two foreground British sailors, both at screen left, in the original navy coats and white caps. The rear sailor retains his single slung long gun. The nearer sailor rests his simple black mitten hands at the original quiet cannon, on its original wooden carriage. The intact palace and tiny shore residents remain far across the water. Both sailors keep their original positions and silhouettes.
+Action: The nearer sailor gives one tiny head inclination toward the distant palace and settles. The cannon and both sailors' hands remain motionless.
 References in order: assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png.
-- 0.00–2.30s: the anchor's original composition; The nearer sailor gives one restrained glance across the water, then waits beside the quiet cannon; no fire or signal occurs. Complete by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a closer crop of the same sailor and loaded but quiet cannon; Hold the already completed action and existing world state; no second action. Camera locked; hold from 4.35s.
-End: exactly two foreground British stick sailors in navy coats and white caps, one quiet cannon and timber carriage; the rear sailor has an existing slung long gun; intact palace and tiny distant shore residents; zero other visible warships; settled final frame. Source claim C012; adaptation RV07.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The nearer sailor gives one tiny head inclination toward the distant palace and settles. The cannon and both sailors' hands remain motionless. Settle by 2.00s and hold through the final frame.
+
+End: Exactly two foreground British sailors, both at screen left, in the original navy coats and white caps. The rear sailor retains his single slung long gun. The nearer sailor rests his simple black mitten hands at the original quiet cannon, on its original wooden carriage. The intact palace and tiny shore residents remain far across the water. Both sailors keep their original positions and silhouettes.; settled final frame. Source claim C012; adaptation RV07.
 
 ## Clip 074 · 365.00–370.00s · C04
 
@@ -1099,35 +1099,37 @@ End: exactly one intact afloat black-and-ochre Glasgow, one ochre funnel, two ri
 
 Narration: Los barcos británicos contestan y el Glasgow se hunde. También aparecen embarcaciones menores
 
-Method: h3_12_step
-Start: clip-specific physical scene; see continuity ledger; one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop.
-Action: Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s.
+Method: h3_20_step_input_repair
+Start: One damaged black-and-ochre Glasgow vessel with its original funnel, two rigged masts and empty visible deck. Preserve the existing small empty tender at far right. The foreground consists entirely of open teal water. The damaged palace and tiny shore silhouettes stay in their original background positions. Visible people on the ship and in the foreground water: zero.
+Action: The single Glasgow hull descends vertically by only about20pixels into the water, retaining rigid proportions and the same horizontal position. Its upper deck, funnel and masts remain visible. The small tender stays fixed at far right. The new lower waterline is held through the last frame.
 References in order: assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png.
-- 0.00–5.00s: one continuous close waterline view with the empty tender at the far right excluded by the initial crop; no crew or drowning people; Keep the Glasgow hull afloat without additional settling through 2.84s. From 2.84–4.35s its one existing hull settles modestly lower into the same water, leaving its damaged upper structure visible; hold the resolved lower waterline through 5.00s. Camera locked; hold from 4.35s.
-End: one still-afloat black-and-ochre Glasgow hull, mast, funnel and superstructure; no visible human; already damaged palace and residual smoke; an empty pale tender at the far-right edge stays outside the planned crop; settled final frame. Source claim C014; adaptation RV08.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The single Glasgow hull descends vertically by only about20pixels into the water, retaining rigid proportions and the same horizontal position. Its upper deck, funnel and masts remain visible. The small tender stays fixed at far right. The new lower waterline is held through the last frame. Settle by 4.00s and hold through the final frame.
+
+End: One damaged black-and-ochre Glasgow vessel with its original funnel, two rigged masts and empty visible deck. Preserve the existing small empty tender at far right. The foreground consists entirely of open teal water. The damaged palace and tiny shore silhouettes stay in their original background positions. Visible people on the ship and in the foreground water: zero.; settled final frame. Source claim C014; adaptation RV08.
 
 ## Clip 094 · 465.00–470.00s · C05
 
 Narration: menores intentando intervenir, pero la diferencia de fuerza sigue intacta. Una defensa
 
-Method: h3_12_step
-Start: settled Glasgow wreck after sinking; exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero people aboard or in foreground, existing tiny shore residents stay background-sized; no other ships; damaged palace beyond.
-Action: The already partially submerged Glasgow holds its tilted wreck state as one small outlined water ripple crosses its hull.
+Method: h3_20_step_input_repair
+Start: Exactly one already tilted and partially submerged black-and-ochre Glasgow wreck with its original funnel and rigged masts. The deck and foreground water contain zero people. The damaged palace, existing residual smoke and tiny shore residents retain their pictured background positions. The blue daylight sky and bright teal water retain their exact starting brightness and palette throughout.
+Action: One small outlined ripple crosses the hull and settles. The tilted wreck, waterline and daylight remain fixed.
 References in order: assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png.
-- 0.00–5.00s: the exact full-frame anchor viewpoint; The already partially submerged Glasgow holds its tilted wreck state as one small outlined water ripple crosses its hull. Camera locked; hold from 4.35s.
-End: exactly one partially submerged tilted Glasgow, same black-and-ochre hull, one funnel, two rigged masts; zero people aboard or in foreground, existing tiny shore residents stay background-sized; no other ships; damaged palace beyond; settled final frame. Source claim C014; adaptation RV08.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. One small outlined ripple crosses the hull and settles. The tilted wreck, waterline and daylight remain fixed. Settle by 2.00s and hold through the final frame.
+
+End: Exactly one already tilted and partially submerged black-and-ochre Glasgow wreck with its original funnel and rigged masts. The deck and foreground water contain zero people. The damaged palace, existing residual smoke and tiny shore residents retain their pictured background positions. The blue daylight sky and bright teal water retain their exact starting brightness and palette throughout.; settled final frame. Source claim C014; adaptation RV08.
 
 ## Clip 095 · 470.00–475.00s · C05
 
 Narration: defensa cae, luego otra. El combate avanza deprisa y, aun así, cada giro tiene una causa
 
-Method: h3_12_step
-Start: 27 August 1896 battle in progress; damaged palace side arcade, two retreating defenders, one distant British ship.
-Action: One small loose stone falls a short distance down the already damaged wall; the two defenders remain still.
+Method: h3_20_step_input_repair
+Start: Exactly two cream-robed, ivory-turbaned defenders at the original screen-right arcade opening, each retaining his existing small brown satchel. Their bodies stay in the pictured bent-forward retreat stance with the same original foot positions; this is a tense paused retreat. The damaged stone arcade, palace and distant ship retain their pictured arrangement and scale. Existing background smoke and fire remain confined to their original locations.
+Action: The smaller defender makes one slight head inclination toward his companion, then holds. Their feet, satchels, bodies and screen positions remain at rest.
 References in order: assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png.
-- 0.00–2.05s: the anchor's original composition; One small loose stone falls a short distance down the already damaged wall; the two defenders remain still. Complete and settle this single action by 1.85s. Camera locked; hold from 1.85s.
-- 2.05–5.00s: a closer crop of the already pictured damaged arcade and two defenders; existing damage and figure count carry through; Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed. Camera locked; hold from 4.35s.
-End: damaged palace side arcade, two retreating defenders, one distant British ship; settled final frame. Source claim C014; adaptation RV08.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The smaller defender makes one slight head inclination toward his companion, then holds. Their feet, satchels, bodies and screen positions remain at rest. Settle by 2.00s and hold through the final frame.
+
+End: Exactly two cream-robed, ivory-turbaned defenders at the original screen-right arcade opening, each retaining his existing small brown satchel. Their bodies stay in the pictured bent-forward retreat stance with the same original foot positions; this is a tense paused retreat. The damaged stone arcade, palace and distant ship retain their pictured arrangement and scale. Existing background smoke and fire remain confined to their original locations.; settled final frame. Source claim C014; adaptation RV08.
 
 ## Clip 096 · 475.00–480.00s · C05
 
@@ -1144,13 +1146,13 @@ End: exactly one partially submerged tilted Glasgow, same black-and-ochre hull, 
 
 Narration: más capacidad de fuego. Pasan los minutos. El palacio arde y sus defensas se deshacen.
 
-Method: h3_12_step
-Start: battle already in progress; one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship.
-Action: The existing thin residual plume drifts a few centimeters above the already damaged palace; no new damage occurs.
+Method: h3_20_step_input_repair
+Start: Exactly two cream-robed, ivory-turbaned defenders at the original screen-right doorway, each with his original small brown satchel. Preserve their pictured bent-forward retreat stance and original foot positions as a tense paused retreat. The damaged palace, distant single ship, existing splash shapes and background smoke retain their original layout. Existing fire is confined to the pictured battle locations.
+Action: A small upper edge of the existing background smoke drifts slightly and settles. The same pair remain at rest at the doorway with unchanged feet and satchels.
 References in order: assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png.
-- 0.00–2.05s: the anchor's original composition; The existing thin residual plume drifts a few centimeters above the already damaged palace; no new damage occurs. Complete and settle this single action by 1.85s. Camera locked; hold from 1.85s.
-- 2.05–5.00s: a closer crop of the already pictured damaged arcade and two defenders; existing damage and figure count carry through; Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed. Camera locked; hold from 4.35s.
-End: one damaged Sultan's waterfront palace, controlled smoke, two retreating stick defenders, one distant British warship; settled final frame. Source claim C017; adaptation RV09.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. A small upper edge of the existing background smoke drifts slightly and settles. The same pair remain at rest at the doorway with unchanged feet and satchels. Settle by 2.00s and hold through the final frame.
+
+End: Exactly two cream-robed, ivory-turbaned defenders at the original screen-right doorway, each with his original small brown satchel. Preserve their pictured bent-forward retreat stance and original foot positions as a tense paused retreat. The damaged palace, distant single ship, existing splash shapes and background smoke retain their original layout. Existing fire is confined to the pictured battle locations.; settled final frame. Source claim C017; adaptation RV09.
 
 ## Clip 098 · 485.00–490.00s · C06
 
@@ -1239,12 +1241,13 @@ End: same maroon-robed Khalid and one neutral guard inside consulate doorway; da
 
 Narration: que aparece la señal de rendición. Entonces, por fin, el puerto queda en silencio.
 
-Method: h3_12_step
-Start: clip-specific physical scene; see continuity ledger; one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke.
-Action: The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached.
+Method: h3_20_step_input_repair
+Start: A full-width landscape view of the already damaged palace. One existing white surrender cloth remains on its original slender pole above the damaged roof near the centre of the picture. Keep the entire original building, roof, blue sky and residual smoke in the same horizontal composition. The cloth is clearly visible from the opening frame. All pictured architecture remains fixed.
+Action: The single white cloth makes one small flutter on its original fixed pole and settles. Its location and the full-width landscape composition remain unchanged.
 References in order: assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png.
-- 0.00–5.00s: Begin on a tight crop of the existing lower damaged masonry with the white cloth entirely outside the crop. At 0.68s begin one gentle pull-back, finish by 3.50s to reveal the existing white cloth and short pole, then hold through the narrated silence and final frame.; The existing small plain white surrender cloth makes one tiny natural flutter and then settles; it is already attached and is never manufactured, raised or detached. Camera one timed pull-back; hold from 4.35s.
-End: one damaged palace frontage, one short pole and one existing small plain white cloth tied partway along it; exactly zero people and no ships in the crop; fixed existing roof damage and residual smoke; settled final frame. Source claim C017; adaptation RV09.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The single white cloth makes one small flutter on its original fixed pole and settles. Its location and the full-width landscape composition remain unchanged. Settle by 2.00s and hold through the final frame.
+
+End: A full-width landscape view of the already damaged palace. One existing white surrender cloth remains on its original slender pole above the damaged roof near the centre of the picture. Keep the entire original building, roof, blue sky and residual smoke in the same horizontal composition. The cloth is clearly visible from the opening frame. All pictured architecture remains fixed.; settled final frame. Source claim C017; adaptation RV09.
 
 ## Clip 106 · 525.00–530.00s · C06
 
@@ -1298,12 +1301,13 @@ End: exactly three local stick civilians: older woman in blue-gray shawl left, y
 
 Narration: sorpresa con una broma sobre quienes sufrieron. La diferencia entre las fuerzas dejó una consecuencia
 
-Method: h3_12_step
-Start: respectful quiet human aftermath; one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray shawl and sand robe at left; damaged palace and submerged Glasgow beyond; tiny existing shore residents remain background-sized.
-Action: The fallen basket and masonry stay still; the same two distant civilians quietly lower their heads once.
+Method: h3_20_step_input_repair
+Start: Exactly two existing civilians together at screen left: the original blue-gray-shawled woman and sand-robed companion. Preserve their visible reference size and original positions, including the clear empty foreground quay to their right. One fallen wicker basket, the rope coil, bollard and masonry pieces keep their original positions. The damaged palace and low warm light remain unchanged.
+Action: The blue-gray-shawled civilian makes one tiny head inclination toward the damaged waterfront, then holds. Both residents' bodies and feet stay at rest.
 References in order: assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png.
-- 0.00–5.00s: the exact full-frame anchor viewpoint; The fallen basket and masonry stay still; the same two distant civilians quietly lower their heads once. Camera locked; hold from 4.35s.
-End: one fallen wicker basket, one mooring bollard and small masonry fragments; same two quiet civilians in blue-gray shawl and sand robe at left; damaged palace and submerged Glasgow beyond; tiny existing shore residents remain background-sized; settled final frame. Source claim C016; adaptation RV08.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The blue-gray-shawled civilian makes one tiny head inclination toward the damaged waterfront, then holds. Both residents' bodies and feet stay at rest. Settle by 2.00s and hold through the final frame.
+
+End: Exactly two existing civilians together at screen left: the original blue-gray-shawled woman and sand-robed companion. Preserve their visible reference size and original positions, including the clear empty foreground quay to their right. One fallen wicker basket, the rope coil, bollard and masonry pieces keep their original positions. The damaged palace and low warm light remain unchanged.; settled final frame. Source claim C016; adaptation RV08.
 
 ## Clip 111 · 550.00–555.00s · C07
 
@@ -1483,13 +1487,13 @@ End: one clock and exact enamel text 38 MINUTOS; one shoe-searcher; damaged pala
 
 Narration: no era el problema: las piezas llevaban años colocándose y, al llegar la hora, la diferencia
 
-Method: h3_12_step
-Start: earlier imperial-context callback; illustrative anonymous officials, not a new postbattle meeting; exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant.
-Action: Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs.
+Method: h3_20_step_input_repair
+Start: Exactly two seated clean-shaven officials in the original positions: navy-and-gold official at left, charcoal-and-ochre official at right. Exactly two closed cream dispatch rolls, each with one red wax seal, remain separated on the desk in front of their respective owners. The officials' original simple cream mitten hands remain resting behind those rolls.
+Action: The left official makes one small head inclination toward the right official, then holds. The two sealed rolls retain their exact positions, sizes and closed state.
 References in order: assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png.
-- 0.00–2.30s: the anchor's original composition; Both anonymous officials hold their separate closed dispatches in a quiet earlier-context callback; no new agreement or annexation occurs. Complete by 2.10s. Camera locked; hold from 2.10s.
-- 2.30–5.00s: a closer crop of the same two closed dispatches, seals and desk as the narration explains accumulated decisions; Hold the already completed action and existing world state; no second action. Camera locked; hold from 4.35s.
-End: exactly two anonymous clean-shaven stick officials, navy/gold coat left and charcoal/ochre coat right; exactly two separate closed cream wax-sealed dispatches on a wood desk; background dhows and tiny occupants remain distant; settled final frame. Source claim C015; adaptation RV10.
+- 0.00–5.00s: original full-frame anchor viewpoint; camera locked. The left official makes one small head inclination toward the right official, then holds. The two sealed rolls retain their exact positions, sizes and closed state. Settle by 2.00s and hold through the final frame.
+
+End: Exactly two seated clean-shaven officials in the original positions: navy-and-gold official at left, charcoal-and-ochre official at right. Exactly two closed cream dispatch rolls, each with one red wax seal, remain separated on the desk in front of their respective owners. The officials' original simple cream mitten hands remain resting behind those rolls.; settled final frame. Source claim C015; adaptation RV10.
 
 ## Clip 127 · 630.00–635.00s · C07
 

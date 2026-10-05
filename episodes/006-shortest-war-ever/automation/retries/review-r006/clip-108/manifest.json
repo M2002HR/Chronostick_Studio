@@ -1,0 +1,30 @@
+{
+  "number": 108,
+  "decision": "revise_prompt",
+  "reason": "Ending zoom continues into oversized faces with right head cut off.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-108.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r004.mp4",
+  "baseline_sha256": "878aadf3b961456b76b39204a20c5ea6d6e385377ec7586295ed09f47c901c65",
+  "reviewed_at": "2026-10-03T19:08:01.885474+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 637523578717981641,
+  "previous_seed": 1697417208333593749,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-108/prompts/clip-108.md",
+  "prompt_sha256": "82f39c8818b418126952411ebd2ac9f9486bdc5db27847d1d76e6f0536305aa9",
+  "job": "006-shortest-war-ever:clip-108:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png",
+      "sha256": "2d3b1aa510add1ebd6444ca6ae7bb28238852b65237ee9dc32c000c0afac8eb4"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "3c9bcfd9-f470-4d55-afe4-ca86cd2026e2",
+  "job_ids": [
+    "2e75569b-7a9d-4507-881c-5b197fea794a"
+  ],
+  "submitted_at": "2026-10-03T19:08:02.323778+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-108.jpg"
+}

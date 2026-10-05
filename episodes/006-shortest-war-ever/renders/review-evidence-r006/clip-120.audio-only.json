@@ -1,0 +1,17 @@
+{
+  "number": 120,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-120-shot-r004.mp4",
+  "source_sha256": "cf5bc8f95d4688d3d85186ac8c811fa3f96bceb470c2c1371b556f23955382cf",
+  "pcm_sha256": "021dced899377d078c517aff0adc67c873eb52eeea555bc2b17db4852925b292",
+  "peak_pcm16": 4774,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A low, sustained string instrument plays a melancholic tune. There's a continuous ambient hum throughout the audio.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

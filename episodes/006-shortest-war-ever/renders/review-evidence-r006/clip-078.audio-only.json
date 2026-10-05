@@ -1,0 +1,17 @@
+{
+  "number": 78,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r004.mp4",
+  "source_sha256": "e65bc205eb1c2547c99125befcc5992862dc1cd34a0ec8e03060de73403c64b2",
+  "pcm_sha256": "8405d15f1e2dbb0e6a5653f675bb2331237aaae169e71a5868c2f0bf4babf838",
+  "peak_pcm16": 15100,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a low, sustained hum or drone, and then a sudden, sharp 'thump'.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

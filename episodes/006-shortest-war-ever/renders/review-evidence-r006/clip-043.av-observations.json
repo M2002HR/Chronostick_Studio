@@ -1,0 +1,80 @@
+{
+  "number": 43,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r004.mp4",
+  "source_sha256": "8f0bc3696cfd5a54a2cb1d91eabd8f045c42e14ff3a38aa72be1edf6c244150a",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The scene depicted is entirely different from the reference image and prompt. The reference image shows an empty ornate throne in a council chamber, while the animation shows three stick figures, one of whom is sitting on the throne. This is a major deviation from the intended visual.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt explicitly states 'zero people' and 'empty ornate throne'. The animation contains three stick figures, with one occupying the throne, which is a direct contradiction.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'Camera locked; hold from 2.10s' and 'Camera locked; hold from 4.35s'. The animation shows continuous movement of the stick figures and changes in their expressions, indicating the camera is not locked and the action is not settled as requested.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'The pictured clear blue sky, golden cloud shapes, clear air, calm water and intact shore silhouettes remain identical from first to last frame.' The animation does not show the exterior view through a doorway as in the reference, but rather an interior scene with a window showing a similar but not identical sky and water.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "issue": "The prompt specifies 'Only the declared small foreground action changes.' The animation introduces significant foreground elements (the stick figures) that are not part of the 'small foreground action' of an empty throne.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "historia sentarse era justamente lo que estaba en disputa. En agosto de mil ochocientos. bad. Perina love and say it now.",
+      "music": false,
+      "speech": true,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.0,
+          "description": "Speech: 'historia sentarse era justamente lo que estaba en disputa. En agosto de mil ochocientos.'"
+        },
+        {
+          "start": 2.0,
+          "end": 2.1,
+          "description": "Speech: 'bad.'"
+        },
+        {
+          "start": 2.7,
+          "end": 3.0,
+          "description": "Speech: 'Perina love and say it now.'"
+        },
+        {
+          "start": 3.3,
+          "end": 3.4,
+          "description": "Sound effect: 'thump'"
+        },
+        {
+          "start": 4.6,
+          "end": 4.7,
+          "description": "Sound effect: 'thump'"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation completely fails to match the visual requirements of the prompt and shot plan. Instead of an empty throne in a council chamber, it shows three stick figures, one of whom is seated on the throne. The camera is not locked, and there is continuous character animation and speech, which directly contradicts the instructions for silence and a settled scene. The audio contains speech and sound effects, violating the 'silence' and 'natural diegetic sound effects only' instructions. The core visual and audio elements are entirely mismatched with the provided instructions."
+  }
+}

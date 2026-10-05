@@ -1,0 +1,2524 @@
+{
+  "scope": "Only completed round r006; same frozen prompt and seed for 20-step comparisons",
+  "clips": [
+    {
+      "number": 2,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r006.mp4",
+      "manifest": {
+        "number": 2,
+        "decision": "revise_prompt",
+        "reason": "At 2.25–4.96s the loose shoe is stacked above the worn shoe while a second foot is already shod; intended bare foot/held empty shoe relation is lost.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-002.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-002-shot-r004.mp4",
+        "baseline_sha256": "5e2fea6aa3912a306158bc3244bb80bcc2404036fadb6cae6003aad085e70e71",
+        "reviewed_at": "2026-10-03T18:43:52.223571+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 6163882181954358151,
+        "previous_seed": 5798604692037920003,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-002/prompts/clip-002.md",
+        "prompt_sha256": "3ee5af0dc073653edd2072f9b3830fe0412e1e56937e8257465ff4d1c4bbb4e5",
+        "job": "006-shortest-war-ever:clip-002:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+            "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "5ca450b8-6b5e-4eb9-b91b-837a25021973",
+        "job_ids": [
+          "7dd214cd-6843-4a94-b2c2-b910e1485499"
+        ],
+        "submitted_at": "2026-10-03T18:43:52.363494+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-002.jpg f54–119"
+      }
+    },
+    {
+      "number": 4,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r006.mp4",
+      "manifest": {
+        "number": 4,
+        "decision": "revise_prompt",
+        "reason": "Whole clip performs continuous camera drift instead of the planned two locked shots; transient unmotivated pale haze and drifting dhow change the peaceful fixed harbour state; camera never resolves.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-004.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r005.mp4",
+        "baseline_sha256": "213bf7a554a292e329ca8a4298a241e4eafc624eaa37b3c089ade7fd30456d55",
+        "reviewed_at": "2026-10-03T18:43:52.891570+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3147562331209331462,
+        "previous_seed": 8964999804697628810,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-004/prompts/clip-004.md",
+        "prompt_sha256": "ff1ddd5b5ae74e614e26d4fef5cb55edbbe8c9d53d8903a7ebe46009a5cc92ef",
+        "job": "006-shortest-war-ever:clip-004:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+            "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "969e8688-a56e-4b9a-a167-565fdd74808c",
+        "job_ids": [
+          "d586c916-7027-48a3-9eec-4636f5e06c18"
+        ],
+        "submitted_at": "2026-10-03T18:43:53.051651+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-004.jpg f6–119"
+      }
+    },
+    {
+      "number": 6,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r006.mp4",
+      "manifest": {
+        "number": 6,
+        "decision": "revise_prompt",
+        "reason": "From frame 0 the empty-throne scene contains five invented foreground council figures; zero-person contract fails throughout.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-006.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-006-shot-r004.mp4",
+        "baseline_sha256": "f84a218fd7b4e416a1bcd34c857e76cbe1db5ef9ae0634df5ecc7cc0066ebde1",
+        "reviewed_at": "2026-10-03T18:45:33.593862+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 7200163333655928271,
+        "previous_seed": 9002623882137594033,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-006/prompts/clip-006.md",
+        "prompt_sha256": "c0a59d9cba46ec1627813b0e627b0b859c82e81bc20e816c5a26ee0ded7aa58f",
+        "job": "006-shortest-war-ever:clip-006:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+            "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "70ddd06e-b639-461d-9f7e-5c600c25e5fc",
+        "job_ids": [
+          "e5c43a8a-8e51-4087-bfa6-d9b0e25fc13d"
+        ],
+        "submitted_at": "2026-10-03T18:45:36.247889+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-006.jpg f0–119"
+      }
+    },
+    {
+      "number": 7,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r006.mp4",
+      "manifest": {
+        "number": 7,
+        "decision": "revise_prompt",
+        "reason": "At 1.50s the fleet view cuts to an unsupported occupied deck with numerous invented figures including giant heads; nearest-bow crop was not followed.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-007.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-007-shot-r005.mp4",
+        "baseline_sha256": "85f6a3894634b7be521fd2677f5b78fae29f42742159760a31ea5898a2a574a2",
+        "reviewed_at": "2026-10-03T18:45:36.748052+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3851639468019452186,
+        "previous_seed": 4656965586152323930,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-007/prompts/clip-007.md",
+        "prompt_sha256": "da5f8ad7b83c4b6071692c2410cdbe8a337ab3744a53e29e914476c464e3aa95",
+        "job": "006-shortest-war-ever:clip-007:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "09b6d59b-f845-4be9-964f-9b28993822b8",
+        "job_ids": [
+          "fd5701f5-2f73-4f67-b737-e4fb50948f23"
+        ],
+        "submitted_at": "2026-10-03T18:45:36.858569+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-007.jpg f36–119"
+      }
+    },
+    {
+      "number": 9,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r006.mp4",
+      "manifest": {
+        "number": 9,
+        "decision": "revise_prompt",
+        "reason": "Close-up at 2.25s changes the secondary clean-shaven guard to a second black-bearded identity, partially averaging Khalid identity into the guard.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-009.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-009-shot-r004.mp4",
+        "baseline_sha256": "84700bb7c3dc5677a4c083a01938022f7123a3368be45293fb15dbc1a0608e01",
+        "reviewed_at": "2026-10-03T18:45:37.321512+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3185813542777886894,
+        "previous_seed": 7325936219227218216,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-009/prompts/clip-009.md",
+        "prompt_sha256": "12a8ab5947fe25ca249745e940474723391585ad63cb87afb030caff8bf8eee3",
+        "job": "006-shortest-war-ever:clip-009:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+            "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "98e34402-0018-41f9-b234-4b13530854c3",
+        "job_ids": [
+          "4a831821-0806-4031-b90a-bcab4a82adb3"
+        ],
+        "submitted_at": "2026-10-03T18:45:37.461995+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-009.jpg f54–119"
+      }
+    },
+    {
+      "number": 10,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r006.mp4",
+      "manifest": {
+        "number": 10,
+        "decision": "revise_prompt",
+        "reason": "Frame0 invents an occupied foreground bow instead of five distant vessels, then drifts continuously; crew scale not controlled by anchor.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-010.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r004.mp4",
+        "baseline_sha256": "a6e1e9c851cfe15758c74b57c2d835216513aff9e850c8bb2ca442fd86a1d8dc",
+        "reviewed_at": "2026-10-03T18:48:01.741446+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2928344508585080636,
+        "previous_seed": 7081946497883578861,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-010/prompts/clip-010.md",
+        "prompt_sha256": "0e7680abd6f7b465ee955f8e77098b201d623acabde0046ea9fa38b2b70428de",
+        "job": "006-shortest-war-ever:clip-010:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "eb52b0f1-1b36-4cd2-807d-f957534e0bad",
+        "job_ids": [
+          "459400ec-1a0c-44c2-98b1-4bd568bc5033"
+        ],
+        "submitted_at": "2026-10-03T18:48:01.878888+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-010.jpg f0–119"
+      }
+    },
+    {
+      "number": 12,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r006.mp4",
+      "manifest": {
+        "number": 12,
+        "decision": "revise_prompt",
+        "reason": "Frame0 shows darkened battle sky, smoke and fiery descending objects; by2.5s explosions destroy intact shore before the battle chronology. Negative future-event wording activated the forbidden event.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-012.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r005.mp4",
+        "baseline_sha256": "aa28177a51fc428734e44b946f399582abd7278bf44d5760fd54ef21806fd31c",
+        "reviewed_at": "2026-10-03T18:48:02.449763+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 9011901976467369857,
+        "previous_seed": 4622150788589149292,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-012/prompts/clip-012.md",
+        "prompt_sha256": "809316363798c6dc0a029aeb4be212cc78609e84f7909f740830ccfa5407c82f",
+        "job": "006-shortest-war-ever:clip-012:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+            "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "7ae5258f-fdd1-4398-b9c3-35362ca4a19f",
+        "job_ids": [
+          "a92fa46e-dafb-42ea-9c84-192ac258ed00"
+        ],
+        "submitted_at": "2026-10-03T18:48:02.584691+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-012.jpg f0–119"
+      }
+    },
+    {
+      "number": 13,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r006.mp4",
+      "manifest": {
+        "number": 13,
+        "decision": "revise_prompt",
+        "reason": "Continuous zoom replaces hard cut and keeps moving through final frame; planned locked harbour is unresolved.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-013.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-013-shot-r005.mp4",
+        "baseline_sha256": "f99efb852d8ef681887fcd6205499279eab679613a6b31e717b13a0c28b0721f",
+        "reviewed_at": "2026-10-03T18:48:03.430857+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8328919275203799420,
+        "previous_seed": 4376704361200760853,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-013/prompts/clip-013.md",
+        "prompt_sha256": "fa205edd612dc2e1d7da3618084fe377d08fea9b772e44b96c0bbc4f892e8ef5",
+        "job": "006-shortest-war-ever:clip-013:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+            "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "31dbace2-80bd-4ef0-906e-bc6004c568ff",
+        "job_ids": [
+          "9538b137-4fc2-4001-8693-4383853f4b0a"
+        ],
+        "submitted_at": "2026-10-03T18:48:03.587265+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-013.jpg f6–119"
+      }
+    },
+    {
+      "number": 15,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r006.mp4",
+      "manifest": {
+        "number": 15,
+        "decision": "revise_prompt",
+        "reason": "At1.50s a second disconnected sail/bow-shaped triangle emerges beside existing moored dhow and persists, corrupting single rigid vessel geometry.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-015.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-015-shot-r004.mp4",
+        "baseline_sha256": "f56a8fba74a9eab0909b2bb3aaa740853e79014c9f078e1a14102ff41939964a",
+        "reviewed_at": "2026-10-03T18:48:04.063446+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8625710823919398761,
+        "previous_seed": 4217879576854515242,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-015/prompts/clip-015.md",
+        "prompt_sha256": "55840fc190359de64cf61ca167c2f4718ec2c129bef6dc0c332efca17f0cf3a2",
+        "job": "006-shortest-war-ever:clip-015:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+            "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "376393c0-88fb-4373-8834-43aa7420e3d0",
+        "job_ids": [
+          "cc3ccbb1-0e3e-448e-b261-a47ac4fe2c71"
+        ],
+        "submitted_at": "2026-10-03T18:48:04.178449+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-015.jpg f36–119"
+      }
+    },
+    {
+      "number": 16,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r006.mp4",
+      "manifest": {
+        "number": 16,
+        "decision": "revise_prompt",
+        "reason": "Continuous zoom drifts through all five seconds, removes worker and ends without resolved camera hold; no planned hard cut.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-016.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-016-shot-r005.mp4",
+        "baseline_sha256": "5edba5a60fa0213b8ca3c7b8dc81fed332436633e389fdd9ad0b62152d37de6d",
+        "reviewed_at": "2026-10-03T18:48:04.703488+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 6188547016371599046,
+        "previous_seed": 6465064844531548493,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-016/prompts/clip-016.md",
+        "prompt_sha256": "eb72b046ddd8ebf7272d96ba83a75cc01cd9f36f78ff9f4a1008ebf13d72f6e7",
+        "job": "006-shortest-war-ever:clip-016:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+            "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "49ec22c1-68cd-49c0-a23d-f3d98c5eaa64",
+        "job_ids": [
+          "656349e6-66e0-4749-bf6f-79042351edd9"
+        ],
+        "submitted_at": "2026-10-03T18:48:04.815631+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-016.jpg f0–119"
+      }
+    },
+    {
+      "number": 17,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r006.mp4",
+      "manifest": {
+        "number": 17,
+        "decision": "revise_prompt",
+        "reason": "At1.00s the desk has three dispatches and a disconnected extra arm; required exactly two sealed dispatches fails.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-017.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r005.mp4",
+        "baseline_sha256": "fbfb170d2e1edd147afd5df923b05f6a8aed3b48bf9377b13e2d90a4d2b5bb8b",
+        "reviewed_at": "2026-10-03T18:48:05.282595+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 1336908119407528091,
+        "previous_seed": 7564965538740394419,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-017/prompts/clip-017.md",
+        "prompt_sha256": "2bd49a293932cd6820b91fe37efb64c5a0ebc069c71128dc2b7f6a81fa63e8c3",
+        "job": "006-shortest-war-ever:clip-017:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+            "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "44fc6ea4-c7d9-4031-8540-046767ea8e9f",
+        "job_ids": [
+          "998748fd-447b-4b73-a6ac-5305a059356e"
+        ],
+        "submitted_at": "2026-10-03T18:48:05.396855+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-017.jpg f24–84"
+      }
+    },
+    {
+      "number": 19,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r006.mp4",
+      "manifest": {
+        "number": 19,
+        "decision": "revise_prompt",
+        "reason": "Frame0 contains six invented council figures; later an unattached hand touches throne; empty unoccupied-room contract fails throughout.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-019.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-019-shot-r004.mp4",
+        "baseline_sha256": "3c3f736376231b89e1d219470d41cfc0887f0594171119f2ab3521c399fdb029",
+        "reviewed_at": "2026-10-03T18:48:05.899451+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4345754132354453851,
+        "previous_seed": 1849524815515753776,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-019/prompts/clip-019.md",
+        "prompt_sha256": "dd801592798463ca8aa7de4ae4d5bc3dcb12f984994d3cc6154a678442fc7509",
+        "job": "006-shortest-war-ever:clip-019:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+            "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "d16a6b8d-2fa7-4400-b9f7-43aa85649dc4",
+        "job_ids": [
+          "80db821e-dddd-40a3-84d0-d90a2cadb166"
+        ],
+        "submitted_at": "2026-10-03T18:48:06.011416+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-019.jpg f0–119"
+      }
+    },
+    {
+      "number": 21,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r006.mp4",
+      "manifest": {
+        "number": 21,
+        "decision": "revise_prompt",
+        "reason": "At1.00s the prebattle quiet cannon fires a prolonged flame and smoke plume despite planned hand-rest action; chronology fails.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-021.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-021-shot-r005.mp4",
+        "baseline_sha256": "2f997bf9d87af5db7db815ee444b9dc7e90eb966fdba1aa49094fb7a61bfb129",
+        "reviewed_at": "2026-10-03T18:49:28.015700+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2494678170624674894,
+        "previous_seed": 2710466670713737328,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-021/prompts/clip-021.md",
+        "prompt_sha256": "e442f4afb4cec9ae2b5eaf41b3cf82a4b6ecdcbbc9e374c897e2980b6e00a5b3",
+        "job": "006-shortest-war-ever:clip-021:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+            "sha256": "cc4c67ec5fb47a8da599e5fa936bcad36b9015b93679bba2225406d9cd68f3b5"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "2eab9e6a-97ba-4dc9-92f6-7a36fd589fcc",
+        "job_ids": [
+          "68f66af0-2462-47e4-8f85-c8144e57625a"
+        ],
+        "submitted_at": "2026-10-03T18:49:28.164654+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-021.jpg f24–60"
+      }
+    },
+    {
+      "number": 22,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r006.mp4",
+      "manifest": {
+        "number": 22,
+        "decision": "revise_prompt",
+        "reason": "Second shot invents a ship full of foreground people with giant heads, violating nearest-bow-only reference coverage.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-022.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-022-shot-r004.mp4",
+        "baseline_sha256": "55c0ba444e06deab928e686518b7dcedaf8e1e56b9fb02b32c36f4d4f29606bf",
+        "reviewed_at": "2026-10-03T18:49:28.633155+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 7208152622199191977,
+        "previous_seed": 6983847242862435404,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-022/prompts/clip-022.md",
+        "prompt_sha256": "3508289e85f6ac5412f7159ba46b75016bb11965d5c2afe45752990ae87660c5",
+        "job": "006-shortest-war-ever:clip-022:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "969a1e9b-88e4-46d1-b1ec-096239be40e2",
+        "job_ids": [
+          "704703af-7ab0-4412-a60c-53a22de66d90"
+        ],
+        "submitted_at": "2026-10-03T18:49:28.747521+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-022.jpg f53–119"
+      }
+    },
+    {
+      "number": 23,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r006.mp4",
+      "manifest": {
+        "number": 23,
+        "decision": "revise_prompt",
+        "reason": "Close-up invents a gigantic green fruit that changes shape and scale and occupies the entire basket, instead of holding original small fruit.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-023.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-023-shot-r004.mp4",
+        "baseline_sha256": "26a2e2939171da6703d119eea6c7da1cc7ea4f5177423e8e2475a823bce0a8ac",
+        "reviewed_at": "2026-10-03T18:49:29.237475+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2137105254690987790,
+        "previous_seed": 2449684274551441269,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-023/prompts/clip-023.md",
+        "prompt_sha256": "b842fd51068c3d037ffd769ab26d1ae4b86d7e43b8dead04835c57e9b69d342b",
+        "job": "006-shortest-war-ever:clip-023:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+            "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "cb737b0d-297b-4e6a-8300-2b05ce4f4af4",
+        "job_ids": [
+          "d00be388-0fbc-4766-b178-0e76119133f3"
+        ],
+        "submitted_at": "2026-10-03T18:49:29.348853+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-023.jpg f53–119"
+      }
+    },
+    {
+      "number": 24,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r006.mp4",
+      "manifest": {
+        "number": 24,
+        "decision": "revise_prompt",
+        "reason": "Close-up changes hands to dark realistic glove silhouettes and starts lifting/pulling rope during final hold, violating fixed crate/rope state.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-024.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r004.mp4",
+        "baseline_sha256": "deccdfc56f139d6b6e7aa3ce8d0a4fd86af8a80b03197e5f449380ec69ccd5da",
+        "reviewed_at": "2026-10-03T18:49:29.807869+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4747211802091062864,
+        "previous_seed": 6947832624374059676,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-024/prompts/clip-024.md",
+        "prompt_sha256": "f9c2a8715bc5b4e629e69a45174162bc9075695726f159f731dfa338f1b4653c",
+        "job": "006-shortest-war-ever:clip-024:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+            "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "b7d9e0cd-a894-4124-92af-97f43f2f3dfe",
+        "job_ids": [
+          "2eb0498a-a31b-42f4-a183-09c3c6085baa"
+        ],
+        "submitted_at": "2026-10-03T18:49:29.958676+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-024.jpg f30–119"
+      }
+    },
+    {
+      "number": 25,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r006.mp4",
+      "manifest": {
+        "number": 25,
+        "decision": "revise_prompt",
+        "reason": "Frame0 introduces an approaching giant crew-filled hull, with numerous invented foreground people; intended fixed distant fleet is lost.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-025.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-025-shot-r004.mp4",
+        "baseline_sha256": "c708d1c4fb297994721c31e13f395e0d70ed3689084481e48f594ca698f229cd",
+        "reviewed_at": "2026-10-03T18:49:30.431609+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3110851343791805544,
+        "previous_seed": 5117090850238179993,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-025/prompts/clip-025.md",
+        "prompt_sha256": "2efe347b81877985a4a837fa745bbabedbce7be0aa854d592382fc6d1ad0b6fe",
+        "job": "006-shortest-war-ever:clip-025:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "dc137036-9cf8-4708-95a9-56a86df666be",
+        "job_ids": [
+          "e0e98157-3031-4d0c-be13-12d93885ba14"
+        ],
+        "submitted_at": "2026-10-03T18:49:30.793039+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-025.jpg f0–119"
+      }
+    },
+    {
+      "number": 26,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r006.mp4",
+      "manifest": {
+        "number": 26,
+        "decision": "revise_prompt",
+        "reason": "At1.75–4.96s a new close view invents rope handling and continues moving through the final hold, rather than head turn and settled crate/rope.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-026.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-026-shot-r004.mp4",
+        "baseline_sha256": "ed687416a36c19b857e6e962b108bb1fc7a42aacfa604315198239614a7c71dd",
+        "reviewed_at": "2026-10-03T18:52:33.735032+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 7471746438645020983,
+        "previous_seed": 4381957805740973404,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-026/prompts/clip-026.md",
+        "prompt_sha256": "e7dd72b6bab2e1090d1181f15165ad76d943fad3b2d2870020d138abb9cf002b",
+        "job": "006-shortest-war-ever:clip-026:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+            "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "90ef0b48-7fa4-420f-b729-96beebf71743",
+        "job_ids": [
+          "3e7fa7e8-6ed8-42fb-b7e5-8049921af591"
+        ],
+        "submitted_at": "2026-10-03T18:52:33.845059+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-026.jpg"
+      }
+    },
+    {
+      "number": 27,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r006.mp4",
+      "manifest": {
+        "number": 27,
+        "decision": "revise_prompt",
+        "reason": "At2.00s the second shot swaps navy shopper and woman, invents shared oversized basket and extra fruit-transfer action during the intended pause.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-027.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-027-shot-r004.mp4",
+        "baseline_sha256": "75daa244dc2bf19941bf0e68e4d0fbabfe136bebf88da581cd1e089101632c33",
+        "reviewed_at": "2026-10-03T18:52:34.271608+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3242642520660547496,
+        "previous_seed": 7414235116428239822,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-027/prompts/clip-027.md",
+        "prompt_sha256": "08941f6f55649b6f177809083bf83309f7381c9d49e8d5e3177f7b8bae7d234c",
+        "job": "006-shortest-war-ever:clip-027:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/market-r001.png",
+            "sha256": "0a5ac866c32265a4f018098841a8f92ee4efcbebeb6aaaa4976bc02dd82a2688"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "da97b128-ec40-415a-9f9e-d741e0eddd5e",
+        "job_ids": [
+          "b5db0fa1-f8c8-42ae-894d-d0843151f09d"
+        ],
+        "submitted_at": "2026-10-03T18:52:34.381792+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-027.jpg"
+      }
+    },
+    {
+      "number": 28,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r006.mp4",
+      "manifest": {
+        "number": 28,
+        "decision": "revise_prompt",
+        "reason": "At0.50s navy sleeve changes to purple, then continuous zoom drifts through final frame with no settled hold.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-028.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r005.mp4",
+        "baseline_sha256": "c84085dd11c9ed9daac1247d7dd89bebb2bbf1e5c79f739088d9ffdd7be0e4b5",
+        "reviewed_at": "2026-10-03T18:52:34.742290+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2966549615567795177,
+        "previous_seed": 6186055281908680943,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-028/prompts/clip-028.md",
+        "prompt_sha256": "4066d073c6152345314da9b271695f210d4364544ffb63ae4de31f270083c80f",
+        "job": "006-shortest-war-ever:clip-028:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+            "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "fc61e9df-90d4-4ba7-8f89-1d4782a09907",
+        "job_ids": [
+          "ac051ab7-b99d-4f37-bf8d-56d1183716a3"
+        ],
+        "submitted_at": "2026-10-03T18:52:34.883275+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-028.jpg"
+      }
+    },
+    {
+      "number": 30,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r006.mp4",
+      "manifest": {
+        "number": 30,
+        "decision": "revise_prompt",
+        "reason": "At1.50–2.00s officials overlap/morph into one hybrid body while desk geometry and dispatch positions change; later continuous drift persists.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-030.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-030-shot-r005.mp4",
+        "baseline_sha256": "a2feceadcb08347e8ff6f407b51853985e76ff9d9c5673e75440548ed9741030",
+        "reviewed_at": "2026-10-03T18:52:35.671198+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 1414481281995305367,
+        "previous_seed": 7441225553459792520,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-030/prompts/clip-030.md",
+        "prompt_sha256": "a2ed4e9c61411515c216bd6e7d30916182780bf2df84540636045bae5cd82b40",
+        "job": "006-shortest-war-ever:clip-030:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+            "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "342511a9-b709-4520-88cc-19a35382592d",
+        "job_ids": [
+          "2c6403e5-7533-4177-b347-57499d1f9d09"
+        ],
+        "submitted_at": "2026-10-03T18:52:35.776872+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-030.jpg"
+      }
+    },
+    {
+      "number": 31,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r006.mp4",
+      "manifest": {
+        "number": 31,
+        "decision": "revise_prompt",
+        "reason": "At2.375s extreme chest crop cuts the cream scroll almost completely out of frame; held-message action becomes unreadable.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-031.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-031-shot-r005.mp4",
+        "baseline_sha256": "a5cd51c994fa6f0b70faab9647c4d5a2cb8afadff5a4f84aa85c52f4b09a51e6",
+        "reviewed_at": "2026-10-03T18:52:36.172823+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4618680303675549562,
+        "previous_seed": 8900166919952576624,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-031/prompts/clip-031.md",
+        "prompt_sha256": "a2713db71ccdb964443201bcb401ad3fc55c324dc2a1e64af31bf017ad910b05",
+        "job": "006-shortest-war-ever:clip-031:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/messenger-scroll-quay-r001.png",
+            "sha256": "9aa801eeacbec66ad150d8f6cc80f3b9690e42f02703ed4576c24aa67729f32a"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "44592ea9-3615-496c-8c51-5cf44168f2cc",
+        "job_ids": [
+          "f0bc0118-41e2-4edb-88e1-9fb461d8c500"
+        ],
+        "submitted_at": "2026-10-03T18:52:36.281649+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-031.jpg"
+      }
+    },
+    {
+      "number": 32,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r006.mp4",
+      "manifest": {
+        "number": 32,
+        "decision": "revise_prompt",
+        "reason": "Continuous zoom invents close deck coverage and foreground residents, displacing initial fleet view and drifting to final frame.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-032.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-032-shot-r004.mp4",
+        "baseline_sha256": "c4d712ef8260d785d404c62ecd9707fdf636d368da81dbb4341940d7c427227a",
+        "reviewed_at": "2026-10-03T18:52:36.643531+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 7597995768285970614,
+        "previous_seed": 8985278555275068062,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-032/prompts/clip-032.md",
+        "prompt_sha256": "cb1e8e7edfb46826a104b427d12458f4405c1e1a9302dbd3ba645d0ca57e8f7c",
+        "job": "006-shortest-war-ever:clip-032:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "46c882f9-692a-4f02-9e7b-9cb30dfe22d9",
+        "job_ids": [
+          "4fe1318a-56e9-4f6c-9633-ea97ac7340ef"
+        ],
+        "submitted_at": "2026-10-03T18:52:36.787222+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-032.jpg"
+      }
+    },
+    {
+      "number": 33,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r006.mp4",
+      "manifest": {
+        "number": 33,
+        "decision": "revise_prompt",
+        "reason": "Initial shot replaces full panorama with unsupported enlarged deck and crew; continuous drift replaces planned cut and final hold.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-033.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-033-shot-r005.mp4",
+        "baseline_sha256": "e6c47cbdb970c6694cee5d4780eb4aceb0da8554e95715af737146574c6ae589",
+        "reviewed_at": "2026-10-03T18:52:37.151829+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 1019760120684584740,
+        "previous_seed": 8318981341979591058,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-033/prompts/clip-033.md",
+        "prompt_sha256": "1f763eb9eb0436a5d8564fea74a768039b55f03b9717e30140281ebe19c542ad",
+        "job": "006-shortest-war-ever:clip-033:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "fab3c912-1054-4859-b6b0-88e38f597c49",
+        "job_ids": [
+          "4997f93b-797b-49f2-a9de-41da38d0b04f"
+        ],
+        "submitted_at": "2026-10-03T18:52:37.266064+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-033.jpg"
+      }
+    },
+    {
+      "number": 34,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r006.mp4",
+      "manifest": {
+        "number": 34,
+        "decision": "revise_prompt",
+        "reason": "Frame0 introduces a large invented crowd that crosses the empty-throne room, violating zero-person contract.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-034.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r004.mp4",
+        "baseline_sha256": "535fbec75689b6fdf7210168c605875834b8f19fcf8d2fd05b8cb8e8a75c6173",
+        "reviewed_at": "2026-10-03T18:52:37.616782+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4079899827098710947,
+        "previous_seed": 8525070072190475099,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-034/prompts/clip-034.md",
+        "prompt_sha256": "c929a549d42b19f7fc56200eed9bb377536e18b36d70b7902caaacefaa64369d",
+        "job": "006-shortest-war-ever:clip-034:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png",
+            "sha256": "84381b682dd4762338ab1b78badf4a2101dfaf63e6e552d4a61bea9e3d50e421"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "ee975461-6447-4225-b251-09cd769e5664",
+        "job_ids": [
+          "f6ad6471-9d28-4dd9-ad72-8268b454af83"
+        ],
+        "submitted_at": "2026-10-03T18:52:37.777232+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-034.jpg"
+      }
+    },
+    {
+      "number": 35,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r006.mp4",
+      "manifest": {
+        "number": 35,
+        "decision": "revise_prompt",
+        "reason": "Frame0 contains an invented crowd and at1.75s a new smiling teal-clothed figure sits on throne; succession chronology fails.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-035.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-035-shot-r004.mp4",
+        "baseline_sha256": "dd641f8ba990a1ae6efc864e01c11616cdfa9d5f476b049b9c3c2e2d0d85255a",
+        "reviewed_at": "2026-10-03T18:52:38.423160+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2035173174357678067,
+        "previous_seed": 8482831412677269971,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-035/prompts/clip-035.md",
+        "prompt_sha256": "aeb466d783ca9cd0d743f14d13917e16f01e8c9b4e733487da0a19e0de24ef62",
+        "job": "006-shortest-war-ever:clip-035:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+            "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "69a9848f-0001-427e-9abd-6f8dba5be7f0",
+        "job_ids": [
+          "0111c646-1c09-4680-847f-c97ba72f151c"
+        ],
+        "submitted_at": "2026-10-03T18:52:38.535880+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-035.jpg"
+      }
+    },
+    {
+      "number": 36,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r006.mp4",
+      "manifest": {
+        "number": 36,
+        "decision": "revise_prompt",
+        "reason": "At1.00s closed scroll unrolls; at2.75s extreme view slides protagonist off screen, losing planned grip/action and resolved end.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-036.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r004.mp4",
+        "baseline_sha256": "3ab91dc9156d6f49d45352ec7b3c2f11e25d8d8e37ed2dfe4e2266379c0f57e0",
+        "reviewed_at": "2026-10-03T18:52:38.926014+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 5796486122309733778,
+        "previous_seed": 7521649282189254920,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-036/prompts/clip-036.md",
+        "prompt_sha256": "a56a646b35a2e0bafaa7adb4e3295e76694975b49b3c37ad881ca6223345dcd2",
+        "job": "006-shortest-war-ever:clip-036:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-throne-close-r001.png",
+            "sha256": "3ed80039612d587d020e5427f493830e37113bce5ede191a9c8b7279a6a60e67"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "cd15492f-5a4c-44d9-9b4c-103cd4e95fa4",
+        "job_ids": [
+          "9d921cb9-96e2-45f3-90de-fe3c7123ab06"
+        ],
+        "submitted_at": "2026-10-03T18:52:39.035628+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-036.jpg"
+      }
+    },
+    {
+      "number": 37,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r006.mp4",
+      "manifest": {
+        "number": 37,
+        "decision": "revise_prompt",
+        "reason": "Continuous zoom toward right-facing face replaces declared turn toward throne and drifts through final frame.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-037.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r004.mp4",
+        "baseline_sha256": "4bdeb445005da1ca0f245058bfb3f670e65735375c75844cdfad20ff0b3de3df",
+        "reviewed_at": "2026-10-03T18:52:39.391726+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 41351785065304866,
+        "previous_seed": 3939364883599185052,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-037/prompts/clip-037.md",
+        "prompt_sha256": "e19ead64a2c17e8eccc4bf4196014846f8a9c591004377eba3328781ae35abf9",
+        "job": "006-shortest-war-ever:clip-037:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+            "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "35e12fd5-9882-4259-aca1-4450670aa3fa",
+        "job_ids": [
+          "224ebf7f-defb-4cee-b727-2288d0a51771"
+        ],
+        "submitted_at": "2026-10-03T18:52:39.541328+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-037.jpg"
+      }
+    },
+    {
+      "number": 43,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r006.mp4",
+      "manifest": {
+        "number": 43,
+        "decision": "revise_prompt",
+        "reason": "Atframe0 two invented people occupy throne view; later another figure and giant blank board enter scene, violating zero-person contract.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-043.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r004.mp4",
+        "baseline_sha256": "8f0bc3696cfd5a54a2cb1d91eabd8f045c42e14ff3a38aa72be1edf6c244150a",
+        "reviewed_at": "2026-10-03T18:54:33.367091+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 6143303857427767088,
+        "previous_seed": 127194728436828753,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-043/prompts/clip-043.md",
+        "prompt_sha256": "68df2913ecfaf0dc303de7e3f03557a68c7c57b06135b4b80ec41e8da6ae72b0",
+        "job": "006-shortest-war-ever:clip-043:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-door-r001.png",
+            "sha256": "84381b682dd4762338ab1b78badf4a2101dfaf63e6e552d4a61bea9e3d50e421"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "38e2f789-11c8-4c88-b851-9306e6767f8b",
+        "job_ids": [
+          "6096920c-60a0-4d37-a56a-512b2d683080"
+        ],
+        "submitted_at": "2026-10-03T18:54:33.479137+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-043.jpg"
+      }
+    },
+    {
+      "number": 44,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r006.mp4",
+      "manifest": {
+        "number": 44,
+        "decision": "revise_prompt",
+        "reason": "Atframe0 numerous invented figures are gathered beside throne, including a fallen/sitting figure; intended death conveyed by empty seat becomes an invented ceremony.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-044.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r004.mp4",
+        "baseline_sha256": "61923c120ef1b3b0afedaffa9249d4b46739601ee323ddaf734007ec431e198f",
+        "reviewed_at": "2026-10-03T18:54:33.871716+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4586814788406179429,
+        "previous_seed": 402137565543356014,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-044/prompts/clip-044.md",
+        "prompt_sha256": "c0a59d9cba46ec1627813b0e627b0b859c82e81bc20e816c5a26ee0ded7aa58f",
+        "job": "006-shortest-war-ever:clip-044:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+            "sha256": "d991b624be3da641f74152588d03c8ffc3fd970367566e8810ba1aba219ea0d6"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "14073d46-5f0a-483e-bf2c-d70502008ced",
+        "job_ids": [
+          "c770ee60-6f48-4bdd-9e00-3b04b207a7c5"
+        ],
+        "submitted_at": "2026-10-03T18:54:34.269944+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-044.jpg"
+      }
+    },
+    {
+      "number": 45,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r006.mp4",
+      "manifest": {
+        "number": 45,
+        "decision": "retry",
+        "reason": "Frame0 changes standing identity comparison to crouching at throne, then invents an extra maroon-sleeved arm pulling sash from another person; fixed single-person sash/pose fails.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-045.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-045-shot-r004.mp4",
+        "baseline_sha256": "bef9a4ac6f3fba33085b6ad9049115d5c34c3f31323be5efe4e7ad7226e5868c",
+        "reviewed_at": "2026-10-03T18:54:34.632317+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2555681644079120112,
+        "previous_seed": 3184267945148503645,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-045/prompts/clip-045.md",
+        "prompt_sha256": "8053c29f1b2fb1b8a7f1072dd7d9334bcfcd97fbeb269bf356dfd4c9706fb59c",
+        "job": "006-shortest-war-ever:clip-045:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+            "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "2f4f5b28-344f-45d0-9a13-0fe72963f42c",
+        "job_ids": [
+          "286b9edf-d7e4-429f-993b-bd06bc0a5c9a"
+        ],
+        "submitted_at": "2026-10-03T18:54:34.774935+00:00",
+        "prompt_revision_note": "The r006 batch was submitted with the original sound single-person specification and a new fixed seed. More explicit standing/sash/crop direction has since been saved to active prompt; it is not the frozen r006 input. If r006 fails, use that direction for a new immutable attempt.",
+        "evidence_label": "renders/review-evidence-r006/clip-045.jpg"
+      }
+    },
+    {
+      "number": 47,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r006.mp4",
+      "manifest": {
+        "number": 47,
+        "decision": "retry",
+        "reason": "Frame0 giant cream cloth covers almost entire composition; second shot cuts face off and adds wrapping cloth, destroying clean fixed identity comparison.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-047.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-047-shot-r004.mp4",
+        "baseline_sha256": "2f0ec53f6c6c5f437b84bd0f389abbee70d527b9e76624e25fbc7017c1faaec8",
+        "reviewed_at": "2026-10-03T18:54:35.140967+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8780210556760100772,
+        "previous_seed": 2068170925864219353,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-047/prompts/clip-047.md",
+        "prompt_sha256": "c32233f745356c9486cc82a615dee5a065cfe670e4d86974a652ff03d2ff0445",
+        "job": "006-shortest-war-ever:clip-047:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/hamoud-council-r001.png",
+            "sha256": "d34e33f6c0fd8a14139166a21bfe313ade844e532b099f80b8ce03aa8acc03a3"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "4072fbd1-570d-46d5-80e6-8bfa508c7977",
+        "job_ids": [
+          "a85c598d-9520-4d34-9bcc-248a56368f1f"
+        ],
+        "submitted_at": "2026-10-03T18:54:35.253982+00:00",
+        "prompt_revision_note": "The r006 batch was submitted with the original sound single-person specification and a new fixed seed. More explicit standing/sash/crop direction has since been saved to active prompt; it is not the frozen r006 input. If r006 fails, use that direction for a new immutable attempt.",
+        "evidence_label": "renders/review-evidence-r006/clip-047.jpg"
+      }
+    },
+    {
+      "number": 51,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r006.mp4",
+      "manifest": {
+        "number": 51,
+        "decision": "revise_prompt",
+        "reason": "Camera drifts and removes messenger through ending.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-051.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r004.mp4",
+        "baseline_sha256": "8da7c55af8f95ba30b5f0b3d48e58c412b8ef737e2e6e5b35a801506a516932b",
+        "reviewed_at": "2026-10-03T19:02:02.267793+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 233918482413367597,
+        "previous_seed": 4556607014535893286,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-051/prompts/clip-051.md",
+        "prompt_sha256": "b934c7c8e483f7534462aa26aab0a397cab26cfe6483b11956192281cde2fca0",
+        "job": "006-shortest-war-ever:clip-051:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+            "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "26e9c4ce-f813-4eaa-8729-f4b85df8c327",
+        "job_ids": [
+          "6ef5660d-29a1-4811-be2c-a9dbe68f1104"
+        ],
+        "submitted_at": "2026-10-03T19:02:02.429286+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-051.jpg"
+      }
+    },
+    {
+      "number": 53,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-053-shot-r006.mp4",
+      "manifest": {
+        "number": 53,
+        "decision": "revise_prompt",
+        "reason": "3.25–4.25s turban becomes a long ribbon across face.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-053.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-053-shot-r004.mp4",
+        "baseline_sha256": "88117aad5ba3e9154bc90f9551f2d2ac00b1c5345e2fa534e9aff72a62912a5b",
+        "reviewed_at": "2026-10-03T19:02:02.787722+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2421267541975031435,
+        "previous_seed": 2387723668125899889,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-053/prompts/clip-053.md",
+        "prompt_sha256": "bff9c6f002baa68bcfbae4ee210cd958b5744a5dad324a821a05691caae59cf6",
+        "job": "006-shortest-war-ever:clip-053:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+            "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "9bb8efd4-5252-439d-9162-367e376f1d55",
+        "job_ids": [
+          "827b4824-e9f8-4428-91c0-8073e8b6899d"
+        ],
+        "submitted_at": "2026-10-03T19:02:02.894902+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-053.jpg"
+      }
+    },
+    {
+      "number": 55,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r006.mp4",
+      "manifest": {
+        "number": 55,
+        "decision": "revise_prompt",
+        "reason": "4.0s premature flame across harbour.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-055.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r005.mp4",
+        "baseline_sha256": "bce1662acf5437efb5424cb6375dae1658e38dad404e609f2611e8a05600f133",
+        "reviewed_at": "2026-10-03T19:02:03.260538+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8490054227371029956,
+        "previous_seed": 5823422493696417926,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-055/prompts/clip-055.md",
+        "prompt_sha256": "015c719ebb83713b0a3040500b7ad91451629408744890da58c398a4a210190c",
+        "job": "006-shortest-war-ever:clip-055:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+            "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "fe39b109-0be7-42ae-9855-13329a53d187",
+        "job_ids": [
+          "739b380f-97a2-4f9c-a7af-ece99eaff0d3"
+        ],
+        "submitted_at": "2026-10-03T19:02:03.403569+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-055.jpg"
+      }
+    },
+    {
+      "number": 58,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r006.mp4",
+      "manifest": {
+        "number": 58,
+        "decision": "revise_prompt",
+        "reason": "Duplicate Rawson from frame zero; invented haze and paper marks.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-058.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-058-shot-r004.mp4",
+        "baseline_sha256": "5c9dd6fac1592eff67070290c84beaeb0a006650032ec3454b82fb9e340ca0a9",
+        "reviewed_at": "2026-10-03T19:02:04.052177+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 5385514967370872332,
+        "previous_seed": 3981380873701461889,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-058/prompts/clip-058.md",
+        "prompt_sha256": "8e62c7d13d7e94ed71cd8e5fcc0cb83d425695f40c8e97ae78575394a81ab8a1",
+        "job": "006-shortest-war-ever:clip-058:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+            "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "608c3fce-a802-4f8a-9ca4-6ae0ae1911ec",
+        "job_ids": [
+          "896318b5-b4fa-4ced-9949-ba4f97d25fe1"
+        ],
+        "submitted_at": "2026-10-03T19:02:04.158410+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-058.jpg"
+      }
+    },
+    {
+      "number": 59,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r006.mp4",
+      "manifest": {
+        "number": 59,
+        "decision": "revise_prompt",
+        "reason": "Khalid robe is teal green instead of maroon.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-059.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-059-shot-r004.mp4",
+        "baseline_sha256": "bb8ef50dc6c4a4da60ac660bb695fa6d0b6db27bcd0387416dc9d681113acc2d",
+        "reviewed_at": "2026-10-03T19:02:04.531205+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8980540850106927898,
+        "previous_seed": 8372443536822806134,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-059/prompts/clip-059.md",
+        "prompt_sha256": "231cfa7a9a1d4f557686cc9a22a2a56254099f984515f2dc3583ed98f8b1b183",
+        "job": "006-shortest-war-ever:clip-059:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+            "sha256": "b50f2ddffc510212785224eba2e166c3545680a628e5422bcb27fec6592630ad"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "3d6cd6c1-86c2-43ba-833c-f0102ffc0bc6",
+        "job_ids": [
+          "b1b26624-918b-4a11-ab38-4897fa1cd9e5"
+        ],
+        "submitted_at": "2026-10-03T19:02:04.640334+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-059.jpg"
+      }
+    },
+    {
+      "number": 60,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r006.mp4",
+      "manifest": {
+        "number": 60,
+        "decision": "revise_prompt",
+        "reason": "Continuous camera drift changes mandatory placard placement; clock progressively leaves frame.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-060-text-allframes.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-060-shot-r004.mp4",
+        "baseline_sha256": "075529fea2c09c30d7e00f32556c2bc3f8f363b70eb57091330a1fa13b3d73c7",
+        "reviewed_at": "2026-10-03T19:14:44.743381+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8664637671733710483,
+        "previous_seed": 4781702081980521722,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-060/prompts/clip-060.md",
+        "prompt_sha256": "0f28b4dacf5baceff6e82f489f5a1f1cc7fa96f0390b110195de90341297ce4b",
+        "job": "006-shortest-war-ever:clip-060:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0800-r001.png",
+            "sha256": "b50f2ddffc510212785224eba2e166c3545680a628e5422bcb27fec6592630ad"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "443c624c-e96e-4353-aa58-d4efb1a1dbc0",
+        "job_ids": [
+          "6a37157a-58d9-4c4a-8f33-f84bf854c54c"
+        ],
+        "submitted_at": "2026-10-03T19:14:44.856395+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-060-text-allframes.jpg"
+      }
+    },
+    {
+      "number": 62,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r006.mp4",
+      "manifest": {
+        "number": 62,
+        "decision": "revise_prompt",
+        "reason": "From 1.0s invented foreground crew and new huge occupied bow.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-062.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-062-shot-r004.mp4",
+        "baseline_sha256": "2e984c35a9f2010a211a3673ec1e2463321e9f322b5781e44bb8866a038992fb",
+        "reviewed_at": "2026-10-03T19:02:04.989424+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8120151602235812612,
+        "previous_seed": 6596317081109935584,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-062/prompts/clip-062.md",
+        "prompt_sha256": "a38afacb7d7c6930467cbb3b4eeb2adebd12bb9bc2d592da1ca825bdf26efc54",
+        "job": "006-shortest-war-ever:clip-062:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-quay-five-r001.png",
+            "sha256": "b8e9465e490b8cc6a927ab0507a2b11e11fc7735c15857e99a56995f1075a596"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "d7220d33-0ff6-4871-957c-64080deca8e4",
+        "job_ids": [
+          "948210cb-9c67-4830-afb5-7ee584d12231"
+        ],
+        "submitted_at": "2026-10-03T19:02:05.131350+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-062.jpg"
+      }
+    },
+    {
+      "number": 63,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r006.mp4",
+      "manifest": {
+        "number": 63,
+        "decision": "revise_prompt",
+        "reason": "2.75s adds giant foreground gunners and cannon not present in reference.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-063.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-063-shot-r004.mp4",
+        "baseline_sha256": "5918e5a1047aad5478bd2bcfcd4905d8e9977fa9b4df0c8806d5c95429de0999",
+        "reviewed_at": "2026-10-03T19:02:05.491005+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 440285204768587930,
+        "previous_seed": 5171703446272315760,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-063/prompts/clip-063.md",
+        "prompt_sha256": "960de43e6bb1d5f8683e83ada5a8306a29fd6314de27e701d3acbfc99bb313e8",
+        "job": "006-shortest-war-ever:clip-063:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-afloat-r002.png",
+            "sha256": "29001102e1a72d51b8377dfab582ccdda28c4f80beb058b651007c764a438f3a"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "17da8072-5504-4a4f-b264-cf00a4fad39f",
+        "job_ids": [
+          "4f3df32f-8f53-4b60-958b-2f9b2df3051a"
+        ],
+        "submitted_at": "2026-10-03T19:02:05.598759+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-063.jpg"
+      }
+    },
+    {
+      "number": 67,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r006.mp4",
+      "manifest": {
+        "number": 67,
+        "decision": "revise_prompt",
+        "reason": "Dhow crosses harbour and grows continuously through final frame.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-067.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r004.mp4",
+        "baseline_sha256": "b160ac23dbdb635b300701755721d14109cfb74d80100e6e53be1bba9237b0ce",
+        "reviewed_at": "2026-10-03T19:03:47.514957+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4563670679901105828,
+        "previous_seed": 8119846735394546,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-067/prompts/clip-067.md",
+        "prompt_sha256": "2e9f9035993445497210632c580879907e9e5facf7e0fa18d6763bb719bfa7db",
+        "job": "006-shortest-war-ever:clip-067:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+            "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "db7f338b-e6af-4aa6-ab24-d62d6b5d0ece",
+        "job_ids": [
+          "be665c26-7e72-4eb6-9676-afb8ebbb1158"
+        ],
+        "submitted_at": "2026-10-03T19:03:47.622391+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-067.jpg"
+      }
+    },
+    {
+      "number": 68,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r006.mp4",
+      "manifest": {
+        "number": 68,
+        "decision": "revise_prompt",
+        "reason": "2.0s duplicate giant foreground Khalid persists to end.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-068.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-068-shot-r004.mp4",
+        "baseline_sha256": "136ae8a136696f9203684ead890ef0af57be6f0d3e8671d92d78f6471dab30ae",
+        "reviewed_at": "2026-10-03T19:02:05.990395+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3658826569574176434,
+        "previous_seed": 2844399593566782135,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-068/prompts/clip-068.md",
+        "prompt_sha256": "3879dd3e85cbbe8b104afc43121fe661ea794f59c0cb7f30168764e0f6448d79",
+        "job": "006-shortest-war-ever:clip-068:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+            "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "85cfea96-802e-4322-97b3-4b331b3b717f",
+        "job_ids": [
+          "285b1781-0cec-4afb-a96c-be61e72aa896"
+        ],
+        "submitted_at": "2026-10-03T19:02:06.098842+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-068.jpg"
+      }
+    },
+    {
+      "number": 69,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r006.mp4",
+      "manifest": {
+        "number": 69,
+        "decision": "revise_prompt",
+        "reason": "2.75s extreme crop invents realistic fingered hands and cuts away head.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-069.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-069-shot-r004.mp4",
+        "baseline_sha256": "3ac6f15aac3ccd7504298f6a0bc32dc8346b7e251c07037669317d3942ea9417",
+        "reviewed_at": "2026-10-03T19:02:06.728348+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 9204388829076355447,
+        "previous_seed": 4768726284048956191,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-069/prompts/clip-069.md",
+        "prompt_sha256": "af5aca28201baae27dab4c3b6a26c41984b39510e1bd5e323d2d02b45af00f06",
+        "job": "006-shortest-war-ever:clip-069:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-focused-r001.png",
+            "sha256": "489a1c21b0a2c4715fff51aa51b8e4f1cdf31e1097d24b7fbf26499e735c4e0b"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "8ca9672c-b43f-48d0-80d1-0752fa3061f7",
+        "job_ids": [
+          "1e0b30f6-1950-4f5e-821b-9b11da996d78"
+        ],
+        "submitted_at": "2026-10-03T19:02:06.868401+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-069.jpg"
+      }
+    },
+    {
+      "number": 70,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r006.mp4",
+      "manifest": {
+        "number": 70,
+        "decision": "revise_prompt",
+        "reason": "1.25s premature muzzle flashes and shore blast; giant crew and invented deck close-up at 2.75s.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-070.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r004.mp4",
+        "baseline_sha256": "8a00699efb0349fa4c39b0b5cba426f8fd5e4ff5036f34ca9eaf786911d2903e",
+        "reviewed_at": "2026-10-03T19:03:48.009620+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3845681940732665235,
+        "previous_seed": 1108898510705917934,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-070/prompts/clip-070.md",
+        "prompt_sha256": "22062cfabb2932301bd457f380e4168cfd06886a94bb1280db397dae72c3eaf9",
+        "job": "006-shortest-war-ever:clip-070:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-stern-r001.png",
+            "sha256": "2cae0fb9c7a63686a1abd4024085b94ff095719ea18d7ff658eddf1e8c925d81"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "d0dc43ac-07d1-436f-b5c3-e044004b8393",
+        "job_ids": [
+          "97d19cb5-453b-41d1-916c-dfbae129d4b9"
+        ],
+        "submitted_at": "2026-10-03T19:03:48.118844+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-070.jpg"
+      }
+    },
+    {
+      "number": 72,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r006.mp4",
+      "manifest": {
+        "number": 72,
+        "decision": "revise_prompt",
+        "reason": "1.25s scroll unfurls horizontally across face; turban and face cut away.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-072.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-072-shot-r004.mp4",
+        "baseline_sha256": "9994f3b96ec69636321e6cb925f4d1763c45c468d89cbf3d446af3d444f32d52",
+        "reviewed_at": "2026-10-03T19:03:48.472445+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4585820001343620851,
+        "previous_seed": 5558710140212957880,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-072/prompts/clip-072.md",
+        "prompt_sha256": "cde025c71ad065c09ad0e90accd508afd93af228555a9840e54e493348078060",
+        "job": "006-shortest-war-ever:clip-072:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-palace-focused-r001.png",
+            "sha256": "bd48974d0523282d679e555c0b1e86c353c8903ca457659e0d8d6b5b1835d6cc"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "ca7df7b9-8900-4a2e-b41e-07d67073cc68",
+        "job_ids": [
+          "9930b4da-71d7-4126-81e8-4e3e9f87ce4b"
+        ],
+        "submitted_at": "2026-10-03T19:03:48.629130+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-072.jpg"
+      }
+    },
+    {
+      "number": 73,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r006.mp4",
+      "manifest": {
+        "number": 73,
+        "decision": "revise_prompt",
+        "reason": "4.0–4.35s premature firing while this is a waiting beat.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-073.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-073-shot-r005.mp4",
+        "baseline_sha256": "454e35ff32236936de192df467f1104773173832fc4d2d83d1c0c28020980405",
+        "reviewed_at": "2026-10-03T19:03:48.987351+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 4394363298881589881,
+        "previous_seed": 7947219769900005233,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-073/prompts/clip-073.md",
+        "prompt_sha256": "4c6cb9786970724c290e824243257e6766c9266f311ff35b1c7983769604857d",
+        "job": "006-shortest-war-ever:clip-073:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+            "sha256": "cc4c67ec5fb47a8da599e5fa936bcad36b9015b93679bba2225406d9cd68f3b5"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "88464aa1-dbc8-4b40-9d58-a64a78718d33",
+        "job_ids": [
+          "39b75240-636b-4071-8d42-4bcecb2786e7"
+        ],
+        "submitted_at": "2026-10-03T19:03:49.365578+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-073.jpg"
+      }
+    },
+    {
+      "number": 76,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-076-shot-r006.mp4",
+      "manifest": {
+        "number": 76,
+        "decision": "revise_prompt",
+        "reason": "1.5s onward large premature harbour explosions and smoke.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-076.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-076-shot-r005.mp4",
+        "baseline_sha256": "d2522d7959844b9d23315084a4478164fd7cffecaa0b5fbb795c5d3c624401be",
+        "reviewed_at": "2026-10-03T19:03:49.718266+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 1220257371816465958,
+        "previous_seed": 1303585071631415357,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-076/prompts/clip-076.md",
+        "prompt_sha256": "453d1680d862d3d12cfd5e0aaf7fc4fc59f428321133179f65095bb91d32b76e",
+        "job": "006-shortest-war-ever:clip-076:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+            "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "510a877b-8806-44e3-a306-77e1ec18428f",
+        "job_ids": [
+          "8c166274-57cb-46d2-974a-dece25544301"
+        ],
+        "submitted_at": "2026-10-03T19:03:49.859227+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-076.jpg"
+      }
+    },
+    {
+      "number": 77,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r006.mp4",
+      "manifest": {
+        "number": 77,
+        "decision": "revise_prompt",
+        "reason": "1.5s cut invents three foreground crew holding a maroon banner.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-077.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-077-shot-r004.mp4",
+        "baseline_sha256": "d7006ed3418edaf73efac3392afb98a1d5fdd4e68221c30ae736455db554bcf4",
+        "reviewed_at": "2026-10-03T19:03:50.216529+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 5135651508952306963,
+        "previous_seed": 4749550810909146344,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-077/prompts/clip-077.md",
+        "prompt_sha256": "d1322e2a74ecc7a603d58b795cacdfe1f90dd0b03aa6eeb73755bfa932ec2682",
+        "job": "006-shortest-war-ever:clip-077:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+            "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "990d31ce-13d9-4ef2-ac3b-68e1af64545a",
+        "job_ids": [
+          "834b0e7b-4eb5-4108-b73c-80fdefc7a1a1"
+        ],
+        "submitted_at": "2026-10-03T19:03:50.324261+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-077.jpg"
+      }
+    },
+    {
+      "number": 78,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r006.mp4",
+      "manifest": {
+        "number": 78,
+        "decision": "revise_prompt",
+        "reason": "2.75s onward two British ships burn during prebattle observation.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-078.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-078-shot-r004.mp4",
+        "baseline_sha256": "e65bc205eb1c2547c99125befcc5992862dc1cd34a0ec8e03060de73403c64b2",
+        "reviewed_at": "2026-10-03T19:03:50.712297+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2717500746477058768,
+        "previous_seed": 2446367526267043207,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-078/prompts/clip-078.md",
+        "prompt_sha256": "a9831991d56161d96ce12fdb47dfa1cc55eb2f164c4f2e9185d1a41afcbb714a",
+        "job": "006-shortest-war-ever:clip-078:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/khalid-balcony-fleet-r001.png",
+            "sha256": "e284de3525ea3ca8f9e37abfd9dd3e0439295538fa127a25c3c88f791b45d967"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "a18f0d91-043f-482b-a33e-72862f41e822",
+        "job_ids": [
+          "a1e66cef-ced3-4115-8a5a-afc8bdd4b695"
+        ],
+        "submitted_at": "2026-10-03T19:03:50.820632+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-078.jpg"
+      }
+    },
+    {
+      "number": 79,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-079-shot-r006.mp4",
+      "manifest": {
+        "number": 79,
+        "decision": "revise_prompt",
+        "reason": "2.0s invents new opposite viewpoint, large crowd, seated messenger and open paper.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-079.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-079-shot-r004.mp4",
+        "baseline_sha256": "6b4c085bc62b67fd7d0bda845b0119499b20ce131266556dac13ede49ad6bfb4",
+        "reviewed_at": "2026-10-03T19:03:51.174110+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8459903598766581441,
+        "previous_seed": 275728602848602590,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-079/prompts/clip-079.md",
+        "prompt_sha256": "0982cf85662632d9041bed34c300e62260241cb48f8941f320a6f1cf0ef6b79e",
+        "job": "006-shortest-war-ever:clip-079:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+            "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "d8684ed0-250a-4700-b3c2-e60c7d960fc7",
+        "job_ids": [
+          "b0f22d55-18ea-4b6c-922a-6c572ed1ecd0"
+        ],
+        "submitted_at": "2026-10-03T19:03:51.322971+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-079.jpg"
+      }
+    },
+    {
+      "number": 80,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r006.mp4",
+      "manifest": {
+        "number": 80,
+        "decision": "revise_prompt",
+        "reason": "Frame zero omits Khalid, then he walks in; blank placard turns black.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-080.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-080-shot-r004.mp4",
+        "baseline_sha256": "afe009d6c85353246030acbda2d79d789cb5df49a8af19e7d0f25abc303735d1",
+        "reviewed_at": "2026-10-03T19:03:51.966112+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 5022782552429652547,
+        "previous_seed": 1488375588045416140,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-080/prompts/clip-080.md",
+        "prompt_sha256": "cc7f70f5b0d25a99baf49c61f954df780f68057059c7de0873df3f8b33394d84",
+        "job": "006-shortest-war-ever:clip-080:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-blank-r001.png",
+            "sha256": "339c7b1688983cb83087c833d2cf42098d4adaa58b3bf4d46aaa21a04bf69ba6"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "aeb41489-677d-48a1-b6c9-c784753072d4",
+        "job_ids": [
+          "34b13581-f519-4f63-9f75-efba588ea989"
+        ],
+        "submitted_at": "2026-10-03T19:03:52.072928+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-080.jpg"
+      }
+    },
+    {
+      "number": 81,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r006.mp4",
+      "manifest": {
+        "number": 81,
+        "decision": "revise_prompt",
+        "reason": "Continuous drift and dhow motion through final frame; no resolved hold.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-081.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r004.mp4",
+        "baseline_sha256": "1f13d6d5f42f04e7e535e6bae62becc2fea850416ff27b34c2bf9f36b4162edf",
+        "reviewed_at": "2026-10-03T19:03:52.458437+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 7734769441425546765,
+        "previous_seed": 2870174881527545206,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-081/prompts/clip-081.md",
+        "prompt_sha256": "bc4247268f6df9a54a7beb676fe2027905816eb996850ae00ce21f89d2dbe99a",
+        "job": "006-shortest-war-ever:clip-081:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+            "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "7239d810-734f-448f-9353-091ba335c9a8",
+        "job_ids": [
+          "0f570754-f795-4665-bdc4-209785b79269"
+        ],
+        "submitted_at": "2026-10-03T19:03:52.571592+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-081.jpg"
+      }
+    },
+    {
+      "number": 82,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r006.mp4",
+      "manifest": {
+        "number": 82,
+        "decision": "revise_prompt",
+        "reason": "0.00–3.0s smoke covers entire scene and mandatory 09:00 text.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-082.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-082-shot-r004.mp4",
+        "baseline_sha256": "3ae9f3ff17cc014f85ee586c9f198ba08a263ecb84ea302b39fa5cf6f43c872b",
+        "reviewed_at": "2026-10-03T19:05:09.485447+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3844396634229154876,
+        "previous_seed": 8214589994714753541,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-082/prompts/clip-082.md",
+        "prompt_sha256": "0e375ba437f4d91dc9598fd7b797a042148d139209a6ea561ebb40c316e3cb7f",
+        "job": "006-shortest-war-ever:clip-082:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-palace-0900-r001.png",
+            "sha256": "fb36193d516abf76fd477c0158bbc18cbbc0f41a6dee92b3a106935e7268a43c"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "1e30971a-eb16-4ec4-9011-3adbf97ec409",
+        "job_ids": [
+          "dbfaba9f-7faa-4970-be13-06d21a859aba"
+        ],
+        "submitted_at": "2026-10-03T19:05:09.615556+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-082.jpg"
+      }
+    },
+    {
+      "number": 84,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r006.mp4",
+      "manifest": {
+        "number": 84,
+        "decision": "revise_prompt",
+        "reason": "2.375s duplicate foreground pair appears while original pair remains behind.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-084.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r004.mp4",
+        "baseline_sha256": "4109d63d013add8953df6cdd0bf433c2907f8bcbcb5ced1519dd7c1b5c7f03cd",
+        "reviewed_at": "2026-10-03T19:05:10.028849+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 267671421905681142,
+        "previous_seed": 3089850237342043339,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-084/prompts/clip-084.md",
+        "prompt_sha256": "4c4ec509b7dad695654c45c563f99d157a1517aa38b2259b2230cf96e486c051",
+        "job": "006-shortest-war-ever:clip-084:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+            "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "d9318963-0c99-4093-be11-d29fc0b716e1",
+        "job_ids": [
+          "4ed96f34-47ee-46cf-a7a9-4171eb3afdb7"
+        ],
+        "submitted_at": "2026-10-03T19:05:10.191129+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-084.jpg"
+      }
+    },
+    {
+      "number": 88,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r006.mp4",
+      "manifest": {
+        "number": 88,
+        "decision": "revise_prompt",
+        "reason": "0.25–1.5s invented glowing projectile travels out of palace toward water; close-up open mouths.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-088.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-088-shot-r005.mp4",
+        "baseline_sha256": "6b4ef49d0ad41f57f0a9b15b6ffff9c0ea91aa7c1ba257463c60931d1ada3903",
+        "reviewed_at": "2026-10-03T19:05:10.544762+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 6964680170667348113,
+        "previous_seed": 1926116434144057355,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-088/prompts/clip-088.md",
+        "prompt_sha256": "bbf592f37b9b31d0cd96e31b8e7a4eb60a0fd66b016411505d6284e6c3b972a7",
+        "job": "006-shortest-war-ever:clip-088:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+            "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "4f1729d4-d117-44b5-993c-eaba9997d493",
+        "job_ids": [
+          "30ac5682-3517-4330-9a37-42c8a4d920c5"
+        ],
+        "submitted_at": "2026-10-03T19:05:10.651869+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-088.jpg"
+      }
+    },
+    {
+      "number": 93,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r006.mp4",
+      "manifest": {
+        "number": 93,
+        "decision": "retry",
+        "reason": "Frame zero invents a large crowd standing in water; dozens appear to sink through whole clip.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-093.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-093-shot-r005.mp4",
+        "baseline_sha256": "5c089122f702da49ca75bf55c40ea4f59e91ba9b3a87407510a0618d5e139537",
+        "reviewed_at": "2026-10-03T19:05:11.325065+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 9059622211159557714,
+        "previous_seed": 226676119202785969,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-093/prompts/clip-093.md",
+        "prompt_sha256": "6abbda1fe5359631e7a1b223d7f3a11e922e61d1ac8828e46a85b3cc59225602",
+        "job": "006-shortest-war-ever:clip-093:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+            "sha256": "f77f8b2d2fb28e68f8129ea1fca787b48d55ca03882da40f8a4f1f3c7eb562cc"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "9fddc1f3-f47f-4f22-864e-c11cb945c3a6",
+        "job_ids": [
+          "9017223e-45b7-4f30-a4c7-f400894c5d62"
+        ],
+        "submitted_at": "2026-10-03T19:05:11.434645+00:00",
+        "prompt_note": "r006 retries the original sound specification with a new seed. The precise water/inventory lock is now in the active prompt for a later revision only if r006 fails.",
+        "evidence_label": "renders/review-evidence-r006/clip-093.jpg"
+      }
+    },
+    {
+      "number": 94,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r006.mp4",
+      "manifest": {
+        "number": 94,
+        "decision": "revise_prompt",
+        "reason": "Frame zero onward invented large crowd obscures wreck; bodies morph and new people arrive.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-094.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-094-shot-r004.mp4",
+        "baseline_sha256": "bfa77607ec4539f4b023f348af8ca94160fca87b8ed1a915aa24ee0bd2d16b4f",
+        "reviewed_at": "2026-10-03T19:06:32.349921+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 7034138130607491514,
+        "previous_seed": 5183393093162797323,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-094/prompts/clip-094.md",
+        "prompt_sha256": "d9f27d2fd8c2f88f79b44b017d7ee06a0429582e084e2156bcd869f0848c98fc",
+        "job": "006-shortest-war-ever:clip-094:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+            "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "3507a009-ce7f-46a9-9852-1d142cb38e7c",
+        "job_ids": [
+          "71d26c1f-ba9f-4c4e-aaca-0954bf9309a4"
+        ],
+        "submitted_at": "2026-10-03T19:06:32.514342+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-094.jpg"
+      }
+    },
+    {
+      "number": 95,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r006.mp4",
+      "manifest": {
+        "number": 95,
+        "decision": "revise_prompt",
+        "reason": "0.5s adds third giant foreground defender with backpack while original pair stays behind.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-095.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-095-shot-r004.mp4",
+        "baseline_sha256": "8654a16a2cb1a0f1d2573f9e4cba4715e94e0c0fe7fc0b42159fed59d6d9feed",
+        "reviewed_at": "2026-10-03T19:06:32.901340+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 6302835599183895452,
+        "previous_seed": 1871802764342673613,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-095/prompts/clip-095.md",
+        "prompt_sha256": "15505ed1bd205ca3889220532eb3dc1848fe6a54c05434447af3974116407648",
+        "job": "006-shortest-war-ever:clip-095:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+            "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "b5d03bb4-0857-41a6-a831-1d96df2819fd",
+        "job_ids": [
+          "bdfe8423-35a7-4082-874f-5fa8816e69b1"
+        ],
+        "submitted_at": "2026-10-03T19:06:33.025791+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-095.jpg"
+      }
+    },
+    {
+      "number": 96,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r006.mp4",
+      "manifest": {
+        "number": 96,
+        "decision": "revise_prompt",
+        "reason": "Entire clip invents many civilians standing in water in front of wreck.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-096.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-096-shot-r004.mp4",
+        "baseline_sha256": "51f90e705914e534ef1f276ce47f07e56e4f16597c29566a72aa89aca56b906c",
+        "reviewed_at": "2026-10-03T19:06:33.481438+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2427734541796148334,
+        "previous_seed": 2549878443527253970,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-096/prompts/clip-096.md",
+        "prompt_sha256": "8de4741f8dc56f2acbdfe35dd15d7d6143f5c21c385dd97db5658a1eedbefd32",
+        "job": "006-shortest-war-ever:clip-096:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+            "sha256": "7c5e46358566b6292b6f51449feb7686fdf1400d3dbbe6bd39bf1efefb0d958d"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "9c239dab-1375-4aab-b494-f798752e7349",
+        "job_ids": [
+          "51b7736e-e823-4771-97fc-3d3598469beb"
+        ],
+        "submitted_at": "2026-10-03T19:06:33.603598+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-096.jpg"
+      }
+    },
+    {
+      "number": 97,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r006.mp4",
+      "manifest": {
+        "number": 97,
+        "decision": "revise_prompt",
+        "reason": "1.0s new explosive projectile and damage; invented large blue backpack in close-up.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-097.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-097-shot-r004.mp4",
+        "baseline_sha256": "e252d390c42b84b2404fd9f434e06be284de4e7f13d3c322a78ea60b9d7e8317",
+        "reviewed_at": "2026-10-03T19:06:33.989946+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 867464484341946885,
+        "previous_seed": 5076815664825659212,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-097/prompts/clip-097.md",
+        "prompt_sha256": "d3e245165b85135f2394eb8578ff75ff9b34a277e6c82b77567524fca5777164",
+        "job": "006-shortest-war-ever:clip-097:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+            "sha256": "ff7740c2e41efc01b2b0049818f556ec450ed82354fad8f3f6170f503b9f1acc"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "3f8765d3-cb0f-492d-b019-9dfb00f31a3d",
+        "job_ids": [
+          "0b43c598-cac0-40e3-992a-a8b8aec0c49e"
+        ],
+        "submitted_at": "2026-10-03T19:06:34.147141+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-097.jpg"
+      }
+    },
+    {
+      "number": 100,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r006.mp4",
+      "manifest": {
+        "number": 100,
+        "decision": "revise_prompt",
+        "reason": "4.0s close-up changes into a white blurred vignette instead of full-frame drawn scene.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-100.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-100-shot-r004.mp4",
+        "baseline_sha256": "887eab8290eff553f8370475871be49619c73a4f46e23f5f9e2ee0f89d79e781",
+        "reviewed_at": "2026-10-03T19:06:34.818738+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 1664985978127340286,
+        "previous_seed": 4997138332593350267,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-100/prompts/clip-100.md",
+        "prompt_sha256": "41baadef7b7313dee2af5fbef18235a696d2e1930e3c5d04a418bc8b5d505166",
+        "job": "006-shortest-war-ever:clip-100:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/consulate-street-approach-r001.png",
+            "sha256": "23ef05e6a14a795cd8fb650205a51b35702f1c5c80cd32b78b1a408e8f3a2749"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "cf26f62b-05bc-4cba-abc7-1cf2bb727160",
+        "job_ids": [
+          "88d6c18e-671d-4ed7-a29b-e348ad1c7136"
+        ],
+        "submitted_at": "2026-10-03T19:06:34.938729+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-100.jpg"
+      }
+    },
+    {
+      "number": 103,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r006.mp4",
+      "manifest": {
+        "number": 103,
+        "decision": "revise_prompt",
+        "reason": "3.5s closed scroll disappears from Khalid’s hand.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-103.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r004.mp4",
+        "baseline_sha256": "f0c3fddb50bfc38fc82c868af0dfa67764b3f621223d0200508db45fbcf7061e",
+        "reviewed_at": "2026-10-03T19:08:00.414711+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 6109411393095180505,
+        "previous_seed": 4640937351578895153,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-103/prompts/clip-103.md",
+        "prompt_sha256": "2d33776c68f9f019c63bd7549c378855d0eb86873ade678ed56e1a756741e620",
+        "job": "006-shortest-war-ever:clip-103:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png",
+            "sha256": "e47494715cce50748434357f525eff8054093c8df0aa20534d935d594a5f6bb5"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "59feb606-0b40-4ceb-8b18-b149b5ae244b",
+        "job_ids": [
+          "131d28ae-c14a-485f-859b-0edee5a7fdef"
+        ],
+        "submitted_at": "2026-10-03T19:08:00.525574+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-103.jpg"
+      }
+    },
+    {
+      "number": 105,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r006.mp4",
+      "manifest": {
+        "number": 105,
+        "decision": "revise_prompt",
+        "reason": "Frame zero invents huge foreground flag bearer, hiding damaged masonry; reference contains no flag bearer.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-105.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-105-shot-r005.mp4",
+        "baseline_sha256": "6f2eb3d9e183046003667220ed3171c0defee82cd1230418546563c8ffca7ac0",
+        "reviewed_at": "2026-10-03T19:08:00.888101+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 5955589117614390943,
+        "previous_seed": 6059816794904748998,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-105/prompts/clip-105.md",
+        "prompt_sha256": "2aafc68f1a2722a9590fadb1fb32fc6afb50e1b8427d61155aaaa73df1ec0c4d",
+        "job": "006-shortest-war-ever:clip-105:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+            "sha256": "9b684095fa8b4cd93441c33369753be0835f86e8fa0dbf377f87512d5e38c712"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "562c402f-2f9b-4777-813b-27d7de41d627",
+        "job_ids": [
+          "ca1f79d3-a139-4388-b93d-a34bed9d1165"
+        ],
+        "submitted_at": "2026-10-03T19:08:01.036492+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-105.jpg"
+      }
+    },
+    {
+      "number": 107,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r006.mp4",
+      "manifest": {
+        "number": 107,
+        "decision": "revise_prompt",
+        "reason": "Invented hand touches temple; turban develops long loose ribbon across shoulder; continuous ending drift.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-107.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-107-shot-r004.mp4",
+        "baseline_sha256": "7cf0da9f132bcdb14f08578c4e0c71ea05b44a64b1ca284fffa107d43c39a7b3",
+        "reviewed_at": "2026-10-03T19:08:01.403748+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 309609705844482265,
+        "previous_seed": 3957744698653976364,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-107/prompts/clip-107.md",
+        "prompt_sha256": "1e532dd5c7aa29a7e7b77e8f70dedc2cbca5144a8393e08b19b1cc922f854e9d",
+        "job": "006-shortest-war-ever:clip-107:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png",
+            "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "fe2197fe-8caf-4e52-8d9d-1fbf4aae27e5",
+        "job_ids": [
+          "c94632c8-0ff3-421b-a0f8-ef61abd87605"
+        ],
+        "submitted_at": "2026-10-03T19:08:01.514402+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-107.jpg"
+      }
+    },
+    {
+      "number": 108,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r006.mp4",
+      "manifest": {
+        "number": 108,
+        "decision": "revise_prompt",
+        "reason": "Ending zoom continues into oversized faces with right head cut off.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-108.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-108-shot-r004.mp4",
+        "baseline_sha256": "878aadf3b961456b76b39204a20c5ea6d6e385377ec7586295ed09f47c901c65",
+        "reviewed_at": "2026-10-03T19:08:01.885474+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 637523578717981641,
+        "previous_seed": 1697417208333593749,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-108/prompts/clip-108.md",
+        "prompt_sha256": "82f39c8818b418126952411ebd2ac9f9486bdc5db27847d1d76e6f0536305aa9",
+        "job": "006-shortest-war-ever:clip-108:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/harbour-after-r001.png",
+            "sha256": "2d3b1aa510add1ebd6444ca6ae7bb28238852b65237ee9dc32c000c0afac8eb4"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "3c9bcfd9-f470-4d55-afe4-ca86cd2026e2",
+        "job_ids": [
+          "2e75569b-7a9d-4507-881c-5b197fea794a"
+        ],
+        "submitted_at": "2026-10-03T19:08:02.323778+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-108.jpg"
+      }
+    },
+    {
+      "number": 110,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r006.mp4",
+      "manifest": {
+        "number": 110,
+        "decision": "revise_prompt",
+        "reason": "Frame zero adds two unsupported foreground women while original two remain.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-110.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-110-shot-r004.mp4",
+        "baseline_sha256": "419676e44e5f9f63f4964dbafae49e6ff5bf0e12f74d7cd68008f848a5c28dc4",
+        "reviewed_at": "2026-10-03T19:12:14.424208+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 5244368590972159851,
+        "previous_seed": 2108735166196957166,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-110/prompts/clip-110.md",
+        "prompt_sha256": "e35e5419943c8fb83fde4e770b1940a578556a5daece605afe04ad6c8c1a58b3",
+        "job": "006-shortest-war-ever:clip-110:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+            "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "4ac3d6ad-8453-4f39-8ac3-e5f8df49ee09",
+        "job_ids": [
+          "9f80ff71-d2c6-4394-a7cc-423054bcfa27"
+        ],
+        "submitted_at": "2026-10-03T19:12:14.553870+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-110.jpg"
+      }
+    },
+    {
+      "number": 113,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r006.mp4",
+      "manifest": {
+        "number": 113,
+        "decision": "revise_prompt",
+        "reason": "1.5s onward giant tsunami wave rises behind residents and overtops quay.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-113.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r004.mp4",
+        "baseline_sha256": "b16d0c0a235a0e3cfcf2e1b0b4755df5dfbc5b34638bbd6d1cf3f6cee1deb0da",
+        "reviewed_at": "2026-10-03T19:12:14.921924+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 2557190102599095437,
+        "previous_seed": 6790603217895980862,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-113/prompts/clip-113.md",
+        "prompt_sha256": "cfe30babd19c763930ccf8883fd83a89db765df6ad47f9e548177de4f4411efa",
+        "job": "006-shortest-war-ever:clip-113:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/aftermath-civilians-r001.png",
+            "sha256": "004130557832ecd3d1fc700d7399f7e0acb1d298de3271e3e97e1cdef0abc2ae"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "fbac5fb4-f92c-4dc3-bb15-ba0f8e6b8fc7",
+        "job_ids": [
+          "3fb0e0f9-3d61-4dca-ab4e-92f8816e20ab"
+        ],
+        "submitted_at": "2026-10-03T19:12:15.076721+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-113.jpg"
+      }
+    },
+    {
+      "number": 114,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r006.mp4",
+      "manifest": {
+        "number": 114,
+        "decision": "revise_prompt",
+        "reason": "Invented giant anchor and third woman standing waist-deep in water.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-114.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-114-shot-r004.mp4",
+        "baseline_sha256": "685c87f35bd4d51389b46454a453de73979e3ced8523187ac171325204368877",
+        "reviewed_at": "2026-10-03T19:12:15.431938+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8409492898908588391,
+        "previous_seed": 4825027979840847950,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-114/prompts/clip-114.md",
+        "prompt_sha256": "76bb1acac6b30f63cee4a1e69b6c780cb5b0045273263baeee6ae5994574689b",
+        "job": "006-shortest-war-ever:clip-114:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+            "sha256": "8a9ba7687fc05747d9fd2a474246dd7e9c7bb0d00e5f983396ef4e086d1a8ea4"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "fa75fbc7-c06a-4b37-aa69-969afdc755b1",
+        "job_ids": [
+          "c9cd17c6-4404-4535-b3e6-b417105e5586"
+        ],
+        "submitted_at": "2026-10-03T19:12:15.554158+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-114.jpg"
+      }
+    },
+    {
+      "number": 115,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r006.mp4",
+      "manifest": {
+        "number": 115,
+        "decision": "revise_prompt",
+        "reason": "Frame zero adds crowd; smoke floods empty clock room.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-115.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r004.mp4",
+        "baseline_sha256": "a0ea54d2ee2f3a930f5bd14f1f99e64419c14684172764cb0b099e8ee88809e3",
+        "reviewed_at": "2026-10-03T19:12:15.986277+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 3701507727170971319,
+        "previous_seed": 2598242581432866038,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-115/prompts/clip-115.md",
+        "prompt_sha256": "cda88ea9db381d023f015bdbba217f2ac4937441d324d8fc4aa630c6a3b29978",
+        "job": "006-shortest-war-ever:clip-115:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-blank-r002.png",
+            "sha256": "d21d98ba51f67a4cc27bb403f7683c9e44bce754edbf97d79447bdf38c6c9d3f"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "e367a29b-32dd-4636-8677-6bc196854a18",
+        "job_ids": [
+          "00c541ab-f799-48c8-960e-15442476b111"
+        ],
+        "submitted_at": "2026-10-03T19:12:16.385605+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-115.jpg"
+      }
+    },
+    {
+      "number": 117,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-117-shot-r006.mp4",
+      "manifest": {
+        "number": 117,
+        "decision": "revise_prompt",
+        "reason": "2.75s changes cream robe into entirely green costume; head and turban cut off.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-117.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-117-shot-r004.mp4",
+        "baseline_sha256": "cbecde24d5f510d8197437a5f6eaa7a3d2abcfb4fc04499c2b8598a0f4c76c09",
+        "reviewed_at": "2026-10-03T19:12:16.768327+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 5989839944262633821,
+        "previous_seed": 5907227980927397767,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-117/prompts/clip-117.md",
+        "prompt_sha256": "6dedeca07515da343bf69916da6aab6de72845aae6f48c87c5aefab59d64e57f",
+        "job": "006-shortest-war-ever:clip-117:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/hamoud-enthroned-r001.png",
+            "sha256": "081e59037cfdcaa47548eb0026fd8101463503477e3cdfbfd61c6c5c5f216a41"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "69dd176c-53cc-4294-9628-3a994773eb3a",
+        "job_ids": [
+          "da4dc1f6-6be8-4ee9-aa29-5662dc23751b"
+        ],
+        "submitted_at": "2026-10-03T19:12:16.949519+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-117.jpg"
+      }
+    },
+    {
+      "number": 123,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r006.mp4",
+      "manifest": {
+        "number": 123,
+        "decision": "revise_prompt",
+        "reason": "Held shoe disappears at 0.5s; foot remains barefoot until replacement shoe pops on at 1.5s.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-123.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-123-shot-r004.mp4",
+        "baseline_sha256": "539f6cb7bfe6369d66ade4c24f3b83409ef645d32082f1873529bd58543e334e",
+        "reviewed_at": "2026-10-03T19:12:17.342330+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 1209108470603055142,
+        "previous_seed": 3869984483667737281,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-123/prompts/clip-123.md",
+        "prompt_sha256": "8d5928009cc6b5587814b56c041527c4507b2573bc574eb90f08002f8981bfce",
+        "job": "006-shortest-war-ever:clip-123:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/shoe-foot-insert-r001.png",
+            "sha256": "2b0ce33c3a96ffcb180f866e001c94ad0f6f1dcd6874cb7251f4ca4ab98f543b"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "fc1a9e9e-9b21-4048-9dc3-030325d45803",
+        "job_ids": [
+          "2f4ad5c7-fe5b-4b4e-8e49-8dc81377e6ce"
+        ],
+        "submitted_at": "2026-10-03T19:12:17.474088+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-123.jpg"
+      }
+    },
+    {
+      "number": 124,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-124-shot-r006.mp4",
+      "manifest": {
+        "number": 124,
+        "decision": "revise_prompt",
+        "reason": "Continuous camera drift changes mandatory placard placement; clock progressively leaves frame.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-124-text-allframes.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-124-shot-r004.mp4",
+        "baseline_sha256": "f7bb2e575414883dffd62532c903411d8bfc2e3ad6c670da87de97ccaddc3166",
+        "reviewed_at": "2026-10-03T19:14:45.294986+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 136144202331373387,
+        "previous_seed": 5274649855723509668,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-124/prompts/clip-124.md",
+        "prompt_sha256": "f19777dd5c7820716d010559fd069031899a03218175ef378e8e9528e14e138c",
+        "job": "006-shortest-war-ever:clip-124:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-0938-r001.png",
+            "sha256": "21b1cfb84e0ae7a36295fe20da6b547a18e4a814bad3a86b58f8b8afb3811e88"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "8bc94a08-f724-43a1-af5f-f13209ed1f50",
+        "job_ids": [
+          "00f93bcf-9571-4e20-8b8d-4f527b2af54e"
+        ],
+        "submitted_at": "2026-10-03T19:14:45.406318+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-124-text-allframes.jpg"
+      }
+    },
+    {
+      "number": 126,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r006.mp4",
+      "manifest": {
+        "number": 126,
+        "decision": "revise_prompt",
+        "reason": "0.75s onward third dispatch appears beside right official; final crop shows three.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-126.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-126-shot-r005.mp4",
+        "baseline_sha256": "7c80abd22b8eba2d3f56bacddaf18c51bf48c9c6314c44f42bb942bdd9faaf91",
+        "reviewed_at": "2026-10-03T19:12:17.909473+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 7302927968861061754,
+        "previous_seed": 4720926444809502801,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-126/prompts/clip-126.md",
+        "prompt_sha256": "c93dce971723691dbfff99f70b0424080d4f12bd030c12651485c9f2ec2b8b57",
+        "job": "006-shortest-war-ever:clip-126:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+            "sha256": "2a83ce8b55a0df83f2a85bfda972e6c0861549e9c46fd4763513ae8bc887379a"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "6fb5f9f6-a5e9-43be-8973-6e467ed7aa67",
+        "job_ids": [
+          "255a2909-3c88-42f2-b860-9c3ede7873a1"
+        ],
+        "submitted_at": "2026-10-03T19:12:18.026358+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-126.jpg"
+      }
+    },
+    {
+      "number": 131,
+      "path": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r006.mp4",
+      "manifest": {
+        "number": 131,
+        "decision": "revise_prompt",
+        "reason": "Starts outside then walks in; 3.25s loose shoes fly in and land in hand despite fully shod still ending.",
+        "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-131.jpg",
+        "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-131-shot-r004.mp4",
+        "baseline_sha256": "bb5fb6359f9052fc1d58c69c51a728dd7ca79dc73a7ca93092452ac9b99b7c43",
+        "reviewed_at": "2026-10-03T19:12:18.405754+00:00",
+        "reviewer": "Codex visual review; automated audio evidence tracked separately",
+        "seed": 8872027405322560787,
+        "previous_seed": 7100594075292040304,
+        "revision": 6,
+        "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-131/prompts/clip-131.md",
+        "prompt_sha256": "47cfe87159c9f35177b76aa4ccb4138f75a4290716ff1011eeac0da8b814c538",
+        "job": "006-shortest-war-ever:clip-131:r006",
+        "references": [
+          {
+            "path": "assets/episodes/006-shortest-war-ever/references/hook-shoe-resolved-r001.png",
+            "sha256": "12ef191d787e803ce5c3ade0eac43efc63fd9f7f68ec477f5feca39e51626fc3"
+          }
+        ],
+        "status": "queued",
+        "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+        "batch_id": "dc1931d1-837d-472a-92bf-bfab0ccf0e13",
+        "job_ids": [
+          "e723d234-407a-4d21-afc5-69f043456e8a"
+        ],
+        "submitted_at": "2026-10-03T19:12:18.538257+00:00",
+        "evidence_label": "renders/review-evidence-r006/clip-131.jpg"
+      }
+    }
+  ]
+}

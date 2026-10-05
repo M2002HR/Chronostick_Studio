@@ -1,0 +1,17 @@
+{
+  "number": 113,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-113-shot-r004.mp4",
+  "source_sha256": "b16d0c0a235a0e3cfcf2e1b0b4755df5dfbc5b34638bbd6d1cf3f6cee1deb0da",
+  "pcm_sha256": "48661d281d251f89c925b3c02112d7e397f92c098dc49a30835aa4c93f1f0b1b",
+  "peak_pcm16": 19885,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A vehicle passes by with a distinct whoosh sound. There is a continuous ambient hum throughout the recording.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

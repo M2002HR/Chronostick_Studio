@@ -1,0 +1,29 @@
+{
+  "number": 12,
+  "decision": "revise_prompt",
+  "reason": "Latest r006 reverses the officer from screen right to screen left and invents a large nearby vessel with an altered flag; keep original officer position and distant fleet in a modest centered crop.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-012-r006.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-012-shot-r006.mp4",
+  "baseline_sha256": "a43663b05be5a6cac2698601c7f8a0c95527f3ccac7fef137c471b717f9274f6",
+  "reviewed_at": "2026-10-03T19:35:45.315887+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 3067611372488691679,
+  "previous_seed": 9011901976467369857,
+  "revision": 7,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r007/clip-012/prompts/clip-012.md",
+  "prompt_sha256": "18ee3c10be116e6fc9df8fc00375d3d8dd30e7a99a7cfb30c5be415ecf51bc3d",
+  "job": "006-shortest-war-ever:clip-012:r007",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "968778eb-ec5e-48c6-999e-893d5f96604e",
+  "job_ids": [
+    "f2b48ea2-0b46-4928-ad3c-aee6ea2fa53e"
+  ],
+  "submitted_at": "2026-10-03T19:35:45.434350+00:00"
+}

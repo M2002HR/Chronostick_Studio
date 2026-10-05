@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"heard\": \"A plucked string instrument plays a melody, followed by a male voice speaking. The instrument has a distinct, bright sound. The speech is clear and at a moderate pace.\",\n  \"speech\": true,\n  \"exact_words\": \"Sisi la A-liu-shun\",\n  \"music\": true,\n  \"tonal_bed\": false,\n  \"continuous_ambience\": false,\n  \"confidence\": \"high\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 240,
+    "candidatesTokenCount": 103,
+    "totalTokenCount": 343,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 79
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "DFXBauDxA6a4vdIP7Iy20A8"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "c95ed244-58f7-489c-aaa0-8abee7e94a3d",
+  "type": "concat",
+  "status": "queued",
+  "created_at": "2026-10-04T20:43:55.808580+00:00",
+  "updated_at": "2026-10-04T20:43:55.813948+00:00",
+  "comfy_prompt_id": null,
+  "batch_id": null,
+  "error_json": null,
+  "retry_count": 0,
+  "seed": null,
+  "template_version": null,
+  "template_hash": null,
+  "stage": "queued",
+  "progress_current": null,
+  "progress_total": null,
+  "progress_percent": 0.0,
+  "metrics_json": null,
+  "request": {
+    "inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4"
+    ],
+    "directory": null,
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-concat-r001.mp4",
+    "fps": 24.0,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-concat-r001.mp4"
+  },
+  "resolved": {
+    "inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4"
+    ],
+    "directory": null,
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-concat-r001.mp4",
+    "fps": 24.0,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r002.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-concat-r001.mp4"
+  },
+  "output_files": [],
+  "error": null,
+  "warnings": [],
+  "metrics": null
+}

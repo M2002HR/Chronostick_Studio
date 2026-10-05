@@ -1,0 +1,30 @@
+{
+  "number": 10,
+  "decision": "revise_prompt",
+  "reason": "Latest r006 adds a giant person at the bow chain and lowers him into the sea; replace risky waterline closeup with a fixed wide crop of the same five ships.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-010-r006.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-010-shot-r006.mp4",
+  "baseline_sha256": "b823e851c6357e2928a1c26615175f119c9247b62523e5364a489f2f2240e432",
+  "reviewed_at": "2026-10-03T19:28:35.831438+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8565598165019962920,
+  "previous_seed": 2928344508585080636,
+  "revision": 7,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r007/clip-010/prompts/clip-010.md",
+  "prompt_sha256": "b3efad6ca817aa12260830d8a920f8560cfb0c8ddcc93b7a226053769a128a0b",
+  "job": "006-shortest-war-ever:clip-010:r007",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+      "sha256": "6d42ef83436d396ef44b62e2697c13e5390ed45a9661fc6ace36f27e550ae48e"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "d86e325e-1aaa-46f5-a845-b8f3c744e32a",
+  "job_ids": [
+    "ededaecd-66c3-4705-9cba-fdf95077323d"
+  ],
+  "submitted_at": "2026-10-03T19:28:35.984149+00:00",
+  "baseline_request": "automation/retries/review-r006/clip-010/jobs/clip-010.json"
+}

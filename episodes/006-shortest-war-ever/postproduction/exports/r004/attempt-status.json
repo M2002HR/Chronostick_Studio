@@ -1,0 +1,5 @@
+{
+  "status": "superseded_during_render",
+  "reason": "Three near-duplicate provider word starts were found during caption QC; explicit normalization to the preceding provided word end is recorded in the replacement edit. Same user-selected 60px/single-line/80%-width style; r005 is the replacement.",
+  "approval": null
+}

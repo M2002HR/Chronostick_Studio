@@ -1,0 +1,278 @@
+{
+  "number": 61,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-061-shot-r004.mp4",
+  "source_sha256": "c239f8ad786104b4a0322669418829d5a7dcc4474773f61fab4aeb6cf2522e23",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's head and hair morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's right arm and hand holding the shoe morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's left leg and foot morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's left arm and hand morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's right foot morphs and changes shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's body and clothing morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The clock on the wall morphs and changes shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The bed and bedding morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The desk and chair morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The items on the shelf morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The items hanging on the wall morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The doorway and door morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The rug on the floor morphs and changes shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The floor tiles morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The window and shutters morph and change shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The outdoor scene visible through the window and doorway morphs and changes shape slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's expression changes from neutral to slightly surprised/concerned and back to neutral within the first few frames, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's head bobs slightly up and down, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's right arm holding the shoe moves slightly up and down, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's left arm moves slightly, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's body sways slightly, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's left foot lifts and lowers slightly, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's hair moves slightly, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character's clothing shows minor rippling/morphing, which is not part of the intended 'pauses his existing missing-shoe action and gives his pictured blank wall clock one quick glance' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The clock hands on the wall clock are not visible in the reference image, but appear to be present and slightly moving in the animation, which is an unauthorized addition.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The character does not give the wall clock a 'quick glance' as specified in the prompt. Instead, the character's gaze is directed forward, and the head movement is a general bobbing rather than a specific glance at the clock.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "The animation does not settle by 2.10s and hold from 2.10s as specified. There is continuous subtle movement throughout the first segment.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's head and hair morph and change shape slightly throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's right arm and hand holding the shoe morph and change shape slightly throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's left arm and hand morph and change shape slightly throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's body and clothing morph and change shape slightly throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The doorway and door morph and change shape slightly throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The outdoor scene visible through the doorway morphs and changes shape slightly throughout the second segment.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's expression changes from neutral to slightly sad/concerned and back to neutral within the second segment, which is not a 'tiny eyebrow, cloth or water adjustment already supported by the anchor'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's head bobs slightly up and down, which is not a 'tiny eyebrow, cloth or water adjustment already supported by the anchor'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's right arm holding the shoe moves slightly up and down, which is not a 'tiny eyebrow, cloth or water adjustment already supported by the anchor'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's left arm moves slightly, which is not a 'tiny eyebrow, cloth or water adjustment already supported by the anchor'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's body sways slightly, which is not a 'tiny eyebrow, cloth or water adjustment already supported by the anchor'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's hair moves slightly, which is not a 'tiny eyebrow, cloth or water adjustment already supported by the anchor'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The character's clothing shows minor rippling/morphing, which is not a 'tiny eyebrow, cloth or water adjustment already supported by the anchor'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The animation does not hold settled from 4.35s as specified. There is continuous subtle movement until the end of the clip.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A distinct 'scuff' sound is heard, followed by silence.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.75,
+          "end": 0.95,
+          "description": "shoe scuff"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to accurately depict the specified action of the shoe-searcher giving the wall clock a quick glance; instead, the character exhibits general subtle movements and expression changes. The animation also fails to settle and hold at the specified times in both segments. There are numerous minor morphing and subtle movement issues throughout the entire clip, affecting both the character and the background elements. The audio correctly features a single shoe scuff and then silence, adhering to the prompt's requirements."
+  }
+}

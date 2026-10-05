@@ -1,0 +1,11 @@
+{
+  "batch_id": "c0a9da8a-56f6-40f9-89ff-649ec02c4d80",
+  "status": "succeeded",
+  "checked_at": "2026-10-03T09:00:57.998474+00:00",
+  "child_status_counts": {
+    "succeeded": 117
+  },
+  "job_count": 117,
+  "retained_unreviewed_candidates": 12,
+  "controlled_maps_ready": 2
+}

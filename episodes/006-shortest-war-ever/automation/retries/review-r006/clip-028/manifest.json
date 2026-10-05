@@ -1,0 +1,30 @@
+{
+  "number": 28,
+  "decision": "revise_prompt",
+  "reason": "At0.50s navy sleeve changes to purple, then continuous zoom drifts through final frame with no settled hold.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-028.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-028-shot-r005.mp4",
+  "baseline_sha256": "c84085dd11c9ed9daac1247d7dd89bebb2bbf1e5c79f739088d9ffdd7be0e4b5",
+  "reviewed_at": "2026-10-03T18:52:34.742290+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 2966549615567795177,
+  "previous_seed": 6186055281908680943,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-028/prompts/clip-028.md",
+  "prompt_sha256": "4066d073c6152345314da9b271695f210d4364544ffb63ae4de31f270083c80f",
+  "job": "006-shortest-war-ever:clip-028:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/market-basket-close-r001.png",
+      "sha256": "edaa59a4c74981c9e68cafb231bc16bf768e4baadd33a8975e2f5ac887fc19fb"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "fc61e9df-90d4-4ba7-8f89-1d4782a09907",
+  "job_ids": [
+    "ac051ab7-b99d-4f37-bf8d-56d1183716a3"
+  ],
+  "submitted_at": "2026-10-03T18:52:34.883275+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-028.jpg"
+}

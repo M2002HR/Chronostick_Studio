@@ -1,0 +1,17 @@
+{
+  "number": 11,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-011-shot-r004.mp4",
+  "source_sha256": "13840c28be0defe04efbccfc0c5919de94139dcf46c78d4c2b50aaada747e781",
+  "pcm_sha256": "f33e55c364e753fa6d2e5d57a9ebc68965aca17edcc4fcdae81fcd2036085654",
+  "peak_pcm16": 3804,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a brief silence, and then a series of rapid, high-pitched squeaks. There is no discernible speech or music.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

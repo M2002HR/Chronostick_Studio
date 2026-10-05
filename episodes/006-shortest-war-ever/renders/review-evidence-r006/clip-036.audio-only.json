@@ -1,0 +1,17 @@
+{
+  "number": 36,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-036-shot-r004.mp4",
+  "source_sha256": "3ab91dc9156d6f49d45352ec7b3c2f11e25d8d8e37ed2dfe4e2266379c0f57e0",
+  "pcm_sha256": "99aaeb9d189fa88fb113c55994eb2ece4f03089da88e65ff38c311dfeabc3d34",
+  "peak_pcm16": 2597,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwip' sound, like a whoosh or a flick, followed by a brief silence, then the clear, sustained notes of a string instrument, possibly a cello or viola, playing a melancholic melody.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

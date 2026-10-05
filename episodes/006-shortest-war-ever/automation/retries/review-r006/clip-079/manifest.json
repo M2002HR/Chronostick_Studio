@@ -1,0 +1,30 @@
+{
+  "number": 79,
+  "decision": "revise_prompt",
+  "reason": "2.0s invents new opposite viewpoint, large crowd, seated messenger and open paper.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-079.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-079-shot-r004.mp4",
+  "baseline_sha256": "6b4c085bc62b67fd7d0bda845b0119499b20ce131266556dac13ede49ad6bfb4",
+  "reviewed_at": "2026-10-03T19:03:51.174110+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8459903598766581441,
+  "previous_seed": 275728602848602590,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-079/prompts/clip-079.md",
+  "prompt_sha256": "0982cf85662632d9041bed34c300e62260241cb48f8941f320a6f1cf0ef6b79e",
+  "job": "006-shortest-war-ever:clip-079:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+      "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "d8684ed0-250a-4700-b3c2-e60c7d960fc7",
+  "job_ids": [
+    "b0f22d55-18ea-4b6c-922a-6c572ed1ecd0"
+  ],
+  "submitted_at": "2026-10-03T19:03:51.322971+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-079.jpg"
+}

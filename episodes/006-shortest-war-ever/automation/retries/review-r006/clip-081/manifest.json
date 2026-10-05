@@ -1,0 +1,30 @@
+{
+  "number": 81,
+  "decision": "revise_prompt",
+  "reason": "Continuous drift and dhow motion through final frame; no resolved hold.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-081.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-081-shot-r004.mp4",
+  "baseline_sha256": "1f13d6d5f42f04e7e535e6bae62becc2fea850416ff27b34c2bf9f36b4162edf",
+  "reviewed_at": "2026-10-03T19:03:52.458437+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 7734769441425546765,
+  "previous_seed": 2870174881527545206,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-081/prompts/clip-081.md",
+  "prompt_sha256": "bc4247268f6df9a54a7beb676fe2027905816eb996850ae00ce21f89d2dbe99a",
+  "job": "006-shortest-war-ever:clip-081:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+      "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "7239d810-734f-448f-9353-091ba335c9a8",
+  "job_ids": [
+    "0f570754-f795-4665-bdc4-209785b79269"
+  ],
+  "submitted_at": "2026-10-03T19:03:52.571592+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-081.jpg"
+}

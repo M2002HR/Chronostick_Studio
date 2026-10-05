@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"The animation shows stick figures appearing and moving on the deck of the foreground ship, which is not present in the reference image and not requested by the prompt. The prompt explicitly states 'Only the declared small foreground action changes' and 'A wide intact palace stands behind the anchored British arc across water. Complete and settle this single action by 2.10s. Camera locked; hold from 2.10s.' The appearance of figures is an unauthorized change.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"The animation shows stick figures moving and changing positions on the deck of the foreground ship, which is not present in the reference image and not requested by the prompt. The prompt explicitly states 'Show the already completed action's resulting state; only a tiny eyebrow, cloth or water adjustment already supported by the anchor is allowed.' The movement of figures is an unauthorized change.\",\n      \"severity\": \"major\"\n    },\n    {\n      \"start\": 0.0,\n      \"end\": 5.0,\n      \"issue\": \"The overall style of the stick figures (round off-white heads, dot eyes, thin limbs, bold dark contours) is present, but the figures themselves are an addition not in the reference image or explicitly requested by the prompt for this specific action.\",\n      \"severity\": \"minor\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"A distinct creaking sound, followed by silence.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.8,\n        \"end\": 1.0,\n        \"description\": \"Hull creak or water slap\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.3\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to match the prompt and shot plan by introducing stick figures on the foreground ship, which are not present in the reference image and constitute an unauthorized action. The prompt explicitly limits changes to 'only the declared small foreground action' and 'only a tiny eyebrow, cloth or water adjustment'. The appearance and movement of multiple figures are significant deviations. The audio, however, correctly features a single short diegetic sound followed by silence, as requested.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17541,
+    "candidatesTokenCount": 596,
+    "totalTokenCount": 18137,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1079
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "C0_BauHNHIfdxs0P7qHIoQk"
+}

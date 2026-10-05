@@ -1,0 +1,17 @@
+{
+  "number": 29,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-029-shot-r004.mp4",
+  "source_sha256": "34d195f760e06a78687a7045edca7a3c840ea323ab395121b8c9a4d8bafa9010",
+  "pcm_sha256": "b37a72382ebb7add3d128aa4c7dcb6e86ffc3ffa69ace897120393d43b3e0e17",
+  "peak_pcm16": 20233,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Acoustic string instrument, possibly a violin, plays a melodic, somewhat melancholic tune. No speech is present. The sound is continuous with no breaks.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

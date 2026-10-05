@@ -1,0 +1,67 @@
+{
+  "number": 37,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-037-shot-r004.mp4",
+  "source_sha256": "4bdeb445005da1ca0f245058bfb3f670e65735375c75844cdfad20ff0b3de3df",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid does not turn toward the throne; he turns toward the camera/viewer. The guard also moves and changes position relative to Khalid, which is not specified in the action.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The lighting does not appear cooler to indicate a memory; it remains consistent with the initial warm lighting.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The crop is not a tighter crop of the same visible turban, minimal face, and scroll. It is a tighter crop of Khalid's face, with the guard almost entirely out of frame, and the scroll is not a focus.",
+        "severity": "major"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The background guard leaves the crop entirely, which is allowed, but his established world position is not maintained as he is no longer visible.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Khalid's expression changes significantly, which goes beyond 'only a tiny eyebrow, cloth or water adjustment'. His eyes close and then open, and his mouth changes expression.",
+        "severity": "major"
+      }
+    ],
+    "audio": {
+      "heard": "A soft rustling sound, followed by silence, then a bird chirping.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 1.5,
+          "end": 1.7,
+          "description": "Soft cloth or parchment rustle"
+        },
+        {
+          "start": 3.6,
+          "end": 3.8,
+          "description": "Bird chirping"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to match the intended action and cropping instructions. Khalid turns towards the viewer instead of the throne, and the lighting change for the memory is not apparent. The second shot's crop is not as described, and Khalid's facial expression changes more than allowed. The audio includes an unexpected bird chirp in addition to the requested cloth/parchment sound."
+  }
+}

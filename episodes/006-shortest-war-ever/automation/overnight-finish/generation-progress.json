@@ -1,0 +1,118 @@
+{
+  "at": "2026-10-05T06:24:13.840710+00:00",
+  "batch_status": "succeeded",
+  "jobs": [
+    {
+      "id": "41df0f90-56fd-4ae2-a1b5-18ef2ba1c182",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-126:r009:input-repair-20step"
+    },
+    {
+      "id": "d259bc3e-cb32-4fa2-8f81-ca7ab97909bb",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-110:r009:input-repair-20step"
+    },
+    {
+      "id": "4ebe4d50-f70d-432d-80b3-53dc075dbf3e",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-105:r009:input-repair-20step"
+    },
+    {
+      "id": "9461efba-7bdb-4c07-a139-79e1012b0538",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-097:r009:input-repair-20step"
+    },
+    {
+      "id": "615346ba-923d-4d06-8baf-dd83194758f3",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-095:r009:input-repair-20step"
+    },
+    {
+      "id": "1c52d35f-8bb7-4980-a501-4678daf74425",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-094:r009:input-repair-20step"
+    },
+    {
+      "id": "c92c4079-09b1-403e-90fc-c581e8144a6b",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-093:r009:input-repair-20step"
+    },
+    {
+      "id": "7358a9cc-3b39-4cb3-96cc-85ca2c3f113b",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-073:r009:input-repair-20step"
+    },
+    {
+      "id": "8baadd2f-c164-48ef-b74d-40812352e1fa",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-058:r009:input-repair-20step"
+    },
+    {
+      "id": "62acbb4b-a934-461d-ba50-89fb4d7a2c49",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-035:r009:input-repair-20step"
+    },
+    {
+      "id": "6b043d4f-63d3-4420-959a-4e6b2cadbb27",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-019:r009:input-repair-20step"
+    },
+    {
+      "id": "a6948652-2484-4118-a038-590feaff6887",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-017:r009:input-repair-20step"
+    },
+    {
+      "id": "8c5c4f08-2f44-48c0-83f0-278cee4b5ccd",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-012:r009:input-repair-20step"
+    },
+    {
+      "id": "f10cbd45-a1ef-4dff-89bd-c912174b20d9",
+      "status": "succeeded",
+      "stage": "succeeded",
+      "progress_percent": 100.0,
+      "error": null,
+      "identity": "006-shortest-war-ever:clip-010:r009:input-repair-20step"
+    }
+  ]
+}

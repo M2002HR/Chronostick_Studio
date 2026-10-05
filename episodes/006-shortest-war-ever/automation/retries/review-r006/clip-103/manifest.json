@@ -1,0 +1,30 @@
+{
+  "number": 103,
+  "decision": "revise_prompt",
+  "reason": "3.5s closed scroll disappears from Khalid’s hand.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-103.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-103-shot-r004.mp4",
+  "baseline_sha256": "f0c3fddb50bfc38fc82c868af0dfa67764b3f621223d0200508db45fbcf7061e",
+  "reviewed_at": "2026-10-03T19:08:00.414711+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 6109411393095180505,
+  "previous_seed": 4640937351578895153,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-103/prompts/clip-103.md",
+  "prompt_sha256": "2d33776c68f9f019c63bd7549c378855d0eb86873ade678ed56e1a756741e620",
+  "job": "006-shortest-war-ever:clip-103:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/consulate-inside-r001.png",
+      "sha256": "e47494715cce50748434357f525eff8054093c8df0aa20534d935d594a5f6bb5"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "59feb606-0b40-4ceb-8b18-b149b5ae244b",
+  "job_ids": [
+    "131d28ae-c14a-485f-859b-0edee5a7fdef"
+  ],
+  "submitted_at": "2026-10-03T19:08:00.525574+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-103.jpg"
+}

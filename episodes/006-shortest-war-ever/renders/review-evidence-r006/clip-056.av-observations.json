@@ -1,0 +1,402 @@
+{
+  "number": 56,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-056-shot-r004.mp4",
+  "source_sha256": "c747dd6404e7c6f8ac391d9c106bb9de29e976d7aad3b67b3d9564d72473a5ad",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "issue": "Khalid's head and turban morph and shift slightly at the very beginning of the clip.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid's head and turban continue to subtly morph and shift throughout the first shot, not remaining perfectly still as implied by 'camera locked; hold from 2.10s'.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The guard's spear slightly morphs and shifts, particularly the spearhead, throughout the first shot.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The British ships and dhows in the harbor exhibit subtle, continuous morphing and slight shifts in position, rather than remaining at 'fixed positions' and 'intact'.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The water in the harbor shows continuous, subtle rippling and morphing, not remaining 'calm water' as implied by the prompt's 'hold settled'.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "The background elements, including the buildings, palm trees, and distant mountains, exhibit subtle morphing and slight shifts, not remaining 'identical from first to last frame'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Khalid's head and turban continue to subtly morph and shift throughout the second shot, not remaining perfectly still as implied by 'camera locked; hold from 4.35s'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The British ships and dhows in the harbor exhibit subtle, continuous morphing and slight shifts in position, rather than remaining at 'fixed positions' and 'intact'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The water in the harbor shows continuous, subtle rippling and morphing, not remaining 'calm water' as implied by the prompt's 'hold settled'.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The background elements, including the buildings, palm trees, and distant mountains, exhibit subtle morphing and slight shifts, not remaining 'identical from first to last frame'.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "A soft rustling sound is heard, followed by a brief, low-volume, sustained tonal bed that fades in and out, and then a short, high-pitched chime-like sound.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 0.08,
+          "end": 0.16,
+          "description": "Silence"
+        },
+        {
+          "start": 0.16,
+          "end": 0.24,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 0.24,
+          "end": 0.32,
+          "description": "Silence"
+        },
+        {
+          "start": 0.32,
+          "end": 0.4,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 0.4,
+          "end": 0.48,
+          "description": "Silence"
+        },
+        {
+          "start": 0.48,
+          "end": 0.56,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 0.56,
+          "end": 0.64,
+          "description": "Silence"
+        },
+        {
+          "start": 0.64,
+          "end": 0.72,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 0.72,
+          "end": 0.8,
+          "description": "Silence"
+        },
+        {
+          "start": 0.8,
+          "end": 0.88,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 0.88,
+          "end": 0.96,
+          "description": "Silence"
+        },
+        {
+          "start": 0.96,
+          "end": 1.04,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 1.04,
+          "end": 1.12,
+          "description": "Silence"
+        },
+        {
+          "start": 1.12,
+          "end": 1.2,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 1.2,
+          "end": 1.28,
+          "description": "Silence"
+        },
+        {
+          "start": 1.28,
+          "end": 1.36,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 1.36,
+          "end": 1.44,
+          "description": "Silence"
+        },
+        {
+          "start": 1.44,
+          "end": 1.52,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 1.52,
+          "end": 1.6,
+          "description": "Silence"
+        },
+        {
+          "start": 1.6,
+          "end": 1.68,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 1.68,
+          "end": 1.76,
+          "description": "Silence"
+        },
+        {
+          "start": 1.76,
+          "end": 1.84,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 1.84,
+          "end": 1.92,
+          "description": "Silence"
+        },
+        {
+          "start": 1.92,
+          "end": 2.0,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 2.0,
+          "end": 2.08,
+          "description": "Silence"
+        },
+        {
+          "start": 2.08,
+          "end": 2.16,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 2.16,
+          "end": 2.24,
+          "description": "Silence"
+        },
+        {
+          "start": 2.24,
+          "end": 2.32,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 2.32,
+          "end": 2.4,
+          "description": "Silence"
+        },
+        {
+          "start": 2.4,
+          "end": 2.48,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 2.48,
+          "end": 2.56,
+          "description": "Silence"
+        },
+        {
+          "start": 2.56,
+          "end": 2.64,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 2.64,
+          "end": 2.72,
+          "description": "Silence"
+        },
+        {
+          "start": 2.72,
+          "end": 2.8,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 2.8,
+          "end": 2.88,
+          "description": "Silence"
+        },
+        {
+          "start": 2.88,
+          "end": 2.96,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 2.96,
+          "end": 3.04,
+          "description": "Silence"
+        },
+        {
+          "start": 3.04,
+          "end": 3.12,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 3.12,
+          "end": 3.2,
+          "description": "Silence"
+        },
+        {
+          "start": 3.2,
+          "end": 3.28,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 3.28,
+          "end": 3.36,
+          "description": "Silence"
+        },
+        {
+          "start": 3.36,
+          "end": 3.44,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 3.44,
+          "end": 3.52,
+          "description": "Silence"
+        },
+        {
+          "start": 3.52,
+          "end": 3.6,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 3.6,
+          "end": 3.68,
+          "description": "Silence"
+        },
+        {
+          "start": 3.68,
+          "end": 3.76,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 3.76,
+          "end": 3.84,
+          "description": "Silence"
+        },
+        {
+          "start": 3.84,
+          "end": 3.92,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 3.92,
+          "end": 4.0,
+          "description": "Silence"
+        },
+        {
+          "start": 4.0,
+          "end": 4.08,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 4.08,
+          "end": 4.16,
+          "description": "Silence"
+        },
+        {
+          "start": 4.16,
+          "end": 4.24,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 4.24,
+          "end": 4.32,
+          "description": "Silence"
+        },
+        {
+          "start": 4.32,
+          "end": 4.4,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 4.4,
+          "end": 4.48,
+          "description": "Silence"
+        },
+        {
+          "start": 4.48,
+          "end": 4.56,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 4.56,
+          "end": 4.64,
+          "description": "Silence"
+        },
+        {
+          "start": 4.64,
+          "end": 4.72,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 4.72,
+          "end": 4.8,
+          "description": "Silence"
+        },
+        {
+          "start": 4.8,
+          "end": 4.88,
+          "description": "Soft rustling sound"
+        },
+        {
+          "start": 4.88,
+          "end": 4.96,
+          "description": "Silence"
+        },
+        {
+          "start": 4.96,
+          "end": 5.0,
+          "description": "Soft rustling sound"
+        }
+      ],
+      "confidence": "low"
+    },
+    "action_matches": true,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation successfully depicts Khalid watching the British ships from the balcony, with a hard cut to a tighter crop as requested. However, there are numerous minor visual defects where elements that should remain static, such as Khalid's head, the guard's spear, the ships, water, and background, exhibit subtle morphing and shifting throughout both segments. The audio contains repeated soft rustling sounds, which aligns with 'one soft cloth or parchment movement', but also includes a low-volume, sustained tonal bed that fades in and out, and a chime-like sound, which violates the 'no sustained ambience or tonal bed' and 'brief isolated natural diegetic effects with silence' requirements."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "engine": "framewise-spandrel-batched",
+  "model": {
+    "path": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+    "scale": 4
+  },
+  "input": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r001.mp4",
+  "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-anime6b-1920x1080-r001.mp4",
+  "source": {
+    "width": 1024,
+    "height": 576,
+    "fps": 24.0,
+    "frames": 26,
+    "duration": 1.083333,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 692533
+  },
+  "final": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 26,
+    "duration": 1.083333,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 1898576
+  },
+  "settings": {
+    "input": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-source-r001.mp4",
+    "output": "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/automation/overnight-finish/pilot-anime6b-1920x1080-r001.mp4",
+    "model": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "width": 1920,
+    "height": 1080,
+    "fit": "cover",
+    "tile": 256,
+    "overlap": 32,
+    "batch_size": 8,
+    "precision": "fp16",
+    "blend": 1.0,
+    "crf": 16,
+    "preset": "medium",
+    "progress_every": 12,
+    "overwrite": false
+  },
+  "batching": {
+    "effective_batch_size": 8,
+    "largest_successful_batch": 8,
+    "fallbacks": []
+  },
+  "started_at": "2026-10-04T20:39:58.709004+00:00",
+  "completed_at": "2026-10-04T20:40:34.638531+00:00",
+  "elapsed_seconds": 35.93,
+  "processing_fps": 0.724,
+  "resources": {
+    "sample_count": 4,
+    "gpu_memory_used_mib_peak": 10170.0,
+    "gpu_utilization_percent_average": 100.0,
+    "gpu_power_w_peak": 137.38,
+    "gpu_temperature_c_peak": 64.0
+  }
+}

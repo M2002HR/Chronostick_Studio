@@ -1,0 +1,30 @@
+{
+  "number": 67,
+  "decision": "revise_prompt",
+  "reason": "Dhow crosses harbour and grows continuously through final frame.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-067.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-067-shot-r004.mp4",
+  "baseline_sha256": "b160ac23dbdb635b300701755721d14109cfb74d80100e6e53be1bba9237b0ce",
+  "reviewed_at": "2026-10-03T19:03:47.514957+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 4563670679901105828,
+  "previous_seed": 8119846735394546,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-067/prompts/clip-067.md",
+  "prompt_sha256": "2e9f9035993445497210632c580879907e9e5facf7e0fa18d6763bb719bfa7db",
+  "job": "006-shortest-war-ever:clip-067:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-messenger-quay-r001.png",
+      "sha256": "91246169b267a43fba2c127fc69fe165efd72b45868bf9b81ee264897a11c8a7"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "db7f338b-e6af-4aa6-ab24-d62d6b5d0ece",
+  "job_ids": [
+    "be665c26-7e72-4eb6-9676-afb8ebbb1158"
+  ],
+  "submitted_at": "2026-10-03T19:03:47.622391+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-067.jpg"
+}

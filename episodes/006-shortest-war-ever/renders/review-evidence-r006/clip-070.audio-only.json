@@ -1,0 +1,17 @@
+{
+  "number": 70,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-070-shot-r004.mp4",
+  "source_sha256": "8a00699efb0349fa4c39b0b5cba426f8fd5e4ff5036f34ca9eaf786911d2903e",
+  "pcm_sha256": "2680ad27cc5800ea1cbaa1e919022d542d2e3e342ffa3fe83a47eacc7e1a86b2",
+  "peak_pcm16": 29946,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thump' sound is heard, followed by a sustained, low-frequency hum or rumble. There are no discernible speech elements.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "number": 55,
+  "decision": "revise_prompt",
+  "reason": "4.0s premature flame across harbour.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-055.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-055-shot-r005.mp4",
+  "baseline_sha256": "bce1662acf5437efb5424cb6375dae1658e38dad404e609f2611e8a05600f133",
+  "reviewed_at": "2026-10-03T19:02:03.260538+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 8490054227371029956,
+  "previous_seed": 5823422493696417926,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-055/prompts/clip-055.md",
+  "prompt_sha256": "015c719ebb83713b0a3040500b7ad91451629408744890da58c398a4a210190c",
+  "job": "006-shortest-war-ever:clip-055:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "sha256": "615d94c08816dbc5311df324631d386bb2696ef910c1313b95da6c5ac0971ba8"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "fe39b109-0be7-42ae-9855-13329a53d187",
+  "job_ids": [
+    "739b380f-97a2-4f9c-a7af-ece99eaff0d3"
+  ],
+  "submitted_at": "2026-10-03T19:02:03.403569+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-055.jpg"
+}

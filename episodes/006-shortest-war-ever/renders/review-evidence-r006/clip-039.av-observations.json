@@ -1,0 +1,104 @@
+{
+  "number": 39,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-039-shot-r004.mp4",
+  "source_sha256": "fc8b9b76a4415a0cdad37f9de6fb824d8e5d36066277fe0c117a48645f1af6fe",
+  "reviewer": "automated Gemini audiovisual observations; pending Codex review",
+  "model": "gemini-2.5-flash",
+  "observations": {
+    "visual_observations": [
+      {
+        "start": 0.0,
+        "end": 0.08,
+        "issue": "Khalid's head and turban briefly morph and shift in size and shape at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.08,
+        "issue": "Khalid's right hand (holding the scroll) briefly morphs and changes shape at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.08,
+        "issue": "The scroll in Khalid's hand briefly morphs and changes shape at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.08,
+        "issue": "The guard in the background briefly morphs and shifts in size and shape at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.08,
+        "issue": "The throne briefly morphs and shifts in size and shape at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 0.08,
+        "issue": "The background architecture and scenery briefly morph and shift at the very beginning of the animation.",
+        "severity": "minor"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid does not lower the scroll as specified in the action plan. The scroll remains in the same position throughout the first segment.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid does not take one restrained step back from the throne as specified in the action plan. He remains stationary.",
+        "severity": "major"
+      },
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "issue": "Khalid's expression changes from angry to neutral/slightly sad, which is not explicitly forbidden but also not part of the 'restrained step back' action.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The tighter crop at 2.30s shows Khalid's head and turban, but the prompt specified 'minimal face and scroll'. The crop includes his entire head and a significant portion of his upper body, which is not a 'minimal face and scroll' crop.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "The guard in the background is still visible in the tighter crop, despite the prompt stating 'the one background guard may leave the crop'. While 'may leave' implies it's not a defect if he stays, the crop is not as tight as implied by 'minimal face and scroll' and the possibility of the guard leaving.",
+        "severity": "minor"
+      },
+      {
+        "start": 2.3,
+        "end": 5.0,
+        "issue": "Khalid's eyebrows slightly move and change shape between 2.30s and 4.35s, which is a 'tiny eyebrow adjustment' but the overall expression remains static, not showing any 'already completed action's resulting state' as the action itself was not performed.",
+        "severity": "minor"
+      }
+    ],
+    "audio": {
+      "heard": "One soft cloth or parchment movement.",
+      "music": false,
+      "speech": false,
+      "tonal_bed": false,
+      "events": [
+        {
+          "start": 0.95,
+          "end": 1.05,
+          "description": "soft cloth or parchment movement"
+        }
+      ],
+      "confidence": "high"
+    },
+    "action_matches": false,
+    "cut_times": [
+      2.3
+    ],
+    "final_resolved": false,
+    "exact_text_seen": [],
+    "summary": "The animation fails to execute the primary actions of Khalid lowering the scroll and taking a step back. There are minor morphing issues at the very beginning of the first segment. The second segment's crop is not as tight as described, and the guard remains visible. The audio correctly features a single soft cloth/parchment sound followed by silence."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "number": 41,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-041-shot-r004.mp4",
+  "source_sha256": "c57f5af211d46f178a04b2b782e19a9426c5cdee15beebcea12f915f688fe242",
+  "pcm_sha256": "18d2d70908c610a8f08cb7f04c1e52a53e37a3b945f2973544181728589e8074",
+  "peak_pcm16": 11309,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thunk' sound is followed by a brief silence, then a gentle, sustained piano melody begins, accompanied by a subtle, continuous ambient hum.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

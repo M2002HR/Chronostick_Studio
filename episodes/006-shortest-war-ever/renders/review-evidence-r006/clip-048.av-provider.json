@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"visual_observations\": [\n    {\n      \"start\": 0.0,\n      \"end\": 2.3,\n      \"issue\": \"Khalid's expression changes from angry to neutral and back to angry, and his head bobs slightly, which is not a settled action.\",\n      \"severity\": \"minor\"\n    },\n    {\n      \"start\": 2.3,\n      \"end\": 5.0,\n      \"issue\": \"Khalid's expression changes from angry to neutral and back to angry, and his head bobs slightly, which is not a settled action.\",\n      \"severity\": \"minor\"\n    }\n  ],\n  \"audio\": {\n    \"heard\": \"A soft cloth or parchment movement is heard at 0.01s, followed by silence. Another soft cloth or parchment movement is heard at 0.02s, followed by silence. A soft cloth or parchment movement is heard at 0.03s, followed by silence. A soft cloth or parchment movement is heard at 0.04s, followed by silence.\",\n    \"music\": false,\n    \"speech\": false,\n    \"tonal_bed\": false,\n    \"events\": [\n      {\n        \"start\": 0.01,\n        \"end\": 0.01,\n        \"description\": \"soft cloth or parchment movement\"\n      },\n      {\n        \"start\": 0.02,\n        \"end\": 0.02,\n        \"description\": \"soft cloth or parchment movement\"\n      },\n      {\n        \"start\": 0.03,\n        \"end\": 0.03,\n        \"description\": \"soft cloth or parchment movement\"\n      },\n      {\n        \"start\": 0.04,\n        \"end\": 0.04,\n        \"description\": \"soft cloth or parchment movement\"\n      }\n    ],\n    \"confidence\": \"high\"\n  },\n  \"action_matches\": false,\n  \"cut_times\": [\n    2.3\n  ],\n  \"final_resolved\": false,\n  \"exact_text_seen\": [],\n  \"summary\": \"The animation fails to maintain a settled action for Khalid in both segments, as his expression and head position subtly change. The audio correctly features brief, isolated cloth/parchment sounds with silence in between, adhering to the prompt's requirements.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 17615,
+    "candidatesTokenCount": 547,
+    "totalTokenCount": 18162,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1153
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 16043
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 161
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "5U_BauLFB_GmkdUPtpv82Ac"
+}

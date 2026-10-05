@@ -1,0 +1,17 @@
+{
+  "number": 42,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-042-shot-r004.mp4",
+  "source_sha256": "a53573e294d6c8c64c0dfaa98dec010e384b36fdc34f69cec744a20795f075f7",
+  "pcm_sha256": "82d78004f49460da892ed313429d7fdbba465643b04d46198485650fa201b5a7",
+  "peak_pcm16": 14459,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by a rustling or crinkling noise. There's also a subtle, continuous ambient hum throughout the clip.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

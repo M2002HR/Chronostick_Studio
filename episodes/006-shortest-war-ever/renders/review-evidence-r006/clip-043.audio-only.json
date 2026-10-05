@@ -1,0 +1,17 @@
+{
+  "number": 43,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-043-shot-r004.mp4",
+  "source_sha256": "8f0bc3696cfd5a54a2cb1d91eabd8f045c42e14ff3a38aa72be1edf6c244150a",
+  "pcm_sha256": "e6558f1632720e4a9515bc533c0adce97ab1083410a5d9c3935c52eb64ee736f",
+  "peak_pcm16": 29838,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'thwack' sound, followed by what sounds like a person speaking, then a 'thump' and a 'clatter'.",
+    "speech": true,
+    "exact_words": "bad perina love and sadie now",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

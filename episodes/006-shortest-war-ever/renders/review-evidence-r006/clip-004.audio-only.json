@@ -1,0 +1,17 @@
+{
+  "number": 4,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r005.mp4",
+  "source_sha256": "213bf7a554a292e329ca8a4298a241e4eafc624eaa37b3c089ade7fd30456d55",
+  "pcm_sha256": "a7053384b593c4d80549cf9f307ed4c21f0f02c2fb73682dacf64f620cce0875",
+  "peak_pcm16": 7748,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short musical flourish with a distinct tonal bed, followed by continuous ambience that sounds like a crowd or general background noise. No speech is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

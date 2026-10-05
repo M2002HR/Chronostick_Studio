@@ -1,0 +1,17 @@
+{
+  "number": 3,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-003-shot-r004.mp4",
+  "source_sha256": "90d546d7e9fefb45b7e9e2381206080394c58bb03e7042287ca22f1ddcbe6984",
+  "pcm_sha256": "fab762dff0120dd93a04a343f13a5df410dcbc5cd9bd08f97f35dc0214f12514",
+  "peak_pcm16": 11005,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A person speaks, followed by the distinct sound of a toilet flushing. No music or tonal bed is present. There is continuous ambient noise throughout the clip.",
+    "speech": true,
+    "exact_words": "I'm out with Albet.",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

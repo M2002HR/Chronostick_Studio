@@ -1,0 +1,30 @@
+{
+  "number": 24,
+  "decision": "revise_prompt",
+  "reason": "Close-up changes hands to dark realistic glove silhouettes and starts lifting/pulling rope during final hold, violating fixed crate/rope state.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-024.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-024-shot-r004.mp4",
+  "baseline_sha256": "deccdfc56f139d6b6e7aa3ce8d0a4fd86af8a80b03197e5f449380ec69ccd5da",
+  "reviewed_at": "2026-10-03T18:49:29.807869+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 4747211802091062864,
+  "previous_seed": 6947832624374059676,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-024/prompts/clip-024.md",
+  "prompt_sha256": "f9c2a8715bc5b4e629e69a45174162bc9075695726f159f731dfa338f1b4653c",
+  "job": "006-shortest-war-ever:clip-024:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/dhow-trade-cargo-r001.png",
+      "sha256": "464e802a95e19c2978d3119dd0cb7074ff89100e5efb5713d11b6de5214ea238"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "b7d9e0cd-a894-4124-92af-97f43f2f3dfe",
+  "job_ids": [
+    "2eb0498a-a31b-42f4-a183-09c3c6085baa"
+  ],
+  "submitted_at": "2026-10-03T18:49:29.958676+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-024.jpg f30–119"
+}

@@ -1,0 +1,17 @@
+{
+  "number": 99,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-099-shot-r005.mp4",
+  "source_sha256": "8367a2904ca3a2861dba9d880b2ecf53583db8f8549bd2e86b81c57f2641b5d9",
+  "pcm_sha256": "92f7c52da525960821686d1cfb731c650c25928ef870bed2627a4a737d98cf2e",
+  "peak_pcm16": 4829,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A sustained, low-pitched string instrument plays a melody. There is a continuous ambient hum throughout the audio.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

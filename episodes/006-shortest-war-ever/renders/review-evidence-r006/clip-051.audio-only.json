@@ -1,0 +1,17 @@
+{
+  "number": 51,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-051-shot-r004.mp4",
+  "source_sha256": "8da7c55af8f95ba30b5f0b3d48e58c412b8ef737e2e6e5b35a801506a516932b",
+  "pcm_sha256": "89b1d3bd6a6342dbe38c554c37a2572d69fc4d3da70c3a4d65364be04cb297ef",
+  "peak_pcm16": 6978,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A vehicle is heard starting and driving away. There's a distinct engine sound, followed by the vehicle moving on a surface. No speech or music is present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "number": 115,
+  "decision": "revise_prompt",
+  "reason": "Frame zero adds crowd; smoke floods empty clock room.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-115.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-115-shot-r004.mp4",
+  "baseline_sha256": "a0ea54d2ee2f3a930f5bd14f1f99e64419c14684172764cb0b099e8ee88809e3",
+  "reviewed_at": "2026-10-03T19:12:15.986277+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 3701507727170971319,
+  "previous_seed": 2598242581432866038,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-115/prompts/clip-115.md",
+  "prompt_sha256": "cda88ea9db381d023f015bdbba217f2ac4937441d324d8fc4aa630c6a3b29978",
+  "job": "006-shortest-war-ever:clip-115:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/clock-aftermath-blank-r002.png",
+      "sha256": "d21d98ba51f67a4cc27bb403f7683c9e44bce754edbf97d79447bdf38c6c9d3f"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "e367a29b-32dd-4636-8677-6bc196854a18",
+  "job_ids": [
+    "00c541ab-f799-48c8-960e-15442476b111"
+  ],
+  "submitted_at": "2026-10-03T19:12:16.385605+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-115.jpg"
+}

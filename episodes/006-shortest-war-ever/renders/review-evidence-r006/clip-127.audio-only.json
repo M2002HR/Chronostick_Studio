@@ -1,0 +1,17 @@
+{
+  "number": 127,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-127-shot-r005.mp4",
+  "source_sha256": "ba7d128c93e25b9f4b78aa9079c037cfb6fde33da58bc2c46b280140e8b745a0",
+  "pcm_sha256": "d8a938d4c6b15857eebd9a42bf50b5a43bcb8a21d55805a9df84dfcf2a70f89f",
+  "peak_pcm16": 3162,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A low, sustained hum or drone is present throughout the audio. It sounds like a continuous, ambient tone.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

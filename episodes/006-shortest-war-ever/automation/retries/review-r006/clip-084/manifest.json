@@ -1,0 +1,30 @@
+{
+  "number": 84,
+  "decision": "revise_prompt",
+  "reason": "2.375s duplicate foreground pair appears while original pair remains behind.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-084.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-084-shot-r004.mp4",
+  "baseline_sha256": "4109d63d013add8953df6cdd0bf433c2907f8bcbcb5ced1519dd7c1b5c7f03cd",
+  "reviewed_at": "2026-10-03T19:05:10.028849+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 267671421905681142,
+  "previous_seed": 3089850237342043339,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-084/prompts/clip-084.md",
+  "prompt_sha256": "4c4ec509b7dad695654c45c563f99d157a1517aa38b2259b2230cf96e486c051",
+  "job": "006-shortest-war-ever:clip-084:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+      "sha256": "478cff3ee2f1725ad96d99657de741b0d928f4d0717cd74eeb2208109840c7fd"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "d9318963-0c99-4093-be11-d29fc0b716e1",
+  "job_ids": [
+    "4ed96f34-47ee-46cf-a7a9-4171eb3afdb7"
+  ],
+  "submitted_at": "2026-10-03T19:05:10.191129+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-084.jpg"
+}

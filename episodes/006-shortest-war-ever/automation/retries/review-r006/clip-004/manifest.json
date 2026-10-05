@@ -1,0 +1,30 @@
+{
+  "number": 4,
+  "decision": "revise_prompt",
+  "reason": "Whole clip performs continuous camera drift instead of the planned two locked shots; transient unmotivated pale haze and drifting dhow change the peaceful fixed harbour state; camera never resolves.",
+  "evidence": "episodes/006-shortest-war-ever/renders/review-evidence-r006/clip-004.jpg",
+  "baseline": "episodes/006-shortest-war-ever/renders/editorial/clip-004-shot-r005.mp4",
+  "baseline_sha256": "213bf7a554a292e329ca8a4298a241e4eafc624eaa37b3c089ade7fd30456d55",
+  "reviewed_at": "2026-10-03T18:43:52.891570+00:00",
+  "reviewer": "Codex visual review; automated audio evidence tracked separately",
+  "seed": 3147562331209331462,
+  "previous_seed": 8964999804697628810,
+  "revision": 6,
+  "prompt": "episodes/006-shortest-war-ever/automation/retries/review-r006/clip-004/prompts/clip-004.md",
+  "prompt_sha256": "ff1ddd5b5ae74e614e26d4fef5cb55edbbe8c9d53d8903a7ebe46009a5cc92ef",
+  "job": "006-shortest-war-ever:clip-004:r006",
+  "references": [
+    {
+      "path": "assets/episodes/006-shortest-war-ever/references/harbour-intact-r001.png",
+      "sha256": "75e8c9081d0c305ee4f337258e7bb2e7c85ce4cf7368ba2a8bdf175efc1c0ca4"
+    }
+  ],
+  "status": "queued",
+  "authorization": "User explicitly requested reviewing all latest clips, fixing failed prompts and regenerating incrementally while review continues.",
+  "batch_id": "969e8688-a56e-4b9a-a167-565fdd74808c",
+  "job_ids": [
+    "d586c916-7027-48a3-9eec-4636f5e06c18"
+  ],
+  "submitted_at": "2026-10-03T18:43:53.051651+00:00",
+  "evidence_label": "renders/review-evidence-r006/clip-004.jpg f6–119"
+}

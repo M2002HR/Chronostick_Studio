@@ -1,0 +1,17 @@
+{
+  "number": 44,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-044-shot-r004.mp4",
+  "source_sha256": "61923c120ef1b3b0afedaffa9249d4b46739601ee323ddaf734007ec431e198f",
+  "pcm_sha256": "b49f1a3bd84ac55aec7f921bb4f06be1158aaeef9574d337118cbdce49b4e91c",
+  "peak_pcm16": 5984,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Footsteps on a hard surface, possibly wood or tile. The footsteps are distinct and rhythmic. No other sounds are present.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": false,
+    "confidence": "high"
+  }
+}

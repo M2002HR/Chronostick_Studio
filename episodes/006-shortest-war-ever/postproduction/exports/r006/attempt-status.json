@@ -1,0 +1,5 @@
+{
+  "status": "superseded_during_render",
+  "reason": "Actual-frame QC found a 40ms word falling between two 24fps frames. Caption display boundaries now snap to the nearest picture frame, preserving source times separately. Same final 64px/single-line/80%-width/88px-inset style. r007 is the replacement.",
+  "approval": null
+}

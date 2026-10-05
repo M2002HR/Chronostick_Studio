@@ -1,0 +1,17 @@
+{
+  "number": 34,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-034-shot-r004.mp4",
+  "source_sha256": "535fbec75689b6fdf7210168c605875834b8f19fcf8d2fd05b8cb8e8a75c6173",
+  "pcm_sha256": "26b3da0b6fdcf39a1846a69617fe21dabd84db4057a5204929a440a1257e79fa",
+  "peak_pcm16": 10584,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A short, high-pitched musical phrase with a distinct, plucked string sound, followed by a sustained, ambient tone.",
+    "speech": false,
+    "exact_words": "",
+    "music": true,
+    "tonal_bed": true,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "reviewed_at": "2026-10-04T20:11:31.362564+00:00",
+  "scope": "Targeted input diagnosis of the frozen r006/r008 experiment; not a fresh full approval of all40 clips. Actual full-resolution references, frozen prompts and existing paired output frames were inspected.",
+  "causal_limit": "An input contradiction can be established by inspection. Its contribution to a generation failure cannot be quantified without controlled input ablation. Step-only comparisons cannot isolate reference versus prompt causes.",
+  "cases": [
+    {
+      "number": 10,
+      "category": "confirmed_reference_prompt_conflict",
+      "finding": "Reference visibly includes deck crew and a large foreground vessel; prompt requires exactly five distant ships with zero visible crew. The unsupported person sinking in foreground water is still a real output deviation.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/fleet-prebattle-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-010.md",
+      "final_approval": false
+    },
+    {
+      "number": 12,
+      "category": "unsupported_framing_or_viewpoint_inference",
+      "finding": "Reference covers the original over-shoulder view. Requested closer framing is described without a separate crop anchor. Opposite-side view and new close ship exceed a literal crop of the source. Reference is useful for the original view; it does not validate an invented reverse angle.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-012.md",
+      "final_approval": false
+    },
+    {
+      "number": 17,
+      "category": "clear_output_deviation_with_adequate_inventory_reference",
+      "finding": "Reference clearly contains two closed sealed cream rolls and two officers. Output opening/adding rolls departs from that concrete inventory. This does not establish whether model dynamics or prompt wording causes the deviation.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-017.md",
+      "final_approval": false
+    },
+    {
+      "number": 19,
+      "category": "prompt_conditioning_ambiguity",
+      "finding": "Reference is genuinely an empty throne room. Prompt simultaneously requires no people and describes heads, eyes, limbs, hands and period clothing. Added crowd is absent from reference; contribution of the human vocabulary requires an ablation to prove.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-019.md",
+      "final_approval": false
+    },
+    {
+      "number": 35,
+      "category": "prompt_conditioning_ambiguity",
+      "finding": "Empty-room reference is adequate for the inventory. Generic human anatomy/costume vocabulary is unnecessary conditioning. Added crowd is a real output deviation, with an avoidable prompt ambiguity.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/empty-throne-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-035.md",
+      "final_approval": false
+    },
+    {
+      "number": 58,
+      "category": "clear_output_deviation_and_framing_control_gap",
+      "finding": "Reference uses simple mitten hands and the original over-shoulder composition. Detailed fingered hands and an initial unsupported close composition are real deviations. Prompt-only literal-first-frame wording does not constitute an actual supplied I2V first-frame control.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/rawson-bridge-over-shoulder-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-058.md",
+      "final_approval": false
+    },
+    {
+      "number": 73,
+      "category": "clear_output_deviation_with_adequate_inventory_reference",
+      "finding": "Reference shows two foreground sailors, matching the prompt. A third foreground gunner is a genuine addition.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/british-gun-deck-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-073.md",
+      "final_approval": false
+    },
+    {
+      "number": 93,
+      "category": "clear_output_deviation_and_prompt_conditioning_ambiguity",
+      "finding": "Reference has no foreground crowd in water. Output invents one. Prompt nevertheless contains human anatomy styling and repeated crew/drowning/falling-people concepts in prohibitions. Their causal role is plausible but untested.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/glasgow-sinking-start-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-093.md",
+      "final_approval": false
+    },
+    {
+      "number": 94,
+      "category": "clear_output_deviation_with_adequate_state_reference",
+      "finding": "Reference is blue-sky daylight and prompt requests a fixed anchor view with only one ripple. Both outputs turn orange/dusk. Source image does not require that change.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/glasgow-sunken-close-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-094.md",
+      "final_approval": false
+    },
+    {
+      "number": 95,
+      "category": "confirmed_reference_prompt_conflict_and_review_correction",
+      "finding": "Full-resolution reference shows two bent-forward retreating defenders with lifted/stepping legs, not an unambiguous stationary crouch. Prompt itself calls them retreating and also requires original crouching poses. Withdraw the earlier reference-mismatch diagnosis based solely on standing/running pose. Motion, transition and inventory still require their own checks; this is not approval.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/palace-battle-arcade-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-095.md",
+      "final_approval": false
+    },
+    {
+      "number": 97,
+      "category": "confirmed_reference_prompt_conflict_and_review_correction",
+      "finding": "Full-resolution reference likewise shows two retreating bent-forward defenders. Prompt describes retreating defenders and original crouching poses simultaneously. Earlier crouch-based failure attribution is disputed. Existing battle flashes also make a residual-smoke-only interpretation ambiguous; not final approval.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/palace-battle-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-097.md",
+      "final_approval": false
+    },
+    {
+      "number": 105,
+      "category": "clear_output_deviation_and_framing_control_gap",
+      "finding": "Reference is full landscape without black side panels. Both outputs introduce pillarboxing, a real composition deviation. Tight lower-wall opening and reveal are specified in words but no explicit start-crop frame is supplied; missing framing control is a plausible contributor, not proved cause.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/palace-surrender-cloth-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-105.md",
+      "final_approval": false
+    },
+    {
+      "number": 110,
+      "category": "confirmed_reference_prompt_scale_conflict",
+      "finding": "Reference has two foreground civilians of substantial visible size; prompt calls those original people small and distant while retaining the original composition. Output nevertheless adds separate foreground civilians absent from the reference, a real count deviation.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/aftermath-quay-detail-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-110.md",
+      "final_approval": false
+    },
+    {
+      "number": 126,
+      "category": "clear_output_deviation_with_adequate_inventory_reference",
+      "finding": "Reference shows two closed rolls; 20-step output close shot contains roughly four. The requested count is consistent with the source image. Close-shot adherence remains a generation/control problem, not a reference count defect.",
+      "reference": "assets/episodes/006-shortest-war-ever/references/diplomatic-dispatches-r001.png",
+      "frozen_prompt": "episodes/006-shortest-war-ever/automation/batches/r006-same-seed-20step-r008/prompts/clip-126.md",
+      "final_approval": false
+    }
+  ]
+}

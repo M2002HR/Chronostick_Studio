@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-05T10:19:49.161479+00:00",
+  "argv": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-i",
+    "/home/mhr/Code/chronostick-studio/episodes/006-shortest-war-ever/final/episode-006-shortest-war-ever-es-1920x1080-r001.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "0:a:0",
+    "-f",
+    "null",
+    "-"
+  ]
+}

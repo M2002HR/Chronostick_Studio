@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "method": "PCM waveform identity and cross-correlation against the accepted source audio; not inferred speech transcription",
+  "source_voice": "audio/narration-es-google-vids-r001.mp4",
+  "source_voice_sha256": "dc63ffc1080a705bfaa3d4df8b9ccbdd8b1601b889411f1f641e622bc8400e50",
+  "target_voice": "audio/narration-es-google-vids-r002.mp4",
+  "target_voice_sha256": "777b6cb5d9c6a6e2cc0063eb9848c559a97cb46127e61d4eafea9f4b0a83174a",
+  "original_target_path": "historia_06_old.mp4",
+  "duration_seconds": 651.389388,
+  "first_pcm_difference_seconds_at_8khz": 547.211125,
+  "identical_pcm_prefix_seconds": 547.211125,
+  "sample_rate_for_precise_alignment": 44100,
+  "measured_lag_samples": 1600,
+  "aligned_waveform_correlation_at_550_seconds": 0.9997903979367003,
+  "windows_measured_seconds": [
+    0,
+    300,
+    480,
+    500,
+    510,
+    520,
+    530,
+    540,
+    550,
+    560,
+    570,
+    580,
+    590,
+    600,
+    610,
+    620,
+    630,
+    640
+  ],
+  "unaltered_prefix_zero_lag_correlations": 1.0,
+  "post_seam_8khz_alignment_seconds": 0.03625,
+  "adjustments": [
+    {
+      "first_word_index": 1495,
+      "offset_seconds": 0.036281179138321996
+    }
+  ],
+  "qualification": "Same narration/export; a roughly 36ms export seam shift starts in paragraph16. Shift that paragraph and the remaining timestamps only in a derived caption map; source CSV and shot timing stay immutable. Residual measured alignment is below one 24fps frame. No new estimated word times."
+}

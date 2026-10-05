@@ -1,0 +1,17 @@
+{
+  "number": 17,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-017-shot-r005.mp4",
+  "source_sha256": "fbfb170d2e1edd147afd5df923b05f6a8aed3b48bf9377b13e2d90a4d2b5bb8b",
+  "pcm_sha256": "da1ddeaf7ef84ca17e553c14976c0b5fc7025ee06f5e9af2b6484ba27b102237",
+  "peak_pcm16": 18514,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "A distinct 'clunk' sound is heard, followed by a continuous, low-frequency hum or rumble. There are no other discernible sounds.",
+    "speech": false,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "high"
+  }
+}

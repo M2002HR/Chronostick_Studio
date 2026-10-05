@@ -1,0 +1,45 @@
+{
+  "completed_at": "2026-10-05T10:20:06.663399+00:00",
+  "status": "completed",
+  "slot_count": 131,
+  "frames": 15720,
+  "duration_seconds": 655,
+  "generation_batch_id": "9dadbae8-8ce0-4ec7-b3ea-37b0a4cf9164",
+  "generation_failures": [],
+  "outputs": {
+    "picture": {
+      "path": "episodes/006-shortest-war-ever/final/picture-sfx-1024x576-r001.mp4",
+      "sha256": "9db16db0096e4432953eca5137d1f413d9a54bbe52adf71713aea4ac6fa33569"
+    },
+    "upscaled": {
+      "path": "episodes/006-shortest-war-ever/final/picture-sfx-1920x1080-r001.mp4",
+      "sha256": "2b7cef0a5f97b73d0a00bc18e44ca4ff4c50eb80469e74b68a15e34a6e58a838"
+    },
+    "distribution": {
+      "path": "episodes/006-shortest-war-ever/final/episode-006-shortest-war-ever-es-1920x1080-r001.mp4",
+      "sha256": "33fe87f015c897646a1456a04deaf4340fa23b40e3f8f79e4dde7d8859475923"
+    }
+  },
+  "upscaled_probe": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 15720,
+    "duration": 655.0,
+    "has_audio": true,
+    "audio_sample_rate": "48000"
+  },
+  "distribution_probe": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 15720,
+    "duration": 655.0,
+    "has_audio": true,
+    "audio_sample_rate": "48000"
+  },
+  "technical_qc": "Numbering,120frames per slot,24fps,dimensions,audio stream,655second picture timeline and full final decode verified.",
+  "creative_qc": "User-directed latest-revision assembly. Generated replacements and other latest clips are not silently creatively approved.",
+  "native_audio_policy": "Preserve native audio in picture/SFX master. Distribution uses accepted Spanish narration only; unreviewed generated native audio is muted to avoid the previously observed generated-speech/music contamination.",
+  "approval": null
+}

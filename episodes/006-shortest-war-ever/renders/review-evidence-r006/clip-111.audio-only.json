@@ -1,0 +1,17 @@
+{
+  "number": 111,
+  "source": "episodes/006-shortest-war-ever/renders/editorial/clip-111-shot-r004.mp4",
+  "source_sha256": "511427981af49b8a8044f94de32f17ecac74e3277becc3cba61a582169c81fb9",
+  "pcm_sha256": "f0133a2e39718e1d0e4e0b6be17cb9dafbeb8da510de711bfe2ff9fae9e752c1",
+  "peak_pcm16": 15833,
+  "status": "observations_pending_review",
+  "observations": {
+    "heard": "Speech in an unknown language, possibly French, with a distinct 'r' sound. No music or tonal bed. Continuous ambience is present, but not clearly identifiable.",
+    "speech": true,
+    "exact_words": "",
+    "music": false,
+    "tonal_bed": false,
+    "continuous_ambience": true,
+    "confidence": "medium"
+  }
+}
