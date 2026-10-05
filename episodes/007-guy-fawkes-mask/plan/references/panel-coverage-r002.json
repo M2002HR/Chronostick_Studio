@@ -1,0 +1,13 @@
+{
+  "reference_id": "arrest-sleeve-grip",
+  "storyboard_panel_ids": [
+    "S26"
+  ],
+  "source_analysis_ids": [
+    "A08"
+  ],
+  "actual_review": "reference-review-r003.json",
+  "role": "Additional close scene authority after native r001 grip failure",
+  "previous_full_coverage": "panel-coverage-r001.json",
+  "no_original_sketch_changes": true
+}

@@ -1,0 +1,494 @@
+{
+  "status": "needs_review",
+  "style": "neutral rough monochrome human sketch; not ChronoStick; not H3 references",
+  "target_seconds": 30,
+  "shot_count": 36,
+  "shots": [
+    {
+      "id": "S01",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "framing": "ECU modern mask",
+      "action": "An isolated mask tilts slightly in a human hand; distinctive moustache/goatee are prop cues.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 1,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S02",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "framing": "CU hand and mask edge",
+      "action": "One plain hand lifts the mask into the center; no person wearing it in 1605.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 2,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S03",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "framing": "CU mask eye opening",
+      "action": "The mask eye opening dominates; a static graphic curiosity insert.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 3,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S04",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "framing": "Wide historic Westminster",
+      "action": "A period riverside Parliament building; pitched medieval roofs, no modern clock tower.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 4,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S05",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "framing": "Medium stone entrance",
+      "action": "An empty period palace entrance fills the frame; one closed wooden door.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 5,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S06",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "framing": "Tight dark palace window",
+      "action": "A candle glow inside a period window; contrast signals the historical night.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 6,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S07",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "framing": "Medium three conspirators",
+      "action": "Exactly three simple adult human silhouettes around one table; the focal man is Fawkes.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 7,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S08",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "framing": "CU pendant",
+      "action": "One hand rests near a small cross pendant on a conspirator chest; no writing.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 8,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S09",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "framing": "CU crown prop",
+      "action": "A simple crown silhouette sits on a plain target-plan page; symbol of the monarch, not a named royal portrait.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 9,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S10",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "framing": "Over-shoulder table plan",
+      "action": "One conspirator points at an unlettered sketch of the period Parliament on the table.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 10,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S11",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "framing": "CU Fawkes reaction",
+      "action": "The focal period man tightens his gaze; neutral rough facial marks, no locked design.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 11,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S12",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "framing": "Medium decision",
+      "action": "Three silhouettes lean toward the table; exactly one lead pointing gesture, others still.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 12,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S13",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Wide cellar",
+      "action": "Exactly one period Fawkes among partially cropped barrel stacks; stone vault, no readable text.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 1,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S14",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Low boot insert",
+      "action": "One boot plants beside a wooden barrel; readable single step.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 2,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S15",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "CU barrel hoops",
+      "action": "One visible barrel face/hoops; the shot does not claim all thirty-six are on screen.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 3,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S16",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Medium stack depth",
+      "action": "Partially cropped stacks emphasize quantity; no multiplying or rolling barrels.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 4,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S17",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "CU hand on barrel",
+      "action": "One hand rests on the nearest barrel; no fuse is lit.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 5,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S18",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "CU watchful man",
+      "action": "Fawkes looks toward the cellar entrance; the current powder stays undetonated.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 6,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S19",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "CU anonymous message",
+      "action": "An unidentified hand presents one folded warning letter; no readable words.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 7,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S20",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "CU receiving hand",
+      "action": "A guard official takes the same folded letter; author identity is not supplied.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 8,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S21",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "Medium guard reads",
+      "action": "One simple official silhouette holds the open page angled away; face reacts to warning.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 9,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S22",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "CU lantern",
+      "action": "A plain lantern is lifted by one guard hand; signal of an active search.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 10,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S23",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "CU door latch",
+      "action": "One gloved hand moves the cellar-door latch once.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 11,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S24",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "Wide threshold",
+      "action": "Cellar door opens; Fawkes and stationary barrels are visible beyond, guards at threshold.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "panel_number": 12,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S25",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "framing": "Medium arrest",
+      "action": "Exactly two guards confront one Fawkes beside stationary barrels; one guard reaches to stop him.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 1,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S26",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "framing": "CU restraining hand",
+      "action": "One guard hand grips Fawkes sleeve; a single clear arrest gesture.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 2,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S27",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "framing": "CU Fawkes face",
+      "action": "Fawkes freezes in surprise; no speech or lip movement.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 3,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S28",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "framing": "Barrel insert",
+      "action": "Unchanged dry barrel stacks; no detonation, fire or smoke.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 4,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S29",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "framing": "Medium custody door",
+      "action": "A plain prison door closes once; symbolic time compression after arrest.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 5,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S30",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "framing": "Custody candle insert",
+      "action": "An extinguished candle outside an empty barred doorway symbolizes the later execution; no person, body, gore or violence.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 6,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S31",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "CU graphic-novel prop",
+      "action": "A closed book bears a simple mask picture, with no readable title.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 7,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S32",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "Medium contemporary mask",
+      "action": "One modern anonymous human raises a mask to the face; separate from historic Fawkes.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 8,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S33",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "Wide contemporary group",
+      "action": "Exactly three modern human silhouettes wear masks; calm recognizable symbolic assembly.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 9,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S34",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "CU central masked role",
+      "action": "One masked modern face fills the frame; same mask design across modern shots.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 10,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S35",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "CU mask in hand",
+      "action": "One hand holds the mask, echoing the opening without a cross-generation match move.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 11,
+      "reference_status": "missing; production design follows user review"
+    },
+    {
+      "id": "S36",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "ECU opening-mask return",
+      "action": "A modern masked face returns to a resolved frontal pose with a brief hold; graphic rhyme with opening prop, not a frame-perfect loop.",
+      "timing_status": "provisional; final durations follow accepted Spanish voice",
+      "sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "panel_number": 12,
+      "reference_status": "missing; production design follows user review"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-05T15:29:02.899356+00:00",
+  "scope": "All generated episode007 clips at finalaudio/assembly",
+  "authority": "Actual user music reports on two16step pilots and explicit absolutezero-music instruction",
+  "user_quote": "ولی بازم موسیقی داره",
+  "native_audio": "exclude completely; retain raw immutable originals",
+  "replacement": "Only isolated tiny dry non-tonal physical cues at actually observed actiontimes; exactzero digital silence elsewhere. Narration separately supplied fullvoice.",
+  "picture": "Do not alter accepted pictureframes or author a manualcreative edit rescue",
+  "engine_prompts": "Still require no music and onlyshortSFX; stricter locks remain in all6prompts/jobs.",
+  "proof": "Sidecars bind sourcevideo hashes, source/native audio exclusion, cuefiles/hashes/placements, streamcopiedpicture frames and silence intervals. Human release review remains separate."
+}

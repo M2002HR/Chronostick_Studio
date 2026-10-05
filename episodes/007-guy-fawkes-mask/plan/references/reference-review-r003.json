@@ -1,0 +1,176 @@
+{
+  "reviewed_at": "2026-10-05T15:14:51.614535+00:00",
+  "reviewer": "assistant",
+  "scope": "Native pilot repair S26 close reference and clip04 reference allocation; previous21 image bytes unchanged. All36 sketch panel links retained.",
+  "previous_art_review": "plan/references/reference-review-r002.json",
+  "manifest_sha256": "1615d4200b2fe093c9e7b89f4fc37bc299f5ea5f62737db85ac4cef9ed64a244",
+  "selected": [
+    {
+      "id": "identity-fawkes",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+      "sha256": "6486f134966cc5e94f2ef47c1969538cb5b938a034edd8fd82d318b012f2f369",
+      "clips": []
+    },
+    {
+      "id": "identity-conspirator-a",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-a-r001.png",
+      "sha256": "ea74ae50180d1ee64260791cc462411daf72e05f6a3d559f4171dbce16e5db67",
+      "clips": []
+    },
+    {
+      "id": "identity-conspirator-b",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-b-r001.png",
+      "sha256": "a2e74e0dfddc2b0e04fbeddc4abd2f17e84e9aedc44439b1c0546f66ac406a70",
+      "clips": []
+    },
+    {
+      "id": "identity-guard-lead",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+      "sha256": "3827348f7bc4d988380538849680d4ee310325bde010f351a08142cc34a1f0ed",
+      "clips": []
+    },
+    {
+      "id": "identity-guard-peer",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-peer-r001.png",
+      "sha256": "2216ad763563f87e41d0ec7af822f139bc5d5074d072644a0c13d765300b49c3",
+      "clips": []
+    },
+    {
+      "id": "identity-modern-mask",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+      "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+      "clips": []
+    },
+    {
+      "id": "mask-hand",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png",
+      "sha256": "7d19eadf5aaafc89012bbf30bfa4be449b63d946c79983ef0d3888e11c6a9e49",
+      "clips": [
+        "clip-01",
+        "clip-06"
+      ]
+    },
+    {
+      "id": "westminster-exterior",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/westminster-exterior-r001.png",
+      "sha256": "81f584059b2fcbab997592d558c017bcef35ccb798f0e47dc3fe18bad80bf2c6",
+      "clips": [
+        "clip-01"
+      ]
+    },
+    {
+      "id": "palace-entrance-window",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/palace-entrance-window-r001.png",
+      "sha256": "a503fc5a5a14dc1a45209d4c1a97ebe377c3be88db7f71ab529dd3cccb19c3bb",
+      "clips": [
+        "clip-01"
+      ]
+    },
+    {
+      "id": "conspiracy-table",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png",
+      "sha256": "6c718dc03db1cd15c511f728b19702ce8bae458d3889d06859ca37f034a92fe8",
+      "clips": [
+        "clip-02"
+      ]
+    },
+    {
+      "id": "powder-undercroft",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+      "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+      "clips": [
+        "clip-03",
+        "clip-05",
+        "clip-06"
+      ]
+    },
+    {
+      "id": "warning-letter",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-r001.png",
+      "sha256": "dfff5ce1f15bab3a28fdac8504d0aba699c8009b811b6a9c0fb18495d96e089a",
+      "clips": [
+        "clip-04"
+      ]
+    },
+    {
+      "id": "search-arrest-threshold",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png",
+      "sha256": "1545ef8c506f18d279ab64c81133c0d3961c397246e280ed4d61cd4f6c461617",
+      "clips": [
+        "clip-04"
+      ]
+    },
+    {
+      "id": "custody-door",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png",
+      "sha256": "3736f2cfe66cdd70eb82085992b15cd1223256e834857cd49af00a2a3d90e336",
+      "clips": [
+        "clip-05"
+      ]
+    },
+    {
+      "id": "custody-candle",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/custody-candle-r001.png",
+      "sha256": "9f4da8e842e9ac41c16118ee8a994764c8621497b6acfea60a8271aac485d857",
+      "clips": [
+        "clip-05"
+      ]
+    },
+    {
+      "id": "mask-book",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/mask-book-r001.png",
+      "sha256": "5cb2cbf39a3fd445594a6b5ef98b14d597644d254696de0a6d8b4808e23b3c6d",
+      "clips": [
+        "clip-05"
+      ]
+    },
+    {
+      "id": "modern-masked-group",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r003.png",
+      "sha256": "d5b57eced9e000b66d88079e2332149afefe709d160a2398c66bb460a60346d7",
+      "clips": [
+        "clip-06"
+      ]
+    },
+    {
+      "id": "cellar-door-search",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+      "sha256": "fdb2a8167f71aeec0294c34df0e4e99bfc90febf1133634f8b6728be7eb5735f",
+      "clips": [
+        "clip-04"
+      ]
+    },
+    {
+      "id": "modern-mask-lift",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/modern-mask-lift-r001.png",
+      "sha256": "f48bb6381df0994fac9a9a1cb3ff75cf869222089bcdc9e256950bba151c7209",
+      "clips": [
+        "clip-05"
+      ]
+    },
+    {
+      "id": "warning-letter-handoff",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-handoff-r001.png",
+      "sha256": "928acb150d8ea5ade46a6cf198e42e6b57a2486d388fe6ccc5a8b69c73b3faab",
+      "clips": [
+        "clip-04"
+      ]
+    },
+    {
+      "id": "conspiracy-plan-shoulder",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-plan-shoulder-r001.png",
+      "sha256": "5b3c70438a59d497f1140e1f525d6310cef352da5c9f0ffccada54769529edb2",
+      "clips": [
+        "clip-02"
+      ]
+    },
+    {
+      "id": "arrest-sleeve-grip",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/arrest-sleeve-grip-r001.png",
+      "sha256": "cbbb6335bc753053fcfde77fa37549da6cec0927074d9d4c49498b12b4a99f83",
+      "clips": [
+        "clip-04"
+      ]
+    }
+  ]
+}

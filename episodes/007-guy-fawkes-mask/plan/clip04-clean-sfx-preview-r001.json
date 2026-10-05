@@ -1,0 +1,40 @@
+{
+  "source": "renders/editorial/episode-007-clip-04-letter-search-arrest-r002.mp4",
+  "source_sha256": "16096eb8893bc8924a2c4a1085a4aa1bdf0b9ec03a528f7995cf9761885efbd1",
+  "output": "renders/audio-corrected/episode-007-clip-04-r002-clean-sfx-preview-r001.mp4",
+  "stem": "audio/sfx/clip-04-clean-stem-preview-r001.wav",
+  "native_audio": "exclude_completely",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/candidates-r001/paper-short-r001.wav",
+      "asset_sha256": "52b363d47b03c4a496dc5fab9bf5a19b71c2ae421bf3a37a27c8083320fac39e",
+      "review_status": "needs_actual_sound_review",
+      "review_evidence": "audio/sfx/candidates-r001/manifest.json",
+      "kind": "paper",
+      "start_seconds": 0.79,
+      "gain_db": 0,
+      "observed_action": "Actualsenderrelease and foldedpaperhandoff aroundframe19"
+    },
+    {
+      "asset_path": "audio/sfx/candidates-r001/metal-short-r001.wav",
+      "asset_sha256": "01ea8cf947b03789cfaf3c5ffb34fe5dac310ce60586c81c48512a29a6069cc0",
+      "review_status": "needs_actual_sound_review",
+      "review_evidence": "audio/sfx/candidates-r001/manifest.json",
+      "kind": "metal",
+      "start_seconds": 2.79,
+      "gain_db": 0,
+      "observed_action": "Actualironsinglelantern-handle motion afterframe66"
+    },
+    {
+      "asset_path": "audio/sfx/candidates-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "needs_actual_sound_review",
+      "review_evidence": "audio/sfx/candidates-r001/manifest.json",
+      "kind": "cloth",
+      "start_seconds": 4.25,
+      "gain_db": 0,
+      "observed_action": "Actualoneblueguardhandcloses onFawkesbrown sleeve aroundframe102"
+    }
+  ],
+  "review": "Listeningpreviewonly; no actualsoundapproval. Source licenses/provenanceverified, actualframeplacementsinspected; music contaminatednativeaudiofullyexcluded."
+}

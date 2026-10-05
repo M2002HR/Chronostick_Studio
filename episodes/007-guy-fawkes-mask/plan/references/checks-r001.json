@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-05T13:40:01.131158+00:00",
+  "scope": "Reference production handoff; no final timing/jobs/render approval",
+  "tests": {
+    "reference_first_and_reference_artifacts": {
+      "count": 17,
+      "status": "passed"
+    },
+    "google_vids": {
+      "count": 5,
+      "status": "passed"
+    },
+    "total": 22
+  },
+  "checks": {
+    "reference_first_validator": "passed",
+    "repository_validator": "passed; four pre-existing Episode 001 missing-prompt warnings retained",
+    "reference_skill_validator": "passed",
+    "git_diff_check": "passed",
+    "selected_asset_sha256_count": 21,
+    "phone_review_derivatives": "all selected references present",
+    "pure_image_prompts": "all selected references nonempty, no YAML frontmatter",
+    "local_gallery_and_readme_links": "passed",
+    "storyboard_panel_coverage_count": 36
+  },
+  "current_stage": "voice",
+  "pending": "User duration preference for full 33.365333-second supplied voice versus original 30-second working target; no answer or approval inferred."
+}

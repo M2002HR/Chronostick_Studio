@@ -1,0 +1,25 @@
+{
+  "request_snapshot": "plan/references/identity-requests-r002.json",
+  "outputs": [
+    {
+      "id": "identity-fawkes",
+      "source": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-b069ed2c-4f44-475b-b2b4-f015641418f9.png",
+      "destination": "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+      "sha256": "6486f134966cc5e94f2ef47c1969538cb5b938a034edd8fd82d318b012f2f369",
+      "dimensions": [
+        940,
+        1672
+      ]
+    },
+    {
+      "id": "identity-modern-mask",
+      "source": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-77c8d1f0-250e-4ef3-83f0-18bdd2987bf2.png",
+      "destination": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+      "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+      "dimensions": [
+        941,
+        1672
+      ]
+    }
+  ]
+}

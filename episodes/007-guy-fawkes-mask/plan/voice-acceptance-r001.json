@@ -1,0 +1,31 @@
+{
+  "id": "continue-full-voice-r001",
+  "reviewer": "user (contextual continuation)",
+  "quote": "ادامه بده با دقت",
+  "preceding_proposal": "Continue timing/prompts using complete supplied 33.37-second voice; recommended preserving it for this sample rather than shortening script/new voice.",
+  "interpretation": "User continuation accepts the proposed complete-voice route for this example. Quote itself is not an explicit numeric duration or a claim of assistant listening.",
+  "scope": [
+    "voice",
+    "episode-runtime"
+  ],
+  "decided_at": "2026-10-05T13:59:53.321733+00:00",
+  "artifacts": [
+    {
+      "path": "audio/narration-es-r001.wav",
+      "sha256": "f9a7e873c38baf9280804625de4e5f00cfe5ea73f2bbc3e69c38ca21e740a376"
+    },
+    {
+      "path": "script/narration-es.md",
+      "sha256": "108eb25a2f27584b539a7303d9744ce5944e28fb3b29ea2ee3cfd21d3716fa64"
+    },
+    {
+      "path": "timestamps/ajil/voice-response-r001.json",
+      "sha256": "09214f78b13bb888898b5c637b8fddb2bd17fe6fa1d28aa0d92375c38f1cac90"
+    }
+  ],
+  "processing": "Complete native voice retained; no speed change, trimming or gain adjustment",
+  "voice_duration_seconds": 33.365333,
+  "picture_target_seconds": 33.375,
+  "global_defaults_changed": false,
+  "perceptual_review": "User-supplied voice accepted for continued production by user context; assistant has not claimed full auditory audition."
+}

@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T13:22:28.561187+00:00",
+  "id": "search-arrest-threshold",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-c-retry-requests-r001.json",
+  "request_sha256": "7fd1a42e65e28a5ddaffca89db272d555582bd533506a8b8710b9cb8e571bc66",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-d4da55ec-1941-4c7b-aa64-0dab477254e7.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r001.png",
+  "sha256": "49aef061d5ddd53c9d6c3fc4cec2a035c3fc90347d69315865bde7d8624ae033",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

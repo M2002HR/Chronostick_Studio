@@ -1,0 +1,280 @@
+{
+  "created_at": "2026-10-05T12:38:10.512779+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "mask-hand",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/mask-hand.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls ONLY the ivory/black/rose modern mask design and charcoal sleeve; do not include that full person. Exactly ONE simplified pale hand enters from lower left in a charcoal hoodie sleeve and holds ONE isolated mask by its lower-left edge. No visible human head or body. The mask occupies the central 65 percent of the image height, nearly frontal, tilted just ten degrees clockwise; ivory tapered rounded shield, two black almond eye holes, thin swept black brows, small rose cheek discs, curled black moustache, thin smile, short painted black pointed goatee. Clearly drawn painted prop, no living beard or flesh. Hand uses simple rounded stick-world digits and one thumb, no realistic skin. Plain drawn cool slate wall behind, warm upper-left edge light and cool right shadow. Keep both eye holes, mask contour and holding hand unobstructed for close crops. No other masks, no book, no wearer, no explosion.\n",
+      "prompt_sha256": "dbd39da0b28b51a8eb9846968317c62bca2e06c4e75b01153a009a76db9190a1",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+          "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+          "role": "identity-modern-mask"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S35"
+      ]
+    },
+    {
+      "id": "westminster-exterior",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/westminster-exterior.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nAn empty eye-level wide period riverside Westminster evocation in 1605. Exactly two principal connected medieval stone masses across the upper-middle frame: a long low hall with steep gray pitched roof at screen left, and a smaller attached gabled building with modest buttresses and narrow dark windows at screen right; an irregular low stone boundary and a small plain gate. This is a restrained generic reconstruction from medieval-building evidence, not modern Westminster. Foreground lower third is the Thames drawn as calm simplified slate-blue horizontal water bands with sparse reflections; bank walls separate water and building. Dusk cloud shapes and muted warm sky behind, soft warm light upper left. No modern clock tower, Big Ben, Elizabeth Tower, nineteenth-century Parliament facade, skyscrapers, bridges, boats or people. Keep roofs visible with sky margin, strong clean silhouettes and phone-readable scale. Architecture and water stay richly drawn in the same stick-world; no map labels or realistic photo texture.\n",
+      "prompt_sha256": "764e60f004478ce8634d7f3a9d0e0d2b110ed47d67b432ec4cfd173a7e69584b",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/westminster-exterior-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S04"
+      ]
+    },
+    {
+      "id": "palace-entrance-window",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/palace-entrance-window.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nEmpty medieval stone palace facade at night, 1605 evocation. At screen left-center ONE tall pointed stone arch surrounds ONE closed plain oak double-leaf door with two simple iron ring handles. At screen upper-right ONE narrow rectangular dark window set in the same facade; its simple drawn glazing shows exactly ONE tiny burning candle on the inner sill, with a small warm amber glow. The wall/door occupy the image; three shallow stone steps at bottom, eye-level medium-wide framing, no characters, no paper, no powder barrels. Slate-blue night fill from right contrasts with subdued warm candle glow; timber/stone/iron are simplified drawn shapes with controlled contour detail. Door ring and lit window are large and safely placed enough to support separate close inserts without adding a new viewpoint. No modern electric lights, readable inscriptions, modern skyline or extra windows full of invented people.\n",
+      "prompt_sha256": "aefafb5ed3702aee640adc3a32b7e48fe3e749bb4b132d01768d4a6191e57049",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/palace-entrance-window-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "id": "powder-undercroft",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/powder-undercroft.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 is the sole Fawkes identity authority. Exactly ONE full-body Guy Fawkes centered in a narrow ground-floor medieval stone undercroft storeroom, not a deep mine. Same plain broad dark felt hat, wavy hair, small curled moustache/compact pointed beard, off-white round face, pale collar, charcoal doublet, umber cloak, slender breeches/boots. Closed mouth, watchful brow, gaze slightly toward the off-screen entrance at camera-left. His left hand on screen right rests on the nearest upright closed wooden barrel lid; his other hand stays beside his body. All boots visible in the clear central stone-floor aisle. Two dense stationary wooden barrel stacks flank the aisle: cropped foreground barrels screen left, three-tier receding stack screen right, further partially hidden casks behind; visible barrel count is not presented as the total thirty-six. Every cask has dark drawn oak staves and iron hoops, closed lids, no labels. Barrel quantity is implied beyond frame; do not force a literal 36-item grid. Vaulted stone ribs frame the upper image, plain rear wall, no other people, no visible doorway, no stairs, no fuse, flame, sparks, explosion, smoke or weapon. Eye-level medium-wide view, Fawkes 55 percent image height; nearest barrel/hand and boots are crop-legible. Warm off-screen light from camera-left, cool shadow right; drawn textures, clear depth and safe margins.\n",
+      "prompt_sha256": "08852e948d50e5866c49680fdc960966904502dfd704f7b6bb080bdfb5289238",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+          "sha256": "6486f134966cc5e94f2ef47c1969538cb5b938a034edd8fd82d318b012f2f369",
+          "role": "identity-fawkes"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S28"
+      ]
+    },
+    {
+      "id": "warning-letter",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/warning-letter.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls the clean-shaven blue-gray lead-guard role, not his lantern pose. Exactly ONE visible unnamed guard official at screen right-center in a plain 1605 plaster/oak interior, wearing the same low broad felt hat, round minimal off-white face, pale collar/cuffs, slate-blue buttoned coat and belt. Eye-level waist-up medium framing. His left hand on screen right holds the lower edge of exactly ONE folded pale warning letter at mid-chest, blank outer surface toward camera. Exactly ONE anonymous detached hand with a plain muted-brown sleeve enters from screen left and still touches the letter's upper-left edge at the handoff moment; no donor face/body or identity. Guard's free right hand rests near the paper ready to unfold it, brow attentive, mouth closed. Foreground letter and receiving hand large and unobstructed for close crops; guard face stays fully visible for reaction. One folded letter only, no envelope duplicate, seal text, lantern, weapon, crown, mask or extra people. Sparse drawn warm-gray plaster wall with a dark timber upright at far right, upper-left warm key, restrained cool fill. The unidentified hand is a story role, not an attribution of who authored the warning.\n",
+      "prompt_sha256": "60bf35a7a53887c6bb5be98a8deaa71e2e59d216b038b0af7fb2bbfd537d44e8",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+          "sha256": "3827348f7bc4d988380538849680d4ee310325bde010f351a08142cc34a1f0ed",
+          "role": "identity-guard-lead"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S19",
+        "S20",
+        "S21"
+      ]
+    },
+    {
+      "id": "cellar-door-search",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/cellar-door-search.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls the lead guard's identity, blue-gray coat and single iron/candle lantern. A pre-discovery 1605 corridor instant before the undercroft door opens. Exactly ONE guard at screen left in a side/three-quarter medium-long view, face and hat visible, body slender and off-white minimal face watchful. ONE closed dark-oak arched storeroom door fills screen center-right, thick drawn iron hinges and ONE simple horizontal iron latch at chest level; gray stone arch around it. His free left hand on screen right rests on the latch ready to lift it; his right hand at screen left holds exactly ONE glowing small period iron lantern low by his hip, matching the supplied design. Empty floor strip at bottom. Both hands, latch and lantern clearly legible and safely cropped for inserts. Door completely closed: zero Fawkes, zero visible barrel interiors, zero second guard, no readable text. One lantern, one door, one primary latch-ready pose. Drawn stone/timber/iron, soft warm lantern light from lower-left, cool dim upper-right corridor fill; no electric light, explosion or smoke.\n",
+      "prompt_sha256": "84ca3f4736f291f1783ea5b71bbbe6ab8769f5a6eca3c71fc624bd7795e79ad4",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+          "sha256": "3827348f7bc4d988380538849680d4ee310325bde010f351a08142cc34a1f0ed",
+          "role": "identity-guard-lead"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S22",
+        "S23"
+      ]
+    },
+    {
+      "id": "custody-door",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/custody-door.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls the blue-gray lead guard identity without requiring his lantern. Exactly ONE guard at screen left in side view, round off-white head and same felt hat/coat, closed mouth. His free left hand presses the edge of ONE heavy plain oak custody door, currently open just 20 degrees in a modest pointed stone arch at center-right, ready to close once. Door has plain dark iron hinges and ONE small square barred inspection opening at head height. Beyond the narrow door gap is an empty dark interior; show ZERO prisoner, Fawkes, bodies or silhouettes. Guard's other hand rests naturally at side; ZERO lanterns or weapons. Eye-level medium-long framing with safe hat/boots margins, clear door edge/hand and quiet resolved geometry. Drawn muted gray stone floor/wall, amber upper-left light and cold interior shadow. This is symbolic post-arrest custody, not a claim of execution location or death method. No lettering, dates, modern fixtures or gore.\n",
+      "prompt_sha256": "dae6949deb28fb28e64108e9eb168dadb975aa87535f9fd1c646618803d9efbb",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+          "sha256": "3827348f7bc4d988380538849680d4ee310325bde010f351a08142cc34a1f0ed",
+          "role": "identity-guard-lead"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S29"
+      ]
+    },
+    {
+      "id": "mask-book",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/mask-book.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls ONLY the modern ivory/black/rose mask motif; do not include its person. Exactly ONE closed slim dark charcoal graphic-novel-like book, held by exactly ONE simple pale stick-world hand entering from lower left in a charcoal sleeve. Book tilted slightly clockwise and fills center 65 percent of frame height; unlettered flat cover bears exactly ONE drawn ivory mask picture with paired black eyes, thin swept brows, rose cheeks, curled moustache, thin smile and short pointed black goatee matching input 2. Clearly show white page edges and dark spine, zero readable title/letters/numbers/logo. This is a generic symbolic graphic-novel prop, not a reproduction of a real published cover. No visible head, human body, second book or duplicate mask object. Plain drawn cool slate wall, warm upper-left key; cover motif and holding hand unobstructed and large enough for fast crops. One instant/view, same illustrated materials as all ChronoStick art.\n",
+      "prompt_sha256": "fd4ea8ae1b4cd90d934045e59d65a417b91be41451c567146f02bfe5136209d0",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+          "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+          "role": "identity-modern-mask"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/mask-book-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S31"
+      ]
+    },
+    {
+      "id": "modern-mask-lift",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/modern-mask-lift.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls the ONE anonymous modern charcoal-hoodie role and mask motif, translated into one earlier pose. Eye-level waist-up frontal medium view; one hooded adult with round off-white simple head, tiny dot eyes and a small closed neutral mouth, no nose, hair, beard or realistic face. Same charcoal hood and two plain drawstrings. Exactly ONE ivory/black/rose mask held with BOTH simple hands at its lower edges just below the person's chin, ready to lift to face in one clear action; preserve its tapered rounded outline, almond eye holes, black brows/moustache/goatee and small rose cheeks. The mask is NOT yet worn, and the blank stick face is fully visible above it. Narrow stick-derived shoulders/torso and arms. Zero extra masks, books, people, signs or logos. Plain drawn cool slate wall and floor implied beyond waist crop, warm left key and cool right edge; head/hood, hands and entire mask safely visible. This is a modern anonymous role, not historical Fawkes.\n",
+      "prompt_sha256": "7a0ceac6301778920cb5d30c25e8247951be46f14a46d0faca837b6a8fcd53c3",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+          "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+          "role": "identity-modern-mask"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/modern-mask-lift-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S32"
+      ]
+    },
+    {
+      "id": "modern-masked-group",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/modern-masked-group.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls the central modern masked adult and the identical ivory/black/rose mask motif for all three roles. Exactly THREE adult stick people in a sparse contemporary public-space scene, one view/instant, all calm and closed-mouth behind props. Central role closest to camera at screen center, full figure 70 percent frame height, charcoal hoodie/hood and blue-gray trousers exactly as supplied. Left supporting anonymous role one step behind at screen left, muted slate-blue hoodie/hood and charcoal trousers, figure 55 percent height. Right supporting anonymous role one step behind at screen right, muted burgundy hoodie/hood and dark trousers, same 55 percent height. Every figure has ONE worn mask with the same clean drawn motifs; simplified pale hands rest beside narrow stick-derived bodies, no raised fists, weapons, signs or readable text. Heads/hoods and feet entirely safe; three distinct silhouettes separated with no overlap/duplication. Background consists of low muted drawn city-block geometry and empty paving, no extra crowd or vehicles. Soft warm upper-left key and cool slate right fill. The central masked face is large enough for a resolved close crop; group scale tells spread of the symbol, not a named real protest event. No explosions or false historical Fawkes mask wearer.\n",
+      "prompt_sha256": "ac06b3acba3825c4119fb56c78ba60fb6b0a60e6402242e1610112e65593766a",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+          "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+          "role": "identity-modern-mask"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S33",
+        "S34",
+        "S36"
+      ]
+    }
+  ]
+}

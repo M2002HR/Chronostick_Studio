@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-05T13:19:23.874797+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "conspiracy-plan-shoulder",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/conspiracy-plan-shoulder.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 is the approved conspiracy-table scene, controlling the exact THREE identities, 1605 room, table, pendant, crown and TWO-GABLE symbolic paper sketch. Create a separate SINGLE over-the-LEFT-shoulder angle of the same instant for the pointing-plan insert. Camera at the burgundy flat-cap conspirator A's left shoulder, elevated slightly toward the tabletop. Near foreground screen-left shows only A's burgundy cap/back of round head, cream shoulder and ONE pointing hand. The same unlettered pale sheet is large and central on the dark oak table: its building drawing is only TWO adjacent plain rectangles, TWO triangular roofs and ONE small doorway, no detailed facade or towers. ONE tiny brass crown is on the sheet's near-left edge. A points to the two-gable building. Fawkes with his exact dark felt hat/moustache/pointed beard/pale collar/charcoal doublet/umber cloak remains behind the table at upper center, narrow chest and his TWO hands at the table edge. Bareheaded short-auburn clean-shaven olive conspirator B remains upper-right with TWO simple resting hands. Exactly THREE people total, no duplicated A face or extra arm. Medium-close frame with plan and primary pointing hand dominant; all story-critical hands, paper, crown and Fawkes face safely inside frame. Same timber/plaster walls, one high window, amber left key and cool right shadows, no unanchored extra room. The style board controls rendering only. No writing, clock faces, Big Ben, modern Gothic Parliament, weapons, barrels, lanterns, masks, additional crowns or people. One still pre-action state ready for a slight point press, not multiple panels or viewpoints.\n",
+      "prompt_sha256": "8559c7efd9f293d1820feaef564ef7a969b7c253a1dc77af0f53a9c0bfb71ffc",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png",
+          "sha256": "6c718dc03db1cd15c511f728b19702ce8bae458d3889d06859ca37f034a92fe8",
+          "role": "conspiracy-table"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-plan-shoulder-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S10"
+      ]
+    }
+  ]
+}

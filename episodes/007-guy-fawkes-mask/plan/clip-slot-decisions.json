@@ -1,0 +1,40 @@
+{
+  "reviewer": "assistant",
+  "status": "slot-allocation-for-timing-derivation",
+  "fps": 24,
+  "frame_boundaries": [
+    0,
+    132,
+    275,
+    376,
+    486,
+    636,
+    801
+  ],
+  "voice_sha256": "f9a7e873c38baf9280804625de4e5f00cfe5ea73f2bbc3e69c38ca21e740a376",
+  "word_source_path": "timestamps/ajil/voice-words-r001.csv",
+  "raw_response_path": "timestamps/ajil/voice-response-r001.json",
+  "text_aliases": [
+    {
+      "provider_token": "1605",
+      "spoken_words": [
+        "mil",
+        "seiscientos",
+        "cinco"
+      ],
+      "timing": "aggregate provider interval; no per-spoken-word interpolation"
+    },
+    {
+      "provider_token": "36",
+      "spoken_words": [
+        "treinta",
+        "y",
+        "seis"
+      ],
+      "timing": "aggregate provider interval; no per-spoken-word interpolation"
+    }
+  ],
+  "rationale": "Six dynamic arcs: hook/context, conspiracy, powder guard, warning/search/arrest, consequence/book/mask adoption, symbol/payoff/CTA. Boundaries near spoken semantic transitions; continuous external narration is never chopped.",
+  "word_source_sha256": "21a10f9119abed2c68fb5639b317c6fa0282329aadacd7aacbde60f74b376e14",
+  "raw_response_sha256": "09214f78b13bb888898b5c637b8fddb2bd17fe6fa1d28aa0d92375c38f1cac90"
+}

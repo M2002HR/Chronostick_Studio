@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:58:41.707510+00:00",
+  "id": "mask-book",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "1744df962f4bf9880c9a6513dcee808b2ab5a4267e45bb6f68935589e34de48d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-d5b0d47f-8c10-4a6e-a673-6040aa374366.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/mask-book-r001.png",
+  "sha256": "5cb2cbf39a3fd445594a6b5ef98b14d597644d254696de0a6d8b4808e23b3c6d",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

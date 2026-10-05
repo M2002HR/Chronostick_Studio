@@ -1,0 +1,13 @@
+{
+  "id": "powder-empty",
+  "review_status": "approved",
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-05T16:29:32.563845+00:00",
+  "scope": "actual full image and270\u00d7480 phone image compared with original undercroft anchor and object-only retrospective requirement",
+  "notes": "Entire Fawkes identity/arms/hands/boots/cloak removed; zero people. Original barrel arrays and foreground closed right barrel/hoops, stone arch/floor, matte drawn outlines and warm/cool lighting retained. No flame, fuse, smoke, text or mask. Blank aisle reads at phone size.",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-c4980c4d-1b6d-4a83-bb5a-0b314fb1f817.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/powder-empty-r001.png",
+  "sha256": "dbab0bc712dca49ef3fb2fd42179239cb33b95d547bf972fcd8f02ea1f3d6c33",
+  "phone_inspection_path": "plan/references/inspection-r007/powder-empty-r001-phone.png",
+  "reason": "clip06r002 actually reintroduced Fawkes after his execution; old person-containing anchor unsuitable for object-only retrospective cut"
+}

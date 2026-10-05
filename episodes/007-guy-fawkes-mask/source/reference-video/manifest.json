@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "role": "creative-reference-and-unverified-story-input",
+  "influence_goal": "Close story and directing adaptation in original Spanish and ChronoStick style",
+  "items": [
+    {
+      "id": "reference-video",
+      "kind": "video",
+      "path": "source/reference-video/reference-guy-fawkes-mask-r001.mp4",
+      "url": "https://www.youtube.com/watch?v=JgBU_c7RVq0",
+      "title": "Why does this Mask mean Boom boom?",
+      "original_name": "[@download_it_bot 360p] Why does this Mask mean Boom boom.mp4",
+      "sha256": "ef2ca0ebcf74f750607b302ec60c105b58dfb5d60c069e8987622f8ac291b289",
+      "bytes": 3037997,
+      "provenance": "User-supplied download; URL supplied by user; byte identity preserved"
+    }
+  ],
+  "created_at": "2026-10-05T07:51:16.462946+00:00"
+}

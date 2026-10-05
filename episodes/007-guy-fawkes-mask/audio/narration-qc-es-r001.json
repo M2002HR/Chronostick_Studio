@@ -1,0 +1,15 @@
+{
+  "status": "technical_checks_passed; perceptual_delivery_review_pending",
+  "decoded_pcm_matches_original": true,
+  "native_aac_matches_original": true,
+  "archive_bytes_match_input": true,
+  "duration_seconds": 33.365333,
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_count": 800768,
+  "peak_dbfs": -1.247368,
+  "rms_dbfs": -18.028907,
+  "processing": "no trimming, resampling, gain or time stretch",
+  "duration_vs_working_target": "3.365333 seconds over 30-second intake target; no duration override assumed",
+  "audible_music_or_tag_readout": "not perceptually verified"
+}

@@ -1,0 +1,29 @@
+{
+  "word_count": 204,
+  "segment_count": 15,
+  "first_word_start": 0.1,
+  "last_word_end": 71.62,
+  "overlapping_word_rows": [
+    23,
+    38,
+    54,
+    70,
+    103,
+    123,
+    139,
+    153,
+    196,
+    201
+  ],
+  "nonmonotonic_word_rows": [
+    23,
+    54,
+    70,
+    123
+  ],
+  "text_vs_words_match": true,
+  "expected_script_changes": [],
+  "status": "needs_review",
+  "normalization": "none; provider times preserved",
+  "timing_limit": "STT estimates; accepted voice and perceptual review are required"
+}

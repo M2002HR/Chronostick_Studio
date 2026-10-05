@@ -1,0 +1,62 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-05T14:32:47.231781+00:00",
+  "scope": "Pure prompt text reviewed against frame-exact direction, actual chosen scene images and source-linked storyline. Generated motion/audio not yet reviewed.",
+  "decisions": [
+    {
+      "clip_id": "clip-01",
+      "path": "prompts/clip-01-mask-to-1605.md",
+      "sha256": "79299344170c719f7d08a8c4fc1e3e19507429c5533b39d86960815cf5401ccd",
+      "shot_count": 8,
+      "reference_count": 3,
+      "word_count": 1455,
+      "decision": "approved for deterministic job packaging"
+    },
+    {
+      "clip_id": "clip-02",
+      "path": "prompts/clip-02-conspiracy-target.md",
+      "sha256": "3a469a768a8840b7eb6dd8f7850058781bab3324d8418330f9803fdd0fa29da3",
+      "shot_count": 8,
+      "reference_count": 2,
+      "word_count": 1567,
+      "decision": "approved for deterministic job packaging"
+    },
+    {
+      "clip_id": "clip-03",
+      "path": "prompts/clip-03-powder-watch.md",
+      "sha256": "009e6f6f5fedbde62cde20475bb826722ab87279bd9c64d6828548f1d1aeb827",
+      "shot_count": 6,
+      "reference_count": 1,
+      "word_count": 1172,
+      "decision": "approved for deterministic job packaging"
+    },
+    {
+      "clip_id": "clip-04",
+      "path": "prompts/clip-04-letter-search-arrest.md",
+      "sha256": "50d22aa916d5c377345a952626ceb00376656e1f33fc15888e41d3ccbfe1a380",
+      "shot_count": 9,
+      "reference_count": 4,
+      "word_count": 1822,
+      "decision": "approved for deterministic job packaging"
+    },
+    {
+      "clip_id": "clip-05",
+      "path": "prompts/clip-05-consequence-and-mask.md",
+      "sha256": "6c6c6fe5f8e384a4ec12c3e0ea303321786642c5956e4ca7bb683a233f60331a",
+      "shot_count": 9,
+      "reference_count": 5,
+      "word_count": 1771,
+      "decision": "approved for deterministic job packaging"
+    },
+    {
+      "clip_id": "clip-06",
+      "path": "prompts/clip-06-symbol-payoff-cta.md",
+      "sha256": "8c4215e7acc2c41b002c175fd4d8228bfaf15683a1c492aecc6f53bd6e412462",
+      "shot_count": 8,
+      "reference_count": 3,
+      "word_count": 1560,
+      "decision": "approved for deterministic job packaging"
+    }
+  ],
+  "audio_policy": "Required exact sentence once per pure prompt; optional cues only, no continuous audio bed or generated language."
+}

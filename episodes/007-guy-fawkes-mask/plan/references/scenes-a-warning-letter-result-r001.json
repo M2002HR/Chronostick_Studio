@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:58:41.181142+00:00",
+  "id": "warning-letter",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "1744df962f4bf9880c9a6513dcee808b2ab5a4267e45bb6f68935589e34de48d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-21011df3-b55e-4b28-a341-74b40e30db20.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-r001.png",
+  "sha256": "dfff5ce1f15bab3a28fdac8504d0aba699c8009b811b6a9c0fb18495d96e089a",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

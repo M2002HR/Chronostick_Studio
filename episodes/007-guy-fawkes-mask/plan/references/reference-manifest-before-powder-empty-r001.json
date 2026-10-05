@@ -1,0 +1,963 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "007-guy-fawkes-mask",
+  "status": "approved",
+  "planning_review": {
+    "reviewer": "assistant",
+    "decision": "All selected sketch pages/panel records reviewed, six identities and fifteen single-view scene/prop anchors selected. Folded letter, pre-opening door, off-face mask and over-shoulder plan are separate states/views. Failed revisions preserved.",
+    "user_storyboard_decision": "plan/review-decisions.json"
+  },
+  "storyboard": {
+    "shot_list_path": "plan/storyboard/shot-list.json",
+    "selected_pages": [
+      "plan/storyboard/storyboard-page-01-r002.png",
+      "plan/storyboard/storyboard-page-02-r002.png",
+      "plan/storyboard/storyboard-page-03-r002.png"
+    ],
+    "role": "Composition/action evidence only; never H3 production inputs"
+  },
+  "reuse_decision": "Reuse approved master rendering style only. Existing period/region-specific character and environment references do not cover 1605 England and the modern mask passage. No production sheet is selected.",
+  "entries": [
+    {
+      "id": "identity-fawkes",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S07",
+        "S11",
+        "S12",
+        "S13",
+        "S18",
+        "S24",
+        "S25",
+        "S27"
+      ],
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md",
+        "source/research/portraits/recognition-cues.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-fawkes.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+      "sha256": "6486f134966cc5e94f2ef47c1969538cb5b938a034edd8fd82d318b012f2f369",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [],
+      "coverage_note": "Identity controls appearance only; scene anchors must additionally cover location, pose, prop state and camera views.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:16:53.358965+00:00",
+        "scope": "Identity/role anchor only; full-frame and 270×480 inspection, master/source-cue comparison and storyboard-role coverage. Not user approval of future art or whole reference stage.",
+        "notes": "Round off-white head and narrow stick-derived body now match master proportions; broad plain felt hat, dark wavy hair, moustache/pointed beard, pale open collar and cloak retain institutional recognition cues. No modern mask. Supports appearance for S07/S11/S12/S13/S18/S24/S25/S27, not those scenes by itself.",
+        "review_path": "plan/references/review.md",
+        "phone_inspection_path": "plan/references/inspection-r001/identity-fawkes-r002-phone.png"
+      }
+    },
+    {
+      "id": "identity-conspirator-a",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S07",
+        "S08",
+        "S10",
+        "S12"
+      ],
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-conspirator-a.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-a-r001.png",
+      "sha256": "ea74ae50180d1ee64260791cc462411daf72e05f6a3d559f4171dbce16e5db67",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [],
+      "coverage_note": "Identity controls appearance only; scene anchors must additionally cover location, pose, prop state and camera views.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:49:54.112343+00:00",
+        "notes": "One clean-shaven round-headed role, wine-red flat cap, burgundy/cream costume and visible wooden cross. Full/270×480 views inspected; distinct from Fawkes and B. Unnamed dramatized role, not a verified historical portrait.",
+        "scope": "Identity/costume/prop appearance only; actual full-frame and phone-scale review plus storyboard-role comparison.",
+        "phone_inspection_path": "plan/references/inspection-r002/identity-conspirator-a-r001-phone.png",
+        "review_path": "plan/references/review.md"
+      }
+    },
+    {
+      "id": "identity-conspirator-b",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S07",
+        "S12"
+      ],
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-conspirator-b.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-b-r001.png",
+      "sha256": "a2e74e0dfddc2b0e04fbeddc4abd2f17e84e9aedc44439b1c0546f66ac406a70",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [],
+      "coverage_note": "Identity controls appearance only; scene anchors must additionally cover location, pose, prop state and camera views.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:49:54.112343+00:00",
+        "notes": "One clean-shaven bareheaded role, short wavy auburn hair and olive doublet. Full/270×480 views inspected; no cross or hat, clear separation from A and Fawkes. Lock actual short wavy hair rather than forcing a shaved cut.",
+        "scope": "Identity/costume/prop appearance only; actual full-frame and phone-scale review plus storyboard-role comparison.",
+        "phone_inspection_path": "plan/references/inspection-r002/identity-conspirator-b-r001-phone.png",
+        "review_path": "plan/references/review.md"
+      }
+    },
+    {
+      "id": "identity-guard-lead",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S29"
+      ],
+      "source_analysis_ids": [
+        "A07",
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-guard-lead.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+      "sha256": "3827348f7bc4d988380538849680d4ee310325bde010f351a08142cc34a1f0ed",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [],
+      "coverage_note": "Identity controls appearance only; scene anchors must additionally cover location, pose, prop state and camera views.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:16:53.358965+00:00",
+        "scope": "Identity/role anchor only; full-frame and 270×480 inspection, master/source-cue comparison and storyboard-role coverage. Not user approval of future art or whole reference stage.",
+        "notes": "One unnamed period-evocation guard, round minimal face and narrow costumed figure; distinct slate-blue coat, pale collar, plain hat, one drawn iron/candle lantern. Supports the guard identity in the warning/search/arrest/custody panels. No claim of an exact historical uniform.",
+        "review_path": "plan/references/review.md",
+        "phone_inspection_path": "plan/references/inspection-r001/identity-guard-lead-r001-phone.png"
+      }
+    },
+    {
+      "id": "identity-guard-peer",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S24",
+        "S25"
+      ],
+      "source_analysis_ids": [
+        "A07",
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-guard-peer.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-peer-r001.png",
+      "sha256": "2216ad763563f87e41d0ec7af822f139bc5d5074d072644a0c13d765300b49c3",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [],
+      "coverage_note": "Identity controls appearance only; scene anchors must additionally cover location, pose, prop state and camera views.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:49:54.112343+00:00",
+        "notes": "One buff-coated round-headed role with a steel-gray open-face crested helmet and one polearm, zero lanterns. Full/270×480 views inspected; helmet/coat silhouette separates him from felt-hat lead guard. Polearm point visible but close to top edge: scene anchor must reframe it with larger safety margin; identity is not a direct H3 scene input.",
+        "scope": "Identity/costume/prop appearance only; actual full-frame and phone-scale review plus storyboard-role comparison.",
+        "phone_inspection_path": "plan/references/inspection-r002/identity-guard-peer-r001-phone.png",
+        "review_path": "plan/references/review.md"
+      }
+    },
+    {
+      "id": "identity-modern-mask",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S32",
+        "S33",
+        "S34",
+        "S36"
+      ],
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-modern-mask.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+      "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [],
+      "coverage_note": "Appearance/mask motif only; S32 lifting action is covered by the separate modern-mask-lift scene anchor.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:16:53.358965+00:00",
+        "scope": "Identity/role anchor only; full-frame and 270×480 inspection, master/source-cue comparison and storyboard-role coverage. Not user approval of future art or whole reference stage.",
+        "notes": "One simplified modern hoodie role with a clearly drawn oversized mask prop and narrow stylized body; charcoal/blue-gray costume and repeated ivory/black/rose mask cues read at phone scale. Mask painting remains separate from historical facial hair. Supports modern role appearance and mask motif, not group/book/hand scene coverage alone.",
+        "review_path": "plan/references/review.md",
+        "phone_inspection_path": "plan/references/inspection-r001/identity-modern-mask-r002-phone.png"
+      }
+    },
+    {
+      "id": "mask-hand",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S35"
+      ],
+      "source_analysis_ids": [
+        "A01",
+        "A02",
+        "A09"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-modern-mask"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/mask-hand.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png",
+      "sha256": "7d19eadf5aaafc89012bbf30bfa4be449b63d946c79983ef0d3888e11c6a9e49",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-01",
+        "clip-06"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "One detached charcoal-sleeved hand holds one matching ivory/black/rose mask. Single drawn wall and safe mask contours support S01/S02/S03/S35 inserts; no complete person or writing.",
+        "phone_inspection_path": "plan/references/inspection-r003/mask-hand-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "westminster-exterior",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S04"
+      ],
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/westminster-exterior.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/westminster-exterior-r001.png",
+      "sha256": "81f584059b2fcbab997592d558c017bcef35ccb798f0e47dc3fe18bad80bf2c6",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-01"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "Empty illustrated medieval riverside complex without modern clock tower. S04 establishes a generic period palace/chapel setting only; cross finials and gables are artistic evocation, not authenticated Westminster geometry.",
+        "phone_inspection_path": "plan/references/inspection-r003/westminster-exterior-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "palace-entrance-window",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S05",
+        "S06"
+      ],
+      "source_analysis_ids": [
+        "A01",
+        "A02"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/palace-entrance-window.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/palace-entrance-window-r001.png",
+      "sha256": "a503fc5a5a14dc1a45209d4c1a97ebe377c3be88db7f71ab529dd3cccb19c3bb",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-01"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "Empty closed oak entrance and one candle window; both are visible and separable for S05/S06 inserts. One drawn setting, no readable text or people.",
+        "phone_inspection_path": "plan/references/inspection-r003/palace-entrance-window-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "conspiracy-table",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S07",
+        "S08",
+        "S09",
+        "S11",
+        "S12"
+      ],
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "subject_count": 3,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-fawkes",
+        "identity-conspirator-a",
+        "identity-conspirator-b"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/conspiracy-table.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png",
+      "sha256": "6c718dc03db1cd15c511f728b19702ce8bae458d3889d06859ca37f034a92fe8",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [
+        "clip-02"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "candidates": [
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r001.png",
+          "sha256": "c40109b3aef74a07dc998d7f9b128aa2d4ff5fd28db606e18f4a5ddfd80b9d20",
+          "revision": "r001",
+          "review_status": "rejected",
+          "reviewer": "assistant",
+          "notes": "Reject: plan depicts the later neo-Gothic Parliament/clock tower rather than a simple medieval building outline; person identities/count and props otherwise read."
+        }
+      ],
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:19:23.526263+00:00",
+        "scope": "Actual full-frame/270×480 image review against actual storyboard panels; individual reference selection only.",
+        "notes": "Exactly three distinct identified roles; Fawkes center, burgundy/cross A left, bareheaded olive B right. One miniature crown and one simple unlettered two-gable symbolic plan. Anachronistic clock-tower drawing fixed. S07/S08/S09/S11/S12 supported by close crops/actions; S10 over-shoulder angle still needs its own single-view anchor.",
+        "phone_inspection_path": "plan/references/inspection-r004/conspiracy-table-r002-phone.png",
+        "review_path": "plan/references/scene-review-r002.json"
+      }
+    },
+    {
+      "id": "powder-undercroft",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S28"
+      ],
+      "source_analysis_ids": [
+        "A06",
+        "A07"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-fawkes"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/powder-undercroft.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+      "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-03",
+        "clip-05",
+        "clip-06"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "Exactly one correctly identified Fawkes, clear boot/hand/barrel/hoop/face crop coverage for S13–S18 and unchanged closed barrels for S28. Ground-floor storage evocation, no lit fuse/fire. Partially obscured stacks imply storage; do not claim 36 visibly counted barrels.",
+        "phone_inspection_path": "plan/references/inspection-r003/powder-undercroft-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "warning-letter",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S21"
+      ],
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-guard-lead"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/warning-letter.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-r001.png",
+      "sha256": "dfff5ce1f15bab3a28fdac8504d0aba699c8009b811b6a9c0fb18495d96e089a",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "Open/partially unfolded reading state only. S19/S20 folded handoff uses warning-letter-handoff.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "One correctly styled lead guard reads one open creased blank sheet, anonymous sender hand at its corner. Approved for S21 reading state only; S19/S20 need a separate folded-letter handoff anchor to preserve prop phase.",
+        "phone_inspection_path": "plan/references/inspection-r003/warning-letter-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "search-arrest-threshold",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "source_analysis_ids": [
+        "A07",
+        "A08"
+      ],
+      "subject_count": 3,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "powder-undercroft",
+        "cellar-door-search"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/search-arrest-threshold.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png",
+      "sha256": "1545ef8c506f18d279ab64c81133c0d3961c397246e280ed4d61cd4f6c461617",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "Fawkes identity inherited from approved powder-undercroft, guards from individual identities, same door from closed-door search anchor. Four content images plus style fit image-tool limit.",
+      "candidates": [
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r001.png",
+          "sha256": "49aef061d5ddd53c9d6c3fc4cec2a035c3fc90347d69315865bde7d8624ae033",
+          "revision": "r001",
+          "review_status": "rejected",
+          "reviewer": "assistant",
+          "notes": "Correct three identities and no prior restraint, same closed barrel/left-hinged door scene; peer polearm blade/holding hand clip at right edge and lantern has insufficient left margin. Revise only framing."
+        }
+      ],
+      "content_images": [
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r001.png",
+          "role": "Previous threshold candidate for safe framing correction; identities/colors were reviewed but full image rejected for edge clipping."
+        }
+      ],
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:31:47.328402+00:00",
+        "scope": "Full-frame/270×480 review against actual selected storyboard panels; individual reference selection, not render approval.",
+        "notes": "Exactly two distinct guards plus one Fawkes, same barrel aisle and open left-hinged oak door. Complete lantern, polearm blade/holding hand and boots now visible inside the frame. Lead guard has an open stop palm close to Fawkes cloak, not an enclosed sleeve grip: actual restraint belongs to S26; do not claim a pristine lowered-hand start. Supported S24 discovery, S25 reach, S26 hand/sleeve crop and S27 face reaction; no fuse/explosion. Actual full/phone views reviewed.",
+        "phone_inspection_path": "plan/references/inspection-r005/search-arrest-threshold-r002-phone.png",
+        "review_path": "plan/references/reference-review-r001.json"
+      }
+    },
+    {
+      "id": "custody-door",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S29"
+      ],
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-guard-lead"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/custody-door.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png",
+      "sha256": "3736f2cfe66cdd70eb82085992b15cd1223256e834857cd49af00a2a3d90e336",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "One lead guard and one ajar custody oak door with square barred inspection opening; empty gap, no prisoner depiction. S29 supports door-closing transition; later candle scene must match door material/iron shapes.",
+        "phone_inspection_path": "plan/references/inspection-r003/custody-door-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "custody-candle",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S30"
+      ],
+      "source_analysis_ids": [
+        "A07"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "custody-door"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/custody-candle.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/custody-candle-r001.png",
+      "sha256": "9f4da8e842e9ac41c16118ee8a994764c8621497b6acfea60a8271aac485d857",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:19:23.526263+00:00",
+        "scope": "Actual full-frame/270×480 image review against actual storyboard panels; individual reference selection only.",
+        "notes": "One extinguished candle, one tiny residual smoke wisp, empty closed square-barred oak custody door. S30 symbolic later consequence; no body, death-in-cellar depiction, readable text or flame. Matches prior custody door oak/iron/arch palette.",
+        "phone_inspection_path": "plan/references/inspection-r004/custody-candle-r001-phone.png",
+        "review_path": "plan/references/scene-review-r002.json"
+      }
+    },
+    {
+      "id": "mask-book",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S31"
+      ],
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-modern-mask"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/mask-book.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/mask-book-r001.png",
+      "sha256": "5cb2cbf39a3fd445594a6b5ef98b14d597644d254696de0a6d8b4808e23b3c6d",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "One hand holds one closed dark book with mask motif and visible page edges/spine; no title or letters. S31 is a symbolic literary reference, not a reproduction of a published cover.",
+        "phone_inspection_path": "plan/references/inspection-r003/mask-book-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "modern-masked-group",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S33",
+        "S34",
+        "S36"
+      ],
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "subject_count": 3,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-modern-mask"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/modern-masked-group.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r003.png",
+      "sha256": "d5b57eced9e000b66d88079e2332149afefe709d160a2398c66bb460a60346d7",
+      "revision": "r003",
+      "review_status": "approved",
+      "clips": [
+        "clip-06"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "candidates": [
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r001.png",
+          "sha256": "c7c7db0adf75a491517f8f0d75065e6b3a125dd9f78afb2f0c17744d4841faa7",
+          "revision": "r001",
+          "review_status": "rejected",
+          "reviewer": "assistant",
+          "notes": "Reject: background is historical/domed/spired instead of contemporary, and the left role shoe crosses the frame boundary."
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r002.png",
+          "sha256": "dc1d3c330ea599dd9bdb32381e58b32491bcf10b1ab4b4ad37bde60483602972",
+          "revision": "r002",
+          "review_status": "rejected",
+          "reviewer": "assistant",
+          "notes": "Contemporary setting and exact trio fixed, but outer supporting shoes/hands still only ~1–2 percent inside side edges, below safe-margin contract. Reject for crop risk, retain composition as correction input."
+        }
+      ],
+      "content_images": [
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r002.png",
+          "role": "Rejected previous composition for targeted safe-margin correction only; never an approved production reference"
+        }
+      ],
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:27:16.365405+00:00",
+        "scope": "Actual full-frame and phone-scale storyboard comparison; individual production anchor selection.",
+        "notes": "Exactly three distinct charcoal/blue/burgundy hoodie adults, consistent ivory/black/rose masks, sparse rectilinear contemporary plaza. All head/hand/shoe contours now well inside the frame with ample paving; safe-margin rejection corrected. S33 group view and S34/S36 central face crops supported. Not a documented protest event.",
+        "phone_inspection_path": "plan/references/inspection-r005/modern-masked-group-r003-phone.png",
+        "review_path": "plan/references/scene-review-r003.json"
+      }
+    },
+    {
+      "id": "cellar-door-search",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S22",
+        "S23"
+      ],
+      "source_analysis_ids": [
+        "A07",
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-guard-lead"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/cellar-door-search.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+      "sha256": "fdb2a8167f71aeec0294c34df0e4e99bfc90febf1133634f8b6728be7eb5735f",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "One lead guard with one lantern before a closed oak door; latch, arch and left hinges are visible. Covers S22/S23 prior to door opening, not arrest. Safe hands and clear one-action latch route.",
+        "phone_inspection_path": "plan/references/inspection-r003/cellar-door-search-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "modern-mask-lift",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S32"
+      ],
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-modern-mask"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/modern-mask-lift.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/modern-mask-lift-r001.png",
+      "sha256": "f48bb6381df0994fac9a9a1cb3ff75cf869222089bcdc9e256950bba151c7209",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "Translate linked panel compositions into one single-view scene. Validate required crops/action before selection; split anchor or revise unsupported cut if one image cannot cover all panels.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+        "scope": "Actual full-frame and 270×480 visual review against selected storyboard panels; individual production anchor only. Not user review of future renders.",
+        "notes": "One round-headed anonymous charcoal-hoodie adult holds one matching mask below the uncovered face. Ready for S32 raising action; facial mask is not already worn. Both hands and prop distinct.",
+        "phone_inspection_path": "plan/references/inspection-r003/modern-mask-lift-r001-phone.png",
+        "review_path": "plan/references/scene-review-r001.json"
+      }
+    },
+    {
+      "id": "warning-letter-handoff",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S19",
+        "S20"
+      ],
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-guard-lead",
+        "warning-letter"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/warning-letter-handoff.md",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "One tightly folded paper passed from anonymous hand to official; no open-page reading state.",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-handoff-r001.png",
+      "sha256": "928acb150d8ea5ade46a6cf198e42e6b57a2486d388fe6ccc5a8b69c73b3faab",
+      "revision": "r001",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:19:23.526263+00:00",
+        "scope": "Actual full-frame/270×480 image review against actual storyboard panels; individual reference selection only.",
+        "notes": "One closed folded blank letter passed between an anonymous brown-sleeved sender hand and the lead guard receiving hand. Doubled paper edge reads at phone scale. S19/S20 handoff inserts only; partially cropped guard hat rules out treating this as a full identity view.",
+        "phone_inspection_path": "plan/references/inspection-r004/warning-letter-handoff-r001-phone.png",
+        "review_path": "plan/references/scene-review-r002.json"
+      }
+    },
+    {
+      "id": "conspiracy-plan-shoulder",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S10"
+      ],
+      "source_analysis_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "subject_count": 3,
+      "subject_count_note": "Complete visible people. Detached story-required hands are separately specified in prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "conspiracy-table"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/conspiracy-plan-shoulder.md",
+      "review_status": "approved",
+      "clips": [
+        "clip-02"
+      ],
+      "coverage_note": "Separate single-view S10 over-shoulder table-plan anchor; same identities/table/blank schematic/crown as accepted front view.",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-plan-shoulder-r001.png",
+      "sha256": "5b3c70438a59d497f1140e1f525d6310cef352da5c9f0ffccada54769529edb2",
+      "revision": "r001",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T13:27:16.365405+00:00",
+        "scope": "Actual full-frame and phone-scale storyboard comparison; individual production anchor selection.",
+        "notes": "Actual over-left-shoulder S10 angle: burgundy A foreground left points once; Fawkes center and bareheaded olive B right retain identities. One blank simple two-gable sketch and one miniature crown clearly visible at phone size. Intentional foreground shoulder/support-role crop does not cut the primary point, plan, crown or Fawkes face. Same room/table/costume continuity as front anchor.",
+        "phone_inspection_path": "plan/references/inspection-r005/conspiracy-plan-shoulder-r001-phone.png",
+        "review_path": "plan/references/scene-review-r003.json"
+      }
+    },
+    {
+      "id": "arrest-sleeve-grip",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S26"
+      ],
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "No complete people; exactly one lead-guard gripping hand and Fawkes forearm with own dangling hand.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "search-arrest-threshold"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/arrest-sleeve-grip.md",
+      "selected_path": "assets/episodes/007-guy-fawkes-mask/references/arrest-sleeve-grip-r001.png",
+      "sha256": "cbbb6335bc753053fcfde77fa37549da6cec0927074d9d4c49498b12b4a99f83",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "Pilot r001 failed exact clothing ownership in S26 crop. Dedicated close authority binds blue guard cuff to brown Fawkes sleeve; original neutral panel unchanged.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T15:14:51.614535+00:00",
+        "scope": "Actual full-frame and phone comparison against S26 and threshold image",
+        "notes": "Blue lead-guard forearm stays visible from left; one pale gripping hand closes around Fawkes dark brown upper sleeve, one relaxed Fawkes hand below. No peer/heads/extra arms. Exact clothing ownership legible at270x480. Grip already closed; primary action is one tiny cloth compression, not a fresh open-palm reach.",
+        "phone_inspection_path": "plan/references/inspection-r006/arrest-sleeve-grip-r001-phone.png",
+        "review_path": "plan/references/reference-review-r003.json"
+      }
+    }
+  ],
+  "coverage_gaps": [],
+  "timing_status": "Final clip assignments bound to accepted full voice and 801-frame plan; static art unchanged.",
+  "engine_feasibility": "One action per shot; supported inserts/crops first, each era/location/state handoff requires its own single-image anchor. Exact 36 barrels are spoken; partial stationary stacks visually imply quantity without inventing a visible count.",
+  "review_decision": {
+    "reviewer": "assistant",
+    "reviewed_at": "2026-10-05T13:31:47.328402+00:00",
+    "scope": "Production reference image QC and storyboard coverage only; no user approval of renders or final timed direction claimed.",
+    "path": "plan/references/reference-review-r002.json"
+  },
+  "coverage_path": "plan/references/panel-coverage-r001.json"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "renders/editorial/episode-007-clip-01-mask-to-1605-r002.mp4",
+  "source_sha256": "10c4ebfe6c43935ac104d3d7b247f36c84ef2b1d347ee9f7c442fcad8818ebe5",
+  "output": "renders/audio-corrected/episode-007-clip-01-r002-clean-sfx-r001.mp4",
+  "stem": "audio/sfx/clip-01-clean-stem-r001.wav",
+  "native_audio": "exclude_completely",
+  "native_failure_evidence": "renders/review-evidence/clip-01-r002/audio-occupancy-r001.json",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/candidates-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "approved",
+      "review_evidence": "audio/sfx/selected-effects-r001.json",
+      "kind": "cloth",
+      "start_seconds": 0.0833333333,
+      "gain_db": -3,
+      "observed_action": "Actual charcoal cuff and mask-holding hand tilt at first-shot frames2\u20134; no sound assigned to static macro inserts, untouched door or flame."
+    }
+  ],
+  "review": "Only accepted physical cloth excerpt reused; placement based on actual132frame picture review. Does not approve native soundtrack or final encoded master."
+}

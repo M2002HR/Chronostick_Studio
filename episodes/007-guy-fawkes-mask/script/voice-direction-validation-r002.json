@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "errors": [],
+  "clean_sha256": "108eb25a2f27584b539a7303d9744ce5944e28fb3b29ea2ee3cfd21d3716fa64",
+  "tagged_sha256": "75c726728ac0c589b628cae876c861e4f6abb5f777cf22ee81ecf970f7459369",
+  "characters": 849,
+  "tag_count": 30,
+  "tag_counts": {
+    "[rushed pace]": 6,
+    "[curiosity]": 1,
+    "[bold]": 6,
+    "[excited]": 2,
+    "[authoritative]": 1,
+    "[frustration]": 1,
+    "[determination]": 2,
+    "[serious]": 3,
+    "[awe]": 1,
+    "[surprised]": 2,
+    "[natural pace]": 1,
+    "[short pause]": 1,
+    "[enthusiasm]": 2,
+    "[thoughtful]": 1
+  },
+  "scene_count": 1,
+  "spoken_text_identical_ignoring_whitespace": true,
+  "catalog": "docs/google-vids-voice-direction.md",
+  "actual_voice_accepted": false
+}

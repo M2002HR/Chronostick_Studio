@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-05T15:49:15.370503+00:00",
+  "reviewer": "user (actual soundpreview feedback)",
+  "quote": "بد نیس، به عنوان فال بک بگیریمش و حتی الامگان تویپرامپت به شدت کنترلش کنیم که بدون موسیقی و فقط با sfx چون برای خودش بهتر و هماهنگ تره",
+  "scope": "Sound workflow preference and shown clip04fallback only; no futureclean nativeaudio assumed",
+  "priority": "Prefer actual reviewedengine SFX fromstrong no-music prompts fornatural sync",
+  "fallback": "Use independently reviewed physical effects only whenactual nativeaudio hasmusic/otherfault",
+  "preview": "renders/audio-corrected/episode-007-clip-04-r002-clean-sfx-preview-r001.mp4",
+  "preview_feedback": "Acceptable as fallback; do not defaultreplaceevery future native sound",
+  "assets_scope": "These shown three shortrecorded cues accepted forfallbackpreview; placement stillreviewedper actualclip"
+}

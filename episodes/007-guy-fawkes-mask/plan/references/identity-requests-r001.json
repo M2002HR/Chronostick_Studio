@@ -1,0 +1,38 @@
+{
+  "revision": "r001",
+  "created_at": "2026-10-05T12:02:37.710511+00:00",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "identity-fawkes",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-fawkes.md",
+      "prompt": "Create one single uninterrupted full-frame vertical 9:16 production image in the approved detailed cinematic ChronoStick style. The supplied style reference is rendering authority only: round off-white heads with thick dark outlines, tiny black dot eyes, minimal brows/mouth, no realistic human nose or anatomical face, narrow simplified stick-derived limbs and torso, detailed period clothing, muted ochre/brown/charcoal/blue-gray palette, clearly drawn contour geometry on every object, subtle illustrated shading and cinematic light. Translate every visible surface into the same drawn world. Deliver exactly one view and one pose, with safe crop margins. No sheet, grid, collage, panels, labels, lettering, typography, swatches, inset faces, duplicate people, photoreal textures, realistic anatomy or extra objects.\n\nThe second supplied image is historical costume/recognition content only, not rendering style: use only the figure labeled Guido Fawkes, third from the right. Depict exactly ONE historical adult Guy Fawkes, full body centered and facing slightly toward screen right; head, hat and boots entirely visible with generous margins, eye-level medium-long framing, person occupies 72 percent of image height. Broad slightly drooping dark felt hat brim, plain soft tall crown without plume; dark wavy cheek-length hair; small curled dark moustache and a compact pointed full beard rendered as clean simple drawn shapes over the off-white round head. Pale open Jacobean collar, charcoal-brown buttoned doublet, muted dark umber shoulder cloak, narrow knee breeches, simple dark tall boots and belt. Narrow stick-derived body and limbs, very simple pale drawn hands, closed mouth, watchful brow, arms resting naturally without a weapon or prop. Plain drawn warm-gray plaster-wall background with one muted floor plane and soft upper-left light, no architecture montage, props or other people. This is historical Fawkes, with zero modern plastic masks, hoodies, feathers or modern clocks. The beard is historical facial hair, not mask artwork; preserve the round stick-head construction.\n",
+      "prompt_sha256": "9ff5c692be22f6b53e46c0df57e54f6156a22689efc5379c3927cd34994adcc9",
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "episodes/007-guy-fawkes-mask/source/research/portraits/gunpowder-conspirators-folger-p281-r001.jpg"
+      ],
+      "transparent_background": false
+    },
+    {
+      "id": "identity-guard-lead",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-guard-lead.md",
+      "prompt": "Create one single uninterrupted full-frame vertical 9:16 production image in the approved detailed cinematic ChronoStick style. The supplied style reference is rendering authority only: round off-white heads with thick dark outlines, tiny black dot eyes, minimal brows/mouth, no realistic human nose or anatomical face, narrow simplified stick-derived limbs and torso, detailed period clothing, muted ochre/brown/charcoal/blue-gray palette, clearly drawn contour geometry on every object, subtle illustrated shading and cinematic light. Translate every visible surface into the same drawn world. Deliver exactly one view and one pose, with safe crop margins. No sheet, grid, collage, panels, labels, lettering, typography, swatches, inset faces, duplicate people, photoreal textures, realistic anatomy or extra objects.\n\nDepict exactly ONE unnamed English search guard role in a restrained Jacobean 1605 evocation, not a portrait of an identified historical arresting officer. One full body centered, facing slightly screen left; 72 percent image height, eye-level, hat and boots inside safe margins. Round off-white stick head, two dot eyes, small alert brow, no beard, no realistic nose. A plain low charcoal broad-brim felt hat, muted slate-blue knee-length buttoned coat with pale modest collar and cuffs, simple leather belt, narrow dark breeches and drawn boots. Slim stylized stick-derived limbs and torso, very simple drawn hands. His right hand at screen left holds exactly one small period iron lantern with a ring handle, framed drawn amber panes and tiny enclosed candle, no modern gas lantern or electric bulb. His other hand rests free. No polearm, sword, text, badge, cross or extra lantern. Calm watchful posture; plain illustrated warm-gray plaster wall and muted floor plane, soft upper-left warm light. Zero other people. This lead guard will receive the anonymous warning and conduct the search; costume is a production role design, not an asserted historical uniform.\n",
+      "prompt_sha256": "b7a6086f761fb3832e5fe3ddb41479db0c977a042aea09df1cc0ce9a179444d2",
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "id": "identity-modern-mask",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-modern-mask.md",
+      "prompt": "Create one single uninterrupted full-frame vertical 9:16 production image in the approved detailed cinematic ChronoStick style. The supplied style reference is rendering authority only: round off-white heads with thick dark outlines, tiny black dot eyes, minimal brows/mouth, no realistic human nose or anatomical face, narrow simplified stick-derived limbs and torso, detailed period clothing, muted ochre/brown/charcoal/blue-gray palette, clearly drawn contour geometry on every object, subtle illustrated shading and cinematic light. Translate every visible surface into the same drawn world. Deliver exactly one view and one pose, with safe crop margins. No sheet, grid, collage, panels, labels, lettering, typography, swatches, inset faces, duplicate people, photoreal textures, realistic anatomy or extra objects.\n\nDepict exactly ONE anonymous contemporary stick-world adult, full body centered in one still pose, facing front. Person occupies 72 percent image height; hood, hands and shoes entirely within generous safe crop margins. Slim stick-derived body and limbs, plain charcoal hoodie with hood up, two unlettered drawstrings, muted blue-gray straight trousers and simple dark drawn shoes. The face is covered by exactly ONE distinct drawn ivory Guy Fawkes style mask: compact rounded tapered shield silhouette, two dark almond eye openings, sweeping thin black brows, paired small rose-colored cheek marks, clean curled black moustache, thin smile and short pointed black goatee motif. Treat these as clearly outlined paint on a simple illustrated prop; no realistic flesh or detailed anatomical nose. Keep the mask readable in a phone-size close crop. Both simple hands rest at the sides, no placard, book, phone, weapon, logos or other people. Plain drawn cool blue-gray wall and floor, warm key from upper left with a subtle cool edge. This is a modern masked role and must remain distinct from historical Fawkes: no Jacobean hat, collar, beard hair, doublet or cloak. One scene, one identity, zero alternate poses.\n",
+      "prompt_sha256": "01a70c87c373d49617f17fbc4d8d3891a2f9c162a758c2792d78ea4d59b8b3fa",
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "transparent_background": false
+    }
+  ]
+}

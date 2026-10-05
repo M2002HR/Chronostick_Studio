@@ -1,0 +1,22 @@
+Review the complete attached reference video alongside the supplied
+STT transcript as a director, editor and audio reviewer. Return a JSON object
+with: coverage_method, source_language, audible_delivery_and_sound,
+timecoded_sequences, transcript_mismatches, visual_story_mechanisms,
+historical_claims_needing_verification, generation_feasibility, and uncertainty.
+In each timecoded sequence give approximate start/end, observable people/props,
+action, camera/edit technique, visible text and narrative function. Distinguish
+what you actually observe/hear from interpretation. Do not invent exact cut
+times, hidden actions or perfect timing. Call out STT mistakes only if audible.
+Evaluate the hook, joke labels, religious-context section, cellar/barrels gag,
+arrest reveal and ending. Suggest how to compress to a 30-second original
+Spanish short in a detailed stick-world with very fast purposeful cuts, one
+main action and at most one camera move per shot, and no separately authored
+editing pass. Do not copy dialogue, creator art or the final film quotation.
+Generated production clips must have no music or speech, only small isolated
+natural SFX; the Spanish narration will be supplied separately. A source's
+music is observation, never permission for production music. Treat historical
+claims as unverified and mark unknowns. This response is machine-review evidence,
+not a production approval.
+
+Actual STT transcript follows:
+This mask, surely you know it. But where is it from and why does it have to do with blowing up the government? Back in the 1500s, England was going through a Christianity crisis. The average person had been mainly Catholic, so team Pope, while the Crown and government started to lean more towards Protestantism. So team no Pope. And one day the authorities were like, you know what, let's make Protestantism the main state religion. In other words, being Catholic was about to be illegal. Wait, what? Said Guy Fawkes, who was a guy. I'm not going to let that happen. So he formed a small gang and together they made a plan to get rid of King James the First and his followers… by blowing up Parliament? Not sure how that would work, but the enthusiasm was there. So on November 5th, 1605, the Guy Gang entered Parliament's basement, placed a whopping 36 gunpowder barrels and… they got arrested. Yeah, not just that, but tortured and their heads were cut off and put on London Bridge. Turns out a Catholic nobleman ratted them out. But beneath this mask there is more than flesh. There's an idea, Mr. Creedy. And ideas are bulletproof.

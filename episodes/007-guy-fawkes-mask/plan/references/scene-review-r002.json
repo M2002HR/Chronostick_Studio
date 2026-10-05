@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-10-05T13:19:23.526263+00:00",
+  "reviewer": "assistant",
+  "decisions": [
+    {
+      "id": "conspiracy-table",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png",
+      "sha256": "6c718dc03db1cd15c511f728b19702ce8bae458d3889d06859ca37f034a92fe8",
+      "notes": "Exactly three distinct identified roles; Fawkes center, burgundy/cross A left, bareheaded olive B right. One miniature crown and one simple unlettered two-gable symbolic plan. Anachronistic clock-tower drawing fixed. S07/S08/S09/S11/S12 supported by close crops/actions; S10 over-shoulder angle still needs its own single-view anchor."
+    },
+    {
+      "id": "warning-letter-handoff",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-handoff-r001.png",
+      "sha256": "928acb150d8ea5ade46a6cf198e42e6b57a2486d388fe6ccc5a8b69c73b3faab",
+      "notes": "One closed folded blank letter passed between an anonymous brown-sleeved sender hand and the lead guard receiving hand. Doubled paper edge reads at phone scale. S19/S20 handoff inserts only; partially cropped guard hat rules out treating this as a full identity view."
+    },
+    {
+      "id": "custody-candle",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/custody-candle-r001.png",
+      "sha256": "9f4da8e842e9ac41c16118ee8a994764c8621497b6acfea60a8271aac485d857",
+      "notes": "One extinguished candle, one tiny residual smoke wisp, empty closed square-barred oak custody door. S30 symbolic later consequence; no body, death-in-cellar depiction, readable text or flame. Matches prior custody door oak/iron/arch palette."
+    },
+    {
+      "id": "modern-masked-group",
+      "decision": "rejected",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r002.png",
+      "sha256": "dc1d3c330ea599dd9bdb32381e58b32491bcf10b1ab4b4ad37bde60483602972",
+      "notes": "Contemporary setting and exact trio fixed, but outer supporting shoes/hands still only ~1–2 percent inside side edges, below safe-margin contract. Reject for crop risk, retain composition as correction input."
+    }
+  ],
+  "scope": "Individual production anchors, whole stage still draft"
+}

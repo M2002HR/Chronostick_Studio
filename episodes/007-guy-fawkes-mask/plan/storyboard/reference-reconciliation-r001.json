@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-05T12:38:10.307249+00:00",
+  "scope": "Reference coverage; no story or panel action change",
+  "changes": [
+    {
+      "panels": [
+        "S22",
+        "S23"
+      ],
+      "reference": "cellar-door-search",
+      "reason": "Closed-door latch and lantern inserts require a separate pre-opening state from the three-person open-door discovery anchor."
+    },
+    {
+      "panels": [
+        "S32"
+      ],
+      "reference": "modern-mask-lift",
+      "reason": "Mask-raising action requires one off-face start pose; already-masked identity/group images do not supply that state."
+    }
+  ],
+  "selected_storyboard_revision": "r002",
+  "new_sketch_revision_needed": false
+}

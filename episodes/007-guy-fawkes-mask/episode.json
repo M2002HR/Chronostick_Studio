@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "id": "007-guy-fawkes-mask",
+  "format": "short",
+  "workflow": "reference-first-v1",
+  "title": "Why does this Mask mean Boom boom?",
+  "production_profile": "h3-short-dynamic-16step-20-30s",
+  "target_language": "es",
+  "target_seconds": 33.375,
+  "generation_steps": 16,
+  "clip_duration_seconds": {
+    "minimum": 4,
+    "maximum": 7
+  },
+  "accepted_voice": "audio/narration-es-r001.wav",
+  "accepted_timing_map": "timestamps/timing-map.json",
+  "picture_master": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+  "distribution_master": "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+  "next_action": "Upload-ready local package complete; thumbnail has actual assistant QC. Publication requires a separate explicit instruction.",
+  "source_transcription_provenance": "source/reference-video/transcription/reference-provenance-r004.json",
+  "review_package": "plan/review-package-fa.md",
+  "creative_approvals": [
+    {
+      "decision_id": "continue-current-storyboard-r001",
+      "path": "plan/review-decisions.json",
+      "scope": [
+        "scenario-script",
+        "storyboard"
+      ]
+    }
+  ],
+  "voice_provider": "google_vids",
+  "voice_direction": {
+    "provider": "google_vids",
+    "selection": "used",
+    "status": "approved",
+    "skill": "chronostick-voice-direction",
+    "script_path": "script/voiceover-google-vids-es.md",
+    "notes_path": "script/voice-direction-notes.md",
+    "validation_path": "script/voice-direction-validation-r002.json",
+    "clean_script_sha256": "108eb25a2f27584b539a7303d9744ce5944e28fb3b29ea2ee3cfd21d3716fa64",
+    "tagged_script_sha256": "75c726728ac0c589b628cae876c861e4f6abb5f777cf22ee81ecf970f7459369",
+    "performance": "rushed base; frequent purposeful emotions; serious consequence; enthusiastic payoff and tiny subscribe CTA",
+    "user_request": "Prepare final-text Google Vids copy with registered tags, many emotions and relatively fast exciting delivery",
+    "actual_audio": "audio/narration-es-r001.wav",
+    "delivery_review": "audio/voice-review.md"
+  },
+  "cta": {
+    "type": "subscribe",
+    "text": "Suscríbete.",
+    "placement": "after_payoff",
+    "user_requested": true
+  },
+  "voice_intake": {
+    "status": "approved",
+    "provider": "google_vids",
+    "language": "es",
+    "supplied_name": "historia_07.mp4",
+    "source_path": "audio/source/voice-export-es-r001.mp4",
+    "assembly_audio_path": "audio/narration-es-r001.wav",
+    "native_audio_path": "audio/narration-es-r001.m4a",
+    "provenance_path": "audio/narration-provenance-es-r001.json",
+    "qc_path": "audio/narration-qc-es-r001.json",
+    "duration_seconds": 33.365333,
+    "user_intent": "Use the supplied extracted voice for final assembly",
+    "perceptual_review": "user contextual acceptance; no assistant auditory audition claimed",
+    "target_duration_status": "Episode-only complete-voice override accepted; target 33.375 seconds",
+    "transcription_provenance": "timestamps/ajil/voice-provenance-r001.json"
+  },
+  "assembly_voice_candidate": "audio/narration-es-r001.wav",
+  "reference_package": {
+    "manifest_path": "plan/reference-manifest.json",
+    "review_path": "plan/references/reference-review-r004.json",
+    "gallery_path": "plan/references/gallery-fa.md",
+    "identity_count": 6,
+    "scene_count": 17,
+    "selected_count": 23,
+    "reviewer": "assistant",
+    "status": "approved for reference-image QC"
+  },
+  "duration_choice": {
+    "status": "accepted_by_contextual_continuation",
+    "decision_path": "plan/voice-acceptance-r001.json",
+    "user_quote": "ادامه بده با دقت",
+    "default_not_changed": true
+  },
+  "initial_target_seconds": 30,
+  "duration_override": {
+    "scope": "episode_only",
+    "initial_target_seconds": 30,
+    "voice_duration_seconds": 33.365333,
+    "voice_path": "audio/narration-es-r001.wav",
+    "voice_sha256": "f9a7e873c38baf9280804625de4e5f00cfe5ea73f2bbc3e69c38ca21e740a376",
+    "decision_path": "plan/voice-acceptance-r001.json",
+    "reason": "User continued proposed complete-voice route; picture rounds up by 0.009667 seconds to 801 frames, defaults remain 20–30 seconds."
+  },
+  "audio_strategy": {
+    "path": "plan/native-sfx-priority-r001.json",
+    "primary": "Actual reviewednative short isolatedSFX fromstrictno-musicprompts",
+    "fallback": "Complete nativeaudio exclusion and independent reviewedphysicalcues onlyfor contaminatedtake",
+    "music_allowed": false,
+    "separate_voice": "audio/narration-es-r001.wav"
+  },
+  "finish": {
+    "status": "accepted_for_delivery_by_contextual_continuation",
+    "manifest": "postproduction/exports/r003/manifest.json",
+    "review": "postproduction/review-r003.json",
+    "distribution_sha256": "1b636e7771046927599a99b36f60d0b01d261b5395c96f050eeacdd2af9e7ecd",
+    "caption_profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_weight": "Bold",
+    "font_size": 104,
+    "whole_video_user_approval": null,
+    "user_decision": "postproduction/user-acceptance-r001.json"
+  },
+  "delivery": {
+    "status": "ready_for_manual_upload",
+    "metadata": "delivery/youtube/metadata.json",
+    "thumbnail": "delivery/youtube/thumbnail-episode-007-r003.png",
+    "thumbnail_prompt": "delivery/youtube/thumbnail-prompt-r004.md",
+    "thumbnail_provenance": "delivery/youtube/thumbnail-provenance-r003.json",
+    "thumbnail_review": "delivery/youtube/thumbnail-review-r003.json",
+    "thumbnail_generation_authorized": true,
+    "thumbnail_user_approval": null,
+    "release_archive": "delivery/release/episode-007-es-release-r001.zip",
+    "uploaded": false,
+    "published": false
+  }
+}

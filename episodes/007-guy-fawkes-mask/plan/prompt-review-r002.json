@@ -1,0 +1,70 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-05T15:15:47.210553+00:00",
+  "scope": "User explicitly reinforced zero music all clips after hearing pilot music. Actual text review binds new opening/end audio locks and seven-cut grip repair; no actual audio approval.",
+  "previous_review": "plan/prompt-review-r001.json",
+  "direction_review": "plan/timed-direction-review-r002.json",
+  "audio_decision": "plan/audio-policy-reaffirmation-r001.json",
+  "checks": [
+    "Every file begins with exactpolicy once and silent-default soundtrack lock",
+    "Every shot has isolated short cue or silence; no transition/ending music",
+    "EveryPicture maps once inordered scene anchors",
+    "All46 explicitly authored cuts follow reviewedpanel/state inventories and resolvedtail"
+  ],
+  "prompts": [
+    {
+      "clip_id": "clip-01",
+      "path": "prompts/clip-01-mask-to-1605.md",
+      "sha256": "efd93be1f6ed8692015b8bf2b8ded2be3a1dfee3cfbce62d8b585dfeab764c13",
+      "shots": 8,
+      "pictures": 3,
+      "audio_policy_occurrences": 1,
+      "strong_zero_music_opening_and_ending": true
+    },
+    {
+      "clip_id": "clip-02",
+      "path": "prompts/clip-02-conspiracy-target.md",
+      "sha256": "6f903b15c3f9508800b26cd7b7007a419eb4f321ca8e438a90b9a49da22ddbda",
+      "shots": 8,
+      "pictures": 2,
+      "audio_policy_occurrences": 1,
+      "strong_zero_music_opening_and_ending": true
+    },
+    {
+      "clip_id": "clip-03",
+      "path": "prompts/clip-03-powder-watch.md",
+      "sha256": "879608c62a7ac948e26ffb0c8136a24928b10b595daa230a867db68c56108755",
+      "shots": 6,
+      "pictures": 1,
+      "audio_policy_occurrences": 1,
+      "strong_zero_music_opening_and_ending": true
+    },
+    {
+      "clip_id": "clip-04",
+      "path": "prompts/clip-04-letter-search-arrest.md",
+      "sha256": "70f616e1ed1052f1dd053e1a879eb64c548b2deca68cd349bf7018c72946716f",
+      "shots": 7,
+      "pictures": 5,
+      "audio_policy_occurrences": 1,
+      "strong_zero_music_opening_and_ending": true
+    },
+    {
+      "clip_id": "clip-05",
+      "path": "prompts/clip-05-consequence-and-mask.md",
+      "sha256": "d1184728452d226c6bfc48b5380ba82e4c3d48284b53e49a993c9df5df5cd13e",
+      "shots": 9,
+      "pictures": 5,
+      "audio_policy_occurrences": 1,
+      "strong_zero_music_opening_and_ending": true
+    },
+    {
+      "clip_id": "clip-06",
+      "path": "prompts/clip-06-symbol-payoff-cta.md",
+      "sha256": "117ef3b312e8a5b68ba4f264e4700306505acc4b61f17dd2a0abf42746ec497c",
+      "shots": 8,
+      "pictures": 3,
+      "audio_policy_occurrences": 1,
+      "strong_zero_music_opening_and_ending": true
+    }
+  ]
+}

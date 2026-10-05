@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "paper",
+    "id": 353125,
+    "page_url": "https://freesound.org/people/BenjaminNelan/sounds/353125/",
+    "page_path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/freesound-353125-page-r001.html",
+    "page_sha256": "9231526ea469bb383618ceda7d6a70084c1b05550e0f7042eb1bb6ddc80aab7a",
+    "license": "CC0-1.0",
+    "license_in_source_html": true,
+    "audio_url": "https://cdn.freesound.org/previews/353/353125_1196020-hq.mp3",
+    "path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/paper-freesound-353125-preview-r001.mp3",
+    "sha256": "fbf05bd9ba67a9df8eff656e813881c7f1a754d7473388785b228b0ed62dc564",
+    "quality": "HQlossypreview; originalfullWAV download requires account. Thissource hasnot beenpersonallyauditioned orapproved.",
+    "review_status": "needs_review"
+  },
+  {
+    "kind": "cloth",
+    "id": 435296,
+    "page_url": "https://freesound.org/people/zazz.sound.design/sounds/435296/",
+    "page_path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/freesound-435296-page-r001.html",
+    "page_sha256": "e2b8ddfe69607b9ea2899b8cc22b241df05b90cbe70703c26426d9819adfabfe",
+    "license": "CC0-1.0",
+    "license_in_source_html": true,
+    "audio_url": "https://cdn.freesound.org/previews/435/435296_726853-hq.mp3",
+    "path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/cloth-freesound-435296-preview-r001.mp3",
+    "sha256": "9595050ad949eac73fbe2b35f560201e235cd0fe4da4e839400d07598be18674",
+    "quality": "HQlossypreview; originalfullWAV download requires account. Thissource hasnot beenpersonallyauditioned orapproved.",
+    "review_status": "needs_review"
+  },
+  {
+    "kind": "metal",
+    "id": 333260,
+    "page_url": "https://freesound.org/people/scaevola/sounds/333260/",
+    "page_path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/freesound-333260-page-r001.html",
+    "page_sha256": "c411abf12475e81dc72aeab03b823257b867273b6ae69dcc76b1b3d4387f310c",
+    "license": "CC0-1.0",
+    "license_in_source_html": true,
+    "audio_url": "https://cdn.freesound.org/previews/333/333260_5273348-hq.mp3",
+    "path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/metal-freesound-333260-preview-r001.mp3",
+    "sha256": "ce11e67194a04a4753205d435c3928bf224fecda9792c92ca9fc737aa0671b08",
+    "quality": "HQlossypreview; notclaimedoriginalWAV",
+    "review_status": "needs_review"
+  }
+]

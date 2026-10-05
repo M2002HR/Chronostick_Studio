@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-10-05T13:05:55.455171+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "search-arrest-threshold",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/search-arrest-threshold.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput 2 controls Fawkes, input 3 the blue-gray felt-hat lead guard, input 4 the buff-coated steel-helmet peer guard; input 5 controls undercroft stone vault, fixed barrel stacks, central floor aisle, Fawkes costume and lighting geometry. Input 6 controls the same oak door, LEFT hinges, iron latch and stone arch from the closed-door search state; open this same door instead of replacing its construction. Exactly THREE visible adult stick people at the now-open storeroom threshold. Same eye-level axis looking into the barrel-lined aisle. ONE thick oak door is swung open against the screen-left stone arch, its iron latch/hinges visible. Lead guard foreground screen left in rear three-quarter view, identity's felt hat and blue-gray coat preserved; his right hand holds ONE low iron candle lantern. Peer guard foreground screen right in rear three-quarter view, buff coat, steel-gray open-face crested helmet; exactly ONE plain polearm at the far-right edge, its point safely inside frame. Fawkes is centered in midground, front visible between guards, boots visible, half a step away from the nearest right barrel, closed mouth and alert face. Nobody is already bound or gripping him: pre-restraint discovery instant ready for one guard reach. Lead guard's free left hand rests forward at waist level ready to stop Fawkes. Keep the hand-to-sleeve route clear, faces/hat silhouettes separable and fixed left-right placement. Stationary closed barrel stacks unchanged, zero lit fuse, explosion, fire, smoke, blood, extra people or additional lanterns/weapons. Warm lower-left lantern key and cool right shadows; every person/object in the same drawn stick-world. Distinct hat/helmet/head cues and exact count must survive close crop.\n",
+      "prompt_sha256": "e01a6303795bb9411ded5e9da44be570bacf29b64b59cbc4935eec266136400a",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+          "sha256": "6486f134966cc5e94f2ef47c1969538cb5b938a034edd8fd82d318b012f2f369",
+          "role": "identity-fawkes"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+          "sha256": "3827348f7bc4d988380538849680d4ee310325bde010f351a08142cc34a1f0ed",
+          "role": "identity-guard-lead"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-peer-r001.png",
+          "sha256": "2216ad763563f87e41d0ec7af822f139bc5d5074d072644a0c13d765300b49c3",
+          "role": "identity-guard-peer"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+          "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+          "role": "powder-undercroft"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+          "sha256": "fdb2a8167f71aeec0294c34df0e4e99bfc90febf1133634f8b6728be7eb5735f",
+          "role": "cellar-door-search"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-guard-peer-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ]
+    },
+    {
+      "id": "custody-candle",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/custody-candle.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls only the already-reviewed custody-door's illustrated stone, oak, dark iron-bar shapes and light palette; do not include its guard or ajar door state. Exactly ONE short extinguished ivory candle on ONE simple dark iron saucer sits large in foreground lower-left on a plain stone ledge. Wick black and unlit, no flame; ONE tiny thin drawn wisp of residual gray smoke, no haze bed. In the background upper-right, ONE empty dark square barred inspection opening in a heavy CLOSED oak custody door under a restrained pointed stone arch, matching supplied door/iron design. Zero people, hands, bodies, prisoners, weapons or visible violence. Tight eye-level symbolic insert with shallow illustrated depth, candle and barred opening both recognizable, warm dim upper-left light with muted cool shadow. Candle loss is a symbolic later execution consequence, not literal death in the cellar or a portrayed execution method. Every stone/wax/iron/smoke shape stays drawn; no photorealistic wax, lettering, numbers or extra candles.\n",
+      "prompt_sha256": "087b1c3baae5b6ea53bc0b157918ad59f6d13b6d514f63f1aebc0450a6ffac07",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png",
+          "sha256": "3736f2cfe66cdd70eb82085992b15cd1223256e834857cd49af00a2a3d90e336",
+          "role": "custody-door"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/custody-candle-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S30"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T13:17:28.926697+00:00",
+  "id": "modern-masked-group",
+  "revision": "r002",
+  "request_path": "plan/references/scenes-fix-requests-r002.json",
+  "request_sha256": "9d949d66dc8c7c458b77d26bd4ff51773c4bff80cfe9724a0a1fcd1691a0fa15",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-c4c38ce0-9835-4cfa-92d5-5c8decfeaf24.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r002.png",
+  "sha256": "dc1d3c330ea599dd9bdb32381e58b32491bcf10b1ab4b4ad37bde60483602972",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

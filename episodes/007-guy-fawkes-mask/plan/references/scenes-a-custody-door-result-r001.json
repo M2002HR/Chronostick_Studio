@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:58:41.539395+00:00",
+  "id": "custody-door",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "1744df962f4bf9880c9a6513dcee808b2ab5a4267e45bb6f68935589e34de48d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-c7694e4d-154e-49c8-a7b7-85965012bb14.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png",
+  "sha256": "3736f2cfe66cdd70eb82085992b15cd1223256e834857cd49af00a2a3d90e336",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

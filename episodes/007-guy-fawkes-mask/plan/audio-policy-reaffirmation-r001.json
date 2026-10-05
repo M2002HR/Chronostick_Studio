@@ -1,0 +1,9 @@
+{
+  "reviewer": "user",
+  "quote": "هرگز موسیقی نباشه",
+  "scope": "All generated clips in current production workflow",
+  "rule": "Absolutely no music; only short isolated dry physical SFX with silence between events.",
+  "no_generation_quality_inferred_from_flags": true,
+  "failed_candidate": "renders/editorial/episode-007-clip-04-letter-search-arrest-r001.mp4",
+  "response": "Strengthen all pure prompts and audio suffixes; inspect next actual output. A repeated audible music event requires rejecting the render and fixing the audio strategy, not merely labeling it approved."
+}

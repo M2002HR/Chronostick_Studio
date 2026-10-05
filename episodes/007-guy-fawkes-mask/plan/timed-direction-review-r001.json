@@ -1,0 +1,53 @@
+{
+  "reviewed_at": "2026-10-05T14:25:24.518145+00:00",
+  "reviewer": "assistant",
+  "decision": "approved for pure prompt authoring",
+  "voice_acceptance": "plan/voice-acceptance-r001.json",
+  "scope": "Actual word/number alias/overlap review, all selected sketch pages and fifteen scene-anchor phone views inspected during this direction stage; six dynamic slots and all 48 authored cuts reviewed. No generated motion/audio claim.",
+  "checks": [
+    "All 76 provider tokens have one owner; 80 clean spoken words differ only by aggregate 1605/36 number formatting.",
+    "Letter15.66–18.54 precedes final restraining grip19.333–19.6667; consequence candle starts21.0 at executed word.",
+    "Centuries/book begins23.0; mask adoption after24.8, worn by26.5; trio and powder/mask contrast follow actual ending words.",
+    "All 36 storyboard panels traced. Full door opening is represented by the cut after latch; material scenario/story/cast unchanged.",
+    "Final image holds31.708333–33.375 over payoff/CTA; voice800768 samples unchanged, picture padding232 samples at24kHz.",
+    "Every cut has supported scene/panel, one main action, at most one camera move and motivated brief optional cue."
+  ],
+  "artifacts": [
+    {
+      "path": "timestamps/timing-map.json",
+      "sha256": "7875bc21dc49a798ca7067ce1723b0110c40db91abfd7df87dc48b2cbc93180e"
+    },
+    {
+      "path": "timestamps/word-timestamps-source.csv",
+      "sha256": "21a10f9119abed2c68fb5639b317c6fa0282329aadacd7aacbde60f74b376e14"
+    },
+    {
+      "path": "timestamps/word-timestamps-normalized.csv",
+      "sha256": "646b5a5f665cd2b2a93bb99ab772c39e6bb3d926afc6a03c5b6d0abae80d7526"
+    },
+    {
+      "path": "plan/clip-slot-decisions.json",
+      "sha256": "68b7e8bc1a01e7decc5591cf7f61077efb3ef34d2f28f9f8b4f8f1c890a0c21a"
+    },
+    {
+      "path": "plan/clip-direction.json",
+      "sha256": "2c0109aa02c14876883b8ac979968575cc418c1a461af5c1087e9c9de4a0ab0c"
+    },
+    {
+      "path": "plan/story-state-ledger.json",
+      "sha256": "8d7d8f560f2661632fde61c345d996c9c06b455b9a3b79c0a05b70f9f7538447"
+    },
+    {
+      "path": "plan/shot-plan.md",
+      "sha256": "c166aec96f17c11df2e8d58dbb2dc35eec78a85b14c3501eb3df1b59ce8aead9"
+    },
+    {
+      "path": "plan/storyboard/timing-reconciliation.json",
+      "sha256": "b62accdc16740a352d0eafdbe54e45b5a56c20cf95378e2a132361d52a4e52c1"
+    },
+    {
+      "path": "plan/reference-manifest.json",
+      "sha256": "505ef03b6fea537bfa3eaf75c7d1fa856fc725a978e3efacb90f549e65aac3ab"
+    }
+  ]
+}

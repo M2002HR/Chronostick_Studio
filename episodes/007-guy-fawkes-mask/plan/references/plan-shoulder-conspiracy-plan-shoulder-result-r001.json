@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T13:26:07.698946+00:00",
+  "id": "conspiracy-plan-shoulder",
+  "revision": "r001",
+  "request_path": "plan/references/plan-shoulder-requests-r001.json",
+  "request_sha256": "a84d8e9d49903816682e122d837928cc785f05cf1ffbea31fd6c8a9039011e96",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-81ce56a2-8042-4afe-8f05-58e4ac116ceb.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-plan-shoulder-r001.png",
+  "sha256": "5b3c70438a59d497f1140e1f525d6310cef352da5c9f0ffccada54769529edb2",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

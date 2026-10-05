@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "007-guy-fawkes-mask",
+  "status": "approved",
+  "clips": [
+    {
+      "clip_id": "clip-01",
+      "start_state": "Zero complete people; one ivory mask and one pale charcoal-sleeved holding hand; slate wall",
+      "permitted_changes": [
+        "The held mask tilts only five degrees then stops",
+        "The same hand raises the edge two centimetres then holds",
+        "Hold the eye opening completely still",
+        "Hold the painted mask surface unchanged",
+        "The holding hand settles the mask into a still frontal pose",
+        "One small water ripple passes and resolves",
+        "Hold both door leaves firmly closed",
+        "The tiny candle flame bends once then returns upright"
+      ],
+      "resolved_end_state": "One drawn window and one lit candle; closed entry door outside crop, no silhouettes; The tiny candle flame bends once then returns upright; all primary motion settles before the cut.",
+      "ordered_scene_phases": [
+        "mask-hand",
+        "westminster-exterior",
+        "palace-entrance-window"
+      ],
+      "continuity_locks": [
+        "The hand-held-mask anchor controls exactly one detached pale simplified hand in a charcoal cuff and one ivory mask with black arched brows, black eye openings, curled moustache, pointed painted goatee and rose cheek marks, against a drawn slate wall. It controls every visible pixel in its shots; the mask is a prop, never a living historical face.",
+        "The riverside anchor controls the empty drawn medieval gabled stone complex, pitched slate roofs/finials, anchored tree shapes and river. This is a generic period setting, never modern clock-tower Westminster. No people/boats/text appear.",
+        "The entrance anchor controls one pointed stone arch, a closed paired oak door with two iron ring handles, fixed stone steps and one right-side narrow window containing one lit candle. Crop only its existing door/window details; no figure at the window."
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 132,
+        "end_frame_local": 141,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      }
+    },
+    {
+      "clip_id": "clip-02",
+      "start_state": "Exactly three roles: burgundy/cross A left, felt-hat Fawkes center, bareheaded olive B right; one oak table, blank plan and miniature crown Existing wall-mounted candle at far left and high window remain fixed when within this crop.",
+      "permitted_changes": [
+        "Fawkes tightens his eyebrows slightly; others remain still",
+        "A briefly touches his single wooden cross, then rests the hand",
+        "A leans forward just two centimetres, lips closed",
+        "B lowers his eyebrows once and holds",
+        "Hold the one crown motionless on the paper",
+        "A pointing finger presses once beside the symbolic building",
+        "Fawkes narrows dot-eye focus slightly, then freezes",
+        "A finishes one small pointing press while the other two stay still"
+      ],
+      "resolved_end_state": "Same three identities in original left/center/right placement; one table, one cross, one crown and simple blank plan Existing wall-mounted candle at far left and high window remain fixed when within this crop.; A finishes one small pointing press while the other two stay still; all primary motion settles before the cut.",
+      "ordered_scene_phases": [
+        "conspiracy-table",
+        "conspiracy-plan-shoulder"
+      ],
+      "continuity_locks": [
+        "The table anchor controls exactly three narrow stick-derived men: anonymous wine-red flat-cap A at left, clean-shaven dark short hair/burgundy jerkin/cream sleeves/one wooden cross; Fawkes at center, broad plain dark felt hat, wavy dark hair, moustache/compact pointed beard, pale open collar, charcoal doublet/umber cloak; clean-shaven bareheaded short-auburn B at right, olive doublet and no cross. One oak table, one miniature brass crown, one pale unlettered two-gable symbolic plan; drawn timber/plaster room and high window. The anchored one wall-mounted candle at far left and one high window are fixed; do not add furniture or extra flames.",
+        "The over-left-shoulder plan anchor preserves those same three identities, table/room/light: A cap/cream shoulder and pointing hand near-left, Fawkes upper center, olive B upper-right. Exactly one blank pale sheet with two plain gables/one doorway and one tiny crown; no clock or intricate Gothic landmark. The anchored one wall-mounted candle at far left and one high window are fixed; do not add furniture or extra flames."
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 143,
+        "end_frame_local": 158,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      }
+    },
+    {
+      "clip_id": "clip-03",
+      "start_state": "Exactly one Fawkes center-right; stationary closed partial barrel stacks, drawn vault and clear floor aisle; no other people",
+      "permitted_changes": [
+        "His cloak settles from one tiny movement and then rests",
+        "One boot lifts three centimetres and plants in the same spot",
+        "Hold the dry closed barrel unchanged",
+        "Hold all existing stacks stationary",
+        "The same hand settles one centimetre onto the wood",
+        "He tightens his eyebrows a fraction without turning or speaking"
+      ],
+      "resolved_end_state": "Exactly one historical face with felt hat, dark waves, moustache/beard and pale collar; background barrels remain closed; He tightens his eyebrows a fraction without turning or speaking; all primary motion settles before the cut.",
+      "ordered_scene_phases": [
+        "powder-undercroft"
+      ],
+      "continuity_locks": [
+        "The storage anchor controls one historical Fawkes with his same hat/hair/moustache/beard/pale collar/dark doublet/cloak/brown boots, stationary closed barrel stacks lining the drawn vaulted stone aisle. The stacks are partially cropped, never an on-screen numerical count. Inserts crop only existing boots, hands, dry wood/hoops or face. Object-only retrospective cuts contain no visible person, hand or clothing."
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 101,
+        "end_frame_local": 124,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      }
+    },
+    {
+      "clip_id": "clip-04",
+      "start_state": "Exactly two simple pale hands at the opposite edges of one compact folded blank letter: brown-sleeved anonymous sender on left, slate-blue/pale-cuffed receiver on right. Zero complete faces or visible author.",
+      "permitted_changes": [
+        "The guard takes the single folded paper while anonymous sender releases once",
+        "He reacts with one small eyebrow drop; the sheet stays open",
+        "The one lantern is raised three centimetres, then steadied",
+        "The guard releases the same latch once",
+        "Lead guard reaches the last few centimetres with his free open palm toward Fawkes sleeve",
+        "The already closed lead-guard hand gives one tiny cloth squeeze, then holds",
+        "Fawkes lifts his eyebrows slightly, freezes in surprise"
+      ],
+      "resolved_end_state": "Exactly one Fawkes face with fixed hat/hair/moustache/beard/collar; his sleeve remains held off-frame; no speech or lip movement; Fawkes lifts his eyebrows slightly, freezes in surprise; all primary motion settles before the cut.",
+      "ordered_scene_phases": [
+        "warning-letter-handoff",
+        "warning-letter",
+        "cellar-door-search",
+        "cellar-door-search",
+        "search-arrest-threshold",
+        "arrest-sleeve-grip",
+        "search-arrest-threshold"
+      ],
+      "continuity_locks": [
+        "The folded-handoff anchor controls one compact tightly folded blank letter between one anonymous brown-sleeved sender hand from left and the slate-blue/pale-cuffed lead guard receiving hand on right. No author face, writing or seal. The guard is the clean round-faced plain-felt-hat role; do not invent another recipient.",
+        "The reading anchor controls that same felt-hat slate-blue guard with pale collar/cuffs, one open creased blank sheet in his two hands and the departing anonymous brown-sleeved hand at the left edge. The change from folded to open paper occurs on its hard cut; retain one paper only.",
+        "The closed-door anchor controls one blue/pale-collared felt-hat lead guard, one iron candle lantern low at outside-left, his free hand toward the iron latch at right, one closed left-hinged oak door and fixed stone arch. Lantern hand and free latch hand remain distinct; one tiny practical flame, no extra guards in these close crops.",
+        "The open-threshold anchor controls exactly two guards and one Fawkes: lead felt-hat blue coat foreground left with his sole lantern low outside-left/free open palm toward center; buff-coat steel-gray open-face crested-helmet peer foreground right with his sole polearm held at outside-right; Fawkes dark felt hat/waves/moustache/beard/pale collar/dark cloak in aisle center. The same left-hinged oak door is open and closed barrels stay fixed. Open stop palm precedes the later one sleeve grip; no duplicate Fawkes, extra arrest hands or swapped guard props.",
+        "Dedicated S26 insert: exactly blue lead forearm from left, pale cuff, its closed gripping hand around Fawkes dark-brown upper sleeve; Fawkes own brown forearm and relaxed hand descend lower right. No helmeted peer. Grip is already closed, so animate only one tiny cloth squeeze. Both sleeves preserve exact ownership."
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 110,
+        "end_frame_local": 124,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      },
+      "repair_evidence": "renders/review-r001.json",
+      "audio": "Userreportedmusic rejects r001; no finalnativeaudio approval. Silentdefault/briefdrySFX only."
+    },
+    {
+      "clip_id": "clip-05",
+      "start_state": "Exactly one slate-blue felt-hat guard and one oak custody door with square barred opening; empty gap, no prisoner or body",
+      "permitted_changes": [
+        "The single lead guard pushes the door the remaining short distance until closed",
+        "One tiny residual smoke wisp thins away, wick remains black and unlit",
+        "Hold the intact lid and hoop absolutely still",
+        "Hold every stored barrel unchanged",
+        "The same hand tilts the closed book slightly, then steadies it",
+        "Hold the printed ivory/black/rose design unchanged",
+        "The held book settles upright and stops",
+        "The modern role braces the one mask below the chin",
+        "Both hands raise the single mask onto the face, then stop without letting it slip"
+      ],
+      "resolved_end_state": "Exactly one modern adult, two simple hands and one mask; bare face disappears only behind that prop, never morphs into Fawkes; charcoal hood/blue-gray trousers unchanged; Both hands raise the single mask onto the face, then stop without letting it slip; all primary motion settles before the cut.",
+      "ordered_scene_phases": [
+        "custody-door",
+        "custody-candle",
+        "powder-undercroft",
+        "mask-book",
+        "modern-mask-lift"
+      ],
+      "continuity_locks": [
+        "The custody-door anchor controls one clean round-faced felt-hat blue/pale-coated lead guard and one ajar heavy oak door with square barred inspection opening, fixed drawn stone arch/warm left key. Its gap is empty. Only a brief later door-closing action is depicted; no prisoner, body or visible violence.",
+        "The consequence anchor controls one already-extinguished ivory candle on one iron saucer, one tiny residual smoke wisp and an empty closed oak door with square barred opening. This is the later symbolic consequence: zero people, hands, bodies, flame or execution depiction. Keep oak/iron/arch consistent with the prior custody setting.",
+        "The storage anchor controls one historical Fawkes with his same hat/hair/moustache/beard/pale collar/dark doublet/cloak/brown boots, stationary closed barrel stacks lining the drawn vaulted stone aisle. The stacks are partially cropped, never an on-screen numerical count. Inserts crop only existing boots, hands, dry wood/hoops or face. Object-only retrospective cuts contain no visible person, hand or clothing.",
+        "The book anchor controls one dark closed book in one pale charcoal-sleeved hand; pale page edges/spine and one matching ivory/black/rose mask picture on the cover. Zero title, lettering or readable print, never a talking face.",
+        "The lifting anchor controls one anonymous modern adult with round off-white head, dot eyes/closed mouth, charcoal hood/hoodie, blue-gray trousers and two pale simplified hands holding one matching mask below the chin. Raise that existing mask physically onto the face; do not morph faces or add a second mask."
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 150,
+        "end_frame_local": 158,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      }
+    },
+    {
+      "clip_id": "clip-06",
+      "start_state": "Exactly three hoodie adults: blue left behind, charcoal/blue-gray center closest, burgundy right behind; exactly one worn mask each; modern flat-roof blocks/paving, no crowd",
+      "permitted_changes": [
+        "All three hold calm still poses; only the central hood settles once",
+        "Hold the mask painting still",
+        "Hold stored powder barrels intact and inert",
+        "Hold the intact barrel stationary",
+        "The same charcoal-sleeved hand steadies the one mask frontally",
+        "Hold the same three calmly masked modern figures",
+        "The central masked role makes a tiny five-degree head correction to frontal, then stops",
+        "Hold head, mask, camera, light and all background completely still"
+      ],
+      "resolved_end_state": "One central modern worn mask framed by charcoal hood; no hand entering, lettering, button or other face; side roles excluded by close crop; Hold head, mask, camera, light and all background completely still; all primary motion settles before the cut.",
+      "ordered_scene_phases": [
+        "modern-masked-group",
+        "powder-undercroft",
+        "mask-hand"
+      ],
+      "continuity_locks": [
+        "The modern-plaza anchor controls exactly three calm hoodie stick adults: charcoal/blue-gray center closest, slate-blue left one step behind, burgundy right one step behind. Each wears one identical ivory/black/rose mask. Their plain flat-roof modern background/paving and empty safe margins remain fixed; no historic palace, extra crowd, signs, weapons or text. Close crops exclude side people rather than duplicate/repaint identities. Exactly two low flat-roof modern blocks and their existing drawn shrub/planter rows remain in the background.",
+        "The storage anchor controls one historical Fawkes with his same hat/hair/moustache/beard/pale collar/dark doublet/cloak/brown boots, stationary closed barrel stacks lining the drawn vaulted stone aisle. The stacks are partially cropped, never an on-screen numerical count. Inserts crop only existing boots, hands, dry wood/hoops or face. Object-only retrospective cuts contain no visible person, hand or clothing.",
+        "The hand-held-mask anchor controls exactly one detached pale simplified hand in a charcoal cuff and one ivory mask with black arched brows, black eye openings, curled moustache, pointed painted goatee and rose cheek marks, against a drawn slate wall. It controls every visible pixel in its shots; the mask is a prop, never a living historical face."
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 165,
+        "end_frame_local": 175,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      }
+    }
+  ],
+  "retrospective_rule": "Object-only unchanged dry barrels may return for approved failed-powder narration. Never show historical Fawkes after symbolic execution or advance to a new ignition/event."
+}

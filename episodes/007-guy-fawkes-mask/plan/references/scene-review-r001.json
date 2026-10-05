@@ -1,0 +1,85 @@
+{
+  "reviewed_at": "2026-10-05T13:05:55.097355+00:00",
+  "reviewer": "assistant",
+  "decisions": [
+    {
+      "id": "mask-hand",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png",
+      "sha256": "7d19eadf5aaafc89012bbf30bfa4be449b63d946c79983ef0d3888e11c6a9e49",
+      "notes": "One detached charcoal-sleeved hand holds one matching ivory/black/rose mask. Single drawn wall and safe mask contours support S01/S02/S03/S35 inserts; no complete person or writing."
+    },
+    {
+      "id": "westminster-exterior",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/westminster-exterior-r001.png",
+      "sha256": "81f584059b2fcbab997592d558c017bcef35ccb798f0e47dc3fe18bad80bf2c6",
+      "notes": "Empty illustrated medieval riverside complex without modern clock tower. S04 establishes a generic period palace/chapel setting only; cross finials and gables are artistic evocation, not authenticated Westminster geometry."
+    },
+    {
+      "id": "palace-entrance-window",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/palace-entrance-window-r001.png",
+      "sha256": "a503fc5a5a14dc1a45209d4c1a97ebe377c3be88db7f71ab529dd3cccb19c3bb",
+      "notes": "Empty closed oak entrance and one candle window; both are visible and separable for S05/S06 inserts. One drawn setting, no readable text or people."
+    },
+    {
+      "id": "powder-undercroft",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+      "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+      "notes": "Exactly one correctly identified Fawkes, clear boot/hand/barrel/hoop/face crop coverage for S13–S18 and unchanged closed barrels for S28. Ground-floor storage evocation, no lit fuse/fire. Partially obscured stacks imply storage; do not claim 36 visibly counted barrels."
+    },
+    {
+      "id": "warning-letter",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-r001.png",
+      "sha256": "dfff5ce1f15bab3a28fdac8504d0aba699c8009b811b6a9c0fb18495d96e089a",
+      "notes": "One lead guard holds one blank creased sheet, one anonymous sender hand touches its corner. Supports S19–S21 handoff/read/reaction; preserve one paper and close crop rather than require an unseen pristine sealed letter. Sender identity remains unknown."
+    },
+    {
+      "id": "cellar-door-search",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+      "sha256": "fdb2a8167f71aeec0294c34df0e4e99bfc90febf1133634f8b6728be7eb5735f",
+      "notes": "One lead guard with one lantern before a closed oak door; latch, arch and left hinges are visible. Covers S22/S23 prior to door opening, not arrest. Safe hands and clear one-action latch route."
+    },
+    {
+      "id": "custody-door",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png",
+      "sha256": "3736f2cfe66cdd70eb82085992b15cd1223256e834857cd49af00a2a3d90e336",
+      "notes": "One lead guard and one ajar custody oak door with square barred inspection opening; empty gap, no prisoner depiction. S29 supports door-closing transition; later candle scene must match door material/iron shapes."
+    },
+    {
+      "id": "mask-book",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/mask-book-r001.png",
+      "sha256": "5cb2cbf39a3fd445594a6b5ef98b14d597644d254696de0a6d8b4808e23b3c6d",
+      "notes": "One hand holds one closed dark book with mask motif and visible page edges/spine; no title or letters. S31 is a symbolic literary reference, not a reproduction of a published cover."
+    },
+    {
+      "id": "modern-mask-lift",
+      "decision": "approved",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/modern-mask-lift-r001.png",
+      "sha256": "f48bb6381df0994fac9a9a1cb3ff75cf869222089bcdc9e256950bba151c7209",
+      "notes": "One round-headed anonymous charcoal-hoodie adult holds one matching mask below the uncovered face. Ready for S32 raising action; facial mask is not already worn. Both hands and prop distinct."
+    },
+    {
+      "id": "modern-masked-group",
+      "decision": "rejected",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r001.png",
+      "sha256": "c7c7db0adf75a491517f8f0d75065e6b3a125dd9f78afb2f0c17744d4841faa7",
+      "notes": "Reject: background is historical/domed/spired instead of contemporary, and the left role shoe crosses the frame boundary."
+    },
+    {
+      "id": "conspiracy-table",
+      "decision": "rejected",
+      "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r001.png",
+      "sha256": "c40109b3aef74a07dc998d7f9b128aa2d4ff5fd28db606e18f4a5ddfd80b9d20",
+      "notes": "Reject: plan depicts the later neo-Gothic Parliament/clock tower rather than a simple medieval building outline; person identities/count and props otherwise read."
+    }
+  ],
+  "storyboard_decision": "plan/review-decisions.json",
+  "scope": "Individual scenes; whole reference stage remains draft"
+}

@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-05T13:22:28.917287+00:00",
+  "revision": "r002",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "search-arrest-threshold",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/search-arrest-threshold.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput 2 controls Fawkes identity/costume, undercroft stone vault, fixed barrel stacks, aisle and light geometry. Input 3 controls the same left-hinged oak door/latch/arch from the closed-door search state. Input 4 is the previous threshold composition to EDIT: preserve its exact three identities, costumes, drawn textures and open door but SHRINK BOTH FOREGROUND GUARDS by 20 percent, move them inward, and show the ENTIRE lantern, helmet, polearm blade/shaft/holding hand and all shoes safely inside the image. Lead guard body centered x=27 percent, Fawkes x=50 percent, peer guard x=72 percent; the polearm is vertical at x=84 percent, its complete two-sided metal blade below y=18 percent and fully between x=78 and x=90 percent, its butt above y=90 percent. All body/prop contours have at least 7 percent side margins and 7 percent bottom margin. Do not crop a hand or polearm wing. The polearm is held close beside the peer guard, never touching Fawkes. Keep a visible clear gap between lead guard's raised free hand and Fawkes's sleeve, ready for one later arrest reach. Exactly THREE visible adult stick people at the now-open storeroom threshold. Same eye-level axis looking into the barrel-lined aisle. ONE thick oak door is swung open against the screen-left stone arch, its iron latch/hinges visible. Lead guard foreground screen left in rear three-quarter view, identity's felt hat and blue-gray coat preserved; his right hand holds ONE low iron candle lantern. Peer guard foreground screen right in rear three-quarter view, buff coat, steel-gray open-face crested helmet; exactly ONE plain polearm near x=84 percent with empty margin to its right, its point safely inside frame. Fawkes is centered in midground, front visible between guards, boots visible, half a step away from the nearest right barrel, closed mouth and alert face. Nobody is already bound or gripping him: pre-restraint discovery instant ready for one guard reach. Lead guard's free left hand rests forward at waist level ready to stop Fawkes. Keep the hand-to-sleeve route clear, faces/hat silhouettes separable and fixed left-right placement. Stationary closed barrel stacks unchanged, zero lit fuse, explosion, fire, smoke, blood, extra people or additional lanterns/weapons. Warm lower-left lantern key and cool right shadows; every person/object in the same drawn stick-world. Distinct hat/helmet/head cues and exact count must survive close crop.\n",
+      "prompt_sha256": "83b3009fdc0d87f8639aa0e2c6266266def7d4fb2502e32ba113380181d4d3f5",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+          "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+          "role": "powder-undercroft"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+          "sha256": "fdb2a8167f71aeec0294c34df0e4e99bfc90febf1133634f8b6728be7eb5735f",
+          "role": "cellar-door-search"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r001.png",
+          "sha256": "49aef061d5ddd53c9d6c3fc4cec2a035c3fc90347d69315865bde7d8624ae033",
+          "role": "Previous threshold candidate for safe framing correction; identities/colors were reviewed but full image rejected for edge clipping."
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ]
+    }
+  ]
+}

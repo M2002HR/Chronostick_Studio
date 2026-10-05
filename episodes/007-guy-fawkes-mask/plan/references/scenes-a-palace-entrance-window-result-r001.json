@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:58:40.820544+00:00",
+  "id": "palace-entrance-window",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "1744df962f4bf9880c9a6513dcee808b2ab5a4267e45bb6f68935589e34de48d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-59f556f2-54a1-4609-b6f3-15ae39a00e24.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/palace-entrance-window-r001.png",
+  "sha256": "a503fc5a5a14dc1a45209d4c1a97ebe377c3be88db7f71ab529dd3cccb19c3bb",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

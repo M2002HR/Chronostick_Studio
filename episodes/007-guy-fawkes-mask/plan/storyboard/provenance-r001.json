@@ -1,0 +1,21 @@
+{
+  "revision": "r001",
+  "status": "rejected",
+  "reason": "Over-detailed pencil design and historical architecture mismatch; replaced with reviewed r002 neutral outlines",
+  "exact_prompt_snapshot": null,
+  "prompt_gap": "Original unapproved draft prompts were revised before an immutable snapshot was stored; do not reconstruct them as approved requests.",
+  "pages": [
+    {
+      "path": "plan/storyboard/storyboard-page-01-r001.png",
+      "sha256": "b823f8550d4165deb2949192e49abcf1f85a0cd493f5906fc8609cf96c6d2094"
+    },
+    {
+      "path": "plan/storyboard/storyboard-page-02-r001.png",
+      "sha256": "cc5d6eb8bf29c0aca9086f3fdd39a391119097b72af1a679cbdd8cce101e5436"
+    },
+    {
+      "path": "plan/storyboard/storyboard-page-03-r001.png",
+      "sha256": "75810b22cfae89e8ec8cf5835f8dd9f12dabe375923cec126f4218ab9b6a68b9"
+    }
+  ]
+}

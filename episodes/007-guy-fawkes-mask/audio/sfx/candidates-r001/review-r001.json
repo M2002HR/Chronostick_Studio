@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "paper",
+    "source_path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/paper-freesound-353125-preview-r001.mp3",
+    "source_sha256": "fbf05bd9ba67a9df8eff656e813881c7f1a754d7473388785b228b0ed62dc564",
+    "page_url": "https://freesound.org/people/BenjaminNelan/sounds/353125/",
+    "license": "CC0-1.0",
+    "source_start_seconds": 0.78,
+    "duration_seconds": 0.1,
+    "path": "audio/sfx/candidates-r001/paper-short-r001.wav",
+    "sha256": "52b363d47b03c4a496dc5fab9bf5a19b71c2ae421bf3a37a27c8083320fac39e",
+    "processing": "Actualrecording excerpt, resample/downmix48kmono, peak-24dBFS,3msedge fades; no musicalfilter/time stretch/loop",
+    "review_status": "approved_for_fallback",
+    "reviewer": "user (shownactualthree-cuepreview)",
+    "review_evidence": "plan/native-sfx-priority-r001.json",
+    "approval_scope": "Theseexcerptswereheard inshownclip04preview; notblanketapprovaloforiginalfullrecordings/newplacements."
+  },
+  {
+    "kind": "cloth",
+    "source_path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/cloth-freesound-435296-preview-r001.mp3",
+    "source_sha256": "9595050ad949eac73fbe2b35f560201e235cd0fe4da4e839400d07598be18674",
+    "page_url": "https://freesound.org/people/zazz.sound.design/sounds/435296/",
+    "license": "CC0-1.0",
+    "source_start_seconds": 31.55,
+    "duration_seconds": 0.1,
+    "path": "audio/sfx/candidates-r001/cloth-short-r001.wav",
+    "sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+    "processing": "Actualrecording excerpt, resample/downmix48kmono, peak-24dBFS,3msedge fades; no musicalfilter/time stretch/loop",
+    "review_status": "approved_for_fallback",
+    "reviewer": "user (shownactualthree-cuepreview)",
+    "review_evidence": "plan/native-sfx-priority-r001.json",
+    "approval_scope": "Theseexcerptswereheard inshownclip04preview; notblanketapprovaloforiginalfullrecordings/newplacements."
+  },
+  {
+    "kind": "metal",
+    "source_path": "episodes/007-guy-fawkes-mask/audio/sfx/sources/metal-freesound-333260-preview-r001.mp3",
+    "source_sha256": "ce11e67194a04a4753205d435c3928bf224fecda9792c92ca9fc737aa0671b08",
+    "page_url": "https://freesound.org/people/scaevola/sounds/333260/",
+    "license": "CC0-1.0",
+    "source_start_seconds": 0.0,
+    "duration_seconds": 0.09,
+    "path": "audio/sfx/candidates-r001/metal-short-r001.wav",
+    "sha256": "01ea8cf947b03789cfaf3c5ffb34fe5dac310ce60586c81c48512a29a6069cc0",
+    "processing": "Actualrecording excerpt, resample/downmix48kmono, peak-24dBFS,3msedge fades; no musicalfilter/time stretch/loop",
+    "review_status": "approved_for_fallback",
+    "reviewer": "user (shownactualthree-cuepreview)",
+    "review_evidence": "plan/native-sfx-priority-r001.json",
+    "approval_scope": "Theseexcerptswereheard inshownclip04preview; notblanketapprovaloforiginalfullrecordings/newplacements."
+  }
+]

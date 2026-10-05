@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-10-05T13:09:46.033205+00:00",
+  "request_paths": [
+    "plan/references/scenes-fix-requests-r002.json",
+    "plan/references/scenes-c-requests-r001.json"
+  ],
+  "error": "Image tool rejected threshold input count: referenced_image_paths at most 5. Parallel call result collection ended before other results; no generated output assumed or selected.",
+  "resolution": "Inherit Fawkes from reviewed undercroft scene; keep guards and door explicit. Enforce max five image-tool inputs locally and collect parallel failures with allSettled. This image-tool limit is separate from H3 per-job reference limits."
+}

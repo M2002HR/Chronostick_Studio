@@ -1,0 +1,12 @@
+{
+  "title_supplied": "Why does this Mask mean Boom boom?",
+  "reference_url": "https://www.youtube.com/watch?v=JgBU_c7RVq0",
+  "reference_manifest": "source/reference-video/manifest.json",
+  "target_language": "es",
+  "target_seconds": 30,
+  "target_decision": "30-second working target within user-requested 20–30-second range",
+  "source_status": "actual_transcription_and_frame_analysis_reviewable; historical claim corrections recorded",
+  "project_seed": 20261005007,
+  "review_method": "2 fps full-timeline frame sampling plus Ajil transcript; native-video/audio review unavailable",
+  "project_seed_note": "Fixed project seed chosen for Episode 007; per-clip revision-safe seeds use shared deterministic hash helper."
+}

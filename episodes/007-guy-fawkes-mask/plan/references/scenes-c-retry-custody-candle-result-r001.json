@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T13:17:29.272895+00:00",
+  "id": "custody-candle",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-c-retry-requests-r001.json",
+  "request_sha256": "7fd1a42e65e28a5ddaffca89db272d555582bd533506a8b8710b9cb8e571bc66",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-8618cf8f-868c-4776-8515-2228c4b0fb0e.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/custody-candle-r001.png",
+  "sha256": "9f4da8e842e9ac41c16118ee8a994764c8621497b6acfea60a8271aac485d857",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

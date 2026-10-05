@@ -1,0 +1,728 @@
+{
+  "source": "reference-guy-fawkes-mask-r001.mp4",
+  "method": "2 fps full-timeline samples; dense review needed for sub-0.5s cuts",
+  "fps": 30.0,
+  "source_frames": 2147,
+  "samples": [
+    {
+      "frame": 0,
+      "time_seconds": 0.0,
+      "path": "frame-000000.jpg"
+    },
+    {
+      "frame": 15,
+      "time_seconds": 0.5,
+      "path": "frame-000015.jpg"
+    },
+    {
+      "frame": 30,
+      "time_seconds": 1.0,
+      "path": "frame-000030.jpg"
+    },
+    {
+      "frame": 45,
+      "time_seconds": 1.5,
+      "path": "frame-000045.jpg"
+    },
+    {
+      "frame": 60,
+      "time_seconds": 2.0,
+      "path": "frame-000060.jpg"
+    },
+    {
+      "frame": 75,
+      "time_seconds": 2.5,
+      "path": "frame-000075.jpg"
+    },
+    {
+      "frame": 90,
+      "time_seconds": 3.0,
+      "path": "frame-000090.jpg"
+    },
+    {
+      "frame": 105,
+      "time_seconds": 3.5,
+      "path": "frame-000105.jpg"
+    },
+    {
+      "frame": 120,
+      "time_seconds": 4.0,
+      "path": "frame-000120.jpg"
+    },
+    {
+      "frame": 135,
+      "time_seconds": 4.5,
+      "path": "frame-000135.jpg"
+    },
+    {
+      "frame": 150,
+      "time_seconds": 5.0,
+      "path": "frame-000150.jpg"
+    },
+    {
+      "frame": 165,
+      "time_seconds": 5.5,
+      "path": "frame-000165.jpg"
+    },
+    {
+      "frame": 180,
+      "time_seconds": 6.0,
+      "path": "frame-000180.jpg"
+    },
+    {
+      "frame": 195,
+      "time_seconds": 6.5,
+      "path": "frame-000195.jpg"
+    },
+    {
+      "frame": 210,
+      "time_seconds": 7.0,
+      "path": "frame-000210.jpg"
+    },
+    {
+      "frame": 225,
+      "time_seconds": 7.5,
+      "path": "frame-000225.jpg"
+    },
+    {
+      "frame": 240,
+      "time_seconds": 8.0,
+      "path": "frame-000240.jpg"
+    },
+    {
+      "frame": 255,
+      "time_seconds": 8.5,
+      "path": "frame-000255.jpg"
+    },
+    {
+      "frame": 270,
+      "time_seconds": 9.0,
+      "path": "frame-000270.jpg"
+    },
+    {
+      "frame": 285,
+      "time_seconds": 9.5,
+      "path": "frame-000285.jpg"
+    },
+    {
+      "frame": 300,
+      "time_seconds": 10.0,
+      "path": "frame-000300.jpg"
+    },
+    {
+      "frame": 315,
+      "time_seconds": 10.5,
+      "path": "frame-000315.jpg"
+    },
+    {
+      "frame": 330,
+      "time_seconds": 11.0,
+      "path": "frame-000330.jpg"
+    },
+    {
+      "frame": 345,
+      "time_seconds": 11.5,
+      "path": "frame-000345.jpg"
+    },
+    {
+      "frame": 360,
+      "time_seconds": 12.0,
+      "path": "frame-000360.jpg"
+    },
+    {
+      "frame": 375,
+      "time_seconds": 12.5,
+      "path": "frame-000375.jpg"
+    },
+    {
+      "frame": 390,
+      "time_seconds": 13.0,
+      "path": "frame-000390.jpg"
+    },
+    {
+      "frame": 405,
+      "time_seconds": 13.5,
+      "path": "frame-000405.jpg"
+    },
+    {
+      "frame": 420,
+      "time_seconds": 14.0,
+      "path": "frame-000420.jpg"
+    },
+    {
+      "frame": 435,
+      "time_seconds": 14.5,
+      "path": "frame-000435.jpg"
+    },
+    {
+      "frame": 450,
+      "time_seconds": 15.0,
+      "path": "frame-000450.jpg"
+    },
+    {
+      "frame": 465,
+      "time_seconds": 15.5,
+      "path": "frame-000465.jpg"
+    },
+    {
+      "frame": 480,
+      "time_seconds": 16.0,
+      "path": "frame-000480.jpg"
+    },
+    {
+      "frame": 495,
+      "time_seconds": 16.5,
+      "path": "frame-000495.jpg"
+    },
+    {
+      "frame": 510,
+      "time_seconds": 17.0,
+      "path": "frame-000510.jpg"
+    },
+    {
+      "frame": 525,
+      "time_seconds": 17.5,
+      "path": "frame-000525.jpg"
+    },
+    {
+      "frame": 540,
+      "time_seconds": 18.0,
+      "path": "frame-000540.jpg"
+    },
+    {
+      "frame": 555,
+      "time_seconds": 18.5,
+      "path": "frame-000555.jpg"
+    },
+    {
+      "frame": 570,
+      "time_seconds": 19.0,
+      "path": "frame-000570.jpg"
+    },
+    {
+      "frame": 585,
+      "time_seconds": 19.5,
+      "path": "frame-000585.jpg"
+    },
+    {
+      "frame": 600,
+      "time_seconds": 20.0,
+      "path": "frame-000600.jpg"
+    },
+    {
+      "frame": 615,
+      "time_seconds": 20.5,
+      "path": "frame-000615.jpg"
+    },
+    {
+      "frame": 630,
+      "time_seconds": 21.0,
+      "path": "frame-000630.jpg"
+    },
+    {
+      "frame": 645,
+      "time_seconds": 21.5,
+      "path": "frame-000645.jpg"
+    },
+    {
+      "frame": 660,
+      "time_seconds": 22.0,
+      "path": "frame-000660.jpg"
+    },
+    {
+      "frame": 675,
+      "time_seconds": 22.5,
+      "path": "frame-000675.jpg"
+    },
+    {
+      "frame": 690,
+      "time_seconds": 23.0,
+      "path": "frame-000690.jpg"
+    },
+    {
+      "frame": 705,
+      "time_seconds": 23.5,
+      "path": "frame-000705.jpg"
+    },
+    {
+      "frame": 720,
+      "time_seconds": 24.0,
+      "path": "frame-000720.jpg"
+    },
+    {
+      "frame": 735,
+      "time_seconds": 24.5,
+      "path": "frame-000735.jpg"
+    },
+    {
+      "frame": 750,
+      "time_seconds": 25.0,
+      "path": "frame-000750.jpg"
+    },
+    {
+      "frame": 765,
+      "time_seconds": 25.5,
+      "path": "frame-000765.jpg"
+    },
+    {
+      "frame": 780,
+      "time_seconds": 26.0,
+      "path": "frame-000780.jpg"
+    },
+    {
+      "frame": 795,
+      "time_seconds": 26.5,
+      "path": "frame-000795.jpg"
+    },
+    {
+      "frame": 810,
+      "time_seconds": 27.0,
+      "path": "frame-000810.jpg"
+    },
+    {
+      "frame": 825,
+      "time_seconds": 27.5,
+      "path": "frame-000825.jpg"
+    },
+    {
+      "frame": 840,
+      "time_seconds": 28.0,
+      "path": "frame-000840.jpg"
+    },
+    {
+      "frame": 855,
+      "time_seconds": 28.5,
+      "path": "frame-000855.jpg"
+    },
+    {
+      "frame": 870,
+      "time_seconds": 29.0,
+      "path": "frame-000870.jpg"
+    },
+    {
+      "frame": 885,
+      "time_seconds": 29.5,
+      "path": "frame-000885.jpg"
+    },
+    {
+      "frame": 900,
+      "time_seconds": 30.0,
+      "path": "frame-000900.jpg"
+    },
+    {
+      "frame": 915,
+      "time_seconds": 30.5,
+      "path": "frame-000915.jpg"
+    },
+    {
+      "frame": 930,
+      "time_seconds": 31.0,
+      "path": "frame-000930.jpg"
+    },
+    {
+      "frame": 945,
+      "time_seconds": 31.5,
+      "path": "frame-000945.jpg"
+    },
+    {
+      "frame": 960,
+      "time_seconds": 32.0,
+      "path": "frame-000960.jpg"
+    },
+    {
+      "frame": 975,
+      "time_seconds": 32.5,
+      "path": "frame-000975.jpg"
+    },
+    {
+      "frame": 990,
+      "time_seconds": 33.0,
+      "path": "frame-000990.jpg"
+    },
+    {
+      "frame": 1005,
+      "time_seconds": 33.5,
+      "path": "frame-001005.jpg"
+    },
+    {
+      "frame": 1020,
+      "time_seconds": 34.0,
+      "path": "frame-001020.jpg"
+    },
+    {
+      "frame": 1035,
+      "time_seconds": 34.5,
+      "path": "frame-001035.jpg"
+    },
+    {
+      "frame": 1050,
+      "time_seconds": 35.0,
+      "path": "frame-001050.jpg"
+    },
+    {
+      "frame": 1065,
+      "time_seconds": 35.5,
+      "path": "frame-001065.jpg"
+    },
+    {
+      "frame": 1080,
+      "time_seconds": 36.0,
+      "path": "frame-001080.jpg"
+    },
+    {
+      "frame": 1095,
+      "time_seconds": 36.5,
+      "path": "frame-001095.jpg"
+    },
+    {
+      "frame": 1110,
+      "time_seconds": 37.0,
+      "path": "frame-001110.jpg"
+    },
+    {
+      "frame": 1125,
+      "time_seconds": 37.5,
+      "path": "frame-001125.jpg"
+    },
+    {
+      "frame": 1140,
+      "time_seconds": 38.0,
+      "path": "frame-001140.jpg"
+    },
+    {
+      "frame": 1155,
+      "time_seconds": 38.5,
+      "path": "frame-001155.jpg"
+    },
+    {
+      "frame": 1170,
+      "time_seconds": 39.0,
+      "path": "frame-001170.jpg"
+    },
+    {
+      "frame": 1185,
+      "time_seconds": 39.5,
+      "path": "frame-001185.jpg"
+    },
+    {
+      "frame": 1200,
+      "time_seconds": 40.0,
+      "path": "frame-001200.jpg"
+    },
+    {
+      "frame": 1215,
+      "time_seconds": 40.5,
+      "path": "frame-001215.jpg"
+    },
+    {
+      "frame": 1230,
+      "time_seconds": 41.0,
+      "path": "frame-001230.jpg"
+    },
+    {
+      "frame": 1245,
+      "time_seconds": 41.5,
+      "path": "frame-001245.jpg"
+    },
+    {
+      "frame": 1260,
+      "time_seconds": 42.0,
+      "path": "frame-001260.jpg"
+    },
+    {
+      "frame": 1275,
+      "time_seconds": 42.5,
+      "path": "frame-001275.jpg"
+    },
+    {
+      "frame": 1290,
+      "time_seconds": 43.0,
+      "path": "frame-001290.jpg"
+    },
+    {
+      "frame": 1305,
+      "time_seconds": 43.5,
+      "path": "frame-001305.jpg"
+    },
+    {
+      "frame": 1320,
+      "time_seconds": 44.0,
+      "path": "frame-001320.jpg"
+    },
+    {
+      "frame": 1335,
+      "time_seconds": 44.5,
+      "path": "frame-001335.jpg"
+    },
+    {
+      "frame": 1350,
+      "time_seconds": 45.0,
+      "path": "frame-001350.jpg"
+    },
+    {
+      "frame": 1365,
+      "time_seconds": 45.5,
+      "path": "frame-001365.jpg"
+    },
+    {
+      "frame": 1380,
+      "time_seconds": 46.0,
+      "path": "frame-001380.jpg"
+    },
+    {
+      "frame": 1395,
+      "time_seconds": 46.5,
+      "path": "frame-001395.jpg"
+    },
+    {
+      "frame": 1410,
+      "time_seconds": 47.0,
+      "path": "frame-001410.jpg"
+    },
+    {
+      "frame": 1425,
+      "time_seconds": 47.5,
+      "path": "frame-001425.jpg"
+    },
+    {
+      "frame": 1440,
+      "time_seconds": 48.0,
+      "path": "frame-001440.jpg"
+    },
+    {
+      "frame": 1455,
+      "time_seconds": 48.5,
+      "path": "frame-001455.jpg"
+    },
+    {
+      "frame": 1470,
+      "time_seconds": 49.0,
+      "path": "frame-001470.jpg"
+    },
+    {
+      "frame": 1485,
+      "time_seconds": 49.5,
+      "path": "frame-001485.jpg"
+    },
+    {
+      "frame": 1500,
+      "time_seconds": 50.0,
+      "path": "frame-001500.jpg"
+    },
+    {
+      "frame": 1515,
+      "time_seconds": 50.5,
+      "path": "frame-001515.jpg"
+    },
+    {
+      "frame": 1530,
+      "time_seconds": 51.0,
+      "path": "frame-001530.jpg"
+    },
+    {
+      "frame": 1545,
+      "time_seconds": 51.5,
+      "path": "frame-001545.jpg"
+    },
+    {
+      "frame": 1560,
+      "time_seconds": 52.0,
+      "path": "frame-001560.jpg"
+    },
+    {
+      "frame": 1575,
+      "time_seconds": 52.5,
+      "path": "frame-001575.jpg"
+    },
+    {
+      "frame": 1590,
+      "time_seconds": 53.0,
+      "path": "frame-001590.jpg"
+    },
+    {
+      "frame": 1605,
+      "time_seconds": 53.5,
+      "path": "frame-001605.jpg"
+    },
+    {
+      "frame": 1620,
+      "time_seconds": 54.0,
+      "path": "frame-001620.jpg"
+    },
+    {
+      "frame": 1635,
+      "time_seconds": 54.5,
+      "path": "frame-001635.jpg"
+    },
+    {
+      "frame": 1650,
+      "time_seconds": 55.0,
+      "path": "frame-001650.jpg"
+    },
+    {
+      "frame": 1665,
+      "time_seconds": 55.5,
+      "path": "frame-001665.jpg"
+    },
+    {
+      "frame": 1680,
+      "time_seconds": 56.0,
+      "path": "frame-001680.jpg"
+    },
+    {
+      "frame": 1695,
+      "time_seconds": 56.5,
+      "path": "frame-001695.jpg"
+    },
+    {
+      "frame": 1710,
+      "time_seconds": 57.0,
+      "path": "frame-001710.jpg"
+    },
+    {
+      "frame": 1725,
+      "time_seconds": 57.5,
+      "path": "frame-001725.jpg"
+    },
+    {
+      "frame": 1740,
+      "time_seconds": 58.0,
+      "path": "frame-001740.jpg"
+    },
+    {
+      "frame": 1755,
+      "time_seconds": 58.5,
+      "path": "frame-001755.jpg"
+    },
+    {
+      "frame": 1770,
+      "time_seconds": 59.0,
+      "path": "frame-001770.jpg"
+    },
+    {
+      "frame": 1785,
+      "time_seconds": 59.5,
+      "path": "frame-001785.jpg"
+    },
+    {
+      "frame": 1800,
+      "time_seconds": 60.0,
+      "path": "frame-001800.jpg"
+    },
+    {
+      "frame": 1815,
+      "time_seconds": 60.5,
+      "path": "frame-001815.jpg"
+    },
+    {
+      "frame": 1830,
+      "time_seconds": 61.0,
+      "path": "frame-001830.jpg"
+    },
+    {
+      "frame": 1845,
+      "time_seconds": 61.5,
+      "path": "frame-001845.jpg"
+    },
+    {
+      "frame": 1860,
+      "time_seconds": 62.0,
+      "path": "frame-001860.jpg"
+    },
+    {
+      "frame": 1875,
+      "time_seconds": 62.5,
+      "path": "frame-001875.jpg"
+    },
+    {
+      "frame": 1890,
+      "time_seconds": 63.0,
+      "path": "frame-001890.jpg"
+    },
+    {
+      "frame": 1905,
+      "time_seconds": 63.5,
+      "path": "frame-001905.jpg"
+    },
+    {
+      "frame": 1920,
+      "time_seconds": 64.0,
+      "path": "frame-001920.jpg"
+    },
+    {
+      "frame": 1935,
+      "time_seconds": 64.5,
+      "path": "frame-001935.jpg"
+    },
+    {
+      "frame": 1950,
+      "time_seconds": 65.0,
+      "path": "frame-001950.jpg"
+    },
+    {
+      "frame": 1965,
+      "time_seconds": 65.5,
+      "path": "frame-001965.jpg"
+    },
+    {
+      "frame": 1980,
+      "time_seconds": 66.0,
+      "path": "frame-001980.jpg"
+    },
+    {
+      "frame": 1995,
+      "time_seconds": 66.5,
+      "path": "frame-001995.jpg"
+    },
+    {
+      "frame": 2010,
+      "time_seconds": 67.0,
+      "path": "frame-002010.jpg"
+    },
+    {
+      "frame": 2025,
+      "time_seconds": 67.5,
+      "path": "frame-002025.jpg"
+    },
+    {
+      "frame": 2040,
+      "time_seconds": 68.0,
+      "path": "frame-002040.jpg"
+    },
+    {
+      "frame": 2055,
+      "time_seconds": 68.5,
+      "path": "frame-002055.jpg"
+    },
+    {
+      "frame": 2070,
+      "time_seconds": 69.0,
+      "path": "frame-002070.jpg"
+    },
+    {
+      "frame": 2085,
+      "time_seconds": 69.5,
+      "path": "frame-002085.jpg"
+    },
+    {
+      "frame": 2100,
+      "time_seconds": 70.0,
+      "path": "frame-002100.jpg"
+    },
+    {
+      "frame": 2115,
+      "time_seconds": 70.5,
+      "path": "frame-002115.jpg"
+    },
+    {
+      "frame": 2130,
+      "time_seconds": 71.0,
+      "path": "frame-002130.jpg"
+    },
+    {
+      "frame": 2145,
+      "time_seconds": 71.5,
+      "path": "frame-002145.jpg"
+    }
+  ]
+}

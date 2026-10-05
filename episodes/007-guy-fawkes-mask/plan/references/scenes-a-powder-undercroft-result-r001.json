@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:58:40.988844+00:00",
+  "id": "powder-undercroft",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "1744df962f4bf9880c9a6513dcee808b2ab5a4267e45bb6f68935589e34de48d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-c856242a-aa41-446d-94e3-01f144339589.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+  "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

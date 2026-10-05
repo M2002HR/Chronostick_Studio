@@ -1,0 +1,75 @@
+{
+  "revision": "r001",
+  "created_at": "2026-10-05T12:31:07.223064+00:00",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "identity-conspirator-a",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-conspirator-a.md",
+      "prompt": "Create exactly one single-view, full-frame vertical 9:16 detailed cinematic ChronoStick illustration. The supplied master image controls rendering only, never its panel layout. Round off-white head, tiny black dot eyes, very minimal brow/mouth, no realistic nose, dark clean drawn contours, narrow stick-derived torso and limbs, detailed muted period clothing, soft illustrated warm light and drawn matte surfaces throughout. Bare-head-to-sole figure height approximately 5.0 to 5.5 round-head diameters; shoulders approximately 0.85 head diameters; clothing follows a slender stick skeleton. No broad realistic human chest or anatomical hands. One full body, one pose, no duplicates, alternate views, panels, grid, typography, labels or photorealistic material inserts. Subject occupies 72 percent of frame height with generous hat/feet/crop margins. Plain warm-gray drawn plaster wall and floor behind; upper-left key light. Zero background people, zero animals.\n\nExactly ONE unnamed adult Catholic conspirator role in a 1605 English period evocation, not an authentic portrait of a named historical plotter. Front three-quarter pose facing screen right. Clean-shaven round off-white face, two dot eyes, one small serious mouth; short dark hair under a low wine-red soft flat cap, not a wide-brim Fawkes hat. Muted burgundy sleeveless jerkin over narrow cream sleeves, pale modest collar, simple dark-brown belt, narrow dark brown knee breeches and plain drawn boots. Exactly one small plain wooden cross pendant hangs openly at his chest on a thin dark cord, clearly readable for a close insert. Both simple pale hands rest beside the torso. No paper, crown, lantern, sword, beard, moustache, cloak, insignia or writing. Preserve a silhouette distinctly different from Fawkes and the second conspirator.\n",
+      "prompt_sha256": "c9b0700760dca41843fbc5184c713f05e5f2ddb730f077cf71244b629b75bab6",
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "transparent_background": false,
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-a-r001.png",
+      "storyboard_panel_ids": [
+        "S07",
+        "S08",
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "identity-conspirator-b",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-conspirator-b.md",
+      "prompt": "Create exactly one single-view, full-frame vertical 9:16 detailed cinematic ChronoStick illustration. The supplied master image controls rendering only, never its panel layout. Round off-white head, tiny black dot eyes, very minimal brow/mouth, no realistic nose, dark clean drawn contours, narrow stick-derived torso and limbs, detailed muted period clothing, soft illustrated warm light and drawn matte surfaces throughout. Bare-head-to-sole figure height approximately 5.0 to 5.5 round-head diameters; shoulders approximately 0.85 head diameters; clothing follows a slender stick skeleton. No broad realistic human chest or anatomical hands. One full body, one pose, no duplicates, alternate views, panels, grid, typography, labels or photorealistic material inserts. Subject occupies 72 percent of frame height with generous hat/feet/crop margins. Plain warm-gray drawn plaster wall and floor behind; upper-left key light. Zero background people, zero animals.\n\nExactly ONE unnamed adult conspirator role in a 1605 English period evocation, not a named historical portrait. Front three-quarter pose facing screen left. Round off-white head, tiny black dot eyes, slightly concerned brow, minimal closed mouth, clean-shaven. Short close-cropped dark auburn hair and NO headwear. Muted olive-green buttoned short doublet, small pale collar and cuffs, narrow charcoal knee breeches, simple belt and dark boots. Slender stick-derived arms with simple pale drawn hands resting at his sides. No cross pendant, cloak, hat, beard, moustache, lantern, weapon, paper or writing. Distinguish his bare short-haired head and olive clothing from the burgundy flat-cap role and dark wide-brim-hat Fawkes.\n",
+      "prompt_sha256": "85e3f184f77b0ae556a280e3ed0575abe42e429fce29046a4603f8a93a72e89d",
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "transparent_background": false,
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-b-r001.png",
+      "storyboard_panel_ids": [
+        "S07",
+        "S12"
+      ]
+    },
+    {
+      "id": "identity-guard-peer",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/identity-guard-peer.md",
+      "prompt": "Create exactly one single-view, full-frame vertical 9:16 detailed cinematic ChronoStick illustration. The supplied master image controls rendering only, never its panel layout. Round off-white head, tiny black dot eyes, very minimal brow/mouth, no realistic nose, dark clean drawn contours, narrow stick-derived torso and limbs, detailed muted period clothing, soft illustrated warm light and drawn matte surfaces throughout. Bare-head-to-sole figure height approximately 5.0 to 5.5 round-head diameters; shoulders approximately 0.85 head diameters; clothing follows a slender stick skeleton. No broad realistic human chest or anatomical hands. One full body, one pose, no duplicates, alternate views, panels, grid, typography, labels or photorealistic material inserts. Subject occupies 72 percent of frame height with generous hat/feet/crop margins. Plain warm-gray drawn plaster wall and floor behind; upper-left key light. Zero background people, zero animals.\n\nExactly ONE unnamed search guard role in a 1605 English period evocation, not a portrait or verified named-officer uniform. Front three-quarter pose facing screen left. Round off-white stick head, tiny dot eyes, alert small brow, minimal closed mouth, clean-shaven. Plain drawn dull steel-gray morion-style open-face helmet with low central crest and turned brim, no visor, plume or insignia. Muted buff-brown knee-length coat over narrow moss-gray sleeves, modest pale collar, dark belt, slender dark breeches and simple dark boots. One straight wooden-shaft period polearm at screen right, its small plain metal point fully inside the top safe margin; one hand rests on the shaft, free other hand rests at his side. Zero lanterns, zero shields, zero extra people, zero writing. The steel helmet/buff coat differentiates him from the felt-hat blue-gray lead guard and historical Fawkes.\n",
+      "prompt_sha256": "afb4f85f2c4f9b89e70d162dbfc493585a538e54bd6f65b287f4af71cc6a065d",
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "transparent_background": false,
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-peer-r001.png",
+      "storyboard_panel_ids": [
+        "S24",
+        "S25"
+      ]
+    }
+  ]
+}

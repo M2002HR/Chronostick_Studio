@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-10-05T16:29:32.563845+00:00",
+  "archive_note": "Exact in-memory tool prompt reconstructed without alteration immediately after actual call; this is a post-call provenance snapshot, not a claimed pre-generation freeze.",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "powder-empty",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/powder-empty.md",
+      "prompt": "Edit the supplied illustrated ChronoStick undercroft anchor. Remove the entire man completely, including hat, head, hair, face, beard, collar, clothing, cloak, both hands, legs, boots and his shadow. Reconstruct the empty stone floor and wall/arch behind him. Keep the original camera position, vertical 9:16 composition, all existing closed oak barrels, black iron hoops, rear stack, drawn stone arch, rough drawn cobbles, warm amber light from upper left and cool slate right shadows. Every pixel remains in the same detailed matte hand-drawn stick-world rendering with strong controlled dark outlines. The resulting full-frame standalone reference contains ZERO people, hands, body parts, portraits, masks or clothing. No flame, fuse, ignition, smoke, explosion, exposed powder, text, labels, logo, panels or grid. The foreground right barrel remains closed and unobstructed. This is an empty historical powder storage reference for an object-only retrospective insert; no new objects or camera changes.",
+      "prompt_sha256": "5125423edcb5b1d3863af63ab68548416f525c65890dc6cacb9b9346ef6fc353",
+      "input_images": [
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png",
+          "sha256": "b5f71be51a83053cb368d714829d80e9339961b7f2580da79bec30ff89b20361",
+          "role": "edit target, geometry/style authority; remove entire person"
+        }
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/powder-empty-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S28"
+      ]
+    }
+  ]
+}

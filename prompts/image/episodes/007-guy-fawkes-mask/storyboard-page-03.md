@@ -1,0 +1,14 @@
+Draw a THROWAWAY DIRECTOR THUMBNAIL BOARD with exactly 12 panels in four columns and three rows on white paper. Each panel is a portrait 9:16 rectangle. This must look like a hurried classroom whiteboard diagram made in 30 seconds per panel with a thin black marker. Extremely few lines: approximately 10 to 20 bare contour lines in each panel. All white interiors. Human figures have EMPTY oval heads, simple box or trapezoid torsos, broad outlined bent limbs. NO eyes, noses, realistic faces, hair, beards, clothing folds, detailed hats, texture, lighting, shading, shadows, hatching, stippling, grey fills, perspective rendering or finished illustration. Do not draw stick figures or ChronoStick mascots: bodies have broad outlined volumes. Generic anonymous humans only. Props and settings are simple geometric outline placeholders, not designed assets. Use at most TWO background outline strokes unless a setting is the whole subject. No dramatic cinematography styling. Small shot IDs above the panels are the only text. All twelve IDs must appear in order. The modern mask PROP can have two eye holes, one curved moustache line and one short chin mark; these are its only facial marks. Keep period people unmasked and faceless. Do not turn this into a detailed pencil comic. Think crude wireframe blocking diagram. The intentional absence of final design is essential.
+
+Panel 1, exact ID S25: Medium arrest. Exactly two guards confront one Fawkes beside stationary barrels; one guard reaches to stop him.
+Panel 2, exact ID S26: CU restraining hand. One guard hand grips Fawkes sleeve; a single clear arrest gesture.
+Panel 3, exact ID S27: CU Fawkes face. Fawkes freezes in surprise; no speech or lip movement.
+Panel 4, exact ID S28: Barrel insert. Unchanged dry barrel stacks; no detonation, fire or smoke.
+Panel 5, exact ID S29: Medium custody door. A plain prison door closes once; symbolic time compression after arrest.
+Panel 6, exact ID S30: Custody candle insert. An extinguished candle outside an empty barred doorway symbolizes the later execution; no person, body, gore or violence.
+Panel 7, exact ID S31: CU graphic-novel prop. A closed book bears a simple mask picture, with no readable title.
+Panel 8, exact ID S32: Medium contemporary mask. One modern anonymous human raises a mask to the face; separate from historic Fawkes.
+Panel 9, exact ID S33: Wide contemporary group. Exactly three modern human silhouettes wear masks; calm recognizable symbolic assembly.
+Panel 10, exact ID S34: CU central masked role. One masked modern face fills the frame; same mask design across modern shots.
+Panel 11, exact ID S35: CU mask in hand. One hand holds the mask, echoing the opening without a cross-generation match move.
+Panel 12, exact ID S36: ECU opening-mask return. The mask returns to a resolved frontal pose with a brief hold; replay-friendly graphic echo.

@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T13:17:28.747356+00:00",
+  "id": "conspiracy-table",
+  "revision": "r002",
+  "request_path": "plan/references/scenes-fix-requests-r002.json",
+  "request_sha256": "9d949d66dc8c7c458b77d26bd4ff51773c4bff80cfe9724a0a1fcd1691a0fa15",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-84353abd-1df2-4c77-994e-83797c5cf7cb.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png",
+  "sha256": "6c718dc03db1cd15c511f728b19702ce8bae458d3889d06859ca37f034a92fe8",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

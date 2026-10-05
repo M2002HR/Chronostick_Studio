@@ -1,0 +1,21 @@
+{
+  "reviewer": "user + assistant",
+  "decision": "user-approved actualclip04 variant",
+  "user_quote": "انیمیشنش خوبه",
+  "scope": "This actualr002picture only",
+  "source": "renders/editorial/episode-007-clip-04-letter-search-arrest-r002.mp4",
+  "source_sha256": "16096eb8893bc8924a2c4a1085a4aa1bdf0b9ec03a528f7995cf9761885efbd1",
+  "panels": {
+    "S19": "Foldedletter presentation in initialguardframing",
+    "S20": "Letter take, thenopen state in same framing",
+    "S21": "Guardreading in same framing",
+    "S22": "Lantern insert startingframe66",
+    "S23": "Requestedlatchinsert notshown independently; hardware remainsstatic behindlantern",
+    "S24": "Openthreshold startingframe81",
+    "S25": "Guardreach with same threepeople",
+    "S26": "Blueguard/Fawkesbrown sleevegrip startingframe97",
+    "S27": "Face reaction insert omitted in actualtake; useraccepted animation, endonclosedgrip retained"
+  },
+  "no_future_clip_approval": true,
+  "audio": "Userrejects native music; clean replacementmandatory."
+}

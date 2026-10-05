@@ -1,0 +1,42 @@
+{
+  "word_count": 76,
+  "segment_count": 6,
+  "first_word_start": 0.18,
+  "last_word_end": 33.28,
+  "overlapping_word_rows": [
+    14,
+    28,
+    45
+  ],
+  "nonmonotonic_word_rows": [
+    45
+  ],
+  "text_vs_words_match": true,
+  "expected_script_changes": [
+    {
+      "operation": "replace",
+      "expected": [
+        "mil",
+        "seiscientos",
+        "cinco"
+      ],
+      "observed": [
+        "1605"
+      ]
+    },
+    {
+      "operation": "replace",
+      "expected": [
+        "treinta",
+        "y",
+        "seis"
+      ],
+      "observed": [
+        "36"
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "normalization": "none; provider times preserved",
+  "timing_limit": "STT estimates; accepted voice and perceptual review are required"
+}

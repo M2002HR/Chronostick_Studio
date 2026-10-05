@@ -1,0 +1,23 @@
+{
+  "retrieved_at": "2026-10-05T11:58:33.807993+00:00",
+  "institution": "Folger Shakespeare Library",
+  "catalogue_number": "ART Box P281 no.7 (size S)",
+  "creator": "Crispijn van de Passe",
+  "date_on_institutional_page": "1606",
+  "source_url": "https://www.folger.edu/blogs/collation/gwu2026-catalog-gunpowder/",
+  "catalogue_url": "https://catalog.folger.edu/record/256220",
+  "image_url": "https://images.folger.edu/uploads/2026/02/ARTBoxP281no.7detailofconspirators-scaled.jpg",
+  "path": "episodes/007-guy-fawkes-mask/source/research/portraits/gunpowder-conspirators-folger-p281-r001.jpg",
+  "sha256": "6580519ddbbd050fad7dc2775a886f6894ea787a69ea5bf2a86f30047efe2102",
+  "bytes": 1133806,
+  "role": "Historical content/recognition cues only, never an H3 style/reference input",
+  "limitations": "Contemporary engraving with probably stock likenesses; not a verified lifelike portrait. Guy/Guido Fawkes is third from right in labeled group. Colors are production choices, not engraving evidence.",
+  "corroborating_url": "https://www.npg.org.uk/collections/search/portrait/mw00381/The-Gunpowder-Plot-Conspirators-1605",
+  "failed_downloads": [
+    {
+      "url": "https://collectionimages.npg.org.uk/large/mw00381/The-Gunpowder-Plot-Conspirators-1605.jpg",
+      "http_status": 403,
+      "note": "No NPG image archived; actual archived image is Folger detail."
+    }
+  ]
+}

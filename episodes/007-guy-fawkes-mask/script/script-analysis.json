@@ -1,0 +1,114 @@
+{
+  "status": "needs_review",
+  "language": "es",
+  "chosen_target_seconds": 30,
+  "word_count": 80,
+  "timing_status": "provisional; accepted Spanish voice is missing",
+  "duration_estimate": {
+    "at_170_wpm": 28.24,
+    "at_190_wpm": 25.26,
+    "method": "word-count estimate only; dates and foreign names need an actual audition"
+  },
+  "beats": [
+    {
+      "id": "B1",
+      "working_range": [
+        0,
+        5
+      ],
+      "purpose": "Recognizable mask -> surprising historical question",
+      "source_analysis": [
+        "A01",
+        "A02"
+      ],
+      "sentence": "Esta máscara esconde un plan explosivo. Londres, mil seiscientos cinco:"
+    },
+    {
+      "id": "B2",
+      "working_range": [
+        5,
+        11
+      ],
+      "purpose": "Catholic conspirators target king and Parliament; no false sole-leader claim",
+      "source_analysis": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "sentence": "hartos de la persecución religiosa, unos conspiradores católicos querían matar al rey y volar el Parlamento."
+    },
+    {
+      "id": "B3",
+      "working_range": [
+        11,
+        15
+      ],
+      "purpose": "Fawkes role and concrete scale of hidden powder",
+      "source_analysis": [
+        "A06"
+      ],
+      "sentence": "Guy Fawkes custodiaba treinta y seis barriles de pólvora."
+    },
+    {
+      "id": "B4",
+      "working_range": [
+        15,
+        19
+      ],
+      "purpose": "Warning -> search; move letter before arrest for causal clarity",
+      "source_analysis": [
+        "A08"
+      ],
+      "sentence": "Pero una carta de aviso desató la búsqueda."
+    },
+    {
+      "id": "B5",
+      "working_range": [
+        19,
+        23
+      ],
+      "purpose": "Arrest before detonation -> failed plot; no actual explosion",
+      "source_analysis": [
+        "A07"
+      ],
+      "sentence": "Lo atraparon antes de la explosión y acabó ejecutado. El plan fracasó."
+    },
+    {
+      "id": "B6",
+      "working_range": [
+        23,
+        30
+      ],
+      "purpose": "Explain modern mask through V for Vendetta; original payoff returns to mask; tiny spoken subscribe CTA",
+      "source_analysis": [
+        "A09"
+      ],
+      "sentence": "Siglos después, V de Vendetta convirtió su rostro en símbolo de rebelión. La pólvora no estalló. La máscara sí dio la vuelta al mundo. Suscríbete."
+    }
+  ],
+  "cta": {
+    "type": "subscribe",
+    "text": "Suscríbete.",
+    "placement": "after_payoff",
+    "delivery": "rushed pace and enthusiasm; very brief",
+    "requested_by": "user",
+    "picture_requirement": "none; over resolved ending"
+  },
+  "pronunciation_notes": [
+    "Guy Fawkes: decide a consistent recognizable Spanish pronunciation; no invented nickname",
+    "V de Vendetta: Spanish title as spoken; no exact film quotation"
+  ],
+  "pending": [
+    "User review of scenario/script and storyboard",
+    "Actual Spanish voice from user",
+    "Reconcile provisional beat ranges and redundant coverage against actual accepted voice; ranges are not word timestamps"
+  ],
+  "voice_direction": {
+    "skill": "chronostick-voice-direction",
+    "provider": "google_vids",
+    "paste_input": "script/voiceover-google-vids-es.md",
+    "tag_count": 30,
+    "spoken_text_unchanged": true,
+    "audio_status": "missing"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source_direction": "plan/shorts-caption-direction-r001.json",
+  "review_finding": "Actual r002 phone/468x832 preview has heavier and raised text but still smaller than the user sample; increase size80 to104 at1080x1920. This is caption-only finishing, not clip regeneration.",
+  "new_style": {
+    "profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+    "font_size": 104,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 300,
+    "outline": 2,
+    "shadow": 2,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 4,
+    "max_cue_seconds": 1.8,
+    "break_gap_seconds": 0.3,
+    "max_lines": 1
+  },
+  "new_distribution_revision": "r003",
+  "picture_voice_and_selected_sfx": "unchanged",
+  "reference_font_identity": "Selected approximation; screenshot exact typeface unknown.",
+  "pending": null,
+  "actual_output_review": "postproduction/review-r003.json",
+  "status": "assistant_visual_review_complete_user_playback_pending"
+}

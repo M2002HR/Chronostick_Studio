@@ -1,0 +1,11 @@
+{
+  "status": "unreliable_for_audition",
+  "actual_preview": "three-isolated-cues-preview-r001.wav",
+  "actual_cues_seconds": [
+    0.1,
+    2.1,
+    4.1
+  ],
+  "provider_described": "Sixclicks and incorrect timestamps.",
+  "authority": "Actual source stem and user clip04 listening decision supersede this supplementary machine description; no personal audition claimed."
+}

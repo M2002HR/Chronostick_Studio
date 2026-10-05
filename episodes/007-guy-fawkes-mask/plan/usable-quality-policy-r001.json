@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-05T16:50:18.238815+00:00",
+  "status": "active_user_quality_policy",
+  "user_quote": "ببین حالا روی کلیپ ها خیلی هم نمیشه وسواس داشت، اگه به حد قابل قبولی رسیده اوکیه و شاید نشه هیچ وقت ۱۰۰ درصد پرفکتشون کرد، ۹۵ درصد شد اوکیه",
+  "meaning": "Practical usable quality, approximately95percent rather than perfection. No computed quality score is claimed.",
+  "accept_minor": [
+    "small cut drift within clear spoken story beat",
+    "absorbed nonessential insert coverage",
+    "brief nondisruptive cosmetic mask detail"
+  ],
+  "still_required": [
+    "core story meaning/chronology",
+    "clear recurring identity and entire drawn world",
+    "exact editorial counts and voice duration",
+    "no forbidden music; preserve user-confirmed clean engine SFX"
+  ],
+  "retry_stop": "No further cosmetic retries; already submitted clip06r004 completes, then select stronger usable r003/r004 candidate.",
+  "does_not_imply": "No blanket user approval of unheard soundtracks or unseen complete master."
+}

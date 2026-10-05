@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:46:34.567024+00:00",
+  "id": "identity-guard-peer",
+  "revision": "r001",
+  "request_path": "plan/references/support-identity-requests-r001.json",
+  "request_sha256": "74612bf446e03d7759c12e028c99af5a750f8d28f7907557c8136e8e088c51e9",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-b9174c75-03b7-45f2-b34c-ccad958dc0d7.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-peer-r001.png",
+  "sha256": "2216ad763563f87e41d0ec7af822f139bc5d5074d072644a0c13d765300b49c3",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-05T13:05:55.287334+00:00",
+  "revision": "r002",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "modern-masked-group",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/modern-masked-group.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput image 2 controls the central modern masked adult and the identical ivory/black/rose mask motif for all three roles. Exactly THREE adult stick people in a sparse contemporary public-space scene, one view/instant, all calm and closed-mouth behind props. Central role closest to camera at screen center, full figure 60 percent frame height, charcoal hoodie/hood and blue-gray trousers exactly as supplied. Left supporting anonymous role one step behind at screen left, muted slate-blue hoodie/hood and charcoal trousers, figure 46 percent height. Right supporting anonymous role one step behind at screen right, muted burgundy hoodie/hood and dark trousers, same 46 percent height. Every figure has ONE worn mask with the same clean drawn motifs; simplified pale hands rest beside narrow stick-derived bodies, no raised fists, weapons, signs or readable text. All three complete heads, hands and shoes sit at least 8 percent of canvas width inside both side edges and 8 percent of canvas height above the bottom; generous empty paving below their feet. Heads/hoods and feet entirely safe; three distinct silhouettes separated with no overlap/duplication. Background is an explicitly PRESENT-DAY unnamed plaza: only two low, plain, rectilinear modern building blocks with flat roofs and a few empty unlettered rectangular windows, and empty drawn paving. These blocks stay small in the upper background, behind the trio. No historic streetscape, cathedral, castle, palace, domes, spires, clock towers, medieval arches, gas lamps, extra crowd or vehicles. The master style controls drawn rendering, never historical background content. Soft warm upper-left key and cool slate right fill. The central masked face is large enough for a resolved close crop; group scale tells spread of the symbol, not a named real protest event. No explosions or false historical Fawkes mask wearer.\n",
+      "prompt_sha256": "24cd684e67fc8947fc5dcf420734e5526db3268f8f94e66e8a2ea04ae8abe8bf",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+          "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+          "role": "identity-modern-mask"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r002.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S33",
+        "S34",
+        "S36"
+      ]
+    },
+    {
+      "id": "conspiracy-table",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/conspiracy-table.md",
+      "prompt": "Create exactly ONE uninterrupted full-frame vertical 9:16 production illustration in detailed cinematic ChronoStick. Input image 1 is master rendering authority only; never copy its board layout. All surfaces are drawn with dark controlled outlines and simplified matte forms, muted ochre/umber/slate/burgundy/olive palette and soft cinematic illustrated shading. People have round off-white heads, dot eyes, very sparse brows/mouth, no realistic nose, narrow stick-derived bodies/limbs and simple pale drawn hands; detailed clothing follows that simplified skeleton, not human anatomical bodies. Standard full body about 5.0–5.8 head diameters, shoulders narrower than a head. No photorealistic inserts or painterly surface rendering. One scene, one viewpoint, one instant; exact inventory stated below. No grid, panels, border, repeated views, inset faces, typography, captions, labels, readable letters or numerals. All story-critical subjects/props within safe margins. Zero unlisted people, animals, vehicles, signs, flags, weapons or props.\n\nInput 2 controls Fawkes, input 3 controls unnamed burgundy flat-cap conspirator A, input 4 controls unnamed olive bareheaded conspirator B. Exactly THREE adult stick people around ONE square dark oak table in an intimate 1605 room: Fawkes centered behind the table, A screen left turned inward, B screen right turned inward. Preserve each supplied face silhouette, hair/beard, headwear, costume colors and narrow anatomy. Fawkes keeps plain broad dark felt hat, dark wavy hair, moustache and pointed beard, pale open collar, charcoal doublet and umber cloak; he is a participant, not presented as sole mastermind. A retains wine-red flat cap, clean-shaven face, burgundy jerkin/cream sleeves and exactly one small wooden cross pendant openly visible at upper chest. B has short auburn hair, NO hat, NO beard, olive short doublet. A's ONE primary pointing hand rests beside an extremely SIMPLE symbolic building sketch made of exactly two plain rectangles topped by two triangular gables, with one small rectangular doorway and no other detail on ONE pale plan sheet laid flat on the table. Exactly ONE small simple brass crown-shaped miniature sits near the sheet's lower-left edge as a symbolic king-target prop; not a portrait or authentic historical document. Fawkes's two simple hands brace the far table edge; B's two hands rest near right edge. One room/instant, no pointing duplicates. Eye-level medium framing, heads and table fully inside safe crop; visible pendant, miniature crown, plan and Fawkes face large enough for crop inserts. Plain drawn timber/plaster walls and one high dark window, soft amber left key and cool shadow right. The symbolic building sketch has NO towers, clock faces, tall vertical shafts, battlements, decorative Gothic frontage, domes, intricate windows, Big Ben or present-day Parliament; do not draw a recognizable modern London landmark. No writing on the plan, no barrels, weapons, lanterns, modern mask, extra figures or furniture.\n",
+      "prompt_sha256": "168d71594f5eeaa21764d1091de324a8e15647d6dda7265abd9fa9f40508e213",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+          "sha256": "6486f134966cc5e94f2ef47c1969538cb5b938a034edd8fd82d318b012f2f369",
+          "role": "identity-fawkes"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-a-r001.png",
+          "sha256": "ea74ae50180d1ee64260791cc462411daf72e05f6a3d559f4171dbce16e5db67",
+          "role": "identity-conspirator-a"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-b-r001.png",
+          "sha256": "a2e74e0dfddc2b0e04fbeddc4abd2f17e84e9aedc44439b1c0546f66ac406a70",
+          "role": "identity-conspirator-b"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-a-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-b-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12"
+      ]
+    }
+  ]
+}

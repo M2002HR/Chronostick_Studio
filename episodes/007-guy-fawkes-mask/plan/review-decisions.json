@@ -1,0 +1,64 @@
+{
+  "decisions": [
+    {
+      "id": "continue-current-storyboard-r001",
+      "recorded_at": "2026-10-05T12:00:22.748892+00:00",
+      "reviewer": "user",
+      "quote": "خوبه ادامه بده",
+      "context": "Continuation after the current scenario/storyboard review package, script performance/CTA changes and supplied voice intake. Subsequent user instruction specifically requires references/shot planning to follow this storyboard.",
+      "interpretation": "Authorization to proceed with the presented scenario, current narration and r002 neutral storyboard as production-design inputs. This is contextual acceptance, not a claim that the user issued a formal approval phrase or reviewed future assets.",
+      "artifacts": [
+        {
+          "path": "script/narration-es.md",
+          "sha256": "108eb25a2f27584b539a7303d9744ce5944e28fb3b29ea2ee3cfd21d3716fa64"
+        },
+        {
+          "path": "plan/scenario.md",
+          "sha256": "1bcf836558c1ef2a1a1c4293a6495f5a2b7077c567310efcd9b9592588a1cbdf"
+        },
+        {
+          "path": "plan/storyboard/shot-list.json",
+          "sha256": "a4b91977e9f3cce6da2b996917df6ae300f514aad732571173ff440016c7524c"
+        },
+        {
+          "path": "plan/storyboard/storyboard-page-01-r002.png",
+          "sha256": "52072abd62e56a2fc8855d0ce9c95303ecda2693262f9877d5729fcbebb3f35f"
+        },
+        {
+          "path": "plan/storyboard/storyboard-page-02-r002.png",
+          "sha256": "24183f5dcbef592b22950abdeb3c9001d3b9632affdb456557c9a03b31c7d97a"
+        },
+        {
+          "path": "plan/storyboard/storyboard-page-03-r002.png",
+          "sha256": "e80410bc0010349e04d957d48a7b06203d9727eb114c03f98a0fc3bb4870134b"
+        }
+      ]
+    },
+    {
+      "id": "accept-short-captions-and-continue-delivery-r001",
+      "recorded_at": "2026-10-05T17:58:04.342926+00:00",
+      "reviewer": "user",
+      "quote": "خوبه\nاز این به بعد بریا شورت دقیقا همینجوری زیر نویس میزاره درسته؟\nو اینکه تامبنیلش رو درست کن و همه چیزش آماده باشه",
+      "context": "Response to delivered r003 complete video and actual caption portrait preview. User accepts this caption style and asks to complete thumbnail/metadata.",
+      "interpretation": "Explicit caption-style acceptance and contextual acceptance of the current distribution candidate for packaging. Does not claim a full audio audition or authorize upload/publication.",
+      "scope": [
+        "shorts-caption-style",
+        "current-r003-distribution-for-delivery",
+        "thumbnail-generation",
+        "metadata-preparation"
+      ],
+      "artifacts": [
+        {
+          "path": "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+          "sha256": "1b636e7771046927599a99b36f60d0b01d261b5395c96f050eeacdd2af9e7ecd"
+        },
+        {
+          "path": "postproduction/exports/r003/manifest.json",
+          "output_revision": "r003"
+        }
+      ],
+      "no_assumed_full_listening": true,
+      "upload_authorized": false
+    }
+  ]
+}

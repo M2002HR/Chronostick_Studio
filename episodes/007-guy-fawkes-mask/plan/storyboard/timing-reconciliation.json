@@ -1,0 +1,179 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-05T15:14:51.614535+00:00",
+  "selected_storyboard_revision": "r002",
+  "scope": "Voice-driven timing/crop expansion; approved scenario and sketch bytes unchanged",
+  "panel_to_shots": {
+    "S01": [
+      "C01-S01",
+      "C01-S04",
+      "C01-S05"
+    ],
+    "S02": [
+      "C01-S02"
+    ],
+    "S03": [
+      "C01-S03"
+    ],
+    "S04": [
+      "C01-S06"
+    ],
+    "S05": [
+      "C01-S07"
+    ],
+    "S06": [
+      "C01-S08"
+    ],
+    "S07": [
+      "C02-S01",
+      "C02-S03",
+      "C02-S04"
+    ],
+    "S08": [
+      "C02-S02"
+    ],
+    "S09": [
+      "C02-S05"
+    ],
+    "S10": [
+      "C02-S06"
+    ],
+    "S11": [
+      "C02-S07"
+    ],
+    "S12": [
+      "C02-S08"
+    ],
+    "S13": [
+      "C03-S01"
+    ],
+    "S14": [
+      "C03-S02"
+    ],
+    "S15": [
+      "C03-S03"
+    ],
+    "S16": [
+      "C03-S04"
+    ],
+    "S17": [
+      "C03-S05"
+    ],
+    "S18": [
+      "C03-S06"
+    ],
+    "S19": [
+      "C04-S01"
+    ],
+    "S20": [
+      "C04-S01"
+    ],
+    "S21": [
+      "C04-S02"
+    ],
+    "S22": [
+      "C04-S03"
+    ],
+    "S23": [
+      "C04-S04"
+    ],
+    "S24": [
+      "C04-S05"
+    ],
+    "S25": [
+      "C04-S05"
+    ],
+    "S26": [
+      "C04-S06"
+    ],
+    "S27": [
+      "C04-S07"
+    ],
+    "S29": [
+      "C05-S01"
+    ],
+    "S30": [
+      "C05-S02"
+    ],
+    "S28": [
+      "C05-S03",
+      "C05-S04",
+      "C06-S03",
+      "C06-S04"
+    ],
+    "S31": [
+      "C05-S05",
+      "C05-S06",
+      "C05-S07"
+    ],
+    "S32": [
+      "C05-S08",
+      "C05-S09"
+    ],
+    "S33": [
+      "C06-S01",
+      "C06-S06"
+    ],
+    "S34": [
+      "C06-S02",
+      "C06-S07"
+    ],
+    "S35": [
+      "C06-S05"
+    ],
+    "S36": [
+      "C06-S08"
+    ]
+  },
+  "omitted_panels": [],
+  "changes": [
+    {
+      "panels": [
+        "S01",
+        "S07",
+        "S28",
+        "S31",
+        "S32",
+        "S33",
+        "S34"
+      ],
+      "reason": "Split these existing views into materially distinct close/medium/prop/detail cuts to match real speech and keep rapid readable cadence; no new identity, location or event."
+    },
+    {
+      "panels": [
+        "S28"
+      ],
+      "reason": "Use intact object-only barrels at the failure sentence and repeat for the approved final La pólvora no estalló contrast; exclude people to avoid chronological resurrection."
+    },
+    {
+      "panels": [
+        "S19",
+        "S20",
+        "S21"
+      ],
+      "reason": "Folded handoff precedes open-paper reading on an explicit hard cut; no forced sub-second unfolding choreography."
+    },
+    {
+      "panels": [
+        "S24"
+      ],
+      "reason": "After latch release, hard cut directly to the resolved open-threshold reveal rather than animate a full heavy door swing in eight frames. Same door/opening event and composition retained."
+    },
+    {
+      "panels": [
+        "S36"
+      ],
+      "reason": "Hold final frontal modern mask over spoken payoff/subscribe CTA and 0.009667-second picture-grid padding; no button/text or frame-perfect loop."
+    }
+  ],
+  "material_story_change": false,
+  "new_sketch_revision_needed": false,
+  "pilot_repair": {
+    "evidence": "renders/review-r001.json",
+    "clip_id": "clip-04",
+    "old_shots": 9,
+    "new_shots": 7,
+    "reason": "Native pilot merged S19/S20 and S24/S25 coverage and missed intended separate crops. Direct each pair as one coherent action while preserving all nine panels, timed narration and discovery-before-grip chronology. S26 has dedicated already-closed grip authority. No script, sketch, cast, setting or voice change.",
+    "audio": "User heard music; candidate rejected. All prompts and native suffix strengthened, future actual listening still required."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-05T17:18:18.587009+00:00",
+  "selection_manifest": "renders/selection-manifest.json",
+  "output": "audio/sfx/selected-full-stem-r001.wav",
+  "sha256": "cf414bb498c4eef09f1e588df9c421927765262b183a71a455e3161d689b2d25",
+  "sample_rate": 48000,
+  "channels": 2,
+  "sample_count": 1602000,
+  "duration_seconds": 33.375,
+  "clip_sample_counts": [
+    264000,
+    286000,
+    202000,
+    220000,
+    300000,
+    330000
+  ],
+  "native_preserved": [
+    "clip-02",
+    "clip-03",
+    "clip-05"
+  ],
+  "fallback": [
+    "clip-01",
+    "clip-04",
+    "clip-06"
+  ],
+  "gain_db": 0,
+  "no_added_music": true,
+  "method": "Decode each selected approved soundtrack, reset presentation origin, silence-pad/trim only decoder/mux tail to exact editorial sample count, concatenate. No stretch, overlap, crossfade or musical sound added.",
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-nostdin",
+    "-i",
+    "episodes/007-guy-fawkes-mask/renders/final-selected/clip-01-r002-clean-sfx-r001.mp4",
+    "-i",
+    "episodes/007-guy-fawkes-mask/renders/final-selected/clip-02-r003-native-sfx.mp4",
+    "-i",
+    "episodes/007-guy-fawkes-mask/renders/final-selected/clip-03-r003-native-sfx.mp4",
+    "-i",
+    "episodes/007-guy-fawkes-mask/renders/final-selected/clip-04-r002-clean-sfx-r001.mp4",
+    "-i",
+    "episodes/007-guy-fawkes-mask/renders/final-selected/clip-05-r002-native-sfx.mp4",
+    "-i",
+    "episodes/007-guy-fawkes-mask/renders/final-selected/clip-06-r003-clean-sfx-r001.mp4",
+    "-filter_complex",
+    "[0:a:0]aresample=48000,aformat=sample_fmts=s16:channel_layouts=stereo,asetpts=PTS-STARTPTS,apad,atrim=end_sample=264000[a0];[1:a:0]aresample=48000,aformat=sample_fmts=s16:channel_layouts=stereo,asetpts=PTS-STARTPTS,apad,atrim=end_sample=286000[a1];[2:a:0]aresample=48000,aformat=sample_fmts=s16:channel_layouts=stereo,asetpts=PTS-STARTPTS,apad,atrim=end_sample=202000[a2];[3:a:0]aresample=48000,aformat=sample_fmts=s16:channel_layouts=stereo,asetpts=PTS-STARTPTS,apad,atrim=end_sample=220000[a3];[4:a:0]aresample=48000,aformat=sample_fmts=s16:channel_layouts=stereo,asetpts=PTS-STARTPTS,apad,atrim=end_sample=300000[a4];[5:a:0]aresample=48000,aformat=sample_fmts=s16:channel_layouts=stereo,asetpts=PTS-STARTPTS,apad,atrim=end_sample=330000[a5];[a0][a1][a2][a3][a4][a5]concat=n=6:v=0:a=1[out]",
+    "-map",
+    "[out]",
+    "-c:a",
+    "pcm_s16le",
+    "episodes/007-guy-fawkes-mask/audio/sfx/selected-full-stem-r001.wav"
+  ]
+}

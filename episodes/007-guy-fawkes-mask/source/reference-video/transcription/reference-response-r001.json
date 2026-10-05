@@ -1,0 +1,1 @@
+{"provider":"groq","capability":"audio.transcriptions","ok":false,"status_code":504,"latency_ms":0.0,"payload":null,"error":"provider timeout after 180.0s","model":"","headers":{},"error_type":"upstream_timeout"}

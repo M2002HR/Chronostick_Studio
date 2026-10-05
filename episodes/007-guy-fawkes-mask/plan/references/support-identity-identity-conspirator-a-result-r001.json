@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:46:34.219370+00:00",
+  "id": "identity-conspirator-a",
+  "revision": "r001",
+  "request_path": "plan/references/support-identity-requests-r001.json",
+  "request_sha256": "74612bf446e03d7759c12e028c99af5a750f8d28f7907557c8136e8e088c51e9",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-61196c53-4d93-496d-8b3a-b3828eeb568f.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/identity-conspirator-a-r001.png",
+  "sha256": "ea74ae50180d1ee64260791cc462411daf72e05f6a3d559f4171dbce16e5db67",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

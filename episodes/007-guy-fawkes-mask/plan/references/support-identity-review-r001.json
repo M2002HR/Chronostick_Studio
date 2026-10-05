@@ -1,0 +1,42 @@
+{
+  "reviewed_at": "2026-10-05T12:49:54.112343+00:00",
+  "entries": [
+    {
+      "id": "identity-conspirator-a",
+      "sha256": "ea74ae50180d1ee64260791cc462411daf72e05f6a3d559f4171dbce16e5db67",
+      "decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:49:54.112343+00:00",
+        "notes": "One clean-shaven round-headed role, wine-red flat cap, burgundy/cream costume and visible wooden cross. Full/270×480 views inspected; distinct from Fawkes and B. Unnamed dramatized role, not a verified historical portrait.",
+        "scope": "Identity/costume/prop appearance only; actual full-frame and phone-scale review plus storyboard-role comparison.",
+        "phone_inspection_path": "plan/references/inspection-r002/identity-conspirator-a-r001-phone.png",
+        "review_path": "plan/references/review.md"
+      }
+    },
+    {
+      "id": "identity-conspirator-b",
+      "sha256": "a2e74e0dfddc2b0e04fbeddc4abd2f17e84e9aedc44439b1c0546f66ac406a70",
+      "decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:49:54.112343+00:00",
+        "notes": "One clean-shaven bareheaded role, short wavy auburn hair and olive doublet. Full/270×480 views inspected; no cross or hat, clear separation from A and Fawkes. Lock actual short wavy hair rather than forcing a shaved cut.",
+        "scope": "Identity/costume/prop appearance only; actual full-frame and phone-scale review plus storyboard-role comparison.",
+        "phone_inspection_path": "plan/references/inspection-r002/identity-conspirator-b-r001-phone.png",
+        "review_path": "plan/references/review.md"
+      }
+    },
+    {
+      "id": "identity-guard-peer",
+      "sha256": "2216ad763563f87e41d0ec7af822f139bc5d5074d072644a0c13d765300b49c3",
+      "decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:49:54.112343+00:00",
+        "notes": "One buff-coated round-headed role with a steel-gray open-face crested helmet and one polearm, zero lanterns. Full/270×480 views inspected; helmet/coat silhouette separates him from felt-hat lead guard. Polearm point visible but close to top edge: scene anchor must reframe it with larger safety margin; identity is not a direct H3 scene input.",
+        "scope": "Identity/costume/prop appearance only; actual full-frame and phone-scale review plus storyboard-role comparison.",
+        "phone_inspection_path": "plan/references/inspection-r002/identity-guard-peer-r001-phone.png",
+        "review_path": "plan/references/review.md"
+      }
+    }
+  ],
+  "whole_stage_status": "draft; scene generation/review ongoing"
+}

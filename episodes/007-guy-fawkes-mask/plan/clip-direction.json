@@ -1,0 +1,1522 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "007-guy-fawkes-mask",
+  "status": "approved",
+  "fps": 24,
+  "picture_frame_count": 801,
+  "picture_duration_seconds": 33.375,
+  "shot_count": 46,
+  "style_authority": "CST-STYLE-001@1.0.0",
+  "storyboard_decision": "plan/review-decisions.json",
+  "voice_decision": "plan/voice-acceptance-r001.json",
+  "clips": [
+    {
+      "id": "clip-01",
+      "slug": "mask-to-1605",
+      "arc": "Immediate mask curiosity, then a sharp date/era contrast",
+      "reference_ids": [
+        "mask-hand",
+        "westminster-exterior",
+        "palace-entrance-window"
+      ],
+      "anchor_locks": {
+        "mask-hand": "The hand-held-mask anchor controls exactly one detached pale simplified hand in a charcoal cuff and one ivory mask with black arched brows, black eye openings, curled moustache, pointed painted goatee and rose cheek marks, against a drawn slate wall. It controls every visible pixel in its shots; the mask is a prop, never a living historical face.",
+        "westminster-exterior": "The riverside anchor controls the empty drawn medieval gabled stone complex, pitched slate roofs/finials, anchored tree shapes and river. This is a generic period setting, never modern clock-tower Westminster. No people/boats/text appear.",
+        "palace-entrance-window": "The entrance anchor controls one pointed stone arch, a closed paired oak door with two iron ring handles, fixed stone steps and one right-side narrow window containing one lit candle. Crop only its existing door/window details; no figure at the window."
+      },
+      "shots": [
+        {
+          "id": "C01-S01",
+          "storyboard_panel_ids": [
+            "S01"
+          ],
+          "reference_ids": [
+            "mask-hand"
+          ],
+          "start_frame_global": 0,
+          "end_frame_global": 16,
+          "start_frame_local": 0,
+          "end_frame_local": 16,
+          "start_seconds_global": 0.0,
+          "end_seconds_global": 0.6666666666666666,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.6666666666666666,
+          "framing": "Tight frontal mask, slightly tilted; 70 percent frame height",
+          "inventory": "Zero complete people; one ivory mask and one pale charcoal-sleeved holding hand; slate wall",
+          "primary_action": "The held mask tilts only five degrees then stops",
+          "camera": "Fixed eye-level camera",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The held mask tilts only five degrees then stops; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one dry sleeve brush",
+            "onset_frame_local": 2,
+            "end_frame_local": 5
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C01-S02",
+          "storyboard_panel_ids": [
+            "S02"
+          ],
+          "reference_ids": [
+            "mask-hand"
+          ],
+          "start_frame_global": 16,
+          "end_frame_global": 31,
+          "start_frame_local": 16,
+          "end_frame_local": 31,
+          "start_seconds_global": 0.6666666666666666,
+          "end_seconds_global": 1.2916666666666667,
+          "start_seconds_local": 0.6666666666666666,
+          "end_seconds_local": 1.2916666666666667,
+          "framing": "Extreme hand/ivory edge crop, fingers simplified",
+          "inventory": "One pale hand, charcoal cuff and one mask edge; no face or extra hand",
+          "primary_action": "The same hand raises the edge two centimetres then holds",
+          "camera": "Fixed close camera",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The same hand raises the edge two centimetres then holds; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C01-S03",
+          "storyboard_panel_ids": [
+            "S03"
+          ],
+          "reference_ids": [
+            "mask-hand"
+          ],
+          "start_frame_global": 31,
+          "end_frame_global": 47,
+          "start_frame_local": 31,
+          "end_frame_local": 47,
+          "start_seconds_global": 1.2916666666666667,
+          "end_seconds_global": 1.9583333333333333,
+          "start_seconds_local": 1.2916666666666667,
+          "end_seconds_local": 1.9583333333333333,
+          "framing": "One black eye opening fills the upper-middle frame",
+          "inventory": "One cropped ivory mask eye and black eyebrow, slate background; no living eye or person",
+          "primary_action": "Hold the eye opening completely still",
+          "camera": "One tiny 2-percent push, settled four frames before cut",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the eye opening completely still; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C01-S04",
+          "storyboard_panel_ids": [
+            "S01"
+          ],
+          "reference_ids": [
+            "mask-hand"
+          ],
+          "start_frame_global": 47,
+          "end_frame_global": 63,
+          "start_frame_local": 47,
+          "end_frame_local": 63,
+          "start_seconds_global": 1.9583333333333333,
+          "end_seconds_global": 2.625,
+          "start_seconds_local": 1.9583333333333333,
+          "end_seconds_local": 2.625,
+          "framing": "Moustache/goatee prop insert; iconic curved black paint",
+          "inventory": "One ivory mask lower-face crop with black moustache and pointed painted goatee; no human mouth or face",
+          "primary_action": "Hold the painted mask surface unchanged",
+          "camera": "Fixed macro feeling, drawn edges crisp",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the painted mask surface unchanged; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C01-S05",
+          "storyboard_panel_ids": [
+            "S01"
+          ],
+          "reference_ids": [
+            "mask-hand"
+          ],
+          "start_frame_global": 63,
+          "end_frame_global": 85,
+          "start_frame_local": 63,
+          "end_frame_local": 85,
+          "start_seconds_global": 2.625,
+          "end_seconds_global": 3.5416666666666665,
+          "start_seconds_local": 2.625,
+          "end_seconds_local": 3.5416666666666665,
+          "framing": "Full mask returned to center, different scale from opening",
+          "inventory": "One mask, one charcoal-sleeved pale hand; no worn mask or visible wearer",
+          "primary_action": "The holding hand settles the mask into a still frontal pose",
+          "camera": "Fixed eye-level close frame",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The holding hand settles the mask into a still frontal pose; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C01-S06",
+          "storyboard_panel_ids": [
+            "S04"
+          ],
+          "reference_ids": [
+            "westminster-exterior"
+          ],
+          "start_frame_global": 85,
+          "end_frame_global": 108,
+          "start_frame_local": 85,
+          "end_frame_local": 108,
+          "start_seconds_global": 3.5416666666666665,
+          "end_seconds_global": 4.5,
+          "start_seconds_local": 3.5416666666666665,
+          "end_seconds_local": 4.5,
+          "framing": "Wide riverside medieval stone complex, gables above water",
+          "inventory": "One linked period stone complex, pitched roofs/finials from anchor, trees and river; zero people, boats or clock tower",
+          "primary_action": "One small water ripple passes and resolves",
+          "camera": "Fixed wide view, no architecture redesign",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "One small water ripple passes and resolves; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one very brief soft water lap",
+            "onset_frame_local": 87,
+            "end_frame_local": 90
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C01-S07",
+          "storyboard_panel_ids": [
+            "S05"
+          ],
+          "reference_ids": [
+            "palace-entrance-window"
+          ],
+          "start_frame_global": 108,
+          "end_frame_global": 119,
+          "start_frame_local": 108,
+          "end_frame_local": 119,
+          "start_seconds_global": 4.5,
+          "end_seconds_global": 4.958333333333333,
+          "start_seconds_local": 4.5,
+          "end_seconds_local": 4.958333333333333,
+          "framing": "Tight pointed entrance and closed paired oak door",
+          "inventory": "One pointed arch, two oak leaves, two iron ring handles and stone steps; no person; window cropped out",
+          "primary_action": "Hold both door leaves firmly closed",
+          "camera": "One 2-percent forward move, settled by final three frames",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold both door leaves firmly closed; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C01-S08",
+          "storyboard_panel_ids": [
+            "S06"
+          ],
+          "reference_ids": [
+            "palace-entrance-window"
+          ],
+          "start_frame_global": 119,
+          "end_frame_global": 132,
+          "start_frame_local": 119,
+          "end_frame_local": 132,
+          "start_seconds_global": 4.958333333333333,
+          "end_seconds_global": 5.5,
+          "start_seconds_local": 4.958333333333333,
+          "end_seconds_local": 5.5,
+          "framing": "One narrow window with a burning candle",
+          "inventory": "One drawn window and one lit candle; closed entry door outside crop, no silhouettes",
+          "primary_action": "The tiny candle flame bends once then returns upright",
+          "camera": "Fixed tight window insert",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The tiny candle flame bends once then returns upright; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 132,
+        "end_frame_local": 141,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      },
+      "prompt_path": "prompts/clip-01-mask-to-1605.md",
+      "editorial_frame_count": 132,
+      "generation_request_seconds": 5.5
+    },
+    {
+      "id": "clip-02",
+      "slug": "conspiracy-target",
+      "arc": "Three distinct conspirators; religion cue, crown target, then the planned building",
+      "reference_ids": [
+        "conspiracy-table",
+        "conspiracy-plan-shoulder"
+      ],
+      "anchor_locks": {
+        "conspiracy-table": "The table anchor controls exactly three narrow stick-derived men: anonymous wine-red flat-cap A at left, clean-shaven dark short hair/burgundy jerkin/cream sleeves/one wooden cross; Fawkes at center, broad plain dark felt hat, wavy dark hair, moustache/compact pointed beard, pale open collar, charcoal doublet/umber cloak; clean-shaven bareheaded short-auburn B at right, olive doublet and no cross. One oak table, one miniature brass crown, one pale unlettered two-gable symbolic plan; drawn timber/plaster room and high window. The anchored one wall-mounted candle at far left and one high window are fixed; do not add furniture or extra flames.",
+        "conspiracy-plan-shoulder": "The over-left-shoulder plan anchor preserves those same three identities, table/room/light: A cap/cream shoulder and pointing hand near-left, Fawkes upper center, olive B upper-right. Exactly one blank pale sheet with two plain gables/one doorway and one tiny crown; no clock or intricate Gothic landmark. The anchored one wall-mounted candle at far left and one high window are fixed; do not add furniture or extra flames."
+      },
+      "shots": [
+        {
+          "id": "C02-S01",
+          "storyboard_panel_ids": [
+            "S07"
+          ],
+          "reference_ids": [
+            "conspiracy-table"
+          ],
+          "start_frame_global": 132,
+          "end_frame_global": 154,
+          "start_frame_local": 0,
+          "end_frame_local": 22,
+          "start_seconds_global": 5.5,
+          "end_seconds_global": 6.416666666666667,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.9166666666666666,
+          "framing": "Eye-level medium-wide three-person table",
+          "inventory": "Exactly three roles: burgundy/cross A left, felt-hat Fawkes center, bareheaded olive B right; one oak table, blank plan and miniature crown Existing wall-mounted candle at far left and high window remain fixed when within this crop.",
+          "primary_action": "Fawkes tightens his eyebrows slightly; others remain still",
+          "camera": "Fixed camera; clear head separation",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Fawkes tightens his eyebrows slightly; others remain still; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C02-S02",
+          "storyboard_panel_ids": [
+            "S08"
+          ],
+          "reference_ids": [
+            "conspiracy-table"
+          ],
+          "start_frame_global": 154,
+          "end_frame_global": 175,
+          "start_frame_local": 22,
+          "end_frame_local": 43,
+          "start_seconds_global": 6.416666666666667,
+          "end_seconds_global": 7.291666666666667,
+          "start_seconds_local": 0.9166666666666666,
+          "end_seconds_local": 1.7916666666666667,
+          "framing": "Cross and cream-sleeved hand at A chest",
+          "inventory": "Only A torso and one pale cream-sleeved hand with one wooden cross; all other faces outside crop",
+          "primary_action": "A briefly touches his single wooden cross, then rests the hand",
+          "camera": "Fixed chest-height close view",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "A briefly touches his single wooden cross, then rests the hand; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one faint cloth rub",
+            "onset_frame_local": 24,
+            "end_frame_local": 27
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C02-S03",
+          "storyboard_panel_ids": [
+            "S07"
+          ],
+          "reference_ids": [
+            "conspiracy-table"
+          ],
+          "start_frame_global": 175,
+          "end_frame_global": 192,
+          "start_frame_local": 43,
+          "end_frame_local": 60,
+          "start_seconds_global": 7.291666666666667,
+          "end_seconds_global": 8.0,
+          "start_seconds_local": 1.7916666666666667,
+          "end_seconds_local": 2.5,
+          "framing": "Close portrait of burgundy flat-cap A",
+          "inventory": "Exactly one visible clean-shaven wine-cap face and burgundy/cream shoulder; other two roles remain out of frame",
+          "primary_action": "A leans forward just two centimetres, lips closed",
+          "camera": "Fixed portrait crop",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "A leans forward just two centimetres, lips closed; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C02-S04",
+          "storyboard_panel_ids": [
+            "S07"
+          ],
+          "reference_ids": [
+            "conspiracy-table"
+          ],
+          "start_frame_global": 192,
+          "end_frame_global": 211,
+          "start_frame_local": 60,
+          "end_frame_local": 79,
+          "start_seconds_global": 8.0,
+          "end_seconds_global": 8.791666666666666,
+          "start_seconds_local": 2.5,
+          "end_seconds_local": 3.2916666666666665,
+          "framing": "Close portrait of bareheaded auburn B",
+          "inventory": "Exactly one visible round clean-shaven face, short auburn hair and olive collar; no hat/cross; other roles outside crop",
+          "primary_action": "B lowers his eyebrows once and holds",
+          "camera": "Fixed portrait crop",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "B lowers his eyebrows once and holds; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C02-S05",
+          "storyboard_panel_ids": [
+            "S09"
+          ],
+          "reference_ids": [
+            "conspiracy-table"
+          ],
+          "start_frame_global": 211,
+          "end_frame_global": 231,
+          "start_frame_local": 79,
+          "end_frame_local": 99,
+          "start_seconds_global": 8.791666666666666,
+          "end_seconds_global": 9.625,
+          "start_seconds_local": 3.2916666666666665,
+          "end_seconds_local": 4.125,
+          "framing": "Tiny brass crown dominates blank plan foreground",
+          "inventory": "One miniature brass crown and one pale blank sheet edge on oak; no hands or faces in this crop",
+          "primary_action": "Hold the one crown motionless on the paper",
+          "camera": "One small 3-percent push, settled four frames before cut",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the one crown motionless on the paper; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C02-S06",
+          "storyboard_panel_ids": [
+            "S10"
+          ],
+          "reference_ids": [
+            "conspiracy-plan-shoulder"
+          ],
+          "start_frame_global": 231,
+          "end_frame_global": 249,
+          "start_frame_local": 99,
+          "end_frame_local": 117,
+          "start_seconds_global": 9.625,
+          "end_seconds_global": 10.375,
+          "start_seconds_local": 4.125,
+          "end_seconds_local": 4.875,
+          "framing": "Over A left shoulder to the simple two-gable plan",
+          "inventory": "A cap/cream shoulder near-left; Fawkes upper center and olive B upper-right; one pointing hand, one blank sheet with two plain gables and one crown Existing left wall candle and high window stay as anchored.",
+          "primary_action": "A pointing finger presses once beside the symbolic building",
+          "camera": "Fixed over-shoulder view supplied by this anchor",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "A pointing finger presses once beside the symbolic building; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one short dry paper tap",
+            "onset_frame_local": 101,
+            "end_frame_local": 104
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C02-S07",
+          "storyboard_panel_ids": [
+            "S11"
+          ],
+          "reference_ids": [
+            "conspiracy-table"
+          ],
+          "start_frame_global": 249,
+          "end_frame_global": 261,
+          "start_frame_local": 117,
+          "end_frame_local": 129,
+          "start_seconds_global": 10.375,
+          "end_seconds_global": 10.875,
+          "start_seconds_local": 4.875,
+          "end_seconds_local": 5.375,
+          "framing": "Close Fawkes face beneath his plain broad felt hat",
+          "inventory": "Exactly one Fawkes face: wavy dark hair, curled moustache/compact pointed beard and pale collar; no mask; companions outside crop",
+          "primary_action": "Fawkes narrows dot-eye focus slightly, then freezes",
+          "camera": "Fixed portrait; no speaking or lip movement",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Fawkes narrows dot-eye focus slightly, then freezes; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C02-S08",
+          "storyboard_panel_ids": [
+            "S12"
+          ],
+          "reference_ids": [
+            "conspiracy-table"
+          ],
+          "start_frame_global": 261,
+          "end_frame_global": 275,
+          "start_frame_local": 129,
+          "end_frame_local": 143,
+          "start_seconds_global": 10.875,
+          "end_seconds_global": 11.458333333333334,
+          "start_seconds_local": 5.375,
+          "end_seconds_local": 5.958333333333333,
+          "framing": "Return to all three around the oak table",
+          "inventory": "Same three identities in original left/center/right placement; one table, one cross, one crown and simple blank plan Existing wall-mounted candle at far left and high window remain fixed when within this crop.",
+          "primary_action": "A finishes one small pointing press while the other two stay still",
+          "camera": "Fixed medium-wide; every gesture stops for last six frames",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "A finishes one small pointing press while the other two stay still; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 143,
+        "end_frame_local": 158,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      },
+      "prompt_path": "prompts/clip-02-conspiracy-target.md",
+      "editorial_frame_count": 143,
+      "generation_request_seconds": 5.958333333333333
+    },
+    {
+      "id": "clip-03",
+      "slug": "powder-watch",
+      "arc": "One watchful Fawkes and tangible closed powder storage",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "anchor_locks": {
+        "powder-undercroft": "The storage anchor controls one historical Fawkes with his same hat/hair/moustache/beard/pale collar/dark doublet/cloak/brown boots, stationary closed barrel stacks lining the drawn vaulted stone aisle. The stacks are partially cropped, never an on-screen numerical count. Inserts crop only existing boots, hands, dry wood/hoops or face. Object-only retrospective cuts contain no visible person, hand or clothing."
+      },
+      "shots": [
+        {
+          "id": "C03-S01",
+          "storyboard_panel_ids": [
+            "S13"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 275,
+          "end_frame_global": 292,
+          "start_frame_local": 0,
+          "end_frame_local": 17,
+          "start_seconds_global": 11.458333333333334,
+          "end_seconds_global": 12.166666666666666,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.7083333333333334,
+          "framing": "Wide barrel-lined aisle; one full Fawkes",
+          "inventory": "Exactly one Fawkes center-right; stationary closed partial barrel stacks, drawn vault and clear floor aisle; no other people",
+          "primary_action": "His cloak settles from one tiny movement and then rests",
+          "camera": "Fixed eye-level wide frame",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "His cloak settles from one tiny movement and then rests; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one faint dry cloak brush",
+            "onset_frame_local": 2,
+            "end_frame_local": 5
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C03-S02",
+          "storyboard_panel_ids": [
+            "S14"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 292,
+          "end_frame_global": 305,
+          "start_frame_local": 17,
+          "end_frame_local": 30,
+          "start_seconds_global": 12.166666666666666,
+          "end_seconds_global": 12.708333333333334,
+          "start_seconds_local": 0.7083333333333334,
+          "end_seconds_local": 1.25,
+          "framing": "Low close boot beside an anchored barrel",
+          "inventory": "One brown boot, lower trouser cuff and one adjacent closed barrel edge; no face or extra foot",
+          "primary_action": "One boot lifts three centimetres and plants in the same spot",
+          "camera": "Fixed low insert",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "One boot lifts three centimetres and plants in the same spot; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one short boot contact on stone",
+            "onset_frame_local": 19,
+            "end_frame_local": 22
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C03-S03",
+          "storyboard_panel_ids": [
+            "S15"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 305,
+          "end_frame_global": 329,
+          "start_frame_local": 30,
+          "end_frame_local": 54,
+          "start_seconds_global": 12.708333333333334,
+          "end_seconds_global": 13.708333333333334,
+          "start_seconds_local": 1.25,
+          "end_seconds_local": 2.25,
+          "framing": "Iron hoop and wooden staves extreme insert",
+          "inventory": "One closed barrel surface and anchored dark hoop; no fuse, hands, numbers or people",
+          "primary_action": "Hold the dry closed barrel unchanged",
+          "camera": "One slow 3-percent push, settled last four frames",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the dry closed barrel unchanged; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C03-S04",
+          "storyboard_panel_ids": [
+            "S16"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 329,
+          "end_frame_global": 344,
+          "start_frame_local": 54,
+          "end_frame_local": 69,
+          "start_seconds_global": 13.708333333333334,
+          "end_seconds_global": 14.333333333333334,
+          "start_seconds_local": 2.25,
+          "end_seconds_local": 2.875,
+          "framing": "Partial stacked-barrel depth, cropped sides",
+          "inventory": "Several partially cropped closed barrels exactly as anchored; no visible count claim, people or text",
+          "primary_action": "Hold all existing stacks stationary",
+          "camera": "One small straight push into the existing stack crop",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold all existing stacks stationary; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C03-S05",
+          "storyboard_panel_ids": [
+            "S17"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 344,
+          "end_frame_global": 360,
+          "start_frame_local": 69,
+          "end_frame_local": 85,
+          "start_seconds_global": 14.333333333333334,
+          "end_seconds_global": 15.0,
+          "start_seconds_local": 2.875,
+          "end_seconds_local": 3.5416666666666665,
+          "framing": "Pale hand resting on nearest right barrel",
+          "inventory": "One Fawkes pale hand with pale cuff, one nearest closed barrel rim; no extra hand or face",
+          "primary_action": "The same hand settles one centimetre onto the wood",
+          "camera": "Fixed close insert",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The same hand settles one centimetre onto the wood; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one faint hand-on-wood touch",
+            "onset_frame_local": 71,
+            "end_frame_local": 74
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C03-S06",
+          "storyboard_panel_ids": [
+            "S18"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 360,
+          "end_frame_global": 376,
+          "start_frame_local": 85,
+          "end_frame_local": 101,
+          "start_seconds_global": 15.0,
+          "end_seconds_global": 15.666666666666666,
+          "start_seconds_local": 3.5416666666666665,
+          "end_seconds_local": 4.208333333333333,
+          "framing": "Close watchful Fawkes, same hat and beard",
+          "inventory": "Exactly one historical face with felt hat, dark waves, moustache/beard and pale collar; background barrels remain closed",
+          "primary_action": "He tightens his eyebrows a fraction without turning or speaking",
+          "camera": "Fixed close view; still by last six frames",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "He tightens his eyebrows a fraction without turning or speaking; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 101,
+        "end_frame_local": 124,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      },
+      "prompt_path": "prompts/clip-03-powder-watch.md",
+      "editorial_frame_count": 101,
+      "generation_request_seconds": 5
+    },
+    {
+      "id": "clip-04",
+      "slug": "letter-search-arrest",
+      "arc": "The warning leads to a search; discovery precedes the single restraining grip",
+      "reference_ids": [
+        "warning-letter-handoff",
+        "warning-letter",
+        "cellar-door-search",
+        "search-arrest-threshold",
+        "arrest-sleeve-grip"
+      ],
+      "anchor_locks": {
+        "warning-letter-handoff": "The folded-handoff anchor controls one compact tightly folded blank letter between one anonymous brown-sleeved sender hand from left and the slate-blue/pale-cuffed lead guard receiving hand on right. No author face, writing or seal. The guard is the clean round-faced plain-felt-hat role; do not invent another recipient.",
+        "warning-letter": "The reading anchor controls that same felt-hat slate-blue guard with pale collar/cuffs, one open creased blank sheet in his two hands and the departing anonymous brown-sleeved hand at the left edge. The change from folded to open paper occurs on its hard cut; retain one paper only.",
+        "cellar-door-search": "The closed-door anchor controls one blue/pale-collared felt-hat lead guard, one iron candle lantern low at outside-left, his free hand toward the iron latch at right, one closed left-hinged oak door and fixed stone arch. Lantern hand and free latch hand remain distinct; one tiny practical flame, no extra guards in these close crops.",
+        "search-arrest-threshold": "The open-threshold anchor controls exactly two guards and one Fawkes: lead felt-hat blue coat foreground left with his sole lantern low outside-left/free open palm toward center; buff-coat steel-gray open-face crested-helmet peer foreground right with his sole polearm held at outside-right; Fawkes dark felt hat/waves/moustache/beard/pale collar/dark cloak in aisle center. The same left-hinged oak door is open and closed barrels stay fixed. Open stop palm precedes the later one sleeve grip; no duplicate Fawkes, extra arrest hands or swapped guard props.",
+        "arrest-sleeve-grip": "Dedicated S26 insert: exactly blue lead forearm from left, pale cuff, its closed gripping hand around Fawkes dark-brown upper sleeve; Fawkes own brown forearm and relaxed hand descend lower right. No helmeted peer. Grip is already closed, so animate only one tiny cloth squeeze. Both sleeves preserve exact ownership."
+      },
+      "shots": [
+        {
+          "id": "C04-S01",
+          "storyboard_panel_ids": [
+            "S19",
+            "S20"
+          ],
+          "reference_ids": [
+            "warning-letter-handoff"
+          ],
+          "start_frame_global": 376,
+          "end_frame_global": 400,
+          "start_frame_local": 0,
+          "end_frame_local": 24,
+          "start_seconds_global": 15.666666666666666,
+          "end_seconds_global": 16.666666666666668,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 1.0,
+          "framing": "Tight folded-letter handoff, only two hands; lower free guard hand stays outside crop",
+          "inventory": "Exactly two simple pale hands at the opposite edges of one compact folded blank letter: brown-sleeved anonymous sender on left, slate-blue/pale-cuffed receiver on right. Zero complete faces or visible author.",
+          "primary_action": "The guard takes the single folded paper while anonymous sender releases once",
+          "camera": "Fixed eye-level macro",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "One folded letter belongs to the lead guard; sender withdraws, free guard hand remains below crop",
+          "sfx": {
+            "description": "one brief paper brush",
+            "onset_frame_local": 2,
+            "end_frame_local": 5
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 1
+        },
+        {
+          "id": "C04-S02",
+          "storyboard_panel_ids": [
+            "S21"
+          ],
+          "reference_ids": [
+            "warning-letter"
+          ],
+          "start_frame_global": 400,
+          "end_frame_global": 421,
+          "start_frame_local": 24,
+          "end_frame_local": 45,
+          "start_seconds_global": 16.666666666666668,
+          "end_seconds_global": 17.541666666666668,
+          "start_seconds_local": 1.0,
+          "end_seconds_local": 1.875,
+          "framing": "Lead guard reading the now-open blank sheet",
+          "inventory": "Exactly one felt-hat slate-blue lead guard with one open creased blank paper, his two hands; anonymous sender hand retreats at left edge, no author face",
+          "primary_action": "He reacts with one small eyebrow drop; the sheet stays open",
+          "camera": "Fixed medium-close; folded-to-open advance occurs on the hard cut",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "He reacts with one small eyebrow drop; the sheet stays open; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 1
+        },
+        {
+          "id": "C04-S03",
+          "storyboard_panel_ids": [
+            "S22"
+          ],
+          "reference_ids": [
+            "cellar-door-search"
+          ],
+          "start_frame_global": 421,
+          "end_frame_global": 433,
+          "start_frame_local": 45,
+          "end_frame_local": 57,
+          "start_seconds_global": 17.541666666666668,
+          "end_seconds_global": 18.041666666666668,
+          "start_seconds_local": 1.875,
+          "end_seconds_local": 2.375,
+          "framing": "Lantern and guard holding hand near closed door",
+          "inventory": "One lead-guard hand, one iron candle lantern with tiny flame; closed oak background door, no new guard or extra light",
+          "primary_action": "The one lantern is raised three centimetres, then steadied",
+          "camera": "Fixed tight lantern crop",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The one lantern is raised three centimetres, then steadied; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one tiny dry iron-handle click",
+            "onset_frame_local": 47,
+            "end_frame_local": 50
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C04-S04",
+          "storyboard_panel_ids": [
+            "S23"
+          ],
+          "reference_ids": [
+            "cellar-door-search"
+          ],
+          "start_frame_global": 433,
+          "end_frame_global": 445,
+          "start_frame_local": 57,
+          "end_frame_local": 69,
+          "start_seconds_global": 18.041666666666668,
+          "end_seconds_global": 18.541666666666668,
+          "start_seconds_local": 2.375,
+          "end_seconds_local": 2.875,
+          "framing": "Latch and blue/pale-cuffed free hand",
+          "inventory": "One pale lead-guard hand and one dark iron latch on the closed left-hinged oak door; no faces, no second latch",
+          "primary_action": "The guard releases the same latch once",
+          "camera": "Fixed latch-height insert",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The guard releases the same latch once; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one short latch click",
+            "onset_frame_local": 59,
+            "end_frame_local": 62
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C04-S05",
+          "storyboard_panel_ids": [
+            "S24",
+            "S25"
+          ],
+          "reference_ids": [
+            "search-arrest-threshold"
+          ],
+          "start_frame_global": 445,
+          "end_frame_global": 464,
+          "start_frame_local": 69,
+          "end_frame_local": 88,
+          "start_seconds_global": 18.541666666666668,
+          "end_seconds_global": 19.333333333333332,
+          "start_seconds_local": 2.875,
+          "end_seconds_local": 3.6666666666666665,
+          "framing": "Wide already-open threshold then one controlled lead-guard reach; exactly three people",
+          "inventory": "Exactly lead guard foreground left with one lantern, helmeted buff peer right with one polearm, and one Fawkes in aisle center; same left-hinged door is open, dry barrels fixed",
+          "primary_action": "Lead guard reaches the last few centimetres with his free open palm toward Fawkes sleeve",
+          "camera": "Fixed wide axis; no full door-swing animation within this short insert",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Same three people in fixed places; lead guard palm touches Fawkes upper sleeve, lantern and polearm remain with their owners",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C04-S06",
+          "storyboard_panel_ids": [
+            "S26"
+          ],
+          "reference_ids": [
+            "arrest-sleeve-grip"
+          ],
+          "start_frame_global": 464,
+          "end_frame_global": 472,
+          "start_frame_local": 88,
+          "end_frame_local": 96,
+          "start_seconds_global": 19.333333333333332,
+          "end_seconds_global": 19.666666666666668,
+          "start_seconds_local": 3.6666666666666665,
+          "end_seconds_local": 4.0,
+          "framing": "Close free hand and Fawkes sleeve",
+          "inventory": "One slate-blue guard forearm and pale cuff from left; its gripping hand around dark-brown Fawkes upper sleeve; one relaxed Fawkes hand below; zero peer/heads/extra hands",
+          "primary_action": "The already closed lead-guard hand gives one tiny cloth squeeze, then holds",
+          "camera": "Fixed tight grip; simple drawn hand shape",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Exact lead-blue/Fawkes-brown sleeves remain attached; closed grasp still, Fawkes own hand relaxed",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C04-S07",
+          "storyboard_panel_ids": [
+            "S27"
+          ],
+          "reference_ids": [
+            "search-arrest-threshold"
+          ],
+          "start_frame_global": 472,
+          "end_frame_global": 486,
+          "start_frame_local": 96,
+          "end_frame_local": 110,
+          "start_seconds_global": 19.666666666666668,
+          "end_seconds_global": 20.25,
+          "start_seconds_local": 4.0,
+          "end_seconds_local": 4.583333333333333,
+          "framing": "Close Fawkes face while restraint remains in force outside crop",
+          "inventory": "Exactly one Fawkes face with fixed hat/hair/moustache/beard/collar; his sleeve remains held off-frame; no speech or lip movement",
+          "primary_action": "Fawkes lifts his eyebrows slightly, freezes in surprise",
+          "camera": "Fixed portrait; fully resolved stop at end",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Fawkes lifts his eyebrows slightly, freezes in surprise; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 110,
+        "end_frame_local": 124,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      },
+      "prompt_path": "prompts/clip-04-letter-search-arrest.md",
+      "editorial_frame_count": 110,
+      "generation_request_seconds": 5
+    },
+    {
+      "id": "clip-05",
+      "slug": "consequence-and-mask",
+      "arc": "Later consequence, failed powder plan, then centuries-later book and modern adoption",
+      "reference_ids": [
+        "custody-door",
+        "custody-candle",
+        "powder-undercroft",
+        "mask-book",
+        "modern-mask-lift"
+      ],
+      "anchor_locks": {
+        "custody-door": "The custody-door anchor controls one clean round-faced felt-hat blue/pale-coated lead guard and one ajar heavy oak door with square barred inspection opening, fixed drawn stone arch/warm left key. Its gap is empty. Only a brief later door-closing action is depicted; no prisoner, body or visible violence.",
+        "custody-candle": "The consequence anchor controls one already-extinguished ivory candle on one iron saucer, one tiny residual smoke wisp and an empty closed oak door with square barred opening. This is the later symbolic consequence: zero people, hands, bodies, flame or execution depiction. Keep oak/iron/arch consistent with the prior custody setting.",
+        "powder-undercroft": "The storage anchor controls one historical Fawkes with his same hat/hair/moustache/beard/pale collar/dark doublet/cloak/brown boots, stationary closed barrel stacks lining the drawn vaulted stone aisle. The stacks are partially cropped, never an on-screen numerical count. Inserts crop only existing boots, hands, dry wood/hoops or face. Object-only retrospective cuts contain no visible person, hand or clothing.",
+        "mask-book": "The book anchor controls one dark closed book in one pale charcoal-sleeved hand; pale page edges/spine and one matching ivory/black/rose mask picture on the cover. Zero title, lettering or readable print, never a talking face.",
+        "modern-mask-lift": "The lifting anchor controls one anonymous modern adult with round off-white head, dot eyes/closed mouth, charcoal hood/hoodie, blue-gray trousers and two pale simplified hands holding one matching mask below the chin. Raise that existing mask physically onto the face; do not morph faces or add a second mask."
+      },
+      "shots": [
+        {
+          "id": "C05-S01",
+          "storyboard_panel_ids": [
+            "S29"
+          ],
+          "reference_ids": [
+            "custody-door"
+          ],
+          "start_frame_global": 486,
+          "end_frame_global": 504,
+          "start_frame_local": 0,
+          "end_frame_local": 18,
+          "start_seconds_global": 20.25,
+          "end_seconds_global": 21.0,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.75,
+          "framing": "Medium guard and ajar square-barred custody door",
+          "inventory": "Exactly one slate-blue felt-hat guard and one oak custody door with square barred opening; empty gap, no prisoner or body",
+          "primary_action": "The single lead guard pushes the door the remaining short distance until closed",
+          "camera": "Fixed medium; one door action and no simultaneous camera move",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The single lead guard pushes the door the remaining short distance until closed; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one short dull oak-door closure",
+            "onset_frame_local": 2,
+            "end_frame_local": 5
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S02",
+          "storyboard_panel_ids": [
+            "S30"
+          ],
+          "reference_ids": [
+            "custody-candle"
+          ],
+          "start_frame_global": 504,
+          "end_frame_global": 523,
+          "start_frame_local": 18,
+          "end_frame_local": 37,
+          "start_seconds_global": 21.0,
+          "end_seconds_global": 21.791666666666668,
+          "start_seconds_local": 0.75,
+          "end_seconds_local": 1.5416666666666667,
+          "framing": "Unlit candle large left, empty barred closed door behind",
+          "inventory": "One extinguished candle, one iron saucer, one empty square-barred closed oak door; zero people/hands/bodies",
+          "primary_action": "One tiny residual smoke wisp thins away, wick remains black and unlit",
+          "camera": "Fixed solemn close insert; no flame or depicted execution method",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "One tiny residual smoke wisp thins away, wick remains black and unlit; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S03",
+          "storyboard_panel_ids": [
+            "S28"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 523,
+          "end_frame_global": 535,
+          "start_frame_local": 37,
+          "end_frame_local": 49,
+          "start_seconds_global": 21.791666666666668,
+          "end_seconds_global": 22.291666666666668,
+          "start_seconds_local": 1.5416666666666667,
+          "end_seconds_local": 2.0416666666666665,
+          "framing": "Dry hoop and closed barrel-lid insert",
+          "inventory": "Only one closed dry barrel lid/hoop; all Fawkes body/face/hands excluded by crop; no damage or new event",
+          "primary_action": "Hold the intact lid and hoop absolutely still",
+          "camera": "Fixed macro",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the intact lid and hoop absolutely still; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S04",
+          "storyboard_panel_ids": [
+            "S28"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 535,
+          "end_frame_global": 552,
+          "start_frame_local": 49,
+          "end_frame_local": 66,
+          "start_seconds_global": 22.291666666666668,
+          "end_seconds_global": 23.0,
+          "start_seconds_local": 2.0416666666666665,
+          "end_seconds_local": 2.75,
+          "framing": "Broader partial stack depth, now entirely object-only",
+          "inventory": "Only existing closed barrel stacks and stone; zero people, clothes or hands; this object insert states the failed plan",
+          "primary_action": "Hold every stored barrel unchanged",
+          "camera": "One 2-percent push, settled before cut",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold every stored barrel unchanged; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S05",
+          "storyboard_panel_ids": [
+            "S31"
+          ],
+          "reference_ids": [
+            "mask-book"
+          ],
+          "start_frame_global": 552,
+          "end_frame_global": 566,
+          "start_frame_local": 66,
+          "end_frame_local": 80,
+          "start_seconds_global": 23.0,
+          "end_seconds_global": 23.583333333333332,
+          "start_seconds_local": 2.75,
+          "end_seconds_local": 3.3333333333333335,
+          "framing": "Book spine/page-edge insert in a charcoal-sleeved hand",
+          "inventory": "One dark closed book, visible pale page edges/spine, one pale hand with charcoal cuff; no text or full person",
+          "primary_action": "The same hand tilts the closed book slightly, then steadies it",
+          "camera": "Fixed tight book edge",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The same hand tilts the closed book slightly, then steadies it; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one short cover/cloth rub",
+            "onset_frame_local": 68,
+            "end_frame_local": 71
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S06",
+          "storyboard_panel_ids": [
+            "S31"
+          ],
+          "reference_ids": [
+            "mask-book"
+          ],
+          "start_frame_global": 566,
+          "end_frame_global": 581,
+          "start_frame_local": 80,
+          "end_frame_local": 95,
+          "start_seconds_global": 23.583333333333332,
+          "end_seconds_global": 24.208333333333332,
+          "start_seconds_local": 3.3333333333333335,
+          "end_seconds_local": 3.9583333333333335,
+          "framing": "Mask motif printed on the dark book cover",
+          "inventory": "One closed book-cover mask illustration; no living face, lettering, title or extra mask",
+          "primary_action": "Hold the printed ivory/black/rose design unchanged",
+          "camera": "One small 2-percent push toward the cover motif",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the printed ivory/black/rose design unchanged; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S07",
+          "storyboard_panel_ids": [
+            "S31"
+          ],
+          "reference_ids": [
+            "mask-book"
+          ],
+          "start_frame_global": 581,
+          "end_frame_global": 596,
+          "start_frame_local": 95,
+          "end_frame_local": 110,
+          "start_seconds_global": 24.208333333333332,
+          "end_seconds_global": 24.833333333333332,
+          "start_seconds_local": 3.9583333333333335,
+          "end_seconds_local": 4.583333333333333,
+          "framing": "Full closed book and holding hand, recognition beat",
+          "inventory": "One dark book with a single mask picture and one charcoal-sleeved pale hand; slate wall behind; no readable title",
+          "primary_action": "The held book settles upright and stops",
+          "camera": "Fixed close framing",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The held book settles upright and stops; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S08",
+          "storyboard_panel_ids": [
+            "S32"
+          ],
+          "reference_ids": [
+            "modern-mask-lift"
+          ],
+          "start_frame_global": 596,
+          "end_frame_global": 614,
+          "start_frame_local": 110,
+          "end_frame_local": 128,
+          "start_seconds_global": 24.833333333333332,
+          "end_seconds_global": 25.583333333333332,
+          "start_seconds_local": 4.583333333333333,
+          "end_seconds_local": 5.333333333333333,
+          "framing": "Modern charcoal hoodie, uncovered round head and mask below chin",
+          "inventory": "Exactly one anonymous round-headed hoodie adult with dot eyes and closed mouth, one ivory/black/rose mask below face, two pale hands; no historical hat/beard",
+          "primary_action": "The modern role braces the one mask below the chin",
+          "camera": "Fixed medium-close; curious brows, narrow stick body",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The modern role braces the one mask below the chin; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one faint dry hoodie brush",
+            "onset_frame_local": 112,
+            "end_frame_local": 115
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C05-S09",
+          "storyboard_panel_ids": [
+            "S32"
+          ],
+          "reference_ids": [
+            "modern-mask-lift"
+          ],
+          "start_frame_global": 614,
+          "end_frame_global": 636,
+          "start_frame_local": 128,
+          "end_frame_local": 150,
+          "start_seconds_global": 25.583333333333332,
+          "end_seconds_global": 26.5,
+          "start_seconds_local": 5.333333333333333,
+          "end_seconds_local": 6.25,
+          "framing": "Same modern adult, mask-lifting close view",
+          "inventory": "Exactly one modern adult, two simple hands and one mask; bare face disappears only behind that prop, never morphs into Fawkes; charcoal hood/blue-gray trousers unchanged",
+          "primary_action": "Both hands raise the single mask onto the face, then stop without letting it slip",
+          "camera": "Fixed camera; settle fully in final six frames and keep the worn mask fixed",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Both hands raise the single mask onto the face, then stop without letting it slip; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 150,
+        "end_frame_local": 158,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      },
+      "prompt_path": "prompts/clip-05-consequence-and-mask.md",
+      "editorial_frame_count": 150,
+      "generation_request_seconds": 6.25
+    },
+    {
+      "id": "clip-06",
+      "slug": "symbol-payoff-cta",
+      "arc": "Spread of the modern symbol, retrospective unlit powder contrast, resolved opening-mask rhyme",
+      "reference_ids": [
+        "modern-masked-group",
+        "powder-undercroft",
+        "mask-hand"
+      ],
+      "anchor_locks": {
+        "modern-masked-group": "The modern-plaza anchor controls exactly three calm hoodie stick adults: charcoal/blue-gray center closest, slate-blue left one step behind, burgundy right one step behind. Each wears one identical ivory/black/rose mask. Their plain flat-roof modern background/paving and empty safe margins remain fixed; no historic palace, extra crowd, signs, weapons or text. Close crops exclude side people rather than duplicate/repaint identities. Exactly two low flat-roof modern blocks and their existing drawn shrub/planter rows remain in the background.",
+        "powder-undercroft": "The storage anchor controls one historical Fawkes with his same hat/hair/moustache/beard/pale collar/dark doublet/cloak/brown boots, stationary closed barrel stacks lining the drawn vaulted stone aisle. The stacks are partially cropped, never an on-screen numerical count. Inserts crop only existing boots, hands, dry wood/hoops or face. Object-only retrospective cuts contain no visible person, hand or clothing.",
+        "mask-hand": "The hand-held-mask anchor controls exactly one detached pale simplified hand in a charcoal cuff and one ivory mask with black arched brows, black eye openings, curled moustache, pointed painted goatee and rose cheek marks, against a drawn slate wall. It controls every visible pixel in its shots; the mask is a prop, never a living historical face."
+      },
+      "shots": [
+        {
+          "id": "C06-S01",
+          "storyboard_panel_ids": [
+            "S33"
+          ],
+          "reference_ids": [
+            "modern-masked-group"
+          ],
+          "start_frame_global": 636,
+          "end_frame_global": 660,
+          "start_frame_local": 0,
+          "end_frame_local": 24,
+          "start_seconds_global": 26.5,
+          "end_seconds_global": 27.5,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 1.0,
+          "framing": "Wide modern plaza and three distinct masked figures",
+          "inventory": "Exactly three hoodie adults: blue left behind, charcoal/blue-gray center closest, burgundy right behind; exactly one worn mask each; modern flat-roof blocks/paving, no crowd",
+          "primary_action": "All three hold calm still poses; only the central hood settles once",
+          "camera": "Fixed wide; safe full figures and ample side margins",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "All three hold calm still poses; only the central hood settles once; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one faint dry central-hood brush",
+            "onset_frame_local": 2,
+            "end_frame_local": 5
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C06-S02",
+          "storyboard_panel_ids": [
+            "S34"
+          ],
+          "reference_ids": [
+            "modern-masked-group"
+          ],
+          "start_frame_global": 660,
+          "end_frame_global": 666,
+          "start_frame_local": 24,
+          "end_frame_local": 30,
+          "start_seconds_global": 27.5,
+          "end_seconds_global": 27.75,
+          "start_seconds_local": 1.0,
+          "end_seconds_local": 1.25,
+          "framing": "Very brief central worn-mask close crop",
+          "inventory": "Exactly one central charcoal-hooded mask face in crop; side roles outside frame; no mouth movement or mask duplication",
+          "primary_action": "Hold the mask painting still",
+          "camera": "Fixed iconic face insert",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the mask painting still; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C06-S03",
+          "storyboard_panel_ids": [
+            "S28"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 666,
+          "end_frame_global": 686,
+          "start_frame_local": 30,
+          "end_frame_local": 50,
+          "start_seconds_global": 27.75,
+          "end_seconds_global": 28.583333333333332,
+          "start_seconds_local": 1.25,
+          "end_seconds_local": 2.0833333333333335,
+          "framing": "Retrospective closed barrel crop, objects only",
+          "inventory": "Only closed barrel wood/hoops and stone; zero people, hands, clothing, fire or smoke; no revived character",
+          "primary_action": "Hold stored powder barrels intact and inert",
+          "camera": "Fixed tight stack view; clearly a narrated retrospective contrast",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold stored powder barrels intact and inert; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C06-S04",
+          "storyboard_panel_ids": [
+            "S28"
+          ],
+          "reference_ids": [
+            "powder-undercroft"
+          ],
+          "start_frame_global": 686,
+          "end_frame_global": 701,
+          "start_frame_local": 50,
+          "end_frame_local": 65,
+          "start_seconds_global": 28.583333333333332,
+          "end_seconds_global": 29.208333333333332,
+          "start_seconds_local": 2.0833333333333335,
+          "end_seconds_local": 2.7083333333333335,
+          "framing": "Tighter intact barrel hoop/lid detail",
+          "inventory": "One existing dry barrel and hoop; no people, damage or ignition; continuation of same object-only retrospective insert",
+          "primary_action": "Hold the intact barrel stationary",
+          "camera": "One tiny 2-percent push, settled last four frames",
+          "light_and_palette": "Warm amber screen-left/practical key and cool right shadows; drawn ochre/umber/slate stone or timber, muted costumes.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the intact barrel stationary; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 1,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C06-S05",
+          "storyboard_panel_ids": [
+            "S35"
+          ],
+          "reference_ids": [
+            "mask-hand"
+          ],
+          "start_frame_global": 701,
+          "end_frame_global": 721,
+          "start_frame_local": 65,
+          "end_frame_local": 85,
+          "start_seconds_global": 29.208333333333332,
+          "end_seconds_global": 30.041666666666668,
+          "start_seconds_local": 2.7083333333333335,
+          "end_seconds_local": 3.5416666666666665,
+          "framing": "One hand-held modern mask, echo of opening",
+          "inventory": "One ivory/black/rose mask and one pale charcoal-cuffed hand against slate wall; no wearer or historical costume",
+          "primary_action": "The same charcoal-sleeved hand steadies the one mask frontally",
+          "camera": "Fixed close; gentle five-degree correction ending still",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The same charcoal-sleeved hand steadies the one mask frontally; all primary motion settles before the cut.",
+          "sfx": {
+            "description": "one brief sleeve/prop rub",
+            "onset_frame_local": 67,
+            "end_frame_local": 70
+          },
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C06-S06",
+          "storyboard_panel_ids": [
+            "S33"
+          ],
+          "reference_ids": [
+            "modern-masked-group"
+          ],
+          "start_frame_global": 721,
+          "end_frame_global": 742,
+          "start_frame_local": 85,
+          "end_frame_local": 106,
+          "start_seconds_global": 30.041666666666668,
+          "end_seconds_global": 30.916666666666668,
+          "start_seconds_local": 3.5416666666666665,
+          "end_seconds_local": 4.416666666666667,
+          "framing": "Hard-cut wider trio: one symbol carried by several people",
+          "inventory": "Exactly charcoal central, blue left and burgundy right hoodie adults, one mask each; same contemporary plaza; nobody appears or disappears during shot",
+          "primary_action": "Hold the same three calmly masked modern figures",
+          "camera": "Fixed wide, no crowd-growth animation",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold the same three calmly masked modern figures; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C06-S07",
+          "storyboard_panel_ids": [
+            "S34"
+          ],
+          "reference_ids": [
+            "modern-masked-group"
+          ],
+          "start_frame_global": 742,
+          "end_frame_global": 761,
+          "start_frame_local": 106,
+          "end_frame_local": 125,
+          "start_seconds_global": 30.916666666666668,
+          "end_seconds_global": 31.708333333333332,
+          "start_seconds_local": 4.416666666666667,
+          "end_seconds_local": 5.208333333333333,
+          "framing": "Close central face, direct iconic payoff",
+          "inventory": "One central ivory/black/rose mask within charcoal hood; companions outside crop; paint and black eye openings fixed",
+          "primary_action": "The central masked role makes a tiny five-degree head correction to frontal, then stops",
+          "camera": "Fixed eye-level close crop",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "The central masked role makes a tiny five-degree head correction to frontal, then stops; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        },
+        {
+          "id": "C06-S08",
+          "storyboard_panel_ids": [
+            "S36"
+          ],
+          "reference_ids": [
+            "modern-masked-group"
+          ],
+          "start_frame_global": 761,
+          "end_frame_global": 801,
+          "start_frame_local": 125,
+          "end_frame_local": 165,
+          "start_seconds_global": 31.708333333333332,
+          "end_seconds_global": 33.375,
+          "start_seconds_local": 5.208333333333333,
+          "end_seconds_local": 6.875,
+          "framing": "Resolved frontal mask fills frame; graphic rhyme with opening",
+          "inventory": "One central modern worn mask framed by charcoal hood; no hand entering, lettering, button or other face; side roles excluded by close crop",
+          "primary_action": "Hold head, mask, camera, light and all background completely still",
+          "camera": "Locked frame throughout; no blink, lip sync, light flicker or environmental motion",
+          "light_and_palette": "Warm upper-left drawn key and cool slate right fill; matte outlined ivory/charcoal/rose accents.",
+          "emotion": "Closed mouths; minimal dot eyes/eyebrow/head/posture performance only. Masks retain fixed painted features.",
+          "resolved_end_state": "Hold head, mask, camera, light and all background completely still; all primary motion settles before the cut.",
+          "sfx": null,
+          "maximum_primary_actions": 1,
+          "maximum_camera_moves": 0,
+          "maximum_low_amplitude_secondary_motions": 0
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 165,
+        "end_frame_local": 175,
+        "instruction": "Continue the last resolved composition with camera, people, hands, props, light and environment locked; no new action/cut/sound in the raw tail."
+      },
+      "prompt_path": "prompts/clip-06-symbol-payoff-cta.md",
+      "editorial_frame_count": 165,
+      "generation_request_seconds": 6.875
+    }
+  ],
+  "omitted_panels": [],
+  "audio_policy": "Only isolated short dry diegetic cues, silence between cues; zero music, speech, vocalizations or continuous ambience.",
+  "reconciliation_path": "plan/storyboard/timing-reconciliation.json",
+  "reviewed_by": "assistant (timed direction/reference/storyboard semantic review)",
+  "reviewed_at": "2026-10-05T14:25:24.518145+00:00",
+  "repair_evidence": "renders/review-r001.json"
+}

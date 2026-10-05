@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:58:41.366949+00:00",
+  "id": "cellar-door-search",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "1744df962f4bf9880c9a6513dcee808b2ab5a4267e45bb6f68935589e34de48d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-ff892753-dc57-4aef-926b-f680712e359c.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png",
+  "sha256": "fdb2a8167f71aeec0294c34df0e4e99bfc90febf1133634f8b6728be7eb5735f",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

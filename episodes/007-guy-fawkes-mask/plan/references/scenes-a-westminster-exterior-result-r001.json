@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T12:58:40.645662+00:00",
+  "id": "westminster-exterior",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "1744df962f4bf9880c9a6513dcee808b2ab5a4267e45bb6f68935589e34de48d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-e9f1a1c4-4b66-4a3f-bb3a-f446376ce87b.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/westminster-exterior-r001.png",
+  "sha256": "81f584059b2fcbab997592d558c017bcef35ccb798f0e47dc3fe18bad80bf2c6",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

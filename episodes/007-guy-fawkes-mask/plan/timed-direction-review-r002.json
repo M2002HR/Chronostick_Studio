@@ -1,0 +1,54 @@
+{
+  "reviewed_at": "2026-10-05T15:14:51.614535+00:00",
+  "reviewer": "assistant",
+  "decision": "approved for pure prompt authoring",
+  "voice_acceptance": "plan/voice-acceptance-r001.json",
+  "scope": "Pilot repair: seven readable clip04 cuts, all nine panels retained via two coherent merges; dedicated full/phone-reviewed S26 grip. Total46 shots, frame slots/voice/words unchanged; native music failure recorded. No new render approval.",
+  "checks": [
+    "All 76 provider tokens have one owner; 80 clean spoken words differ only by aggregate 1605/36 number formatting.",
+    "Letter15.66–18.54 precedes final restraining grip19.333–19.6667; consequence candle starts21.0 at executed word.",
+    "Centuries/book begins23.0; mask adoption after24.8, worn by26.5; trio and powder/mask contrast follow actual ending words.",
+    "All 36 storyboard panels traced. Full door opening is represented by the cut after latch; material scenario/story/cast unchanged.",
+    "Final image holds31.708333–33.375 over payoff/CTA; voice800768 samples unchanged, picture padding232 samples at24kHz.",
+    "Every cut has supported scene/panel, one main action, at most one camera move and motivated brief optional cue."
+  ],
+  "artifacts": [
+    {
+      "path": "timestamps/timing-map.json",
+      "sha256": "7875bc21dc49a798ca7067ce1723b0110c40db91abfd7df87dc48b2cbc93180e"
+    },
+    {
+      "path": "timestamps/word-timestamps-source.csv",
+      "sha256": "21a10f9119abed2c68fb5639b317c6fa0282329aadacd7aacbde60f74b376e14"
+    },
+    {
+      "path": "timestamps/word-timestamps-normalized.csv",
+      "sha256": "646b5a5f665cd2b2a93bb99ab772c39e6bb3d926afc6a03c5b6d0abae80d7526"
+    },
+    {
+      "path": "plan/clip-slot-decisions.json",
+      "sha256": "68b7e8bc1a01e7decc5591cf7f61077efb3ef34d2f28f9f8b4f8f1c890a0c21a"
+    },
+    {
+      "path": "plan/clip-direction.json",
+      "sha256": "f0e8a1b665fb848432f284049d2aed44d019c17878c0bfe340ec5dc4003ecd0c"
+    },
+    {
+      "path": "plan/story-state-ledger.json",
+      "sha256": "8d7d8f560f2661632fde61c345d996c9c06b455b9a3b79c0a05b70f9f7538447"
+    },
+    {
+      "path": "plan/shot-plan.md",
+      "sha256": "efe595cd5e90b5759ea68ae234fadddb9e63168676dbc6220ca4bef05125ad78"
+    },
+    {
+      "path": "plan/storyboard/timing-reconciliation.json",
+      "sha256": "5eb620c8c5f038ac854c7cc8889a1573d0214ac16e6a12486ca206f85c40b59d"
+    },
+    {
+      "path": "plan/reference-manifest.json",
+      "sha256": "1615d4200b2fe093c9e7b89f4fc37bc299f5ea5f62737db85ac4cef9ed64a244"
+    }
+  ],
+  "repair_evidence": "renders/review-r001.json"
+}

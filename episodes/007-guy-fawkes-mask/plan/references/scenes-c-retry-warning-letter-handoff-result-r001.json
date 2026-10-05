@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T13:17:29.099726+00:00",
+  "id": "warning-letter-handoff",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-c-retry-requests-r001.json",
+  "request_sha256": "7fd1a42e65e28a5ddaffca89db272d555582bd533506a8b8710b9cb8e571bc66",
+  "source_path": "/home/mhr/.codex/generated_images/01a10ae5-b86e-7ad1-ab32-190fea9296ce/exec-495d7d6a-9d3b-4187-9101-7bfc4c30397e.png",
+  "path": "assets/episodes/007-guy-fawkes-mask/references/warning-letter-handoff-r001.png",
+  "sha256": "928acb150d8ea5ade46a6cf198e42e6b57a2486d388fe6ccc5a8b69c73b3faab",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

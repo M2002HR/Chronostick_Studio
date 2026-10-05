@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-05T15:06:22.469833+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "arrest-sleeve-grip",
+      "prompt_repo_path": "prompts/image/episodes/007-guy-fawkes-mask/arrest-sleeve-grip.md",
+      "prompt": "Create one vertical 9:16 detailed cinematic ChronoStick image, a single tight insert for the arrest sleeve grip. The first supplied image is rendering authority only; its scene/people/architecture must not transfer. The second supplied image controls the exact existing cellar, clothing colors and people: blue-coat felt-hat lead guard on LEFT, dark-brown/charcoal clothed Guy Fawkes in CENTER, buff-coat helmeted peer on RIGHT. This new image crops ONLY the lead guard's reaching right forearm and Fawkes's LEFT upper sleeve. The peer is entirely outside the frame.\n\nComposition follows the reviewed neutral S26 grip insert: from left edge, exactly one slate-blue guard forearm with a small pale cuff and two dark buttons reaches horizontally into center. Its one simple pale stick hand is already fully closed around the DARK BROWN/CHARCOAL fabric of Fawkes's left upper arm, below his shoulder. The blue forearm stays visible for at least one third of image width so its ownership is obvious. Fawkes's thin brown sleeve descends diagonally down right, ending in his own pale cuff and one relaxed dangling hand near lower right. The gripping hand and dangling hand are distinct and both anatomically attached to their own sleeves. Fingers are minimal simple drawn lobes; restrained cloth is lightly compressed. The grip is clear and gentle, no injury or struggle.\n\nThere are exactly two hands total, one gripping guard hand and one relaxed Fawkes hand. Zero heads or faces, zero additional arms, no helmeted peer, polearm, lantern or text. No blue sleeve belonging to Fawkes and no buff sleeve on the grabbing guard. Background is a sparse soft drawn barrel edge and ochre stone from the same cellar, warm light from left and cool right shadow, with no extra people. Keep gripping hand/cloth contact in central safe 60 percent with generous top/bottom margin.\n\nEvery pixel is the same illustrated stick-world: simplified narrow limbs and pale mitt-like hands, clean controlled dark contours, matte drawn cloth, sparse stone and wood marks, muted blue/umber/ochre palette. No broad realistic anatomy, skin pores, photograph, glossy 3D, live action or mixed style. One full-frame image, no sheet, panels, borders, diagram, labels, lettering, alternate views or narrative montage.\n",
+      "prompt_sha256": "697b4282e97d4e64ff322869fbbad9b449664648a279132d316b99cc186d93d5",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png",
+          "sha256": "1545ef8c506f18d279ab64c81133c0d3961c397246e280ed4d61cd4f6c461617",
+          "role": "search-arrest-threshold"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png"
+      ],
+      "destination_repo_path": "assets/episodes/007-guy-fawkes-mask/references/arrest-sleeve-grip-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S26"
+      ]
+    }
+  ]
+}

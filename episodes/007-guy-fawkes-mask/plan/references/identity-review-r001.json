@@ -1,0 +1,52 @@
+{
+  "reviewed_at": "2026-10-05T12:16:53.358965+00:00",
+  "reviewer": "assistant",
+  "entries": [
+    {
+      "id": "identity-fawkes",
+      "selected_repo_path": "assets/episodes/007-guy-fawkes-mask/references/identity-fawkes-r002.png",
+      "sha256": "6486f134966cc5e94f2ef47c1969538cb5b938a034edd8fd82d318b012f2f369",
+      "revision": "r002",
+      "decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:16:53.358965+00:00",
+        "scope": "Identity/role anchor only; full-frame and 270×480 inspection, master/source-cue comparison and storyboard-role coverage. Not user approval of future art or whole reference stage.",
+        "notes": "Round off-white head and narrow stick-derived body now match master proportions; broad plain felt hat, dark wavy hair, moustache/pointed beard, pale open collar and cloak retain institutional recognition cues. No modern mask. Supports appearance for S07/S11/S12/S13/S18/S24/S25/S27, not those scenes by itself.",
+        "review_path": "plan/references/review.md",
+        "phone_inspection_path": "plan/references/inspection-r001/identity-fawkes-r002-phone.png"
+      },
+      "prompt_request_snapshot": "plan/references/identity-requests-r002.json"
+    },
+    {
+      "id": "identity-guard-lead",
+      "selected_repo_path": "assets/episodes/007-guy-fawkes-mask/references/identity-guard-lead-r001.png",
+      "sha256": "3827348f7bc4d988380538849680d4ee310325bde010f351a08142cc34a1f0ed",
+      "revision": "r001",
+      "decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:16:53.358965+00:00",
+        "scope": "Identity/role anchor only; full-frame and 270×480 inspection, master/source-cue comparison and storyboard-role coverage. Not user approval of future art or whole reference stage.",
+        "notes": "One unnamed period-evocation guard, round minimal face and narrow costumed figure; distinct slate-blue coat, pale collar, plain hat, one drawn iron/candle lantern. Supports the guard identity in the warning/search/arrest/custody panels. No claim of an exact historical uniform.",
+        "review_path": "plan/references/review.md",
+        "phone_inspection_path": "plan/references/inspection-r001/identity-guard-lead-r001-phone.png"
+      },
+      "prompt_request_snapshot": "plan/references/identity-requests-r001.json"
+    },
+    {
+      "id": "identity-modern-mask",
+      "selected_repo_path": "assets/episodes/007-guy-fawkes-mask/references/identity-modern-mask-r002.png",
+      "sha256": "9d99480c567675df97550518553a0b0e88d57998f9eee68cb052124947547b74",
+      "revision": "r002",
+      "decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T12:16:53.358965+00:00",
+        "scope": "Identity/role anchor only; full-frame and 270×480 inspection, master/source-cue comparison and storyboard-role coverage. Not user approval of future art or whole reference stage.",
+        "notes": "One simplified modern hoodie role with a clearly drawn oversized mask prop and narrow stylized body; charcoal/blue-gray costume and repeated ivory/black/rose mask cues read at phone scale. Mask painting remains separate from historical facial hair. Supports modern role appearance and mask motif, not group/book/hand scene coverage alone.",
+        "review_path": "plan/references/review.md",
+        "phone_inspection_path": "plan/references/inspection-r001/identity-modern-mask-r002-phone.png"
+      },
+      "prompt_request_snapshot": "plan/references/identity-requests-r002.json"
+    }
+  ],
+  "whole_stage_status": "draft; three remaining identities and eleven scene anchors absent"
+}

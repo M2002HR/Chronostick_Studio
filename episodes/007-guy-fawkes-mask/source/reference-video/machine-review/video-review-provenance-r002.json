@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-05T08:15:29.752979+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/source/reference-video/inspection-r001/review-video-r001.mp4",
+  "video_sha256": "b3eaf68bacc2b3701bf199e18f9a288cae68c713298ad92e2fd974c2bfb81ce4",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/source/reference-video/transcription/reference-transcript-r004.md",
+  "transcript_sha256": "3a7f5c290f7294dd2db61f76d22876b3f545a6ad3e95f8ecef8f3fc2f393c967",
+  "request_sha256": "9b59076a66da3fecc5147445990aca895e971786de739d6c27a5252476507410",
+  "status": "failed",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "http_status": 200,
+  "response_sha256": "a0b82a401c3715ebfc7cda6c2c66345e817af4dd7acc86d10065013ec32fba1c"
+}

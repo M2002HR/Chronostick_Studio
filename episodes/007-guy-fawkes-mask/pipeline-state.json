@@ -1,0 +1,398 @@
+{
+  "schema_version": "2.0",
+  "workflow": "reference-first-v1",
+  "episode_id": "007-guy-fawkes-mask",
+  "current_stage": "youtube",
+  "updated_at": "2026-10-05T18:08:50.041171+00:00",
+  "stages": [
+    {
+      "id": "intake",
+      "skill": "chronostick-pipeline",
+      "status": "validated",
+      "inputs": [
+        "source/reference-video/reference-guy-fawkes-mask-r001.mp4"
+      ],
+      "outputs": [
+        "source/intake.json",
+        "source/reference-video/manifest.json",
+        "source/reference-video/probe.json"
+      ],
+      "validated_at": "2026-10-05T07:51:16.462946+00:00",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "reference-transcription",
+      "skill": "chronostick-transcribe",
+      "status": "needs_review",
+      "inputs": [
+        "source/reference-video/reference-guy-fawkes-mask-r001.mp4"
+      ],
+      "outputs": [
+        "source/reference-video/transcription/reference-response-r004.json",
+        "source/reference-video/transcription/reference-words-r004.csv",
+        "source/reference-video/transcription/reference-segments-r004.json",
+        "source/reference-video/transcription/reference-transcript-r004.md",
+        "source/reference-video/transcription/reference-validation-r004.json",
+        "source/reference-video/transcription/reference-provenance-r004.json"
+      ],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": "204 words, 15 segments from actual Ajil response; overlaps preserved; no perceptual audio acceptance claimed.",
+      "next_action": "Review source timing anomalies where they affect interpretation.",
+      "provenance": "source/reference-video/transcription/reference-provenance-r004.json"
+    },
+    {
+      "id": "reference-analysis",
+      "skill": "chronostick-reference-video",
+      "status": "needs_review",
+      "inputs": [
+        "source/reference-video/reference-guy-fawkes-mask-r001.mp4",
+        "source/reference-video/transcription/reference-transcript-r004.md"
+      ],
+      "outputs": [
+        "source/reference-video/intake-review.md",
+        "plan/reference-video-analysis.md",
+        "source/research/claims.md"
+      ],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": "Complete timeline frame samples inspected beside STT; historical correction trace created. Supplementary native-video/audio reviews failed, limits explicit.",
+      "next_action": "Consider adaptation and limitations during scenario review."
+    },
+    {
+      "id": "scenario-script",
+      "skill": "chronostick-script",
+      "status": "approved",
+      "inputs": [
+        "plan/reference-video-analysis.md",
+        "source/research/claims.md"
+      ],
+      "outputs": [
+        "plan/scenario.md",
+        "script/narration-es.md",
+        "script/narration-fa-review.md",
+        "script/script-analysis.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T12:00:22.748892+00:00",
+      "approved_by": "user (contextual continuation)",
+      "decision_notes": "User: خوبه ادامه بده; subsequent explicit instruction to use this storyboard. Scope/evidence and exact artifact hashes in plan/review-decisions.json.",
+      "next_action": null
+    },
+    {
+      "id": "storyboard",
+      "skill": "chronostick-storyboard",
+      "status": "approved",
+      "inputs": [
+        "plan/scenario.md",
+        "script/narration-es.md",
+        "plan/reference-video-analysis.md"
+      ],
+      "outputs": [
+        "plan/storyboard/shot-list.json",
+        "plan/storyboard/review.md",
+        "plan/storyboard/provenance-r002.json",
+        "plan/storyboard/storyboard-page-01-r002.png",
+        "plan/storyboard/storyboard-page-02-r002.png",
+        "plan/storyboard/storyboard-page-03-r002.png"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T12:00:22.748892+00:00",
+      "approved_by": "user (contextual continuation)",
+      "decision_notes": "User: خوبه ادامه بده; subsequent explicit instruction to use this storyboard. Scope/evidence and exact artifact hashes in plan/review-decisions.json.",
+      "next_action": null
+    },
+    {
+      "id": "references",
+      "skill": "chronostick-references",
+      "status": "approved",
+      "inputs": [
+        "plan/scenario.md",
+        "plan/storyboard/shot-list.json",
+        "plan/storyboard/storyboard-page-01-r002.png",
+        "plan/storyboard/storyboard-page-02-r002.png",
+        "plan/storyboard/storyboard-page-03-r002.png",
+        "plan/reference-video-analysis.md",
+        "source/research/portraits/recognition-cues.md"
+      ],
+      "outputs": [
+        "plan/reference-manifest.json",
+        "plan/references/identity-requests-r001.json",
+        "plan/references/identity-results-r001.json",
+        "plan/references/identity-requests-r002.json",
+        "plan/references/review.md",
+        "plan/references/identity-results-r002.json",
+        "plan/references/identity-review-r001.json",
+        "plan/references/reference-review-r001.json",
+        "plan/references/panel-coverage-r001.json",
+        "plan/references/gallery-fa.md",
+        "plan/storyboard/reference-reconciliation-r001.json",
+        "plan/storyboard/reference-reconciliation-r002.json",
+        "plan/references/reference-review-r002.json",
+        "plan/references/reference-review-r003.json",
+        "plan/references/powder-empty-review-r001.json",
+        "plan/references/reference-review-r004.json"
+      ],
+      "validated_at": "2026-10-05T13:31:47.328402+00:00",
+      "approved_at": "2026-10-05T13:31:47.328402+00:00",
+      "approved_by": "assistant (actual image QC)",
+      "decision_notes": "23 selected independent images after full/phone QC, including empty retrospective barrel scene; original image revisions unchanged.",
+      "next_action": "Use reviewed single-image anchors after accepted voice/duration reconciliation."
+    },
+    {
+      "id": "voice",
+      "skill": "chronostick-pipeline",
+      "status": "approved",
+      "inputs": [
+        "script/narration-es.md",
+        "audio/source/voice-export-es-r001.mp4"
+      ],
+      "outputs": [
+        "script/voiceover-google-vids-es.md",
+        "script/voice-direction-notes.md",
+        "script/voice-direction-validation-r002.json",
+        "audio/narration-es-r001.wav",
+        "audio/narration-es-r001.m4a",
+        "audio/narration-provenance-es-r001.json",
+        "audio/narration-qc-es-r001.json",
+        "audio/voice-review.md",
+        "plan/voice-acceptance-r001.json"
+      ],
+      "validated_at": "2026-10-05T13:59:53.321733+00:00",
+      "approved_at": "2026-10-05T13:59:53.321733+00:00",
+      "approved_by": "user (contextual full-voice continuation)",
+      "decision_notes": "Complete supplied narration accepted by contextual user continuation after the explicit 33.37-second proposal; actual bytes unchanged.",
+      "next_action": null,
+      "voice_direction": {
+        "provider": "google_vids",
+        "selection": "used",
+        "status": "approved",
+        "skill": "chronostick-voice-direction",
+        "script_path": "script/voiceover-google-vids-es.md",
+        "notes_path": "script/voice-direction-notes.md",
+        "validation_path": "script/voice-direction-validation-r002.json",
+        "clean_script_sha256": "108eb25a2f27584b539a7303d9744ce5944e28fb3b29ea2ee3cfd21d3716fa64",
+        "tagged_script_sha256": "75c726728ac0c589b628cae876c861e4f6abb5f777cf22ee81ecf970f7459369",
+        "performance": "rushed base; frequent purposeful emotions; serious consequence; enthusiastic payoff and tiny subscribe CTA",
+        "user_request": "Prepare final-text Google Vids copy with registered tags, many emotions and relatively fast exciting delivery",
+        "actual_audio": "audio/narration-es-r001.wav",
+        "delivery_review": "audio/voice-review.md"
+      },
+      "voice_intake": {
+        "status": "approved",
+        "provider": "google_vids",
+        "language": "es",
+        "supplied_name": "historia_07.mp4",
+        "source_path": "audio/source/voice-export-es-r001.mp4",
+        "assembly_audio_path": "audio/narration-es-r001.wav",
+        "native_audio_path": "audio/narration-es-r001.m4a",
+        "provenance_path": "audio/narration-provenance-es-r001.json",
+        "qc_path": "audio/narration-qc-es-r001.json",
+        "duration_seconds": 33.365333,
+        "user_intent": "Use the supplied extracted voice for final assembly",
+        "perceptual_review": "user contextual acceptance; no assistant auditory audition claimed",
+        "target_duration_status": "Episode-only complete-voice override accepted; target 33.375 seconds",
+        "transcription_provenance": "timestamps/ajil/voice-provenance-r001.json"
+      }
+    },
+    {
+      "id": "voice-transcription",
+      "skill": "chronostick-transcribe",
+      "status": "approved",
+      "inputs": [
+        "audio/narration-es-r001.wav",
+        "script/narration-es.md"
+      ],
+      "outputs": [
+        "timestamps/ajil/voice-response-r001.json",
+        "timestamps/ajil/voice-words-r001.csv",
+        "timestamps/ajil/voice-segments-r001.json",
+        "timestamps/ajil/voice-transcript-r001.md",
+        "timestamps/ajil/voice-validation-r001.json",
+        "timestamps/ajil/voice-provenance-r001.json"
+      ],
+      "validated_at": "2026-10-05T13:59:53.321733+00:00",
+      "approved_at": "2026-10-05T13:59:53.321733+00:00",
+      "approved_by": "assistant (provider/input/text/timing review)",
+      "decision_notes": "Actual Ajil response belongs to unchanged accepted WAV; 76 provider tokens differ only by aggregate 1605/36 number forms. Three raw overlaps retained; derived monotonic intervals are documented separately, not replacement measured timestamps.",
+      "next_action": null,
+      "provenance": "timestamps/ajil/voice-provenance-r001.json"
+    },
+    {
+      "id": "timed-direction",
+      "skill": "chronostick-shot-plan",
+      "status": "approved",
+      "inputs": [
+        "audio/narration-es-r001.wav",
+        "timestamps/ajil/voice-response-r001.json",
+        "timestamps/ajil/voice-words-r001.csv",
+        "plan/reference-manifest.json",
+        "plan/storyboard/shot-list.json"
+      ],
+      "outputs": [
+        "timestamps/timing-map.json",
+        "timestamps/word-timestamps-source.csv",
+        "timestamps/word-timestamps-normalized.csv",
+        "plan/clip-slot-decisions.json",
+        "plan/clip-direction.json",
+        "plan/story-state-ledger.json",
+        "plan/shot-plan.md",
+        "plan/storyboard/timing-reconciliation.json",
+        "plan/reference-manifest.json",
+        "plan/timed-direction-review-r001.json",
+        "plan/timed-direction-review-r002.json",
+        "plan/timed-direction-review-r003.json"
+      ],
+      "validated_at": "2026-10-05T14:25:24.518145+00:00",
+      "approved_at": "2026-10-05T14:25:24.518145+00:00",
+      "approved_by": "assistant (actual source/panel/reference direction review)",
+      "decision_notes": "Pilot repair:46 reviewed shots,7 inclip04,9 original panels retained, all word/frame slots unchanged. See r002 scoped review.",
+      "next_action": "Write six pure video prompts from the reviewed frame-exact plan."
+    },
+    {
+      "id": "prompts",
+      "skill": "chronostick-clip-prompts",
+      "status": "approved",
+      "inputs": [
+        "plan/clip-direction.json",
+        "plan/reference-manifest.json",
+        "timestamps/timing-map.json"
+      ],
+      "outputs": [
+        "prompts/clip-01-mask-to-1605.md",
+        "prompts/clip-02-conspiracy-target.md",
+        "prompts/clip-03-powder-watch.md",
+        "prompts/clip-04-letter-search-arrest.md",
+        "prompts/clip-05-consequence-and-mask.md",
+        "prompts/clip-06-symbol-payoff-cta.md",
+        "plan/prompt-review-r001.json",
+        "plan/prompt-review-r002.json"
+      ],
+      "validated_at": "2026-10-05T15:15:47.210553+00:00",
+      "approved_at": "2026-10-05T15:15:47.210553+00:00",
+      "approved_by": "assistant (revised pure-prompt review)",
+      "decision_notes": "Six no-music locks strengthened after actual user report;46 reviewedshots, S26 dedicatedimage, every policy count1; native output requires review.",
+      "next_action": "Build deterministic six-job JSON and run full live preflight."
+    },
+    {
+      "id": "jobs-preflight",
+      "skill": "chronostick-generation-jobs",
+      "status": "approved",
+      "inputs": [
+        "automation/jobs",
+        "automation/batch-settings.json"
+      ],
+      "outputs": [
+        "automation/job-plan.json",
+        "automation/preflight.json"
+      ],
+      "validated_at": "2026-10-05T15:16:29.098086+00:00",
+      "approved_at": "2026-10-05T15:16:29.098086+00:00",
+      "approved_by": "assistant (live native revision-r002 fullbatch preflight)",
+      "decision_notes": "Six r002 jobs validated live after music failure; 16steps, strong silent-default suffix,46shots/22selectedreferences. No actual audio or motion quality inferred.",
+      "next_action": null
+    },
+    {
+      "id": "generation",
+      "skill": "chronostick-batch",
+      "status": "validated",
+      "inputs": [
+        "automation/preflight.json",
+        "automation/launch-authorization-r001.json"
+      ],
+      "outputs": [
+        "automation/runtime/execution-state.json",
+        "automation/batches/native-16step-pilot-r001/submission-response-r001.json",
+        "automation/batches/native-16step-pilot-r002/submission-response-r001.json",
+        "automation/batches/native-16step-remaining-r002/submission-response-r001.json",
+        "automation/runtime/terminal-generation-snapshot-r001.json"
+      ],
+      "validated_at": "2026-10-05T17:01:56.131375+00:00",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": "Original and targeted repair batches actually succeeded. Execution completion is distinct from clip QC. Preserve user-confirmed native SFX for02/03; independent sound is fallback only.",
+      "next_action": "Select usable actual takes under latest quality policy."
+    },
+    {
+      "id": "review",
+      "skill": "chronostick-review",
+      "status": "approved",
+      "inputs": [
+        "automation/current-candidate-job-plan-r001.json",
+        "plan/usable-quality-policy-r001.json"
+      ],
+      "outputs": [
+        "renders/clip-01-selection-r001.json",
+        "renders/clip-02-selection-r001.json",
+        "renders/clip-03-selection-r001.json",
+        "renders/clip-04-selection-r001.json",
+        "renders/clip-06-picture-choice-r001.json",
+        "renders/clip-05-selection-r001.json",
+        "renders/clip-06-selection-r001.json",
+        "renders/selection-manifest.json",
+        "renders/timing-audit-r003.json"
+      ],
+      "validated_at": "2026-10-05T17:07:56.525363+00:00",
+      "approved_at": "2026-10-05T17:07:56.525363+00:00",
+      "approved_by": "assistant actual picture/technical QC; user exact native sound reviews and previously accepted fallback assets",
+      "decision_notes": "Six usable actual pictures selected; no further cosmetic retries. User confirms native02/03/05 only SFX. Fully exclude failed native01/04/06, preserve picture and use exact previously accepted recorded cues placed on actual actions. Whole-master user playback remains pending.",
+      "next_action": "Assemble, upscale and mix unchanged accepted voice with active-word captions."
+    },
+    {
+      "id": "finish",
+      "skill": "chronostick-finish",
+      "status": "approved",
+      "inputs": [
+        "renders/selection-manifest.json",
+        "audio/narration-es-r001.wav",
+        "timestamps/word-timestamps-normalized.csv"
+      ],
+      "outputs": [
+        "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+        "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+        "postproduction/edit.json",
+        "postproduction/exports/r003/manifest.json",
+        "postproduction/exports/r003/captions.srt",
+        "postproduction/exports/r003/captions.vtt",
+        "postproduction/review-r003.json",
+        "postproduction/user-acceptance-r001.json"
+      ],
+      "validated_at": "2026-10-05T17:43:28.736148+00:00",
+      "approved_at": "2026-10-05T17:58:04.342926+00:00",
+      "approved_by": "user (caption acceptance and contextual continuation to delivery)",
+      "decision_notes": "User says خوبه and requests final thumbnail/all delivery ready after r003 handoff. Caption style explicitly accepted and current master accepted for packaging; no full listening claim. Evidence:postproduction/user-acceptance-r001.json",
+      "next_action": null
+    },
+    {
+      "id": "youtube",
+      "skill": "chronostick-youtube",
+      "status": "validated",
+      "inputs": [
+        "final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4",
+        "postproduction/exports/r003/manifest.json"
+      ],
+      "outputs": [
+        "delivery/youtube/metadata.json",
+        "delivery/youtube/metadata.md",
+        "delivery/youtube/title.txt",
+        "delivery/youtube/description.txt",
+        "delivery/youtube/tags.txt",
+        "delivery/youtube/thumbnail-prompt-r004.md",
+        "delivery/youtube/thumbnail-episode-007-r003.png",
+        "delivery/youtube/thumbnail-review-r003.json",
+        "delivery/youtube/thumbnail-provenance-r003.json",
+        "delivery/release/episode-007-es-release-r001.zip"
+      ],
+      "validated_at": "2026-10-05T18:08:50.041171+00:00",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": "User authorized thumbnail/all preparation and accepted current caption/master delivery by continuation. Generated r003 image has actual full/phone/upper12%-hidden QC; title/opening/tags/limits/path hashes validated. User artwork approval and external publication not fabricated.",
+      "next_action": "Manual YouTube handoff; no publication action authorized."
+    }
+  ]
+}

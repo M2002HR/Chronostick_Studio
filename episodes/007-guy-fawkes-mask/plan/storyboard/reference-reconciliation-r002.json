@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-05T13:24:27.268101+00:00",
+  "scope": "Reference coverage only; no storyboard panel/action/composition changed",
+  "selected_storyboard_revision": "r002",
+  "previous_record": "plan/storyboard/reference-reconciliation-r001.json",
+  "changes": [
+    {
+      "panels": [
+        "S19",
+        "S20"
+      ],
+      "reference": "warning-letter-handoff",
+      "reason": "Reading-state reference shows an open creased sheet; folded handoff needs its own start state. Existing warning-letter now controls S21 only."
+    },
+    {
+      "panels": [
+        "S10"
+      ],
+      "reference": "conspiracy-plan-shoulder",
+      "reason": "Front table image does not directly show the approved over-shoulder camera. Add the actual angle rather than replace it with a plan crop."
+    },
+    {
+      "panels": [
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "reference": "search-arrest-threshold",
+      "reason": "Carry exact left-hinged search-door construction and Fawkes/barrel-room identities into the open threshold; revise only clipped prop/body margins."
+    },
+    {
+      "panels": [
+        "S33",
+        "S34",
+        "S36"
+      ],
+      "reference": "modern-masked-group",
+      "reason": "Retain trio and current-era rectangular plaza; enlarge safe side/foot margins without changing event or role placement."
+    }
+  ],
+  "new_sketch_revision_needed": false
+}

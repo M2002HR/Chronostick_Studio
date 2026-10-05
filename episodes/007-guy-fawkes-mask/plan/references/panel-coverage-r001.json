@@ -1,0 +1,476 @@
+{
+  "reviewed_at": "2026-10-05T13:31:47.328402+00:00",
+  "storyboard_revision": "r002",
+  "panel_count": 36,
+  "scope": "Reference coverage; final voice-timed shot map remains pending",
+  "panels": [
+    {
+      "storyboard_panel_id": "S01",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "ECU modern mask",
+      "action": "An isolated mask tilts slightly in a human hand; distinctive moustache/goatee are prop cues.",
+      "reference_ids": [
+        "mask-hand"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S02",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "CU hand and mask edge",
+      "action": "One plain hand lifts the mask into the center; no person wearing it in 1605.",
+      "reference_ids": [
+        "mask-hand"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S03",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "CU mask eye opening",
+      "action": "The mask eye opening dominates; a static graphic curiosity insert.",
+      "reference_ids": [
+        "mask-hand"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S04",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "Wide historic Westminster",
+      "action": "A period riverside Parliament building; pitched medieval roofs, no modern clock tower.",
+      "reference_ids": [
+        "westminster-exterior"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/westminster-exterior-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S05",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "Medium stone entrance",
+      "action": "An empty period palace entrance fills the frame; one closed wooden door.",
+      "reference_ids": [
+        "palace-entrance-window"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/palace-entrance-window-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S06",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "Tight dark palace window",
+      "action": "A candle glow inside a period window; contrast signals the historical night.",
+      "reference_ids": [
+        "palace-entrance-window"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/palace-entrance-window-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S07",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "Medium three conspirators",
+      "action": "Exactly three simple adult human silhouettes around one table; the focal man is Fawkes.",
+      "reference_ids": [
+        "conspiracy-table"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S08",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "CU pendant",
+      "action": "One hand rests near a small cross pendant on a conspirator chest; no writing.",
+      "reference_ids": [
+        "conspiracy-table"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S09",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "CU crown prop",
+      "action": "A simple crown silhouette sits on a plain target-plan page; symbol of the monarch, not a named royal portrait.",
+      "reference_ids": [
+        "conspiracy-table"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S10",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "Over-shoulder table plan",
+      "action": "One conspirator points at an unlettered sketch of the period Parliament on the table.",
+      "reference_ids": [
+        "conspiracy-plan-shoulder"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/conspiracy-plan-shoulder-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S11",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "CU Fawkes reaction",
+      "action": "The focal period man tightens his gaze; neutral rough facial marks, no locked design.",
+      "reference_ids": [
+        "conspiracy-table"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S12",
+      "source_sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "framing": "Medium decision",
+      "action": "Three silhouettes lean toward the table; exactly one lead pointing gesture, others still.",
+      "reference_ids": [
+        "conspiracy-table"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/conspiracy-table-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S13",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "Wide cellar",
+      "action": "Exactly one period Fawkes among partially cropped barrel stacks; stone vault, no readable text.",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S14",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "Low boot insert",
+      "action": "One boot plants beside a wooden barrel; readable single step.",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S15",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "CU barrel hoops",
+      "action": "One visible barrel face/hoops; the shot does not claim all thirty-six are on screen.",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S16",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "Medium stack depth",
+      "action": "Partially cropped stacks emphasize quantity; no multiplying or rolling barrels.",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S17",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "CU hand on barrel",
+      "action": "One hand rests on the nearest barrel; no fuse is lit.",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S18",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "CU watchful man",
+      "action": "Fawkes looks toward the cellar entrance; the current powder stays undetonated.",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S19",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "CU anonymous message",
+      "action": "An unidentified hand presents one folded warning letter; no readable words.",
+      "reference_ids": [
+        "warning-letter-handoff"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/warning-letter-handoff-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S20",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "CU receiving hand",
+      "action": "A guard official takes the same folded letter; author identity is not supplied.",
+      "reference_ids": [
+        "warning-letter-handoff"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/warning-letter-handoff-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S21",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "Medium guard reads",
+      "action": "One simple official silhouette holds the open page angled away; face reacts to warning.",
+      "reference_ids": [
+        "warning-letter"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/warning-letter-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S22",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "CU lantern",
+      "action": "A plain lantern is lifted by one guard hand; signal of an active search.",
+      "reference_ids": [
+        "cellar-door-search"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S23",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "CU door latch",
+      "action": "One gloved hand moves the cellar-door latch once.",
+      "reference_ids": [
+        "cellar-door-search"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/cellar-door-search-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S24",
+      "source_sketch_path": "plan/storyboard/storyboard-page-02-r002.png",
+      "framing": "Wide threshold",
+      "action": "Cellar door opens; Fawkes and stationary barrels are visible beyond, guards at threshold.",
+      "reference_ids": [
+        "search-arrest-threshold"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S25",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "Medium arrest",
+      "action": "Exactly two guards confront one Fawkes beside stationary barrels; one guard reaches to stop him.",
+      "reference_ids": [
+        "search-arrest-threshold"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S26",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "CU restraining hand",
+      "action": "One guard hand grips Fawkes sleeve; a single clear arrest gesture.",
+      "reference_ids": [
+        "search-arrest-threshold"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S27",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "CU Fawkes face",
+      "action": "Fawkes freezes in surprise; no speech or lip movement.",
+      "reference_ids": [
+        "search-arrest-threshold"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/search-arrest-threshold-r002.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S28",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "Barrel insert",
+      "action": "Unchanged dry barrel stacks; no detonation, fire or smoke.",
+      "reference_ids": [
+        "powder-undercroft"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/powder-undercroft-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S29",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "Medium custody door",
+      "action": "A plain prison door closes once; symbolic time compression after arrest.",
+      "reference_ids": [
+        "custody-door"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/custody-door-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S30",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "Custody candle insert",
+      "action": "An extinguished candle outside an empty barred doorway symbolizes the later execution; no person, body, gore or violence.",
+      "reference_ids": [
+        "custody-candle"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/custody-candle-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S31",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "CU graphic-novel prop",
+      "action": "A closed book bears a simple mask picture, with no readable title.",
+      "reference_ids": [
+        "mask-book"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/mask-book-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S32",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "Medium contemporary mask",
+      "action": "One modern anonymous human raises a mask to the face; separate from historic Fawkes.",
+      "reference_ids": [
+        "modern-mask-lift"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/modern-mask-lift-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S33",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "Wide contemporary group",
+      "action": "Exactly three modern human silhouettes wear masks; calm recognizable symbolic assembly.",
+      "reference_ids": [
+        "modern-masked-group"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r003.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S34",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "CU central masked role",
+      "action": "One masked modern face fills the frame; same mask design across modern shots.",
+      "reference_ids": [
+        "modern-masked-group"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r003.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S35",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "CU mask in hand",
+      "action": "One hand holds the mask, echoing the opening without a cross-generation match move.",
+      "reference_ids": [
+        "mask-hand"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/mask-hand-r001.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    },
+    {
+      "storyboard_panel_id": "S36",
+      "source_sketch_path": "plan/storyboard/storyboard-page-03-r002.png",
+      "framing": "ECU opening-mask return",
+      "action": "A modern masked face returns to a resolved frontal pose with a brief hold; graphic rhyme with opening prop, not a frame-perfect loop.",
+      "reference_ids": [
+        "modern-masked-group"
+      ],
+      "selected_paths": [
+        "assets/episodes/007-guy-fawkes-mask/references/modern-masked-group-r003.png"
+      ],
+      "review_status": "covered for reference design; final shot duration/action feasibility follows accepted voice and actual video pilot"
+    }
+  ]
+}

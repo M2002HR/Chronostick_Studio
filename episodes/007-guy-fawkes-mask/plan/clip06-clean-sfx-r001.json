@@ -1,0 +1,25 @@
+{
+  "source": "renders/editorial/episode-007-clip-06-symbol-payoff-cta-r003.mp4",
+  "source_sha256": "b4c4edbfd7bb7c4daa7d530d0f1947febb8cbd27aaa73b31542ff3b733252f3a",
+  "output": "renders/audio-corrected/episode-007-clip-06-r003-clean-sfx-r001.mp4",
+  "stem": "audio/sfx/clip-06-clean-stem-r001.wav",
+  "native_audio": "exclude_completely",
+  "native_failure_evidence": {
+    "reviewer": "user",
+    "user_quote": "موسیقی هم دارد",
+    "scope": "Exact shown clip06r003 native audio"
+  },
+  "cues": [
+    {
+      "asset_path": "audio/sfx/candidates-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "approved",
+      "review_evidence": "audio/sfx/selected-effects-r001.json",
+      "kind": "cloth",
+      "start_seconds": 3.4166666666666665,
+      "gain_db": -3,
+      "observed_action": "Actual charcoal cuff/holding hand settles the handheld mask at frames82–84; only this small physical adjustment receives the accepted dry cloth transient. Static powder and masked trio inserts remain silent."
+    }
+  ],
+  "review": "Previously user-heard approved physical cue; new placement reviewed against actual frames. Zero native audio contribution, no music/ambience/speech track. Final full mix awaits human playback."
+}
