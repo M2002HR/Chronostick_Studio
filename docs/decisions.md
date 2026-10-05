@@ -194,3 +194,227 @@ The four assassinated presidents each receive a reusable, full-frame, single-per
 ### Reason
 
 The user explicitly prioritized a pace faster than prior episodes while requiring all four figures to remain recognizable in the symbolic stick-figure language. A named profile prevents this episode-specific density from silently changing global H3 behavior. Separating four identity authorities from six generation-safe scene anchors keeps the four people distinct without exposing H3 to multi-pose sheets, repeated identities, or unnecessary references.
+
+## 2026-10-01 — Separate long-form production route
+
+### Decision
+
+Long historical videos use a separate `docs/longform/` workflow and `chronostick-longform-*` skills while retaining shared style, identity, audio and versioning rules. The first long-form profile targets Spanish narration lasting 10–15 minutes, a 16:9 picture, independent five-second H3 clips at 1024×576/24 fps/14 steps with Lightning disabled, and a reviewed 1920×1080 final master. The installed service's `youtube_shorts_hq` API profile is used with explicit landscape overrides; that API name does not define the project format. The settings are a production contract pending a representative actual render and capability review, not a claim of proven long-form quality.
+
+The pipeline gates source verification, faithful Spanish script, accepted voice and word timing, episode-wide visual direction, timed shot/state plans, sourced historical maps and identities, reviewed full-frame references, a full animatic and pilot, pure video prompts, deterministic JSON/preflight, clip-by-clip QC, selection, finishing and YouTube packaging. Full-episode planning precedes chapter-wise generation. Exact generated dates, numbers and short terms are allowed only as per-clip approved exceptions with render review; ordinary captions remain a finishing layer. No background music is allowed. Four-step `draft` output may filter concepts but cannot certify a 14-step output because the service changes model settings as well as steps.
+
+### Reason
+
+At ten minutes, roughly 120 independent clips make omissions, continuity drift and unreviewed bulk rendering expensive. Stage ledgers and validators expose missing evidence, reference coverage, job mapping and selected-media gaps before these compound. The source example's maps, market scenes, diagrams and time cards inspire an original ChronoStick visual grammar; the other video's transcript and screenshots are neither historical proof nor assets to reproduce.
+
+## 2026-10-01 — Google Vids voice tags follow the observed account menu
+
+### Decision
+
+For Google Vids voice-direction drafts, use the Pace, Pauses, Emotion, Style and Sounds options observed in the user's account and cataloged in `docs/google-vids-voice-direction.md`. The user confirmed that selecting Rushed pace inserts `[rushed pace]`; the other observed labels are written in the same lowercase bracket form. Previous Gemini API and older Vids tag examples are not the production vocabulary for this route. Keep tagged voice text separate from the clean narration and accept timing only after listening to generated audio.
+
+The user subsequently prohibited `[whisper]` for all future voice scripts. It stays in the catalog as an observed menu item, but is not part of the usable ChronoStick tag set.
+
+### Reason
+
+The user's current menu supplies a concrete tag inventory for their voice workflow. It also provides a moderate pace option after the first scene trial felt too fast.
+
+## 2026-10-03 — Short titles and conversational YouTube delivery
+
+The user requested roughly 30-character, few-word hook titles for Shorts from Episode 003 onward, with no tags or hashtags in titles. Delivery now includes three pinned-comment candidates and 3–5 casual viewer-comment examples for both Shorts and long-form; grouped topic, history/animation, and format/discovery hashtags; a smaller matching description subset; naturally integrated search terms; and a proposed final upload filename. Current trend status requires evidence. The present retrofit is limited to Episode 003.
+
+## 2026-10-05 — Reference-first Short workflow
+
+Current user direction makes downloaded video the new Short intake: actual Ajil
+word/segment extraction, joint video/transcript direction, original Spanish
+scenario and neutral rough storyboard. The user reviews scenario and storyboard
+before single-image stick-world identities/scene references. Reference and voice
+branches can then proceed independently. The user supplies voice; Ajil extracts
+its real timing. New named profile `h3-short-dynamic-16step-20-30s` targets a chosen
+20–30 seconds with dynamic 4–7-second editorial slots, 16 steps, rapid purposeful
+hard cuts, moderate motion, no music and isolated small diegetic SFX. Raw engine
+request duration/frame grid is recorded separately and needs a real pilot.
+Semantic state v2 preserves review gates; technical validation is not approval.
+Existing episode profiles and long-form numerical contracts remain unchanged.
+Episode 007 exercises intake through reviewable scenario/storyboard; later
+stages continue after actual approval and accepted voice.
+
+## 2026-10-05 — Required Google Vids tagged narration handoff
+
+The user explicitly added registered-tag voice direction to the production
+workflow: deliver a paste-ready tagged copy of the final clean narration for
+Google Vids, with frequent emotions and relatively fast exciting performance.
+Use `chronostick-voice-direction`; provider selection remains explicit, and
+tagging is required when Google Vids is selected. Spoken words/punctuation stay
+identical. Preserve the existing no-whisper rule; keep harm serious. Semantic
+Short state v2 records direction as a `voice` substage without migrating its
+15-stage order; long-form retains `02a`. Episode 007 exercises the handoff with
+28 registered tags. Accepted voice and real Ajil timing remain later inputs.
+
+## 2026-10-05 — Tiny subscribe CTA by default
+
+The user requested a small closing call to action that says only subscribe.
+Future clean narrations append Spanish `Suscríbete.` (or the equally brief
+target-language equivalent) after the payoff by default, with delivery matching
+the scene and counted in the runtime. Explicit user overrides take priority.
+Update the clean authority before its Google Vids copy and timing; narration
+CTA does not authorize an in-engine button/text shot or alter approved masters.
+Episode 007's clean/translated/tagged copies and scenario record this change.
+## 2026-10-05 — Storyboard remains an active directing input
+
+The user explicitly required the reference/shot-plan skills to attend to the
+storyboard during use. Both skills now require inspecting the actual selected
+sketch pages and panel records while designing and reviewing production art or
+directing timed shots. Reference entries and final shots retain
+`storyboard_panel_ids`; retiming, merging and omissions have separate reasons.
+Neutral sketches control composition and action, while the locked stick-world
+style and researched identities control production appearance. Material changes
+require renewed creative review. The reference-first validator checks panel
+mapping/coverage and detects changes to artifact bytes bound to a recorded
+creative acceptance. Existing profiles without this storyboard route remain
+unchanged.
+
+## 2026-10-05 — Local voice, active-word captions and separate sound layers
+
+The user requested local finishing here for Episode 006 and repeatable future
+episodes: accepted voice, Arial Bold subtitles with only the spoken word
+highlighted and all other words white, then supplied music/background/SFX.
+This supersedes the old ban on external finishing music; generated clips and
+all video prompts retain their exact no-music policy. The local edit records
+explicit tracks and native-audio mute/preserve. Episode 006 explicitly excludes
+all native sound and has no music/ambience/SFX supplied yet.
+
+`scripts/postproduce-episode.py` binds source hashes, actual timing and font,
+preserves the fixed picture frames, writes ASS/SRT/VTT and separate stems,
+normalizes loudness in two passes and verifies the encoded immutable export.
+The newer root voice has a measured 1600/44100-second export drift from
+paragraph16; evidence and derived caption adjustments remain separate from
+the original accepted timing CSV. Technical QC and sampled visual review do
+not claim full human playback or approval of the earlier generated picture.
+
+## 2026-10-05 — Storyboard-led single-image reference coverage
+
+Episode 007 exercised the reference-first design branch with 21 selected
+single images: six identities and fifteen scene/prop views for 36 approved rough
+panels. Closed/open doors, folded/read letters, off-face/worn masks and an actual
+over-shoulder plan need distinct start-state or viewpoint coverage. Preserve the
+selected sketch bytes and record these asset allocations separately; do not
+replace a panel merely because another image is available.
+
+`scripts/reference-artifacts.py` freezes exact pure prompts, ordered input roles
+and hashes before the built-in image call, verifies them, then archives returned
+PNG bytes without approving them. It rejects more than five image-tool inputs;
+that cap is separate from H3's validated per-job reference allowance. Await every
+parallel result, including failures, to preserve provenance. Actual full-frame
+and phone-size review selects an immutable revision. Check drawings inside props
+for anachronisms and keep master-style background content out of new-era scenes.
+The episode's 33.365333-second supplied voice remains intact while its duration
+choice is pending; static reference approval does not settle final timing.
+
+## 2026-10-05 — Real voice-led dynamic timing and native preflight
+
+Episode 007 continues with the supplied complete 33.365333-second voice after
+contextual user continuation of the explicit full-voice proposal. The exact
+quote, acceptance scope and immutable voice/provider hashes are recorded in
+`plan/voice-acceptance-r001.json`; this is not an invented numeric user quote
+or assistant personal listening. Its picture covers 801 frames / 33.375 seconds.
+The global 20–30-second default remains unchanged. Three provider overlaps
+remain in the original CSV and have separately documented derived start clamps;
+aggregate numerical tokens are not expanded into invented measured timings.
+
+Six variable editorial clips contain 48 reviewed cuts, all mapped to the 36
+unchanged rough storyboard panels and 21 selected single-image references.
+Reusable timing/plan/prompt/job/preflight helpers implement the explicit
+contracts. H3 raw frames are 141, 158, 124, 124, 158 and 175; exact editorial
+frames are 132, 143, 101, 110, 150 and 165. Raw terminal holds are dropped
+without speed changes. Custom SFX suffix prevents the service default from
+repeating the mandatory music policy in the final engine text.
+
+The six-job live preflight passed without warnings at native 16 steps, with
+input and service-source hashes archived. A one-job native clip-04 pilot is
+submitted first under the user's existing complete-production instruction;
+its actual motion/audio/duration review gates the remaining five jobs. Its
+submission record is execution evidence, not creative approval.
+
+## 2026-10-05 — Native pilot rejects music and unexecuted cuts
+
+Episode 007 clip04 r001 produced the correct110 editorial frames at16 steps,
+but direct all-frame inspection found seven actual compositions rather than
+the planned nine and an ambiguous clothing-owner crop. The user separately
+reported background music and explicitly restated zero music in every clip,
+with only short SFX. This candidate is rejected; its media and original full
+input package remain archived. No other clip was launched from that package.
+
+All six pure prompts now begin with the exact audio policy and emphasize a
+completely silent default at opening/ending and between dry isolated cues.
+The deterministic job helper adds the corresponding strict suffix. A dedicated
+single-frame S26 gripreference shows the blue lead-guard sleeve grabbing
+Fawkes's brown upper sleeve. Clip04 consolidates two coverage pairs into seven
+deliberate shots, preserving all nine neutral panels and actual voice slots.
+Revised full preflight passed; a native 16-step r002 pilot precedes further launch.
+
+Supplementary Gemini review repeated exact intended cut times despite missing
+cuts in the actual frames. Its visualclaims are not accepted. Future generated
+media audits omit the intended generation prompt with `--media-only`; user
+listening and direct frame evidence retain priority. Prompt/JSON locks alone
+never certify absence of music.
+
+## 2026-10-05 — Prefer engine SFX; independent sound is a reviewed fallback
+
+After the second user-reported music failure, episode 007 clip 04 received a
+preview with the entire native soundtrack excluded and three independently
+recorded CC0 paper, cloth and metal transients. The decoded 110 picture frames
+are identical. The user found the result acceptable **as a fallback** and
+explicitly preferred the engine's better synchronized SFX whenever it produces
+clean audio. This supersedes the earlier blanket native-exclusion proposal.
+
+The workflow therefore keeps strong silence/no-music locks on every generated
+prompt/job, reviews actual sound per take, and preserves clean native SFX.
+`chronostick-sfx` handles only demonstrated sound failures or an explicit
+separate-effects request. It derives placements from real actions, archives
+licenses/source quality/hashes, preserves picture frames, and separates an
+unapproved listening preview from final selection. User approval of the shown
+three cues does not approve the full downloaded recordings or future mixes.
+Recorded physical effects are preferred to the explicitly labeled procedural
+test alternative. No melody, sound bed or continuous ambience is introduced.
+
+
+## 2026-10-05 — Actual duration and actual cuts are separate gates
+
+Episode007's six r002 takes match executed job request durations, compiled raw
+frame grids, 24fps presentation timestamps and editorial counts (801frames /
+33.375seconds total). That success did not establish shot compliance. Actual
+frame review found required shots late in raw tails and missing cut coverage.
+Use the reusable render-timing audit for technical checks and separately record
+actual cut starts, visible beats, drift and all raw-tail frames. Preserve the
+accepted complete narration; perform only targeted immutable replacements.
+
+
+## 2026-10-05 — Usable clip quality, no perfection loop
+
+The user accepts approximately95% practical quality. This is an editorial
+judgment, not a calculated score. Preserve understandable story beats, period
+chronology, identity/style, real voice sync, exact editorial duration and the
+no-music rule. Accept recorded minor cut drift, consolidated nonessential
+inserts or a brief non-disruptive cosmetic detail. Do not regenerate usable
+clips to perfect every prompt instruction. A repair already running may finish;
+select the stronger usable take and stop cosmetic refinement.
+
+
+## 2026-10-05 — Separate Shorts caption typography
+
+The user supplied a Short screenshot and requested distinct font/size from
+long-form. New portrait finishing starts with licensed Montserrat Bold104px
+at1080×1920, short single-line phrases (maximum4 words/1.8seconds),300px
+bottom inset and current-word yellow over white text. The source screenshot
+font is unknown; this is a visual approximation reviewed on actual output.
+Landscape retains Arial Bold64px/88px inset and existing grouping. Saved
+configurations and accepted exports do not migrate silently. Episode007
+uses immutable r002 and r003 caption-only distribution revisions; actual
+r002 output review led to the current104px r003 size, with unchanged
+picture, accepted voice timing and selected native/fallback SFX.
+
+The user subsequently accepted this style («خوبه» and «از این به بعد ...
+دقیقا همینجوری زیر نویس») and asked for thumbnail/delivery completion.
+Use this style prospectively for new Shorts finishing configurations; the
+bound decision is Episode007's `postproduction/user-acceptance-r001.json`.

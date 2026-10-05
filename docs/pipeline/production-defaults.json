@@ -1,25 +1,54 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "target": {
     "platform": "youtube_shorts",
     "orientation": "9:16",
-    "duration_seconds": {"minimum": 40, "preferred": 52, "maximum": 60},
-    "clip_seconds": 5
+    "duration_seconds": {
+      "minimum": 20,
+      "preferred": 30,
+      "maximum": 30
+    },
+    "editorial_clip_seconds": {
+      "minimum": 4,
+      "maximum": 7
+    }
   },
   "writing": {
     "target_language": "es",
     "hook_seconds": 2,
-    "cta_required": false,
-    "delivery": "fast_high_retention"
+    "cta_required": true,
+    "delivery": "fast_high_retention",
+    "cta": {
+      "type": "subscribe",
+      "placement": "after_payoff",
+      "spoken_es": "Suscríbete.",
+      "scope": "brief spoken narration only",
+      "delivery": "match story mood; within total duration target",
+      "user_override_allowed": true
+    }
   },
   "direction": {
-    "hook_action_shots_per_clip": [6, 8],
-    "standard_shots_per_clip": [5, 7],
-    "identity_or_physics_shots_per_clip": [3, 5],
-    "emotional_or_terminal_shots_per_clip": [2, 4],
+    "hook_action_shots_per_clip": [
+      6,
+      8
+    ],
+    "standard_shots_per_clip": [
+      5,
+      7
+    ],
+    "identity_or_physics_shots_per_clip": [
+      3,
+      5
+    ],
+    "emotional_or_terminal_shots_per_clip": [
+      2,
+      4
+    ],
     "transition": "hard_cut",
     "max_primary_actions_per_shot": 1,
-    "max_camera_moves_per_shot": 1
+    "max_camera_moves_per_shot": 1,
+    "shot_density_mode": "adaptive fast distinct cuts from approved plan and actual voice",
+    "shot_counts_are_guidance_only": true
   },
   "references": {
     "format": "full_frame_single_scene",
@@ -35,15 +64,15 @@
     "height": 864,
     "megapixel": 0.4,
     "fps": 24,
-    "duration_seconds": 5,
-    "steps": 14,
+    "steps": 16,
     "sampler": "res_multistep",
     "scheduler": "beta",
     "lightning": false,
     "ref_image_size": "match",
     "seed_mode": "fixed",
     "audio_mode": "sfx_only",
-    "overwrite": false
+    "overwrite": false,
+    "duration_source": "approved slot; service-supported raw frame grid recorded separately"
   },
   "batch": {
     "gpu_concurrency": 1,
@@ -75,6 +104,60 @@
     "generated_speech": false,
     "generated_narration": false,
     "diegetic_sfx": true,
-    "required_sentence": "NO BACKGROUND MUSIC. Natural diegetic sound effects only."
+    "required_sentence": "NO BACKGROUND MUSIC. Natural diegetic sound effects only.",
+    "continuous_ambience": false
+  },
+  "workflow": "reference-first-v1",
+  "production_profile": "h3-short-dynamic-16step-20-30s",
+  "storyboard": {
+    "style": "neutral sparse rough monochrome; outside stick world",
+    "production_input": false,
+    "user_review_before_reference_design": true
+  },
+  "voice_direction": {
+    "provider": "google_vids",
+    "skill": "chronostick-voice-direction",
+    "required_when_selected": true,
+    "short_delivery": "fast expressive; frequent purposeful registered emotions",
+    "short_base_pace": "[rushed pace]",
+    "whisper_allowed": false,
+    "preserve_spoken_text": true,
+    "user_supplies_audio": true
+  },
+  "postproduction": {
+    "workflow": "docs/postproduction.md",
+    "script": "scripts/postproduce-episode.py",
+    "local": true,
+    "native_audio_mode": "explicit_mute_or_preserve",
+    "captions": {
+      "bold": true,
+      "base_color": "#FFFFFF",
+      "active_word_color": "#FFD700",
+      "highlight_mode": "current_word_only",
+      "timing_source": "actual_accepted_voice",
+      "landscape_1080p_font_size": 64,
+      "max_lines": 1,
+      "max_width_fraction": 0.8,
+      "landscape_1080p_bottom_margin": 88,
+      "font_family_by_format": {
+        "portrait_short": "Montserrat",
+        "landscape_longform": "Arial"
+      },
+      "portrait_1080x1920_font_size": 104,
+      "portrait_1080x1920_bottom_margin": 300,
+      "portrait_max_words": 4,
+      "portrait_max_cue_seconds": 1.8,
+      "portrait_break_gap_seconds": 0.3,
+      "portrait_font_installer": "scripts/install-shorts-font.py",
+      "existing_saved_configs": "preserve unless a finishing revision is requested"
+    },
+    "external_music": "explicit_supplied_finishing_track_only",
+    "sound_layers": [
+      "narration",
+      "music",
+      "ambience",
+      "sfx"
+    ],
+    "overwrite": false
   }
 }

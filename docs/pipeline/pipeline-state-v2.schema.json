@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reference-first Short semantic state",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "workflow",
+    "episode_id",
+    "current_stage",
+    "updated_at",
+    "stages"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "workflow": {
+      "const": "reference-first-v1"
+    },
+    "episode_id": {
+      "type": "string",
+      "pattern": "^[0-9]{3}-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "current_stage": {
+      "enum": [
+        "intake",
+        "reference-transcription",
+        "reference-analysis",
+        "scenario-script",
+        "storyboard",
+        "references",
+        "voice",
+        "voice-transcription",
+        "timed-direction",
+        "prompts",
+        "jobs-preflight",
+        "generation",
+        "review",
+        "finish",
+        "youtube"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "skill",
+          "status",
+          "inputs",
+          "outputs",
+          "validated_at",
+          "approved_at",
+          "approved_by",
+          "decision_notes",
+          "next_action"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "intake",
+              "reference-transcription",
+              "reference-analysis",
+              "scenario-script",
+              "storyboard",
+              "references",
+              "voice",
+              "voice-transcription",
+              "timed-direction",
+              "prompts",
+              "jobs-preflight",
+              "generation",
+              "review",
+              "finish",
+              "youtube"
+            ]
+          },
+          "skill": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "missing",
+              "draft",
+              "validated",
+              "needs_review",
+              "approved",
+              "rejected",
+              "blocked",
+              "superseded",
+              "skipped"
+            ]
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "validated_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "approved_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "approved_by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "decision_notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "next_action": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "provenance": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ The permanent ChronoStick language is detailed cinematic stick-figure historical
 - detailed and period-grounded clothing
 - muted historical palette
 - controlled soft shading
-- readable silhouettes and cinematic vertical composition
+- readable silhouettes and cinematic composition in the named profile's aspect ratio
 
 This visual language applies to every pixel of every shot, including empty landscapes, sky, sea, animals, hands, props, buildings, smoke, shadows, and tiny background figures. A stick person over a photographic background is a style failure. Keep the same dark drawn contours, simplified forms, and non-photographic shading in wide views and extreme inserts.
 

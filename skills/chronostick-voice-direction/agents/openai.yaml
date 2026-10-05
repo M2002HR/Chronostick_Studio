@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Voice Direction"
+  short_description: "Direct Google Vids narration using registered tags"
+  default_prompt: "Use $chronostick-voice-direction to prepare a paste-ready, expressive Google Vids copy of this narration while preserving every spoken word."

@@ -14,6 +14,11 @@
 
 ## Audio and visible writing
 
+Local post-picture voice, ordinary active-word captions and supplied external
+sound tracks follow [`../postproduction.md`](../postproduction.md). This does
+not relax any generated-clip restriction below. Original native audio is
+explicitly muted or preserved only in the new distribution edit.
+
 - Generated video has isolated short natural SFX only, with silence between cues. It has no music, tonal bed, generated speech, dialogue, narration, lip sync, or vocal reactions. The accepted Spanish voice is a separate continuous track. Every video prompt contains exactly `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
 - Dates, times, numbers, names, and short terms may be created **inside H3** only when listed as a specific exception in `plan/text-events.json`. Each exception has an exact Spanish string, historical source, relevant clip, entrance/hold/exit and frame-level review. All unlisted generated writing remains forbidden; captions and ordinary subtitles are separate finishing assets.
 - A text-bearing single-scene anchor can supply exact orthography. H3 must preserve it; neither the anchor nor the prompt proves it succeeded. If spelling or stability fails, reject the render and correct the specific clip through H3. The picture pipeline does not use an editorial overlay as a substitute for requested in-engine writing.

@@ -1,5 +1,7 @@
 # Generation-safe references and prompt continuity
 
+For the new reference-first Short profile, use `docs/reference-first-shorts.md`: chosen 20–30-second output, 4–7-second editorial slots, adaptive fast purposeful cuts and 16 steps. Fixed-five-second slot/count guidance below belongs to older profiles. Each selected editorial clip is checked against its own approved duration/frame count; raw engine output and normalization stay separate. Neutral storyboard grids are internal planning only and are never production references.
+
 This document captures the reusable production method learned from Episode 002. It applies whenever a reference-to-video model must preserve style, recurring identity, physical action, emotion, and narrative order across independently generated clips.
 
 ## Separate design sources from video inputs
@@ -15,7 +17,7 @@ For video generation, derive episode-scoped generation-safe references:
 - no repeated pose or alternate view of the same identity
 - no readable labels or annotations
 - no future narrative event visible anywhere in the image
-- vertical composition close to the generation aspect ratio
+- composition close to the named generation aspect ratio
 - stable background geometry and clear subject silhouettes
 
 Keep the original master assets unchanged. Store the exact image-generation prompt before generation, generate from that exact text, visually inspect the result, and save the selected image with an immutable `-rNNN` filename.
@@ -29,6 +31,8 @@ Use the fewest references that fully control the shot:
 3. Do not pass a multi-pose character sheet merely because an identity appears. A scene anchor with one instance of that character is safer.
 4. Keep JSON reference order identical to `<Picture N>` order and describe each role exactly once.
 5. Sampling steps refine a generation; they do not repair ambiguous identity, duplicated subjects, a contaminated reference, or a contradictory story state.
+
+Across a multi-minute film, provide enough distinct approved angles and scene states to vary scale and viewpoint as the story changes. Count active anchors and consecutive reuse in the actual timed shot plan, then inspect a voice-led animatic for visual fatigue. Add a new anchor only when it has a clear narrative purpose and preserves recurring identity, geography, object count and event phase. Diversity does not justify a new palace design, map coastline or character costume.
 
 ## Lock the shot-to-anchor contract
 
@@ -129,7 +133,7 @@ Review a contact sheet at several frames per second and inspect the actual video
 - stable final frame
 - absence of photographic or mixed-style pixels in every shot, including hands, animals, sea, sky, and background inserts
 - exact shot-to-anchor coverage and no unexplained subject, prop, costume, light, or setting change across cuts
-- only short isolated SFX with silence between cues, leaving room for separately added background music
+- only short isolated SFX with silence between cues, leaving room for separately recorded narration; no background music
 
 Retry the same prompt and seed for an isolated random defect when the specification is sound. Rewrite the prompt for a specification defect. When the generated motion follows an unwanted trajectory strongly, use a new immutable output revision and a new fixed seed after correcting the prompt. Never overwrite an earlier render.
 

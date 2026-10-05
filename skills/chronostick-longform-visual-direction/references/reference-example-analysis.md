@@ -1,0 +1,26 @@
+# Reference example: *The Shortest War EVER*
+
+This is an earlier analysis of a pasted English auto-transcript and selected still frames. For episode 006, the actual 11:25 video and matching user-supplied transcript are now stored under `episodes/006-shortest-war-ever/source/reference-video/`; read its `intake-review.md` and inspect the video itself. The earlier still-frame notes below remain examples of the analysis method, not the episode's current evidence record, approved assets, a verified history source, or authorization to reproduce another creator's artwork.
+
+## Useful mechanisms observed
+
+| Approximate place | Visible/transcript evidence | Storytelling mechanism to adapt | ChronoStick application |
+| --- | --- | --- | --- |
+| 00:04–00:47 | A waking sailor is told a war has begun; by the time he prepares, it is over. | A short enacted contradiction conveys the central fact before exposition and raises “how could a war end that fast?” | Open on a character's preparation and an already resolved aftermath, using original staging and approved external narration. Keep generated clips speech-free and music-free. |
+| 00:47–01:27 | The story widens to Britain, its empire, then an island. A still shows a colored world map. | World-to-region-to-island scale ladder supplies context while continually narrowing the question. | Use a date-specific, sourced map family with consistent symbols and an explicit 1896 state, then move to Zanzibar. Avoid a later peak-empire map as if it represented 1896. |
+| Around 01:20–02:50 | Island map, market scene, large `SLAVERY` word, ship/people map. | Switch between geography, daily life, and one high-salience term to make an abstract system concrete. | Adapt the alternating visual modes, but source the institution and show human effects without trivializing enslaved people. Make selected Spanish terminology an exact in-engine text event. |
+| Around 02:17–03:59 | World-map markers, Zanzibar map with figures/ship, then a huge `NO` in a room. | Graphic shorthand and oversized typography punctuate a policy or power reversal. | Use verified map symbols and a single brief, exact Spanish word only when it clarifies the historical decision. The words and framing are not a template to copy. |
+| Around 04:57–06:37 | Transcript shifts to the sultan's death and rival candidates; a still shows a simple family/succession diagram. | A relationship chart converts a confusing succession into a glanceable conflict. | Build an original stick-world succession card with approved identity cues, verified kinship, explicit uncertainty, and only necessary names. A silhouette with a question mark is a visual uncertainty cue, not proof of poisoning. |
+| Around 07:42–09:59 | Ultimatum, clock pressure, ship line, on-screen `TOMORROW`, `09:02 AM`, `09:05 AM`, then bombardment and outcome. | Deadline and time cards compress a chain of events while keeping the viewer oriented. | Use a sourced clock/timeline, exact time format in Spanish editorial context, consistent vessel identities and positions, and a separate human-cost beat. Do not infer exact timing from the transcript alone. |
+| End | Large subscribe card after the historical resolution. | The final answer precedes the channel action. | Resolve the historical question and consequences first; only then design a distinct ChronoStick end screen if the episode calls for it. |
+
+## What not to transfer
+
+- The source's red/yellow/blue map palette, simplified world borders, characters, costumes, jokes, title cards, animation timing, music, voices, exact wording, and ending composition are creative expression belonging to that video. Extract their *function*, then invent new ChronoStick staging.
+- The transcript contains obvious recognition errors in names, ship names, times, and ordinary words. It also presents allegations, casualty numbers, imperial extent, abolition dates, motives, and attributed dialogue with varying certainty. None is approved just because it appears in the transcript or frame.
+- The reference's broad abolition narrative compresses distinct legal and political events. For example, the UK National Archives separates abolition of Britain's slave trade in 1807 from abolition of slavery in much of the empire in 1833 and notes that Zanzibar did not abolish slavery until 1897. Verify what changed, where, and when before any Spanish narration or on-screen date is approved: https://www.nationalarchives.gov.uk/education/resources/slavery/ and https://www.nationalarchives.gov.uk/education/resources/slavery/source-2a/.
+- A still can establish composition, text and color at one instant. It does not establish that a map animated correctly, text remained stable, or sound was music-free. Plan motion and audio from approved story needs, then check rendered footage.
+
+## Reusable design vocabulary
+
+Use these as options, selected by the narrative problem: enacted paradox; geographic scale ladder; policy or power reversal; person-to-system cut; relationship diagram; exact term or numeral reveal; temporal countdown; map-to-scene handoff; contrast between official claim and lived consequence; delayed answer and final resolution. Each use needs a different composition, a verified meaning, and a supporting ChronoStick reference. Avoid repeating one device merely to fill ten minutes.

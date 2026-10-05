@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Storyboard"
+  short_description: "Draw neutral sketches before production references"
+  default_prompt: "Use $chronostick-storyboard to create a neutral rough sketch storyboard from the reviewed scenario and source-video analysis."

@@ -1,6 +1,12 @@
 # Production workflow
 
-This is the canonical path from a source story to a finished ChronoStick Short. Each stage has an input, output, and gate. Do not silently skip missing inputs.
+For a new Short beginning with a downloaded video, use
+[reference-first-shorts.md](reference-first-shorts.md): the user selected a
+20–30-second Spanish default with neutral storyboards, Ajil extraction,
+dynamic 4–7-second editorial clips and 16 steps. This page preserves the
+original text-first route and existing episode contracts.
+
+This is the canonical path from a source story to a finished ChronoStick Short. Long-form episodes use `docs/longform/workflow.md`. Each stage has an input, output, and gate. Do not silently skip missing inputs.
 
 ## 1. Create the episode workspace
 
@@ -23,16 +29,23 @@ Create `script/narration-es.md`. Rewrite for natural speech and Shorts retention
 - immediate hook
 - compact context
 - escalating beats
+- surprising but truthful turns, vivid images, and situational humor where appropriate
 - clear payoff
 - concise CTA
 
 Gate: natural Spanish, preserved historical meaning, and estimated duration within target.
 
+## 3a. Direct the Google Vids voice (required when selected)
+
+If using Google Vids AI voiceover, use `chronostick-voice-direction` and follow [`google-vids-voice-direction.md`](google-vids-voice-direction.md) before Stage 4. Keep `script/narration-es.md` as the clean spoken text and put reviewed inline audio tags in `script/voiceover-google-vids-es.md`. For Shorts, direct a fast, intelligible base pace and verify it by audition. Record `used` or `skipped` in the episode manifest. If skipped or using another provider, proceed to Stage 4 with the clean narration.
+
+Gate when used: spoken words still match the reviewed narration; candidate tags have been checked in Vids and the performance direction is ready to audition. Final pace and duration approval belongs to Stage 4's actual audio review.
+
 ## 4. Generate and archive the voice
 
 Generate voice externally. Store the file in `audio/` using revision naming, or document its external location in the episode manifest. Do not add music.
 
-Gate: approved delivery, pronunciation, pace, and clean voice file.
+Gate: approved delivery, pronunciation, pace, measured duration, and clean voice file. If Stage 3a was used, confirm tags were not spoken and the accepted voice matches the clean narration.
 
 ## 5. Obtain word-level timestamps
 
@@ -45,6 +58,8 @@ Gate: timestamps cover the complete narration. Preserve the source file exactly;
 Create `plan/shot-plan.md` from the timestamps. Divide the video using the episode's named production profile. For every clip define narrative purpose, timing, visual beats, framing, main action, camera movement, references, final resolved frame, and failure conditions.
 
 Gate: every narration beat has visual coverage; no clip depends visually on the next clip; the final action settles before the profile boundary.
+
+Plan contrast, reactions, reveals, inserts, and visual punchlines to make the Short energetic and inventive. A comic beat must remain legible, historically honest, and within the per-shot action/camera budget; give serious consequences their own clear beat.
 
 For a narration overhang of no more than 1.000 second beyond the last complete five-second H3 slot, the approved timing map may replace an otherwise-empty final generation with a documented `freeze_last_frame` tail. The preceding clip must resolve before its boundary and remain visually valid through the frozen extension.
 
@@ -84,7 +99,12 @@ Gate: identity, style, pacing, framing, sound, and final frame are approved.
 
 Copy exactly one approved editorial clip per timeline slot into the episode's `renders/final-selected/` directory. Preserve a sortable `clip-NN-...` filename for every selection. Run the episode assembly command to validate numbering, sort naturally, concatenate picture and existing audio, and write an immutable revision under `final/`.
 
-Use the continuous Spanish narration, approved clips, optional natural Foley, captions, CTA typography, and branding in later explicit stages. Add text in editing rather than asking the generator to render it. Do not add background music under the current production policy.
+Use [`postproduction.md`](postproduction.md) for local continuous narration,
+Shorts-specific Montserrat Bold active-word captions, loudness and separately
+supplied sound layers. Long-form has its own Arial Bold caption profile.
+Add ordinary subtitles in editing. Supplied music is an explicit finishing
+track; generated clips retain the exact no-music sentence. Choose native audio
+mute/preserve in the edit rather than silently inheriting its stream.
 
 When the timing map declares a sub-second tail extension, concatenate only the approved generated slots, run `scripts/extend-last-frame.sh` for the exact overhang, pad native SFX with silence, and use that immutable extended revision as the upscale input.
 
@@ -119,6 +139,7 @@ Store final exports under `final/` with revision naming. Update the episode mani
 
 - source and citations present
 - Spanish narration approved
+- optional Google Vids voice direction recorded as used or skipped, with any tagged script reviewed
 - voice revision identified
 - actual word timestamps present
 - the profile-defined clip count and duration are planned

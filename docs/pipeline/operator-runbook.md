@@ -29,6 +29,12 @@ Local interfaces:
 - ComfyUI: `http://127.0.0.1:8188`
 - automation OpenAPI UI: `http://127.0.0.1:8090/docs`
 
+For reference-first episode work, inspect existing unit configuration before
+starting the API. A unit may use another episode's state directory and recover
+its old jobs. Use the target episode's service config and an isolated state
+directory when appropriate; preserve shared units/drop-ins. Bypass HTTP proxies
+for loopback calls (`NO_PROXY=127.0.0.1,localhost`).
+
 ## 2. Validate without generation
 
 ```bash
@@ -43,6 +49,11 @@ uv run comfy-video batch \
 ```
 
 This dry-run may upload/cache reference files and compile graphs, but it must not create a batch or queue expensive generation.
+
+For dynamic Shorts, `scripts/preflight-short-batch.py EPISODE_ROOT --service-root
+/home/mhr/AI/comfy-video-automation` archives each live resolved configuration
+and the full dry-run. It checks frame counts, prompt/reference/plan hashes,
+ordered picture roles, explicit 16 steps and the final audio-policy count.
 
 ## 3. Launch only after explicit approval
 

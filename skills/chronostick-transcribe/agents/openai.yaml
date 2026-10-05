@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Transcribe"
+  short_description: "Extract real word timing through Ajil"
+  default_prompt: "Use $chronostick-transcribe to transcribe this reference video or accepted narration through Ajil and preserve the actual word and segment timings."

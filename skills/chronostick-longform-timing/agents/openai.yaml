@@ -1,0 +1,3 @@
+interface:
+  display_name: "Chronostick Longform Timing"
+  short_description: "Validate real voice timing and derive five-second slots"

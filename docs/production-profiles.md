@@ -2,6 +2,43 @@
 
 An episode manifest names one profile. Do not mix profile defaults implicitly.
 
+## `h3-short-dynamic-16step-20-30s`
+
+The 2026-10-05 reference-first Shorts default; existing profiles remain scoped
+to their episodes. Spanish 9:16, chosen 20–30-second target, 480×864 at 24 fps,
+MiniMax H3 `h3_ref2va`, 16 steps, `res_multistep`, `beta`, Lightning off and
+`ref_image_size: match`. Editorial slots vary from 4 to 7 seconds; raw engine
+frame counts and editorial durations are recorded separately, with immutable
+normalization and no time stretch. A 4-second editorial slot may request 5
+seconds to remain inside the service's documented trained frame range, settle
+before 4 seconds and hold through the raw tail; actual quality requires a pilot.
+
+Reference-first video/transcript analysis and a reviewed neutral sketch
+storyboard precede production reference generation. Production identities and
+anchors are single-person/single-scene full-frame stick-world images, never
+grids or multi-pose sheets. Prefer one or two ordered references per clip;
+larger allocations require explicit shot coverage and capability validation.
+Cut density is chosen for the actual slot and narration rather than a fixed
+eight-shot quota. Maintain one action and at most one camera move per shot.
+Only isolated, short natural SFX with silence; no generated speech or music.
+Every video prompt contains the exact mandatory no-music sentence once.
+
+Follow `docs/reference-first-shorts.md`. Dynamic job/selection checks and render
+quality are exercised when the real episode reaches those stages; this profile
+does not claim those stages have already passed a pilot.
+
+An accepted user voice can have an explicit episode-only runtime exception.
+Keep the original working target, exact decision evidence and voice SHA-256 in
+`episode.json.duration_override`; the selected picture endpoint is the first
+24-fps frame that covers the complete audio. This changes that episode's total
+runtime only, never the 4–7-second clip contract or future 20–30-second default.
+Episode 007 follows the user's continuation of the proposed full-voice route:
+33.365333 seconds of unchanged narration and 801 frames / 33.375 seconds of picture.
+
+Long-form profile `h3-long-5s-14step-16x9` is defined in `docs/longform/format-contract.md`; service request profile names are separate from project production-profile names.
+
+For Episode 006, the user explicitly authorized a 12-step full batch. Its named episode override is `h3-long-5s-12step-16x9`, recorded in that episode's `episode.json` as `generation_steps: 12`. All other 16:9 parameters remain the long-form profile values. The job builder and validator read this episode-level choice; the 14-step profile remains the default for later episodes.
+
 ## `omni-10s`
 
 Historical Episode 001 contract: vertical 9:16, exact 10-second generations, at most three references, complete independent clips, hard cuts between clips.

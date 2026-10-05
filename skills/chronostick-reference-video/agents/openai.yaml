@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChronoStick Reference Video"
+  short_description: "Analyze video, transcript and feasible direction"
+  default_prompt: "Use $chronostick-reference-video to review this actual video alongside its transcript and prepare a timecoded, generation-aware adaptation."

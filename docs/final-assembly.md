@@ -1,5 +1,9 @@
 # Final clip selection and assembly
 
+For the new reference-first Short profile, use `docs/reference-first-shorts.md`: chosen 20–30-second output, 4–7-second editorial slots, adaptive fast purposeful cuts and 16 steps. Fixed-five-second slot/count guidance below belongs to older profiles. Each selected editorial clip is checked against its own approved duration/frame count; raw engine output and normalization stay separate. Neutral storyboard grids are internal planning only and are never production references.
+
+This document describes the existing Shorts assembly route. Long-form selection, chapter assembly and landscape finishing use `docs/longform/workflow.md` and `chronostick-longform-finish` while preserving the same immutable revision principle.
+
 Final assembly is a separate deterministic stage after clip review. Generation attempts remain immutable under `renders/raw/` and `renders/editorial/`; selected copies are staged under `renders/final-selected/`.
 
 ## Selection contract
@@ -56,9 +60,17 @@ In that case, generate the complete five-second slots before the overhang, conca
 
 The script refuses overwrites, enforces the one-second default maximum, validates output duration, and writes an adjacent `*.freeze-tail.json` provenance report. The extended output, not the shorter concat input, becomes the upscale input.
 
-## Future stages
+## Local finishing
 
-Caption rendering, typography, narration mixing, branding, loudness normalization, and any music policy belong after deterministic clip concatenation. They should be explicit configurable stages rather than implicit behavior in folder concat. The current production policy forbids background music; introducing it later requires an intentional policy decision and audio-mix specification.
+Caption rendering, typography, narration mixing and loudness normalization now
+use the repeatable local stage in [`postproduction.md`](postproduction.md), via
+`scripts/postproduce-episode.py` and `postproduction/edit.json`. They remain
+explicit stages after concat/upscale. Keep the clean picture master; create an
+immutable separate distribution master with format-specific active-word captions:
+Montserrat Bold and larger, shorter, raised phrases for Shorts; Arial Bold for
+long-form. The exact defaults and licensed installation are in `postproduction.md`.
+Supplied music, ambience and SFX are configurable external stems under the
+2026-10-05 user decision; generator no-music wording is unchanged.
 
 Each released language is an independent post-picture branch. See
 [`localization-workflow.md`](localization-workflow.md): it replaces the

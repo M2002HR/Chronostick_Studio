@@ -263,6 +263,28 @@ if ! python scripts/validate-localizations.py "$repo_root"; then
   failures=$((failures + 1))
 fi
 
+while IFS= read -r manifest_path; do
+  episode_format="$(python -c 'import json,sys; print(json.load(open(sys.argv[1])).get("format", ""))' "$manifest_path")"
+  if [[ "$episode_format" == 'short' ]]; then
+    episode_validator='scripts/validate-reference-first.py'
+  elif [[ "$episode_format" == 'longform' ]]; then
+    episode_validator='scripts/validate-longform.py'
+  else
+    printf 'FAIL unknown episode format: %s\n' "$manifest_path"
+    failures=$((failures + 1))
+    continue
+  fi
+  if ! python "$episode_validator" "$(dirname "$manifest_path")"; then
+    failures=$((failures + 1))
+  fi
+done < <(find episodes -mindepth 2 -maxdepth 2 -type f -name episode.json | sort)
+
+while IFS= read -r edit_path; do
+  if ! python scripts/postproduce-episode.py "$(dirname "$(dirname "$edit_path")")" --check; then
+    failures=$((failures + 1))
+  fi
+done < <(find episodes -type f -path '*/postproduction/edit.json' | sort)
+
 if (( failures > 0 )); then
   printf 'Validation failed with %d issue(s).\n' "$failures"
   exit 1

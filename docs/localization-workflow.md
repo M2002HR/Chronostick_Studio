@@ -226,7 +226,9 @@ not infer caption timing from Spanish captions.
 
 Mix the target narration with the allowed natural SFX from the approved master.
 Remove or mute no narration by guesswork: source-language speech audible under
-the Persian voice is a failure. Keep the no-background-music policy unchanged.
+the Persian voice is a failure. Generated clips retain the no-background-music
+policy; supplied local finishing tracks follow `docs/postproduction.md` and
+belong to the language version's own edit/stem/export branch.
 Export a new immutable language master and review at normal speed for factual
 meaning, cue sync, pronunciation, captions, source-language leakage, SFX,
 loudness, audio clipping, duration, and vertical geometry.

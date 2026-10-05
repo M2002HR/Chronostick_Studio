@@ -17,6 +17,10 @@ This repository is the production source of truth for ChronoStick Studio. Before
 13. the target episode's `README.md` and `plan/shot-plan.md`
 14. only the relevant locked files in `docs/specs/`
 
+For a long-form episode, also read `docs/longform/README.md`, `docs/longform/workflow.md`, `docs/longform/format-contract.md`, and `docs/longform/artifact-contract.md` after the shared rules above. The existing `docs/workflow.md` describes Shorts; long-form stages and profile-specific exceptions are in `docs/longform/`. Read the target episode's manifest and shot plan once they exist.
+
+When a long-form reference video and transcript are supplied, inspect the actual video alongside its transcript at intake and record a timecoded first-pass review before visual direction. Follow `docs/longform/reference-video-workflow.md`; preserve the original media and keep the example separate from historical evidence.
+
 ## Source-of-truth priority
 
 When instructions conflict, use this order:
@@ -39,6 +43,7 @@ Archived files explain history; they are not active instructions.
 - Use fast editing with moderate motion: one primary action and at most one camera move per shot.
 - Every video prompt must contain exactly this policy sentence: `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
 - Do not generate narration, dialogue, lip sync, subtitles, labels, or other readable text unless an episode explicitly requires an approved exception.
+- Long-form dates, times, numbers, names, and short terms requested for in-engine display are allowed only as exact clip-specific exceptions recorded in `plan/text-events.json`, with frame-level review. This does not allow unlisted labels or ordinary subtitles.
 - Do not overwrite generated media. Add `-r001`, `-r002`, and so on.
 - Use Git history for text versions. Never create names such as `final2` or `final-final`.
 - Do not mark an artifact approved or locked without an actual review decision.
@@ -53,8 +58,32 @@ Archived files explain history; they are not active instructions.
 
 ## Working method
 
+For post-picture voice, captions or sound work, read `docs/postproduction.md`
+and the episode's `postproduction/edit.json`. Use the local repeatable finishing
+script on the existing picture; choose native-audio mute/preserve explicitly.
+New Shorts captions use Montserrat Bold104px at1080×1920 with a300px bottom
+inset and short single-line phrases; landscape retains Arial Bold64px at1080p.
+Use the configured safe width, white text and only the current spoken word
+highlighted. Supplied music,
+ambience and SFX are explicit finishing tracks, separate from the unchanged
+generator no-music policy. Preserve actual timing sources, input hashes and
+immutable distribution revisions; technical validation is not release approval.
+
 Start from source material, then script, voice, timestamps, shot plan, asset-reuse decision, missing asset generation, final prompts, renders, review, and assembly. Do not skip a stage silently. If an input is unavailable, record it as unavailable instead of fabricating it.
 
 For historical claims, distinguish documented fact from popular anecdote. Verify claims against reliable sources when research is part of the task, preserve citations in the episode source notes, and carry qualifications into the narration and visuals.
 
 Before handing off changes, validate paths, prompt purity, required audio wording, profile-specific reference limits, automation JSON, empty/missing artifacts, and `git diff --check`.
+
+## New reference-first Short route
+
+When a downloaded reference is supplied for a new Short, follow
+`docs/reference-first-shorts.md` and semantic pipeline state v2. The working
+method above is the preserved text-first baseline: actual reference extraction
+and analysis now precede original Spanish scenario and neutral rough storyboard.
+The user reviews scenario and storyboard before production reference design;
+references and accepted user voice can then progress independently. Use Ajil
+for actual source and voice word/segment timing. New Shorts use the named
+20–30-second, dynamic 4–7-second editorial, 16-step profile. Neutral storyboard
+panels are internal planning only, not stick-world generation anchors. Shared
+module reuse does not change long-form's existing format/profile contract.

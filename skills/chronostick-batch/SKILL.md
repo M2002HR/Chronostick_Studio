@@ -7,6 +7,8 @@ description: Check local ComfyUI and comfy-video-automation readiness, preflight
 
 Preparation is not permission to spend GPU time. If the user asked only to prepare, validate, or explain, stop after dry-run and provide the launch command.
 
+For reference-first Shorts, preflight the named 16-step profile and each declared service-supported request/frame grid against its 4–7-second editorial slot. Validate every reference-to-shot mapping, immutable output target and normalization plan; do not substitute legacy five-second/14-step defaults. Store preflight evidence in `automation/preflight.json`. A completed intake/storyboard check is insufficient for batch launch.
+
 ## Readiness
 
 1. Confirm ComfyUI listens on `127.0.0.1:8188` and the automation API on `127.0.0.1:8090`.
@@ -18,6 +20,8 @@ Preparation is not permission to spend GPU time. If the user asked only to prepa
 ## Launch
 
 Only after an explicit `run`, `start`, or `launch` instruction, submit once with `--watch`. Record returned batch/job IDs immediately in episode runtime state. Never submit individual ad-hoc jobs when the reviewed batch package exists.
+
+Honor an existing explicit instruction to execute the complete production workflow; a later continuation can resume that authorized work without a second permission request. Record the actual instruction and scope. For a native duration/cut pilot, split the reviewed package into a pilot batch and a remaining batch with unchanged JSON bytes. Review the pilot before submitting the remainder, and exclude its completed output targets from the next batch.
 
 The watcher shows per-clip and overall progress. Ctrl+C detaches the CLI display; it does not authorize cancellation. To reconnect, use `comfy-video status --batch BATCH_ID --watch`.
 

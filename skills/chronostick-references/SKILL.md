@@ -7,6 +7,12 @@ description: Design, prompt, generate, and review full-frame generation-safe sti
 
 Reuse approved assets when they already control the needed identity and state. New reference generation is justified only by the approved manifest.
 
+## Reference-first prerequisites
+
+For reference-first Shorts, production design begins only after the user's actual scenario/storyboard review. Derive the required identities, places, props and action states from both reviewed storyboard and reference-video analysis. Use as many separate single images as needed for shot coverage; per-job reference limits remain profile-specific. Neutral rough storyboard grids are planning only and must not become generation inputs. Prepare pure image prompts before generating. Preserve the approved ChronoStick style while adapting source character recognition and staging into stick-world.
+
+Open and visually inspect the selected storyboard pages alongside `plan/storyboard/shot-list.json` before planning references or writing their prompts. Use the panels to preserve framing, composition, subject count, screen placement, action, prop state and narrative purpose; translate their neutral figures into the approved stick-world style without treating sketch faces or costumes as identity authority. Each reference-manifest entry must name its supporting `storyboard_panel_ids` and source-analysis IDs, then explain which panel views/actions it covers. Check each generated image against those actual panels during review. If engine feasibility or real voice timing requires a change, record the affected panels and rationale in a separate reconciliation record; reopen material story/composition changes for user review instead of silently replacing the storyboard.
+
 ## Reference contract
 
 - One full-frame image, normally vertical 9:16 and close to H3 composition.
@@ -16,6 +22,7 @@ Reuse approved assets when they already control the needed identity and state. N
 - Every visible pixel, including small background objects, empty landscapes, sea, sky, smoke, horses, hands, architecture, aircraft, shadows, and materials, is translated into the same approved detailed cinematic ChronoStick stick-world. Keep dark drawn contours and simplified anatomy/surfaces at full size and at phone size. The master style always overrides incidental realism in content references.
 - No borders, labels, captions, typography, swatches, panels, duplicated subjects, alternate views, or future events.
 - Preserve identity through an explicit, repeatable cue list: head/hair silhouette, face marks, costume cut/colors, proportions, signature props, and minimal expression language. Distinguish every other visible person's headwear and uniform from the named identity.
+- Check body proportions against the locked style before scene derivation: the standard figure is roughly 5.0–5.8 round-head units with narrow shoulders and limbs. Detailed clothing must follow the simplified stick anatomy; a round face on a broad 7–8-head human body is insufficient. Use the actual master image and locked proportion guidance when an initial identity drifts.
 - Compose for the actual planned coverage: safe crop margins, fixed left/right placement, subject scale, clear silhouettes, stable background geometry, foreground/midground/background separation, controlled light direction and color, and low ambiguity. Show a vehicle's required masts/wheels/engines and a prop's required shape/count clearly enough to survive close crops.
 
 ## Shot-to-reference coverage
@@ -43,8 +50,16 @@ State the style authority, real-portrait identity authority when applicable, app
 
 Store prompts under `prompts/image/episodes/<episode>/` and immutable selected images under `assets/episodes/<episode>/references/` with `-rNNN`.
 
+## Reproducible image requests
+
+Use `scripts/reference-artifacts.py freeze` before a reference-first image call. Supply the episode, known reference IDs, request-group name, new `rNNN` revision and master-style path. This records the exact pure prompt, storyboard panel IDs, ordered image roles and hashes, and the intended immutable asset path. Dependencies must already have actual review decisions and unchanged selected bytes. Use `verify --request <snapshot>` immediately before generation, then call the built-in image tool with that snapshot's prompt and ordered local image paths. Archive its returned PNG unchanged with `ingest`; ingestion creates a candidate/result record and never selects or approves art. Keep failed candidates and request snapshots, update the pure prompt in Git, and freeze a new revision for corrections. An old snapshot stays historical even when its current prompt has changed.
+
+The built-in image tool accepts at most five input paths including the style image. Inherit already-reviewed identities from a scene anchor when that preserves coverage; do not remove the style or a necessary prop/state authority merely to fit. This limit is separate from the video engine's per-job limit. When collecting independent image calls, await every outcome, including failures, so a rejected call cannot discard another generated result's provenance.
+
+Keep the style input's role separate from scene content: architecture, era, people and props pictured on the master style board must not leak into a new setting. Specify a sparse period-appropriate background positively. Check pre-action states explicitly: a closed door and an opened threshold, or a mask held below a face and a worn mask, can require separate single-image anchors. Match their physical geometry and identity cues across state changes.
+
 ## Review
 
-Inspect the full image and a phone-size crop before approval. Check the entire frame against the inventory and every intended shot crop, including corners, tiny extras, prop counts, light direction, and background materials. For a real person, compare the result to the archived portrait cues and to every other recurring identity. Reject realistic anatomy, photoreal surfaces anywhere, style mixing, hidden panel borders, repeated or averaged people, swapped identity cues, wrong costume, future-event contamination, unreadable silhouette, unsafe crop, or an anchor that leaves a planned shot unsupported. Do not mark an image approved merely because it exists.
+Inspect the full image and a phone-size crop before approval. Check the entire frame against the inventory and every intended shot crop, including corners, tiny extras, prop counts, light direction, and background materials. Phone-size derivatives are review evidence only; keep the original production PNG unchanged. Inspect drawings within props too: a blank-text plan can still depict an anachronistic building. For a real person, compare the result to the archived portrait cues and to every other recurring identity. Reject realistic anatomy, photoreal surfaces anywhere, style mixing, hidden panel borders, repeated or averaged people, swapped identity cues, wrong costume, future-event contamination, unreadable silhouette, unsafe crop, or an anchor that leaves a planned shot unsupported. Do not mark an image approved merely because it exists.
 
 Update `plan/reference-manifest.json` with selected path, hash, revision, role, clips, review status, and decision notes.

@@ -1,5 +1,7 @@
 # Video generation rules
 
+For the new reference-first Short profile, use `docs/reference-first-shorts.md`: chosen 20–30-second output, 4–7-second editorial slots, adaptive fast purposeful cuts and 16 steps. Fixed-five-second slot/count guidance below belongs to older profiles. Each selected editorial clip is checked against its own approved duration/frame count; raw engine output and normalization stay separate. Neutral storyboard grids are internal planning only and are never production references.
+
 ## Format and boundaries
 
 - use the named production profile for requested duration, engine resolution, frame rate, and reference limit
@@ -11,6 +13,8 @@
 Separate generations do not require pixel-matched boundary frames, but they do require story-state continuity. A recurring character may begin the next clip from a new camera angle, but must not regress to an earlier action, location, posture, prop state, emotional state, or event phase unless the story explicitly calls for it.
 
 ## Pacing
+
+The clip-density numbers below describe Shorts profiles. Long-form chapters use the narrative and comprehension contract in `docs/longform/format-contract.md`; their default five-second generations have no fixed shot-count quota.
 
 - for 10-second Omni clips: hook 6–8 beats, body 4–6 beats, ending 3–5 beats
 - for 5-second H3 clips: approximately 2–4 readable micro-beats; reduce density before sacrificing clarity
@@ -38,12 +42,14 @@ Multi-panel style, world, vehicle, and character sheets are design sources. When
 
 Before generation, map each timed shot to an approved anchor that covers its exact subject inventory, props, setting, viewpoint, story phase, and whole-frame stick style. If a hand, horse, landscape, ship, or city view is absent from the anchor, revise the shot or create a compatible single-scene anchor within the profile limit. Record the stable identity, object, and environment facts that must survive every cut.
 
+Maps, clocks, charts and permitted in-engine writing belong inside the same continuous H3-generated shot as the surrounding scene. Still references can be prepared separately, but a code-rendered graphic video or later visual overlay is not a substitute for the H3 picture. Build map families from a consistent world-scale chart down to regional or tactical views as the story requires; keep coastline, political status, routes, character tokens and temporal states stable. Review every rendered map and permitted text frame before selection.
+
 ## Generated content restrictions
 
 - no narration, character dialogue, speech, or lip sync
-- no subtitles, CTA text, labels, legal copy, or other readable generated text
+- no subtitles, CTA text, labels, legal copy, or other readable generated text except an explicit approved episode/profile exception; long-form exact-text exceptions are recorded in `plan/text-events.json`
 - no background music
-- only brief, isolated, non-tonal diegetic SFX tied to visible actions, with silence between cues; no continuous ambience, room tone, long tails, or tonal sound bed that competes with music added later
+- only brief, isolated, non-tonal diegetic SFX tied to visible actions, with silence between cues; no continuous ambience, room tone, long tails, or tonal sound bed that competes with separately recorded narration
 
 Every video prompt must include: `NO BACKGROUND MUSIC. Natural diegetic sound effects only.`
 
