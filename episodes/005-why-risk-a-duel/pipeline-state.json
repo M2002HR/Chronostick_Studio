@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "episode_id": "005-why-risk-a-duel",
   "title": "Why RISK a DUEL? #4k #history",
-  "current_stage": "07-batch-generation",
+  "current_stage": "10-youtube-package",
   "defaults": {
     "target_language": "es",
     "duration_seconds": 55,
@@ -78,8 +78,16 @@
       "name": "references",
       "skill": "chronostick-references",
       "status": "approved",
-      "inputs": ["plan/reference-manifest.json", "assets/styles/style-detailed-cinematic-stick-history-r001.png", "Andrew Jackson Library of Congress portrait source"],
-      "outputs": ["assets/episodes/005-why-risk-a-duel/references/andrew-jackson-identity-r001.png", "assets/episodes/005-why-risk-a-duel/references/s01-dawn-duel-field-r001.png through s09-uruguay-political-duel-r001.png", "plan/reference-review.md"],
+      "inputs": [
+        "plan/reference-manifest.json",
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "Andrew Jackson Library of Congress portrait source"
+      ],
+      "outputs": [
+        "assets/episodes/005-why-risk-a-duel/references/andrew-jackson-identity-r001.png",
+        "assets/episodes/005-why-risk-a-duel/references/s01-dawn-duel-field-r001.png through s09-uruguay-political-duel-r001.png",
+        "plan/reference-review.md"
+      ],
       "validated_at": "2026-09-29T08:55:15+03:30",
       "approved_at": "2026-09-29T08:55:15+03:30",
       "approved_by": "assistant-review",
@@ -91,8 +99,14 @@
       "name": "clip-prompts",
       "skill": "chronostick-clip-prompts",
       "status": "approved",
-      "inputs": ["plan/shot-plan.md", "plan/story-state-ledger.json", "plan/reference-manifest.json"],
-      "outputs": ["prompts/clip-01.md through prompts/clip-11.md"],
+      "inputs": [
+        "plan/shot-plan.md",
+        "plan/story-state-ledger.json",
+        "plan/reference-manifest.json"
+      ],
+      "outputs": [
+        "prompts/clip-01.md through prompts/clip-11.md"
+      ],
       "validated_at": "2026-09-29T09:05:00+03:30",
       "approved_at": "2026-09-29T09:05:00+03:30",
       "approved_by": "assistant-review",
@@ -104,8 +118,17 @@
       "name": "generation-jobs",
       "skill": "chronostick-generation-jobs",
       "status": "approved",
-      "inputs": ["prompts/clip-01.md through prompts/clip-11.md", "approved scene anchors", "project seed 20260929005"],
-      "outputs": ["automation/variants/r001/jobs/", "automation/variants/r002/jobs/", "automation/variants/r001/batch-settings.json", "automation/variants/r002/batch-settings.json"],
+      "inputs": [
+        "prompts/clip-01.md through prompts/clip-11.md",
+        "approved scene anchors",
+        "project seed 20260929005"
+      ],
+      "outputs": [
+        "automation/variants/r001/jobs/",
+        "automation/variants/r002/jobs/",
+        "automation/variants/r001/batch-settings.json",
+        "automation/variants/r002/batch-settings.json"
+      ],
       "validated_at": "2026-09-29T09:05:00+03:30",
       "approved_at": "2026-09-29T09:05:00+03:30",
       "approved_by": "assistant-review",
@@ -117,8 +140,18 @@
       "name": "batch-generation",
       "skill": "chronostick-batch",
       "status": "running",
-      "inputs": ["automation/retries/r003/jobs/", "automation/retries/r004/jobs/", "automation/retries/run-r003-r004-queue.sh"],
-      "outputs": ["automation/retries/r003-r004-queue-state.json", "automation/retries/r003/batch-watch.log", "automation/retries/r004/batch-watch.log", "renders/raw/", "renders/editorial/"],
+      "inputs": [
+        "automation/retries/r003/jobs/",
+        "automation/retries/r004/jobs/",
+        "automation/retries/run-r003-r004-queue.sh"
+      ],
+      "outputs": [
+        "automation/retries/r003-r004-queue-state.json",
+        "automation/retries/r003/batch-watch.log",
+        "automation/retries/r004/batch-watch.log",
+        "renders/raw/",
+        "renders/editorial/"
+      ],
       "validated_at": "2026-09-29T09:05:00+03:30",
       "approved_at": "2026-09-29T09:07:59+03:30",
       "approved_by": "user",
@@ -162,9 +195,19 @@
       "approved_at": null,
       "approved_by": null,
       "decision_notes": null,
-      "next_action": null
+      "next_action": "Review current 1.2x distribution export, thumbnail and operator upload decisions."
     }
   ],
-  "external_finishing": null,
-  "updated_at": "2026-09-30T06:40:49+03:30"
+  "external_finishing": {
+    "status": "user_requested_final_export_technical_qc_passed_content_review_pending",
+    "source_path": "/home/mhr/Downloads/historia_05 (1).mp4",
+    "source_sha256": "1462a735d5b57c590787a7c821aeb7b17f0c5da34a03deed9b23188d9ecc4da3",
+    "distribution_master": "episodes/005-why-risk-a-duel/final/duelos-honor-andrew-jackson-historia-animada-es-005-r001.mp4",
+    "distribution_master_sha256": "3bc0cfb62b6b2593b509ea1c4276128207dd474d5773ecf57069ecf1bed08a85",
+    "speed_multiplier": 1.2,
+    "duration_seconds": 43.8,
+    "caption_timing": "Embedded Spanish cue times divided by 1.2; exact post-mux comparison passed.",
+    "note": "Current delivery uses the newest complete external historia_05 (1).mp4 finish, exported directly at 1.2x with pitch-preserving audio and retimed embedded Spanish captions. Previous picture/SFX masters and downloads preserved; technical QC passed, no new content approval or publication authorization recorded."
+  },
+  "updated_at": "2026-10-04"
 }

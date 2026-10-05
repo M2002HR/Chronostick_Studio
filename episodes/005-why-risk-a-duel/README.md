@@ -2,7 +2,7 @@
 
 ## Status
 
-- lifecycle: picture/SFX master complete and technically checked; distribution finishing and channel decisions pending
+- lifecycle: picture/SFX master and user-requested 1.2× distribution export technically checked; editorial review and channel decisions pending
 - source: user-supplied English text captured verbatim; independent historical verification intentionally not performed at the user's request
 - narration: Spanish, 127 words; treated as approved because the user generated and supplied its voice timestamps
 - voice: external; supplied timing ends at 52.520 seconds
@@ -16,7 +16,7 @@
 - final video: `final/episode-005-why-risk-a-duel-r001.mp4` assembles the 11 user-selected clips; `final/episode-005-why-risk-a-duel-picture-sfx-1080x1920-r001.mp4` is the completed 55-second, 1080×1920, 24-fps picture/SFX master enhanced frame by frame with `RealESRGAN_x4plus_anime_6B`; technical checks passed, but neither picture master nor distribution master has a final editorial approval
 - thumbnail: `delivery/youtube/thumbnail-episode-005-r001.png` generated with integrated Spanish headline and passed assistant full-size/phone-size visual QC; channel approval pending
 - YouTube metadata: primary and alternative titles, Spanish description, thumbnail provenance, and upload checklist prepared under `delivery/youtube/`; upload and publication not authorized
-- distribution master: unavailable; Spanish voice is external, and the finished narrated/captioned export has not been supplied or reviewed
+- distribution master: user supplied the newest external finish `/home/mhr/Downloads/historia_05 (1).mp4`; current 1.2× export is `final/duelos-honor-andrew-jackson-historia-animada-es-005-r001.mp4`, 43.800 seconds, 1080×1920/30 fps, pitch-preserving audio and retimed embedded Spanish captions; technical QC passed, no new editorial approval recorded
 
 ## Production contract
 
@@ -42,7 +42,7 @@
 - `plan/shot-plan.md`: 88-shot rapid-cut direction draft
 - `plan/story-state-ledger.json`: clip-boundary continuity and state authority
 - `plan/reference-manifest.json`: identity, scene-anchor, reuse, and coverage requirements
-- voice audio: external and not present in the repository
+- voice audio: embedded in the newly supplied external finish and the current 1.2× export; no standalone voice source newly archived
 - `plan/reference-review.md`: full-resolution and phone-size reference QC
 - `prompts/clip-01.md` through `prompts/clip-11.md`: paste-ready H3 prompts
 - `automation/variants/r001/jobs/` and `automation/variants/r002/jobs/`: two deterministic 11-job sets
@@ -55,6 +55,9 @@
 - `delivery/youtube/thumbnail-provenance-r001.json` and `thumbnail-review-r001.md`: image hashes and assistant review
 - `delivery/youtube/metadata.json` and `metadata.md`: provisional Spanish upload package
 
+- Delivery updated 2026-10-04: 29-character hook title, two short alternatives, natural opening keywords verified inside 200 characters, 15 Studio tags, nine grouped hashtags/five description hashtags, three pinned-comment candidates and five viewer-comment examples.
+- Current final delivery provenance: `final/duelos-honor-andrew-jackson-historia-animada-es-005-r001.speedup.json`. Previous picture masters and Downloads files remain unchanged.
+
 ## Next action
 
-Finish and review the Spanish-voice/caption distribution export against the 55-second picture timeline; get editorial/channel approval of the picture, thumbnail, and required YouTube operator settings. Only then upload or publish. The current picture/SFX master must not be mistaken for that distribution export.
+Review the current 1.2× distribution export for narration delivery, content, caption readability and sync. Obtain editorial/channel review of the picture and thumbnail and confirm required operator upload settings before publication.

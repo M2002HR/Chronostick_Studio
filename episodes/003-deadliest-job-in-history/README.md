@@ -16,9 +16,9 @@
 - renders: all nine r001 editorial clips completed; user selected all nine for assembly
 - assembly: 45-second concat and 0.640-second resolved-frame extension completed
 - upscale: 1080×1920 framewise pass completed; 1095/1095 frames, technical probe and contact-sheet check passed
-- YouTube package: Spanish titles, description, tags, hashtags, operator settings, and upload checklist prepared
+- YouTube package: updated 2026-10-03 with a 30-character Spanish hook title, two short alternatives, casual SEO description, grouped hashtags and smaller description subset, three pinned-comment candidates, five viewer-comment examples, and proposed revisioned upload filename; operator settings and upload checklist preserved
 - thumbnail: `4 PRESIDENTES / ASESINADOS` r001 generated at 2160×3840; assistant QC passed, user approval pending
-- final video: picture/SFX master produced; external Spanish narration/subtitles and final distribution master remain pending
+- final video: user supplied `/home/mhr/Downloads/historia_03.mp4`; requested 1.2× distribution export saved under `final/` at 1080×1920/30 fps, 38.133 seconds, with pitch-preserving audio and retimed embedded Spanish captions; technical QC passed, no new content approval recorded
 
 ## Production contract
 
@@ -65,8 +65,8 @@
 - assembly outputs: `final/episode-003-deadliest-job-in-history-concat-r001.mp4` and `final/episode-003-deadliest-job-in-history-tail-extended-r001.mp4`
 - YouTube package: `delivery/youtube/thumbnail-prompt-r001.md`, `delivery/youtube/metadata.json`, and `delivery/youtube/metadata.md`
 - generated thumbnail: `delivery/youtube/thumbnail-episode-003-r001.png` with source, provenance, and review record beside it
-- external voice/subtitle distribution master remains unavailable
+- user-requested final distribution export: `final/presidentes-eeuu-asesinados-historia-animada-es-003-r001.mp4` with adjacent `.speedup.json` provenance; original external finish remains in Downloads
 
 ## Next action
 
-Review the generated thumbnail r001 and perform final full-motion/listening QC of the 1080×1920 picture/SFX master before external voice/subtitle finishing.
+Review the generated thumbnail r001 and the user-requested 1.2× distribution export before choosing upload settings or publishing.

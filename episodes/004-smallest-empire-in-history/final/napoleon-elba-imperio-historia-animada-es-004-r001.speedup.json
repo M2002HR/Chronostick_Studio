@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "source_path": "/home/mhr/Downloads/historia_04 (2).mp4",
+  "source_selection": "Newest historia_04 download; older files have no subtitle stream and much smaller video data.",
+  "source_sha256": "a4d24ce8dd633cdd4471b25aa4b9a595fe050ab9168b6c2251aacccc1f62b46b",
+  "output_path": "episodes/004-smallest-empire-in-history/final/napoleon-elba-imperio-historia-animada-es-004-r001.mp4",
+  "output_sha256": "bdd8890973cae44724f7312c6a92230fcaaf5fcf06faea40bdaebfe65c242500",
+  "speed_multiplier": 1.2,
+  "audio_pitch_preserved": true,
+  "subtitle_timing_multiplier": 0.8333333333333334,
+  "source_duration_seconds": 61.950839,
+  "output_duration_seconds": 51.666667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "subtitle_codec": "mov_text",
+  "validation": "duration_geometry_av_sync_full_decode_and_retimed_embedded_captions_passed",
+  "content_review_status": "not_newly_reviewed",
+  "authorization": "User requested the same delivery and 1.2x final export work as Episode 003 for Episode 004."
+}

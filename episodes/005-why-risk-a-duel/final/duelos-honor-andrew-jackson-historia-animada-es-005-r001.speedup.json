@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "source_path": "/home/mhr/Downloads/historia_05 (1).mp4",
+  "source_selection": "Newest historia_05 download with video, audio and embedded Spanish captions; older download has no subtitle stream.",
+  "source_sha256": "1462a735d5b57c590787a7c821aeb7b17f0c5da34a03deed9b23188d9ecc4da3",
+  "output_path": "episodes/005-why-risk-a-duel/final/duelos-honor-andrew-jackson-historia-animada-es-005-r001.mp4",
+  "output_sha256": "3bc0cfb62b6b2593b509ea1c4276128207dd474d5773ecf57069ecf1bed08a85",
+  "speed_multiplier": 1.2,
+  "audio_pitch_preserved": true,
+  "subtitle_timing_multiplier": 0.8333333333333334,
+  "source_duration_seconds": 52.523537,
+  "output_duration_seconds": 43.8,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "validation": "duration_geometry_av_sync_full_decode_and_retimed_embedded_captions_passed",
+  "content_review_status": "not_newly_reviewed",
+  "authorization": "User requested Episode 005 delivery package and 1.2x final export on 2026-10-04."
+}

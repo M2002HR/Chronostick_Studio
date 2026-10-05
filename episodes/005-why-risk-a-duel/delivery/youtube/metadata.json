@@ -1,33 +1,64 @@
 {
   "schema_version": "1.0",
   "episode_id": "005-why-risk-a-duel",
-  "package_status": "provisional_distribution_master_and_operator_decisions_pending",
+  "package_status": "provisional_distribution_content_review_thumbnail_user_approval_and_operator_decisions_pending",
   "prepared_at": "2026-10-01T00:21:15+03:30",
   "language": "es",
   "title": {
-    "primary": "¿Por qué se batían a duelo si no querían matar?",
+    "primary": "¿Morir por honor en un duelo?",
     "alternatives": [
-      "Duelos sin intención de matar: ¿qué defendían?",
-      "Andrew Jackson y el riesgo mortal de los duelos"
+      "Duelos: ¿matar por tu reputación?",
+      "¿Por qué arriesgarte a un duelo?"
     ],
-    "character_limit": 100
+    "character_limit": 100,
+    "target_character_count": 30,
+    "preferred_character_range": [
+      25,
+      35
+    ],
+    "character_counts": {
+      "primary": 29,
+      "alternatives": [
+        33,
+        32
+      ]
+    },
+    "hashtags_allowed": false,
+    "editorial_review": {
+      "status": "revised",
+      "subject": "Historical duels and honor",
+      "hook": "The unsettling question of risking death for reputation",
+      "clarity": "Plain Spanish question with the duel explicit"
+    }
   },
-  "description": "¿Por qué aceptar un duelo si no querías matar a tu rival? Esta historia animada explora la reputación detrás de los duelos, los disparos fallados a propósito y lo que podía salir fatal. Del caso de Andrew Jackson a los duelos políticos de Uruguay, la pregunta sigue siendo: ¿cuánto arriesgarías por tu honor?\n\nChronoStick: historias animadas en español.\n\n#Historia #Duelos #AndrewJackson #Shorts",
+  "description": "¿Morir por honor en un duelo? Los duelos de honor ponían en juego la vida y la reputación. Del duelo de Andrew Jackson a los duelos en Uruguay: una historia animada que sorprende.\n\n¿Por qué aceptar un duelo si no querías matar a tu rival? La reputación lo era todo, pero un disparo podía cambiarlo todo. Este video recorre el caso de Andrew Jackson, los duelos en Francia y los enfrentamientos políticos en Uruguay.\n\nSi te van las curiosidades históricas, aquí tienes una costumbre que hoy cuesta imaginar. ¿Tú te habrías jugado la vida por tu honor?\n\nChronoStick: historias animadas en español.\n\n#Duelos #AndrewJackson #HistoriaAnimada #Shorts #ViralShorts",
   "description_character_limit": 5000,
   "hashtags": [
-    "#Historia",
     "#Duelos",
     "#AndrewJackson",
-    "#Shorts"
+    "#DuelosDeHonor",
+    "#Historia",
+    "#HistoriaAnimada",
+    "#Animacion",
+    "#Shorts",
+    "#YouTubeShorts",
+    "#ViralShorts"
   ],
   "tags": [
-    "duelos",
+    "morir por honor en un duelo",
+    "duelos de honor",
     "duelo de honor",
     "duelos históricos",
+    "duelos a pistola",
     "Andrew Jackson",
+    "Andrew Jakson",
     "duelo de Andrew Jackson",
     "duelos en Uruguay",
+    "duelos políticos",
+    "historia de Francia",
+    "historia de Estados Unidos",
     "historia animada",
+    "curiosidades históricas",
     "ChronoStick"
   ],
   "category": {
@@ -40,7 +71,11 @@
     "note": "Animated historical story; depicted locations are not physical recording locations."
   },
   "depicted_events": {
-    "locations": ["United States", "France", "Uruguay"],
+    "locations": [
+      "United States",
+      "France",
+      "Uruguay"
+    ],
     "note": "Multiple historical examples are depicted; no single filming location or date applies."
   },
   "audience": {
@@ -71,13 +106,21 @@
     "picture_sfx_master_status": "upscale_complete_technical_checks_passed_editorial_review_pending",
     "picture_sfx_master_sha256": "4282db52c3952e8f3203ee81de9ee98c197fe70bb6a8e5e252c4c5efa862268e",
     "picture_sfx_master_duration_seconds": 55.0,
-    "picture_sfx_master_dimensions": [1080, 1920],
+    "picture_sfx_master_dimensions": [
+      1080,
+      1920
+    ],
     "picture_sfx_master_fps": 24,
     "upscale_provenance_path": "episodes/005-why-risk-a-duel/final/episode-005-why-risk-a-duel-picture-sfx-1080x1920-r001.framewise-upscale.json",
-    "narration_status": "approved_external_voice_timing_audio_file_unavailable_in_repository",
-    "distribution_master": null,
-    "expected_upload_filename": "chronostick-005-por-que-se-batian-a-duelo-1080x1920.mp4",
-    "note": "Picture and natural SFX are assembled and upscaled; this is not the finished Spanish-narrated distribution export."
+    "narration_status": "present_in_user_supplied_external_finish_not_newly_reviewed",
+    "distribution_master": "episodes/005-why-risk-a-duel/final/duelos-honor-andrew-jackson-historia-animada-es-005-r001.mp4",
+    "expected_upload_filename": "duelos-honor-andrew-jackson-historia-animada-es-005-r001.mp4",
+    "note": "Current delivery uses the newest complete external historia_05 (1).mp4 finish, exported directly at 1.2x with pitch-preserving audio and retimed embedded Spanish captions. Previous picture/SFX masters and downloads preserved; technical QC passed, no new content approval or publication authorization recorded.",
+    "distribution_master_sha256": "3bc0cfb62b6b2593b509ea1c4276128207dd474d5773ecf57069ecf1bed08a85",
+    "distribution_master_status": "user_requested_final_export_technical_qc_passed_content_review_not_newly_performed",
+    "upload_filename_status": "exported_to_final",
+    "duration_seconds": 43.8,
+    "speed_multiplier": 1.2
   },
   "related_video": {
     "video_id": null,
@@ -108,5 +151,87 @@
       "https://support.google.com/youtube/answer/72431?hl=en"
     ]
   },
-  "updated_at": "2026-10-01T00:21:15+03:30"
+  "updated_at": "2026-10-04",
+  "hashtag_groups": {
+    "topic": [
+      "#Duelos",
+      "#AndrewJackson",
+      "#DuelosDeHonor"
+    ],
+    "niche": [
+      "#Historia",
+      "#HistoriaAnimada",
+      "#Animacion"
+    ],
+    "discovery": [
+      "#Shorts",
+      "#YouTubeShorts",
+      "#ViralShorts"
+    ]
+  },
+  "description_hashtags": [
+    "#Duelos",
+    "#AndrewJackson",
+    "#HistoriaAnimada",
+    "#Shorts",
+    "#ViralShorts"
+  ],
+  "description_opening_check": {
+    "first_200_characters": "¿Morir por honor en un duelo? Los duelos de honor ponían en juego la vida y la reputación. Del duelo de Andrew Jackson a los duelos en Uruguay: una historia animada que sorprende.\n\n¿Por qué aceptar un",
+    "matched_keywords": [
+      "morir por honor en un duelo",
+      "duelos de honor",
+      "duelo de Andrew Jackson",
+      "duelos en Uruguay",
+      "historia animada"
+    ],
+    "status": "local_exact_phrase_and_title_tag_alignment_checked",
+    "primary_keyword": "morir por honor en un duelo",
+    "primary_keyword_start_character_1_based": 2,
+    "primary_keyword_end_character_1_based": 28,
+    "title_match": true,
+    "studio_tag_match": true,
+    "normalization": "Unicode NFC and casefold; accents and word forms preserved",
+    "external_tool": "vidIQ",
+    "external_tool_status": "not_rechecked_in_user_upload_form"
+  },
+  "search_terms": {
+    "candidates": [
+      "duelos de honor",
+      "Andrew Jackson",
+      "duelos en Uruguay",
+      "historia animada",
+      "duelos históricos",
+      "duelos a pistola",
+      "honor y reputación",
+      "curiosidades históricas"
+    ],
+    "trend_status": "relevant_seo_candidates_not_verified_current_trends",
+    "note": "Relevant to accepted episode narration; no dated Spanish-market trend-volume evidence available."
+  },
+  "tags_review": {
+    "count": 15,
+    "status": "relevant_unique_episode_specific_tags",
+    "note": "People/spelling variants, topic, geography, niche and channel; separate Studio field with no hashtag prefix."
+  },
+  "comments": {
+    "language": "es",
+    "status": "draft_suggestions_not_posted",
+    "pinned_candidates": [
+      "¿Tú habrías aceptado un duelo por tu honor o habrías pasado? 👀",
+      "¿Qué te sorprendió más: Andrew Jackson o los duelos políticos en Uruguay?",
+      "¿Quieres otro video sobre duelos? ¿Cuál de estas historias contamos con más detalle?"
+    ],
+    "viewer_examples": [
+      "Yo habría elegido seguir vivo y ya 😂",
+      "Lo de fallar a propósito y luego tomar cerveza... vaya giro.",
+      "La historia de Jackson da para un video entero.",
+      "No me esperaba lo de los duelos políticos en Uruguay 😳",
+      "Arriesgar la vida por la reputación... qué presión."
+    ],
+    "viewer_examples_note": "Illustrative drafts someone could write after watching; not existing audience reactions."
+  },
+  "seo_target_keyword": "morir por honor en un duelo",
+  "seo_target_keyword_source": "editorial_choice_from_current_title_not_confirmed_as_a_separate_vidiq_target_setting",
+  "description_copy_path": "episodes/005-why-risk-a-duel/delivery/youtube/description.txt"
 }

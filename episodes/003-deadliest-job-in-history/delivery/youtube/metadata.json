@@ -1,25 +1,51 @@
 {
   "schema_version": "1.0",
   "episode_id": "003-deadliest-job-in-history",
-  "package_status": "provisional_pending_thumbnail_user_approval_external_voice_finish_and_operator_decisions",
+  "package_status": "provisional_pending_thumbnail_user_approval_distribution_content_review_and_operator_decisions",
   "prepared_at": "2026-09-28",
   "language": "es",
   "title": {
-    "primary": "¿El trabajo más mortal? Cuatro presidentes asesinados",
+    "primary": "EEUU: 4 presidentes asesinados",
     "alternatives": [
-      "4 de 45 presidentes fueron asesinados: ¿el cargo más mortal?",
-      "Lincoln, Garfield, McKinley y JFK: cuatro presidentes asesinados"
+      "4 presidentes de EEUU asesinados",
+      "EEUU: ser presidente costó vidas"
     ],
-    "character_limit": 100
+    "character_limit": 100,
+    "target_character_count": 30,
+    "preferred_character_range": [
+      25,
+      35
+    ],
+    "character_counts": {
+      "primary": 30,
+      "alternatives": [
+        32,
+        32
+      ]
+    },
+    "hashtags_allowed": false,
+    "editorial_review": {
+      "status": "revised_after_user_feedback",
+      "criteria": [
+        "Clear subject: U.S. presidents",
+        "Immediate stakes: assassination",
+        "Plain Spanish, readable without thumbnail context"
+      ],
+      "note": "Replaces the vague final fatal wording with the specific event. Emotion comes from the documented stakes; no unsupported superlative."
+    }
   },
-  "description": "¿Puede la presidencia de Estados Unidos ser uno de los trabajos más mortales? Cuatro de las 45 personas distintas que han ocupado el cargo fueron asesinadas: Abraham Lincoln, James A. Garfield, William McKinley y John F. Kennedy.\n\nEste Short animado recorre sus cuatro historias con cortes rápidos y una representación simbólica no gráfica. La cifra del 8,9 % usa 4 ÷ 45 personas distintas; no las 47 presidencias numeradas. Además, ocho presidentes murieron en el cargo, pero este episodio se centra específicamente en los cuatro asesinados.\n\nFuentes:\n- Casa Blanca — Presidential Walk of Fame: https://www.whitehouse.gov/walk-of-fame/\n- National Archives — Protection of the President: https://www.archives.gov/research/jfk/warren-commission-report/appendix7.html\n- National Park Service — John Wilkes Booth: https://www.nps.gov/people/john-wilkes-booth.htm\n- National Park Service — James A. Garfield: https://www.nps.gov/articles/000/the-federal-civil-service-and-the-death-of-president-james-a-garfield.htm\n- National Park Service — William McKinley: https://www.nps.gov/thri/september6.htm\n- National Archives — Warren Commission: https://www.archives.gov/research/jfk/warren-commission-report/chapter-1.html\n\n#Historia #PresidentesDeEEUU #AbrahamLincoln #JFK #Shorts",
+  "description": "4 presidentes asesinados: un capítulo brutal de la historia de Estados Unidos. Abraham Lincoln, Garfield, McKinley y John F. Kennedy (JFK), en un Short de historia animada. ¿Conocías los cuatro casos?\n\nTe las contamos en este Short de historia animada, con el estilo de ChronoStick. Si te van las curiosidades históricas y la historia de Estados Unidos, ¿cuál de estos casos quieres que contemos con más detalle?\n\nOjo con el dato: el 8,9 % sale de 4 de 45 personas distintas que ocuparon el cargo, no de las 47 presidencias numeradas. Ocho presidentes murieron en el cargo; cuatro fueron asesinados. Lo de «el trabajo más mortal» es un gancho, no un ranking demostrado.\n\nFuentes:\n- Casa Blanca — Presidential Walk of Fame: https://www.whitehouse.gov/walk-of-fame/\n- National Archives — Protection of the President: https://www.archives.gov/research/jfk/warren-commission-report/appendix7.html\n- National Park Service — John Wilkes Booth: https://www.nps.gov/people/john-wilkes-booth.htm\n- National Park Service — James A. Garfield: https://www.nps.gov/articles/000/the-federal-civil-service-and-the-death-of-president-james-a-garfield.htm\n- National Park Service — William McKinley: https://www.nps.gov/thri/september6.htm\n- National Archives — Warren Commission: https://www.archives.gov/research/jfk/warren-commission-report/chapter-1.html\n\n#PresidentesDeEEUU #JFK #HistoriaAnimada #Shorts #ViralShorts",
   "description_character_limit": 5000,
   "hashtags": [
-    "#Historia",
     "#PresidentesDeEEUU",
     "#AbrahamLincoln",
     "#JFK",
-    "#Shorts"
+    "#Historia",
+    "#HistoriaAnimada",
+    "#Animacion",
+    "#Shorts",
+    "#YouTubeShorts",
+    "#ViralShorts"
   ],
   "tags": [
     "presidentes de Estados Unidos",
@@ -105,9 +131,14 @@
     "picture_master": "episodes/003-deadliest-job-in-history/final/episode-003-deadliest-job-in-history-1080x1920-framewise-r001.mp4",
     "picture_master_status": "upscale_completed_technical_validation_and_contact_sheet_passed",
     "picture_master_sha256": "f485068ec516609c505e0b4ea4a098bac3b56ef27ccd15c4b9e6583f6c2efee5",
-    "distribution_master": null,
-    "expected_upload_filename": "chronostick-003-cuatro-presidentes-asesinados-1080x1920.mp4",
-    "note": "Set distribution_master only after the external Spanish narration and subtitle finish is reviewed and archived."
+    "distribution_master": "episodes/003-deadliest-job-in-history/final/presidentes-eeuu-asesinados-historia-animada-es-003-r001.mp4",
+    "expected_upload_filename": "presidentes-eeuu-asesinados-historia-animada-es-003-r001.mp4",
+    "note": "External historia_03.mp4 finish supplied by the user; picture/audio accelerated to 1.2x with pitch-preserving audio and retimed embedded Spanish captions. Original picture/SFX masters and source file preserved. Technical QC passed; no new content approval or publication authorization recorded.",
+    "upload_filename_status": "exported_to_final",
+    "distribution_master_sha256": "256664b123aa4b0bbc2665ca6a9221d687ae90b43696a2ce62c917493853c60b",
+    "distribution_master_status": "user_requested_final_export_technical_qc_passed_content_review_not_newly_performed",
+    "duration_seconds": 38.133008,
+    "speed_multiplier": 1.2
   },
   "related_video": {
     "video_id": null,
@@ -140,5 +171,84 @@
       "https://support.google.com/youtube/answer/14328491?hl=en-GB",
       "https://support.google.com/youtube/answer/12948449?hl=en"
     ]
+  },
+  "updated_at": "2026-10-03",
+  "hashtag_groups": {
+    "topic": [
+      "#PresidentesDeEEUU",
+      "#AbrahamLincoln",
+      "#JFK"
+    ],
+    "niche": [
+      "#Historia",
+      "#HistoriaAnimada",
+      "#Animacion"
+    ],
+    "discovery": [
+      "#Shorts",
+      "#YouTubeShorts",
+      "#ViralShorts"
+    ]
+  },
+  "description_hashtags": [
+    "#PresidentesDeEEUU",
+    "#JFK",
+    "#HistoriaAnimada",
+    "#Shorts",
+    "#ViralShorts"
+  ],
+  "search_terms": {
+    "candidates": [
+      "presidentes de Estados Unidos",
+      "presidentes asesinados",
+      "Abraham Lincoln",
+      "John F. Kennedy",
+      "JFK",
+      "historia animada",
+      "curiosidades históricas",
+      "historia de Estados Unidos"
+    ],
+    "trend_status": "relevant_seo_candidates_not_verified_current_trends",
+    "note": "No dated Spanish-market trend-volume evidence is available. Terms match the episode; #ViralShorts is a requested discovery hashtag, not a claim of viral performance."
+  },
+  "comments": {
+    "language": "es",
+    "status": "draft_suggestions_not_posted",
+    "pinned_candidates": [
+      "¿Conocías a los cuatro o solo a Lincoln y JFK? 👀",
+      "¿Cuál quieres que contemos con más detalle: Lincoln, Garfield, McKinley o JFK?",
+      "Ojo con el 8,9 %: son 4 de 45 personas, no de 47 presidencias. ¿Te sorprendió el dato?"
+    ],
+    "viewer_examples": [
+      "Yo solo ubicaba a Lincoln y JFK 😳",
+      "Lo del revólver bajo el pañuelo... qué fuerte.",
+      "Dos disparos a Garfield... esa historia da para otro video.",
+      "Un video de McKinley estaría buenísimo.",
+      "Cuatro presidentes asesinados. No me esperaba ese dato."
+    ],
+    "viewer_examples_note": "Illustrative comments someone could write after watching, not collected or existing audience reactions."
+  },
+  "delivery_copy_checks": {
+    "checked_at": "2026-10-03",
+    "title_limit": 100,
+    "description_limit": 5000,
+    "hashtag_note": "Description uses five exact members of the nine-item candidate pool. Hashtags have no spaces; topic, niche and discovery are covered.",
+    "sources": [
+      "https://support.google.com/youtube/answer/57407?hl=en",
+      "https://support.google.com/youtube/answer/6390658?hl=en",
+      "https://support.google.com/youtube/answer/146402?hl=en"
+    ]
+  },
+  "description_opening_check": {
+    "first_200_characters": "4 presidentes asesinados: un capítulo brutal de la historia de Estados Unidos. Abraham Lincoln, Garfield, McKinley y John F. Kennedy (JFK), en un Short de historia animada. ¿Conocías los cuatro casos?",
+    "matched_keywords": [
+      "presidentes asesinados",
+      "historia de Estados Unidos",
+      "Abraham Lincoln",
+      "John F. Kennedy",
+      "JFK",
+      "historia animada"
+    ],
+    "status": "verified_exact_phrases_in_first_200_characters"
   }
 }

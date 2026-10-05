@@ -1,34 +1,65 @@
 {
   "schema_version": "1.0",
   "episode_id": "004-smallest-empire-in-history",
-  "package_status": "provisional_voice_and_operator_decisions_pending",
+  "package_status": "provisional_pending_distribution_content_review_thumbnail_user_approval_and_operator_decisions",
   "prepared_at": "2026-09-29T07:34:29.523463+03:30",
   "language": "es",
   "title": {
-    "primary": "El imperio más pequeño de la historia: Napoleón en Elba",
+    "primary": "El imperio más pequeño de la historia",
     "alternatives": [
-      "Napoleón gobernó una isla que cabía 7 veces en Londres",
-      "Elba: el diminuto imperio del exilio de Napoleón"
+      "Napoleón: exiliado, pero emperador",
+      "Elba: Napoleón no se rindió"
     ],
-    "character_limit": 100
+    "character_limit": 100,
+    "target_character_count": 30,
+    "preferred_character_range": [
+      25,
+      35
+    ],
+    "character_counts": {
+      "primary": 37,
+      "alternatives": [
+        34,
+        27
+      ]
+    },
+    "hashtags_allowed": false,
+    "editorial_review": {
+      "status": "revised_per_user_instruction",
+      "hook": "User-selected smallest-empire superlative, matching the accepted narration opening",
+      "clarity": "Directly names the subject of the video",
+      "length_exception": "37 characters explicitly chosen by user; roughly 30-character preference remains for other titles",
+      "historical_qualification": "No comparative dataset establishing a smallest-ever ranking was supplied."
+    }
   },
-  "description": "Napoleón conservó el título de emperador, pero su nuevo territorio era Elba: una isla tan pequeña que cabía siete veces dentro de Londres. Allí rediseñó la bandera, enseñó a hacer pan, construyó un hospital y reunió un pequeño ejército. Después regresó a Francia y recuperó el poder.\n\nUna historia animada en español sobre el sorprendente imperio de Elba.\n\n#Historia #Napoleón #Elba #Shorts",
+  "description": "El exilio de Napoleón en la isla de Elba: un emperador con un imperio diminuto y un regreso a Francia que parecía imposible. Descubre el imperio de Elba en este Short de historia animada.\n\nLe quitaron el poder, pero conservó el título de emperador. En Elba rediseñó la bandera, impulsó cambios y reunió un pequeño ejército. Después volvió a Francia: los soldados enviados a detenerlo no lo frenaron y terminó recuperando el poder en París.\n\nSi te van las curiosidades históricas, esta historia de Napoleón Bonaparte te va a sorprender. ¿Qué te llama más la atención: su diminuto imperio o su regreso?\n\n#Napoleón #Elba #HistoriaAnimada #Shorts #ViralShorts",
   "description_character_limit": 5000,
   "hashtags": [
-    "#Historia",
     "#Napoleón",
     "#Elba",
-    "#Shorts"
+    "#ImperioDeElba",
+    "#Historia",
+    "#HistoriaAnimada",
+    "#Animacion",
+    "#Shorts",
+    "#YouTubeShorts",
+    "#ViralShorts"
   ],
   "tags": [
     "Napoleón",
     "Napoleon",
+    "Napoleón Bonaparte",
+    "Napoleon Bonaparte",
     "Elba",
     "isla de Elba",
     "imperio de Elba",
     "exilio de Napoleón",
-    "imperio más pequeño",
+    "regreso de Napoleón",
+    "Napoleón en Elba",
+    "el imperio más pequeño de la historia",
+    "historia de Francia",
     "historia animada",
+    "curiosidades históricas",
     "ChronoStick"
   ],
   "category": {
@@ -57,28 +88,54 @@
     "value": null
   },
   "thumbnail": {
-    "prompt_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-prompt-r001.md",
-    "source_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001-source.png",
-    "path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001.png",
+    "prompt_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-prompt-r003.md",
+    "source_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r003-source.png",
+    "path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r003.png",
     "width": 2160,
     "height": 3840,
     "format": "png",
     "review_status": "assistant_visual_qc_passed_user_approval_pending",
-    "provenance_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-provenance-r001.json"
+    "provenance_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-provenance-r003.json",
+    "review_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-review-r003.md",
+    "source_sha256": "9683670b42aa46d0b600d791ddff8fa3a05e0b0e029446259085a291d1f50f27",
+    "sha256": "691b2d37041a28b0821638f8460652e28b05455fc23317cc34f5dd1e38d66203",
+    "headline_position": "upper",
+    "top_inset_review": {
+      "headline_position": "upper",
+      "required_top_inset_ratio": 0.12,
+      "required_top_inset_pixels_delivery": 461,
+      "source_height": 1672,
+      "observed_accent_outline_top_y_source_approx": 282,
+      "conservative_review_bounds_top_y_source": 250,
+      "conservative_review_bounds_top_y_delivery": 574,
+      "conservative_top_inset_ratio": 0.14952153110047847,
+      "measurement_method": "Full-resolution visual inspection with accent ROI pixel scan; conservative effects-inclusive reviewed bounding region starts at y=250. This is a manual QC bound, not automated text segmentation.",
+      "phone_preview_dimensions": [
+        270,
+        480
+      ],
+      "upper_12_percent_hidden_preview": "passed; full exact headline remains visible",
+      "review_result": "passed"
+    }
   },
   "media": {
     "concat_path": "episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-concat-r001.mp4",
     "picture_master_path": "episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.mp4",
     "picture_master_status": "technical_qc_passed",
-    "distribution_master": null,
-    "expected_upload_filename": "chronostick-004-imperio-mas-pequeno-napoleon-elba-1080x1920.mp4",
-    "note": "Selected picture and SFX are assembled and upscaled. Spanish narration candidate awaits confirmation; the picture/SFX master is not a finished narrated release.",
+    "distribution_master": "episodes/004-smallest-empire-in-history/final/napoleon-elba-imperio-historia-animada-es-004-r002.mp4",
+    "expected_upload_filename": "napoleon-elba-imperio-historia-animada-es-004-r002.mp4",
+    "note": "Current user-requested 1.1x export made directly from original historia_04 (2).mp4, with pitch-preserving audio and retimed embedded Spanish captions. Prior 1.2x r001 remains archived; technical QC passed and no new content approval or publication authorization recorded.",
     "picture_master_sha256": "2da32e451abcb3b17b0c7591165d4dad303f68914b64a68644caa36949095550",
     "narration_candidate_path": "episodes/004-smallest-empire-in-history/audio/narration-es-candidate-r001.m4a",
     "narration_status": "candidate_pending_user_confirmation",
     "narrated_preview_path": "episodes/004-smallest-empire-in-history/final/episode-004-smallest-empire-in-history-narrated-preview-r001.mp4",
     "narrated_preview_sha256": "5f046c6ba2e38a0d2ef3a1f60ef7b8e553186fcc6667f45368cf12093757298b",
-    "narrated_preview_status": "provisional_technical_qc_passed_listening_and_voice_confirmation_pending"
+    "narrated_preview_status": "provisional_technical_qc_passed_listening_and_voice_confirmation_pending",
+    "distribution_master_sha256": "2e444093520e94f3c1db984984a2485fb7c732e4ecdd122b430a49fea638ad3b",
+    "distribution_master_status": "user_requested_final_export_technical_qc_passed_content_review_not_newly_performed",
+    "upload_filename_status": "exported_to_final",
+    "duration_seconds": 56.366667,
+    "speed_multiplier": 1.1
   },
   "related_video": {
     "video_id": null,
@@ -87,7 +144,8 @@
   },
   "credits_and_sources": {
     "source_story": "User-provided English reference text and approved Spanish adaptation in episode source/script files. Original publication URL was not supplied.",
-    "thumbnail": "Original ChronoStick image generated for this episode."
+    "thumbnail": "Original ChronoStick image generated for this episode.",
+    "historical_verification_note": "Delivery follows the accepted narration; the title uses the user-selected superlative. A comparative smallest-ever ranking dataset and claim-level research-notes file were not supplied."
   },
   "upload_decisions": {
     "visibility": null,
@@ -99,14 +157,83 @@
     "publication_authorized": false
   },
   "official_platform_checks": {
-    "checked_at": "2026-09-29",
+    "checked_at": "2026-10-03",
     "title_max_characters": 100,
     "description_max_characters": 5000,
     "shorts_custom_thumbnail": "YouTube Studio desktop; verified account; recommended 9:16",
     "sources": [
       "https://support.google.com/youtube/answer/57407?hl=en",
-      "https://support.google.com/youtube/answer/72431?hl=en"
+      "https://support.google.com/youtube/answer/72431?hl=en",
+      "https://support.google.com/youtube/answer/6390658?hl=en"
     ]
   },
-  "updated_at": "2026-09-29T07:55:05.740126+03:30"
+  "updated_at": "2026-10-04",
+  "hashtag_groups": {
+    "topic": [
+      "#Napoleón",
+      "#Elba",
+      "#ImperioDeElba"
+    ],
+    "niche": [
+      "#Historia",
+      "#HistoriaAnimada",
+      "#Animacion"
+    ],
+    "discovery": [
+      "#Shorts",
+      "#YouTubeShorts",
+      "#ViralShorts"
+    ]
+  },
+  "description_hashtags": [
+    "#Napoleón",
+    "#Elba",
+    "#HistoriaAnimada",
+    "#Shorts",
+    "#ViralShorts"
+  ],
+  "description_opening_check": {
+    "first_200_characters": "El exilio de Napoleón en la isla de Elba: un emperador con un imperio diminuto y un regreso a Francia que parecía imposible. Descubre el imperio de Elba en este Short de historia animada.\n\nLe quitaron",
+    "matched_keywords": [
+      "exilio de Napoleón",
+      "isla de Elba",
+      "imperio de Elba",
+      "historia animada"
+    ],
+    "status": "verified_exact_phrases_in_first_200_characters"
+  },
+  "search_terms": {
+    "candidates": [
+      "exilio de Napoleón",
+      "isla de Elba",
+      "imperio de Elba",
+      "historia animada",
+      "Napoleón Bonaparte",
+      "curiosidades históricas"
+    ],
+    "trend_status": "relevant_seo_candidates_not_verified_current_trends",
+    "note": "No dated Spanish-market trend-volume evidence available; discovery hashtags do not promise viral performance."
+  },
+  "comments": {
+    "language": "es",
+    "status": "draft_suggestions_not_posted",
+    "pinned_candidates": [
+      "¿Qué te sorprende más: que siguiera siendo emperador o que volviera al poder? 👀",
+      "¿Tú te habrías quedado en Elba o habrías intentado volver a Francia?",
+      "¿Quieres otro video sobre Napoleón? ¿Qué parte de su historia te da más curiosidad?"
+    ],
+    "viewer_examples": [
+      "Un emperador con una isla de imperio... vaya giro 😭",
+      "Lo de conservar el título de emperador me sorprendió.",
+      "Lo mandaron al exilio y terminó volviendo al poder. Qué historia.",
+      "Imagínate ir a detenerlo y terminar dejándolo pasar 😳",
+      "Yo me habría quedado en Elba, la verdad 😂"
+    ],
+    "viewer_examples_note": "Illustrative drafts someone could write after watching, not existing audience reactions."
+  },
+  "tags_review": {
+    "count": 15,
+    "status": "relevant_unique_episode_specific_tags",
+    "note": "Names and spelling variants, historical subject/location, related search phrases, niche and channel identity. Separate Studio field; no hashtag prefix."
+  }
 }

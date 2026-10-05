@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "revision": "r003",
+  "generation_method": "built_in_imagegen_edit_with_integrated_typography",
+  "generated_at": "2026-10-04",
+  "prompt_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-prompt-r003.md",
+  "source_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r003-source.png",
+  "source_sha256": "9683670b42aa46d0b600d791ddff8fa3a05e0b0e029446259085a291d1f50f27",
+  "source_dimensions": [
+    941,
+    1672
+  ],
+  "delivery_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r003.png",
+  "delivery_sha256": "691b2d37041a28b0821638f8460652e28b05455fc23317cc34f5dd1e38d66203",
+  "delivery_dimensions": [
+    2160,
+    3840
+  ],
+  "edit_target_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r002-source.png",
+  "concept_source_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001.png",
+  "post_generation_changes": "Resolution resampling only via ffmpeg Lanczos; headline relocation/size and artwork produced inside image_gen edit, no compositing or added text overlay.",
+  "headline_bounds_review": {
+    "headline_position": "upper",
+    "required_top_inset_ratio": 0.12,
+    "required_top_inset_pixels_delivery": 461,
+    "source_height": 1672,
+    "observed_accent_outline_top_y_source_approx": 282,
+    "conservative_review_bounds_top_y_source": 250,
+    "conservative_review_bounds_top_y_delivery": 574,
+    "conservative_top_inset_ratio": 0.14952153110047847,
+    "measurement_method": "Full-resolution visual inspection with accent ROI pixel scan; conservative effects-inclusive reviewed bounding region starts at y=250. This is a manual QC bound, not automated text segmentation.",
+    "phone_preview_dimensions": [
+      270,
+      480
+    ],
+    "upper_12_percent_hidden_preview": "passed; full exact headline remains visible",
+    "review_result": "passed"
+  },
+  "review_status": "assistant_visual_qc_passed_user_approval_pending",
+  "review_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-review-r003.md"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "004-smallest-empire-in-history",
+  "revision": "r002",
+  "generation_method": "built_in_imagegen_edit_with_integrated_typography",
+  "source_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r002-source.png",
+  "source_sha256": "50529220cce68565e81a57173f15f71e0e7bb381b58adcf318ca8ec0159d9e72",
+  "source_dimensions": [
+    941,
+    1672
+  ],
+  "edit_target_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-episode-004-r001.png",
+  "prompt_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-prompt-r002.md",
+  "review_status": "rejected_top_inset_below_12_percent",
+  "delivery_path": null,
+  "review_path": "episodes/004-smallest-empire-in-history/delivery/youtube/thumbnail-review-r002.md",
+  "post_generation_changes": "none; original generated source archived"
+}

@@ -212,26 +212,36 @@
         "delivery/youtube/thumbnail-provenance-r001.json",
         "delivery/youtube/thumbnail-review-r001.md",
         "delivery/youtube/metadata.json",
-        "delivery/youtube/metadata.md"
+        "delivery/youtube/metadata.md",
+        "delivery/youtube/thumbnail-prompt-r003.md",
+        "delivery/youtube/thumbnail-episode-004-r003.png",
+        "delivery/youtube/thumbnail-provenance-r003.json",
+        "delivery/youtube/thumbnail-review-r003.md"
       ],
       "validated_at": "2026-09-29T07:52:04.454009+03:30",
       "approved_at": null,
       "approved_by": null,
       "decision_notes": "Thumbnail generated with integrated Spanish headline and passed assistant visual QC; metadata drafted. User/channel thumbnail approval, final narrated distribution master and operator upload decisions remain pending. No upload or publication has occurred.",
-      "next_action": "Confirm narration, review narrated master and thumbnail, then make upload decisions."
+      "next_action": "Review current r003 thumbnail with corrected upper-headline inset and the 1.1x distribution export; confirm operator upload decisions."
     }
   ],
   "external_finishing": {
-    "status": "pending_narration_source_confirmation",
+    "status": "user_requested_final_export_technical_qc_passed_content_review_pending",
     "candidate_voice_path": "audio/narration-es-candidate-r001.m4a",
     "candidate_duration_seconds": 62.322358,
     "candidate_origin": "/home/mhr/Downloads/historia_04.mp4",
     "picture_sfx_master": "final/episode-004-smallest-empire-in-history-picture-master-1080x1920-r001.mp4",
-    "distribution_master": null,
-    "note": "The candidate voice basename and duration align with the approved timestamps. A provisional 65-second narration mix exists; it is not an approved distribution master until the user confirms the voice and full listening QC passes.",
+    "distribution_master": "episodes/004-smallest-empire-in-history/final/napoleon-elba-imperio-historia-animada-es-004-r002.mp4",
+    "note": "Current user-requested 1.1x export made directly from original historia_04 (2).mp4, with pitch-preserving audio and retimed embedded Spanish captions. Prior 1.2x r001 remains archived; technical QC passed and no new content approval or publication authorization recorded.",
     "narrated_preview": "final/episode-004-smallest-empire-in-history-narrated-preview-r001.mp4",
     "narrated_preview_review": "final/narrated-preview-review-r001.md",
-    "preview_status": "technical_qc_passed_voice_confirmation_and_listening_qc_pending"
+    "preview_status": "technical_qc_passed_voice_confirmation_and_listening_qc_pending",
+    "distribution_master_sha256": "2e444093520e94f3c1db984984a2485fb7c732e4ecdd122b430a49fea638ad3b",
+    "source_path": "/home/mhr/Downloads/historia_04 (2).mp4",
+    "source_sha256": "a4d24ce8dd633cdd4471b25aa4b9a595fe050ab9168b6c2251aacccc1f62b46b",
+    "speed_multiplier": 1.1,
+    "duration_seconds": 56.366667,
+    "caption_timing": "Embedded Spanish cue times divided by 1.1; exact post-mux comparison passed."
   },
-  "updated_at": "2026-09-29T07:55:05.740126+03:30"
+  "updated_at": "2026-10-04"
 }

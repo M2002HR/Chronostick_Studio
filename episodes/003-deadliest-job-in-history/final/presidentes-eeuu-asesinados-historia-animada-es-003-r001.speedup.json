@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "source_path": "/home/mhr/Downloads/historia_03.mp4",
+  "source_sha256": "61e0cb4b0814d174597a90d89bc90c821001ccb0ef7e2fdf55e575bbe7ebd31a",
+  "output_path": "episodes/003-deadliest-job-in-history/final/presidentes-eeuu-asesinados-historia-animada-es-003-r001.mp4",
+  "output_sha256": "256664b123aa4b0bbc2665ca6a9221d687ae90b43696a2ce62c917493853c60b",
+  "speed_multiplier": 1.2,
+  "audio_pitch_preserved": true,
+  "subtitle_timing_multiplier": 0.8333333333333334,
+  "source_duration_seconds": 45.720091,
+  "output_duration_seconds": 38.133008,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "subtitle_codec": "mov_text",
+  "validation": "duration_geometry_av_sync_full_decode_and_retimed_embedded_captions_passed",
+  "content_review_status": "not_newly_reviewed",
+  "authorization": "User requested 1.2x speed and final-folder delivery of historia_03.mp4."
+}

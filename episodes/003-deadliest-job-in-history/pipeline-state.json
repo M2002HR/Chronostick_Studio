@@ -232,6 +232,17 @@
       "next_action": "Obtain user approval of thumbnail r001, then finalize the distribution-master path and operator upload decisions after external finishing"
     }
   ],
-  "external_finishing": null,
+  "external_finishing": {
+    "source_path": "/home/mhr/Downloads/historia_03.mp4",
+    "source_sha256": "61e0cb4b0814d174597a90d89bc90c821001ccb0ef7e2fdf55e575bbe7ebd31a",
+    "distribution_master": "episodes/003-deadliest-job-in-history/final/presidentes-eeuu-asesinados-historia-animada-es-003-r001.mp4",
+    "distribution_master_sha256": "256664b123aa4b0bbc2665ca6a9221d687ae90b43696a2ce62c917493853c60b",
+    "speed_multiplier": 1.2,
+    "duration_seconds": 38.133008,
+    "subtitle_timing": "embedded Spanish captions divided by 1.2",
+    "technical_review": "passed duration geometry stream sync full decode and caption comparison",
+    "content_review": "not_newly_performed",
+    "user_instruction": "Export historia_03.mp4 at 1.2x speed as final; preserve prior media."
+  },
   "updated_at": "2026-09-28T06:40:12+03:30"
 }
