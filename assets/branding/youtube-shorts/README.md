@@ -26,6 +26,12 @@ The accepted Episode 002 thumbnail defines the channel's typography benchmark. F
 
 This is a visual generation specification, not a separately installed font asset. The final headline must be generated inside the complete thumbnail artwork in the same pass. Do not add, replace, or repair it with an external text overlay. The Episode 002 image may be passed as a typography-only benchmark, but its composition, subjects, wording, and palette distribution are not a reusable template.
 
+## Upper-position headline inset
+
+For an upper-position headline, the topmost visible text pixel—including accent marks, punctuation, outline, depth and shadow—must be at least 12% of full image height below the top edge. Aim for 13%: at 2160×3840, minimum 461 px and target about 499 px. Record requested bounds in the saved prompt and observed bounds in the review/provenance; inspect full resolution, phone size and an upper-12%-hidden preview. Keep the headline legible and clear of faces and story-critical objects. This is a studio composition safeguard, not a fixed YouTube UI specification.
+
+Middle-position headlines keep their approved placement and normal crop/legibility checks; this rule does not require moving them or adding an upper blank band.
+
 ## Episode-adaptive choices
 
 Choose the best composition, crop, number of subjects, camera angle, visual metaphor, palette, lighting, headline position, and line breaks for the individual video. The locked rounded display-lettering system remains consistent, but a previous upper/middle/lower layout, cyan background, or subject arrangement is not a mandatory template. Brand coherence comes from the ChronoStick world, the shared type system, high production quality, clarity, and honest curiosity—not from copying one thumbnail.

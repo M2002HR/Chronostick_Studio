@@ -52,6 +52,8 @@ List only abstract lessons such as hierarchy, contrast, expression, or informati
 - Why it truthfully matches the video:
 - Exact on-image headline:
 - Emphasis plan:
+- Headline position (upper / middle / other):
+- For upper text only: complete text/effects top inset ≥12% of full image height; target 13%; state pixel equivalent for delivery size
 - Locked typography: very-heavy rounded uppercase display letters, broad counters, compact spacing, thick near-black outline, shallow dimensional depth, soft shadow; warm white setup and signal yellow/gold emphasis when useful
 
 ## Reference-role map
@@ -87,6 +89,8 @@ Write the complete prompt here, including 9:16 composition, ChronoStick style, r
 - [ ] Entirely inside the approved ChronoStick world
 - [ ] Recurring identities and period details preserved
 - [ ] Topic-appropriate mood, palette, and composition
+- [ ] For upper text only: observed complete lettering/effects top inset ≥12%; recorded pixel coordinate and ratio; upper-12%-hidden and phone-size previews keep the whole headline visible
+- [ ] Middle text keeps its approved position; no forced upper-band layout
 - [ ] Safe 9:16 crop and readable thumbnail-scale silhouette
 - [ ] Sensitive content treated responsibly
 

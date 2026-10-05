@@ -1,0 +1,147 @@
+{
+  "brand": "Historia Sabrosa",
+  "language": "es",
+  "slogan": "El pasado nunca fue tan entretenido.",
+  "generation_method": "built-in image_gen.imagegen",
+  "status": "assistant-qc-passed-user-review-pending",
+  "published": false,
+  "references": [
+    {
+      "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "bytes": 3037272,
+      "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919"
+    },
+    {
+      "path": "assets/branding/historia-sabrosa/mascot-reference-r001.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1039348,
+      "sha256": "9d9eac86ff75c3e85d1f21c4f0e1957b3bcf6d12f3bed5c0205e5a68fd086f0a"
+    }
+  ],
+  "initial_prompt": {
+    "path": "assets/branding/historia-sabrosa/banner-prompt-r002.md",
+    "sha256": "ba5398fc47899b3c6a9157d7f8ce3fd6c627f54400155931dd655cd5fa74e95c"
+  },
+  "edit_prompts": [
+    {
+      "path": "assets/branding/historia-sabrosa/banner-prompt-r003.md",
+      "sha256": "e4e7e8a4ebd0add7aeefa67164469d9e77e96124085423e66f6fc3715189a0a4"
+    },
+    {
+      "path": "assets/branding/historia-sabrosa/banner-prompt-r004.md",
+      "sha256": "bf961ab0ff860f50baad2bcdf690bd23368b8232ccc5470cdf9a986e3928582e"
+    }
+  ],
+  "generation_chain": [
+    {
+      "source": {
+        "path": "assets/branding/historia-sabrosa/banner-source-r001.png",
+        "dimensions": [
+          1983,
+          793
+        ],
+        "bytes": 3048816,
+        "sha256": "d5243b3ef085e2020a98d17896a1601aa30a3a25ac05b44f8afe4aea5a11ff84"
+      },
+      "prompt": "banner-prompt-r002.md",
+      "decision": "rejected-upload-aspect-ratio"
+    },
+    {
+      "source": {
+        "path": "assets/branding/historia-sabrosa/banner-source-r002.png",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 3103331,
+        "sha256": "adcadd5046b0a003c35224c84bf721c002ff9e86f539c87600e209535731821d"
+      },
+      "prompt": "banner-prompt-r003.md",
+      "decision": "rejected-mobile-crop"
+    },
+    {
+      "source": {
+        "path": "assets/branding/historia-sabrosa/banner-source-r003.png",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 2979253,
+        "sha256": "e110d6e7f603056914e78be6adc8cd1053696f6e3f144242a39108523e3aee12"
+      },
+      "prompt": "banner-prompt-r004.md",
+      "decision": "assistant-qc-passed"
+    }
+  ],
+  "upload": {
+    "path": "assets/branding/historia-sabrosa/historia-sabrosa-youtube-banner-es-r003.jpg",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "bytes": 1580290,
+    "sha256": "e0716b9015037250060f73cece330ad431784c602dce8f0bc915b3b1a9aa5235"
+  },
+  "archive_master": {
+    "path": "assets/branding/historia-sabrosa/historia-sabrosa-youtube-banner-es-r003.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "bytes": 6077415,
+    "sha256": "928f510ad5c0c5293f9cfef284d6c331bf59b28a6e60551548dbe53c43997d5c"
+  },
+  "review_crops": [
+    {
+      "path": "assets/branding/historia-sabrosa/banner-mobile-preview-r003.png",
+      "dimensions": [
+        1544,
+        422
+      ],
+      "bytes": 953653,
+      "sha256": "7e37df68e2e1c8cfef5d555d5649947d1ba4b8bd23f6ab764c49862d1b5309de"
+    },
+    {
+      "path": "assets/branding/historia-sabrosa/banner-mobile-small-preview-r003.png",
+      "dimensions": [
+        772,
+        211
+      ],
+      "bytes": 307460,
+      "sha256": "4a5ffa6ac6c5960643a0d5a4c67f053cec687add034457288e79a5b2b90f1dc0"
+    },
+    {
+      "path": "assets/branding/historia-sabrosa/banner-desktop-preview-r003.png",
+      "dimensions": [
+        1280,
+        211
+      ],
+      "bytes": 564376,
+      "sha256": "a09180de262414607a12d344294ab8fc535c6c130b8e0a365d4e5eaeada0c16d"
+    }
+  ],
+  "safe_area": {
+    "x": 508,
+    "y": 509,
+    "width": 1544,
+    "height": 422,
+    "essential_bounds_approx": [
+      570,
+      535,
+      1995,
+      905
+    ],
+    "bounds_method": "manual visual review"
+  },
+  "processing": "FFmpeg Lanczos resolution resampling, PNG/JPEG encoding, review-only cropping. No typography overlay or manual image composite.",
+  "official_geometry_source": "https://support.google.com/youtube/answer/10456525?hl=en",
+  "review": "assets/branding/historia-sabrosa/banner-review-r003.md",
+  "platform_preview_verified": false
+}

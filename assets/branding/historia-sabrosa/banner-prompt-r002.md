@@ -1,0 +1,26 @@
+Use case: ads-marketing.
+Create a finished premium YouTube channel banner, landscape 16:9, 2560x1440. Actual full-bleed artwork, no device mockup, no guides, no border. Brand name exactly "Historia Sabrosa". Slogan exactly "El pasado nunca fue tan entretenido."
+
+REFERENCE ROLES:
+Image 1 is the MASTER STYLE SHEET: the only source for all historical characters, environments, props and rendering. Use just a small selection of its anonymous characters: the straw-hatted farmer with pitchfork, the white-headscarf woman carrying a basket, the wavy-dark-haired young scholar with brown book, the navy-and-red bicorne soldier, and the burgundy-dressed woman with hair in a bun. Preserve their recognizable costume colors, silhouettes, hair, minimal faces and cream round heads. Do NOT include Lincoln, JFK, Parmentier, named presidents, an elderly Japanese couple, aircraft, or any characters from other episodes. Do NOT copy the sheet's panels or specimen-board arrangement.
+Image 2 is the user’s LOGO MASCOT identity: exact bald cream round head, black oval eyes, asymmetric confident eyebrows, subtle mischievous smile, thick black outlines, navy outfit, red scarf/cape blowing left, gold Ñ with its tilde. This mascot is NOT a historical soldier and NOT Napoleon. No hat or hair on him. Preserve the distinctive face, red scarf, navy outfit and the Ñ.
+
+ART DIRECTION:
+A beautifully art-directed historical story world, sophisticated and welcoming, cinematic stick-figure illustration in the exact master-sheet visual language. Seamless panoramic European old city by a river, arched stone bridge, old slate roofs and distant castle under warm late-afternoon sky. Restrained parchment cream, muted navy, warm wood browns, burgundy and antique gold. Fine clean dark outlines on scenery as well as characters, soft matte drawn shading. Not photorealistic, not watercolor, not glossy CGI, not generic chibi cartoons. Illustrative craft, rich peripheral details, spacious central typography.
+Arrange only FIVE historical characters, taken from the master sheet, as two cohesive small groups along the outer sides of the central horizontal band: farmer, basket woman and scholar to the left; bicorne soldier and burgundy lady to the right. They are chatting, gesturing or looking curiously toward the brand, holding only their reference props. Natural distinct poses, no frozen contact sheet, no duplicated faces, no extra crowd. Full bodies can extend below the central strip. Foreground stone terrace and small antique map/compass/book motifs outside the branding space. Let the scenery and small props gracefully fill the entire canvas.
+
+CRITICAL YOUTUBE CROP COMPOSITION:
+All essential branding must sit comfortably inside the central rectangle x=508..2052, y=509..931 of the 2560x1440 canvas, with extra breathing room. Centered mobile crop is 1544x422. Design for this narrow strip FIRST.
+The logo mascot is a complete recognizable bust approximately x=640..890, y=580..875. No circular white sticker border: integrate him cleanly into the scene with the same cream/navy/red silhouette. His entire head, scarf and Ñ should be inside the mobile crop.
+Main brand title to the right of the mascot, on ONE horizontal line approximately x=930..1940, y=620..740. Spell EXACTLY "Historia Sabrosa", title case, H and S uppercase, remaining letters lowercase. Gorgeous very-heavy rounded display lettering, broad counters, slightly compact spacing, refined shallow dimensional treatment, dark navy against a calm luminous parchment central backdrop, perhaps restrained warm-gold accent. All lettering outlines/shadows must stay well inside the safe rectangle. No giant typography reaching to the image edges.
+Slogan directly below, ONE horizontal line x=940..1920, y=785..835. EXACT text "El pasado nunca fue tan entretenido." Clean medium-bold humanist sans serif, dark navy, approximately 42px tall at final resolution, sharp and readable. No script handwriting, no italics or tiny cramped text.
+Keep the central background behind mascot/title/slogan clean, softly illuminated warm cream, with very subtle distant atmospheric skyline that does not compete with copy. Blend this negative space into the richer illustrated sides; no hard rectangular title plaque.
+Historical side characters may occupy x=160..560 and x=2070..2460; never let hats, heads, props, silhouettes, scenery or capes overlap any letters. Their expressive faces cluster near y=670 so they appear in wider desktop viewing. They must remain secondary to the mascot and brand.
+The overall artwork must still look beautiful as a full 16:9 panorama on television, and the centered 1544x422 crop must independently form a complete, balanced brand lockup.
+
+EXACT ALLOWED TEXT:
+"Historia Sabrosa"
+"El pasado nunca fue tan entretenido."
+"Ñ" on mascot chest only.
+No other lettering, labels, dates, names, hashtags, animation descriptors, schedules, CTA, watermark, signature, food/restaurant branding, logos or sample-thumbnail text.
+Generate illustration and all typography together in the same complete image. Deliver exceptional polish, literal Spanish copy, clean spacing, disciplined hierarchy, strong master-style consistency and respectful historical charm.
