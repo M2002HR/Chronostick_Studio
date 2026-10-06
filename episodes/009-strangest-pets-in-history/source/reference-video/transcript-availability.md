@@ -1,0 +1,1 @@
+Ajil/Groq STT r001 failed with upstream HTTP 403 Access denied in primary and fallback models. No usable transcript or word/segment timestamps were returned. Do not treat still-frame inspection or supplementary video review as successful Ajil word timing.

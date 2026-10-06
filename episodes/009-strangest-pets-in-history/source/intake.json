@@ -1,0 +1,18 @@
+{
+  "title_supplied": "The 3 STRANGEST pets in History",
+  "reference_url": null,
+  "reference_manifest": "source/reference-video/manifest.json",
+  "target_language": "es",
+  "target_seconds": 30,
+  "target_decision": "30-second working target within user-requested 20–30-second range",
+  "source_status": "reference_video_only_unverified",
+  "project_seed": null,
+  "fact_check_requested": false,
+  "assumptions": [
+    "Spanish from project default; 30-second working target from active profile, actual voice timing unavailable."
+  ],
+  "factual_mode": "source-faithful adaptation, no independent historical verification",
+  "audience": "Spanish-language history Shorts viewers",
+  "source_path": "source/reference-video/reference-strangest-pets-in-history-r001.mp4",
+  "source_sha256": "8928f3556ccae0b8012f2abc48c10f5ac13fa8077eaee5d4260df61a6b9c9357"
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-06T04:13:30.273585+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/009-strangest-pets-in-history/source/reference-video/reference-strangest-pets-in-history-r001.mp4",
+  "video_sha256": "8928f3556ccae0b8012f2abc48c10f5ac13fa8077eaee5d4260df61a6b9c9357",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/009-strangest-pets-in-history/source/reference-video/transcript-availability.md",
+  "transcript_sha256": "c1e4102c3e92921a0cac021c0ad4e5f11009bda6c2193ffc84fe3259607e84ed",
+  "request_sha256": "54ad9f788ad004d2ea4c151196ba41f1656b6586d9588b3753578f8b905ed9ed",
+  "status": "needs_review",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "instructions_path": "/home/mhr/Code/chronostick-studio/episodes/009-strangest-pets-in-history/source/reference-video/multimodal-instructions.md",
+  "intended_contract_supplied": false,
+  "actual_media_mime": "video/mp4",
+  "http_status": 200,
+  "response_sha256": "e36e9963291fd845a727279bcf7fcc243c937a512f3a29684348d9bd5ddf8f0a"
+}

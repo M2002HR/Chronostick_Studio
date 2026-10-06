@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "009-strangest-pets-in-history",
+  "format": "short",
+  "workflow": "reference-first-v1",
+  "title": "The 3 STRANGEST pets in History",
+  "production_profile": "h3-short-dynamic-16step-20-30s",
+  "target_language": "es",
+  "target_seconds": 30,
+  "generation_steps": 16,
+  "clip_duration_seconds": {
+    "minimum": 4,
+    "maximum": 7
+  },
+  "voice_provider": "google_vids",
+  "voice_direction": {
+    "provider": "google_vids",
+    "selection": "used",
+    "status": "missing",
+    "skill": "chronostick-voice-direction",
+    "script_path": null,
+    "notes_path": null,
+    "validation_path": null
+  },
+  "accepted_voice": null,
+  "accepted_timing_map": null,
+  "picture_master": null,
+  "distribution_master": null,
+  "next_action": "Extract reference speech and word/segment timestamps through Ajil"
+}

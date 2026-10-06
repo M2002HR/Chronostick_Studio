@@ -1,0 +1,88 @@
+{
+  "fact_check_requested": false,
+  "independently_verified": false,
+  "source_text_path": "source/source-en.md",
+  "source_text_origin": "Derived unchanged full_transcript from real attached-video Ajil/Gemini review r001; NOT successful Groq STT",
+  "provider_response": "source/reference-video/multimodal-review/video-review-response-r001.json",
+  "source_word_timestamps_status": "unavailable: Groq primary/fallback HTTP 403",
+  "timing_status": "Approximate source scene ranges only; no word timestamp invention",
+  "claims": [
+    {
+      "id": "C01",
+      "source_claim": "Egyptians wanted to remain on Napoleon’s good side during his Egyptian campaign",
+      "narration_span": "En Egipto, para ganarse a Napoleón",
+      "approximate_source_span": "05–10s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C02",
+      "source_claim": "They gifted him a llama named Napoleon",
+      "narration_span": "le regalaron una llama llamada… ¡Napoleón!",
+      "approximate_source_span": "10–14s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C03",
+      "source_claim": "Napoleon accepted and took the llama back to France",
+      "narration_span": "La llevó a Francia",
+      "approximate_source_span": "14–16s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C04",
+      "source_claim": "He took it to key battles in his Italian campaign",
+      "narration_span": "y a batallas clave en Italia",
+      "approximate_source_span": "16–22s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C05",
+      "source_claim": "Soldiers loved it",
+      "narration_span": "Sus soldados la adoraban",
+      "approximate_source_span": "22–23.5s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C06",
+      "source_claim": "Harry Houdini had a pet mongoose named Bobby",
+      "narration_span": "Houdini tenía a Bobby, una mangosta",
+      "approximate_source_span": "24–29s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C07",
+      "source_claim": "Houdini claimed it could supposedly identify fake money by attacking it",
+      "narration_span": "Decía que detectaba dinero falso atacándolo",
+      "approximate_source_span": "29–34.7s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C08",
+      "source_claim": "He incorporated this ability into performances",
+      "narration_span": "¡Y la incorporó a sus espectáculos!",
+      "approximate_source_span": "34.7–41.6s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C09",
+      "source_claim": "The sixth president was gifted a pet alligator",
+      "narration_span": "Al sexto presidente estadounidense le regalaron un aligátor",
+      "approximate_source_span": "44–51.8s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C10",
+      "source_claim": "He kept it in the White House bathroom",
+      "narration_span": "Lo guardaba en el baño de la Casa Blanca",
+      "approximate_source_span": "51.8–55s",
+      "verification": "source-only"
+    },
+    {
+      "id": "C11",
+      "source_claim": "Sometimes he forgot to tell guests, surprising bathroom visitors",
+      "narration_span": "y a veces olvidaba avisar a los invitados",
+      "approximate_source_span": "55–60s",
+      "verification": "source-only"
+    }
+  ]
+}

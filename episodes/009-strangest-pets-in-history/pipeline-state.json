@@ -1,0 +1,195 @@
+{
+  "schema_version": "2.0",
+  "workflow": "reference-first-v1",
+  "episode_id": "009-strangest-pets-in-history",
+  "current_stage": "reference-transcription",
+  "updated_at": "2026-10-06T04:12:13.876937+00:00",
+  "stages": [
+    {
+      "id": "intake",
+      "skill": "chronostick-pipeline",
+      "status": "validated",
+      "inputs": [
+        "source/reference-video/reference-strangest-pets-in-history-r001.mp4"
+      ],
+      "outputs": [
+        "source/intake.json",
+        "source/reference-video/manifest.json",
+        "source/reference-video/probe.json"
+      ],
+      "validated_at": "2026-10-06T04:12:13.876937+00:00",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "reference-transcription",
+      "skill": "chronostick-transcribe",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "reference-analysis",
+      "skill": "chronostick-reference-video",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "scenario-script",
+      "skill": "chronostick-script",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "storyboard",
+      "skill": "chronostick-storyboard",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "references",
+      "skill": "chronostick-references",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "voice",
+      "skill": "chronostick-pipeline",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "voice-transcription",
+      "skill": "chronostick-transcribe",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "timed-direction",
+      "skill": "chronostick-shot-plan",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "prompts",
+      "skill": "chronostick-clip-prompts",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "jobs-preflight",
+      "skill": "chronostick-generation-jobs",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "generation",
+      "skill": "chronostick-batch",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "review",
+      "skill": "chronostick-review",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "finish",
+      "skill": "chronostick-finish",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "youtube",
+      "skill": "chronostick-youtube",
+      "status": "missing",
+      "inputs": [],
+      "outputs": [],
+      "validated_at": null,
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    }
+  ]
+}

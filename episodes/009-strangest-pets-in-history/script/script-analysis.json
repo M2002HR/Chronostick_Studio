@@ -1,0 +1,36 @@
+{
+  "status": "draft",
+  "fact_check_requested": false,
+  "target_seconds": 30,
+  "word_count": 82,
+  "estimated_duration_seconds": [
+    27,
+    30
+  ],
+  "estimate_basis": "180–200 words/minute; estimate only, final accepted audio required",
+  "hook": "Bathroom danger preview asks a concrete question before revealing the resident",
+  "open_loop": "What is inside the bathroom, and why does it belong in a list of historical pets?",
+  "beat_list": [
+    "bathroom mystery",
+    "Egyptian gift and identical Napoleon name",
+    "France/Italian battles and soldier affection",
+    "Bobby mongoose and attributed counterfeit detection",
+    "magic-show payoff",
+    "sixth president/alligator gift",
+    "White House bathroom and unwarned guests"
+  ],
+  "payoff": "Guest opens the door to the alligator; closing eye composition repeats opening",
+  "cta": "Suscríbete.",
+  "source_claim_provenance": "source/source-claim-provenance.json",
+  "pronunciation_notes": [
+    "Napoleón: stress final syllable",
+    "Houdini: hu-DI-ni; articulate Bobby clearly",
+    "mangosta is mongoose; do not call it ardilla",
+    "aligátor is alligator; do not silently replace with crocodile"
+  ],
+  "limitations": [
+    "Source Groq word/segment extraction unavailable; preliminary draft uses real supplementary Ajil/Gemini media transcription",
+    "Script/storyboard have no user approval",
+    "Working timing is estimated; actual voice missing"
+  ]
+}

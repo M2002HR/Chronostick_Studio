@@ -1,0 +1,19 @@
+{
+  "purpose": "reference",
+  "revision": "r001",
+  "created_at": "2026-10-06T04:12:20.649233+00:00",
+  "input_path": "/home/mhr/Code/chronostick-studio/episodes/009-strangest-pets-in-history/source/reference-video/reference-strangest-pets-in-history-r001.mp4",
+  "input_sha256": "8928f3556ccae0b8012f2abc48c10f5ac13fa8077eaee5d4260df61a6b9c9357",
+  "audio_path": "reference-audio-r001.flac",
+  "audio_sha256": "4230bcb060967b662ba3d4c7cdaa5468f5019d2c3799ccc85fda2766b4006f2a",
+  "audio_duration_seconds": 60.09325,
+  "language_requested": "en",
+  "endpoint": "/v1/audio/transcriptions",
+  "status": "failed",
+  "derivative_format": "flac",
+  "derivative_lossy": false,
+  "api_request_made": true,
+  "http_status": 502,
+  "raw_response_path": "reference-response-r001.json",
+  "raw_response_sha256": "3bcf3987e3686fd68450a68e634f2a1f223e56da9c7afb1a39d392bca4dd2fe7"
+}
