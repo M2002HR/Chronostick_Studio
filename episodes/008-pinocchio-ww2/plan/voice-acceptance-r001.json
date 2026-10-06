@@ -1,0 +1,42 @@
+{
+  "id": "supplied-voice-continuation-r001",
+  "reviewer": "user (supplied audio and contextual continuation)",
+  "quote": "صدا رو گذاشتم توی روت پروژه ادامه بده",
+  "interpretation": "User requests continuation with this complete supplied voice for an approximately-30-second Short. The preserved voice is 32.170667 seconds. This is contextual acceptance of the supplied full voice, not a numeric quotation or a personal assistant audio audition.",
+  "scope": [
+    "voice",
+    "episode-runtime"
+  ],
+  "decided_at": "2026-10-05T19:16:26.302616+00:00",
+  "artifacts": [
+    {
+      "path": "audio/narration-es-r001.wav",
+      "sha256": "dcbba5989fd696f70a5d6a6cc27b6494e0d68dde195ce0082fd33e240671e466"
+    },
+    {
+      "path": "audio/source/voice-export-es-r001.mp4",
+      "sha256": "afd83819120ecfc84841cc656ead8750fba58150ed184fa1ad348584fc97a149"
+    },
+    {
+      "path": "script/narration-es.md",
+      "sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2"
+    },
+    {
+      "path": "script/voiceover-google-vids-es.md",
+      "sha256": "e00e25aefece5510a09dcde8bf383ed2696a0f35ec572046d87b01bcf66aba9c"
+    },
+    {
+      "path": "timestamps/ajil/voice-response-r001.json",
+      "sha256": "469f932fcbe2c26261ce5df5fdef2c8441833ed4d8d76dff3f63ea374c796325"
+    }
+  ],
+  "processing": "Full native 24 kHz mono voice; no trimming, time stretch or gain change",
+  "voice_duration_seconds": 32.170667,
+  "picture_target_seconds": 32.208333333333336,
+  "global_defaults_changed": false,
+  "review_evidence": [
+    "audio/voice-text-review-r001.json",
+    "audio/machine-review/video-review-text-r001.md"
+  ],
+  "perceptual_review": "User supplied voice and requested continuation; supplementary machine review reports clear expressive Spanish/no audible tags or music. No full personal auditory audition claimed; machine phrase times are not trusted."
+}

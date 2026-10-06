@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-05T23:37:06.794975+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "producer-surprised",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/producer-surprised.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nUse supplied wealth scene for same table, six tabletop money bags, one floor bag, coin piles and studio light. Exactly one navy-suited producer with burgundy tie and side-part hair stands to left of table, face center upper-left, round off-white head and slim stick anatomy unchanged. He looks toward wealth at right with lifted small eyebrows and slight open-curved but closed mouth line, both mitten hands near chest in restrained surprise. Upper-body medium composition includes nearby bags without hiding identity. No seated pose, new staff or lettering. All drawn muted materials and upper-left warm light retained.\n",
+      "prompt_sha256": "f80771ad489d72c7f37f4d7995992e385b12a903e0d3d3e0c2d85aad6a62c842",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+          "sha256": "e3217d6e78d2cf76331d1d05003f3ab940223385fc7353d90084c5d5dba52520",
+          "role": "identity-producer"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/wealth-table-r001.png",
+          "sha256": "f4031a5f92f927d122d54f2213b0a18ac6017ab67652cbdd2b4c5995d326d403",
+          "role": "wealth-table"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/wealth-table-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/producer-surprised-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S33"
+      ]
+    },
+    {
+      "id": "producer-money-chair",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/producer-money-chair.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nExactly one supplied navy-suited producer with burgundy tie, dark side-part hair and slim round-headed anatomy sits on a humorous chair built entirely from plain full beige money bags matching supplied wealth asset. Two stacked bags form seat, three upright tied bags form back, one bag each side forms armrests: seven chair bags total. Producer feet on brown studio floor, hands gently on bag armrests, small satisfied closed mouth. Smooth unmarked gold coins lie settled around chair. No table, standing duplicate, staff, posters or writing. Medium-wide frontal slight low-angle composition with safe full-body and hatless head margins; chair clearly readable. Warm-gray studio wall, upper-left amber light, dark drawn contours on all surfaces. This is a playful illustrated wealth metaphor.\n",
+      "prompt_sha256": "7b4221238e69e396ba3c59c35cf436aec2c32f4882fd46a3f15a783fd6368738",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+          "sha256": "e3217d6e78d2cf76331d1d05003f3ab940223385fc7353d90084c5d5dba52520",
+          "role": "identity-producer"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/wealth-table-r001.png",
+          "sha256": "f4031a5f92f927d122d54f2213b0a18ac6017ab67652cbdd2b4c5995d326d403",
+          "role": "wealth-table"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/wealth-table-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/producer-money-chair-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S35",
+        "S36"
+      ]
+    }
+  ]
+}

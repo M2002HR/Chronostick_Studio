@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-06T01:32:57.246232+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-02",
+  "media": "renders/editorial/episode-008-clip-02-families-distribution-blocked-r003.mp4",
+  "media_sha256": "a6cd2b464d55f0d0e8cad23b6019cb9a0f34920802ad7fa4463c0c5b66ebcb44",
+  "actual_frames": 108,
+  "expected_frames": 108,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 6,
+  "planned_cut_frames": [
+    15,
+    29,
+    47,
+    72,
+    91
+  ],
+  "cut_inspection_frames": [
+    14,
+    15,
+    16,
+    28,
+    29,
+    30,
+    46,
+    47,
+    48,
+    71,
+    72,
+    73,
+    90,
+    91,
+    92
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

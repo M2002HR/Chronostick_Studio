@@ -1,0 +1,6 @@
+{
+  "revision": "r002",
+  "id": "identity-wooden-boy",
+  "request_id": "275f77d1-0aa4-4228-82bd-378f56ca3b65",
+  "error": "Image generation output rejected; moderation_blocked other. No generated candidate returned."
+}

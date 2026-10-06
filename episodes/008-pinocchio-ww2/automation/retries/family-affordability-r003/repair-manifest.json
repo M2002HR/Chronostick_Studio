@@ -1,0 +1,19 @@
+{
+  "reviewed_at": "2026-10-06T01:26:53.632572+00:00",
+  "source_review": "renders/clip-02-review-r002.json",
+  "authorization": "plan/review-decisions.json",
+  "direction_override": "plan/clip-02-direction-r003.json",
+  "direction_override_sha256": "b5f274100ea4769b70589e8e6f3f84cfc183bc1ebdd2f2a67342ec3b1c609d4c",
+  "prompt": "prompts/clip-02-families-distribution-blocked-r003.md",
+  "prompt_sha256": "03b52fb73fda842c1b0c08895b0c654467f1ba66cbcc8251c686069cc069dfdb",
+  "job": "automation/retries/family-affordability-r003/jobs/clip-02-families-distribution-blocked-r003.json",
+  "job_sha256": "1965de74143214aaea9b23efc26bb8a5f0f0c33363677ad22be86c1d37b94025",
+  "seed": 5162383863457842700,
+  "editorial_frames": 108,
+  "native_steps": 16,
+  "reference_hashes": [
+    "3ada3d7f4ee910528b114fbbec5925329612d47c20d169a5603c43604f3ff669",
+    "4b5b00f398b013e57dd0de3b0d3ffe185a8bb0be88d4fee58624da9a64239d22"
+  ],
+  "no_overwrite": true
+}

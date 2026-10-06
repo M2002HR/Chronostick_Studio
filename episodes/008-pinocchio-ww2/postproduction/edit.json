@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "picture": "final/picture-master-1080x1920-r001.mp4",
+  "picture_sha256": "7c3014146451d922659f72d011fb190991a80ee99c0d873dd2a6b9872cfabf50",
+  "narration": {
+    "path": "audio/narration-es-r001.wav",
+    "sha256": "dcbba5989fd696f70a5d6a6cc27b6494e0d68dde195ce0082fd33e240671e466",
+    "offset_seconds": 0
+  },
+  "timing": {
+    "path": "timestamps/word-timestamps-source.csv",
+    "sha256": "246924cb0a392f41f9d086167d6c15aa1b9c1083126e40e9c97008d6dedc3941",
+    "source_voice_sha256": "dcbba5989fd696f70a5d6a6cc27b6494e0d68dde195ce0082fd33e240671e466"
+  },
+  "native_audio": {
+    "mode": "mute"
+  },
+  "tracks": [
+    {
+      "role": "sfx",
+      "path": "audio/sfx/selected-full-stem-r001.wav",
+      "sha256": "f81c17c27836cbb0d15172961932d0366595367cd04f7866d5d461aabd6bf6b5",
+      "start_seconds": 0,
+      "source_start_seconds": 0,
+      "duration_seconds": 32.208333333333336,
+      "gain_db": 0,
+      "loop": false,
+      "fade_in_seconds": 0,
+      "fade_out_seconds": 0,
+      "duck_under_narration": false
+    }
+  ],
+  "external_music_allowed": false,
+  "captions": {
+    "profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+    "font_size": 104,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 300,
+    "outline": 2,
+    "shadow": 2,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 4,
+    "max_cue_seconds": 1.8,
+    "break_gap_seconds": 0.3,
+    "max_lines": 1
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbtp": -1.5,
+    "lra": 11
+  },
+  "encoding": {
+    "crf": 16,
+    "preset": "fast",
+    "threads": 8
+  },
+  "audio_language_iso639_2": "spa",
+  "output_stem": "pinocho-guerra-propaganda-disney-es-008",
+  "review_status": "needs_user_review"
+}

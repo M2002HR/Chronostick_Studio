@@ -1,0 +1,119 @@
+{
+  "status": "validated for voice-led planning; final visual direction not approved",
+  "created_at": "2026-10-05T19:19:55.750787+00:00",
+  "actual_voice_seconds": 32.170667,
+  "picture_frames": 773,
+  "picture_seconds": 32.208333333333336,
+  "source_word_count": 64,
+  "unique_word_owners": 64,
+  "raw_source_preserved": true,
+  "normalization": {
+    "method": "start=max(provider_start,previous_derived_end); original ends unchanged",
+    "status": "derived visual/caption intervals, not new measured timestamps",
+    "changes": [
+      {
+        "word_index": 11,
+        "word": "Las",
+        "provider_start": 5.02,
+        "derived_start": 5.06,
+        "provider_end_unchanged": 5.22,
+        "start_shift_seconds": 0.040000000000000036
+      }
+    ]
+  },
+  "numeric_aliases": [
+    {
+      "provider_token": "1940",
+      "spoken_words": [
+        "mil",
+        "novecientos",
+        "cuarenta"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "2,6",
+      "spoken_words": [
+        "dos",
+        "coma",
+        "seis"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "1,4",
+      "spoken_words": [
+        "uno",
+        "coma",
+        "cuatro"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "1945",
+      "spoken_words": [
+        "mil",
+        "novecientos",
+        "cuarenta",
+        "y",
+        "cinco"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "84",
+      "spoken_words": [
+        "ochenta",
+        "y",
+        "cuatro"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    }
+  ],
+  "unresolved_lexical_mismatches": [],
+  "source_timing_reused": false,
+  "slots": [
+    {
+      "id": "clip-01",
+      "start": 0.0,
+      "end": 5.083333333333333,
+      "duration": 5.083333333333333,
+      "frames": 122
+    },
+    {
+      "id": "clip-02",
+      "start": 5.083333333333333,
+      "end": 9.583333333333334,
+      "duration": 4.5,
+      "frames": 108
+    },
+    {
+      "id": "clip-03",
+      "start": 9.583333333333334,
+      "end": 15.25,
+      "duration": 5.666666666666667,
+      "frames": 136
+    },
+    {
+      "id": "clip-04",
+      "start": 15.25,
+      "end": 22.208333333333332,
+      "duration": 6.958333333333333,
+      "frames": 167
+    },
+    {
+      "id": "clip-05",
+      "start": 22.208333333333332,
+      "end": 27.583333333333332,
+      "duration": 5.375,
+      "frames": 129
+    },
+    {
+      "id": "clip-06",
+      "start": 27.583333333333332,
+      "end": 32.208333333333336,
+      "duration": 4.625,
+      "frames": 111
+    }
+  ]
+}

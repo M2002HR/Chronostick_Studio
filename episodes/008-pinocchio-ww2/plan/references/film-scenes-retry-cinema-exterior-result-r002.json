@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:24:59.675219+00:00",
+  "id": "cinema-exterior",
+  "revision": "r002",
+  "request_path": "plan/references/film-scenes-retry-requests-r002.json",
+  "request_sha256": "74c894053f309c806cbfc085ac94bfa68966ff32466d5a4b7a95181e4296fbf9",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-f6f9b0ce-160f-46ff-8578-6148b91e409c.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/cinema-exterior-r002.png",
+  "sha256": "ac6a750a992bc3fba6aa817ad93fd68fea409008b1526870e43b80a602b56a23",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:22:32.136441+00:00",
+  "id": "projection-booth",
+  "revision": "r002",
+  "request_path": "plan/references/booth-retry-requests-r002.json",
+  "request_sha256": "33aa66b7482e27584703692ff85add395bbb0f6a53b8aee53cc233214b2cc874",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-e1c3dbcd-d38c-4537-b839-ded85abc1a97.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/projection-booth-r002.png",
+  "sha256": "e1b11c4122e89732f3fe7535edbadcfe7149cacab19d1dff86bb561c5ab20f54",
+  "dimensions": [
+    941,
+    1671
+  ],
+  "review_status": "needs_review"
+}

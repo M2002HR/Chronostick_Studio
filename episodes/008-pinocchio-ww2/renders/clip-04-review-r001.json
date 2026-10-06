@@ -1,0 +1,61 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T00:33:50.758187+00:00",
+  "clip_id": "clip-04",
+  "media": "renders/editorial/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+  "sha256": "fe153e496f421405f4336fc58fb2b72b05a29e0b080e56222efcb8271846310f",
+  "picture_decision": "approved_usable_actual_variant",
+  "audio_decision": "reject_native_and_replace_entire_track",
+  "evidence": "renders/review-evidence/clip-04-r001",
+  "technical_timing": "renders/timing-audit-r001.json",
+  "observed_cut_starts_frames": [
+    0,
+    33,
+    64,
+    93,
+    120,
+    152
+  ],
+  "planned_cut_starts_frames": [
+    0,
+    20,
+    44,
+    69,
+    105,
+    123
+  ],
+  "cut_drift_frames": [
+    0,
+    13,
+    20,
+    24,
+    15,
+    29
+  ],
+  "observed_shots": [
+    "art desk and one mitten",
+    "two press rollers and one paper",
+    "empty rear two-paper display",
+    "same display with one olive serviceman",
+    "two mitten ticket sale close",
+    "seated hopeful producer two bags and puppet drawing"
+  ],
+  "picture_review": "All167 editorial frames inspected through six dense phone sheets; full frames93,134,159 inspected. Allsix materially distinct scene beats present, full drawn stick style, no text/clones/identity failures. Late reaction starts frame152, still15frames before editorial endpoint; full payoff occurs before trim. Rawtail167–174 inspected: resolved producer scene, only minute head drift, no missing required event. Minor viewer-entry2frame positional settling and ticket touching palm while two coins remain with customer accepted as small illustrative transaction variant; no false handover completion claimed. Actual cut drift up to29frames recorded; meaningful military viewing and recovery remain in their narration phase.",
+  "native_audio_review": "Blind audio-only Gemini independently reports sustained whimsical melody/music-box-like music after a short chime. Native soundtrack rejected and completely excluded; no personal listening claim.",
+  "machine_evidence": "renders/machine-review/clip-04-r001/video-review-response-r001.json",
+  "personal_listening_claimed": false,
+  "new_user_release_approval": false,
+  "retry_needed": false,
+  "quality_scope": "Usable creative variant under full-workflow authority; no cosmetic re-generation.",
+  "clean_derivative_review": {
+    "reviewed_at": "2026-10-06T00:35:28.406685+00:00",
+    "technical_evidence": "renders/audio-corrected/episode-008-clip-04-r001-clean-sfx-r001.clean-sfx.json",
+    "machine_evidence": "renders/machine-review/clip-04-clean-r001/video-review-response-r001.json",
+    "scope": "Same167 pictureframes; zero native contribution; independently recorded paper cue at actualcontactframe133; machineencodedreview supplement retained, no personal audition or user-release claim.",
+    "machine_limitations": "Video-based machine response describes roller/room sounds at intervals where independent stem is exact-zero. Those sound/timing claims are not accepted as observations. Additional blind audio-only review requested; technical zero PCM/source exclusion remains authoritative for the stem.",
+    "decision": "approved_for_local_finishing",
+    "audio_only_evidence": "renders/machine-review/clip-04-clean-audio-only-r001/video-review-response-r001.json",
+    "actual_audio_only_result": "Silence until about5.5sec, one brief dryphysical transient, silenceafter; agreeswith realstem100mscue and exactzerointervals. Video-conditioned imaginedmechanical sounds ignored. No userreleaseorpersonal-listeningclaim."
+  },
+  "native_audio_only_evidence": "renders/machine-review/clip-04-native-audio-only-r001/video-review-response-r001.json"
+}

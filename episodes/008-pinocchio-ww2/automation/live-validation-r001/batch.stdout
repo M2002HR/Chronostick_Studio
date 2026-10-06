@@ -1,0 +1,49 @@
+{
+  "dry_run": true,
+  "valid": true,
+  "job_count": 6,
+  "jobs": [
+    {
+      "index": 1,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/jobs/clip-01-film-opens-during-war.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 2,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/jobs/clip-02-families-distribution-blocked.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 3,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/jobs/clip-03-costs-versus-receipts.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 4,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/jobs/clip-04-publicity-and-recovery.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 5,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/jobs/clip-05-return-and-fortune.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "index": 6,
+      "file": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/jobs/clip-06-marketing-payoff.json",
+      "valid": true,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

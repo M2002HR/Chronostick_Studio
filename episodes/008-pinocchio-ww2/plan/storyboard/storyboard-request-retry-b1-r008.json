@@ -1,0 +1,19 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r008",
+  "created_at": "2026-10-05T19:57:12.732819+00:00",
+  "prompt": "Draw one upright 9:16 rough graphite storyboard frame on white paper, marked S22 in its outer margin. Medium rear view of exactly one adult serviceman in a plain 1940s service uniform, standing calmly in a cinema foyer and looking at a wordless movie poster on the wall. The poster contains exactly two printed cartoon figures: the wooden puppet from the attached studio drawing and a round-eared cartoon mouse in ordinary film outfits. Both figures are pictures on paper. One adult human plus two printed cartoon figures only. Simplified ordinary human proportions, spare contours, minimal shading and no detailed likeness. Use the attached image only as a neutral drawing reference.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-b1.txt",
+  "prompt_sha256": "f8c799841e5c21b81f0fa4a3d7aff48a06ddda5d71294e78cc528a206d1c32f8",
+  "referenced_image_paths": [
+    "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/plan/storyboard/storyboard-page-02-r005.png"
+  ],
+  "reference_sha256": "61797f1702f1907bacba43db66b26470f542dce0be417b667d804b0a50777d84",
+  "reference_role": "neutral pencil drawing only; no production identity approval",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-b1-r008.png",
+  "shot_ids": [
+    "S22"
+  ],
+  "status": "prepared"
+}

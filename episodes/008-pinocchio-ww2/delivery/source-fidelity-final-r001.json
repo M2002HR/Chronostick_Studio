@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-06T01:44:25.601519+00:00",
+  "status": "source_fidelity_unchanged",
+  "fact_check_requested": false,
+  "historical_research_performed_in_finishing": false,
+  "unchanged_sha256": {
+    "script/narration-es.md": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+    "script/voiceover-google-vids-es.md": "e00e25aefece5510a09dcde8bf383ed2696a0f35ec572046d87b01bcf66aba9c",
+    "audio/narration-es-r001.wav": "dcbba5989fd696f70a5d6a6cc27b6494e0d68dde195ce0082fd33e240671e466",
+    "timestamps/word-timestamps-source.csv": "246924cb0a392f41f9d086167d6c15aa1b9c1083126e40e9c97008d6dedc3941"
+  },
+  "preserved_source_claims": [
+    "1940war-timePinocchio release",
+    "familylowmoneyandinternationaldistributionblocked",
+    "2.6millioncost",
+    "1.4millioninitialreceipts",
+    "PinocchioandotherDisneycharactersmilitarypropaganda",
+    "sourcepublicitycausesrecovery",
+    "84millionbenefitsby1945",
+    "marketingquestionandsubscribeCTA"
+  ],
+  "spoken_content_edit": false,
+  "voice_time_stretch": false
+}

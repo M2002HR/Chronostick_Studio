@@ -1,0 +1,19 @@
+{
+  "purpose": "voice",
+  "revision": "r001",
+  "created_at": "2026-10-05T20:31:23.659975+00:00",
+  "input_path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/audio/narration-es-r002.wav",
+  "input_sha256": "c9de71e2ed929bfa6860b445bf5cbad8717cf7a3a6805b4dae91d6fa5bbf7691",
+  "audio_path": "voice-audio-r001.flac",
+  "audio_sha256": "d3727f38163705deecfdfd01bfa3058814380ab181e8168d9d6a668003ef7d17",
+  "audio_duration_seconds": 33.320625,
+  "language_requested": "es",
+  "endpoint": "/v1/audio/transcriptions",
+  "status": "failed",
+  "derivative_format": "flac",
+  "derivative_lossy": false,
+  "api_request_made": true,
+  "http_status": 200,
+  "raw_response_path": "voice-response-r001.json",
+  "raw_response_sha256": "49cbdc96b7bd0d0a82c839e5f3d6bc1a79c71323c774c4640da9c84d65377bf1"
+}

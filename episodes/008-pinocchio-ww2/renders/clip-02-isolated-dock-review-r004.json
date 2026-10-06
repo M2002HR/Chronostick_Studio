@@ -1,0 +1,19 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:41:24.082620+00:00",
+  "picture_decision": "approved_actual_dock_subtake",
+  "media": "renders/editorial/episode-008-clip-02-isolated-dock-r004.mp4",
+  "sha256": "e1c98ab7c572b6098414638421e1f1d10b601e6570e01cfbe8d25860f7eb0388",
+  "approved_source_frames": [
+    0,
+    54
+  ],
+  "review_scope": "Only first54sourceframes selected for explicit clip02 shot-level replacement. Every108sourceeditorialframe inspected on four phone sheets; representative full frame48 inspected. First54frames show one same worker, retained film canister, closed foreground barrier, one still ship, no added people/text. Subdued glance settles within selected portion. Later source barrier drift below waist begins after selected prefix and is not approved or used.",
+  "native_audio": "exclude_completely per directed absolute-silence contract; no audible event is needed on static blocked state",
+  "evidence": "renders/review-evidence/clip-02-r004",
+  "future_or_unselected_frames_approved": false,
+  "new_user_release_approval": false,
+  "personal_listening_claimed": false,
+  "native_audio_review": "Blind actual native-audio-only supplemental review reports isolated transients and sustained mechanical whir/hum. None is needed on the selected static closed-barrier prefix; whole native track excluded per declared silent-shot contract.",
+  "audio_only_evidence": "renders/machine-review/clip-02-native-audio-only-r004/video-review-response-r004.json"
+}

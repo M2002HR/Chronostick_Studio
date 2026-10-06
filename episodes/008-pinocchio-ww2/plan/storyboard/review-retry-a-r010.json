@@ -1,0 +1,29 @@
+{
+  "status": "assistant inspected; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-retry-a-r010.png",
+  "sha256": "f0cb020f58ff6b19117cf3da34af6bf331f1119c96092f2fce1e5aba595a87c7",
+  "size": [
+    1214,
+    1295
+  ],
+  "panel_count": 3,
+  "panels": [
+    {
+      "id": "S19",
+      "result": "usable composition draft",
+      "notes": "One hand places one art-sheet reverse on preparation desk; pencils and ink jar; distinct close insert"
+    },
+    {
+      "id": "S20",
+      "result": "usable composition draft",
+      "notes": "One paper sheet enters roller press, no visible person; clear mechanical close insert"
+    },
+    {
+      "id": "S21",
+      "result": "usable composition draft",
+      "notes": "Exactly two paper backs in one freestanding display, no person; distinct medium staging for poster-viewer continuity"
+    }
+  ],
+  "style_note": "Detailed grayscale props, neutral internal planning. Print-production mechanism is illustrative, not newly researched history. Artwork faces remain out of view; source character roles remain in narration and scenario notes.",
+  "approved_by_user": false
+}

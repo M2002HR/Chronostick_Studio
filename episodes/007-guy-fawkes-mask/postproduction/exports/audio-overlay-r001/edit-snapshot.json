@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "picture": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+  "picture_sha256": "ef121e42d2a4e45262a33024d176d95d0fe55de5bbb7ccdd7092071ddc931454",
+  "source_audio": {
+    "path": "audio/historia-07-google-vids-export-r001.mp4",
+    "sha256": "316e37e09204b887cad2e8cf9c68811bafee0ca3d285a744fc2281465eb04d55",
+    "original_download": "/home/mhr/Downloads/historia_07 (1).mp4",
+    "start_seconds": 0,
+    "gain_db": 0
+  },
+  "native_audio": {
+    "mode": "preserve",
+    "gain_db": 0
+  },
+  "captions": {
+    "enabled": false
+  },
+  "timing": {
+    "status": "not_used_audio_only_overlay"
+  },
+  "normalization": {
+    "enabled": false,
+    "reason": "User explicitly requested preserving existing video sound; both sources at unity gain."
+  },
+  "output_stem": "episode-007-guy-fawkes-mask-historia-audio-sfx-1080x1920",
+  "user_request": "Add audio from historia_07 (1).mp4 onto the named picture/SFX master; do not mute or modify its existing sound.",
+  "review_status": "needs_user_review"
+}

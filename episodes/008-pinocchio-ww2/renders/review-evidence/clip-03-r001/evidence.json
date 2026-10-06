@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-06T00:57:44.079138+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-03",
+  "media": "renders/editorial/episode-008-clip-03-costs-versus-receipts-r001.mp4",
+  "media_sha256": "d3a6784a4cdc2996f039b3fc20e8e1ce29643cf3169b5f6a4ff7799b49066942",
+  "actual_frames": 136,
+  "expected_frames": 136,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 6,
+  "planned_cut_frames": [
+    11,
+    32,
+    51,
+    72,
+    94
+  ],
+  "cut_inspection_frames": [
+    10,
+    11,
+    12,
+    31,
+    32,
+    33,
+    50,
+    51,
+    52,
+    71,
+    72,
+    73,
+    93,
+    94,
+    95
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

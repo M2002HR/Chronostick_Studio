@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T21:17:11.098891+00:00",
+  "id": "identity-serviceman",
+  "revision": "r001",
+  "request_path": "plan/references/identities-requests-r001.json",
+  "request_sha256": "c1d0d1ea04dfcf7ad010abd846bb564a0261dfc937ba21ed298d29fbf12952b0",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-c0fea02b-ede0-4f5d-936e-307bd1e56df9.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/identity-serviceman-r001.png",
+  "sha256": "e027b1815c2719406fa87c3d7e4361535d31f8661e30af6a80553e04672fd476",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

@@ -16,6 +16,11 @@ Gate: the episode manifest identifies its status, target duration, language, eng
 
 ## 2. Capture and verify the source
 
+For supplied-source adaptations, this is a capture/provenance stage unless the
+user explicitly requests fact-checking. Preserve the source's selected claims,
+numbers, dates, causal links and payoff; record `fact_check_requested: false`.
+The verification instructions below apply when research is explicitly requested.
+
 Store the English source story in `source/source-en.md`. Add citations and research notes beside it or in additional clearly named files under `source/`.
 
 Check dates, names, places, causal claims, and whether a story is documented fact or popular anecdote.
@@ -37,7 +42,7 @@ Gate: natural Spanish, preserved historical meaning, and estimated duration with
 
 ## 3a. Direct the Google Vids voice (required when selected)
 
-If using Google Vids AI voiceover, use `chronostick-voice-direction` and follow [`google-vids-voice-direction.md`](google-vids-voice-direction.md) before Stage 4. Keep `script/narration-es.md` as the clean spoken text and put reviewed inline audio tags in `script/voiceover-google-vids-es.md`. For Shorts, direct a fast, intelligible base pace and verify it by audition. Record `used` or `skipped` in the episode manifest. If skipped or using another provider, proceed to Stage 4 with the clean narration.
+Immediately after every new or revised script, use `chronostick-voice-direction` and follow [`google-vids-voice-direction.md`](google-vids-voice-direction.md). Deliver `script/narration-es.md` together with `script/voiceover-google-vids-es.md`, notes and text validation, including drafts. Use many fitting emotion/style tags throughout; Shorts keep a fast intelligible base. Do not wait for storyboard review or a separate request. Record `used` or `skipped` in the episode manifest; skip only for an explicit user/provider override. Audition actual audio before accepting delivery and duration.
 
 Gate when used: spoken words still match the reviewed narration; candidate tags have been checked in Vids and the performance direction is ready to audition. Final pace and duration approval belongs to Stage 4's actual audio review.
 

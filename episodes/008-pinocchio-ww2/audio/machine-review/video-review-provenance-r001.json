@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-05T19:14:01.828340+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/audio/narration-es-r001.m4a",
+  "video_sha256": "2b9cdfd95c372877a2218f4f3a4f79178082b42e1b043132838001fafd3721dd",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/script/narration-es.md",
+  "transcript_sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+  "request_sha256": "761e5f8c694d689f17911da4a868bb11713c139032060223ad3d4d6677cdef45",
+  "status": "needs_review",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "instructions_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/audio/voice-review-instructions.txt",
+  "intended_contract_supplied": true,
+  "actual_media_mime": "audio/mp4",
+  "http_status": 200,
+  "response_sha256": "e90bdab91bd41e8d2dd844b509d555f70a6907259d723d6927b13c72ce7e9367"
+}

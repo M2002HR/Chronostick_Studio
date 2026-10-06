@@ -1,0 +1,36 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:20:00.841003+00:00",
+  "clip_id": "clip-06",
+  "media": "renders/editorial/episode-008-clip-06-marketing-payoff-r001.mp4",
+  "sha256": "c910f7d396f0f21230c53eaf55dc453a85c4c4dd6cca9b99ed73d6ede04ce96c",
+  "picture_decision": "approved_usable_actual_variant",
+  "audio_decision": "reject_native_chime_melody_and_replace_entire_track",
+  "observed_cut_starts_frames": [
+    0,
+    21,
+    42,
+    73,
+    89
+  ],
+  "observed_shots": [
+    "coins spill and land on existing floor pile",
+    "standing producer reacts beside wealth table",
+    "same producer surprised face insert",
+    "rear of wordless two-panel publicity display and film reel",
+    "money-bag chair with crossed legs, held ending"
+  ],
+  "picture_review": "Every editorial frame inspected on dense phone sheets, representative full frames inspected, and every 13 raw-tail frame inspected. Required final state completed before editorial trim. Matte illustrated style and approved character identities preserved; no generated readable text, narration, or live puppet substitution. Adjacent planned resolved-hold panels absorbed into final actual composition. No missing essential story beat.",
+  "native_audio_review": "Blind audio-only review identifies distinct bell-like melody; entire native audio excluded. Provider timestamps are inaccurate and are not used for placement.",
+  "audio_only_evidence": "renders/machine-review/clip-06-native-audio-only-r001/video-review-response-r001.json",
+  "evidence": "renders/review-evidence/clip-06-r001",
+  "personal_listening_claimed": false,
+  "new_user_release_approval": false,
+  "retry_needed": false,
+  "clean_derivative_review": {
+    "decision": "approved_for_local_finishing",
+    "technical_evidence": "renders/audio-corrected/episode-008-clip-06-r001-clean-sfx-r001.clean-sfx.json",
+    "audio_only_evidence": "renders/machine-review/clip-06-clean-audio-only-r001/video-review-response-r001.json",
+    "scope": "Same111decodedframes, zero native audio contribution, one recorded100msdrymetalcue atobservedcoincontact0.5s. Remaining PCM samples exactlyzero. Machine approximate cue clock is wrong and is not used."
+  }
+}

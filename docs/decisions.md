@@ -2,6 +2,39 @@
 
 This file records durable production decisions and the evidence behind them. Active rules derived from these decisions live in the focused documents under `docs/`.
 
+## 2026-10-05 — Immediate Google Vids copy with many emotional tags
+
+The user instructed: «بعد از ... اسکریپت ... با تگ های گوگل ویدز هم دربیاد»
+and «همیشه ... از تگ های زیاد و احساسی زیاد استفاده بشه».
+Every new or revised script now includes an immediate Google Vids paste copy,
+notes and text validation, even while the clean script is a draft. Deliver both
+versions together without waiting for storyboard review or a separate request.
+Use many fitting emotion/style cues throughout all formats; match pace and
+emotion to meaning, preserve every spoken word and use only registered tags.
+An explicit user/provider override may skip this preparation. Prior sparse-tag
+or discretionary-density guidance is superseded for new copies. No whisper.
+Actual audio review, runtime acceptance and real timestamps remain separate.
+Semantic Shorts retain the fifteen stages and track preparation inside `voice`.
+
+## 2026-10-05 — Source-faithful adaptation; fact-checking only when requested
+
+The user explicitly stopped Episode 008's unsolicited historical rewriting:
+«نمیخوام محتوا رو تغییر بدی» and «تا صراحتا ... راستی آزمایی کنی، اینکار رو انجام نده».
+They requested this preference in the skills and restoration of the reference's
+figures and military-propaganda role. Supplied-source adaptations now preserve
+selected claims, numbers, dates, causal links and payoff; creating, shortening
+or translating a video is not a request for fact-checking. Record
+`fact_check_requested: false` unless explicitly requested. Internal provenance
+distinguishes supplied claims from independent verification. Prior unsolicited
+research cannot authorize changing the content. Media validation, transcription,
+production/style rules and creative review gates remain required.
+
+Episode 008's draft restores the $2.6-million cost, $1.4-million initial receipts,
+Pinocchio/Disney-character military propaganda, film-recovery link and source's
+$84-million-by-1945 profit payoff. The prior sketch requests were never submitted
+and are superseded; no draft or source claim is labeled independently verified
+or creatively approved. Exact user direction is in its `source/content-direction.json`.
+
 ## 2026-09-30 — Default picture-master enhancement
 
 ### Decision

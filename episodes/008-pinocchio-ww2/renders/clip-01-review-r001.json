@@ -1,0 +1,41 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T00:44:39.807360+00:00",
+  "clip_id": "clip-01",
+  "media": "renders/editorial/episode-008-clip-01-film-opens-during-war-r001.mp4",
+  "sha256": "2a0347a9c0c1c1dd99e432ce822258273ea66bbf14c2596dcf2a3c08b434125f",
+  "picture_decision": "approved_usable_actual_variant",
+  "audio_decision": "reject_sustained_native_drone_and_replace_with_silence",
+  "observed_cut_starts_frames": [
+    0,
+    14,
+    38,
+    66,
+    94,
+    113
+  ],
+  "observed_panel_order": [
+    "S03",
+    "S01",
+    "S02",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "planned_panel_order": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "picture_review": "All122 editorial frames inspected across5 dense phone sheets; fullposterframe73/aircraftframe106 inspected. Six distinct drawncompositions: producer/projector, rotatingreelmacro, emptycinema, printedstickPinocchio, exactly2propellerplanes, singlequietolivesoldierbehindwallriflelow. Openingthreecoverage reorderedwithinfilmsetup; no historicalchronology/contentchange. Everyvisiblepaper/brick/cloud/metal remainsdrawnmatchingselectedsceneanchors. Printedpuppetretainshatfeather,roundpalehead,darkforelock,bluebow,brownvest,burgundyshorts,jointednarrowlimbs; tinyprintedfeatures drift acceptedcosmetic. Lastrequiredsoldierscene starts113,9editorialframesremain; rawtail122–123 inspected samequietresolvedsoldier, no missingevent. No clonedpeople, readablenewtext, deaths or addedwaraction.",
+  "raw_tail_review": "Bothrawtailframes122–123actuallyviewed, fullyresolvedsameone soldier/lowrifle.",
+  "native_audio_review": "Blindactualaudio-onlyreview reports isolatedchime plus sustainedlowmechanicalhum/drone through mostclip; violatesisolated-short-events/silencecontract. Whole native excluded.",
+  "audio_only_evidence": "renders/machine-review/clip-01-native-audio-only-r001/video-review-response-r001.json",
+  "personal_listening_claimed": false,
+  "new_user_release_approval": false,
+  "retry_needed": false,
+  "evidence": "renders/review-evidence/clip-01-r001"
+}

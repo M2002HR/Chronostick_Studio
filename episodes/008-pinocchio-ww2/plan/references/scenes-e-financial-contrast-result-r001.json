@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:26:30.534090+00:00",
+  "id": "financial-contrast",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-e-requests-r001.json",
+  "request_sha256": "7231cf164aff1fcc24ce5d9cc185c5f0ea44a1db04b4aa78bf8cfe864aea4bfd",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-dc34d8d1-39af-41ca-8317-d04073b68a3d.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/financial-contrast-r001.png",
+  "sha256": "a05158d059242af55339effa9cfc368e03ce940f74e9ab813170dfe131f53bf3",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

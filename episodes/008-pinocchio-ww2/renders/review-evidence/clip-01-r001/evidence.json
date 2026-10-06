@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-06T00:41:31.420925+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-01",
+  "media": "renders/editorial/episode-008-clip-01-film-opens-during-war-r001.mp4",
+  "media_sha256": "2a0347a9c0c1c1dd99e432ce822258273ea66bbf14c2596dcf2a3c08b434125f",
+  "actual_frames": 122,
+  "expected_frames": 122,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 6,
+  "planned_cut_frames": [
+    12,
+    43,
+    60,
+    82,
+    106
+  ],
+  "cut_inspection_frames": [
+    11,
+    12,
+    13,
+    42,
+    43,
+    44,
+    59,
+    60,
+    61,
+    81,
+    82,
+    83,
+    105,
+    106,
+    107
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

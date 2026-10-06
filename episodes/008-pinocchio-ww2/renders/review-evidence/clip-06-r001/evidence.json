@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-06T01:14:56.261508+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-06",
+  "media": "renders/editorial/episode-008-clip-06-marketing-payoff-r001.mp4",
+  "media_sha256": "c910f7d396f0f21230c53eaf55dc453a85c4c4dd6cca9b99ed73d6ede04ce96c",
+  "actual_frames": 111,
+  "expected_frames": 111,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 6,
+  "planned_cut_frames": [
+    12,
+    30,
+    43,
+    64,
+    84
+  ],
+  "cut_inspection_frames": [
+    11,
+    12,
+    13,
+    29,
+    30,
+    31,
+    42,
+    43,
+    44,
+    63,
+    64,
+    65,
+    83,
+    84,
+    85
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

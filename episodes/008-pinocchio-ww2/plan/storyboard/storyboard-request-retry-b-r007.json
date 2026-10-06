@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r007",
+  "created_at": "2026-10-05T19:53:16.534466+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-b.txt",
+  "prompt": "Three graphite storyboard panels in one horizontal row, each panel an upright 9:16 frame. Rough spare pencil contours of ordinary adults on white paper; documentary film composition sketches set in the 1940s. Labels S22, S23, S24 in the outer white margin.\nS22: Medium view of exactly one adult serviceman in a plain World War II-era service uniform calmly looking at a wall poster. The wordless poster contains exactly two printed cartoon characters: a wooden-puppet silhouette with a feathered cap and a cartoon-mouse silhouette with round ears. Show the viewer from behind, with the full poster visible.\nS23: Close-up of two hands exchanging a blank cinema ticket for a few coins at a counter, with no full bodies visible.\nS24: Medium view of exactly one anonymous adult film producer in a suit behind a table, noticing increased receipts and straightening with a hopeful expression. Plain coins and paper slips on the table.\nWordless scenes. Simple neutral human proportions, very little shading or facial detail. These are illustrative documentary compositions.\nThe printed character art consists of flat, very simple pencil outlines only; final character design is a separate production stage.\n",
+  "prompt_sha256": "9ea40803b30228b5fc4b9f737daf29647011df8115d8af923e9c3c1704ea214f",
+  "transparent_background": false,
+  "shot_ids": [
+    "S22",
+    "S23",
+    "S24"
+  ],
+  "output_path": "plan/storyboard/storyboard-retry-b-r007.png",
+  "status": "prepared",
+  "adaptation": "Neutral silhouette treatment of the same two printed story characters; preserves composition, narrative and military viewer, without locking final character identity."
+}

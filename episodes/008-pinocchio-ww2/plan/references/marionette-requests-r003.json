@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-05T21:32:34.355177+00:00",
+  "revision": "r003",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "identity-wooden-boy",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-wooden-boy.md",
+      "prompt": "A single charming wooden marionette in the illustrated stick-character style of the supplied rendering reference, full body, vertical 9:16. One circular ivory head, two tiny black dot eyes, a short wooden nose and a closed smile. Very slender wooden torso and limbs with simple round joints and mitten-shaped hands. A mustard feathered cap, cream shirt, brown vest, blue bow, red shorts and brown shoes. Dark outlines and soft matte drawn shading. Height five round heads. Neutral standing pose on a warm gray studio floor with a plain wall. Exactly one figure, no letters or panels.\n",
+      "prompt_sha256": "17d9c4d3d20d0f5c3abdc43a13d1590aa06b2e1cc8be40ebb94a007e457bf14e",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r003.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S09",
+        "S13",
+        "S14",
+        "S15",
+        "S25",
+        "S26"
+      ]
+    }
+  ]
+}

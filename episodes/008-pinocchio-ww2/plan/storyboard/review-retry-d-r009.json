@@ -1,0 +1,29 @@
+{
+  "status": "assistant inspected; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-retry-d-r009.png",
+  "sha256": "2fe8ca214831339c79759c65d8ca0f05a1ae49f94e69cd9195b9158cf4d78a85",
+  "size": [
+    1672,
+    941
+  ],
+  "panel_count": 3,
+  "panels": [
+    {
+      "id": "S34",
+      "result": "usable composition draft",
+      "notes": "One reverse-side framed print beside one film reel, no person"
+    },
+    {
+      "id": "S35",
+      "result": "usable composition draft",
+      "notes": "Exactly one anonymous suited adult seated on a money-bag chair"
+    },
+    {
+      "id": "S36",
+      "result": "usable composition draft",
+      "notes": "Same single adult in wider view on money-bag chair; resolved settled coin tableau"
+    }
+  ],
+  "style_note": "Portrait rough graphite human-proportion storyboard; final identity/style and aspect belong to production reference review. Currency-like decorative marks in d coins are incidental draft detail, not an approved in-engine text exception; final coins must be unmarked.",
+  "approved_by_user": false
+}

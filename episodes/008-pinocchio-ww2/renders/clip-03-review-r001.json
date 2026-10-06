@@ -1,0 +1,39 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:02:39.033762+00:00",
+  "clip_id": "clip-03",
+  "media": "renders/editorial/episode-008-clip-03-costs-versus-receipts-r001.mp4",
+  "sha256": "d3a6784a4cdc2996f039b3fc20e8e1ce29643cf3169b5f6a4ff7799b49066942",
+  "picture_decision": "approved_usable_actual_variant",
+  "audio_decision": "reject_native_music_and_replace_entire_track",
+  "observed_cut_starts_frames": [
+    0,
+    30,
+    49,
+    77,
+    111
+  ],
+  "observed_shots": [
+    "producer moves nearest large cost bag, ending with a gentle push into table",
+    "large cost bags and coin mound macro",
+    "worried producer behind costly desk",
+    "single small receipt bag placed and hand withdrawn, then sparse money held in same composition",
+    "seated worried producer, three large cost bags left versus one small bag/four coins right"
+  ],
+  "absorbed_panels": [
+    "S16 and S17 share one uninterrupted actual small-bag composition, with withdrawal and resolved object-only hold"
+  ],
+  "picture_review": "All136 editorial frames inspected across five dense phone sheets. Full frames18,84,127 inspected; all five raw-tail frames136–140 inspected. Cost/receipt inequality clearly resolves before trim, same navy suit/burgundy tie/side-part identity throughout. Printed puppet drawing retains characteristic cap/bow/vest/red shorts; no lettering or live duplication. Large bag lift rather than initial isolated-hand placement and gentle initial push accepted as non-disruptive cost coverage variation. No missing essential amount comparison or wrong recovery phase. All surfaces remain outlined matte illustrated. Stable final worried tableau, no new raw-tail event.",
+  "native_audio_review": "Blind audio-only Gemini reports sustained bowed-string-like musical melody after opening transient; whole native soundtrack rejected.",
+  "audio_only_evidence": "renders/machine-review/clip-03-native-audio-only-r001/video-review-response-r001.json",
+  "evidence": "renders/review-evidence/clip-03-r001",
+  "personal_listening_claimed": false,
+  "new_user_release_approval": false,
+  "retry_needed": false,
+  "clean_derivative_review": {
+    "decision": "approved_for_local_finishing",
+    "technical_evidence": "renders/audio-corrected/episode-008-clip-03-r001-clean-sfx-r001.clean-sfx.json",
+    "audio_only_evidence": "renders/machine-review/clip-03-clean-audio-only-r001/video-review-response-r001.json",
+    "scope": "Same136decodedpictureframes, zeronativecontribution and independentlyrecorded100msclothcue atobservedsmall-bagcontact. Remainingstemsamplesexactzero; encoded/finalrelease personal listening notclaimed."
+  }
+}

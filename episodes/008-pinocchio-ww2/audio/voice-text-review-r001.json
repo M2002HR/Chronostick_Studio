@@ -1,0 +1,63 @@
+{
+  "status": "validated",
+  "method": "compare all real Ajil STT words against clean narration after explicit numeric aliases; supplementary machine audio review only for delivery",
+  "provider_word_count": 64,
+  "expected_word_count": 76,
+  "aliases": [
+    {
+      "provider_token": "1940",
+      "spoken_words": [
+        "mil",
+        "novecientos",
+        "cuarenta"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "2,6",
+      "spoken_words": [
+        "dos",
+        "coma",
+        "seis"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "1,4",
+      "spoken_words": [
+        "uno",
+        "coma",
+        "cuatro"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "1945",
+      "spoken_words": [
+        "mil",
+        "novecientos",
+        "cuarenta",
+        "y",
+        "cinco"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    },
+    {
+      "provider_token": "84",
+      "spoken_words": [
+        "ochenta",
+        "y",
+        "cuatro"
+      ],
+      "timing": "aggregate actual provider interval; no invented per-spoken-word timing"
+    }
+  ],
+  "provider_overlap_rows": [
+    11
+  ],
+  "punctuation_difference": "provider rendered recovery colon as a period; lexical meaning unchanged",
+  "missing_or_added_spoken_content": [],
+  "machine_review_path": "audio/machine-review/video-review-text-r001.md",
+  "machine_timing_limit": "Approximate Gemini phrase timing contradicts real STT on early names/dates; do not use any machine phrase timings for direction",
+  "personal_listening_claim": false
+}

@@ -15,15 +15,25 @@ route remains in `workflow.md`; long-form retains its own format contract.
    speech with word and segment timing. Preserve the raw response, traceable
    audio derivative and failed revisions. Review text against the actual input.
 3. Use `chronostick-reference-video` to inspect actual footage alongside its
-   transcript. Record timecoded story/editing observations, source corrections,
+   transcript. Record timecoded story/editing observations, source claims,
    character roles, generation feasibility and retained/adapted/dropped ideas.
-   Independently verify historical claims before treating them as facts.
+   Preserve supplied claims, numbers, dates, causal links and payoff. Independently
+   verify only on the user's explicit request; otherwise record
+   `fact_check_requested: false` and source provenance without claiming verification.
 4. Use `chronostick-script` to draft the compressed scenario and original spoken
    Spanish. Preserve the useful source story and directing mechanisms closely
    while maintaining ChronoStick identity/style authority and factual meaning.
+   Immediately after writing or revising narration, run
+   `chronostick-voice-direction`: deliver the clean script plus its Google Vids
+   paste copy with many fitting emotion/style cues, notes and text validation.
+   Do this for drafts before storyboard review and without a separate request.
+   Record preparation in the `voice` substage; actual audio acceptance stays
+   a later gate. Every revision regenerates its tagged copy. Only an explicit
+   user/provider override skips this preparation.
 5. Use `chronostick-storyboard` to draw a complete neutral monochrome rough
    storyboard. It is deliberately outside the stick-world production style.
    User review of scenario and storyboard gates production reference generation.
+
 6. After that review, references and voice can progress independently:
    - `chronostick-references`: pure prompts first, then reviewed single-person
      stick identities and enough full-frame single-scene anchors to support

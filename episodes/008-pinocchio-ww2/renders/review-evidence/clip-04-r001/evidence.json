@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-06T00:31:36.068960+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-04",
+  "media": "renders/editorial/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+  "media_sha256": "fe153e496f421405f4336fc58fb2b72b05a29e0b080e56222efcb8271846310f",
+  "actual_frames": 167,
+  "expected_frames": 167,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 6,
+  "planned_cut_frames": [
+    20,
+    44,
+    69,
+    105,
+    123
+  ],
+  "cut_inspection_frames": [
+    19,
+    20,
+    21,
+    43,
+    44,
+    45,
+    68,
+    69,
+    70,
+    104,
+    105,
+    106,
+    122,
+    123,
+    124
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

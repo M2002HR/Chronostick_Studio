@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-05T21:51:20.345518+00:00",
+  "revision": "r005",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "identity-wooden-boy",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-wooden-boy.md",
+      "prompt": "Polish the original wooden stick puppet shown in the second supplied image into the detailed cinematic illustrated rendering of the first supplied style image. Preserve the second image exactly in character design: circular pale wooden head, tiny black dot eyes, tiny short nose, closed smile, dark forelock, mustard cap with one burgundy feather, cream shirt, brown vest, blue bow, burgundy shorts, brown shoes, very slender wooden limbs with round joints and simple mitten hands. Keep one character, one full-body standing pose, body height about 5.2 head diameters, plain warm-gray studio wall and floor, vertical 9:16. Add restrained drawn fabric folds, soft upper-left light and matte outlined shading in the same illustration language as the style reference. Preserve the original simple facial features and thin stick anatomy. No text, panels, alternate views or other characters.\n",
+      "prompt_sha256": "731f88f072f955613a46e8b9f2f48a689a9243c7f13661ce9dcbc8a37c62725e",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png",
+          "sha256": "18ebd24f1e28af1a3ca0011fee3ffe9df5a57431a0c3e87b634038618502d311",
+          "role": "original reviewed puppet identity and pose"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S09",
+        "S13",
+        "S14",
+        "S15",
+        "S25",
+        "S26"
+      ]
+    }
+  ]
+}

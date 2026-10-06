@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r008",
+  "created_at": "2026-10-05T19:57:12.734981+00:00",
+  "prompt": "Use the attached graphite studio sketch only as a neutral drawing reference. Draw two upright 9:16 storyboard frames side by side, with S23 and S24 written in the white margin above the respective frames. S23: Extreme close view of exactly two hands exchanging one blank cinema ticket for a few coins at a counter, with no faces or full bodies visible. S24: Medium view of exactly one anonymous adult film producer in a suit behind a table, straightening with a hopeful expression as he notices more coins and a thicker stack of receipts. All paper and bags are wordless. Very spare pencil contour lines, minimal shading, ordinary human proportions and no detailed likeness.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-b2.txt",
+  "prompt_sha256": "677d8e790bfa55e02956bc842cbe69d8c1cf0ab2e5522162123d9a007b238eaf",
+  "referenced_image_paths": [
+    "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/plan/storyboard/storyboard-page-02-r005.png"
+  ],
+  "reference_sha256": "61797f1702f1907bacba43db66b26470f542dce0be417b667d804b0a50777d84",
+  "reference_role": "neutral pencil drawing only; no production identity approval",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-b2-r008.png",
+  "shot_ids": [
+    "S23",
+    "S24"
+  ],
+  "status": "prepared"
+}

@@ -1,0 +1,75 @@
+{
+  "word_count": 64,
+  "segment_count": 8,
+  "first_word_start": 0.18,
+  "last_word_end": 31.84,
+  "overlapping_word_rows": [
+    11
+  ],
+  "nonmonotonic_word_rows": [],
+  "text_vs_words_match": true,
+  "expected_script_changes": [
+    {
+      "operation": "replace",
+      "expected": [
+        "mil",
+        "novecientos",
+        "cuarenta"
+      ],
+      "observed": [
+        "1940"
+      ]
+    },
+    {
+      "operation": "replace",
+      "expected": [
+        "dos",
+        "coma",
+        "seis"
+      ],
+      "observed": [
+        "2",
+        "6"
+      ]
+    },
+    {
+      "operation": "replace",
+      "expected": [
+        "uno",
+        "coma",
+        "cuatro"
+      ],
+      "observed": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "operation": "replace",
+      "expected": [
+        "mil",
+        "novecientos",
+        "cuarenta",
+        "y",
+        "cinco"
+      ],
+      "observed": [
+        "1945"
+      ]
+    },
+    {
+      "operation": "replace",
+      "expected": [
+        "ochenta",
+        "y",
+        "cuatro"
+      ],
+      "observed": [
+        "84"
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "normalization": "none; provider times preserved",
+  "timing_limit": "STT estimates; accepted voice and perceptual review are required"
+}

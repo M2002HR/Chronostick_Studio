@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:00:13.969392+00:00",
+  "id": "wartime-wall",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "f87530cf2f810d67b07cab978bdf4069267a07ee4c0e8f76df92e603ece056cb",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-f09dcfab-ed7e-43ac-883a-3445aa0609c8.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/wartime-wall-r001.png",
+  "sha256": "74436dcd04d11dfc929b500c9f8420e19f430ca695f70ce83d0d6fe49207f913",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-06T00:44:40.335767+00:00",
+  "status": "technical_clean_sfx_derivative_needs_release_review",
+  "source": "renders/editorial/episode-008-clip-01-film-opens-during-war-r001.mp4",
+  "source_sha256": "2a0347a9c0c1c1dd99e432ce822258273ea66bbf14c2596dcf2a3c08b434125f",
+  "output": "renders/audio-corrected/episode-008-clip-01-r001-silent-r001.mp4",
+  "output_sha256": "e9646f926b585a9cf2af573c2a5bbe8e229d2cdfa23c8fb61921f930a4524eba",
+  "plan_sha256": "7297c53c6a7a143bf8f0a08f33d203930544e0575bd17b732ec90255f5e272ed",
+  "stem": "audio/sfx/clip-01-silent-stem-r001.wav",
+  "stem_sha256": "31e41180cec749c72aecebaa228895edba19a1c7d62459dc8693ca654ee94183",
+  "sample_rate": 48000,
+  "stem_sample_count": 244000,
+  "native_audio_contribution_samples": 0,
+  "decoded_video_frames_identical": true,
+  "video_frames": 122,
+  "cue_generation": "Explicit recorded physical one-shots when asset_path is set; seeded non-periodic procedural transients only when separately declared. No native soundtrack/music separation, looping or sustained bed.",
+  "cues": [],
+  "exact_zero_silence_sample_intervals": [
+    [
+      0,
+      244000
+    ]
+  ],
+  "personal_listening_claimed": false,
+  "unapproved_preview": false,
+  "limits": "This proves source exclusion and declared silent PCM regions; actual encoded audiovisual release review remains separate."
+}

@@ -13,7 +13,7 @@ Probe and inspect the complete video alongside transcript timecodes. Sample the 
 
 Write `source/reference-video/intake-review.md` and `plan/reference-video-analysis.md`. Link each observed span to its spoken claim, hook/open loop, subject roles, physical action, framing, cut/transition, emotion/comedy, payoff and viewer effect. Carry useful mechanism IDs into the scenario/storyboard. Preserve the source's useful story structure closely while creating original Spanish wording and ChronoStick staging. Separate observed facts, interpretation and proposed adaptation.
 
-Verify historical assertions against reliable independent sources. Record corrections and omissions explicitly. Do not reproduce a wrong date, anachronistic building, unsupported cause or identifiable group claim simply to match the example. Keep source music, branded joke labels and ordinary captions outside the production picture.
+For supplied-source adaptation, preserve the user's chosen content: claims, numbers, dates, causal links and payoff. Do not fact-check, research historical claims, or replace/remove them unless the user explicitly requests verification or content changes. A request to make, translate or shorten a video is not a verification request. Compression and original wording may change presentation, not meaning. Record `fact_check_requested: false` and distinguish source claims from independently verified findings in internal provenance; do not claim verification. Prior unsolicited research does not authorize rewriting the source. When verification is explicitly requested, preserve citations and propose corrections separately. Keep source music, branded joke labels and ordinary captions outside the production picture.
 
 ## Generation feasibility
 

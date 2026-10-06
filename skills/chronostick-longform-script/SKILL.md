@@ -16,3 +16,10 @@ Build `source/claims.json`: one record per material assertion with source span, 
 Write original, natural spoken Spanish with accurate names, diacritics, dates, numbers, relationships and qualifications. Preserve the supplied content and causal meaning; rearrange only to improve comprehension and retention. The opening needs a concrete hook, a quick confirmation that the video will deliver the title/thumbnail promise, and an *earned* reason to keep watching. Give each chapter a new question or change of stakes. Make the narration exciting and inventive through sharp contrasts, surprising but true turns, concrete images and occasional situational humor. Vary sentence length and emotional intensity; make geography and succession easy to follow without turning victims into punchlines. Do not import music, jokes, artwork, or dramatized conversations from a reference video. Do not frame colonial self-justification as neutral fact. Put proposed new material outside the narration until sourced and accepted.
 
 Maintain `script/fidelity-ledger.json` mapping every source claim to the Spanish passage or an explained omission. Audit the reverse direction: each Spanish factual claim must map to the supplied text or an approved, cited addition. Read aloud for rhythm, pronunciation, referent clarity, and the actual title payoff. Estimate duration only until the user's accepted voice exists. Save the review decision in the manifest; no self-declared script approval.
+
+Immediately after writing or revising narration, including a draft, run
+`chronostick-voice-direction` and deliver the clean text plus a Google Vids copy
+with many fitting emotion/style tags throughout, notes and text validation.
+Split long tagged input into ordered scene files within the registered limit.
+Do not wait for another formatting request or imply accepted audio/script review.
+Skip Google Vids preparation only on an explicit user/provider override.

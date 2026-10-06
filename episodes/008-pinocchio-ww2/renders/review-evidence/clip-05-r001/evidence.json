@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-06T01:07:35.017943+00:00",
+  "status": "needs_actual_review",
+  "clip_id": "clip-05",
+  "media": "renders/editorial/episode-008-clip-05-return-and-fortune-r001.mp4",
+  "media_sha256": "3930392b45b62d9b894de3de7e551c798d5024edab5d58a181dc3fd3ea379f87",
+  "actual_frames": 129,
+  "expected_frames": 129,
+  "frame_count_matches": true,
+  "audio_stream_present": true,
+  "planned_shot_count": 6,
+  "planned_cut_frames": [
+    27,
+    52,
+    66,
+    88,
+    113
+  ],
+  "cut_inspection_frames": [
+    26,
+    27,
+    28,
+    51,
+    52,
+    53,
+    65,
+    66,
+    67,
+    87,
+    88,
+    89,
+    112,
+    113,
+    114
+  ],
+  "limitations": "Frames, waveform and job flags do not prove silence/no music. Actual sound review is required. No creative approval inferred."
+}

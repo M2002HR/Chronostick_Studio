@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-10-06T00:31:38.098061+00:00",
+  "timing_sha256": "4c784a989b0288cf8815496bd29696f6b3349c8a0c5626feee1c92362e0f565c",
+  "job_plan_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/job-plan.json",
+  "job_plan_sha256": "ab34011fe5363894f2da62a55254123a1d185f4ddcd00f8b6366da48cbf39026",
+  "fps": 24,
+  "expected_episode_frames": 773,
+  "expected_total_frames": 773,
+  "expected_total_seconds": 32.208333333333336,
+  "clips": [
+    {
+      "clip_id": "clip-01",
+      "job_identity": "episode-008-clip-01-film-opens-during-war-r001",
+      "json_request_seconds": 5.083333333333333,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 122,
+      "editorial_seconds": 5.083333333333333,
+      "global_start_frame": 0,
+      "global_end_frame": 122,
+      "planned_tail_trim_frames": 2,
+      "job_sha256": "2f0c4f2608671de020c329025e2d7b0909382d0125889ad7fd205f17213223dd",
+      "errors": [],
+      "status": "pending_media"
+    },
+    {
+      "clip_id": "clip-02",
+      "job_identity": "episode-008-clip-02-families-distribution-blocked-r001",
+      "json_request_seconds": 5,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 108,
+      "editorial_seconds": 4.5,
+      "global_start_frame": 122,
+      "global_end_frame": 230,
+      "planned_tail_trim_frames": 16,
+      "job_sha256": "4c9d53829023822d4632a0ab52da314e2d2c8b9134f3f8219bfd7666fba9067d",
+      "errors": [],
+      "status": "pending_media"
+    },
+    {
+      "clip_id": "clip-03",
+      "job_identity": "episode-008-clip-03-costs-versus-receipts-r001",
+      "json_request_seconds": 5.666666666666667,
+      "expected_raw_frames": 141,
+      "expected_editorial_frames": 136,
+      "editorial_seconds": 5.666666666666667,
+      "global_start_frame": 230,
+      "global_end_frame": 366,
+      "planned_tail_trim_frames": 5,
+      "job_sha256": "62608d995f54221142230eacffd94e297c129a62b1d1c4e06d694f1f27aa0474",
+      "errors": [],
+      "status": "pending_media"
+    },
+    {
+      "clip_id": "clip-04",
+      "job_identity": "episode-008-clip-04-publicity-and-recovery-r001",
+      "json_request_seconds": 6.958333333333333,
+      "expected_raw_frames": 175,
+      "expected_editorial_frames": 167,
+      "editorial_seconds": 6.958333333333333,
+      "global_start_frame": 366,
+      "global_end_frame": 533,
+      "planned_tail_trim_frames": 8,
+      "job_sha256": "30ddcda22e0a370faf2cb1f0932aa903d076fe82cec998323d5234c9d5c3d6bf",
+      "errors": [],
+      "run_sha256": "ae8a4e86580ee85a782906df0d2a1753a6f133231bffaf510d6baa4d8be8ca31",
+      "executed_graph": {
+        "frames": 175,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+        "sha256": "da46322a6bc05c287e14786f9fa835ebf28d7e463fef0a2a35ace957572de56e",
+        "decoded_frames": 175,
+        "video_stream_seconds": 7.291667,
+        "frame_derived_seconds": 7.291666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+        "sha256": "fe153e496f421405f4336fc58fb2b72b05a29e0b080e56222efcb8271846310f",
+        "decoded_frames": 167,
+        "video_stream_seconds": 6.958333,
+        "frame_derived_seconds": 6.958333333333333,
+        "endpoint_rounding_seconds": -3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 167,
+        "max_mae_255": 0.7430941358024692,
+        "mean_mae_255": 0.42985325645006284,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 8,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-05",
+      "job_identity": "episode-008-clip-05-return-and-fortune-r001",
+      "json_request_seconds": 5.375,
+      "expected_raw_frames": 141,
+      "expected_editorial_frames": 129,
+      "editorial_seconds": 5.375,
+      "global_start_frame": 533,
+      "global_end_frame": 662,
+      "planned_tail_trim_frames": 12,
+      "job_sha256": "77b4dee38925a5cff574d454edea850ddfdff294379044a7a1b86ddbdfdd360f",
+      "errors": [],
+      "status": "pending_media"
+    },
+    {
+      "clip_id": "clip-06",
+      "job_identity": "episode-008-clip-06-marketing-payoff-r001",
+      "json_request_seconds": 5,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 111,
+      "editorial_seconds": 4.625,
+      "global_start_frame": 662,
+      "global_end_frame": 773,
+      "planned_tail_trim_frames": 13,
+      "job_sha256": "61fc69af1cf63617cbac9831ff09f1c9f811609ef314a51d4dc477c11937b2d5",
+      "errors": [],
+      "status": "pending_media"
+    }
+  ],
+  "complete": false,
+  "status": "pending_remaining_media",
+  "limitations": "A technical duration pass does not approve actual shot timing, story, audio or tail stability. Review actual cuts and voice sync separately."
+}

@@ -1,0 +1,20 @@
+{
+  "source": "renders/editorial/episode-008-clip-03-costs-versus-receipts-r001.mp4",
+  "source_sha256": "d3a6784a4cdc2996f039b3fc20e8e1ce29643cf3169b5f6a4ff7799b49066942",
+  "output": "renders/audio-corrected/episode-008-clip-03-r001-clean-sfx-r001.mp4",
+  "stem": "audio/sfx/clip-03-clean-stem-r001.wav",
+  "native_audio": "exclude_completely",
+  "reason": "Actual sustained music rejected; only one clearly observed small-bag contact gets a physical cue. No invented large-bag impact during partly occluded first action.",
+  "picture_review": "renders/clip-03-review-r001.json",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/reusable-recordings-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "approved",
+      "review_evidence": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/plan/native-sfx-priority-r001.json",
+      "start_seconds": 3.4583333333333335,
+      "gain_db": 0,
+      "observed_action": "Actual small beige receipt bag contacts and settles on drawn wooden table around localframe83/3.458seconds; one short dry cloth contact, no sound on static coin comparison."
+    }
+  ]
+}

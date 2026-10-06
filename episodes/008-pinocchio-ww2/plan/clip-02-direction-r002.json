@@ -1,0 +1,186 @@
+{
+  "reviewed_at": "2026-10-06T00:52:03.868534+00:00",
+  "reviewer": "assistant",
+  "decision": "approved_scoped_prompt_repair",
+  "scope": "clip-02 only",
+  "source_review": "renders/clip-02-review-r001.json",
+  "reason": "Crop family shots to exclude the booth aperture; retain exactly three family members, two already-held coins and a clear turn away. Combine barrier closure and its resolved hold into one1.5-second final wide shot, preserving both panels.",
+  "clip": {
+    "id": "clip-02",
+    "slug": "families-distribution-blocked",
+    "arc": "Three low-money family members leave the cinema; international film delivery is visibly halted by a closed dock barrier. No recovery-phase ticket attendant.",
+    "reference_ids": [
+      "cinema-family",
+      "hand-two-coins",
+      "dock-approach",
+      "dock-blocked"
+    ],
+    "anchor_locks": {
+      "cinema-family": "Use the supplied cinema anchor for its exact facade, blank marquee, poster, doors and brass ticket booth. Exactly three live stick people in foreground facing the empty booth: father left, mother center, child right between mother and booth. Father brown fedora and brown coat, charcoal trousers and brown shoes; mother muted olive cloche, burgundy knee-length coat, small dark brown handbag and brown shoes; child about 65 percent adult height, short chestnut hair, dusty blue jacket and shorts, pale legs and brown shoes. Off-white round heads, tiny black dot eyes, small closed mouths, narrow stick anatomy. Father holds one open mitten palm near waist, family expectant. Waist-height medium-wide three-quarter camera, child clearly separated from adult silhouettes. No attendant, other family or crowd. Warm afternoon light matching facade. Mother keeps brown hat band and low dark bun; child keeps tousled chestnut hair. Attendant, if listed, wears a small bow tie. In this early phase the ticket window is unoccupied and entirely excluded from every family crop; exactly THREE real people throughout. Do not copy the later returning-family state.",
+      "hand-two-coins": "Close insert at the supplied cinema ticket window. Exactly one isolated pale simplified mitten hand entering from lower left, brown coat cuff matching father. Open palm holds exactly two separate plain gold-colored round coins with smooth unmarked faces. Brass ticket-window edge and wooden counter soft illustrated background. No complete people, face, extra hands, ticket or coins elsewhere. Slight overhead camera, palm centered, two coins clear and countable at phone size. Warm muted palette, dark contours and drawn shading throughout. Both coins are already present on the palm from its first frame; no falling coins or incoming payment.",
+      "dock-approach": "Exactly one worker matching supplied navy flat cap, warm taupe rolled shirt, suspenders, khaki trousers and brown boots stands left-center on a timber cargo dock. He carries exactly one closed round silver-gray film canister at waist in both simplified hands, lid blank, diameter about 0.75 head. One simple hinged timber barrier arm is raised diagonally from right foreground post, passage open. Beyond is exactly one distant still dark-gray cargo ship, one smokestack and two masts, on quiet drawn steel-blue water. No people aboard or elsewhere, no cranes, text or flags. Three-quarter waist-height medium-wide view, barrier hinge/passage readable, ship subordinate. Cool overcast light from upper left. Maintain all outlined illustrated surfaces. Existing fixed incidental closed cargo crates, one cargo sack and coiled ropes at dock left stay unchanged; ship and water remain still.",
+      "dock-blocked": "Match the supplied dock scene exactly: same worker, canister, timber pier, barrier posts, distant one ship, water and light. Barrier arm is now horizontal across the passage at worker waist height, firmly closed. Exactly one worker behind the foreground horizontal barrier left-center holds one undelivered silver-gray canister and looks quietly down; same clothes and slim round-headed identity. No added guard or crew. Wide waist-height composition shows closed barrier across lower foreground and small still ship upper-right background, zero text. This is the resolved blocked-delivery state. Existing fixed incidental closed cargo crates, one cargo sack and coiled ropes at dock left stay unchanged; ship and water remain still."
+    },
+    "shots": [
+      {
+        "id": "C02-S07",
+        "storyboard_panel_ids": [
+          "S07"
+        ],
+        "source_analysis_ids": [
+          "A05"
+        ],
+        "start_frame_local": 0,
+        "end_frame_local": 15,
+        "start_seconds_local": 0.0,
+        "end_seconds_local": 0.625,
+        "start_frame_global": 122,
+        "end_frame_global": 137,
+        "reference_ids": [
+          "cinema-family"
+        ],
+        "framing": "Medium three-quarter crop of the same three family members and left wordless puppet poster; the right ticket-window aperture is ENTIRELY outside frame",
+        "inventory": "Exactly THREE people: same father in brown fedora and coat, same mother in olive cloche and burgundy coat with handbag, same child in dusty-blue jacket and shorts. One inert left printed puppet poster. The ticket-window aperture is entirely outside the crop. No attendant, face, silhouette, reflection, staff, crowd or fourth person.",
+        "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+        "primary_action": "Three family members look quietly toward the father's sparse money, subdued closed mouths; no purchase or receipt.",
+        "camera": "Locked camera; crisp hard cut at both boundaries",
+        "resolved_end_state": "Three subdued family members remain separated; no occupied booth is visible.",
+        "sfx": null
+      },
+      {
+        "id": "C02-S08",
+        "storyboard_panel_ids": [
+          "S08"
+        ],
+        "source_analysis_ids": [
+          "A05"
+        ],
+        "start_frame_local": 15,
+        "end_frame_local": 29,
+        "start_seconds_local": 0.625,
+        "end_seconds_local": 1.2083333333333333,
+        "start_frame_global": 137,
+        "end_frame_global": 151,
+        "reference_ids": [
+          "hand-two-coins"
+        ],
+        "framing": "Extreme close parent hand; preserve approved anchor geometry and viewpoint within this crop",
+        "inventory": "Zero full people; exactly one isolated pale mitten hand with brown-coat cuff and two plain gold coins in open palm; brass ticket window/counter.",
+        "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+        "primary_action": "Hold exactly TWO coins already resting in one open palm from the first frame to the last. Coins remain completely still; no coin falls, arrives, leaves or is paid.",
+        "camera": "Locked camera; crisp hard cut at both boundaries",
+        "resolved_end_state": "Exactly two already-held coins remain still in one palm; no incoming money.",
+        "sfx": null
+      },
+      {
+        "id": "C02-S09",
+        "storyboard_panel_ids": [
+          "S09"
+        ],
+        "source_analysis_ids": [
+          "A05"
+        ],
+        "start_frame_local": 29,
+        "end_frame_local": 47,
+        "start_seconds_local": 1.2083333333333333,
+        "end_seconds_local": 1.9583333333333333,
+        "start_frame_global": 151,
+        "end_frame_global": 169,
+        "reference_ids": [
+          "cinema-family"
+        ],
+        "framing": "Medium crop of the same THREE family members and left poster, with the entire ticket-window aperture outside frame",
+        "inventory": "Exactly THREE people: same father in brown fedora and coat, same mother in olive cloche and burgundy coat with handbag, same child in dusty-blue jacket and shorts. One inert left printed puppet poster. The ticket-window aperture is entirely outside the crop. No attendant, face, silhouette, reflection, staff, crowd or fourth person.",
+        "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+        "primary_action": "The same three family members pivot together a restrained quarter turn AWAY from the cinema doorway toward screen-left, heads quietly lowered. They never approach a booth or receive a ticket.",
+        "camera": "Locked camera; crisp hard cut at both boundaries",
+        "resolved_end_state": "Same three family members turned away from the cinema, subdued low-money emotion; no staff or transaction.",
+        "sfx": null
+      },
+      {
+        "id": "C02-S10",
+        "storyboard_panel_ids": [
+          "S10"
+        ],
+        "source_analysis_ids": [
+          "A04",
+          "A07"
+        ],
+        "start_frame_local": 47,
+        "end_frame_local": 72,
+        "start_seconds_local": 1.9583333333333333,
+        "end_seconds_local": 3.0,
+        "start_frame_global": 169,
+        "end_frame_global": 194,
+        "reference_ids": [
+          "dock-approach"
+        ],
+        "framing": "Medium dock delivery; preserve approved anchor geometry and viewpoint within this crop",
+        "inventory": "Exactly one navy-flatcap worker with rolled taupe shirt, suspenders/khaki trousers/brown boots, one blank silver film canister in both mittens; raised wooden barrier, timber pier, one distant still cargo ship.",
+        "light_and_palette": "Cool steel-blue overcast drawn daylight, olive/brick/timber muted colors, outlined surfaces",
+        "primary_action": "Worker takes one short step toward open passage holding canister firmly",
+        "camera": "Locked camera; crisp hard cut at both boundaries",
+        "resolved_end_state": "One worker stops at open barrier with canister retained",
+        "sfx": null
+      },
+      {
+        "id": "C02-S11-S12",
+        "storyboard_panel_ids": [
+          "S11",
+          "S12"
+        ],
+        "source_analysis_ids": [
+          "A04",
+          "A07"
+        ],
+        "start_frame_local": 72,
+        "end_frame_local": 108,
+        "start_seconds_local": 3.0,
+        "end_seconds_local": 4.5,
+        "start_frame_global": 194,
+        "end_frame_global": 230,
+        "reference_ids": [
+          "dock-approach",
+          "dock-blocked"
+        ],
+        "framing": "Locked medium-wide dock view: worker left, initially raised right-hinged barrier, one still distant ship. Keep this same wide camera while the barrier closes, then hold the complete blocked state",
+        "inventory": "Exactly ONE same flat-cap dock worker holding ONE undelivered silver film canister; same muted taupe shirt, suspenders, khaki trousers and brown boots. ONE striped hinged barrier in foreground, ONE stationary ship beyond. No staff, new hands or cargo movement.",
+        "light_and_palette": "Cool steel-blue overcast drawn daylight, olive/brick/timber muted colors, outlined surfaces",
+        "primary_action": "The inherited raised barrier lowers once about its fixed right hinge, reaching a HORIZONTAL CLOSED position by local 4.0 seconds / frame96. Worker halts behind the barrier and keeps the canister. Freeze all people, objects and camera from4.0 seconds through the4.5-second editorial endpoint and entire raw tail.",
+        "camera": "Locked camera; crisp hard cut at both boundaries",
+        "resolved_end_state": "Clearly horizontal closed barrier, one halted worker with undelivered canister, still ship; the last12 editorial frames are completely still.",
+        "sfx": {
+          "onset_frame_local": 95,
+          "end_frame_local": 98,
+          "description": "one tiny dry wood contact when the barrier reaches its closed rest, then absolute silence"
+        },
+        "reference_coverage_by_panel": {
+          "S11": [
+            "dock-approach"
+          ],
+          "S12": [
+            "dock-blocked"
+          ]
+        }
+      }
+    ],
+    "raw_tail_hold": {
+      "start_frame_local": 108,
+      "end_frame_local": 124,
+      "instruction": "Continue the already CLOSED dock barrier, one halted worker retaining one undelivered film canister and one still distant ship. Entire scene and camera remain motionless; no new people, coins, transaction, cut or sound."
+    }
+  },
+  "all_storyboard_panels_preserved": [
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "consolidated_panels": [
+    "S11",
+    "S12"
+  ],
+  "voice_and_editorial_frames_unchanged": true
+}

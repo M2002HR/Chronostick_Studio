@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r004",
+  "created_at": "2026-10-05T19:40:05.647265+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-page-05.txt",
+  "prompt": "Use case: illustration-story. Internal rough pencil storyboard for a short film about a 1940s animation studio. Exactly SIX panels in THREE columns and TWO rows, read left to right. Each panel is portrait 9:16 with generous white gutters. Monochrome spare contour sketches, ordinary simplified human proportions, no likeness or polished rendering. Film-era studio and cinema props. Only the six S-number panel IDs in the outside margins; all scenes, tickets, bags and posters completely wordless. Anonymous suited adult producer. Printed wooden-boy character wears a feathered cap and ordinary puppet outfit with jointed limbs; printed cartoon mouse has round ears and ordinary outfit. All printed artwork is fictional story illustration, not an authenticated historical document.\n\nS31: Extreme close spill. A few coins roll from the table edge into a waiting pile; no person or word.\nS32: Medium complete cash pile. The bags and coins settle into a large stable pile around the table; no people.\nS33: Close producer reaction. Exactly one suited producer looks toward the money with an amused, surprised expression. Simplified human features only.\nS34: Close campaign artwork. The same wordless studio poster of the wooden boy and round-eared mouse in ordinary outfits sits beside one blank film reel; exactly two printed figures and no humans.\nS35: Medium producer sits. Exactly one suited producer sits on a playful throne made of money bags. Satirical source wealth metaphor, no literal historic event claim.\nS36: Wide resolved wealth tableau. Exactly one suited producer sits still on the money-bag throne with settled coins around him; no posters, other people, captions, buttons or slogans.\n\nKeep exact panel order, framing and subject counts. One still state per panel. No extra people, labels, numbers or logos inside scenes. Simple shapes, very little shading.\n",
+  "prompt_sha256": "dead7c57e13de94d895e19a52cfac841ce11c992bfd2dba5c0d0975f65221644",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-page-05-r004.png",
+  "status": "prepared",
+  "retry_reason": "User requested retry of stuck image generation; split 24 remaining compositions into four six-panel requests; preserve first twelve-panel image and narrative."
+}

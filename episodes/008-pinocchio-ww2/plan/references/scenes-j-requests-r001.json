@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-10-05T23:28:18.214401+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "hand-two-coins",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/hand-two-coins.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nClose insert at the supplied cinema ticket window. Exactly one isolated pale simplified mitten hand entering from lower left, brown coat cuff matching father. Open palm holds exactly two separate plain gold-colored round coins with smooth unmarked faces. Brass ticket-window edge and wooden counter soft illustrated background. No complete people, face, extra hands, ticket or coins elsewhere. Slight overhead camera, palm centered, two coins clear and countable at phone size. Warm muted palette, dark contours and drawn shading throughout.\n",
+      "prompt_sha256": "7553aac76f09e564212b6b42fb5b543f63c7c0315045faed82de6c9c89f2c5ed",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png",
+          "sha256": "3ada3d7f4ee910528b114fbbec5925329612d47c20d169a5603c43604f3ff669",
+          "role": "cinema-family"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/hand-two-coins-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S08"
+      ]
+    },
+    {
+      "id": "ticket-sale",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/ticket-sale.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nClose insert at the supplied cinema brass ticket window and brown counter. Exactly two isolated simplified pale mitten hands: customer brown-coat cuff from lower left holding two smooth unmarked gold coins, attendant dark-waistcoat/cream cuff from upper right offering one small blank cream rectangular ticket over counter center. No full person, face, extra hands, glyphs or ticket stack. Clearly separated exchange poised before handover; warm afternoon light, outlined matte illustrated paper/metal/wood.\n",
+      "prompt_sha256": "47beb916d95de75cced4def2c5a1be07eae4e44fe55fca52464f97fa77e4fd04",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png",
+          "sha256": "3ada3d7f4ee910528b114fbbec5925329612d47c20d169a5603c43604f3ff669",
+          "role": "cinema-family"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/ticket-sale-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S23"
+      ]
+    },
+    {
+      "id": "cinema-family-return",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/cinema-family-return.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nSame supplied cinema and exactly the same three family members, same hat/hair/clothes/colors/proportions. Father left, mother center-left, child center-right approach brass booth at right with hopeful upright poses. Exactly one new ticket attendant inside booth, off-white round head, tiny dot eyes, dark short hair, cream shirt and charcoal waistcoat, torso visible behind counter. Exactly four people total, no crowd. Cinema blank marquee and wordless stick Pinocchio poster remain in inherited positions. Three-quarter medium-wide waist-height view, warm afternoon light, fully illustrated stick-world.\n",
+      "prompt_sha256": "296e33c22eefc743fe6d5da688e9bbec3ea9fc4d1c1a23e348775f239853b1b5",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png",
+          "sha256": "3ada3d7f4ee910528b114fbbec5925329612d47c20d169a5603c43604f3ff669",
+          "role": "cinema-family"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-return-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S26"
+      ]
+    }
+  ]
+}

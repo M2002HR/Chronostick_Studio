@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-10-05T21:37:07.264230+00:00",
+  "id": "identity-wooden-boy",
+  "revision": "r004",
+  "method": "Original hand-authored SVG rendered via local librsvg/cairo; no existing image edited",
+  "reason": "Three benign built-in image requests failed output moderation other; user authorized complete all stages by best available means and mandatory stick Pinocchio. API fallback declined.",
+  "failed_requests": [
+    "identities-requests-r001.json",
+    "pinocchio-requests-r002.json",
+    "marionette-requests-r003.json"
+  ],
+  "source": "assets/episodes/008-pinocchio-ww2/vector-source/identity-wooden-boy-r004.svg",
+  "source_sha256": "e75814710ebc44ea0293ca0f49ca68caa78c06bfd38c39d72c74efaa774fac5e",
+  "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png",
+  "sha256": "18ebd24f1e28af1a3ca0011fee3ffe9df5a57431a0c3e87b634038618502d311",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "review_status": "needs_review"
+}

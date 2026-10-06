@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-10-06T02:00:45.442303+00:00",
+  "status": "actual_custom_audio_schema_reviewed",
+  "provider_http_status": 200,
+  "raw_response": "renders/machine-review/final-audio-only-r001/video-review-response-r001.json",
+  "raw_response_sha256": "7e68b3343049c6ef598da11e77bb2ccafdeca8ebab9a11e940671e556164dec5",
+  "helper_status": "failed_generic_video_schema_validation",
+  "explanation": "Provider returned actual valid custom final-audio JSON. Generic video review helper expects different video fields and marks it failed; raw response and original helper provenance remain unchanged. Assistant separately reviewed the supplied custom audio schema. Approximate32.5second speech endpoint is inaccurate; actual video32.208333seconds and original STT remain authorities.",
+  "actual_machine_audio_result": {
+    "coverage_method": "listen_only",
+    "spoken_language": "Spanish",
+    "narration_intelligibility": "highly intelligible",
+    "audible_music_or_tonal_bed": "no",
+    "distracting_noise_or_distortion": "no",
+    "truncation_or_missing_ending": "no",
+    "observed_sound_events": [
+      {
+        "sound_event": "male speech",
+        "start_approx_seconds": 0.0,
+        "end_approx_seconds": 32.5
+      }
+    ],
+    "uncertainty": []
+  },
+  "personal_listening_claimed": false
+}

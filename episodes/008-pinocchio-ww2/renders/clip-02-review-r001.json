@@ -1,0 +1,25 @@
+{
+  "clip_id": "clip-02",
+  "revision": "r001",
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T00:52:03.868534+00:00",
+  "media": "renders/editorial/episode-008-clip-02-families-distribution-blocked-r001.mp4",
+  "sha256": "21a2f1d895e5e94605e51740e87728dd1477657203695e01edd169608793401c",
+  "decision": "revise_prompt",
+  "evidence": "renders/review-evidence/clip-02-r001",
+  "observed_cut_starts_frames": [
+    0,
+    31,
+    53,
+    73,
+    94,
+    106
+  ],
+  "picture_review": "All108editorialframes reviewed in4dense phone sheets. Stick style/clothes remain consistent. Essentialsemantic failure: an unlistedattendant appearsinsidebooth aroundframe6, makingfourpeople duringearlylow-moneyphase. Familyneverturnsaway, remainswaiting; two coins fallfromaboveintoopenpalm instead ofinitiallyheldsparsecoins. Laterdockbarrierphysicallyclosesandworkerkeepscanister, butfinalwideholdonly2editorialframes. These failures conveyearlyservice/incomingmoney instead ofcannot-afford-film. Notacceptedunder95%cosmeticpolicy.",
+  "retry_scope": [
+    "clip-02"
+  ],
+  "accepted_voice_changed": false,
+  "historical_content_changed": false,
+  "repair": "Crop family coverage to exclude booth aperture entirely; exact3-person count, palm startswithtwofixedcoins; clearturnaway. Consolidate closure andresolvedblockedwideintoone1.5secfinalshot with8framehold toprotectearliereditorialendpoint."
+}

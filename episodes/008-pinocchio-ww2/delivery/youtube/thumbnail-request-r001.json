@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-10-05T22:28:08.489687+00:00",
+  "prompt": "Create one complete vertical 9:16 ChronoStick YouTube thumbnail, including exact generated lettering inside the artwork. First reference controls the detailed drawn style only. Second reference controls the single wooden stick puppet identity. Third reference controls the beige money bags, unmarked gold coins and film-studio world. Fourth reference is typography-only: use its very heavy rounded uppercase display letter shapes, thick near-black outlines, broad counters, shallow extrusion and soft shadow; do not inherit its people, aircraft, setting, composition or wording.\n\nOne continuous cinematic studio scene, no panels or split screen. Exactly one original wooden stick puppet dominates the center: large round ivory wooden head, two tiny black dot eyes, tiny short nose, dark forelock, mustard cap with one burgundy feather, blue bow, brown vest and cream short sleeves. Narrow stick limbs and simple mitten hands. Head gently tilted with one eyebrow raised and a small closed curious smile. Head occupies about half the width, positioned around 56 percent image height, cap safely below the headline. Crop at thighs to make face immediately recognizable. No realistic skin, anatomy or cartoon redesign.\n\nAt lower right, exactly two plain tied beige money bags and one large mound of smooth unmarked gold coins. At lower left, exactly one dark metal six-spoke film reel on the wooden studio table. These are secondary objects, fully illustrated with clean dark contours and matte drawn shading. Background is a sparse charcoal-blue studio wall with soft warm-gold light from upper left, no pictures or extra characters. Preserve the detailed illustrated stick-world over every visible pixel, not glossy 3D or photographic textures.\n\nExact headline, and no other text: first line PINOCHO in warm white; second line ¿84 MILLONES? in signal yellow-gold. Spell every character exactly, including the inverted opening question mark and final question mark. Upper-headline position. Leave the uppermost 13 percent of full image height completely free of lettering, including outline, bevel, accents and shadow; minimum 12 percent. At 2160x3840 target topmost lettering pixel around y=499, never above y=461. Place the complete two-line text block between about 14 and 33 percent height, safely inset at left/right. Huge very heavy rounded uppercase lettering, thick dark outline, shallow depth and soft shadow, instantly readable at phone size. Headline stays clear of cap, face, bow and coins. No labels, logos, dollar symbols, extra words, panels, duplicate puppets, extra hands, combat scene, clothing swap or exaggerated long nose. Deliver the entire artwork as one portrait illustration.",
+  "prompt_sha256": "d4a257f5d4582baca1ee6c340a07af81ebffaa93b83f3ed350c5f493fb60920b",
+  "saved_direction": "episodes/008-pinocchio-ww2/delivery/youtube/thumbnail-prompt-r001.md",
+  "direction_sha256": "96ee8ef3bb73d52764dc13eed6fc8e273a57650b3998b9a318b9838dce1df0be",
+  "inputs": [
+    {
+      "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919"
+    },
+    {
+      "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png",
+      "sha256": "987966af04b895dbcf3a4320cb5805d4e0d1d33656024727ad80ac2cf7879201"
+    },
+    {
+      "path": "assets/episodes/008-pinocchio-ww2/references/costs-desk-r001.png",
+      "sha256": "a96030fa4277e15556764cc63142bb166633c82185e45242a1efff26b1e77a91"
+    },
+    {
+      "path": "episodes/002-hiroshima-final-minute/delivery/youtube/thumbnail-episode-002-r002.png",
+      "sha256": "29d56a8f347f6ca5b363ae78ac888a5c4ec72215e1daaf5028380d857a7fd43b"
+    }
+  ],
+  "status": "frozen_for_generation"
+}

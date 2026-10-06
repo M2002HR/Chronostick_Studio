@@ -1,0 +1,29 @@
+{
+  "status": "assistant inspected alternative; creative improvement pending",
+  "saved_path": "plan/storyboard/storyboard-retry-a-r009.png",
+  "sha256": "7c5d0080fbe7585f04ad08fff504addffde823f43a39b80d0252ecf11c0ca2ee",
+  "size": [
+    1672,
+    941
+  ],
+  "panel_count": 3,
+  "panels": [
+    {
+      "id": "S19",
+      "result": "alternative draft; weaker visual variety",
+      "notes": "One reverse-side art sheet on desk, no person"
+    },
+    {
+      "id": "S20",
+      "result": "alternative draft; weaker visual variety",
+      "notes": "Second reverse-side art sheet on desk, no person; framing near-duplicate of S19"
+    },
+    {
+      "id": "S21",
+      "result": "alternative draft; weaker visual variety",
+      "notes": "Two paper backs within one display frame, small incidental framed edge in background"
+    }
+  ],
+  "style_note": "Portrait rough graphite human-proportion storyboard; final identity/style and aspect belong to production reference review. Currency-like decorative marks in d coins are incidental draft detail, not an approved in-engine text exception; final coins must be unmarked.",
+  "approved_by_user": false
+}

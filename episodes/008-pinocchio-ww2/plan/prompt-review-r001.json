@@ -1,0 +1,50 @@
+{
+  "reviewed_at": "2026-10-06T00:14:25.662200+00:00",
+  "reviewer": "assistant",
+  "decision": "approved_for_native_pilot",
+  "prompts": [
+    {
+      "path": "prompts/clip-01-film-opens-during-war.md",
+      "sha256": "b005d5f9dedbfd77ace69e29b51aecc0a60c9a581d10d609525d0f38001859a7",
+      "planned_shots": 6,
+      "policy_count": 1,
+      "reference_count": 4
+    },
+    {
+      "path": "prompts/clip-02-families-distribution-blocked.md",
+      "sha256": "f6cc0f987ce581337a110b8843fb1adabad35ebbc39957bae1196a8b20723260",
+      "planned_shots": 6,
+      "policy_count": 1,
+      "reference_count": 4
+    },
+    {
+      "path": "prompts/clip-03-costs-versus-receipts.md",
+      "sha256": "5c07fe2af157623aa5d7015d693cf8da8aebbb865ebb182bf2639c7a36b9da2c",
+      "planned_shots": 6,
+      "policy_count": 1,
+      "reference_count": 3
+    },
+    {
+      "path": "prompts/clip-04-publicity-and-recovery.md",
+      "sha256": "637b3fc6d85fb3dda784c50a0889d6af41c8dee1266c029424e0ed5a1fb0d684",
+      "planned_shots": 6,
+      "policy_count": 1,
+      "reference_count": 6
+    },
+    {
+      "path": "prompts/clip-05-return-and-fortune.md",
+      "sha256": "30e463c94eea70825295369209bb674dd1b0c26d5244b7fab6b7c4905b4a192c",
+      "planned_shots": 6,
+      "policy_count": 1,
+      "reference_count": 5
+    },
+    {
+      "path": "prompts/clip-06-marketing-payoff.md",
+      "sha256": "fc6ad5ae211613e8de5c243b7ff4168370a2c2f6330dd7c8b4d931cd7773dbe4",
+      "planned_shots": 6,
+      "policy_count": 1,
+      "reference_count": 4
+    }
+  ],
+  "checks": "All 36 action/inventory/end states, actual-reference variants, exact ordered picture roles, unique final audio sentence, 16-step timing and resolved tails reviewed. No factual content change or readable in-engine text."
+}

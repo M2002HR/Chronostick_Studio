@@ -1,0 +1,20 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:42:14.628122+00:00",
+  "clip_id": "clip-02",
+  "media": "renders/editorial/episode-008-clip-02-directed-composite-r004.mp4",
+  "sha256": "8c404cb56eb4b06af002d4e6c8f09f3cbc610b2ac91905ef12b0578609101db1",
+  "picture_decision": "approved_actual_directed_replacement",
+  "observed_cut_starts_frames": [
+    0,
+    54
+  ],
+  "picture_review": "All108actualcompositeframes inspected across four dense phone sheets. Same three family members turn away and step from empty cinema; no attendant, ticket, incoming money or purchase. Instantaneous cut at54/2.25s to one matching worker retaining one canister behind closed barrier with one still ship. Subdued glance resolves, final barrier stays horizontal at waist. No frames from failed money insert or later barrier drift. Both source portions independently reviewed before explicit direction and composite creation. No freeze, time stretch or source-story alteration.",
+  "provenance": "renders/clip-02-composite-provenance-r004.json",
+  "direction": "plan/clip-02-direction-r004.json",
+  "evidence": "renders/review-evidence/clip-02-r005",
+  "audio_decision": "explicit_silence_entire_native_sound_excluded",
+  "personal_listening_claimed": false,
+  "new_user_release_approval": false,
+  "retry_needed": false
+}

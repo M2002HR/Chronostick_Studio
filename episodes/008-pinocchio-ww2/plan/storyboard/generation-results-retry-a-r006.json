@@ -1,0 +1,11 @@
+{
+  "status": "rejected; no image",
+  "request": "storyboard-request-retry-a-r006.json",
+  "http_status": 400,
+  "moderation_stage": "output",
+  "categories": [
+    "other"
+  ],
+  "request_id": "55fce3a3-c273-4e61-8100-c83c51a6368a",
+  "specific_reason": null
+}

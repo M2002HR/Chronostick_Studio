@@ -1,0 +1,19 @@
+{
+  "purpose": "reference",
+  "revision": "r001",
+  "created_at": "2026-10-05T18:45:50.949598+00:00",
+  "input_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/source/reference-video/reference-pinocchio-ww2-r001.mp4",
+  "input_sha256": "a3e02969b1f524b15b0c3b49d66c8142246224beda39b9d76139e2387da8bf0b",
+  "audio_path": "reference-audio-r001.flac",
+  "audio_sha256": "77747930fd2d9c78e404d797db874205e93ea9be99cdd48ce5c5aed67abe98b9",
+  "audio_duration_seconds": 60.09325,
+  "language_requested": "en",
+  "endpoint": "/v1/audio/transcriptions",
+  "status": "failed",
+  "derivative_format": "flac",
+  "derivative_lossy": false,
+  "api_request_made": true,
+  "http_status": 200,
+  "raw_response_path": "reference-response-r001.json",
+  "raw_response_sha256": "6496ce5bc84f4632205794f248f2054701a3353a4933d5b46fd3a0e53220325e"
+}

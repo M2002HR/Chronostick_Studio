@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-06T00:57:46.093282+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/review-evidence/clip-03-r001/actual-audio.wav",
+  "video_sha256": "433b93e07f18e529e56593152ac557b955768879b7219e2908e946c349e93d24",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/script/narration-es.md",
+  "transcript_sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+  "request_sha256": "66bcbf9c3f9c8a6cedbf3faacb1ab091145739521b012b09837efd1665cdae87",
+  "status": "needs_review",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "instructions_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/audio-only-review-instructions.txt",
+  "intended_contract_supplied": false,
+  "actual_media_mime": "audio/wav",
+  "http_status": 200,
+  "response_sha256": "7c1b5b75c49b6457c04f61956afec5384348e579292b56cb6f2edd0c4e11b1ea"
+}

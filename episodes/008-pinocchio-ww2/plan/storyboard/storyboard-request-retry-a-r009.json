@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r009",
+  "created_at": "2026-10-05T19:59:34.354864+00:00",
+  "prompt": "Draw a rough graphite film-production storyboard with three upright 9:16 panels side by side on white paper. Use very spare pencil contours and minimal shading. Labels S19, S20, S21 in the outer margin. S19: Close side view of one studio animation-art sheet lying on a drawing desk, its illustrated face tilted away from the camera; the artwork itself is not readable from this angle. S20: Close side view of a second separate studio animation-art sheet on the desk, again seen from its blank reverse side. S21: Medium oblique view of the two art sheets mounted side by side in one promotional display frame on the studio wall; from this angle only the frame and paper edges are visible. No people. These are camera blocking sketches of the printed publicity material, with deliberately hidden artwork detail and completely wordless props.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-a.txt",
+  "prompt_sha256": "e6275151a786daf06fce6dff42cbddd32b29f615e805e86f72a9afac8805c04c",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-a-r009.png",
+  "shot_ids": [
+    "S19",
+    "S20",
+    "S21"
+  ],
+  "status": "prepared",
+  "visual_revision": "Oblique/reverse views of actual publicity props replace readable cartoon-identity detail in internal sketches. Same film publicity and military-viewer story roles; narration/figures/source claims unchanged. No new claim or production identity approval."
+}

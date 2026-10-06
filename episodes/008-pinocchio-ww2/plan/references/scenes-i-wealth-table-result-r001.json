@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:37:06.220973+00:00",
+  "id": "wealth-table",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-i-requests-r001.json",
+  "request_sha256": "bd3813727843b284b087b7f57bef251c77f0693f6b01564798a20ce5e0f66885",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-f01bb2d6-a024-4111-92d0-24c57f078c18.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/wealth-table-r001.png",
+  "sha256": "f4031a5f92f927d122d54f2213b0a18ac6017ab67652cbdd2b4c5995d326d403",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

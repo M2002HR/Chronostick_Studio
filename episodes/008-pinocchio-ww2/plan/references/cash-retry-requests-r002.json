@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-05T22:13:14.169392+00:00",
+  "revision": "r002",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "cash-accumulates",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/cash-accumulates.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nSame supplied brown receipts table and amber upper-left light. Exactly one now full plain beige tied money bag center-right, noticeably fuller than initial small receipts bag, with a moderate mound of smooth unmarked gold coins left. One isolated pale simplified mitten hand with charcoal cuff rests on bag knot from upper right, poised to release; no whole people or extra hands. Close slight overhead camera with table edge lower frame. No currency marks or labels; bag/coins matte drawn and clear dark outlines.\n",
+      "prompt_sha256": "44df21d1db1d1e5210907cb6430406239e9aadba3f7ebe6619719c949811bcfb",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/receipts-small-r001.png",
+          "sha256": "8c2ce7b73deea2d1838e9682088682c390d5820f7c991d0c5520514ae3383fab",
+          "role": "receipts-small"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/receipts-small-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/cash-accumulates-r002.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S28"
+      ]
+    }
+  ]
+}

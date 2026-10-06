@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-06T01:43:34.944341+00:00",
+  "status": "technical_concat_pass",
+  "source": "final/picture-concat-r001.mp4",
+  "sha256": "914c4a7e903db716f898244b69273cce7b3e7f81ca190586946f0c64c86b1ed1",
+  "frames": 773,
+  "fps": 24,
+  "seconds": 32.208333333333336,
+  "natural_order": [
+    "clip-01",
+    "clip-02",
+    "clip-03",
+    "clip-04",
+    "clip-05",
+    "clip-06"
+  ],
+  "every_selected_picture_frame_compared": true,
+  "method": "same-index120x216decodedgrayscaleMAE usingframepassthrough",
+  "max_mae_255": 0.0,
+  "mean_mae_255": 0.0,
+  "bit_exact_grayscale": true,
+  "selected_sfx_stem": "audio/sfx/selected-full-stem-r001.wav",
+  "seam_audio_policy": "Old muxedconcat audio is not final sound authority; exact per-frame48kstem mixed once at finishing."
+}

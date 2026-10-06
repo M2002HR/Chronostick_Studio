@@ -1,0 +1,20 @@
+{
+  "source": "renders/editorial/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+  "source_sha256": "fe153e496f421405f4336fc58fb2b72b05a29e0b080e56222efcb8271846310f",
+  "output": "renders/audio-corrected/episode-008-clip-04-r001-clean-sfx-r001.mp4",
+  "stem": "audio/sfx/clip-04-clean-stem-r001.wav",
+  "native_audio": "exclude_completely",
+  "reason": "Actual machine listening reports music; exclude complete soundtrack. Same previously user-auditioned recorded physical excerpt, new placement reviewed from actual frames only.",
+  "picture_review": "renders/clip-04-review-r001.json",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/reusable-recordings-r001/paper-short-r001.wav",
+      "asset_sha256": "52b363d47b03c4a496dc5fab9bf5a19b71c2ae421bf3a37a27c8083320fac39e",
+      "review_status": "approved",
+      "review_evidence": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/plan/native-sfx-priority-r001.json",
+      "start_seconds": 5.541666666666667,
+      "gain_db": 0,
+      "observed_action": "Actual ticket makes first palm contact around localframe133/5.542sec. One brief dry papercontact. Static first sheet alreadyflat, rollers and viewer receive no invented contactcue."
+    }
+  ]
+}

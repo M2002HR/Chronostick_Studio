@@ -1,0 +1,13 @@
+{
+  "revision": "r004",
+  "created_at": "2026-10-06T00:17:10.864307+00:00",
+  "prompt": "Edit the supplied complete illustration. Preserve its film reel, silver film tin, two beige bags, coins, projection-room lighting, drawn rendering, headline wording and heavy outlined typography. The exact headline stays on two lines: PINOCHO in warm white, ¿84 MILLONES? in yellow-gold. Recompose only the headline: slightly reduce its total size to 90 percent of current size and place its uppermost outline/shadow at 15 percent of full image height. Absolutely no lettering, outline or text shadow in the upper 13 percent. Keep both lines centered, full inverted opening question mark and closing question mark safely visible, generous side margins. The whole headline must fit above the top of the reel. Keep the rest as one continuous finished vertical 9:16 illustrated thumbnail; no added words, figures, panels, borders or objects.",
+  "prompt_sha256": "2bd140717e5c616bce3951e016cfeadf2f565c3ffb6a2640cab61599188ef92d",
+  "saved_direction": "episodes/008-pinocchio-ww2/delivery/youtube/thumbnail-prompt-r004.md",
+  "inputs": [
+    {
+      "path": "episodes/008-pinocchio-ww2/delivery/youtube/thumbnail-source-r003.png",
+      "sha256": "2fb0b92ca8ec64723907be38ce5fe532276ab48023e398ba9bd27ce603ac9974"
+    }
+  ]
+}

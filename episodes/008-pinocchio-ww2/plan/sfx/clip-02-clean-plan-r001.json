@@ -1,0 +1,10 @@
+{
+  "source": "renders/editorial/episode-008-clip-02-directed-composite-r004.mp4",
+  "source_sha256": "8c404cb56eb4b06af002d4e6c8f09f3cbc610b2ac91905ef12b0578609101db1",
+  "output": "renders/audio-corrected/episode-008-clip-02-composite-r004-silent-r001.mp4",
+  "stem": "audio/sfx/clip-02-silent-stem-r004.wav",
+  "native_audio": "exclude_completely",
+  "reason": "Directed replacement selects picture only from actual reviewed source portions. Source family audio contains sustained rattle; static dock has no contact needing a cue. Whole clip explicitly silent beneath external narration.",
+  "picture_review": "renders/clip-02-composite-review-r004.json",
+  "cues": []
+}

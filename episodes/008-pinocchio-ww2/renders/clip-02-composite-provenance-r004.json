@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-10-06T01:41:24.761954+00:00",
+  "status": "technical_composite_needs_actual_review",
+  "output": "renders/editorial/episode-008-clip-02-directed-composite-r004.mp4",
+  "sha256": "8c404cb56eb4b06af002d4e6c8f09f3cbc610b2ac91905ef12b0578609101db1",
+  "direction": "plan/clip-02-direction-r004.json",
+  "sources": [
+    {
+      "path": "renders/editorial/episode-008-clip-02-families-distribution-blocked-r003.mp4",
+      "sha256": "a6cd2b464d55f0d0e8cad23b6019cb9a0f34920802ad7fa4463c0c5b66ebcb44",
+      "frames": [
+        0,
+        54
+      ],
+      "output_frames": [
+        0,
+        54
+      ],
+      "review": "renders/clip-02-review-r003.json"
+    },
+    {
+      "path": "renders/editorial/episode-008-clip-02-isolated-dock-r004.mp4",
+      "sha256": "e1c98ab7c572b6098414638421e1f1d10b601e6570e01cfbe8d25860f7eb0388",
+      "frames": [
+        0,
+        54
+      ],
+      "output_frames": [
+        54,
+        108
+      ],
+      "review": "renders/clip-02-isolated-dock-review-r004.json"
+    }
+  ],
+  "frames": 108,
+  "fps": 24,
+  "seconds": 4.5,
+  "native_audio_contribution_samples": 0,
+  "no_time_stretch": true,
+  "no_freeze": true,
+  "decoded_frame_correspondence": {
+    "compared_frames": 108,
+    "method": "same-index120x216decodedgrayscaleMAE",
+    "max_mae_255": 0.5496913580246914,
+    "mean_mae_255": 0.36052669181527197,
+    "bit_exact_claim": false
+  },
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/editorial/episode-008-clip-02-families-distribution-blocked-r003.mp4",
+    "-i",
+    "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/editorial/episode-008-clip-02-isolated-dock-r004.mp4",
+    "-filter_complex",
+    "[0:v:0]trim=start_frame=0:end_frame=54,setpts=PTS-STARTPTS[f];[1:v:0]trim=start_frame=0:end_frame=54,setpts=PTS-STARTPTS[d];[f][d]concat=n=2:v=1:a=0[v]",
+    "-map",
+    "[v]",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "16",
+    "-preset",
+    "medium",
+    "-pix_fmt",
+    "yuv420p",
+    "-r",
+    "24",
+    "-frames:v",
+    "108",
+    "-movflags",
+    "+faststart",
+    "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/editorial/episode-008-clip-02-directed-composite-r004.mp4"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T21:39:58.397814+00:00",
+  "id": "receipts-small",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "f87530cf2f810d67b07cab978bdf4069267a07ee4c0e8f76df92e603ece056cb",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-252b175e-db3a-4ec9-8518-3da771082ba7.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/receipts-small-r001.png",
+  "sha256": "8c2ce7b73deea2d1838e9682088682c390d5820f7c991d0c5520514ae3383fab",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r006",
+  "created_at": "2026-10-05T19:51:17.055591+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-b.txt",
+  "prompt": "Three graphite storyboard panels in one horizontal row, each panel an upright 9:16 frame. Rough spare pencil contours of ordinary adults on white paper; documentary film composition sketches set in the 1940s. Labels S22, S23, S24 in the outer white margin.\nS22: Medium view of exactly one adult serviceman in a plain World War II-era service uniform calmly looking at a wall poster. The wordless poster contains exactly two printed cartoon characters: Pinocchio in his ordinary puppet costume and Mickey Mouse in his ordinary shorts. Show the viewer from behind, with the full poster visible.\nS23: Close-up of two hands exchanging a blank cinema ticket for a few coins at a counter, with no full bodies visible.\nS24: Medium view of exactly one anonymous adult film producer in a suit behind a table, noticing increased receipts and straightening with a hopeful expression. Plain coins and paper slips on the table.\nWordless scenes. Simple neutral human proportions, very little shading or facial detail. These are illustrative documentary compositions.\n",
+  "prompt_sha256": "0e5a5e9a9500b5fbb1bb9630305c5661bb306d34425f2905b0674fcec5618456",
+  "transparent_background": false,
+  "shot_ids": [
+    "S22",
+    "S23",
+    "S24"
+  ],
+  "output_path": "plan/storyboard/storyboard-retry-b-r006.png",
+  "status": "prepared",
+  "adaptation": "Split unresolved six-panel pages into three-panel boards; directly name the source fictional film characters. Preserve adult military viewer, source narrative and exact shot roles; no historical verification."
+}

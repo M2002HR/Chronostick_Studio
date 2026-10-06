@@ -1,0 +1,1191 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "008-pinocchio-ww2",
+  "status": "reviewed_selected",
+  "planning_review": {
+    "reviewer": "assistant",
+    "reviewed_at": "2026-10-05T20:49:25.237618+00:00",
+    "decision": "All eight accepted neutral pages visually inspected against shot-list and source analysis. Thirty necessary references: four individual identities plus twenty-six single-scene anchors. Anonymous family identity is controlled by one reviewed three-person cinema scene, inherited by return scene. Larger video allocations justified shot-by-shot, configured H3 maximum nine verified; actual live job validation remains required.",
+    "user_storyboard_decision": "plan/review-decisions.json"
+  },
+  "storyboard": {
+    "shot_list_path": "plan/storyboard/shot-list.json",
+    "selected_pages": [
+      "plan/storyboard/storyboard-page-01-r002.png",
+      "plan/storyboard/storyboard-page-02-r005.png",
+      "plan/storyboard/storyboard-retry-a-r010.png",
+      "plan/storyboard/storyboard-retry-b1-r010.png",
+      "plan/storyboard/storyboard-retry-b2-r008.png",
+      "plan/storyboard/storyboard-page-04-r005.png",
+      "plan/storyboard/storyboard-retry-c-r006.png",
+      "plan/storyboard/storyboard-retry-d-r009.png"
+    ],
+    "role": "Composition/action only; never image/H3 generation inputs"
+  },
+  "reuse_decision": "Reuse locked master rendering style only. Existing French 18th-century/Japanese/presidential/1605 character, world and aircraft assets mismatch period, region, identity or action. No source-specific scene asset is reusable.",
+  "reference_limit_evidence": {
+    "reviewed_at": "2026-10-05T20:49:25.237618+00:00",
+    "capabilities_path": "plan/references/service-capability-r001.json",
+    "capabilities_sha256": "08e600db6af216408de0e7d83e8c4ba6ff45b19d8e1a4cd88722997a063c26cc",
+    "configured_maximum_references": 9,
+    "evidence": [
+      {
+        "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/models.py",
+        "sha256": "d89ae80728d4dcf840cadd8edf8beee4eadb7a4919df04e14a0a669e32f59fcb",
+        "evidence": "models.py Field(max_length=9); resolver.py rejects above 9"
+      },
+      {
+        "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/resolver.py",
+        "sha256": "3787c78ef4d46f98db82f0efaea49f3cac25f30486398b45ca8cd410e4d3d92a",
+        "evidence": "models.py Field(max_length=9); resolver.py rejects above 9"
+      }
+    ],
+    "actual_job_validation": "required against live API after selected references/prompts; no video generation authorized by this planning check"
+  },
+  "entries": [
+    {
+      "id": "identity-producer",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S03",
+        "S15",
+        "S18",
+        "S24",
+        "S33",
+        "S35",
+        "S36"
+      ],
+      "source_analysis_ids": [
+        "A02",
+        "A05",
+        "A06",
+        "A09",
+        "A10"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-producer.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+      "sha256": "e3217d6e78d2cf76331d1d05003f3ab940223385fc7353d90084c5d5dba52520",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-01",
+        "clip-03",
+        "clip-04",
+        "clip-06"
+      ],
+      "coverage_note": "Anonymous film-producer role, not a portrait of a named real person. Appearance only; scene/state anchors still required.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:29:52.796004+00:00",
+        "decision": "Actual full and phone image reviewed: exactly one round-headed navy-suited producer, burgundy tie, dark side-part hair, narrow stick proportions, no text/extras. Approved anonymous identity only.",
+        "evidence": "plan/references/inspection-r001/identity-producer-r001-phone.png"
+      }
+    },
+    {
+      "id": "identity-wooden-boy",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S09",
+        "S13",
+        "S14",
+        "S15",
+        "S25",
+        "S26"
+      ],
+      "source_analysis_ids": [
+        "A02",
+        "A05",
+        "A06",
+        "A09",
+        "A10"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-wooden-boy.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png",
+      "sha256": "987966af04b895dbcf3a4320cb5805d4e0d1d33656024727ad80ac2cf7879201",
+      "revision": "r005",
+      "review_status": "approved",
+      "clips": [
+        "clip-01",
+        "clip-02",
+        "clip-03",
+        "clip-05"
+      ],
+      "coverage_note": "Source film puppet recognition translated into the locked stick-world. Printed/projected only in story scenes; this identity image does not authorize a live puppet in a cinema.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:07:02.139653+00:00",
+        "decision": "Actual full/phone compared with master, accepted vector identity and storyboard puppet: one round ivory wooden head, minimal dot eyes/short nose/closed smile, dark forelock, mustard cap and one burgundy feather, cream short sleeves, brown vest, blue bow, burgundy shorts, brown shoes; narrow wooden stick limbs and visible joint discs, simple mitten hands. Approximately five-head stylization, rich matte contour-drawn folds now match human identity shading. Zero text/extra characters, full safe body. Approved final stick Pinocchio. Existing frozen r004-derived scene calls keep unchanged authority bytes and same cue list; no identity redesign.",
+        "evidence": "plan/references/inspection-r005/identity-wooden-boy-r005-phone.png"
+      },
+      "generation_method": "image_gen.imagegen_with_original_vector_identity",
+      "provenance_path": "plan/references/puppet-polish-identity-wooden-boy-result-r005.json",
+      "content_images": [
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png",
+          "role": "original reviewed puppet identity and pose"
+        }
+      ],
+      "accepted_history": [
+        {
+          "selected_path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png",
+          "sha256": "18ebd24f1e28af1a3ca0011fee3ffe9df5a57431a0c3e87b634038618502d311",
+          "revision": "r004",
+          "review_status": "approved",
+          "review_decision": {
+            "reviewer": "assistant",
+            "reviewed_at": "2026-10-05T21:37:31.306082+00:00",
+            "decision": "Actual full/phone image reviewed against master and accepted puppet panels: one circular off-white wooden head, dot eyes, short nose, closed smile, mustard cap with single burgundy feather, cream shirt, brown vest, dusty-blue bow, burgundy shorts, brown shoes, narrow jointed wooden limbs, mitten hands. Bare-head-to-sole approximately 5.2 head diameters. No text/extras, full body safely framed. Original vector construction is simpler shading than AI identities; subsequent scene references must inherit master rendering while preserving these identity cues. Approved recognizable stick Pinocchio identity, not future scene approval.",
+            "evidence": "plan/references/inspection-r004/identity-wooden-boy-r004-phone.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identity-dock-worker",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "source_analysis_ids": [
+        "A04",
+        "A07"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-dock-worker.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/identity-dock-worker-r001.png",
+      "sha256": "b29f5a0f854c85f16b97ac07d6a9751b470d19a09f66d8363ef44c2bd5604500",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-02"
+      ],
+      "coverage_note": "Anonymous delivery worker, appearance only; dock/barrier/canister anchors carry action state.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:29:52.796004+00:00",
+        "decision": "Actual full and phone image reviewed: exactly one round-headed adult with navy flat cap, rolled warm-taupe shirt, suspenders, khaki trousers and brown boots. Actual warm-taupe shirt is locked for scene inheritance; clean outlined stick-world, no text/extras.",
+        "evidence": "plan/references/inspection-r001/identity-dock-worker-r001-phone.png"
+      }
+    },
+    {
+      "id": "identity-serviceman",
+      "kind": "identity",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S06",
+        "S22"
+      ],
+      "source_analysis_ids": [
+        "A01",
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-serviceman.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/identity-serviceman-r001.png",
+      "sha256": "e027b1815c2719406fa87c3d7e4361535d31f8661e30af6a80553e04672fd476",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-01",
+        "clip-04"
+      ],
+      "coverage_note": "Anonymous service-uniform role. Helmet in street and garrison cap in cinema are explicit scene headwear variants; no named unit/verified insignia claim.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:29:52.796004+00:00",
+        "decision": "Actual full and phone image reviewed: exactly one round-headed olive-uniformed adult, garrison cap, two pockets and belt, narrow drawn limbs, no insignia/text/extras. Helmet scene variant remains explicit.",
+        "evidence": "plan/references/inspection-r001/identity-serviceman-r001-phone.png"
+      }
+    },
+    {
+      "id": "projection-booth",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S01",
+        "S03"
+      ],
+      "source_analysis_ids": [
+        "A02",
+        "A09"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-producer"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/projection-booth.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/projection-booth-r002.png",
+      "sha256": "e1b11c4122e89732f3fe7535edbadcfe7149cacab19d1dff86bb561c5ab20f54",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [
+        "clip-01"
+      ],
+      "coverage_note": "Reel insert can crop producer out; medium producer operating one projector has one visible person.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:22:32.532843+00:00",
+        "decision": "Actual full/phone: one fixed navy-suited producer left, burgundy tie and side-part hair, one illustrated charcoal projector right with clearly visible six-spoke top and lower reels/lens, pale simplified hand at lever. No text/extras. Warm industrial cinema booth with caged lamp, static canisters/cloth/bench boxes as incidental fixed film-room dressing. S01 tight top-reel crop excludes producer/dressing; S03 medium includes producer/projector in same state. Identity/style and film machinery clearly readable.",
+        "evidence": "plan/references/inspection-r002/projection-booth-r002-phone.png"
+      }
+    },
+    {
+      "id": "cinema-exterior",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S02",
+        "S04"
+      ],
+      "source_analysis_ids": [
+        "A02"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-wooden-boy"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/cinema-exterior.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/cinema-exterior-r002.png",
+      "sha256": "ac6a750a992bc3fba6aa817ad93fd68fea409008b1526870e43b80a602b56a23",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [
+        "clip-01"
+      ],
+      "coverage_note": "One continuous empty cinema facade with one wordless puppet film poster; no people. S04 uses close crop of existing wordless puppet film poster instead of ungenerated projected-film scene; preserves film identity and narration. Actual full/phone poster inspected, no new character/event.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:25:00.062413+00:00",
+        "decision": "Actual full/phone: empty period art-deco cinema, blank horizontal marquee, centered double wood/glass doors, brass right ticket booth, one left wordless blue poster depicting the approved stick puppet. No live people, lettering or logos. Entire outlined illustrated facade/street fits portrait. Background tree shadows are fixed setting detail. Strong cinema semantics and separate poster figure, S02 approved; later family anchors must preserve this exact facade.",
+        "evidence": "plan/references/inspection-r002/cinema-exterior-r002-phone.png"
+      }
+    },
+    {
+      "id": "wartime-sky",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S05"
+      ],
+      "source_analysis_ids": [
+        "A01"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/wartime-sky.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/wartime-sky-r001.png",
+      "sha256": "c38ea0848fa46099dc10e5376a47e0b6e096b33d08383eb4f3dfd8e0315009d2",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-01"
+      ],
+      "coverage_note": "Exactly two rigid WWII-style twin-propeller silhouettes over European roofs; zero people/bombs/cinema.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:36:07.421431+00:00",
+        "decision": "Actual full image and phone preview: two distinct propeller planes above European drawn pitched roofs, two foreground chimney stacks, no people/cinema/explosions. Detailed contour-drawn buildings/aircraft and softly painted illustrated sky remain coherent with master. Roundels on planes are non-readable decoration, not a claim of exact model/unit. Approved S05 sky coverage only.",
+        "evidence": "plan/references/inspection-r001/wartime-sky-r001-phone.png"
+      }
+    },
+    {
+      "id": "wartime-wall",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S06"
+      ],
+      "source_analysis_ids": [
+        "A01"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-serviceman"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/wartime-wall.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/wartime-wall-r001.png",
+      "sha256": "74436dcd04d11dfc929b500c9f8420e19f430ca695f70ce83d0d6fe49207f913",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-01"
+      ],
+      "coverage_note": "One helmeted crouching soldier behind damaged wall; props and geography as panel, no casualties.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:00:14.352281+00:00",
+        "decision": "Actual full/phone: one round-headed olive-uniform soldier, steel helmet variant, pale mitten hands and slim crouched limbs, one rifle held low behind damaged brick wall, no firing/casualties/extras/text. Detailed drawn outlined masonry and clothing with soft illustrative depth; current count/action/quiet war context matches S06. Approved only this anonymous role/street state.",
+        "evidence": "plan/references/inspection-r001/wartime-wall-r001-phone.png"
+      }
+    },
+    {
+      "id": "cinema-family",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S07",
+        "S09"
+      ],
+      "source_analysis_ids": [
+        "A05"
+      ],
+      "subject_count": 3,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "cinema-exterior"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/cinema-family.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png",
+      "sha256": "3ada3d7f4ee910528b114fbbec5925329612d47c20d169a5603c43604f3ff669",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-02"
+      ],
+      "coverage_note": "One father, one mother, one child; this reviewed single-scene anchor establishes their distinct anonymous identities and the booth geometry for both poses.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:28:18.016982+00:00",
+        "decision": "Actual full/phone compared with cinema and S07/S09: exactly three live stick family members, father left brown fedora/coat/charcoal trousers/brown shoes, mother center olive cloche with brown band and dark low bun/burgundy coat/brown handbag/shoes, child right short tousled chestnut hair/dusty-blue jacket/shorts/brown shoes at about 65 percent adult height. Round heads/dot eyes/narrow stick anatomy, one printed puppet on existing left poster. Same facade/blank marquee/right empty booth, no attendant/crowd/text. Approved anonymous family identity and cinema setting; inherits exact actual hat/hair details.",
+        "evidence": "plan/references/inspection-r001/cinema-family-r001-phone.png"
+      }
+    },
+    {
+      "id": "hand-two-coins",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S08"
+      ],
+      "source_analysis_ids": [
+        "A05"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "cinema-family"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/hand-two-coins.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/hand-two-coins-r001.png",
+      "sha256": "3ea28410bd422d47f280a184def1f7627cc8909123363dd80d17c57558ff52eb",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-02"
+      ],
+      "coverage_note": "Exactly one stylized parent hand and two unmarked coins, no full person; same booth/cuff as family anchor.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:54:16.037342+00:00",
+        "decision": "Full and phone review: exactly one isolated pale simplified mitten with brown coat cuff holds exactly two unmarked gold coins against the same brass/wood booth; zero full people or text.",
+        "evidence": "plan/references/inspection-r001/hand-two-coins-r001-phone.png"
+      }
+    },
+    {
+      "id": "dock-approach",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S10",
+        "S11"
+      ],
+      "source_analysis_ids": [
+        "A04",
+        "A07"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-dock-worker"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/dock-approach.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/dock-approach-r001.png",
+      "sha256": "3448047278d58cda1a67beef8d18d8e0ced1740a95fb71141e7b55b478f13555",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-02"
+      ],
+      "coverage_note": "One worker/canister and barrier before closure; supports worker approach and barrier lowering. Explicit gate-start clarification avoids closed/open/closed regression in incidental sketch background.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:08:10.897634+00:00",
+        "decision": "Actual full/phone: exactly one fixed flat-cap/taupe-shirt/suspender worker holding one closed blank silver canister, raised hinged red/cream wooden barrier right, one still cargo ship with two masts/one stack, drawn sea and dock. Left incidental closed cargo-crate stack, one beige cargo sack and coiled ropes are fixed scenery. No crew/guards/lettering. Figure remains round-headed/narrow, illustrated all-frame geometry readable. Approved S10 approach and S11 lowered-barrier close coverage; matching closed-state reference still needed.",
+        "evidence": "plan/references/inspection-r001/dock-approach-r001-phone.png"
+      }
+    },
+    {
+      "id": "dock-blocked",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S12"
+      ],
+      "source_analysis_ids": [
+        "A04",
+        "A07"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "dock-approach"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/dock-blocked.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/dock-blocked-r001.png",
+      "sha256": "4b5b00f398b013e57dd0de3b0d3ffe185a8bb0be88d4fee58624da9a64239d22",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-02"
+      ],
+      "coverage_note": "Same worker, canister, closed barrier and still cargo ship; settled blockage, zero extras.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:12:13.173987+00:00",
+        "decision": "Actual full/phone compared to open-state: same one flat-cap/taupe worker, one closed blank canister, red/cream hinged barrier now horizontal, one still two-mast/one-stack ship, same outlined dock/sea/crates/ropes/cargo sack. Worker looks down, canister undelivered. Camera observes barrier in near foreground overlapping worker lower body, not a literal near-side shipping diagram; retain this actual geometry in prompt. Accepted symbolic distribution blockade, no action showing successful passage/loading, no extra crew/text.",
+        "evidence": "plan/references/inspection-r001/dock-blocked-r001-phone.png"
+      }
+    },
+    {
+      "id": "costs-desk",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-producer",
+        "identity-wooden-boy"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/costs-desk.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/costs-desk-r001.png",
+      "sha256": "a96030fa4277e15556764cc63142bb166633c82185e45242a1efff26b1e77a91",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-03"
+      ],
+      "coverage_note": "Producer, full plain bags/coins, puppet drawing stack. Hand insert and coin crop exclude full producer while medium reveals him.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:05:39.513859+00:00",
+        "decision": "Actual full/phone: one fixed navy-suited producer with burgundy tie and dark side part; one mitten on nearest bag, exactly three beige tied cost bags, large unmarked coin mound, wordless animation stack with recognizable supplied stick Pinocchio. No extra people/text. Warm desk illustration and camera crop support S13 bag-hand insert, S14 money macro, S15 producer medium. Illustrated paper drawing retains narrow jointed stick identity.",
+        "evidence": "plan/references/inspection-r001/costs-desk-r001-phone.png"
+      }
+    },
+    {
+      "id": "receipts-small",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S16",
+        "S17"
+      ],
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/receipts-small.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/receipts-small-r001.png",
+      "sha256": "8c2ce7b73deea2d1838e9682088682c390d5820f7c991d0c5520514ae3383fab",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-03"
+      ],
+      "coverage_note": "One detached plain placement hand, one partly filled bag and four sparse coins; subsequent insert crops/withdraws hand with no full people.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:41:11.824269+00:00",
+        "decision": "Full image and phone: one simplified pale mitten/charcoal cuff, one beige tied bag and exactly four plain coins on brown tabletop, no faces/extras/marks. Bag moderately rounded but reads small within generous sparse table; comparative costs anchor must be substantially larger. Approved S16 placement/release and S17 hand-excluding crop.",
+        "evidence": "plan/references/inspection-r001/receipts-small-r001-phone.png"
+      }
+    },
+    {
+      "id": "financial-contrast",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S18"
+      ],
+      "source_analysis_ids": [
+        "A05",
+        "A06"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "costs-desk",
+        "receipts-small"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/financial-contrast.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/financial-contrast-r001.png",
+      "sha256": "a05158d059242af55339effa9cfc368e03ce940f74e9ab813170dfe131f53bf3",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-03"
+      ],
+      "coverage_note": "Same producer/table, big costs left/small receipts right; no exact numerical graphic or future fortune.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:26:30.993271+00:00",
+        "decision": "Full/phone: exactly one same producer, three large beige cost bags/large coin mound on left, one small bag/exactly four sparse coins on right, wordless puppet sheets far-left. Producer seated with left mitten at cheek and lowered head rather than standing; emotional financial disappointment and clear left/right asymmetry preserved. No text/extras. S18 final posture should stay seated/leaning and resolved, not force a standing transition.",
+        "evidence": "plan/references/inspection-r001/financial-contrast-r001-phone.png"
+      }
+    },
+    {
+      "id": "publicity-preparation",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S19"
+      ],
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/publicity-preparation.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/publicity-preparation-r001.png",
+      "sha256": "d9cc15dcedd565328c86bef55a38acc1847e2148378d91fa50e7f54bcfeb8459",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "One detached hand places reverse art sheet on desk with ink jar/pencils; no visible artwork face.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:58:22.551234+00:00",
+        "decision": "Full and phone: one isolated simplified mitten/navy cuff touching one reverse cream sheet, two pencils and one unmarked ink jar at left, incidental shaded desk lamp upper-left. No face/artwork/text. Warm contour-drawn illustration and S19 inventory clear. Actual lamp is fixed lighting prop, permitted minor scene-detail variation.",
+        "evidence": "plan/references/inspection-r001/publicity-preparation-r001-phone.png"
+      }
+    },
+    {
+      "id": "printing-rollers",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S20"
+      ],
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/printing-rollers.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/printing-rollers-r001.png",
+      "sha256": "80eb9c34985e1bb806bcdccb6812212d9ea112dc026aff76c3b35194b9705bcd",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "One sheet entering illustrated roller press, no people; purely source-inspired mechanism, no researched print-machine claim.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:41:11.825407+00:00",
+        "decision": "Full image and phone: one period-style illustrated frame with exactly two rollers, single blank sheet and ink tray, no people/art/text. Strong contour-drawn mechanism and warm workshop surfaces. Approved S20 paper-feed insert; paper begins at lower right.",
+        "evidence": "plan/references/inspection-r001/printing-rollers-r001-phone.png"
+      }
+    },
+    {
+      "id": "publicity-display",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S21"
+      ],
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/publicity-display.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/publicity-display-r001.png",
+      "sha256": "e48dad3f05ca2f05affe92078ba5922565abb3c0433ba2d9b7175d63641e90f8",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "One freestanding display, two paper backs, no viewer. Geometry must persist in viewer scene.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T21:54:43.548321+00:00",
+        "decision": "Full and phone reviewed: one wooden freestanding frame, exactly two cream unprinted paper backs, two stable legs/feet, zero people/art/text. Warm illustrated lobby. Cards arranged vertically for portrait legibility rather than neutral broad-panel side-by-side; minor layout reconciliation retains count/action/meaning and does not change narration. S21 approved; viewer geometry must put adult beyond hidden front.",
+        "evidence": "plan/references/inspection-r001/publicity-display-r001-phone.png"
+      }
+    },
+    {
+      "id": "publicity-viewer",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S22"
+      ],
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "publicity-display",
+        "identity-serviceman"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/publicity-viewer.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/publicity-viewer-r001.png",
+      "sha256": "3ea9c76b9e8648175bc5315c2f6db2dc249b44e4d9e7746dae0dcc040ef89d8d",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "Adult beyond the display faces hidden front; camera sees rear foreground. Exact eye-line and floor stand inherited from accepted panel.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:13:13.979752+00:00",
+        "decision": "Full and phone inspected against accepted S22: exactly one fixed olive-uniform/garrison-cap serviceman at left, physically beyond foreground display, facing right toward its hidden front. Camera sees two blank rear papers/right foreground grounded wooden stand. No extra people/art/text; illustrated style and recurring identity retained. Display taller than shoulder-target, acceptable large publicity frame variation; front/rear eye-line logic stays clear.",
+        "evidence": "plan/references/inspection-r001/publicity-viewer-r001-phone.png"
+      }
+    },
+    {
+      "id": "ticket-sale",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S23"
+      ],
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "cinema-family"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/ticket-sale.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/ticket-sale-r001.png",
+      "sha256": "c36816650dffec7016e6cc42532ceab5264b4450593033ddfccd13552d789317",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "Two detached hands exchange one blank ticket and coins at same booth; no face/full person.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:54:16.038478+00:00",
+        "decision": "Full and phone review: two detached pale mittens, brown customer cuff lower left with two plain coins; cream-shirt attendant cuff upper right extending one blank cream ticket with scalloped short edge. Same brass window and wooden counter. Partial waistcoat at edge is fixed attendant dressing, no complete person or lettering.",
+        "evidence": "plan/references/inspection-r001/ticket-sale-r001-phone.png"
+      }
+    },
+    {
+      "id": "producer-hopeful",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S24"
+      ],
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-producer",
+        "costs-desk"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/producer-hopeful.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/producer-hopeful-r001.png",
+      "sha256": "556f673894b0e68222efa5442c3c88a92115136915937063133a4015df4af3e0",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-04"
+      ],
+      "coverage_note": "One producer upright by fuller receipts, same studio/table family; no cash throne.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:26:30.994307+00:00",
+        "decision": "Full/phone: exactly one fixed navy-suited producer with burgundy tie, dark side-part hair and round dot-eyed face, two moderate receipt bags/coin pile right, wordless puppet sheets left. Seated upright at desk rather than full standing; hope expressed by head lift/closed smile and posture. Same illustrated studio palette. S24 upper-body straightening remains achievable; accepted minor pose variant without story change.",
+        "evidence": "plan/references/inspection-r001/producer-hopeful-r001-phone.png"
+      }
+    },
+    {
+      "id": "canister-return",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S25"
+      ],
+      "source_analysis_ids": [
+        "A09",
+        "A10"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "projection-booth",
+        "identity-wooden-boy"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/canister-return.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/canister-return-r002.png",
+      "sha256": "860c4f39ef5aeef5062706bacab9f0829ddf1fa53eb6b93805551e9b9675c4db",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "One detached hand sets single canister with wordless puppet lid beside same projector; no full person.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:48:44.216743+00:00",
+        "decision": "Actual full/phone: one closed silver film canister with layered drawn rim/body bands, one wordless round wooden puppet head/cap/blue-bow emblem on lid, one isolated pale mitten/navy cuff at upper left. Same illustrated projector/bench and amber light, no complete producer/text/extra hands. Head-and-cap emblem replaces full-body lid art only; approved recognizable film return S25, same accepted puppet identity. Metal/paper/wood all contour-drawn, no image grid.",
+        "evidence": "plan/references/inspection-r002/canister-return-r002-phone.png"
+      }
+    },
+    {
+      "id": "cinema-family-return",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S26"
+      ],
+      "source_analysis_ids": [
+        "A02",
+        "A09"
+      ],
+      "subject_count": 4,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "cinema-family"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/cinema-family-return.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-return-r001.png",
+      "sha256": "e8062fa0da3cb0e943de430f62dfe47f29e968d3ef470f4f992b1907d74278cc",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "Same three family identities approaching booth plus exactly one named-role attendant visible inside; no crowd.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:54:16.039491+00:00",
+        "decision": "Full and phone review: exactly three returning family members plus one attendant inside the booth. Same father brown fedora/coat, mother olive hat with brown band and low bun/burgundy coat/handbag, child tousled chestnut hair/dusty blue jacket and shorts. Attendant cream shirt, charcoal waistcoat, bow tie; printed puppet poster remains an inert picture. No added crowds or readable marquee.",
+        "evidence": "plan/references/inspection-r001/cinema-family-return-r001-phone.png"
+      }
+    },
+    {
+      "id": "ticket-tear",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S27"
+      ],
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "ticket-sale"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/ticket-tear.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/ticket-tear-r001.png",
+      "sha256": "5251a91035254921950c3a698441529e2cb69658fd35c832cd9da2156a24c252",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "Two detached hands tear one unprinted ticket; no faces/numerals, same ticket stock/cinema setting.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-06T00:11:15.828092+00:00",
+        "decision": "Actual full and phone review: exactly two detached pale mittens hold one intact unprinted cream ticket with two central notches and faint non-readable perforation. Brown customer cuff left and dark attendant sleeve/cream cuff right inherit booth lighting and materials; no complete people, extra paper or letters. This actual two-owner cuff variation is preserved in final direction.",
+        "evidence": "plan/references/inspection-r001/ticket-tear-r001-phone.png"
+      }
+    },
+    {
+      "id": "cash-accumulates",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S28"
+      ],
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "receipts-small"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/cash-accumulates.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/cash-accumulates-r002.png",
+      "sha256": "3ea8182816702fe4c9d54449710c60aeeaecb0430e21c2c3790471f961f3b051",
+      "revision": "r002",
+      "review_status": "approved",
+      "clips": [
+        "clip-05"
+      ],
+      "coverage_note": "One detached hand, one plain bag and increased coins on same table; no full person.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:13:10.438070+00:00",
+        "decision": "Actual full/phone compared with initial receipts: one same beige tied bag now fuller/larger, one clearly increased small gold coin mound, one charcoal-cuff simplified pale mitten at knot, identical brown tabletop/warm light. No full people/extra hands/text. Clear receipt growth via cut rather than invented ratio. Approved S28 placement/release and derivation of expanded money table.",
+        "evidence": "plan/references/inspection-r002/cash-accumulates-r002-phone.png"
+      }
+    },
+    {
+      "id": "wealth-table",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S29",
+        "S30",
+        "S31",
+        "S32"
+      ],
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "cash-accumulates"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/wealth-table.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/wealth-table-r001.png",
+      "sha256": "f4031a5f92f927d122d54f2213b0a18ac6017ab67652cbdd2b4c5995d326d403",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-05",
+        "clip-06"
+      ],
+      "coverage_note": "Several bags fill table with exactly one floor bag; medium crop omits floor, wide exposes it; table edge/floor coins support spill/settled inserts, no people.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:37:06.623296+00:00",
+        "decision": "Actual full/phone: SIX tabletop bags (four rear, two front), exactly ONE right-floor bag, large smooth unmarked coin mound above and small floor coin pile below, same warm illustrated table/studio; no people/hands/text. Seven requested tabletop bags resolved as six; this minor count variant preserves approved several-bag metaphor, not a numerical historical graphic. Lock actual six-plus-one inventory in downstream prompts instead of hallucinating seventh table bag. Tabletop/floor/edge crops support all S29–32 states.",
+        "evidence": "plan/references/inspection-r001/wealth-table-r001-phone.png"
+      }
+    },
+    {
+      "id": "producer-surprised",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S33"
+      ],
+      "source_analysis_ids": [
+        "A09",
+        "A10"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-producer",
+        "wealth-table"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/producer-surprised.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/producer-surprised-r001.png",
+      "sha256": "e389891cb68b24c470eabd0dfd4aec85e3193b81daf0ca41b4c8dfcfbe619c8a",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-06"
+      ],
+      "coverage_note": "One standing/upright producer reacts beside fortune; throne not yet visible. Supports clean reaction crop.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:54:16.040977+00:00",
+        "decision": "Full and phone review: one narrow stick producer in navy three-piece suit, burgundy tie, dark side-parted hair; raised mittens at chest with static surprised mouth. Exactly six tabletop bags and one floor bag, dense coin mound and sparse floor coins. Tiny drawn reaction ticks are fixed illustration detail, no lettering or dialogue.",
+        "evidence": "plan/references/inspection-r001/producer-surprised-r001-phone.png"
+      }
+    },
+    {
+      "id": "publicity-print-reel",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S34"
+      ],
+      "source_analysis_ids": [
+        "A08",
+        "A10"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "publicity-display"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/publicity-print-reel.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/publicity-print-reel-r001.png",
+      "sha256": "df01e117dedb29b2cea3eedab3616a6b83cdb5bd78a53715b31f10b2dfe2ff64",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-06"
+      ],
+      "coverage_note": "One reverse publicity print frame beside one reel, no people. Retrospective unchanged campaign-prop insert, no resurrection of prior people/events.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T22:13:13.980630+00:00",
+        "decision": "Full and phone: one rear-facing wooden publicity frame with two inherited cream paper backs, one dark six-hole reel flat at lower-right on wood desk, zero people/hands/text. Same campaign prop design preserved instead of single-paper sketch simplification; unchanged object-only retrospective supports S34 and does not introduce an event. Warm outlined illustrated materials coherent.",
+        "evidence": "plan/references/inspection-r001/publicity-print-reel-r001-phone.png"
+      }
+    },
+    {
+      "id": "producer-money-chair",
+      "kind": "scene",
+      "status": "selected",
+      "storyboard_panel_ids": [
+        "S35",
+        "S36"
+      ],
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "subject_count": 1,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-producer",
+        "wealth-table"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/producer-money-chair.md",
+      "selected_path": "assets/episodes/008-pinocchio-ww2/references/producer-money-chair-r001.png",
+      "sha256": "4dcbca8801e3816b185c43293f86f80e72bae913385bba169460e3c37842189e",
+      "revision": "r001",
+      "review_status": "approved",
+      "clips": [
+        "clip-06"
+      ],
+      "coverage_note": "One producer on plain money-bag chair with settled coins, medium/wide views; humorous source wealth metaphor, no literal event claim.",
+      "review_decision": {
+        "reviewer": "assistant",
+        "reviewed_at": "2026-10-05T23:54:16.041748+00:00",
+        "decision": "Full and phone review: same one producer seated comfortably on a resolved stacked beige money-bag chair, arms on two side bags, crossed legs, cream mittens and brown shoes. Two clear rear corner bags with an occluded center rear bag, two arm bags and two layered seat/base bags; no count is a historical claim. Sparse gold coins surround chair. Round minimal face, closed smile, drawn wood floor, no text or extra people.",
+        "evidence": "plan/references/inspection-r001/producer-money-chair-r001-phone.png"
+      }
+    }
+  ],
+  "superseded_requirements": [
+    {
+      "id": "projected-film",
+      "kind": "scene",
+      "status": "superseded_by_existing_poster_crop",
+      "storyboard_panel_ids": [
+        "S04"
+      ],
+      "source_analysis_ids": [
+        "A02"
+      ],
+      "subject_count": 0,
+      "subject_count_note": "Visible complete people/puppet identities; detached hands and printed characters are specified separately in the exact prompt inventory.",
+      "style_authority": "CST-STYLE-001@1.0.0",
+      "content_authority": [
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "dependencies": [
+        "identity-wooden-boy"
+      ],
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/projected-film.md",
+      "selected_path": null,
+      "sha256": null,
+      "revision": null,
+      "review_status": "missing",
+      "clips": [
+        "clip-01"
+      ],
+      "coverage_note": "One projected puppet character on screen, no living people, blank surrounding cinema.",
+      "review_decision": null,
+      "replacement": "cinema-exterior S04 close poster",
+      "reason": "Repeated benign projected-screen output moderation other; latest user explicitly authorized best feasible completion. Same puppet recognition/film meaning, unchanged narration, no claim of actual source artwork."
+    }
+  ]
+}

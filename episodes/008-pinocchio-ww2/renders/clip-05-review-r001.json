@@ -1,0 +1,30 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:20:00.832648+00:00",
+  "clip_id": "clip-05",
+  "media": "renders/editorial/episode-008-clip-05-return-and-fortune-r001.mp4",
+  "sha256": "3930392b45b62d9b894de3de7e551c798d5024edab5d58a181dc3fd3ea379f87",
+  "picture_decision": "approved_usable_actual_variant",
+  "audio_decision": "preserve_clean_native_physical_transients",
+  "observed_cut_starts_frames": [
+    0,
+    25,
+    46,
+    84,
+    107
+  ],
+  "observed_shots": [
+    "closed puppet-emblem canister released on projection desk",
+    "same family approaches ticket booth in recovery phase",
+    "ticket visibly tears at frame63 and halves separate",
+    "receipt bag lowers, settles, hand withdraws; combines cash insert and accumulation hold",
+    "six table bags and one floor bag resolve with coin mound"
+  ],
+  "picture_review": "Every editorial frame inspected on dense phone sheets, representative full frames inspected, and every 12 raw-tail frame inspected. Required final state completed before editorial trim. Matte illustrated style and approved character identities preserved; no generated readable text, narration, or live puppet substitution. Adjacent planned resolved-hold panels absorbed into final actual composition. No missing essential story beat.",
+  "native_audio_review": "Blind audio-only supplemental review archived. Actual PCM transient timing additionally measured for clip05; tearing at 2.6s matches frame63, bag contact near3.8s. Clip05 isolated native physical audio preserved, with explicit -18dB finishing gain to place loud native transients beneath narration.",
+  "audio_only_evidence": "renders/machine-review/clip-05-native-audio-only-r001/video-review-response-r001.json",
+  "evidence": "renders/review-evidence/clip-05-r001",
+  "personal_listening_claimed": false,
+  "new_user_release_approval": false,
+  "retry_needed": false
+}

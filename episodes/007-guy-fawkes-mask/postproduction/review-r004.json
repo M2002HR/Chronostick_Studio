@@ -1,0 +1,55 @@
+{
+  "status": "assistant_qc_passed_needs_user_playback",
+  "output_sha256": "64a41db5dfef01fe86f9a73a5498c42b25252742086ca45a171e5f0039165e90",
+  "frame_count": 801,
+  "duration_seconds": 33.375,
+  "native_audio": {
+    "mode": "preserve",
+    "gain_db": 0
+  },
+  "voice_gain_db": -1.5,
+  "actual_voice_timestamps": {
+    "path": "timestamps/ajil-historia-export/voice-words-r002.csv",
+    "sha256": "57fe978537892df143d6cdcaff32ea2127ef35b49a23cf831a467c63512f6e18",
+    "source_voice_path": "audio/narration-es-r002.wav",
+    "source_voice_sha256": "c9de71e2ed929bfa6860b445bf5cbad8717cf7a3a6805b4dae91d6fa5bbf7691",
+    "ingestion_provenance": "audio/narration-provenance-es-r002.json",
+    "ingestion_provenance_sha256": "549635d445dd7b1186ed53fa9a643481d9c3f82ceaa3a2cff8b5908ab31af04b",
+    "raw_response": "timestamps/ajil-historia-export/voice-response-r002.json",
+    "raw_response_sha256": "b5e09f77556f06938c6fb722b392e75e10e8a662b293ce7c124059525e88f5b2",
+    "status": "actual_supplied_voice_provider_timing_reviewed_for_caption_render"
+  },
+  "all_76_words_highlighted": true,
+  "caption_cues": 39,
+  "mixed_audio_bitstream_identical_to_audio_only_r002": true,
+  "audio_bitstream_sha256": "SHA256=2d6d9c1ff93e43fa030b679082b96d10579941fe5c9ebbee2ea31692f261f0ae",
+  "output_loudness": {
+    "input_i": "-17.43",
+    "input_tp": "-0.50",
+    "input_lra": "3.30",
+    "input_thresh": "-27.52",
+    "output_i": "-15.36",
+    "output_tp": "-1.50",
+    "output_lra": "2.70",
+    "output_thresh": "-25.42",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.64"
+  },
+  "samples_seconds": [
+    0.5,
+    4.6,
+    12.5,
+    20.9,
+    31.7,
+    32.6
+  ],
+  "preview": "postproduction/review-evidence-r004/phone-caption-contact-sheet-r004.jpg",
+  "full_decode": "passed",
+  "human_release_approval": null,
+  "visual_review": {
+    "actual_rendered_samples_inspected": true,
+    "phone_contact_sheet_inspected": true,
+    "findings": "Approved Montserrat Bold size and raised placement retained. Single-line text fits safely; only current word yellow, remaining displayed words white. Samples cover opening, date, custody, final payoff and CTA.",
+    "full_human_listening_claimed": false
+  }
+}

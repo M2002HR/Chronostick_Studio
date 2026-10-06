@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:53:44.072690+00:00",
+  "id": "cinema-family-return",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-j-requests-r001.json",
+  "request_sha256": "0814794fa2170d3789fbe3a552fdde99b6a689e023110d20a8145f1a8044d4bd",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-8af893b3-dcdf-4bda-bb79-1755f52bb02c.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-return-r001.png",
+  "sha256": "e8062fa0da3cb0e943de430f62dfe47f29e968d3ef470f4f992b1907d74278cc",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

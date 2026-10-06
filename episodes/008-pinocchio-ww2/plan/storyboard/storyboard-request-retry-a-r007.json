@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r007",
+  "created_at": "2026-10-05T19:53:16.534241+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-a.txt",
+  "prompt": "Three graphite storyboard panels in one horizontal row, each panel an upright 9:16 frame. Rough spare pencil contours on white paper; internal camera-composition sketches. Labels S19, S20, S21 in the white margin above the frames.\nS19: Close-up of a single studio drawing on a sheet of paper: a simple wooden-puppet silhouette with a feathered cap, short nose and jointed limbs.\nS20: Close-up of a different sheet of studio art: a simple cartoon-mouse silhouette with two round ears.\nS21: Medium view of a wordless silhouette-art film poster containing exactly these two silhouette drawings side by side.\nAll three views show printed or drawn pictures on paper, not living characters. Completely wordless artwork, no numerical labels. Simple composition, minimal shading; retain all three separate panels.\nThe printed character art consists of flat, very simple pencil outlines only; final character design is a separate production stage.\n",
+  "prompt_sha256": "7f391b35cb92dead593a84ee0eba62641aa8ad354fb5c5b6fd96bfcb79067805",
+  "transparent_background": false,
+  "shot_ids": [
+    "S19",
+    "S20",
+    "S21"
+  ],
+  "output_path": "plan/storyboard/storyboard-retry-a-r007.png",
+  "status": "prepared",
+  "adaptation": "Neutral silhouette treatment of the same two printed story characters; preserves composition, narrative and military viewer, without locking final character identity."
+}

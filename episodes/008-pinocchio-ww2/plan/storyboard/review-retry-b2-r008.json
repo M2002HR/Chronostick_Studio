@@ -1,0 +1,24 @@
+{
+  "status": "assistant inspected; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-retry-b2-r008.png",
+  "sha256": "dcd0ae8dd138a3c0d475768c9454fdaa9c8a219962324733211986f23e233410",
+  "size": [
+    941,
+    1672
+  ],
+  "panel_count": 2,
+  "panels": [
+    {
+      "id": "S23",
+      "result": "usable composition draft",
+      "notes": "Exactly two hands, one blank ticket and coins; no faces or bodies"
+    },
+    {
+      "id": "S24",
+      "result": "usable composition draft",
+      "notes": "Exactly one suited adult producer upright behind table, hand near chest/lapel; fuller receipts, coins and plain bags. Faceless draft does not prove facial emotion."
+    }
+  ],
+  "style_note": "Narrower panel proportions and more shading than requested. Accept as internal inventory/action preview only; production aspect remains 9:16.",
+  "approved_by_user": false
+}

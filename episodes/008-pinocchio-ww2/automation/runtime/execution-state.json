@@ -1,0 +1,100 @@
+{
+  "phase": "complete_local_delivery",
+  "batch_id": "1b9e7f46-1554-4339-a91f-949e5e570baf",
+  "submitted_at": "2026-10-06T00:16:37.527050+00:00",
+  "watch_session_id": 16807,
+  "service_session_id": 46890,
+  "service_pid": 2508661,
+  "job_ids": [
+    "14f1d000-0400-426a-85f1-38f1bece1275",
+    "ca3e3e85-5f36-44d0-9fc2-f5e80c40516e",
+    "874431d6-71aa-4580-bf82-1b5ee36c6c7b",
+    "cc0b5eac-c2b4-4016-a0c3-09d601bdbdd8",
+    "1d765345-9879-4342-bc46-3f9a9ee3043c"
+  ],
+  "submission_evidence": "automation/batches/native-16step-remaining-r001/submission-response-r001.json",
+  "authorization": "plan/review-decisions.json",
+  "no_resubmission": true,
+  "pilot_review": "renders/clip-04-review-r001.json",
+  "native_audio_replacement": "renders/audio-corrected/episode-008-clip-04-r001-clean-sfx-r001.mp4",
+  "history": [
+    {
+      "batch_id": "af5c9424-669d-4137-8dc7-b4ca859c313b",
+      "phase": "pilot_reviewed_picture_accepted_native_audio_rejected",
+      "review": "renders/clip-04-review-r001.json"
+    }
+  ],
+  "updated_at": "2026-10-06T02:10:27.851232+00:00",
+  "review_monitor_sessions": {
+    "frames_and_video_machine": 51369,
+    "audio_only_machine": 56019
+  },
+  "ajil_gateway_session": 29731,
+  "ajil_gateway_pid": 2585548,
+  "family_affordability_repair": {
+    "batch_id": "43516bf1-bfe4-4897-aa6c-ee83cdc3e9c9",
+    "job_ids": [
+      "60e55390-2b1a-4242-89d8-5c51830274e8"
+    ],
+    "watch_session_id": 88942,
+    "status": "completed_complete_clip_rejected",
+    "review": "renders/clip-02-review-r001.json",
+    "direction": "plan/clip-02-direction-r002.json",
+    "scope": [
+      "clip-02"
+    ],
+    "reason": "Unlisted earlyattendant/waiting family/incomingcoins erasedlowmoney phase; keepthreepeople, existingcoins, turnaway andearlierwideblockedhold.",
+    "authorization": "plan/review-decisions.json",
+    "gpu_serialized": true,
+    "actual_review": "renders/clip-02-review-r002.json"
+  },
+  "clip02_second_repair": {
+    "batch_id": "17a1279b-5d3e-428a-93c8-9d0b19c23b75",
+    "job_id": "83eacecb-2657-4657-9125-9a84940d8f21",
+    "repair_manifest": "automation/retries/family-affordability-r003/repair-manifest.json",
+    "status": "completed_full_clip_rejected_family_subtake_selected",
+    "authorized_by": "plan/review-decisions.json",
+    "actual_review": "renders/clip-02-review-r003.json"
+  },
+  "isolated_dock_repair": {
+    "batch_id": "89060dd7-85b6-4791-8248-2e1b1c60c516",
+    "job_ids": [
+      "53a196dc-0954-406d-bc79-c3e5718d2a91"
+    ],
+    "repair_manifest": "automation/retries/isolated-dock-r004/repair-manifest.json",
+    "status": "completed_reviewed_first_54_frames_selected",
+    "actual_review": "renders/clip-02-isolated-dock-review-r004.json"
+  },
+  "concat": {
+    "job_id": "4e6c5ad7-2aa0-4723-987d-c22c0839ce21",
+    "status": "succeeded",
+    "output": "final/picture-concat-r001.mp4",
+    "qc": "final/concat-qc-r001.json"
+  },
+  "upscale": {
+    "status": "succeeded",
+    "output": "final/picture-master-1080x1920-r001.mp4",
+    "model": "RealESRGAN_x4plus_anime_6B.pth",
+    "concurrency": 1,
+    "no_concurrent_generation": true,
+    "qc": "final/upscale-qc-r001/evidence.json",
+    "provenance": "final/picture-master-1080x1920-r001.framewise-upscale.json"
+  },
+  "generation_status": "all_selected_sources_terminal_and_reviewed",
+  "selected_clip02": "renders/clip-02-composite-review-r004.json",
+  "finishing": {
+    "status": "completed_actual_export_reviewed",
+    "output": "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+    "qc": "delivery/final-qc-r001.json",
+    "edit": "postproduction/edit.json",
+    "native_audio_mode": "mute",
+    "actual_voice_preserved": true
+  },
+  "delivery": {
+    "status": "complete_local_delivery",
+    "bundle": "delivery/release/episode-008-es-release-r001.zip",
+    "manifest": "delivery/release/release-manifest-r001.json",
+    "archive_qc": "delivery/release/zip-qc-r001.json",
+    "published": false
+  }
+}

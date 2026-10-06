@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "engine": "framewise-spandrel",
+  "model": {
+    "path": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+    "scale": 4
+  },
+  "input": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4",
+  "output": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-master-1080x1920-r001.mp4",
+  "source": {
+    "width": 480,
+    "height": 864,
+    "fps": 24.0,
+    "frames": 773,
+    "duration": 32.229667,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 8170742
+  },
+  "final": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0,
+    "frames": 773,
+    "duration": 32.229667,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "size": 34506367
+  },
+  "settings": {
+    "input": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4",
+    "output": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-master-1080x1920-r001.mp4",
+    "model": "/home/mhr/AI/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+    "width": 1080,
+    "height": 1920,
+    "fit": "cover",
+    "tile": 256,
+    "overlap": 32,
+    "precision": "fp16",
+    "blend": 1.0,
+    "crf": 16,
+    "preset": "medium",
+    "progress_every": 12,
+    "overwrite": false
+  },
+  "started_at": "2026-10-06T01:43:38.294233+00:00",
+  "completed_at": "2026-10-06T01:53:55.037417+00:00",
+  "elapsed_seconds": 616.743,
+  "processing_fps": 1.253,
+  "resources": {
+    "sample_count": 66,
+    "gpu_memory_used_mib_peak": 2364.0,
+    "gpu_utilization_percent_average": 66.273,
+    "gpu_power_w_peak": 127.49,
+    "gpu_temperature_c_peak": 68.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-06T00:08:24.822762+00:00",
+  "id": "ticket-tear",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-l-requests-r001.json",
+  "request_sha256": "1c1488890320d5d46109868ebc5b4054b6de97aee8e7eebd2d256f5e725888d3",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-10bdc8f3-1b3c-42a3-88f7-4c02f7034f12.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/ticket-tear-r001.png",
+  "sha256": "5251a91035254921950c3a698441529e2cb69658fd35c832cd9da2156a24c252",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

@@ -1,6 +1,13 @@
 # Google Vids voice-direction stage
 
-When Google Vids is the selected voice provider, this is a required workflow handoff before voice generation, for Shorts, long-form and localization. Route through `chronostick-voice-direction`. Keep the clean narration as the spoken-text authority. Save a separately tagged, paste-ready copy under `script/voiceover-google-vids-<lang>.md`; place direction notes and review decisions outside that file. For a long narration, split the tagged copy into ordered scene files. A user-requested preparatory copy may be drafted before script approval; it does not imply script, storyboard or voice acceptance. Otherwise use the reviewed narration for the final handoff.
+When Google Vids is the selected voice provider, prepare this required workflow handoff immediately after script creation/revision, for Shorts, long-form and localization. Route through `chronostick-voice-direction`. Keep clean narration as the spoken-text authority. Save a separately tagged, paste-ready copy under `script/voiceover-google-vids-<lang>.md`; place direction notes and review decisions outside that file. For long narration, split the tagged copy into ordered scene files. Prepare drafts before script approval; final voice generation uses the reviewed wording and updated tagged copy. Preparation does not imply script, storyboard or voice acceptance.
+
+The user's 2026-10-05 instruction makes preparation immediate: every new or
+revised script is delivered with its Google Vids tagged copy, notes and text
+validation, including drafts. Do not wait for storyboard review or a separate
+formatting request. Use many fitting emotional/style cues throughout by default
+in all formats, unless the user explicitly requests another approach/provider.
+Preparation does not approve the narration or accept generated audio.
 
 ## Current Google Vids menu observed in the user's account
 
@@ -41,7 +48,7 @@ The observed inventory has **3 pace, 3 pause, 16 emotion, 9 style and 8 sound op
 
 1. Copy the reviewed narration exactly. Add only inline tags from the observed menu inventory; do not change spoken words, order, names, numbers, qualifications or punctuation in the tagged copy. Keep paste-ready files free of headings, commentary, emoji and production instructions.
 2. Give each scene a deliberate starting pace. For a fast Short, `[rushed pace]` can establish the brisk opening, with `[natural pace]` at dense facts or the ending. For long-form, start with `[natural pace]`, reserve `[rushed pace]` for short action bursts, and explicitly return to `[natural pace]`. Use `[slow pace]` only when a slower delivery serves a specific beat.
-3. Place emotion and style cues at story turns and important words. For the user's energetic Shorts, use frequent purposeful cues, including within sentences, to create an expressive fast delivery; this overrides the earlier sparse-tag preference. Vary curiosity, determination, surprise and enthusiasm where appropriate; use `[thoughtful]` or `[serious]` for human consequences. Dense tagging is not a quota for long-form. Use vocal sounds selectively so they do not turn a historical account into a gag. Keep pauses short unless a reveal earns a longer hold.
+3. Use many emotion/style cues in every sentence, at story turns and meaningful clauses or important words. This expressive default applies to Shorts, long-form and localization; adapt base pace and emotions to the story. For energetic Shorts use frequent within-sentence changes. Vary curiosity, determination, surprise and enthusiasm where appropriate; use `[thoughtful]` or `[serious]` for human consequences. Avoid random cues or added vocal sounds simply to inflate the count. Keep pauses short unless a reveal earns a longer hold.
 4. Use the same voice across scene files. The [Google Vids help page](https://support.google.com/docs/answer/15070345?hl=en) documents the `[` menu and a **2,500-character maximum per script**. Split longer narration into ordered scene files below that limit. Their concatenation must reproduce the tagged master apart from scene-boundary whitespace.
 5. Generate and listen to the actual audio. Confirm intelligibility, tag behavior, emotional fit, scene joins and measured duration. Record the accepted voice/audio and derive word timestamps only from that audio. A text draft or menu observation alone does not approve a voice.
 

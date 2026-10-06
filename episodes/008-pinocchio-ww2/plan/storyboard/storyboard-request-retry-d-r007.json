@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r007",
+  "created_at": "2026-10-05T19:53:16.534606+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-d.txt",
+  "prompt": "Three graphite storyboard panels in one horizontal row, each panel an upright 9:16 frame. Spare rough pencil contours on white paper for a humorous film-business documentary. Labels S34, S35, S36 in the white margin above their frames.\nS34: Close-up of a wordless silhouette-art movie poster beside one film reel. The poster contains exactly two printed cartoon figures: a wooden-puppet silhouette with a feathered cap and a cartoon-mouse silhouette with round ears. No living people in this frame.\nS35: Medium view of one anonymous adult film producer in a suit sitting on a playful chair made of plain money bags. This is a humorous visual metaphor of financial success.\nS36: Wide view of the same single producer sitting still on that money-bag chair, with settled coins around him, a clear resolved ending. No additional people or posters in this frame.\nSimple ordinary human proportions, minimal shading, unmarked bags and wordless scenes.\nThe printed character art consists of flat, very simple pencil outlines only; final character design is a separate production stage.\n",
+  "prompt_sha256": "41600ebfa0cc8a657c9a7f258eb3607e49503e2bcf6943f22d784cfa994b9f83",
+  "transparent_background": false,
+  "shot_ids": [
+    "S34",
+    "S35",
+    "S36"
+  ],
+  "output_path": "plan/storyboard/storyboard-retry-d-r007.png",
+  "status": "prepared",
+  "adaptation": "Neutral silhouette treatment of the same two printed story characters; preserves composition, narrative and military viewer, without locking final character identity."
+}

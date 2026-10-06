@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r010",
+  "created_at": "2026-10-05T20:03:51.068634+00:00",
+  "prompt": "Rough graphite storyboard for a 1940s film-studio publicity sequence. Three separate upright 9:16 frames side by side, spare pencil contours on white paper. Labels S19, S20, S21 in the white margin. S19: Close-up of one hand placing a single animation-art sheet onto a printer preparation desk; show the plain back of the sheet, with pencils and an ink jar at the edge. S20: Extreme close-up of a second paper sheet entering the rollers of a small period printing press; show the paper edge, rollers and ink mechanism, no visible person. The paper imagery is outside the camera view. S21: Medium oblique rear view of two printed publicity sheets placed side by side inside one freestanding display frame, ready for a cinema foyer; show frame, support stand and the plain paper backs, no people. Clearly different framing and props in all three shots, one physical state per frame. Completely wordless props, minimal shading. These are illustrative camera-blocking sketches, not archival records.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-a.txt",
+  "prompt_sha256": "831ba5aa92339838097d04b1cf0a72e71aba8bcebfaf8dd489ff239e51b2f589",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-a-r010.png",
+  "shot_ids": [
+    "S19",
+    "S20",
+    "S21"
+  ],
+  "status": "prepared",
+  "visual_revision": "Improve the otherwise repetitive reverse-paper r009 composition with three source-inspired publicity-production mechanisms: art preparation, printing, display. Explicitly illustrative, no claim of a documented printer process. Narration and named source roles remain unchanged; artwork faces stay out of view in neutral sketches."
+}

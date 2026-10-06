@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-10-05T18:56:58.546519+00:00",
+  "reviewer": "user",
+  "quote": "صبر کن\nببین نمیخوام محتوا رو تغییر بدی و تا صراحتا به اعلام نشده ه راستی آزمایی کنی، اینکار رو انجام نده، اینو توی اسکیل هم اضافه کن\nو اون عدد ا و استفاده در پروپاگاندای نظامی اینارو میخام بیاری توی متن",
+  "fact_check_requested": false,
+  "content_mode": "faithful adaptation of supplied source",
+  "retained_source_claims": [
+    "1940 release during World War II",
+    "family economic hardship",
+    "international distribution impeded by war",
+    "2.6 million dollars production cost",
+    "1.4 million dollars initial receipts",
+    "Pinocchio and other Disney characters used in military propaganda",
+    "propaganda helped the film recover financially",
+    "84 million dollars in profits by 1945",
+    "marketing-campaign question"
+  ],
+  "scope": "content direction only; no narration delivery, storyboard or production-reference approval",
+  "prior_unsolicited_research": "Preserved as previous work; not authorization to rewrite source",
+  "production_status": "resumed by supplied voice and explicit continuation; storyboard review pending",
+  "voice_preparation_instruction": {
+    "quote": "تو این مرحله بعد از تولی اسکریپت، باید حالت گوگل ویدز و با تگ های گوگل ویدز هم دربیاد برای درآورن صدا و همیشه از همیشه از تگ های زیاد و احساسی زیاد استفاده بشه\nاینم به مراحل اضافه کن",
+    "scope": "immediate tagged-script preparation and permanent workflow update; no audio or creative approval"
+  },
+  "latest_continuation": {
+    "quote": "صدا رو گذاشتم توی روت پروژه ادامه بده",
+    "scope": "continue with supplied complete voice; prepare revised storyboard; no unseen sketch/reference approval"
+  }
+}

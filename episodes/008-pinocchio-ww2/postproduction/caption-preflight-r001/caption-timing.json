@@ -1,0 +1,2450 @@
+{
+  "word_count": 64,
+  "cue_count": 37,
+  "event_count": 64,
+  "end_seconds": 31.84,
+  "style": {
+    "profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+    "font_size": 104,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 300,
+    "outline": 2,
+    "shadow": 2,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 4,
+    "max_cue_seconds": 1.8,
+    "break_gap_seconds": 0.3,
+    "max_lines": 1
+  },
+  "words": [
+    {
+      "index": 1,
+      "word": "En",
+      "source_start": 0.18,
+      "source_end": 0.38,
+      "start": 0.18,
+      "end": 0.38
+    },
+    {
+      "index": 2,
+      "word": "1940,",
+      "source_start": 0.38,
+      "source_end": 1.8,
+      "start": 0.38,
+      "end": 1.8
+    },
+    {
+      "index": 3,
+      "word": "Disney",
+      "source_start": 1.8,
+      "source_end": 2.0,
+      "start": 1.8,
+      "end": 2.0
+    },
+    {
+      "index": 4,
+      "word": "estrenó",
+      "source_start": 2.0,
+      "source_end": 2.5,
+      "start": 2.0,
+      "end": 2.5
+    },
+    {
+      "index": 5,
+      "word": "Pinocho",
+      "source_start": 2.5,
+      "source_end": 2.9,
+      "start": 2.5,
+      "end": 2.9
+    },
+    {
+      "index": 6,
+      "word": "en",
+      "source_start": 2.9,
+      "source_end": 3.42,
+      "start": 2.9,
+      "end": 3.42
+    },
+    {
+      "index": 7,
+      "word": "plena",
+      "source_start": 3.42,
+      "source_end": 3.8,
+      "start": 3.42,
+      "end": 3.8
+    },
+    {
+      "index": 8,
+      "word": "Segunda",
+      "source_start": 3.8,
+      "source_end": 4.2,
+      "start": 3.8,
+      "end": 4.2
+    },
+    {
+      "index": 9,
+      "word": "Guerra",
+      "source_start": 4.2,
+      "source_end": 4.42,
+      "start": 4.2,
+      "end": 4.42
+    },
+    {
+      "index": 10,
+      "word": "Mundial.",
+      "source_start": 4.42,
+      "source_end": 5.06,
+      "start": 4.42,
+      "end": 5.06
+    },
+    {
+      "index": 11,
+      "word": "Las",
+      "source_start": 5.02,
+      "source_end": 5.22,
+      "start": 5.02,
+      "end": 5.22
+    },
+    {
+      "index": 12,
+      "word": "familias",
+      "source_start": 5.22,
+      "source_end": 5.68,
+      "start": 5.22,
+      "end": 5.68
+    },
+    {
+      "index": 13,
+      "word": "tenían",
+      "source_start": 5.68,
+      "source_end": 5.92,
+      "start": 5.68,
+      "end": 5.92
+    },
+    {
+      "index": 14,
+      "word": "menos",
+      "source_start": 5.92,
+      "source_end": 6.26,
+      "start": 5.92,
+      "end": 6.26
+    },
+    {
+      "index": 15,
+      "word": "dinero",
+      "source_start": 6.26,
+      "source_end": 6.62,
+      "start": 6.26,
+      "end": 6.62
+    },
+    {
+      "index": 16,
+      "word": "y",
+      "source_start": 6.62,
+      "source_end": 7.04,
+      "start": 6.62,
+      "end": 7.04
+    },
+    {
+      "index": 17,
+      "word": "la",
+      "source_start": 7.04,
+      "source_end": 7.32,
+      "start": 7.04,
+      "end": 7.32
+    },
+    {
+      "index": 18,
+      "word": "guerra",
+      "source_start": 7.32,
+      "source_end": 7.56,
+      "start": 7.32,
+      "end": 7.56
+    },
+    {
+      "index": 19,
+      "word": "frenó",
+      "source_start": 7.56,
+      "source_end": 8.06,
+      "start": 7.56,
+      "end": 8.06
+    },
+    {
+      "index": 20,
+      "word": "su",
+      "source_start": 8.06,
+      "source_end": 8.2,
+      "start": 8.06,
+      "end": 8.2
+    },
+    {
+      "index": 21,
+      "word": "distribución",
+      "source_start": 8.2,
+      "source_end": 8.72,
+      "start": 8.2,
+      "end": 8.72
+    },
+    {
+      "index": 22,
+      "word": "internacional.",
+      "source_start": 8.72,
+      "source_end": 9.24,
+      "start": 8.72,
+      "end": 9.24
+    },
+    {
+      "index": 23,
+      "word": "Costó",
+      "source_start": 9.62,
+      "source_end": 10.02,
+      "start": 9.62,
+      "end": 10.02
+    },
+    {
+      "index": 24,
+      "word": "2,6",
+      "source_start": 10.02,
+      "source_end": 10.68,
+      "start": 10.02,
+      "end": 10.68
+    },
+    {
+      "index": 25,
+      "word": "millones",
+      "source_start": 10.68,
+      "source_end": 10.92,
+      "start": 10.68,
+      "end": 10.92
+    },
+    {
+      "index": 26,
+      "word": "de",
+      "source_start": 10.92,
+      "source_end": 11.18,
+      "start": 10.92,
+      "end": 11.18
+    },
+    {
+      "index": 27,
+      "word": "dólares,",
+      "source_start": 11.18,
+      "source_end": 11.72,
+      "start": 11.18,
+      "end": 11.72
+    },
+    {
+      "index": 28,
+      "word": "pero",
+      "source_start": 11.72,
+      "source_end": 11.84,
+      "start": 11.72,
+      "end": 11.84
+    },
+    {
+      "index": 29,
+      "word": "recaudó",
+      "source_start": 11.84,
+      "source_end": 12.34,
+      "start": 11.84,
+      "end": 12.34
+    },
+    {
+      "index": 30,
+      "word": "solo",
+      "source_start": 12.34,
+      "source_end": 12.6,
+      "start": 12.34,
+      "end": 12.6
+    },
+    {
+      "index": 31,
+      "word": "1,4",
+      "source_start": 12.6,
+      "source_end": 13.48,
+      "start": 12.6,
+      "end": 13.48
+    },
+    {
+      "index": 32,
+      "word": "en",
+      "source_start": 13.48,
+      "source_end": 13.9,
+      "start": 13.48,
+      "end": 13.9
+    },
+    {
+      "index": 33,
+      "word": "su",
+      "source_start": 13.9,
+      "source_end": 14.02,
+      "start": 13.9,
+      "end": 14.02
+    },
+    {
+      "index": 34,
+      "word": "estreno.",
+      "source_start": 14.02,
+      "source_end": 14.48,
+      "start": 14.02,
+      "end": 14.48
+    },
+    {
+      "index": 35,
+      "word": "Después,",
+      "source_start": 14.7,
+      "source_end": 15.28,
+      "start": 14.7,
+      "end": 15.28
+    },
+    {
+      "index": 36,
+      "word": "Pinocho",
+      "source_start": 15.28,
+      "source_end": 15.72,
+      "start": 15.28,
+      "end": 15.72
+    },
+    {
+      "index": 37,
+      "word": "y",
+      "source_start": 15.72,
+      "source_end": 15.9,
+      "start": 15.72,
+      "end": 15.9
+    },
+    {
+      "index": 38,
+      "word": "otros",
+      "source_start": 15.9,
+      "source_end": 16.12,
+      "start": 15.9,
+      "end": 16.12
+    },
+    {
+      "index": 39,
+      "word": "personajes",
+      "source_start": 16.12,
+      "source_end": 16.52,
+      "start": 16.12,
+      "end": 16.52
+    },
+    {
+      "index": 40,
+      "word": "de",
+      "source_start": 16.52,
+      "source_end": 16.76,
+      "start": 16.52,
+      "end": 16.76
+    },
+    {
+      "index": 41,
+      "word": "Disney",
+      "source_start": 16.76,
+      "source_end": 17.08,
+      "start": 16.76,
+      "end": 17.08
+    },
+    {
+      "index": 42,
+      "word": "participaron",
+      "source_start": 17.08,
+      "source_end": 17.92,
+      "start": 17.08,
+      "end": 17.92
+    },
+    {
+      "index": 43,
+      "word": "en",
+      "source_start": 17.92,
+      "source_end": 18.16,
+      "start": 17.92,
+      "end": 18.16
+    },
+    {
+      "index": 44,
+      "word": "propaganda",
+      "source_start": 18.16,
+      "source_end": 18.66,
+      "start": 18.16,
+      "end": 18.66
+    },
+    {
+      "index": 45,
+      "word": "militar.",
+      "source_start": 18.66,
+      "source_end": 19.64,
+      "start": 18.66,
+      "end": 19.64
+    },
+    {
+      "index": 46,
+      "word": "Eso",
+      "source_start": 20.28,
+      "source_end": 20.54,
+      "start": 20.28,
+      "end": 20.54
+    },
+    {
+      "index": 47,
+      "word": "impulsó",
+      "source_start": 20.54,
+      "source_end": 21.0,
+      "start": 20.54,
+      "end": 21.0
+    },
+    {
+      "index": 48,
+      "word": "su",
+      "source_start": 21.0,
+      "source_end": 21.18,
+      "start": 21.0,
+      "end": 21.18
+    },
+    {
+      "index": 49,
+      "word": "recuperación.",
+      "source_start": 21.18,
+      "source_end": 21.96,
+      "start": 21.18,
+      "end": 21.96
+    },
+    {
+      "index": 50,
+      "word": "Para",
+      "source_start": 22.38,
+      "source_end": 22.58,
+      "start": 22.38,
+      "end": 22.58
+    },
+    {
+      "index": 51,
+      "word": "1945,",
+      "source_start": 22.58,
+      "source_end": 23.32,
+      "start": 22.58,
+      "end": 23.32
+    },
+    {
+      "index": 52,
+      "word": "acumulaba",
+      "source_start": 23.32,
+      "source_end": 24.96,
+      "start": 23.32,
+      "end": 24.96
+    },
+    {
+      "index": 53,
+      "word": "84",
+      "source_start": 24.96,
+      "source_end": 25.86,
+      "start": 24.96,
+      "end": 25.86
+    },
+    {
+      "index": 54,
+      "word": "millones",
+      "source_start": 25.86,
+      "source_end": 26.76,
+      "start": 25.86,
+      "end": 26.76
+    },
+    {
+      "index": 55,
+      "word": "de",
+      "source_start": 26.76,
+      "source_end": 27.18,
+      "start": 26.76,
+      "end": 27.18
+    },
+    {
+      "index": 56,
+      "word": "dólares",
+      "source_start": 27.18,
+      "source_end": 27.44,
+      "start": 27.18,
+      "end": 27.44
+    },
+    {
+      "index": 57,
+      "word": "en",
+      "source_start": 27.44,
+      "source_end": 27.98,
+      "start": 27.44,
+      "end": 27.98
+    },
+    {
+      "index": 58,
+      "word": "beneficios.",
+      "source_start": 27.98,
+      "source_end": 28.8,
+      "start": 27.98,
+      "end": 28.8
+    },
+    {
+      "index": 59,
+      "word": "¿La",
+      "source_start": 29.08,
+      "source_end": 29.2,
+      "start": 29.08,
+      "end": 29.2
+    },
+    {
+      "index": 60,
+      "word": "mejor",
+      "source_start": 29.2,
+      "source_end": 29.38,
+      "start": 29.2,
+      "end": 29.38
+    },
+    {
+      "index": 61,
+      "word": "campaña",
+      "source_start": 29.38,
+      "source_end": 29.78,
+      "start": 29.38,
+      "end": 29.78
+    },
+    {
+      "index": 62,
+      "word": "de",
+      "source_start": 29.78,
+      "source_end": 29.92,
+      "start": 29.78,
+      "end": 29.92
+    },
+    {
+      "index": 63,
+      "word": "marketing?",
+      "source_start": 29.92,
+      "source_end": 30.72,
+      "start": 29.92,
+      "end": 30.72
+    },
+    {
+      "index": 64,
+      "word": "Suscríbete.",
+      "source_start": 31.08,
+      "source_end": 31.84,
+      "start": 31.08,
+      "end": 31.84
+    }
+  ],
+  "cues": [
+    {
+      "words": [
+        {
+          "index": 1,
+          "word": "En",
+          "source_start": 0.18,
+          "source_end": 0.38,
+          "start": 0.18,
+          "end": 0.38
+        },
+        {
+          "index": 2,
+          "word": "1940,",
+          "source_start": 0.38,
+          "source_end": 1.8,
+          "start": 0.38,
+          "end": 1.8
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 1,
+            "word": "En",
+            "source_start": 0.18,
+            "source_end": 0.38,
+            "start": 0.18,
+            "end": 0.38
+          },
+          {
+            "index": 2,
+            "word": "1940,",
+            "source_start": 0.38,
+            "source_end": 1.8,
+            "start": 0.38,
+            "end": 1.8
+          }
+        ]
+      ],
+      "start": 0.18,
+      "end": 1.8
+    },
+    {
+      "words": [
+        {
+          "index": 3,
+          "word": "Disney",
+          "source_start": 1.8,
+          "source_end": 2.0,
+          "start": 1.8,
+          "end": 2.0
+        },
+        {
+          "index": 4,
+          "word": "estrenó",
+          "source_start": 2.0,
+          "source_end": 2.5,
+          "start": 2.0,
+          "end": 2.5
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 3,
+            "word": "Disney",
+            "source_start": 1.8,
+            "source_end": 2.0,
+            "start": 1.8,
+            "end": 2.0
+          },
+          {
+            "index": 4,
+            "word": "estrenó",
+            "source_start": 2.0,
+            "source_end": 2.5,
+            "start": 2.0,
+            "end": 2.5
+          }
+        ]
+      ],
+      "start": 1.8,
+      "end": 2.5
+    },
+    {
+      "words": [
+        {
+          "index": 5,
+          "word": "Pinocho",
+          "source_start": 2.5,
+          "source_end": 2.9,
+          "start": 2.5,
+          "end": 2.9
+        },
+        {
+          "index": 6,
+          "word": "en",
+          "source_start": 2.9,
+          "source_end": 3.42,
+          "start": 2.9,
+          "end": 3.42
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 5,
+            "word": "Pinocho",
+            "source_start": 2.5,
+            "source_end": 2.9,
+            "start": 2.5,
+            "end": 2.9
+          },
+          {
+            "index": 6,
+            "word": "en",
+            "source_start": 2.9,
+            "source_end": 3.42,
+            "start": 2.9,
+            "end": 3.42
+          }
+        ]
+      ],
+      "start": 2.5,
+      "end": 3.42
+    },
+    {
+      "words": [
+        {
+          "index": 7,
+          "word": "plena",
+          "source_start": 3.42,
+          "source_end": 3.8,
+          "start": 3.42,
+          "end": 3.8
+        },
+        {
+          "index": 8,
+          "word": "Segunda",
+          "source_start": 3.8,
+          "source_end": 4.2,
+          "start": 3.8,
+          "end": 4.2
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 7,
+            "word": "plena",
+            "source_start": 3.42,
+            "source_end": 3.8,
+            "start": 3.42,
+            "end": 3.8
+          },
+          {
+            "index": 8,
+            "word": "Segunda",
+            "source_start": 3.8,
+            "source_end": 4.2,
+            "start": 3.8,
+            "end": 4.2
+          }
+        ]
+      ],
+      "start": 3.42,
+      "end": 4.2
+    },
+    {
+      "words": [
+        {
+          "index": 9,
+          "word": "Guerra",
+          "source_start": 4.2,
+          "source_end": 4.42,
+          "start": 4.2,
+          "end": 4.42
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 9,
+            "word": "Guerra",
+            "source_start": 4.2,
+            "source_end": 4.42,
+            "start": 4.2,
+            "end": 4.42
+          }
+        ]
+      ],
+      "start": 4.2,
+      "end": 4.42
+    },
+    {
+      "words": [
+        {
+          "index": 10,
+          "word": "Mundial.",
+          "source_start": 4.42,
+          "source_end": 5.06,
+          "start": 4.42,
+          "end": 5.06
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 10,
+            "word": "Mundial.",
+            "source_start": 4.42,
+            "source_end": 5.06,
+            "start": 4.42,
+            "end": 5.06
+          }
+        ]
+      ],
+      "start": 4.42,
+      "end": 5.02
+    },
+    {
+      "words": [
+        {
+          "index": 11,
+          "word": "Las",
+          "source_start": 5.02,
+          "source_end": 5.22,
+          "start": 5.02,
+          "end": 5.22
+        },
+        {
+          "index": 12,
+          "word": "familias",
+          "source_start": 5.22,
+          "source_end": 5.68,
+          "start": 5.22,
+          "end": 5.68
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 11,
+            "word": "Las",
+            "source_start": 5.02,
+            "source_end": 5.22,
+            "start": 5.02,
+            "end": 5.22
+          },
+          {
+            "index": 12,
+            "word": "familias",
+            "source_start": 5.22,
+            "source_end": 5.68,
+            "start": 5.22,
+            "end": 5.68
+          }
+        ]
+      ],
+      "start": 5.02,
+      "end": 5.68
+    },
+    {
+      "words": [
+        {
+          "index": 13,
+          "word": "tenían",
+          "source_start": 5.68,
+          "source_end": 5.92,
+          "start": 5.68,
+          "end": 5.92
+        },
+        {
+          "index": 14,
+          "word": "menos",
+          "source_start": 5.92,
+          "source_end": 6.26,
+          "start": 5.92,
+          "end": 6.26
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 13,
+            "word": "tenían",
+            "source_start": 5.68,
+            "source_end": 5.92,
+            "start": 5.68,
+            "end": 5.92
+          },
+          {
+            "index": 14,
+            "word": "menos",
+            "source_start": 5.92,
+            "source_end": 6.26,
+            "start": 5.92,
+            "end": 6.26
+          }
+        ]
+      ],
+      "start": 5.68,
+      "end": 6.26
+    },
+    {
+      "words": [
+        {
+          "index": 15,
+          "word": "dinero",
+          "source_start": 6.26,
+          "source_end": 6.62,
+          "start": 6.26,
+          "end": 6.62
+        },
+        {
+          "index": 16,
+          "word": "y",
+          "source_start": 6.62,
+          "source_end": 7.04,
+          "start": 6.62,
+          "end": 7.04
+        },
+        {
+          "index": 17,
+          "word": "la",
+          "source_start": 7.04,
+          "source_end": 7.32,
+          "start": 7.04,
+          "end": 7.32
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 15,
+            "word": "dinero",
+            "source_start": 6.26,
+            "source_end": 6.62,
+            "start": 6.26,
+            "end": 6.62
+          },
+          {
+            "index": 16,
+            "word": "y",
+            "source_start": 6.62,
+            "source_end": 7.04,
+            "start": 6.62,
+            "end": 7.04
+          },
+          {
+            "index": 17,
+            "word": "la",
+            "source_start": 7.04,
+            "source_end": 7.32,
+            "start": 7.04,
+            "end": 7.32
+          }
+        ]
+      ],
+      "start": 6.26,
+      "end": 7.32
+    },
+    {
+      "words": [
+        {
+          "index": 18,
+          "word": "guerra",
+          "source_start": 7.32,
+          "source_end": 7.56,
+          "start": 7.32,
+          "end": 7.56
+        },
+        {
+          "index": 19,
+          "word": "frenó",
+          "source_start": 7.56,
+          "source_end": 8.06,
+          "start": 7.56,
+          "end": 8.06
+        },
+        {
+          "index": 20,
+          "word": "su",
+          "source_start": 8.06,
+          "source_end": 8.2,
+          "start": 8.06,
+          "end": 8.2
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 18,
+            "word": "guerra",
+            "source_start": 7.32,
+            "source_end": 7.56,
+            "start": 7.32,
+            "end": 7.56
+          },
+          {
+            "index": 19,
+            "word": "frenó",
+            "source_start": 7.56,
+            "source_end": 8.06,
+            "start": 7.56,
+            "end": 8.06
+          },
+          {
+            "index": 20,
+            "word": "su",
+            "source_start": 8.06,
+            "source_end": 8.2,
+            "start": 8.06,
+            "end": 8.2
+          }
+        ]
+      ],
+      "start": 7.32,
+      "end": 8.2
+    },
+    {
+      "words": [
+        {
+          "index": 21,
+          "word": "distribución",
+          "source_start": 8.2,
+          "source_end": 8.72,
+          "start": 8.2,
+          "end": 8.72
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 21,
+            "word": "distribución",
+            "source_start": 8.2,
+            "source_end": 8.72,
+            "start": 8.2,
+            "end": 8.72
+          }
+        ]
+      ],
+      "start": 8.2,
+      "end": 8.72
+    },
+    {
+      "words": [
+        {
+          "index": 22,
+          "word": "internacional.",
+          "source_start": 8.72,
+          "source_end": 9.24,
+          "start": 8.72,
+          "end": 9.24
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 22,
+            "word": "internacional.",
+            "source_start": 8.72,
+            "source_end": 9.24,
+            "start": 8.72,
+            "end": 9.24
+          }
+        ]
+      ],
+      "start": 8.72,
+      "end": 9.24
+    },
+    {
+      "words": [
+        {
+          "index": 23,
+          "word": "Costó",
+          "source_start": 9.62,
+          "source_end": 10.02,
+          "start": 9.62,
+          "end": 10.02
+        },
+        {
+          "index": 24,
+          "word": "2,6",
+          "source_start": 10.02,
+          "source_end": 10.68,
+          "start": 10.02,
+          "end": 10.68
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 23,
+            "word": "Costó",
+            "source_start": 9.62,
+            "source_end": 10.02,
+            "start": 9.62,
+            "end": 10.02
+          },
+          {
+            "index": 24,
+            "word": "2,6",
+            "source_start": 10.02,
+            "source_end": 10.68,
+            "start": 10.02,
+            "end": 10.68
+          }
+        ]
+      ],
+      "start": 9.62,
+      "end": 10.68
+    },
+    {
+      "words": [
+        {
+          "index": 25,
+          "word": "millones",
+          "source_start": 10.68,
+          "source_end": 10.92,
+          "start": 10.68,
+          "end": 10.92
+        },
+        {
+          "index": 26,
+          "word": "de",
+          "source_start": 10.92,
+          "source_end": 11.18,
+          "start": 10.92,
+          "end": 11.18
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 25,
+            "word": "millones",
+            "source_start": 10.68,
+            "source_end": 10.92,
+            "start": 10.68,
+            "end": 10.92
+          },
+          {
+            "index": 26,
+            "word": "de",
+            "source_start": 10.92,
+            "source_end": 11.18,
+            "start": 10.92,
+            "end": 11.18
+          }
+        ]
+      ],
+      "start": 10.68,
+      "end": 11.18
+    },
+    {
+      "words": [
+        {
+          "index": 27,
+          "word": "dólares,",
+          "source_start": 11.18,
+          "source_end": 11.72,
+          "start": 11.18,
+          "end": 11.72
+        },
+        {
+          "index": 28,
+          "word": "pero",
+          "source_start": 11.72,
+          "source_end": 11.84,
+          "start": 11.72,
+          "end": 11.84
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 27,
+            "word": "dólares,",
+            "source_start": 11.18,
+            "source_end": 11.72,
+            "start": 11.18,
+            "end": 11.72
+          },
+          {
+            "index": 28,
+            "word": "pero",
+            "source_start": 11.72,
+            "source_end": 11.84,
+            "start": 11.72,
+            "end": 11.84
+          }
+        ]
+      ],
+      "start": 11.18,
+      "end": 11.84
+    },
+    {
+      "words": [
+        {
+          "index": 29,
+          "word": "recaudó",
+          "source_start": 11.84,
+          "source_end": 12.34,
+          "start": 11.84,
+          "end": 12.34
+        },
+        {
+          "index": 30,
+          "word": "solo",
+          "source_start": 12.34,
+          "source_end": 12.6,
+          "start": 12.34,
+          "end": 12.6
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 29,
+            "word": "recaudó",
+            "source_start": 11.84,
+            "source_end": 12.34,
+            "start": 11.84,
+            "end": 12.34
+          },
+          {
+            "index": 30,
+            "word": "solo",
+            "source_start": 12.34,
+            "source_end": 12.6,
+            "start": 12.34,
+            "end": 12.6
+          }
+        ]
+      ],
+      "start": 11.84,
+      "end": 12.6
+    },
+    {
+      "words": [
+        {
+          "index": 31,
+          "word": "1,4",
+          "source_start": 12.6,
+          "source_end": 13.48,
+          "start": 12.6,
+          "end": 13.48
+        },
+        {
+          "index": 32,
+          "word": "en",
+          "source_start": 13.48,
+          "source_end": 13.9,
+          "start": 13.48,
+          "end": 13.9
+        },
+        {
+          "index": 33,
+          "word": "su",
+          "source_start": 13.9,
+          "source_end": 14.02,
+          "start": 13.9,
+          "end": 14.02
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 31,
+            "word": "1,4",
+            "source_start": 12.6,
+            "source_end": 13.48,
+            "start": 12.6,
+            "end": 13.48
+          },
+          {
+            "index": 32,
+            "word": "en",
+            "source_start": 13.48,
+            "source_end": 13.9,
+            "start": 13.48,
+            "end": 13.9
+          },
+          {
+            "index": 33,
+            "word": "su",
+            "source_start": 13.9,
+            "source_end": 14.02,
+            "start": 13.9,
+            "end": 14.02
+          }
+        ]
+      ],
+      "start": 12.6,
+      "end": 14.02
+    },
+    {
+      "words": [
+        {
+          "index": 34,
+          "word": "estreno.",
+          "source_start": 14.02,
+          "source_end": 14.48,
+          "start": 14.02,
+          "end": 14.48
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 34,
+            "word": "estreno.",
+            "source_start": 14.02,
+            "source_end": 14.48,
+            "start": 14.02,
+            "end": 14.48
+          }
+        ]
+      ],
+      "start": 14.02,
+      "end": 14.48
+    },
+    {
+      "words": [
+        {
+          "index": 35,
+          "word": "Después,",
+          "source_start": 14.7,
+          "source_end": 15.28,
+          "start": 14.7,
+          "end": 15.28
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 35,
+            "word": "Después,",
+            "source_start": 14.7,
+            "source_end": 15.28,
+            "start": 14.7,
+            "end": 15.28
+          }
+        ]
+      ],
+      "start": 14.7,
+      "end": 15.28
+    },
+    {
+      "words": [
+        {
+          "index": 36,
+          "word": "Pinocho",
+          "source_start": 15.28,
+          "source_end": 15.72,
+          "start": 15.28,
+          "end": 15.72
+        },
+        {
+          "index": 37,
+          "word": "y",
+          "source_start": 15.72,
+          "source_end": 15.9,
+          "start": 15.72,
+          "end": 15.9
+        },
+        {
+          "index": 38,
+          "word": "otros",
+          "source_start": 15.9,
+          "source_end": 16.12,
+          "start": 15.9,
+          "end": 16.12
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 36,
+            "word": "Pinocho",
+            "source_start": 15.28,
+            "source_end": 15.72,
+            "start": 15.28,
+            "end": 15.72
+          },
+          {
+            "index": 37,
+            "word": "y",
+            "source_start": 15.72,
+            "source_end": 15.9,
+            "start": 15.72,
+            "end": 15.9
+          },
+          {
+            "index": 38,
+            "word": "otros",
+            "source_start": 15.9,
+            "source_end": 16.12,
+            "start": 15.9,
+            "end": 16.12
+          }
+        ]
+      ],
+      "start": 15.28,
+      "end": 16.12
+    },
+    {
+      "words": [
+        {
+          "index": 39,
+          "word": "personajes",
+          "source_start": 16.12,
+          "source_end": 16.52,
+          "start": 16.12,
+          "end": 16.52
+        },
+        {
+          "index": 40,
+          "word": "de",
+          "source_start": 16.52,
+          "source_end": 16.76,
+          "start": 16.52,
+          "end": 16.76
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 39,
+            "word": "personajes",
+            "source_start": 16.12,
+            "source_end": 16.52,
+            "start": 16.12,
+            "end": 16.52
+          },
+          {
+            "index": 40,
+            "word": "de",
+            "source_start": 16.52,
+            "source_end": 16.76,
+            "start": 16.52,
+            "end": 16.76
+          }
+        ]
+      ],
+      "start": 16.12,
+      "end": 16.76
+    },
+    {
+      "words": [
+        {
+          "index": 41,
+          "word": "Disney",
+          "source_start": 16.76,
+          "source_end": 17.08,
+          "start": 16.76,
+          "end": 17.08
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 41,
+            "word": "Disney",
+            "source_start": 16.76,
+            "source_end": 17.08,
+            "start": 16.76,
+            "end": 17.08
+          }
+        ]
+      ],
+      "start": 16.76,
+      "end": 17.08
+    },
+    {
+      "words": [
+        {
+          "index": 42,
+          "word": "participaron",
+          "source_start": 17.08,
+          "source_end": 17.92,
+          "start": 17.08,
+          "end": 17.92
+        },
+        {
+          "index": 43,
+          "word": "en",
+          "source_start": 17.92,
+          "source_end": 18.16,
+          "start": 17.92,
+          "end": 18.16
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 42,
+            "word": "participaron",
+            "source_start": 17.08,
+            "source_end": 17.92,
+            "start": 17.08,
+            "end": 17.92
+          },
+          {
+            "index": 43,
+            "word": "en",
+            "source_start": 17.92,
+            "source_end": 18.16,
+            "start": 17.92,
+            "end": 18.16
+          }
+        ]
+      ],
+      "start": 17.08,
+      "end": 18.16
+    },
+    {
+      "words": [
+        {
+          "index": 44,
+          "word": "propaganda",
+          "source_start": 18.16,
+          "source_end": 18.66,
+          "start": 18.16,
+          "end": 18.66
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 44,
+            "word": "propaganda",
+            "source_start": 18.16,
+            "source_end": 18.66,
+            "start": 18.16,
+            "end": 18.66
+          }
+        ]
+      ],
+      "start": 18.16,
+      "end": 18.66
+    },
+    {
+      "words": [
+        {
+          "index": 45,
+          "word": "militar.",
+          "source_start": 18.66,
+          "source_end": 19.64,
+          "start": 18.66,
+          "end": 19.64
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 45,
+            "word": "militar.",
+            "source_start": 18.66,
+            "source_end": 19.64,
+            "start": 18.66,
+            "end": 19.64
+          }
+        ]
+      ],
+      "start": 18.66,
+      "end": 19.64
+    },
+    {
+      "words": [
+        {
+          "index": 46,
+          "word": "Eso",
+          "source_start": 20.28,
+          "source_end": 20.54,
+          "start": 20.28,
+          "end": 20.54
+        },
+        {
+          "index": 47,
+          "word": "impulsó",
+          "source_start": 20.54,
+          "source_end": 21.0,
+          "start": 20.54,
+          "end": 21.0
+        },
+        {
+          "index": 48,
+          "word": "su",
+          "source_start": 21.0,
+          "source_end": 21.18,
+          "start": 21.0,
+          "end": 21.18
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 46,
+            "word": "Eso",
+            "source_start": 20.28,
+            "source_end": 20.54,
+            "start": 20.28,
+            "end": 20.54
+          },
+          {
+            "index": 47,
+            "word": "impulsó",
+            "source_start": 20.54,
+            "source_end": 21.0,
+            "start": 20.54,
+            "end": 21.0
+          },
+          {
+            "index": 48,
+            "word": "su",
+            "source_start": 21.0,
+            "source_end": 21.18,
+            "start": 21.0,
+            "end": 21.18
+          }
+        ]
+      ],
+      "start": 20.28,
+      "end": 21.18
+    },
+    {
+      "words": [
+        {
+          "index": 49,
+          "word": "recuperación.",
+          "source_start": 21.18,
+          "source_end": 21.96,
+          "start": 21.18,
+          "end": 21.96
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 49,
+            "word": "recuperación.",
+            "source_start": 21.18,
+            "source_end": 21.96,
+            "start": 21.18,
+            "end": 21.96
+          }
+        ]
+      ],
+      "start": 21.18,
+      "end": 21.96
+    },
+    {
+      "words": [
+        {
+          "index": 50,
+          "word": "Para",
+          "source_start": 22.38,
+          "source_end": 22.58,
+          "start": 22.38,
+          "end": 22.58
+        },
+        {
+          "index": 51,
+          "word": "1945,",
+          "source_start": 22.58,
+          "source_end": 23.32,
+          "start": 22.58,
+          "end": 23.32
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 50,
+            "word": "Para",
+            "source_start": 22.38,
+            "source_end": 22.58,
+            "start": 22.38,
+            "end": 22.58
+          },
+          {
+            "index": 51,
+            "word": "1945,",
+            "source_start": 22.58,
+            "source_end": 23.32,
+            "start": 22.58,
+            "end": 23.32
+          }
+        ]
+      ],
+      "start": 22.38,
+      "end": 23.32
+    },
+    {
+      "words": [
+        {
+          "index": 52,
+          "word": "acumulaba",
+          "source_start": 23.32,
+          "source_end": 24.96,
+          "start": 23.32,
+          "end": 24.96
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 52,
+            "word": "acumulaba",
+            "source_start": 23.32,
+            "source_end": 24.96,
+            "start": 23.32,
+            "end": 24.96
+          }
+        ]
+      ],
+      "start": 23.32,
+      "end": 24.96
+    },
+    {
+      "words": [
+        {
+          "index": 53,
+          "word": "84",
+          "source_start": 24.96,
+          "source_end": 25.86,
+          "start": 24.96,
+          "end": 25.86
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 53,
+            "word": "84",
+            "source_start": 24.96,
+            "source_end": 25.86,
+            "start": 24.96,
+            "end": 25.86
+          }
+        ]
+      ],
+      "start": 24.96,
+      "end": 25.86
+    },
+    {
+      "words": [
+        {
+          "index": 54,
+          "word": "millones",
+          "source_start": 25.86,
+          "source_end": 26.76,
+          "start": 25.86,
+          "end": 26.76
+        },
+        {
+          "index": 55,
+          "word": "de",
+          "source_start": 26.76,
+          "source_end": 27.18,
+          "start": 26.76,
+          "end": 27.18
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 54,
+            "word": "millones",
+            "source_start": 25.86,
+            "source_end": 26.76,
+            "start": 25.86,
+            "end": 26.76
+          },
+          {
+            "index": 55,
+            "word": "de",
+            "source_start": 26.76,
+            "source_end": 27.18,
+            "start": 26.76,
+            "end": 27.18
+          }
+        ]
+      ],
+      "start": 25.86,
+      "end": 27.18
+    },
+    {
+      "words": [
+        {
+          "index": 56,
+          "word": "dólares",
+          "source_start": 27.18,
+          "source_end": 27.44,
+          "start": 27.18,
+          "end": 27.44
+        },
+        {
+          "index": 57,
+          "word": "en",
+          "source_start": 27.44,
+          "source_end": 27.98,
+          "start": 27.44,
+          "end": 27.98
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 56,
+            "word": "dólares",
+            "source_start": 27.18,
+            "source_end": 27.44,
+            "start": 27.18,
+            "end": 27.44
+          },
+          {
+            "index": 57,
+            "word": "en",
+            "source_start": 27.44,
+            "source_end": 27.98,
+            "start": 27.44,
+            "end": 27.98
+          }
+        ]
+      ],
+      "start": 27.18,
+      "end": 27.98
+    },
+    {
+      "words": [
+        {
+          "index": 58,
+          "word": "beneficios.",
+          "source_start": 27.98,
+          "source_end": 28.8,
+          "start": 27.98,
+          "end": 28.8
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 58,
+            "word": "beneficios.",
+            "source_start": 27.98,
+            "source_end": 28.8,
+            "start": 27.98,
+            "end": 28.8
+          }
+        ]
+      ],
+      "start": 27.98,
+      "end": 28.8
+    },
+    {
+      "words": [
+        {
+          "index": 59,
+          "word": "¿La",
+          "source_start": 29.08,
+          "source_end": 29.2,
+          "start": 29.08,
+          "end": 29.2
+        },
+        {
+          "index": 60,
+          "word": "mejor",
+          "source_start": 29.2,
+          "source_end": 29.38,
+          "start": 29.2,
+          "end": 29.38
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 59,
+            "word": "¿La",
+            "source_start": 29.08,
+            "source_end": 29.2,
+            "start": 29.08,
+            "end": 29.2
+          },
+          {
+            "index": 60,
+            "word": "mejor",
+            "source_start": 29.2,
+            "source_end": 29.38,
+            "start": 29.2,
+            "end": 29.38
+          }
+        ]
+      ],
+      "start": 29.08,
+      "end": 29.38
+    },
+    {
+      "words": [
+        {
+          "index": 61,
+          "word": "campaña",
+          "source_start": 29.38,
+          "source_end": 29.78,
+          "start": 29.38,
+          "end": 29.78
+        },
+        {
+          "index": 62,
+          "word": "de",
+          "source_start": 29.78,
+          "source_end": 29.92,
+          "start": 29.78,
+          "end": 29.92
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 61,
+            "word": "campaña",
+            "source_start": 29.38,
+            "source_end": 29.78,
+            "start": 29.38,
+            "end": 29.78
+          },
+          {
+            "index": 62,
+            "word": "de",
+            "source_start": 29.78,
+            "source_end": 29.92,
+            "start": 29.78,
+            "end": 29.92
+          }
+        ]
+      ],
+      "start": 29.38,
+      "end": 29.92
+    },
+    {
+      "words": [
+        {
+          "index": 63,
+          "word": "marketing?",
+          "source_start": 29.92,
+          "source_end": 30.72,
+          "start": 29.92,
+          "end": 30.72
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 63,
+            "word": "marketing?",
+            "source_start": 29.92,
+            "source_end": 30.72,
+            "start": 29.92,
+            "end": 30.72
+          }
+        ]
+      ],
+      "start": 29.92,
+      "end": 30.72
+    },
+    {
+      "words": [
+        {
+          "index": 64,
+          "word": "Suscríbete.",
+          "source_start": 31.08,
+          "source_end": 31.84,
+          "start": 31.08,
+          "end": 31.84
+        }
+      ],
+      "lines": [
+        [
+          {
+            "index": 64,
+            "word": "Suscríbete.",
+            "source_start": 31.08,
+            "source_end": 31.84,
+            "start": 31.08,
+            "end": 31.84
+          }
+        ]
+      ],
+      "start": 31.08,
+      "end": 31.84
+    }
+  ],
+  "events": [
+    {
+      "start_cs": 16,
+      "end_cs": 37,
+      "active_word_index": 1,
+      "text": "{\\1c&H00D7FF&}En{\\1c&HFFFFFF&} 1940,",
+      "unquantized_start_cs": 18,
+      "unquantized_end_cs": 38
+    },
+    {
+      "start_cs": 37,
+      "end_cs": 179,
+      "active_word_index": 2,
+      "text": "En {\\1c&H00D7FF&}1940,{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 38,
+      "unquantized_end_cs": 180
+    },
+    {
+      "start_cs": 179,
+      "end_cs": 200,
+      "active_word_index": 3,
+      "text": "{\\1c&H00D7FF&}Disney{\\1c&HFFFFFF&} estrenó",
+      "unquantized_start_cs": 180,
+      "unquantized_end_cs": 200
+    },
+    {
+      "start_cs": 200,
+      "end_cs": 250,
+      "active_word_index": 4,
+      "text": "Disney {\\1c&H00D7FF&}estrenó{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 200,
+      "unquantized_end_cs": 250
+    },
+    {
+      "start_cs": 250,
+      "end_cs": 291,
+      "active_word_index": 5,
+      "text": "{\\1c&H00D7FF&}Pinocho{\\1c&HFFFFFF&} en",
+      "unquantized_start_cs": 250,
+      "unquantized_end_cs": 290
+    },
+    {
+      "start_cs": 291,
+      "end_cs": 341,
+      "active_word_index": 6,
+      "text": "Pinocho {\\1c&H00D7FF&}en{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 290,
+      "unquantized_end_cs": 342
+    },
+    {
+      "start_cs": 341,
+      "end_cs": 379,
+      "active_word_index": 7,
+      "text": "{\\1c&H00D7FF&}plena{\\1c&HFFFFFF&} Segunda",
+      "unquantized_start_cs": 342,
+      "unquantized_end_cs": 380
+    },
+    {
+      "start_cs": 379,
+      "end_cs": 420,
+      "active_word_index": 8,
+      "text": "plena {\\1c&H00D7FF&}Segunda{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 380,
+      "unquantized_end_cs": 420
+    },
+    {
+      "start_cs": 420,
+      "end_cs": 441,
+      "active_word_index": 9,
+      "text": "{\\1c&H00D7FF&}Guerra{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 420,
+      "unquantized_end_cs": 442
+    },
+    {
+      "start_cs": 441,
+      "end_cs": 500,
+      "active_word_index": 10,
+      "text": "{\\1c&H00D7FF&}Mundial.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 442,
+      "unquantized_end_cs": 502
+    },
+    {
+      "start_cs": 500,
+      "end_cs": 520,
+      "active_word_index": 11,
+      "text": "{\\1c&H00D7FF&}Las{\\1c&HFFFFFF&} familias",
+      "unquantized_start_cs": 502,
+      "unquantized_end_cs": 522
+    },
+    {
+      "start_cs": 520,
+      "end_cs": 566,
+      "active_word_index": 12,
+      "text": "Las {\\1c&H00D7FF&}familias{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 522,
+      "unquantized_end_cs": 568
+    },
+    {
+      "start_cs": 566,
+      "end_cs": 591,
+      "active_word_index": 13,
+      "text": "{\\1c&H00D7FF&}tenían{\\1c&HFFFFFF&} menos",
+      "unquantized_start_cs": 568,
+      "unquantized_end_cs": 592
+    },
+    {
+      "start_cs": 591,
+      "end_cs": 625,
+      "active_word_index": 14,
+      "text": "tenían {\\1c&H00D7FF&}menos{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 592,
+      "unquantized_end_cs": 626
+    },
+    {
+      "start_cs": 625,
+      "end_cs": 662,
+      "active_word_index": 15,
+      "text": "{\\1c&H00D7FF&}dinero{\\1c&HFFFFFF&} y la",
+      "unquantized_start_cs": 626,
+      "unquantized_end_cs": 662
+    },
+    {
+      "start_cs": 662,
+      "end_cs": 704,
+      "active_word_index": 16,
+      "text": "dinero {\\1c&H00D7FF&}y{\\1c&HFFFFFF&} la",
+      "unquantized_start_cs": 662,
+      "unquantized_end_cs": 704
+    },
+    {
+      "start_cs": 704,
+      "end_cs": 733,
+      "active_word_index": 17,
+      "text": "dinero y {\\1c&H00D7FF&}la{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 704,
+      "unquantized_end_cs": 732
+    },
+    {
+      "start_cs": 733,
+      "end_cs": 754,
+      "active_word_index": 18,
+      "text": "{\\1c&H00D7FF&}guerra{\\1c&HFFFFFF&} frenó su",
+      "unquantized_start_cs": 732,
+      "unquantized_end_cs": 756
+    },
+    {
+      "start_cs": 754,
+      "end_cs": 804,
+      "active_word_index": 19,
+      "text": "guerra {\\1c&H00D7FF&}frenó{\\1c&HFFFFFF&} su",
+      "unquantized_start_cs": 756,
+      "unquantized_end_cs": 806
+    },
+    {
+      "start_cs": 804,
+      "end_cs": 820,
+      "active_word_index": 20,
+      "text": "guerra frenó {\\1c&H00D7FF&}su{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 806,
+      "unquantized_end_cs": 820
+    },
+    {
+      "start_cs": 820,
+      "end_cs": 870,
+      "active_word_index": 21,
+      "text": "{\\1c&H00D7FF&}distribución{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 820,
+      "unquantized_end_cs": 872
+    },
+    {
+      "start_cs": 870,
+      "end_cs": 925,
+      "active_word_index": 22,
+      "text": "{\\1c&H00D7FF&}internacional.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 872,
+      "unquantized_end_cs": 924
+    },
+    {
+      "start_cs": 962,
+      "end_cs": 1000,
+      "active_word_index": 23,
+      "text": "{\\1c&H00D7FF&}Costó{\\1c&HFFFFFF&} 2,6",
+      "unquantized_start_cs": 962,
+      "unquantized_end_cs": 1002
+    },
+    {
+      "start_cs": 1000,
+      "end_cs": 1066,
+      "active_word_index": 24,
+      "text": "Costó {\\1c&H00D7FF&}2,6{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1002,
+      "unquantized_end_cs": 1068
+    },
+    {
+      "start_cs": 1066,
+      "end_cs": 1091,
+      "active_word_index": 25,
+      "text": "{\\1c&H00D7FF&}millones{\\1c&HFFFFFF&} de",
+      "unquantized_start_cs": 1068,
+      "unquantized_end_cs": 1092
+    },
+    {
+      "start_cs": 1091,
+      "end_cs": 1116,
+      "active_word_index": 26,
+      "text": "millones {\\1c&H00D7FF&}de{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1092,
+      "unquantized_end_cs": 1118
+    },
+    {
+      "start_cs": 1116,
+      "end_cs": 1170,
+      "active_word_index": 27,
+      "text": "{\\1c&H00D7FF&}dólares,{\\1c&HFFFFFF&} pero",
+      "unquantized_start_cs": 1118,
+      "unquantized_end_cs": 1172
+    },
+    {
+      "start_cs": 1170,
+      "end_cs": 1183,
+      "active_word_index": 28,
+      "text": "dólares, {\\1c&H00D7FF&}pero{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1172,
+      "unquantized_end_cs": 1184
+    },
+    {
+      "start_cs": 1183,
+      "end_cs": 1233,
+      "active_word_index": 29,
+      "text": "{\\1c&H00D7FF&}recaudó{\\1c&HFFFFFF&} solo",
+      "unquantized_start_cs": 1184,
+      "unquantized_end_cs": 1234
+    },
+    {
+      "start_cs": 1233,
+      "end_cs": 1258,
+      "active_word_index": 30,
+      "text": "recaudó {\\1c&H00D7FF&}solo{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1234,
+      "unquantized_end_cs": 1260
+    },
+    {
+      "start_cs": 1258,
+      "end_cs": 1350,
+      "active_word_index": 31,
+      "text": "{\\1c&H00D7FF&}1,4{\\1c&HFFFFFF&} en su",
+      "unquantized_start_cs": 1260,
+      "unquantized_end_cs": 1348
+    },
+    {
+      "start_cs": 1350,
+      "end_cs": 1391,
+      "active_word_index": 32,
+      "text": "1,4 {\\1c&H00D7FF&}en{\\1c&HFFFFFF&} su",
+      "unquantized_start_cs": 1348,
+      "unquantized_end_cs": 1390
+    },
+    {
+      "start_cs": 1391,
+      "end_cs": 1400,
+      "active_word_index": 33,
+      "text": "1,4 en {\\1c&H00D7FF&}su{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1390,
+      "unquantized_end_cs": 1402
+    },
+    {
+      "start_cs": 1400,
+      "end_cs": 1450,
+      "active_word_index": 34,
+      "text": "{\\1c&H00D7FF&}estreno.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1402,
+      "unquantized_end_cs": 1448
+    },
+    {
+      "start_cs": 1470,
+      "end_cs": 1529,
+      "active_word_index": 35,
+      "text": "{\\1c&H00D7FF&}Después,{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1470,
+      "unquantized_end_cs": 1528
+    },
+    {
+      "start_cs": 1529,
+      "end_cs": 1570,
+      "active_word_index": 36,
+      "text": "{\\1c&H00D7FF&}Pinocho{\\1c&HFFFFFF&} y otros",
+      "unquantized_start_cs": 1528,
+      "unquantized_end_cs": 1572
+    },
+    {
+      "start_cs": 1570,
+      "end_cs": 1591,
+      "active_word_index": 37,
+      "text": "Pinocho {\\1c&H00D7FF&}y{\\1c&HFFFFFF&} otros",
+      "unquantized_start_cs": 1572,
+      "unquantized_end_cs": 1590
+    },
+    {
+      "start_cs": 1591,
+      "end_cs": 1612,
+      "active_word_index": 38,
+      "text": "Pinocho y {\\1c&H00D7FF&}otros{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1590,
+      "unquantized_end_cs": 1612
+    },
+    {
+      "start_cs": 1612,
+      "end_cs": 1650,
+      "active_word_index": 39,
+      "text": "{\\1c&H00D7FF&}personajes{\\1c&HFFFFFF&} de",
+      "unquantized_start_cs": 1612,
+      "unquantized_end_cs": 1652
+    },
+    {
+      "start_cs": 1650,
+      "end_cs": 1675,
+      "active_word_index": 40,
+      "text": "personajes {\\1c&H00D7FF&}de{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1652,
+      "unquantized_end_cs": 1676
+    },
+    {
+      "start_cs": 1675,
+      "end_cs": 1708,
+      "active_word_index": 41,
+      "text": "{\\1c&H00D7FF&}Disney{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1676,
+      "unquantized_end_cs": 1708
+    },
+    {
+      "start_cs": 1708,
+      "end_cs": 1791,
+      "active_word_index": 42,
+      "text": "{\\1c&H00D7FF&}participaron{\\1c&HFFFFFF&} en",
+      "unquantized_start_cs": 1708,
+      "unquantized_end_cs": 1792
+    },
+    {
+      "start_cs": 1791,
+      "end_cs": 1816,
+      "active_word_index": 43,
+      "text": "participaron {\\1c&H00D7FF&}en{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1792,
+      "unquantized_end_cs": 1816
+    },
+    {
+      "start_cs": 1816,
+      "end_cs": 1866,
+      "active_word_index": 44,
+      "text": "{\\1c&H00D7FF&}propaganda{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1816,
+      "unquantized_end_cs": 1866
+    },
+    {
+      "start_cs": 1866,
+      "end_cs": 1962,
+      "active_word_index": 45,
+      "text": "{\\1c&H00D7FF&}militar.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 1866,
+      "unquantized_end_cs": 1964
+    },
+    {
+      "start_cs": 2029,
+      "end_cs": 2054,
+      "active_word_index": 46,
+      "text": "{\\1c&H00D7FF&}Eso{\\1c&HFFFFFF&} impulsó su",
+      "unquantized_start_cs": 2028,
+      "unquantized_end_cs": 2054
+    },
+    {
+      "start_cs": 2054,
+      "end_cs": 2100,
+      "active_word_index": 47,
+      "text": "Eso {\\1c&H00D7FF&}impulsó{\\1c&HFFFFFF&} su",
+      "unquantized_start_cs": 2054,
+      "unquantized_end_cs": 2100
+    },
+    {
+      "start_cs": 2100,
+      "end_cs": 2116,
+      "active_word_index": 48,
+      "text": "Eso impulsó {\\1c&H00D7FF&}su{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2100,
+      "unquantized_end_cs": 2118
+    },
+    {
+      "start_cs": 2116,
+      "end_cs": 2195,
+      "active_word_index": 49,
+      "text": "{\\1c&H00D7FF&}recuperación.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2118,
+      "unquantized_end_cs": 2196
+    },
+    {
+      "start_cs": 2237,
+      "end_cs": 2258,
+      "active_word_index": 50,
+      "text": "{\\1c&H00D7FF&}Para{\\1c&HFFFFFF&} 1945,",
+      "unquantized_start_cs": 2238,
+      "unquantized_end_cs": 2258
+    },
+    {
+      "start_cs": 2258,
+      "end_cs": 2333,
+      "active_word_index": 51,
+      "text": "Para {\\1c&H00D7FF&}1945,{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2258,
+      "unquantized_end_cs": 2332
+    },
+    {
+      "start_cs": 2333,
+      "end_cs": 2495,
+      "active_word_index": 52,
+      "text": "{\\1c&H00D7FF&}acumulaba{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2332,
+      "unquantized_end_cs": 2496
+    },
+    {
+      "start_cs": 2495,
+      "end_cs": 2587,
+      "active_word_index": 53,
+      "text": "{\\1c&H00D7FF&}84{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2496,
+      "unquantized_end_cs": 2586
+    },
+    {
+      "start_cs": 2587,
+      "end_cs": 2675,
+      "active_word_index": 54,
+      "text": "{\\1c&H00D7FF&}millones{\\1c&HFFFFFF&} de",
+      "unquantized_start_cs": 2586,
+      "unquantized_end_cs": 2676
+    },
+    {
+      "start_cs": 2675,
+      "end_cs": 2716,
+      "active_word_index": 55,
+      "text": "millones {\\1c&H00D7FF&}de{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2676,
+      "unquantized_end_cs": 2718
+    },
+    {
+      "start_cs": 2716,
+      "end_cs": 2745,
+      "active_word_index": 56,
+      "text": "{\\1c&H00D7FF&}dólares{\\1c&HFFFFFF&} en",
+      "unquantized_start_cs": 2718,
+      "unquantized_end_cs": 2744
+    },
+    {
+      "start_cs": 2745,
+      "end_cs": 2800,
+      "active_word_index": 57,
+      "text": "dólares {\\1c&H00D7FF&}en{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2744,
+      "unquantized_end_cs": 2798
+    },
+    {
+      "start_cs": 2800,
+      "end_cs": 2879,
+      "active_word_index": 58,
+      "text": "{\\1c&H00D7FF&}beneficios.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2798,
+      "unquantized_end_cs": 2880
+    },
+    {
+      "start_cs": 2908,
+      "end_cs": 2920,
+      "active_word_index": 59,
+      "text": "{\\1c&H00D7FF&}¿La{\\1c&HFFFFFF&} mejor",
+      "unquantized_start_cs": 2908,
+      "unquantized_end_cs": 2920
+    },
+    {
+      "start_cs": 2920,
+      "end_cs": 2937,
+      "active_word_index": 60,
+      "text": "¿La {\\1c&H00D7FF&}mejor{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2920,
+      "unquantized_end_cs": 2938
+    },
+    {
+      "start_cs": 2937,
+      "end_cs": 2979,
+      "active_word_index": 61,
+      "text": "{\\1c&H00D7FF&}campaña{\\1c&HFFFFFF&} de",
+      "unquantized_start_cs": 2938,
+      "unquantized_end_cs": 2978
+    },
+    {
+      "start_cs": 2979,
+      "end_cs": 2991,
+      "active_word_index": 62,
+      "text": "campaña {\\1c&H00D7FF&}de{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2978,
+      "unquantized_end_cs": 2992
+    },
+    {
+      "start_cs": 2991,
+      "end_cs": 3070,
+      "active_word_index": 63,
+      "text": "{\\1c&H00D7FF&}marketing?{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 2992,
+      "unquantized_end_cs": 3072
+    },
+    {
+      "start_cs": 3108,
+      "end_cs": 3183,
+      "active_word_index": 64,
+      "text": "{\\1c&H00D7FF&}Suscríbete.{\\1c&HFFFFFF&}",
+      "unquantized_start_cs": 3108,
+      "unquantized_end_cs": 3184
+    }
+  ],
+  "overlap_rule": "latest start wins; no cumulative highlight",
+  "time_resolution_seconds": 0.01,
+  "display_quantization": "nearest picture frame; ASS boundary floored to centiseconds",
+  "fps": 24,
+  "max_lines": 1
+}

@@ -1,0 +1,49 @@
+{
+  "reviewed_at": "2026-10-06T02:04:17.950637+00:00",
+  "status": "approved_for_local_delivery",
+  "reviewer": "assistant (actual frames, technical measurements and blind machine audio supplement)",
+  "video": "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+  "video_sha256": "db8fbbb59add526ee07ac21c8b63f21ef247a35aee5fdbda79e421aa62457436",
+  "picture_master": "final/picture-master-1080x1920-r001.mp4",
+  "picture_sha256": "7c3014146451d922659f72d011fb190991a80ee99c0d873dd2a6b9872cfabf50",
+  "frame_count": 773,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "duration_seconds": 32.208333333333336,
+  "full_decode": "passed",
+  "encoded_integrated_lufs": -16.03,
+  "encoded_true_peak_dbtp": -4.23,
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "audio_language": "spa",
+  "accepted_narration_full_and_unchanged": true,
+  "voice_time_stretch": false,
+  "source_content_edit": false,
+  "historical_fact_check": false,
+  "native_concat_audio_contribution_samples": 0,
+  "selected_sfx_mixed_once": true,
+  "music_tracks": 0,
+  "ambience_tracks": 0,
+  "captions": {
+    "word_count": 64,
+    "cue_count": 37,
+    "all_current_word_highlights_reviewed": true,
+    "evidence": "delivery/caption-qc-r001/evidence.json"
+  },
+  "picture_review": "final/upscale-qc-r001/evidence.json",
+  "selected_native_reviews": "renders/selection-manifest.json",
+  "final_audio_supplement": "delivery/final-audio-review-extracted-r001.json",
+  "personal_listening_claimed": false,
+  "new_human_release_approval": false,
+  "published": false,
+  "limitations": "Actual assistant picture/caption QC and provider machine listening supplement, not new full human playback/release approval. Provider approximate audio clock not used for timing.",
+  "repository_validation": {
+    "status": "passed",
+    "log": "delivery/repository-validation-r001.log",
+    "log_sha256": "886081f61ae1eb506f098b12524446d1391ca1275cf1111c2ceb44cee00aa464",
+    "git_diff_check": "passed_in_repository_validator"
+  }
+}

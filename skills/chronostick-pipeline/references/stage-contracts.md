@@ -2,6 +2,11 @@
 
 New reference-first Shorts use semantic schema v2 and the fifteen stages in `docs/reference-first-shorts.md`. `validated` denotes a technical check; creative decisions require recorded review, and production references require user-approved scenario and storyboard. Voice and reference branches may progress independently after that gate. When Google Vids is selected, the `voice` branch includes a required `chronostick-voice-direction` substage with tagged script, notes, validation and source/tagged hashes; a prepared paste copy is not an accepted voice. The numbered table below is the preserved legacy route, not the new default.
 
+The tagged-copy preparation runs immediately after every script creation/revision,
+including drafts, before storyboard review and without a separate request. Deliver
+clean/tagged versions together with many fitting emotion/style cues throughout.
+Record early preparation under `voice`; its audio-acceptance status remains missing.
+
 For this route, both reference design/review and timed shot direction must inspect the actual selected storyboard pages. Every reference entry and directed shot records `storyboard_panel_ids`; omitted/combined/retimed panels require a separate rationale, and material creative changes reopen the relevant review. Sketches control composition/action while locked production style and researched identities control rendering/appearance. They are never H3 reference images.
 
 Allowed legacy stage states: `missing`, `draft`, `needs_review`, `approved`, `rejected`, `blocked`, `superseded`.
@@ -9,7 +14,7 @@ Allowed legacy stage states: `missing`, `draft`, `needs_review`, `approved`, `re
 | Stage | Skill | Requires | Required outputs before approval |
 | --- | --- | --- | --- |
 | 01 intake/script | `chronostick-script` | title, source text, target language | `source/intake.json`, source copy, narration, script analysis |
-| 01a voice direction (required when Vids is selected) | `chronostick-voice-direction` | reviewed narration and Google Vids as voice provider | separately tagged Vids script and notes; record used/skipped in manifest; final delivery gate remains the accepted voice |
+| 01a voice direction (immediate post-script preparation) | `chronostick-voice-direction` | clean narration draft/revision and Google Vids as voice provider | densely emotional tagged script, notes, text validation and hashes delivered with clean narration; final delivery gate remains actual audio acceptance |
 | 02 timestamps | `chronostick-timestamps` | approved narration, word timestamps from approved voice | preserved source CSV, optional normalized CSV, `timing-map.json` |
 | 03 direction | `chronostick-shot-plan` | approved timing map | shot plan, story-state ledger, reference manifest |
 | 04 references | `chronostick-references` | approved reference manifest and style authority | paste-ready image prompts, immutable full-frame assets, review status |

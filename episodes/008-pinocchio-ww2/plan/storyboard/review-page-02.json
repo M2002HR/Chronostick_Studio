@@ -1,0 +1,44 @@
+{
+  "status": "assistant inspected; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-page-02-r005.png",
+  "sha256": "61797f1702f1907bacba43db66b26470f542dce0be417b667d804b0a50777d84",
+  "size": [
+    1536,
+    1024
+  ],
+  "panel_count": 6,
+  "panels": [
+    {
+      "id": "S13",
+      "result": "usable composition draft",
+      "notes": "One hand and full bag beside wooden-boy drawing stack; no labels"
+    },
+    {
+      "id": "S14",
+      "result": "usable composition draft",
+      "notes": "Large coin pile, full bags and drawing corner; no humans"
+    },
+    {
+      "id": "S15",
+      "result": "usable composition draft",
+      "notes": "One suited producer beside large costs/drawings; extra studio lamps/camera contextual background"
+    },
+    {
+      "id": "S16",
+      "result": "usable composition draft",
+      "notes": "One hand places one small bag on bare table"
+    },
+    {
+      "id": "S17",
+      "result": "usable composition draft",
+      "notes": "One bag and four sparse coins, no humans"
+    },
+    {
+      "id": "S18",
+      "result": "usable composition draft",
+      "notes": "Exactly one lowered-shoulder producer; large left pile and tiny right bag/coins"
+    }
+  ],
+  "style_note": "More shading and broader frames than requested. Explicit draft adjustment: accept broad storyboard frames for inventory/framing review; production shot aspect remains 9:16 and these are never production anchors. Face and puppet nose are not identity decisions.",
+  "approved_by_user": false
+}

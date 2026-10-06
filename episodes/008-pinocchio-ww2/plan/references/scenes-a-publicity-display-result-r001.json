@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T21:54:43.157145+00:00",
+  "id": "publicity-display",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "f87530cf2f810d67b07cab978bdf4069267a07ee4c0e8f76df92e603ece056cb",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-b6f76f0e-2dd4-49c7-929a-00a794d86fea.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/publicity-display-r001.png",
+  "sha256": "e48dad3f05ca2f05affe92078ba5922565abb3c0433ba2d9b7175d63641e90f8",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

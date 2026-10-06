@@ -1,0 +1,77 @@
+{
+  "status": "complete for user review; all 36 selected actual panels inspected",
+  "prior_r001_status": "not submitted; superseded",
+  "r002": "page 01 generated; pages 02 and 03 safety rejected",
+  "r003": "local waiting execution terminated at user retry request; remote completion unknown; no corresponding new image found",
+  "user_retry_instruction": "برای تصاویر دوبارهتلاش کن، گیر کرده",
+  "current_requests": [
+    "storyboard-request-page-01-r002.json",
+    "storyboard-request-page-02-r005.json",
+    "storyboard-request-retry-a-r010.json",
+    "storyboard-request-retry-b1-r010.json",
+    "storyboard-request-retry-b2-r008.json",
+    "storyboard-request-page-04-r005.json",
+    "storyboard-request-retry-c-r006.json",
+    "storyboard-request-retry-d-r009.json"
+  ],
+  "preserved_image": "storyboard-page-01-r002.png",
+  "creative_approval": {
+    "decision_path": "plan/review-decisions.json",
+    "quote": "ادامه بده",
+    "recorded_at": "2026-10-05T20:45:15.973374+00:00"
+  },
+  "attempt_results": [
+    "generation-results-page-02-r004.json",
+    "generation-results-page-02-r005.json",
+    "generation-results-page-03-r004.json",
+    "generation-results-page-03-r005.json",
+    "generation-results-page-04-r004.json",
+    "generation-results-page-04-r005.json",
+    "generation-results-page-05-r004.json",
+    "generation-results-page-05-r005.json",
+    "generation-results-r002.json",
+    "generation-results-retry-a-r006.json",
+    "generation-results-retry-a-r007.json",
+    "generation-results-retry-a-r008.json",
+    "generation-results-retry-a-r009.json",
+    "generation-results-retry-a-r010.json",
+    "generation-results-retry-b-r007.json",
+    "generation-results-retry-b1-r008.json",
+    "generation-results-retry-b1-r009.json",
+    "generation-results-retry-b1-r010.json",
+    "generation-results-retry-b2-r008.json",
+    "generation-results-retry-c-r006.json",
+    "generation-results-retry-d-r007.json",
+    "generation-results-retry-d-r008.json",
+    "generation-results-retry-d-r009.json"
+  ],
+  "updated_at": "2026-10-05T20:08:10.328771+00:00",
+  "available_images": [
+    "storyboard-page-01-r002.png",
+    "storyboard-page-02-r005.png",
+    "storyboard-retry-a-r010.png",
+    "storyboard-retry-b1-r010.png",
+    "storyboard-retry-b2-r008.png",
+    "storyboard-page-04-r005.png",
+    "storyboard-retry-c-r006.png",
+    "storyboard-retry-d-r009.png"
+  ],
+  "missing_panels": [],
+  "pending_local_requests": [],
+  "user_latest_instruction": "نه\nیه جوری بسازش هر طور شده به بهترین شکل و پرامپتارو یه جوری عوض کن که گیر نده",
+  "api_fallback": "declined by user; built-in only",
+  "selected_requests": [
+    "storyboard-request-page-01-r002.json",
+    "storyboard-request-page-02-r005.json",
+    "storyboard-request-retry-a-r010.json",
+    "storyboard-request-retry-b1-r010.json",
+    "storyboard-request-retry-b2-r008.json",
+    "storyboard-request-page-04-r005.json",
+    "storyboard-request-retry-c-r006.json",
+    "storyboard-request-retry-d-r009.json"
+  ],
+  "alternatives": [
+    "storyboard-retry-a-r009.png",
+    "storyboard-retry-b1-r009.png"
+  ]
+}

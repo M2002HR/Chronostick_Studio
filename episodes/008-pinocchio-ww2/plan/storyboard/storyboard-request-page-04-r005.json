@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r005",
+  "created_at": "2026-10-05T19:44:48.553464+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-page-04.txt",
+  "prompt": "Draw a rough monochrome pencil storyboard on white paper, exactly six portrait panels in three columns and two rows. Simple ordinary human sketches; spare contour lines. A film reel, a family returning to a cinema, a ticket sale and increasing bags of money. No detailed likeness or branding. Panel IDs outside frames only, no text inside scenes.\n\nS25: Close film canister return. One plain hand sets a film canister beside a projector; wordless wooden-boy film artwork visible on the lid. No number/date.\nS26: Wide cinema attendance. The same father, mother and child now approach the ticket booth together; exactly three people, no crowd.\nS27: Extreme close ticket tear. Exactly two hands tear one unprinted admission ticket at the cinema entrance; no faces or readable numbers.\nS28: Close cash accumulates. One plain money bag is set beside an expanding coin pile on the table; no text or humans.\nS29: Medium money growth. Several plain money bags now fill most of the same receipts table; no person, no numerical label.\nS30: Wide overflowing money. The table is filled with plain bags and coin piles, with one bag on the floor. No people or markings. Clear source wealth metaphor.\n\nKeep exact panel order and subject counts, with little background detail.\n",
+  "prompt_sha256": "7e647564d6892a2ebb8ce3a3c4df223087d3099829d8d075a6e72394f2f37cbc",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-page-04-r005.png",
+  "status": "prepared",
+  "retry_reason": "Unspecified other-category output rejection; shorter same six compositions without irrelevant character descriptions."
+}

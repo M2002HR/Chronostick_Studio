@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:13:13.519858+00:00",
+  "id": "publicity-print-reel",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-d-requests-r001.json",
+  "request_sha256": "51872823fb2d050c020465203ccb0e48caaca40fb19a94e0e53216fdf5cf78d9",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-807b3a1b-9bd0-46a5-80d6-2b1f753a87d2.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/publicity-print-reel-r001.png",
+  "sha256": "df01e117dedb29b2cea3eedab3616a6b83cdb5bd78a53715b31f10b2dfe2ff64",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

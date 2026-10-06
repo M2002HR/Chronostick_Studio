@@ -1,0 +1,10 @@
+Draw a simple rough monochrome pencil storyboard, exactly six portrait panels in three columns and two rows, white paper and spare lines. A humorous film-studio producer reacts to commercial success, with plain bags and coins. Anonymous ordinary adult with no detailed likeness. Panel IDs outside frames only, no text inside scenes.
+
+S31: Extreme close spill. A few coins roll from the table edge into a waiting pile; no person or word.
+S32: Medium complete cash pile. The bags and coins settle into a large stable pile around the table; no people.
+S33: Close producer reaction. Exactly one suited producer looks toward the money with an amused, surprised expression. Simplified human features only.
+S34: Close campaign artwork. The same wordless studio poster of the wooden boy and round-eared mouse in ordinary outfits sits beside one blank film reel; exactly two printed figures and no humans.
+S35: Medium producer sits. Exactly one suited producer sits on a playful throne made of money bags. Satirical source wealth metaphor, no literal historic event claim.
+S36: Wide resolved wealth tableau. Exactly one suited producer sits still on the money-bag throne with settled coins around him; no posters, other people, captions, buttons or slogans.
+
+Preserve this six-panel order and the exact visible subject counts.

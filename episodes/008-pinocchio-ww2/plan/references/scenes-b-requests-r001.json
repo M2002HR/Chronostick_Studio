@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-10-05T21:37:31.498800+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "cinema-exterior",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/cinema-exterior.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nAn empty 1940 cinema facade, symmetrical cream stucco and warm brick, recessed double wooden doors center, blank cream horizontal marquee above, one brass-framed ticket window right, one wordless rectangular illustrated poster left. Poster depicts exactly the supplied stick Pinocchio in cap, bow, vest and shorts, on muted blue ground. This is printed art, not a live figure. Zero people and animals. Broad front three-quarter view from street level, sidewalk lower quarter, soft amber afternoon from upper left. Entire cinema fits safely within vertical frame; no writing or signs.\n",
+      "prompt_sha256": "b7b442662fc72636225e516fc7e89ea74138d5bdcff33d36bf0e3c001b1507a1",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png",
+          "sha256": "18ebd24f1e28af1a3ca0011fee3ffe9df5a57431a0c3e87b634038618502d311",
+          "role": "identity-wooden-boy"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/cinema-exterior-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S02"
+      ]
+    },
+    {
+      "id": "projected-film",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/projected-film.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nClose frontal view of one rectangular glowing cinema screen within a dark charcoal wooden frame, screen covers central 80 percent of image. Exactly one projected stick Pinocchio matching the supplied identity, mustard feather cap, dark forelock, tiny short nose, blue bow, brown vest, burgundy shorts, wooden joint discs and brown shoes. He stands center on simple painted dusty-blue studio scenery, relaxed pose with one mitten slightly lifted. Zero physical people or audience, zero other projected characters. Faint drawn projector-light glow, warm pale screen, dark edges. Full-frame single scene, not an image sheet.\n",
+      "prompt_sha256": "c926b0b39f1acf8cc1118d08dd9f357fa26d1b04ee2834f0894da0f89e016731",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png",
+          "sha256": "18ebd24f1e28af1a3ca0011fee3ffe9df5a57431a0c3e87b634038618502d311",
+          "role": "identity-wooden-boy"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/projected-film-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S04"
+      ]
+    },
+    {
+      "id": "costs-desk",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/costs-desk.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nExactly one supplied navy-suited producer stands behind a brown animation-studio desk, center upper half. His burgundy tie, dark side-part hair and slim round-headed identity stay fixed. Desk holds exactly three large plain beige tied money bags clustered left, a large loose mound of plain unmarked gold coins in front of them, and one stack of cream animation sheets right. Top sheet shows a small wordless drawing of supplied stick Pinocchio in his cap and bow, no extra figure. Producer right mitten rests on nearest full bag for placement coverage. No wall art or other people. Medium frontal slight overhead camera exposes table surface and face; warm gray studio wall, upper-left amber light and dark navy shadows. All bags, coins and drawings have clear dark contours. No currency glyphs or invented diagrams.\n",
+      "prompt_sha256": "a4feab3481ca6866cd3e98ed9d9ec67a609e88f68c8962380f0ec3031f2d9efd",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+          "sha256": "e3217d6e78d2cf76331d1d05003f3ab940223385fc7353d90084c5d5dba52520",
+          "role": "identity-producer"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png",
+          "sha256": "18ebd24f1e28af1a3ca0011fee3ffe9df5a57431a0c3e87b634038618502d311",
+          "role": "identity-wooden-boy"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r004.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/costs-desk-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S13",
+        "S14",
+        "S15"
+      ]
+    }
+  ]
+}

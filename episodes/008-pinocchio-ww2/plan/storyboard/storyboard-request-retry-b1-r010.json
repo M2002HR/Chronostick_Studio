@@ -1,0 +1,15 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r010",
+  "created_at": "2026-10-05T20:05:26.171135+00:00",
+  "prompt": "One portrait 9:16 rough graphite storyboard sketch, labelled S22 in the white margin. An adult serviceman in a plain 1940s service uniform studies the FRONT of a freestanding framed cinema-publicity display in a foyer. Crucial staging: the display stands BETWEEN the camera and the man. The camera is behind the display and sees its plain wooden BACK in the right near foreground. The man is on the FAR SIDE of the display, partly visible to its left, facing toward the display and toward the camera in three-quarter FRONT view. His eyes are directed at the illustrated front surface, which is hidden from the camera. Include a floor support stand and obvious gap between the display and the wall. Exactly one adult and one freestanding display. Neutral ordinary human proportions, very spare pencil contours, minimal facial detail, no typography or visible illustration.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-b1.txt",
+  "prompt_sha256": "fc54fc0ee37a42f5ab4e518fcefe2636655470f094db0ce934e89b71dc533e4d",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-b1-r010.png",
+  "shot_ids": [
+    "S22"
+  ],
+  "status": "prepared",
+  "visual_revision": "Correct impossible r009 viewer/backside relationship. Freestanding poster stands between camera and military viewer; viewer studies hidden front, camera sees reverse. Preserve publicity role and narration."
+}

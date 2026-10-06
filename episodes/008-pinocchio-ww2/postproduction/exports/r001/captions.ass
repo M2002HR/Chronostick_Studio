@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Montserrat,104,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,2,2,2,108,108,300,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.16,0:00:00.37,Caption,,0,0,0,,{\1c&H00D7FF&}En{\1c&HFFFFFF&} 1940,
+Dialogue: 0,0:00:00.37,0:00:01.79,Caption,,0,0,0,,En {\1c&H00D7FF&}1940,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:01.79,0:00:02.00,Caption,,0,0,0,,{\1c&H00D7FF&}Disney{\1c&HFFFFFF&} estrenó
+Dialogue: 0,0:00:02.00,0:00:02.50,Caption,,0,0,0,,Disney {\1c&H00D7FF&}estrenó{\1c&HFFFFFF&}
+Dialogue: 0,0:00:02.50,0:00:02.91,Caption,,0,0,0,,{\1c&H00D7FF&}Pinocho{\1c&HFFFFFF&} en
+Dialogue: 0,0:00:02.91,0:00:03.41,Caption,,0,0,0,,Pinocho {\1c&H00D7FF&}en{\1c&HFFFFFF&}
+Dialogue: 0,0:00:03.41,0:00:03.79,Caption,,0,0,0,,{\1c&H00D7FF&}plena{\1c&HFFFFFF&} Segunda
+Dialogue: 0,0:00:03.79,0:00:04.20,Caption,,0,0,0,,plena {\1c&H00D7FF&}Segunda{\1c&HFFFFFF&}
+Dialogue: 0,0:00:04.20,0:00:04.41,Caption,,0,0,0,,{\1c&H00D7FF&}Guerra{\1c&HFFFFFF&}
+Dialogue: 0,0:00:04.41,0:00:05.00,Caption,,0,0,0,,{\1c&H00D7FF&}Mundial.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:05.00,0:00:05.20,Caption,,0,0,0,,{\1c&H00D7FF&}Las{\1c&HFFFFFF&} familias
+Dialogue: 0,0:00:05.20,0:00:05.66,Caption,,0,0,0,,Las {\1c&H00D7FF&}familias{\1c&HFFFFFF&}
+Dialogue: 0,0:00:05.66,0:00:05.91,Caption,,0,0,0,,{\1c&H00D7FF&}tenían{\1c&HFFFFFF&} menos
+Dialogue: 0,0:00:05.91,0:00:06.25,Caption,,0,0,0,,tenían {\1c&H00D7FF&}menos{\1c&HFFFFFF&}
+Dialogue: 0,0:00:06.25,0:00:06.62,Caption,,0,0,0,,{\1c&H00D7FF&}dinero{\1c&HFFFFFF&} y la
+Dialogue: 0,0:00:06.62,0:00:07.04,Caption,,0,0,0,,dinero {\1c&H00D7FF&}y{\1c&HFFFFFF&} la
+Dialogue: 0,0:00:07.04,0:00:07.33,Caption,,0,0,0,,dinero y {\1c&H00D7FF&}la{\1c&HFFFFFF&}
+Dialogue: 0,0:00:07.33,0:00:07.54,Caption,,0,0,0,,{\1c&H00D7FF&}guerra{\1c&HFFFFFF&} frenó su
+Dialogue: 0,0:00:07.54,0:00:08.04,Caption,,0,0,0,,guerra {\1c&H00D7FF&}frenó{\1c&HFFFFFF&} su
+Dialogue: 0,0:00:08.04,0:00:08.20,Caption,,0,0,0,,guerra frenó {\1c&H00D7FF&}su{\1c&HFFFFFF&}
+Dialogue: 0,0:00:08.20,0:00:08.70,Caption,,0,0,0,,{\1c&H00D7FF&}distribución{\1c&HFFFFFF&}
+Dialogue: 0,0:00:08.70,0:00:09.25,Caption,,0,0,0,,{\1c&H00D7FF&}internacional.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:09.62,0:00:10.00,Caption,,0,0,0,,{\1c&H00D7FF&}Costó{\1c&HFFFFFF&} 2,6
+Dialogue: 0,0:00:10.00,0:00:10.66,Caption,,0,0,0,,Costó {\1c&H00D7FF&}2,6{\1c&HFFFFFF&}
+Dialogue: 0,0:00:10.66,0:00:10.91,Caption,,0,0,0,,{\1c&H00D7FF&}millones{\1c&HFFFFFF&} de
+Dialogue: 0,0:00:10.91,0:00:11.16,Caption,,0,0,0,,millones {\1c&H00D7FF&}de{\1c&HFFFFFF&}
+Dialogue: 0,0:00:11.16,0:00:11.70,Caption,,0,0,0,,{\1c&H00D7FF&}dólares,{\1c&HFFFFFF&} pero
+Dialogue: 0,0:00:11.70,0:00:11.83,Caption,,0,0,0,,dólares, {\1c&H00D7FF&}pero{\1c&HFFFFFF&}
+Dialogue: 0,0:00:11.83,0:00:12.33,Caption,,0,0,0,,{\1c&H00D7FF&}recaudó{\1c&HFFFFFF&} solo
+Dialogue: 0,0:00:12.33,0:00:12.58,Caption,,0,0,0,,recaudó {\1c&H00D7FF&}solo{\1c&HFFFFFF&}
+Dialogue: 0,0:00:12.58,0:00:13.50,Caption,,0,0,0,,{\1c&H00D7FF&}1,4{\1c&HFFFFFF&} en su
+Dialogue: 0,0:00:13.50,0:00:13.91,Caption,,0,0,0,,1,4 {\1c&H00D7FF&}en{\1c&HFFFFFF&} su
+Dialogue: 0,0:00:13.91,0:00:14.00,Caption,,0,0,0,,1,4 en {\1c&H00D7FF&}su{\1c&HFFFFFF&}
+Dialogue: 0,0:00:14.00,0:00:14.50,Caption,,0,0,0,,{\1c&H00D7FF&}estreno.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:14.70,0:00:15.29,Caption,,0,0,0,,{\1c&H00D7FF&}Después,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:15.29,0:00:15.70,Caption,,0,0,0,,{\1c&H00D7FF&}Pinocho{\1c&HFFFFFF&} y otros
+Dialogue: 0,0:00:15.70,0:00:15.91,Caption,,0,0,0,,Pinocho {\1c&H00D7FF&}y{\1c&HFFFFFF&} otros
+Dialogue: 0,0:00:15.91,0:00:16.12,Caption,,0,0,0,,Pinocho y {\1c&H00D7FF&}otros{\1c&HFFFFFF&}
+Dialogue: 0,0:00:16.12,0:00:16.50,Caption,,0,0,0,,{\1c&H00D7FF&}personajes{\1c&HFFFFFF&} de
+Dialogue: 0,0:00:16.50,0:00:16.75,Caption,,0,0,0,,personajes {\1c&H00D7FF&}de{\1c&HFFFFFF&}
+Dialogue: 0,0:00:16.75,0:00:17.08,Caption,,0,0,0,,{\1c&H00D7FF&}Disney{\1c&HFFFFFF&}
+Dialogue: 0,0:00:17.08,0:00:17.91,Caption,,0,0,0,,{\1c&H00D7FF&}participaron{\1c&HFFFFFF&} en
+Dialogue: 0,0:00:17.91,0:00:18.16,Caption,,0,0,0,,participaron {\1c&H00D7FF&}en{\1c&HFFFFFF&}
+Dialogue: 0,0:00:18.16,0:00:18.66,Caption,,0,0,0,,{\1c&H00D7FF&}propaganda{\1c&HFFFFFF&}
+Dialogue: 0,0:00:18.66,0:00:19.62,Caption,,0,0,0,,{\1c&H00D7FF&}militar.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:20.29,0:00:20.54,Caption,,0,0,0,,{\1c&H00D7FF&}Eso{\1c&HFFFFFF&} impulsó su
+Dialogue: 0,0:00:20.54,0:00:21.00,Caption,,0,0,0,,Eso {\1c&H00D7FF&}impulsó{\1c&HFFFFFF&} su
+Dialogue: 0,0:00:21.00,0:00:21.16,Caption,,0,0,0,,Eso impulsó {\1c&H00D7FF&}su{\1c&HFFFFFF&}
+Dialogue: 0,0:00:21.16,0:00:21.95,Caption,,0,0,0,,{\1c&H00D7FF&}recuperación.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:22.37,0:00:22.58,Caption,,0,0,0,,{\1c&H00D7FF&}Para{\1c&HFFFFFF&} 1945,
+Dialogue: 0,0:00:22.58,0:00:23.33,Caption,,0,0,0,,Para {\1c&H00D7FF&}1945,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:23.33,0:00:24.95,Caption,,0,0,0,,{\1c&H00D7FF&}acumulaba{\1c&HFFFFFF&}
+Dialogue: 0,0:00:24.95,0:00:25.87,Caption,,0,0,0,,{\1c&H00D7FF&}84{\1c&HFFFFFF&}
+Dialogue: 0,0:00:25.87,0:00:26.75,Caption,,0,0,0,,{\1c&H00D7FF&}millones{\1c&HFFFFFF&} de
+Dialogue: 0,0:00:26.75,0:00:27.16,Caption,,0,0,0,,millones {\1c&H00D7FF&}de{\1c&HFFFFFF&}
+Dialogue: 0,0:00:27.16,0:00:27.45,Caption,,0,0,0,,{\1c&H00D7FF&}dólares{\1c&HFFFFFF&} en
+Dialogue: 0,0:00:27.45,0:00:28.00,Caption,,0,0,0,,dólares {\1c&H00D7FF&}en{\1c&HFFFFFF&}
+Dialogue: 0,0:00:28.00,0:00:28.79,Caption,,0,0,0,,{\1c&H00D7FF&}beneficios.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:29.08,0:00:29.20,Caption,,0,0,0,,{\1c&H00D7FF&}¿La{\1c&HFFFFFF&} mejor
+Dialogue: 0,0:00:29.20,0:00:29.37,Caption,,0,0,0,,¿La {\1c&H00D7FF&}mejor{\1c&HFFFFFF&}
+Dialogue: 0,0:00:29.37,0:00:29.79,Caption,,0,0,0,,{\1c&H00D7FF&}campaña{\1c&HFFFFFF&} de
+Dialogue: 0,0:00:29.79,0:00:29.91,Caption,,0,0,0,,campaña {\1c&H00D7FF&}de{\1c&HFFFFFF&}
+Dialogue: 0,0:00:29.91,0:00:30.70,Caption,,0,0,0,,{\1c&H00D7FF&}marketing?{\1c&HFFFFFF&}
+Dialogue: 0,0:00:31.08,0:00:31.83,Caption,,0,0,0,,{\1c&H00D7FF&}Suscríbete.{\1c&HFFFFFF&}

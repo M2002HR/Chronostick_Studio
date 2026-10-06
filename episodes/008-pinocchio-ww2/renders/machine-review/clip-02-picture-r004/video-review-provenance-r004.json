@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-06T01:40:36.206662+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/editorial/episode-008-clip-02-isolated-dock-r004.mp4",
+  "video_sha256": "e1c98ab7c572b6098414638421e1f1d10b601e6570e01cfbe8d25860f7eb0388",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/script/narration-es.md",
+  "transcript_sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+  "request_sha256": "7e7e2dd1314f851414d3a61ebf4325fb9251760aa0cfda9766235e8ec9a49c67",
+  "status": "needs_review",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "instructions_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/machine-review-instructions.txt",
+  "intended_contract_supplied": false,
+  "actual_media_mime": "video/mp4",
+  "http_status": 200,
+  "response_sha256": "d1673dbee04672a4db9132347617caf61ccb2284b5d6149aaad735e89204bfb9"
+}

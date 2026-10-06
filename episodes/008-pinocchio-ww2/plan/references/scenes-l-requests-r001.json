@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-05T23:54:16.243635+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "ticket-tear",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/ticket-tear.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nUse supplied ticket exchange for paper stock, counter and lighting. Close centered view of exactly two pale simplified mitten hands with cream cuffs and dark sleeves, entering left and right, holding opposite ends of one small unprinted cream ticket with a tiny pre-cut notch along center. Hands poised to tear once; no already-detached extra stub. Brown cinema counter beneath and brass frame distant. No full people, faces, additional paper or writing. Static slightly overhead composition, strong drawn contours and warm light.\n",
+      "prompt_sha256": "fa0a293a189743a821d33414215850b2705c42ce3fca1e4bfcfccb99c61d18da",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/ticket-sale-r001.png",
+          "sha256": "c36816650dffec7016e6cc42532ceab5264b4450593033ddfccd13552d789317",
+          "role": "ticket-sale"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/ticket-sale-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/ticket-tear-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S27"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "008-pinocchio-ww2",
+  "revision": "r003",
+  "created_at": "2026-10-06T00:14:45.680350+00:00",
+  "status": "candidate_original_and_scoped_repair_actual_review_pending",
+  "production_profile": "h3-short-dynamic-16step-20-30s",
+  "project_seed": 20261006008,
+  "timing_sha256": "4c784a989b0288cf8815496bd29696f6b3349c8a0c5626feee1c92362e0f565c",
+  "direction_sha256": "03e688f799af1b9d1b8a55324f022de207dcb5c76aa74dedb0592019dc332c53",
+  "reference_manifest_sha256": "19cc4942de8976c9b4e873fad314851b38dea14228eb9f26d62af3170d319cdc",
+  "service_sources": [
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/models.py",
+      "sha256": "d89ae80728d4dcf840cadd8edf8beee4eadb7a4919df04e14a0a669e32f59fcb"
+    },
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/resolver.py",
+      "sha256": "3787c78ef4d46f98db82f0efaea49f3cac25f30486398b45ca8cd410e4d3d92a"
+    },
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/graph.py",
+      "sha256": "994944ff6e332d23a8f97256237eea2220a847e013668309e21abb064fb1fe43"
+    },
+    {
+      "path": "/home/mhr/AI/comfy-video-automation/src/comfy_video_service/templates.py",
+      "sha256": "b9e239018bce74607bd4de59186e1aa40b0560fd7dfc36b876f44048cc46177e"
+    }
+  ],
+  "jobs": [
+    {
+      "clip_id": "clip-01",
+      "job_path": "automation/jobs/clip-01-film-opens-during-war.json",
+      "job_identity": "episode-008-clip-01-film-opens-during-war-r001",
+      "seed": 3186557094870301102,
+      "prompt_path": "prompts/clip-01-film-opens-during-war.md",
+      "prompt_sha256": "b005d5f9dedbfd77ace69e29b51aecc0a60c9a581d10d609525d0f38001859a7",
+      "reference_ids": [
+        "projection-booth",
+        "cinema-exterior",
+        "wartime-sky",
+        "wartime-wall"
+      ],
+      "reference_hashes": [
+        "e1b11c4122e89732f3fe7535edbadcfe7149cacab19d1dff86bb561c5ab20f54",
+        "ac6a750a992bc3fba6aa817ad93fd68fea409008b1526870e43b80a602b56a23",
+        "c38ea0848fa46099dc10e5376a47e0b6e096b33d08383eb4f3dfd8e0315009d2",
+        "74436dcd04d11dfc929b500c9f8420e19f430ca695f70ce83d0d6fe49207f913"
+      ],
+      "requested_seconds": 5.083333333333333,
+      "expected_raw_frames": 124,
+      "editorial_frames": 122,
+      "editorial_seconds": 5.083333333333333,
+      "raw_tail_hold_frames": 2,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-02",
+      "job_path": "automation/retries/family-affordability-r003/jobs/clip-02-families-distribution-blocked-r003.json",
+      "job_identity": "episode-008-clip-02-families-distribution-blocked-r003",
+      "seed": 5162383863457842700,
+      "prompt_path": "prompts/clip-02-families-distribution-blocked-r003.md",
+      "prompt_sha256": "03b52fb73fda842c1b0c08895b0c654467f1ba66cbcc8251c686069cc069dfdb",
+      "reference_ids": [
+        "cinema-family",
+        "dock-blocked"
+      ],
+      "reference_hashes": [
+        "3ada3d7f4ee910528b114fbbec5925329612d47c20d169a5603c43604f3ff669",
+        "4b5b00f398b013e57dd0de3b0d3ffe185a8bb0be88d4fee58624da9a64239d22"
+      ],
+      "requested_seconds": 5,
+      "expected_raw_frames": 124,
+      "editorial_frames": 108,
+      "editorial_seconds": 4.5,
+      "raw_tail_hold_frames": 16,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch",
+      "direction_override": "plan/clip-02-direction-r003.json"
+    },
+    {
+      "clip_id": "clip-03",
+      "job_path": "automation/jobs/clip-03-costs-versus-receipts.json",
+      "job_identity": "episode-008-clip-03-costs-versus-receipts-r001",
+      "seed": 8771127611264257608,
+      "prompt_path": "prompts/clip-03-costs-versus-receipts.md",
+      "prompt_sha256": "5c07fe2af157623aa5d7015d693cf8da8aebbb865ebb182bf2639c7a36b9da2c",
+      "reference_ids": [
+        "costs-desk",
+        "receipts-small",
+        "financial-contrast"
+      ],
+      "reference_hashes": [
+        "a96030fa4277e15556764cc63142bb166633c82185e45242a1efff26b1e77a91",
+        "8c2ce7b73deea2d1838e9682088682c390d5820f7c991d0c5520514ae3383fab",
+        "a05158d059242af55339effa9cfc368e03ce940f74e9ab813170dfe131f53bf3"
+      ],
+      "requested_seconds": 5.666666666666667,
+      "expected_raw_frames": 141,
+      "editorial_frames": 136,
+      "editorial_seconds": 5.666666666666667,
+      "raw_tail_hold_frames": 5,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-04",
+      "job_path": "automation/jobs/clip-04-publicity-and-recovery.json",
+      "job_identity": "episode-008-clip-04-publicity-and-recovery-r001",
+      "seed": 2321148294985536123,
+      "prompt_path": "prompts/clip-04-publicity-and-recovery.md",
+      "prompt_sha256": "637b3fc6d85fb3dda784c50a0889d6af41c8dee1266c029424e0ed5a1fb0d684",
+      "reference_ids": [
+        "publicity-preparation",
+        "printing-rollers",
+        "publicity-display",
+        "publicity-viewer",
+        "ticket-sale",
+        "producer-hopeful"
+      ],
+      "reference_hashes": [
+        "d9cc15dcedd565328c86bef55a38acc1847e2148378d91fa50e7f54bcfeb8459",
+        "80eb9c34985e1bb806bcdccb6812212d9ea112dc026aff76c3b35194b9705bcd",
+        "e48dad3f05ca2f05affe92078ba5922565abb3c0433ba2d9b7175d63641e90f8",
+        "3ea9c76b9e8648175bc5315c2f6db2dc249b44e4d9e7746dae0dcc040ef89d8d",
+        "c36816650dffec7016e6cc42532ceab5264b4450593033ddfccd13552d789317",
+        "556f673894b0e68222efa5442c3c88a92115136915937063133a4015df4af3e0"
+      ],
+      "requested_seconds": 6.958333333333333,
+      "expected_raw_frames": 175,
+      "editorial_frames": 167,
+      "editorial_seconds": 6.958333333333333,
+      "raw_tail_hold_frames": 8,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-05",
+      "job_path": "automation/jobs/clip-05-return-and-fortune.json",
+      "job_identity": "episode-008-clip-05-return-and-fortune-r001",
+      "seed": 5791010727475362509,
+      "prompt_path": "prompts/clip-05-return-and-fortune.md",
+      "prompt_sha256": "30e463c94eea70825295369209bb674dd1b0c26d5244b7fab6b7c4905b4a192c",
+      "reference_ids": [
+        "canister-return",
+        "cinema-family-return",
+        "ticket-tear",
+        "cash-accumulates",
+        "wealth-table"
+      ],
+      "reference_hashes": [
+        "860c4f39ef5aeef5062706bacab9f0829ddf1fa53eb6b93805551e9b9675c4db",
+        "e8062fa0da3cb0e943de430f62dfe47f29e968d3ef470f4f992b1907d74278cc",
+        "5251a91035254921950c3a698441529e2cb69658fd35c832cd9da2156a24c252",
+        "3ea8182816702fe4c9d54449710c60aeeaecb0430e21c2c3790471f961f3b051",
+        "f4031a5f92f927d122d54f2213b0a18ac6017ab67652cbdd2b4c5995d326d403"
+      ],
+      "requested_seconds": 5.375,
+      "expected_raw_frames": 141,
+      "editorial_frames": 129,
+      "editorial_seconds": 5.375,
+      "raw_tail_hold_frames": 12,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    },
+    {
+      "clip_id": "clip-06",
+      "job_path": "automation/jobs/clip-06-marketing-payoff.json",
+      "job_identity": "episode-008-clip-06-marketing-payoff-r001",
+      "seed": 8915169080557994089,
+      "prompt_path": "prompts/clip-06-marketing-payoff.md",
+      "prompt_sha256": "fc6ad5ae211613e8de5c243b7ff4168370a2c2f6330dd7c8b4d931cd7773dbe4",
+      "reference_ids": [
+        "wealth-table",
+        "producer-surprised",
+        "publicity-print-reel",
+        "producer-money-chair"
+      ],
+      "reference_hashes": [
+        "f4031a5f92f927d122d54f2213b0a18ac6017ab67652cbdd2b4c5995d326d403",
+        "e389891cb68b24c470eabd0dfd4aec85e3193b81daf0ca41b4c8dfcfbe619c8a",
+        "df01e117dedb29b2cea3eedab3616a6b83cdb5bd78a53715b31f10b2dfe2ff64",
+        "4dcbca8801e3816b185c43293f86f80e72bae913385bba169460e3c37842189e"
+      ],
+      "requested_seconds": 5,
+      "expected_raw_frames": 124,
+      "editorial_frames": 111,
+      "editorial_seconds": 4.625,
+      "raw_tail_hold_frames": 13,
+      "normalization": "24-fps exact editorial trim; drop resolved raw tail, no time stretch"
+    }
+  ],
+  "job_hashes": [
+    {
+      "path": "automation/jobs/clip-01-film-opens-during-war.json",
+      "sha256": "2f0c4f2608671de020c329025e2d7b0909382d0125889ad7fd205f17213223dd"
+    },
+    {
+      "path": "automation/retries/family-affordability-r003/jobs/clip-02-families-distribution-blocked-r003.json",
+      "sha256": "1965de74143214aaea9b23efc26bb8a5f0f0c33363677ad22be86c1d37b94025"
+    },
+    {
+      "path": "automation/jobs/clip-03-costs-versus-receipts.json",
+      "sha256": "62608d995f54221142230eacffd94e297c129a62b1d1c4e06d694f1f27aa0474"
+    },
+    {
+      "path": "automation/jobs/clip-04-publicity-and-recovery.json",
+      "sha256": "30ddcda22e0a370faf2cb1f0932aa903d076fe82cec998323d5234c9d5c3d6bf"
+    },
+    {
+      "path": "automation/jobs/clip-05-return-and-fortune.json",
+      "sha256": "77b4dee38925a5cff574d454edea850ddfdff294379044a7a1b86ddbdfdd360f"
+    },
+    {
+      "path": "automation/jobs/clip-06-marketing-payoff.json",
+      "sha256": "61fc69af1cf63617cbac9831ff09f1c9f811609ef314a51d4dc477c11937b2d5"
+    }
+  ],
+  "audio_suffix_reason": "Service default would duplicate required policy; explicit silence-separated non-tonal suffix keeps resolved prompt policy count one.",
+  "execution": "Sequential GPU; complete live dry-run and a reviewed native 16-step duration/cut pilot before relying on final quality.",
+  "original_plan": "automation/job-plan.json"
+}

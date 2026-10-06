@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-10-06T01:35:03.075771+00:00",
+  "direction_override": "plan/clip-02-direction-r004.json",
+  "direction_override_sha256": "7a43364c45ef4bb946c54cc91d2ede0fbc56aba397f846d871b8e723ab7e376a",
+  "prompt": "prompts/clip-02-isolated-dock-r004.md",
+  "prompt_sha256": "759260c8a442e37383285982e6749834a82563667837cb23deb515c6454a9489",
+  "job": "automation/retries/isolated-dock-r004/jobs/clip-02-isolated-dock-r004.json",
+  "job_sha256": "9cb04a0440117b1acb791a01b3d8d1045dac69739464975d9471f0b4677aa472",
+  "seed": 3216050663327734259,
+  "editorial_frames": 108,
+  "native_steps": 16,
+  "reference_hashes": [
+    "4b5b00f398b013e57dd0de3b0d3ffe185a8bb0be88d4fee58624da9a64239d22"
+  ],
+  "no_overwrite": true
+}

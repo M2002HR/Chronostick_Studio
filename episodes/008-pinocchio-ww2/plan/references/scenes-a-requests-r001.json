@@ -1,0 +1,196 @@
+{
+  "created_at": "2026-10-05T21:31:55.130956+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "wartime-sky",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/wartime-sky.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nWide low-angle European roofline under a muted steel-blue clouded 1940s sky. Exactly two small outlined single-propeller aircraft silhouettes in the upper middle, each with one propeller, one fuselage, paired wings and tail, flying toward screen right. One is higher and left, second lower and right. Roofline occupies bottom quarter: muted brick pitched-roof buildings, two plain chimney stacks. No cinema, people, vehicles on ground, flags or explosions. A restrained distant drawn gray haze, no smoke column. All sky and buildings visibly illustrated with dark contours; silhouettes readable at phone size.\n",
+      "prompt_sha256": "fb3caaed2bfa3394b7ac046f24a0c92c4d8a0cdd285e26865c0e8bc58e983a90",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/wartime-sky-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S05"
+      ]
+    },
+    {
+      "id": "receipts-small",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/receipts-small.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nClose slight overhead view of a brown wood cinema receipts table, otherwise bare, against muted warm gray wall. Exactly one small partly filled plain beige tied bag center-right and exactly four sparse smooth unmarked gold coins left of it. One isolated pale simplified mitten hand with charcoal sleeve enters from upper right, lightly holding the knot ready to release. Zero full people, faces, other hands or bags. Table edge visible bottom, clear separation around small receipt amount. Soft amber upper-left light, matte outlined illustration, no symbols or text.\n",
+      "prompt_sha256": "d8ef235b0a5fa80faf09eea4d72e2ca9d7cf887a0d1884d6b33345b138fdc340",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/receipts-small-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S16",
+        "S17"
+      ]
+    },
+    {
+      "id": "publicity-preparation",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/publicity-preparation.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nClose oblique overhead view of a 1940s studio printer preparation desk. Exactly one large cream art sheet reverse-side-up centered, held at its upper-right corner by one isolated pale simplified mitten hand with navy sleeve. Exactly two plain wooden pencils lie diagonally at far left and exactly one squat dark ink jar without label sits upper left. Paper image side faces down and is invisible; reverse is plain cream. No whole person, face, other hands or paper stacks. Brown desk, warm-gray wall edge, upper-left soft lamp light. Strong drawn outlines and matte illustrated shading, no text.\n",
+      "prompt_sha256": "7e5f4ebe0e3764fbdb562024a878c4ac7b2f918c6dc510e9281220267dc11ae0",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/publicity-preparation-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S19"
+      ]
+    },
+    {
+      "id": "printing-rollers",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/printing-rollers.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nExtreme close three-quarter view of one small period-style printing roller mechanism. Exactly two dark charcoal cylindrical rollers mounted in one dull gray metal frame, one cream sheet leading edge entering gap from lower right, blank reverse faces camera. One simple ink reservoir behind rollers. No hands, people, printed artwork, lettering or duplicates. Rollers and paper fill central frame with ample safety margins, warm brown workshop table below, muted gray background, amber upper-left light. Every mechanical surface is matte illustrated and clearly dark-outlined, no photographic machinery.\n",
+      "prompt_sha256": "c2eb774047e53be8e25ba5a7a2d15c6d24879115602dd0f09360f927e4b01f56",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/printing-rollers-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S20"
+      ]
+    },
+    {
+      "id": "publicity-display",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/publicity-display.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nOne freestanding rectangular publicity display in an empty 1940s cinema lobby. Camera sees its rear at a slight three-quarter angle. One simple brown wooden frame containing exactly two vertically stacked cream paper backs, a slim divider between them, plain unprinted rear surfaces. Two thin supporting wooden legs with stable feet reach brown tiled floor. Display occupies central 70 percent, nothing occludes it. Warm cream plaster wall behind, upper-left lobby amber light. Zero people, faces, artwork, extra frames, letters or logos. Single continuous vertical illustration, clearly drawn.\n",
+      "prompt_sha256": "4dea9c3bfecd2cf65e6720734086b9d70d301fcf994b63c65e9f9e9f3fd29e01",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/publicity-display-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S21"
+      ]
+    },
+    {
+      "id": "projection-booth",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/projection-booth.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nA small 1940 cinema projection booth, warm gray plaster, brown wooden workbench across lower half. Exactly one navy-suited producer from the identity image stands center-left behind the bench, burgundy tie, side-part dark hair, round head and slim body unchanged. Exactly one dark charcoal period film projector is right foreground, one clearly visible large circular six-spoke top reel, lower take-up reel within housing, short lens pointing right toward wall aperture. His right mitten hand rests beside a small power lever. Camera waist height, three-quarter view, projector fills right half and producer face in upper-left third. No audience, puppet or added staff. Amber lamp from left, quiet navy shadows. Supports a close top-reel crop and medium producer operating this same projector.\n",
+      "prompt_sha256": "00fdb201b5400a3ba7d5387b98829d404eb06f7944d3b37adbbaa294c1d98029",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+          "sha256": "e3217d6e78d2cf76331d1d05003f3ab940223385fc7353d90084c5d5dba52520",
+          "role": "identity-producer"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/projection-booth-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "id": "wartime-wall",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/wartime-wall.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nExactly one anonymous round-headed slim soldier, matching supplied olive uniform, belt and brown boots; here he wears a plain olive steel helmet instead of garrison cap. He crouches center-left behind one broken waist-high red-brown brick wall, holding one plain wood-and-dark-metal rifle low across knees, muzzle to right, quiet defensive pose. European cobbled street with two empty muted plaster facades behind, no other people or casualties. Camera knee height, three-quarter view, face and helmet above wall, lower body partly sheltered but visible. Cool gray blue daylight, restrained olive and brick colors, clean drawn contours throughout.\n",
+      "prompt_sha256": "29a13a5c229b2b320e5541524901a99f4aa7c5b791094f8d60cd5b25088f14a9",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-serviceman-r001.png",
+          "sha256": "e027b1815c2719406fa87c3d7e4361535d31f8661e30af6a80553e04672fd476",
+          "role": "identity-serviceman"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-serviceman-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/wartime-wall-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S06"
+      ]
+    },
+    {
+      "id": "dock-approach",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/dock-approach.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nExactly one worker matching supplied navy flat cap, warm taupe rolled shirt, suspenders, khaki trousers and brown boots stands left-center on a timber cargo dock. He carries exactly one closed round silver-gray film canister at waist in both simplified hands, lid blank, diameter about 0.75 head. One simple hinged timber barrier arm is raised diagonally from right foreground post, passage open. Beyond is exactly one distant still dark-gray cargo ship, one smokestack and two masts, on quiet drawn steel-blue water. No people aboard or elsewhere, no cranes, text or flags. Three-quarter waist-height medium-wide view, barrier hinge/passage readable, ship subordinate. Cool overcast light from upper left. Maintain all outlined illustrated surfaces.\n",
+      "prompt_sha256": "cdab9595773c0b6092e21169ace98eccc11dd867c5befb2e833fcedfa9dd89f2",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-dock-worker-r001.png",
+          "sha256": "b29f5a0f854c85f16b97ac07d6a9751b470d19a09f66d8363ef44c2bd5604500",
+          "role": "identity-dock-worker"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-dock-worker-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/dock-approach-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S10",
+        "S11"
+      ]
+    }
+  ]
+}

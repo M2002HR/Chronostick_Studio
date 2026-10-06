@@ -1,0 +1,10 @@
+Draw a simple monochrome pencil storyboard on white paper, exactly six portrait panels arranged three columns by two rows. Spare rough contour sketches of an anonymous adult film producer and plain bags of money on a table. No likeness, branding or detailed faces. Panel IDs in the outer margin only.
+
+S13: Close production cash. One hand places one full plain money bag beside a stack of wooden-boy animation drawings on a table; no markings.
+S14: Extreme close large coin pile. Large pile of coins and full plain money bags, a drawing corner at edge. No people or numerical labels.
+S15: Medium producer and large costs. Exactly one suited producer looks at the large pile of money and drawings on a studio desk.
+S16: Close small receipts. One plain hand places one small partly filled money bag on an otherwise bare cinema receipts table.
+S17: Extreme close sparse coins. Only a few coins lie beside that one small bag. No humans, labels, numerical ratio or added objects.
+S18: Wide financial contrast. The large money pile is on the left of a table and the small bag with few coins on the right. Exactly one suited producer stands behind, shoulders lowered; no labels.
+
+Maintain all six panels in this order, without additional people. Unmarked bags, coins and drawings; no text inside the scenes.

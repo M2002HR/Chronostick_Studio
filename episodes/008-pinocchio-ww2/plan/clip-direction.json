@@ -1,0 +1,1102 @@
+{
+  "schema_version": "1.0",
+  "status": "reviewed",
+  "episode_id": "008-pinocchio-ww2",
+  "production_profile": "h3-short-dynamic-16step-20-30s",
+  "fps": 24,
+  "clips": [
+    {
+      "id": "clip-01",
+      "slug": "film-opens-during-war",
+      "arc": "Film machinery opens onto a familiar puppet, then hard contrast with wartime sky and soldier",
+      "reference_ids": [
+        "projection-booth",
+        "cinema-exterior",
+        "wartime-sky",
+        "wartime-wall"
+      ],
+      "anchor_locks": {
+        "projection-booth": "A small 1940 cinema projection booth, warm gray plaster, brown wooden workbench across lower half. Exactly one navy-suited producer from the identity image stands center-left behind the bench, burgundy tie, side-part dark hair, round head and slim body unchanged. Exactly one dark charcoal period film projector is right foreground, one clearly visible large circular six-spoke top reel, lower take-up reel within housing, short lens pointing right toward wall aperture. His right mitten hand rests beside a small power lever. Camera waist height, three-quarter view, projector fills right half and producer face in upper-left third. No audience, puppet or added staff. Amber lamp from left, quiet navy shadows. Supports a close top-reel crop and medium producer operating this same projector.",
+        "cinema-exterior": "An empty 1940 cinema facade, symmetrical cream stucco and warm brick, recessed double wooden doors center, blank cream horizontal marquee above, one brass-framed ticket window right, one wordless rectangular illustrated poster left. Poster depicts exactly the supplied stick Pinocchio in cap, bow, vest and shorts, on muted blue ground. This is printed art, not a live figure. Zero people and animals. Broad front three-quarter view from street level, sidewalk lower quarter, soft amber afternoon from upper left. Entire cinema fits safely within vertical frame; no writing or signs.",
+        "wartime-sky": "Wide low-angle European roofline under a muted steel-blue clouded 1940s sky. Exactly two small outlined single-propeller aircraft silhouettes in the upper middle, each with one propeller, one fuselage, paired wings and tail, flying toward screen right. One is higher and left, second lower and right. Roofline occupies bottom quarter: muted brick pitched-roof buildings, two plain chimney stacks. No cinema, people, vehicles on ground, flags or explosions. A restrained distant drawn gray haze, no smoke column. All sky and buildings visibly illustrated with dark contours; silhouettes readable at phone size.",
+        "wartime-wall": "Exactly one anonymous round-headed slim soldier, matching supplied olive uniform, belt and brown boots; here he wears a plain olive steel helmet instead of garrison cap. He crouches center-left behind one broken waist-high red-brown brick wall, holding one plain wood-and-dark-metal rifle low across knees, muzzle to right, quiet defensive pose. European cobbled street with two empty muted plaster facades behind, no other people or casualties. Camera knee height, three-quarter view, face and helmet above wall, lower body partly sheltered but visible. Cool gray blue daylight, restrained olive and brick colors, clean drawn contours throughout."
+      },
+      "shots": [
+        {
+          "id": "C01-S01",
+          "storyboard_panel_ids": [
+            "S01"
+          ],
+          "source_analysis_ids": [
+            "A02"
+          ],
+          "start_frame_local": 0,
+          "end_frame_local": 12,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.5,
+          "start_frame_global": 0,
+          "end_frame_global": 12,
+          "reference_ids": [
+            "projection-booth"
+          ],
+          "framing": "Extreme close projector reel; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people; exactly one charcoal six-spoke projector reel and its nearby housing in extreme close crop.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Reel rotates a small controlled fraction of a turn, then maintains a steady established motion until cut",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One turning reel remains stable in housing",
+          "sfx": null
+        },
+        {
+          "id": "C01-S02",
+          "storyboard_panel_ids": [
+            "S02"
+          ],
+          "source_analysis_ids": [
+            "A02"
+          ],
+          "start_frame_local": 12,
+          "end_frame_local": 43,
+          "start_seconds_local": 0.5,
+          "end_seconds_local": 1.7916666666666667,
+          "start_frame_global": 12,
+          "end_frame_global": 43,
+          "reference_ids": [
+            "cinema-exterior"
+          ],
+          "framing": "Wide cinema facade; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero live people; one entire cinema facade, blank marquee, double doors, right brass ticket booth, left wordless poster with one printed stick Pinocchio.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold facade and poster clearly; no subject motion",
+          "camera": "One slow two-percent push toward facade, settled by final four frames",
+          "resolved_end_state": "Same blank cinema facade and puppet poster held",
+          "sfx": null
+        },
+        {
+          "id": "C01-S03",
+          "storyboard_panel_ids": [
+            "S03"
+          ],
+          "source_analysis_ids": [
+            "A02",
+            "A09"
+          ],
+          "start_frame_local": 43,
+          "end_frame_local": 60,
+          "start_seconds_local": 1.7916666666666667,
+          "end_seconds_local": 2.5,
+          "start_frame_global": 43,
+          "end_frame_global": 60,
+          "reference_ids": [
+            "projection-booth"
+          ],
+          "framing": "Medium producer; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one navy-suited round-headed producer at left and one charcoal projector at right; burgundy tie, dark side-part hair and simple mitten on power lever.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Producer finishes one small lever press and leaves hand still",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One producer hand rests at lever, projector operating",
+          "sfx": {
+            "onset_frame_local": 47,
+            "end_frame_local": 50,
+            "description": "one tiny dry metal lever click synchronized to the completed lever press"
+          }
+        },
+        {
+          "id": "C01-S04",
+          "storyboard_panel_ids": [
+            "S04"
+          ],
+          "source_analysis_ids": [
+            "A02"
+          ],
+          "start_frame_local": 60,
+          "end_frame_local": 82,
+          "start_seconds_local": 2.5,
+          "end_seconds_local": 3.4166666666666665,
+          "start_frame_global": 60,
+          "end_frame_global": 82,
+          "reference_ids": [
+            "cinema-exterior"
+          ],
+          "framing": "Close framed wooden-puppet movie poster on the existing cinema wall; dark-outlined portrait fills crop",
+          "inventory": "Zero live people; exactly one wordless blue-ground film poster showing the approved round-headed stick Pinocchio, mustard cap/feather, short nose, blue bow/brown vest/burgundy shorts, within existing brass frame.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold the printed puppet identity completely fixed within the poster",
+          "camera": "One gentle two-percent push toward printed face; settle by final four frames",
+          "resolved_end_state": "One unchanged printed puppet portrait held in its frame; no living or projected duplicate",
+          "sfx": null
+        },
+        {
+          "id": "C01-S05",
+          "storyboard_panel_ids": [
+            "S05"
+          ],
+          "source_analysis_ids": [
+            "A01"
+          ],
+          "start_frame_local": 82,
+          "end_frame_local": 106,
+          "start_seconds_local": 3.4166666666666665,
+          "end_seconds_local": 4.416666666666667,
+          "start_frame_global": 82,
+          "end_frame_global": 106,
+          "reference_ids": [
+            "wartime-sky"
+          ],
+          "framing": "Wide European wartime sky; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly two outlined propeller aircraft flying toward right above drawn European rooftops and two foreground chimney stacks; zero people, cinema or explosions.",
+          "light_and_palette": "Cool steel-blue overcast drawn daylight, olive/brick/timber muted colors, outlined surfaces",
+          "primary_action": "The two aircraft glide together a short distance to right, preserving separation",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Two planes retain spacing above same skyline",
+          "sfx": null
+        },
+        {
+          "id": "C01-S06",
+          "storyboard_panel_ids": [
+            "S06"
+          ],
+          "source_analysis_ids": [
+            "A01"
+          ],
+          "start_frame_local": 106,
+          "end_frame_local": 122,
+          "start_seconds_local": 4.416666666666667,
+          "end_seconds_local": 5.083333333333333,
+          "start_frame_global": 106,
+          "end_frame_global": 122,
+          "reference_ids": [
+            "wartime-wall"
+          ],
+          "framing": "Medium wartime street; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one crouched round-headed olive soldier in steel helmet behind red-brown broken brick wall, one rifle held low across knees; empty European street.",
+          "light_and_palette": "Cool steel-blue overcast drawn daylight, olive/brick/timber muted colors, outlined surfaces",
+          "primary_action": "Soldier settles his crouch slightly then stays quiet; rifle remains low",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One soldier crouched, rifle low, quiet wall/street, freeze final eight frames",
+          "sfx": null
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 122,
+        "end_frame_local": 124,
+        "instruction": "Continue the last resolved composition exactly: camera, people, hands, objects, shadows and environment fully still. No new cut/action/sound. This raw tail is discarded without changing editorial speed."
+      }
+    },
+    {
+      "id": "clip-02",
+      "slug": "families-distribution-blocked",
+      "arc": "Family coin scarcity becomes an undelivered film canister behind a closing dock barrier",
+      "reference_ids": [
+        "cinema-family",
+        "hand-two-coins",
+        "dock-approach",
+        "dock-blocked"
+      ],
+      "anchor_locks": {
+        "cinema-family": "Use the supplied cinema anchor for its exact facade, blank marquee, poster, doors and brass ticket booth. Exactly three live stick people in foreground facing the empty booth: father left, mother center, child right between mother and booth. Father brown fedora and brown coat, charcoal trousers and brown shoes; mother muted olive cloche, burgundy knee-length coat, small dark brown handbag and brown shoes; child about 65 percent adult height, short chestnut hair, dusty blue jacket and shorts, pale legs and brown shoes. Off-white round heads, tiny black dot eyes, small closed mouths, narrow stick anatomy. Father holds one open mitten palm near waist, family expectant. Waist-height medium-wide three-quarter camera, child clearly separated from adult silhouettes. No attendant, other family or crowd. Warm afternoon light matching facade. Mother keeps brown hat band and low dark bun; child keeps tousled chestnut hair. Attendant, if listed, wears a small bow tie.",
+        "hand-two-coins": "Close insert at the supplied cinema ticket window. Exactly one isolated pale simplified mitten hand entering from lower left, brown coat cuff matching father. Open palm holds exactly two separate plain gold-colored round coins with smooth unmarked faces. Brass ticket-window edge and wooden counter soft illustrated background. No complete people, face, extra hands, ticket or coins elsewhere. Slight overhead camera, palm centered, two coins clear and countable at phone size. Warm muted palette, dark contours and drawn shading throughout.",
+        "dock-approach": "Exactly one worker matching supplied navy flat cap, warm taupe rolled shirt, suspenders, khaki trousers and brown boots stands left-center on a timber cargo dock. He carries exactly one closed round silver-gray film canister at waist in both simplified hands, lid blank, diameter about 0.75 head. One simple hinged timber barrier arm is raised diagonally from right foreground post, passage open. Beyond is exactly one distant still dark-gray cargo ship, one smokestack and two masts, on quiet drawn steel-blue water. No people aboard or elsewhere, no cranes, text or flags. Three-quarter waist-height medium-wide view, barrier hinge/passage readable, ship subordinate. Cool overcast light from upper left. Maintain all outlined illustrated surfaces. Existing fixed incidental closed cargo crates, one cargo sack and coiled ropes at dock left stay unchanged; ship and water remain still.",
+        "dock-blocked": "Match the supplied dock scene exactly: same worker, canister, timber pier, barrier posts, distant one ship, water and light. Barrier arm is now horizontal across the passage at worker waist height, firmly closed. Exactly one worker behind the foreground horizontal barrier left-center holds one undelivered silver-gray canister and looks quietly down; same clothes and slim round-headed identity. No added guard or crew. Wide waist-height composition shows closed barrier across lower foreground and small still ship upper-right background, zero text. This is the resolved blocked-delivery state. Existing fixed incidental closed cargo crates, one cargo sack and coiled ropes at dock left stay unchanged; ship and water remain still."
+      },
+      "shots": [
+        {
+          "id": "C02-S07",
+          "storyboard_panel_ids": [
+            "S07"
+          ],
+          "source_analysis_ids": [
+            "A05"
+          ],
+          "start_frame_local": 0,
+          "end_frame_local": 15,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.625,
+          "start_frame_global": 122,
+          "end_frame_global": 137,
+          "reference_ids": [
+            "cinema-family"
+          ],
+          "framing": "Wide family at cinema; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly father left in brown fedora/coat, mother center in olive cloche/burgundy coat with handbag, child right in dusty-blue jacket/shorts; empty brass ticket booth and inherited cinema background.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Family makes one restrained collective glance toward empty ticket window",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Three family silhouettes separated at empty booth",
+          "sfx": null
+        },
+        {
+          "id": "C02-S08",
+          "storyboard_panel_ids": [
+            "S08"
+          ],
+          "source_analysis_ids": [
+            "A05"
+          ],
+          "start_frame_local": 15,
+          "end_frame_local": 29,
+          "start_seconds_local": 0.625,
+          "end_seconds_local": 1.2083333333333333,
+          "start_frame_global": 137,
+          "end_frame_global": 151,
+          "reference_ids": [
+            "hand-two-coins"
+          ],
+          "framing": "Extreme close parent hand; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; exactly one isolated pale mitten hand with brown-coat cuff and two plain gold coins in open palm; brass ticket window/counter.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Open coin palm tilts gently a few degrees without dropping or multiplying two coins",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Exactly two coins stay in one palm",
+          "sfx": null
+        },
+        {
+          "id": "C02-S09",
+          "storyboard_panel_ids": [
+            "S09"
+          ],
+          "source_analysis_ids": [
+            "A05"
+          ],
+          "start_frame_local": 29,
+          "end_frame_local": 47,
+          "start_seconds_local": 1.2083333333333333,
+          "end_seconds_local": 1.9583333333333333,
+          "start_frame_global": 151,
+          "end_frame_global": 169,
+          "reference_ids": [
+            "cinema-family"
+          ],
+          "framing": "Medium disappointed family; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly the same three family identities and clothes, facing away together from same ticket booth; no attendant or crowd.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "The same three family members pivot one restrained quarter turn away, heads lowered",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Same family facing away with lowered heads",
+          "sfx": null
+        },
+        {
+          "id": "C02-S10",
+          "storyboard_panel_ids": [
+            "S10"
+          ],
+          "source_analysis_ids": [
+            "A04",
+            "A07"
+          ],
+          "start_frame_local": 47,
+          "end_frame_local": 72,
+          "start_seconds_local": 1.9583333333333333,
+          "end_seconds_local": 3.0,
+          "start_frame_global": 169,
+          "end_frame_global": 194,
+          "reference_ids": [
+            "dock-approach"
+          ],
+          "framing": "Medium dock delivery; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one navy-flatcap worker with rolled taupe shirt, suspenders/khaki trousers/brown boots, one blank silver film canister in both mittens; raised wooden barrier, timber pier, one distant still cargo ship.",
+          "light_and_palette": "Cool steel-blue overcast drawn daylight, olive/brick/timber muted colors, outlined surfaces",
+          "primary_action": "Worker takes one short step toward open passage holding canister firmly",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One worker stops at open barrier with canister retained",
+          "sfx": null
+        },
+        {
+          "id": "C02-S11",
+          "storyboard_panel_ids": [
+            "S11"
+          ],
+          "source_analysis_ids": [
+            "A04",
+            "A07"
+          ],
+          "start_frame_local": 72,
+          "end_frame_local": 91,
+          "start_seconds_local": 3.0,
+          "end_seconds_local": 3.7916666666666665,
+          "start_frame_global": 194,
+          "end_frame_global": 213,
+          "reference_ids": [
+            "dock-approach"
+          ],
+          "framing": "Close gate and canister; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one same worker and canister, tightly cropped forearms/torso, one hinged timber barrier arm/post; no other worker or guard.",
+          "light_and_palette": "Cool steel-blue overcast drawn daylight, olive/brick/timber muted colors, outlined surfaces",
+          "primary_action": "The single raised hinged barrier lowers once across passage while worker stops",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One barrier firmly horizontal, worker halted and canister retained",
+          "sfx": {
+            "onset_frame_local": 87,
+            "end_frame_local": 90,
+            "description": "one tiny dry wooden barrier contact knock at the closed position"
+          }
+        },
+        {
+          "id": "C02-S12",
+          "storyboard_panel_ids": [
+            "S12"
+          ],
+          "source_analysis_ids": [
+            "A04",
+            "A07"
+          ],
+          "start_frame_local": 91,
+          "end_frame_local": 108,
+          "start_seconds_local": 3.7916666666666665,
+          "end_seconds_local": 4.5,
+          "start_frame_global": 213,
+          "end_frame_global": 230,
+          "reference_ids": [
+            "dock-blocked"
+          ],
+          "framing": "Wide blocked dock; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one same worker holding one undelivered canister on behind foreground horizontal closed barrier; exactly one distant still cargo ship, calm drawn water and timber dock.",
+          "light_and_palette": "Cool steel-blue overcast drawn daylight, olive/brick/timber muted colors, outlined surfaces",
+          "primary_action": "Hold worker halted behind firmly closed barrier; no ship movement",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Closed barrier, one worker/canister, still ship; freeze entire last ten frames",
+          "sfx": null
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 108,
+        "end_frame_local": 124,
+        "instruction": "Continue the last resolved composition exactly: camera, people, hands, objects, shadows and environment fully still. No new cut/action/sound. This raw tail is discarded without changing editorial speed."
+      }
+    },
+    {
+      "id": "clip-03",
+      "slug": "costs-versus-receipts",
+      "arc": "Large production costs shrink to sparse receipts, resolved in a single readable left-right comparison",
+      "reference_ids": [
+        "costs-desk",
+        "receipts-small",
+        "financial-contrast"
+      ],
+      "anchor_locks": {
+        "costs-desk": "Exactly one supplied navy-suited producer stands behind a brown animation-studio desk, center upper half. His burgundy tie, dark side-part hair and slim round-headed identity stay fixed. Desk holds exactly three large plain beige tied money bags clustered left, a large loose mound of plain unmarked gold coins in front of them, and one stack of cream animation sheets right. Top sheet shows a small wordless drawing of supplied stick Pinocchio in his cap and bow, no extra figure. Producer right mitten rests on nearest full bag for placement coverage. No wall art or other people. Medium frontal slight overhead camera exposes table surface and face; warm gray studio wall, upper-left amber light and dark navy shadows. All bags, coins and drawings have clear dark contours. No currency glyphs or invented diagrams.",
+        "receipts-small": "Close slight overhead view of a brown wood cinema receipts table, otherwise bare, against muted warm gray wall. Exactly one small partly filled plain beige tied bag center-right and exactly four sparse smooth unmarked gold coins left of it. One isolated pale simplified mitten hand with charcoal sleeve enters from upper right, lightly holding the knot ready to release. Zero full people, faces, other hands or bags. Table edge visible bottom, clear separation around small receipt amount. Soft amber upper-left light, matte outlined illustration, no symbols or text.",
+        "financial-contrast": "Use supplied costs desk for same studio geometry and exact navy-suited producer; use small-receipts anchor for the small bag and sparse coins. Exactly one producer behind one brown desk, shoulders lowered, closed downward mouth and inclined head. Left half has three large tied plain beige bags and large coin mound; right half one small partly filled matching bag and exactly four sparse coins, separated by generous empty tabletop. A stack of wordless puppet animation sheets near far-left edge, minor. Frontal wide composition, both money groups visibly distinct. No mathematical graphic or labels, no additional bags or future fortune. Same warm-gray studio and left amber light. Producer is seated, left mitten supports cheek; chair remains fixed, head and shoulders give a tiny downward reaction."
+      },
+      "shots": [
+        {
+          "id": "C03-S13",
+          "storyboard_panel_ids": [
+            "S13"
+          ],
+          "source_analysis_ids": [
+            "A06"
+          ],
+          "start_frame_local": 0,
+          "end_frame_local": 11,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.4583333333333333,
+          "start_frame_global": 230,
+          "end_frame_global": 241,
+          "reference_ids": [
+            "costs-desk"
+          ],
+          "framing": "Close production cash; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; exactly one producer mitten/navy cuff places nearest large beige tied bag, remaining two bags and coin mound behind; one wordless puppet-drawing stack right.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "One mitten completes one short downward bag placement then stops",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One large bag planted beside same drawing stack",
+          "sfx": null
+        },
+        {
+          "id": "C03-S14",
+          "storyboard_panel_ids": [
+            "S14"
+          ],
+          "source_analysis_ids": [
+            "A06"
+          ],
+          "start_frame_local": 11,
+          "end_frame_local": 32,
+          "start_seconds_local": 0.4583333333333333,
+          "end_seconds_local": 1.3333333333333333,
+          "start_frame_global": 241,
+          "end_frame_global": 262,
+          "reference_ids": [
+            "costs-desk"
+          ],
+          "framing": "Extreme close large coin pile; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people/hands; close crop of large unmarked gold coin mound with edges of three large beige bags and wordless puppet drawing corner.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold the large unmarked coin mound and full bags without movement",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Cost mound stable with no people",
+          "sfx": null
+        },
+        {
+          "id": "C03-S15",
+          "storyboard_panel_ids": [
+            "S15"
+          ],
+          "source_analysis_ids": [
+            "A06"
+          ],
+          "start_frame_local": 32,
+          "end_frame_local": 51,
+          "start_seconds_local": 1.3333333333333333,
+          "end_seconds_local": 2.125,
+          "start_frame_global": 262,
+          "end_frame_global": 281,
+          "reference_ids": [
+            "costs-desk"
+          ],
+          "framing": "Medium producer and large costs; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one navy-suited producer looking down behind studio desk, three large beige bags and coin mound left, one wordless puppet drawing stack right.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Producer inclines head toward costly drawings and money; shoulders slightly tense",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One producer looking down at costs",
+          "sfx": null
+        },
+        {
+          "id": "C03-S16",
+          "storyboard_panel_ids": [
+            "S16"
+          ],
+          "source_analysis_ids": [
+            "A06"
+          ],
+          "start_frame_local": 51,
+          "end_frame_local": 72,
+          "start_seconds_local": 2.125,
+          "end_seconds_local": 3.0,
+          "start_frame_global": 281,
+          "end_frame_global": 302,
+          "reference_ids": [
+            "receipts-small"
+          ],
+          "framing": "Close small receipts; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; exactly one isolated pale mitten/charcoal cuff at upper right touching knot of one small beige bag, four sparse plain coins left on otherwise bare receipts table.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Placement mitten releases knot of small bag once and withdraws beyond crop",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Small bag and four coins still, hand absent",
+          "sfx": {
+            "onset_frame_local": 65,
+            "end_frame_local": 68,
+            "description": "one soft dry cloth bag contact on the table"
+          }
+        },
+        {
+          "id": "C03-S17",
+          "storyboard_panel_ids": [
+            "S17"
+          ],
+          "source_analysis_ids": [
+            "A06"
+          ],
+          "start_frame_local": 72,
+          "end_frame_local": 94,
+          "start_seconds_local": 3.0,
+          "end_seconds_local": 3.9166666666666665,
+          "start_frame_global": 302,
+          "end_frame_global": 324,
+          "reference_ids": [
+            "receipts-small"
+          ],
+          "framing": "Extreme close sparse coins; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people or hands; exactly four sparse unmarked coins and one small beige bag on same receipts table, close crop excludes placement hand.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold four sparse coins and small bag with no remaining hand",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Same sparse money objects only",
+          "sfx": null
+        },
+        {
+          "id": "C03-S18",
+          "storyboard_panel_ids": [
+            "S18"
+          ],
+          "source_analysis_ids": [
+            "A05",
+            "A06"
+          ],
+          "start_frame_local": 94,
+          "end_frame_local": 136,
+          "start_seconds_local": 3.9166666666666665,
+          "end_seconds_local": 5.666666666666667,
+          "start_frame_global": 324,
+          "end_frame_global": 366,
+          "reference_ids": [
+            "financial-contrast"
+          ],
+          "framing": "Wide financial contrast; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one same navy-suited producer behind one table; three large cost bags/large coin mound on left, one small receipt bag/four coins on right, broad empty separating tabletop. Producer seated, left mitten at cheek, fixed chair.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Seated producer lowers shoulders slightly while left mitten stays at cheek; then holds",
+          "camera": "One restrained three-percent pullback revealing left/right money contrast, settle by final twelve frames",
+          "resolved_end_state": "Lowered producer shoulders, unequal piles left/right stable; freeze final twelve frames",
+          "sfx": null
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 136,
+        "end_frame_local": 141,
+        "instruction": "Continue the last resolved composition exactly: camera, people, hands, objects, shadows and environment fully still. No new cut/action/sound. This raw tail is discarded without changing editorial speed."
+      }
+    },
+    {
+      "id": "clip-04",
+      "slug": "publicity-and-recovery",
+      "arc": "Preparation, printing and viewing of campaign material lead to a ticket sale and hopeful producer",
+      "reference_ids": [
+        "publicity-preparation",
+        "printing-rollers",
+        "publicity-display",
+        "publicity-viewer",
+        "ticket-sale",
+        "producer-hopeful"
+      ],
+      "anchor_locks": {
+        "publicity-preparation": "Close oblique overhead view of a 1940s studio printer preparation desk. Exactly one large cream art sheet reverse-side-up centered, held at its upper-right corner by one isolated pale simplified mitten hand with navy sleeve. Exactly two plain wooden pencils lie diagonally at far left and exactly one squat dark ink jar without label sits upper left. Paper image side faces down and is invisible; reverse is plain cream. No whole person, face, other hands or paper stacks. Brown desk, warm-gray wall edge, upper-left soft lamp light. Strong drawn outlines and matte illustrated shading, no text. One small period desk lamp at upper left remains fixed.",
+        "printing-rollers": "Extreme close three-quarter view of one small period-style printing roller mechanism. Exactly two dark charcoal cylindrical rollers mounted in one dull gray metal frame, one cream sheet leading edge entering gap from lower right, blank reverse faces camera. One simple ink reservoir behind rollers. No hands, people, printed artwork, lettering or duplicates. Rollers and paper fill central frame with ample safety margins, warm brown workshop table below, muted gray background, amber upper-left light. Every mechanical surface is matte illustrated and clearly dark-outlined, no photographic machinery.",
+        "publicity-display": "One freestanding rectangular publicity display in an empty 1940s cinema lobby. Camera sees its rear at a slight three-quarter angle. One simple brown wooden frame containing exactly two vertically stacked cream paper backs, a slim divider between them, plain unprinted rear surfaces. Two thin supporting wooden legs with stable feet reach brown tiled floor. Display occupies central 70 percent, nothing occludes it. Warm cream plaster wall behind, upper-left lobby amber light. Zero people, faces, artwork, extra frames, letters or logos. Single continuous vertical illustration, clearly drawn.",
+        "publicity-viewer": "Use supplied display for exact rear frame, two plain paper backs, legs and lobby; use supplied serviceman for one round-headed olive-uniformed adult in garrison cap. Camera sees display rear on right foreground, at an oblique angle so left side extends away to midground. Exactly one serviceman stands beyond and to left of frame in left midground, feet grounded, full body visible, facing toward screen-right toward the HIDDEN FRONT surface. His front/three-quarter face is visible from camera-left; eye line targets artwork on opposite side, not the rear papers we see. Display is taller than the figure, exactly as in its reference, view geometry unambiguous. One viewer, no other people, artwork invisible, no letters. Muted amber lobby lighting, drawn contours and narrow stick anatomy.",
+        "ticket-sale": "Close insert at the supplied cinema brass ticket window and brown counter. Exactly two isolated simplified pale mitten hands: customer brown-coat cuff from lower left holding two smooth unmarked gold coins, attendant dark-waistcoat/cream cuff from upper right offering one small blank cream rectangular ticket over counter center. No full person, face, extra hands, glyphs or ticket stack. Clearly separated exchange poised before handover; warm afternoon light, outlined matte illustrated paper/metal/wood.",
+        "producer-hopeful": "Same supplied producer and animation studio desk. Exactly one navy-suited round-headed producer behind desk center, head lifted, small closed upward mouth, shoulders more upright, right mitten palm resting on tabletop. Two moderate plain beige money bags and a modest gold coin pile on right of desk, animation sheet stack on left, top wordless stick puppet drawing inherited from desk. Three-quarter medium view emphasizes producer reaction and improved receipts; no enormous wealth or cash chair in this stage. Warm-gray wall and amber upper-left light unchanged, no extras or readable marks. Producer is seated behind desk; only upper-body posture straightens, chair and legs stay fixed."
+      },
+      "shots": [
+        {
+          "id": "C04-S19",
+          "storyboard_panel_ids": [
+            "S19"
+          ],
+          "source_analysis_ids": [
+            "A08"
+          ],
+          "start_frame_local": 0,
+          "end_frame_local": 20,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.8333333333333334,
+          "start_frame_global": 366,
+          "end_frame_global": 386,
+          "reference_ids": [
+            "publicity-preparation"
+          ],
+          "framing": "Close art preparation; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; one isolated mitten/navy cuff placing one cream art sheet reverse-side-up, exactly two pencils left and one dark unlabelled ink jar upper-left. One existing small upper-left lamp remains fixed.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "One mitten completes art-sheet placement, reverse remains facing up",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Reverse sheet lies flat, one hand still at edge",
+          "sfx": {
+            "onset_frame_local": 15,
+            "end_frame_local": 18,
+            "description": "one short dry paper contact as the sheet is placed"
+          }
+        },
+        {
+          "id": "C04-S20",
+          "storyboard_panel_ids": [
+            "S20"
+          ],
+          "source_analysis_ids": [
+            "A08"
+          ],
+          "start_frame_local": 20,
+          "end_frame_local": 44,
+          "start_seconds_local": 0.8333333333333334,
+          "end_seconds_local": 1.8333333333333333,
+          "start_frame_global": 386,
+          "end_frame_global": 410,
+          "reference_ids": [
+            "printing-rollers"
+          ],
+          "framing": "Extreme close printing rollers; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people/hands; one blank cream sheet edge in one period illustrated press with exactly two dark rollers and ink reservoir.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "The two rollers turn just enough to draw one sheet edge a short distance inward",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One sheet stopped partway into two rollers",
+          "sfx": null
+        },
+        {
+          "id": "C04-S21",
+          "storyboard_panel_ids": [
+            "S21"
+          ],
+          "source_analysis_ids": [
+            "A08"
+          ],
+          "start_frame_local": 44,
+          "end_frame_local": 69,
+          "start_seconds_local": 1.8333333333333333,
+          "end_seconds_local": 2.875,
+          "start_frame_global": 410,
+          "end_frame_global": 435,
+          "reference_ids": [
+            "publicity-display"
+          ],
+          "framing": "Medium oblique publicity display; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people; one freestanding wooden display rear with exactly two vertically stacked cream paper backs, one divider, two legs and stable feet; warm cinema lobby.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold framed two-sheet publicity display steady in empty lobby",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Two paper backs on one grounded display",
+          "sfx": null
+        },
+        {
+          "id": "C04-S22",
+          "storyboard_panel_ids": [
+            "S22"
+          ],
+          "source_analysis_ids": [
+            "A08"
+          ],
+          "start_frame_local": 69,
+          "end_frame_local": 105,
+          "start_seconds_local": 2.875,
+          "end_seconds_local": 4.375,
+          "start_frame_global": 435,
+          "end_frame_global": 471,
+          "reference_ids": [
+            "publicity-viewer"
+          ],
+          "framing": "Medium front-three-quarter serviceman beyond display; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one olive-garrison-cap serviceman beyond display on left facing its hidden front toward right; rear of same two-paper wooden display foreground right; full figure grounded, artwork unseen.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "One serviceman inclines head slightly while studying hidden front; feet/display stay fixed",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Viewer clearly on far side facing hidden front, display fixed",
+          "sfx": null
+        },
+        {
+          "id": "C04-S23",
+          "storyboard_panel_ids": [
+            "S23"
+          ],
+          "source_analysis_ids": [
+            "A09"
+          ],
+          "start_frame_local": 105,
+          "end_frame_local": 123,
+          "start_seconds_local": 4.375,
+          "end_seconds_local": 5.125,
+          "start_frame_global": 471,
+          "end_frame_global": 489,
+          "reference_ids": [
+            "ticket-sale"
+          ],
+          "framing": "Close returning ticket sale; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; two isolated mitten hands, brown customer cuff left offering two unmarked coins, cream/dark attendant cuff right offering one blank cream ticket, brass booth and counter.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Two hands complete one compact coin-for-ticket handover; ticket remains blank",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Ticket and coins handed over without duplicates",
+          "sfx": null
+        },
+        {
+          "id": "C04-S24",
+          "storyboard_panel_ids": [
+            "S24"
+          ],
+          "source_analysis_ids": [
+            "A09"
+          ],
+          "start_frame_local": 123,
+          "end_frame_local": 167,
+          "start_seconds_local": 5.125,
+          "end_seconds_local": 6.958333333333333,
+          "start_frame_global": 489,
+          "end_frame_global": 533,
+          "reference_ids": [
+            "producer-hopeful"
+          ],
+          "framing": "Medium hopeful producer; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one same navy-suited producer center behind studio desk; two moderate beige receipt bags and modest coin pile right, wordless drawing stack left. Producer is seated on his unchanged chair.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Seated producer straightens upper body slightly and lifts head toward improved receipts, then holds",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One hopeful producer upright with fuller receipts, freeze final twelve frames",
+          "sfx": null
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 167,
+        "end_frame_local": 175,
+        "instruction": "Continue the last resolved composition exactly: camera, people, hands, objects, shadows and environment fully still. No new cut/action/sound. This raw tail is discarded without changing editorial speed."
+      }
+    },
+    {
+      "id": "clip-05",
+      "slug": "return-and-fortune",
+      "arc": "Film circulation returns, family admission and receipts grow into a wide fortune reveal",
+      "reference_ids": [
+        "canister-return",
+        "cinema-family-return",
+        "ticket-tear",
+        "cash-accumulates",
+        "wealth-table"
+      ],
+      "anchor_locks": {
+        "canister-return": "Close insert beside the projector from supplied booth. Exactly one closed circular silver-gray film canister on brown bench, one isolated pale mitten with navy cuff touching rim from upper left, ready to set down and release. Canister lid bears one small wordless HEAD emblem of supplied stick Pinocchio, round pale wood face, mustard cap, blue bow; no full body. Projector housing and one reel visible right background in same geometric position/palette as booth. Zero complete people, other hands, canisters or lettering. Three-quarter slightly overhead view, upper-left amber light, all metal and illustration matte drawn with dark contours.",
+        "cinema-family-return": "Same supplied cinema and exactly the same three family members, same hat/hair/clothes/colors/proportions. Father left, mother center-left, child center-right approach brass booth at right with hopeful upright poses. Exactly one new ticket attendant inside booth, off-white round head, tiny dot eyes, dark short hair, cream shirt and charcoal waistcoat, torso visible behind counter. Exactly four people total, no crowd. Cinema blank marquee and wordless stick Pinocchio poster remain in inherited positions. Three-quarter medium-wide waist-height view, warm afternoon light, fully illustrated stick-world. Mother keeps brown hat band and low dark bun; child keeps tousled chestnut hair. Attendant, if listed, wears a small bow tie.",
+        "ticket-tear": "Use supplied ticket exchange for paper stock, counter and lighting. Close centered view of exactly two pale simplified mitten hands with brown customer sleeve/cream cuff from left and dark attendant sleeve/cream cuff from right, holding opposite ends of one small unprinted cream ticket with two opposed tiny center notches and a faint perforation. Hands poised to tear once; no already-detached extra stub. Brown cinema counter beneath and brass frame distant. No full people, faces, additional paper or writing. Static slightly overhead composition, strong drawn contours and warm light.",
+        "cash-accumulates": "Same supplied brown receipts table and amber upper-left light. Exactly one now full plain beige tied money bag center-right, noticeably fuller than initial small receipts bag, with a moderate mound of smooth unmarked gold coins left. One isolated pale simplified mitten hand with charcoal cuff rests on bag knot from upper right, poised to release; no whole people or extra hands. Close slight overhead camera with table edge lower frame. No currency marks or labels; bag/coins matte drawn and clear dark outlines.",
+        "wealth-table": "Same supplied brown receipts table but wide enough to reveal legs and floor. Exactly six plain full beige tied bags distributed across tabletop with a large mound of smooth unmarked gold coins, some resting near front edge. Exactly one additional beige full tied bag on floor to right of table, with a small settled coin pile near table legs. Zero people or hands. Frontal three-quarter camera just above table height, front edge and floor readable, bags distinct. Warm-gray studio wall, amber upper-left light, dark outlines on every coin/bag. Supports tabletop medium crop, wider floor reveal, front-edge spill close crop and settled floor macro. No glyphs, paper, posters or extra props."
+      },
+      "shots": [
+        {
+          "id": "C05-S25",
+          "storyboard_panel_ids": [
+            "S25"
+          ],
+          "source_analysis_ids": [
+            "A09",
+            "A10"
+          ],
+          "start_frame_local": 0,
+          "end_frame_local": 27,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 1.125,
+          "start_frame_global": 533,
+          "end_frame_global": 560,
+          "reference_ids": [
+            "canister-return"
+          ],
+          "framing": "Close film canister return; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; one isolated navy-cuff mitten, one silver-gray closed film canister with one wordless wooden puppet HEAD/cap/blue-bow emblem on lid, same charcoal projector/reel beside it.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "One mitten sets canister down beside projector and releases once",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One canister planted, hand released",
+          "sfx": {
+            "onset_frame_local": 20,
+            "end_frame_local": 23,
+            "description": "one tiny dry metal canister contact on the bench"
+          }
+        },
+        {
+          "id": "C05-S26",
+          "storyboard_panel_ids": [
+            "S26"
+          ],
+          "source_analysis_ids": [
+            "A02",
+            "A09"
+          ],
+          "start_frame_local": 27,
+          "end_frame_local": 52,
+          "start_seconds_local": 1.125,
+          "end_seconds_local": 2.1666666666666665,
+          "start_frame_global": 560,
+          "end_frame_global": 585,
+          "reference_ids": [
+            "cinema-family-return"
+          ],
+          "framing": "Wide cinema attendance; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly four people: same father/mother/child in their fixed costumes, one new round-headed cream-shirt/charcoal-waistcoat attendant inside brass booth; same cinema facade/blank marquee/wordless puppet poster.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "The family takes one small coordinated step toward attendant, no additional crowd",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Family and attendant remain four separated identities",
+          "sfx": null
+        },
+        {
+          "id": "C05-S27",
+          "storyboard_panel_ids": [
+            "S27"
+          ],
+          "source_analysis_ids": [
+            "A09"
+          ],
+          "start_frame_local": 52,
+          "end_frame_local": 66,
+          "start_seconds_local": 2.1666666666666665,
+          "end_seconds_local": 2.75,
+          "start_frame_global": 585,
+          "end_frame_global": 599,
+          "reference_ids": [
+            "ticket-tear"
+          ],
+          "framing": "Extreme close ticket tear; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; exactly two pale simplified mittens with brown customer cuff left and dark attendant sleeve/cream cuff right, exactly one plain cream ticket over brown cinema counter; no extra ticket.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Two mittens tear the single ticket once at its central notch, then hold two separated halves",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One ticket becomes exactly two held halves",
+          "sfx": {
+            "onset_frame_local": 61,
+            "end_frame_local": 64,
+            "description": "one very short dry paper tear when ticket halves separate"
+          }
+        },
+        {
+          "id": "C05-S28",
+          "storyboard_panel_ids": [
+            "S28"
+          ],
+          "source_analysis_ids": [
+            "A10"
+          ],
+          "start_frame_local": 66,
+          "end_frame_local": 88,
+          "start_seconds_local": 2.75,
+          "end_seconds_local": 3.6666666666666665,
+          "start_frame_global": 599,
+          "end_frame_global": 621,
+          "reference_ids": [
+            "cash-accumulates"
+          ],
+          "framing": "Close cash accumulates; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero full people; one isolated pale mitten/charcoal cuff at upper right, one full beige bag center-right and moderate plain gold coin mound left, same receipts table.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "One mitten completes bag placement beside existing coins and releases once",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One bag planted with coin mound, hand released",
+          "sfx": null
+        },
+        {
+          "id": "C05-S29",
+          "storyboard_panel_ids": [
+            "S29"
+          ],
+          "source_analysis_ids": [
+            "A10"
+          ],
+          "start_frame_local": 88,
+          "end_frame_local": 113,
+          "start_seconds_local": 3.6666666666666665,
+          "end_seconds_local": 4.708333333333333,
+          "start_frame_global": 621,
+          "end_frame_global": 646,
+          "reference_ids": [
+            "wealth-table"
+          ],
+          "framing": "Medium money growth; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people/hands; tabletop crop shows exactly six beige full bags and large plain gold coin mound; floor bag stays outside crop.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold bags and large coin mound clearly; growth conveyed by cut to fuller state, no multiplication animation",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Six tabletop bags and coins stay fixed",
+          "sfx": null
+        },
+        {
+          "id": "C05-S30",
+          "storyboard_panel_ids": [
+            "S30"
+          ],
+          "source_analysis_ids": [
+            "A10"
+          ],
+          "start_frame_local": 113,
+          "end_frame_local": 129,
+          "start_seconds_local": 4.708333333333333,
+          "end_seconds_local": 5.375,
+          "start_frame_global": 646,
+          "end_frame_global": 662,
+          "reference_ids": [
+            "wealth-table"
+          ],
+          "framing": "Wide overflowing money; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people/hands; exactly six full beige bags/coin mound on tabletop and exactly one full beige bag right on floor, small floor coin pile, table legs visible.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold resolved wide money tableau including one floor bag, no movement",
+          "camera": "One restrained downward reveal from tabletop to floor bag, settle by final eight frames",
+          "resolved_end_state": "Six tabletop bags plus exactly one floor bag fixed; freeze final eight frames",
+          "sfx": null
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 129,
+        "end_frame_local": 141,
+        "instruction": "Continue the last resolved composition exactly: camera, people, hands, objects, shadows and environment fully still. No new cut/action/sound. This raw tail is discarded without changing editorial speed."
+      }
+    },
+    {
+      "id": "clip-06",
+      "slug": "marketing-payoff",
+      "arc": "Coins settle, producer reacts, campaign object echoes its cause, playful wealth chair resolves payoff",
+      "reference_ids": [
+        "wealth-table",
+        "producer-surprised",
+        "publicity-print-reel",
+        "producer-money-chair"
+      ],
+      "anchor_locks": {
+        "wealth-table": "Same supplied brown receipts table but wide enough to reveal legs and floor. Exactly six plain full beige tied bags distributed across tabletop with a large mound of smooth unmarked gold coins, some resting near front edge. Exactly one additional beige full tied bag on floor to right of table, with a small settled coin pile near table legs. Zero people or hands. Frontal three-quarter camera just above table height, front edge and floor readable, bags distinct. Warm-gray studio wall, amber upper-left light, dark outlines on every coin/bag. Supports tabletop medium crop, wider floor reveal, front-edge spill close crop and settled floor macro. No glyphs, paper, posters or extra props.",
+        "producer-surprised": "Use supplied wealth scene for same table, six tabletop money bags, one floor bag, coin piles and studio light. Exactly one navy-suited producer with burgundy tie and side-part hair stands to left of table, face center upper-left, round off-white head and slim stick anatomy unchanged. He looks toward wealth at right with lifted small eyebrows and small fixed surprised curved mouth, no mouth animation, both mitten hands near chest in restrained surprise. Upper-body medium composition includes nearby bags without hiding identity. No seated pose, new staff or lettering. All drawn muted materials and upper-left warm light retained. Tiny existing static drawn reaction ticks remain fixed.",
+        "publicity-print-reel": "One reverse framed publicity print resting upright on a brown studio desk, using same simple wood/cream paper design as supplied display. Exactly two vertically stacked rear cream paper backs face camera, artwork hidden by viewing angle. Exactly one dark charcoal metal film reel lies flat beside it at lower right, six round spokes and hollow center, no second reel. Zero people or hands, no writing or other props. Close three-quarter view, frame left and reel right with clear separation. Warm-gray wall and amber upper-left light, matte outlined illustration.",
+        "producer-money-chair": "Exactly one supplied navy-suited producer with burgundy tie, dark side-part hair and slim round-headed anatomy sits on a humorous chair built entirely from plain full beige money bags matching supplied wealth asset. Two stacked bags form seat, three rear bags form back, middle bag partly occluded, one bag each side forms armrests: seven chair bags total. Producer legs crossed, one brown shoe planted and the other visible above floor, hands gently on bag armrests, small satisfied closed mouth. Smooth unmarked gold coins lie settled around chair. No table, standing duplicate, staff, posters or writing. Medium-wide frontal slight low-angle composition with safe full-body and hatless head margins; chair clearly readable. Warm-gray studio wall, upper-left amber light, dark drawn contours on all surfaces. This is a playful illustrated wealth metaphor."
+      },
+      "shots": [
+        {
+          "id": "C06-S31",
+          "storyboard_panel_ids": [
+            "S31"
+          ],
+          "source_analysis_ids": [
+            "A10"
+          ],
+          "start_frame_local": 0,
+          "end_frame_local": 12,
+          "start_seconds_local": 0.0,
+          "end_seconds_local": 0.5,
+          "start_frame_global": 662,
+          "end_frame_global": 674,
+          "reference_ids": [
+            "wealth-table"
+          ],
+          "framing": "Extreme close spill; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people/hands; close front edge of same table with a few unmarked gold coins poised above existing floor pile; no new bags in crop.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Two or three nearby coins roll over front edge and fall briefly into existing pile, then settle",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "All fallen coins reach existing pile",
+          "sfx": {
+            "onset_frame_local": 6,
+            "end_frame_local": 9,
+            "description": "one tiny dry non-ringing coin contact at the settled pile"
+          }
+        },
+        {
+          "id": "C06-S32",
+          "storyboard_panel_ids": [
+            "S32"
+          ],
+          "source_analysis_ids": [
+            "A10"
+          ],
+          "start_frame_local": 12,
+          "end_frame_local": 30,
+          "start_seconds_local": 0.5,
+          "end_seconds_local": 1.25,
+          "start_frame_global": 674,
+          "end_frame_global": 692,
+          "reference_ids": [
+            "wealth-table"
+          ],
+          "framing": "Medium complete cash pile; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people/hands; settled plain gold coin pile and beige bag bases beside same brown table legs; no rolling coin remains.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold complete settled coins/bags with no motion",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Floor money remains settled",
+          "sfx": null
+        },
+        {
+          "id": "C06-S33",
+          "storyboard_panel_ids": [
+            "S33"
+          ],
+          "source_analysis_ids": [
+            "A09",
+            "A10"
+          ],
+          "start_frame_local": 30,
+          "end_frame_local": 43,
+          "start_seconds_local": 1.25,
+          "end_seconds_local": 1.7916666666666667,
+          "start_frame_global": 692,
+          "end_frame_global": 705,
+          "reference_ids": [
+            "producer-surprised"
+          ],
+          "framing": "Close producer reaction; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one same navy-suited producer in close upper-body reaction on left; nearby beige bags/coins at right, burgundy tie and dark side-part hair fixed.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Producer inclines head once in restrained amused surprise; mouth stays fixed to reference, no vocalization",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Same producer fixed-mouth reaction held",
+          "sfx": null
+        },
+        {
+          "id": "C06-S34",
+          "storyboard_panel_ids": [
+            "S34"
+          ],
+          "source_analysis_ids": [
+            "A08",
+            "A10"
+          ],
+          "start_frame_local": 43,
+          "end_frame_local": 64,
+          "start_seconds_local": 1.7916666666666667,
+          "end_seconds_local": 2.6666666666666665,
+          "start_frame_global": 705,
+          "end_frame_global": 726,
+          "reference_ids": [
+            "publicity-print-reel"
+          ],
+          "framing": "Close reverse publicity print and reel; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Zero people/hands; exactly one wooden publicity frame containing two vertically stacked cream paper backs left beside exactly one charcoal six-spoke film reel right on studio desk.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold unchanged campaign frame and reel as retrospective object-only insert",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One rear frame and one reel unchanged",
+          "sfx": null
+        },
+        {
+          "id": "C06-S35",
+          "storyboard_panel_ids": [
+            "S35"
+          ],
+          "source_analysis_ids": [
+            "A10"
+          ],
+          "start_frame_local": 64,
+          "end_frame_local": 84,
+          "start_seconds_local": 2.6666666666666665,
+          "end_seconds_local": 3.5,
+          "start_frame_global": 726,
+          "end_frame_global": 746,
+          "reference_ids": [
+            "producer-money-chair"
+          ],
+          "framing": "Medium producer sits; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one same navy-suited producer seated on seven-bag money chair; closed satisfied mouth, mittens on bag armrests, smooth unmarked coins settled around feet.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Already-seated producer settles torso a tiny distance against bag backrest; hands stay on arm bags and crossed legs stay fixed",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "One producer seated safely on seven-bag chair",
+          "sfx": null
+        },
+        {
+          "id": "C06-S36",
+          "storyboard_panel_ids": [
+            "S36"
+          ],
+          "source_analysis_ids": [
+            "A10"
+          ],
+          "start_frame_local": 84,
+          "end_frame_local": 111,
+          "start_seconds_local": 3.5,
+          "end_seconds_local": 4.625,
+          "start_frame_global": 746,
+          "end_frame_global": 773,
+          "reference_ids": [
+            "producer-money-chair"
+          ],
+          "framing": "Wide resolved wealth tableau; preserve approved anchor geometry and viewpoint within this crop",
+          "inventory": "Exactly one same producer sitting fully still on same seven-bag chair, legs crossed, one brown shoe grounded, the second safely visible above it, coins settled; zero posters/extra people/text or CTA buttons.",
+          "light_and_palette": "Soft amber upper-left key, muted brown/cream/navy palette, strong drawn shadows",
+          "primary_action": "Hold satisfied wealth tableau completely still, including camera, hands, light and coins",
+          "camera": "Locked camera; crisp hard cut at both boundaries",
+          "resolved_end_state": "Everything resolved and motionless through editorial endpoint and raw tail",
+          "sfx": null
+        }
+      ],
+      "raw_tail_hold": {
+        "start_frame_local": 111,
+        "end_frame_local": 124,
+        "instruction": "Continue the last resolved composition exactly: camera, people, hands, objects, shadows and environment fully still. No new cut/action/sound. This raw tail is discarded without changing editorial speed."
+      }
+    }
+  ],
+  "omitted_panels": [],
+  "audio_direction": "Seven brief isolated quiet physical cues tied to directed actions; silence elsewhere and all raw tails. Actual native audio must pass review; omitted actions get no finishing cue.",
+  "retrospective_rule": "S34 revisits unchanged campaign frame/reel only; no people or new historical event.",
+  "review": {
+    "reviewer": "assistant",
+    "reviewed_at": "2026-10-06T00:11:15.828092+00:00",
+    "scope": "All 36 frame-contiguous shots compared with actual selected production references and accepted timing; user authorized all remaining production stages. Minor actual-reference variants recorded in timing-reconciliation. No new factual research or narration change."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "caption_layout_and_source_coverage_validated_not_final_picture_review",
+  "word_count": 64,
+  "cue_count": 37,
+  "max_line_width_px": 850.9375,
+  "safe_width_px": 864,
+  "every_provider_word_has_visible_highlight": true,
+  "font_path": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+  "font_sha256": "a43fe47df9f4474c78defcd15404968b354ab748055484b8313f42879c7d62cd",
+  "source_csv_sha256": "246924cb0a392f41f9d086167d6c15aa1b9c1083126e40e9c97008d6dedc3941",
+  "picture_review": "pending actual finished video"
+}

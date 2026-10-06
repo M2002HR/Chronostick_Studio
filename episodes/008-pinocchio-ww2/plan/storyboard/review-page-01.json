@@ -1,0 +1,79 @@
+{
+  "status": "reviewed by assistant; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-page-01-r002.png",
+  "sha256": "c69af89c40321d63bd7a7879522c32646b8ab410d8195f8970adbd809d0f0661",
+  "size": [
+    1086,
+    1448
+  ],
+  "panel_count": 12,
+  "panels": [
+    {
+      "id": "S01",
+      "result": "usable composition draft",
+      "notes": "Projector reel only; correct close insert"
+    },
+    {
+      "id": "S02",
+      "result": "usable composition draft",
+      "notes": "Cinema/wordless puppet poster; zero humans"
+    },
+    {
+      "id": "S03",
+      "result": "usable composition draft",
+      "notes": "Single suited producer operates projector"
+    },
+    {
+      "id": "S04",
+      "result": "usable composition draft",
+      "notes": "Single projected wooden-boy figure; ordinary film identity"
+    },
+    {
+      "id": "S05",
+      "result": "usable composition draft",
+      "notes": "Exactly two planes over a separate European skyline"
+    },
+    {
+      "id": "S06",
+      "result": "usable composition draft",
+      "notes": "Exactly one soldier behind rubble; no casualties"
+    },
+    {
+      "id": "S07",
+      "result": "usable composition draft",
+      "notes": "Family consists of two adults and one child"
+    },
+    {
+      "id": "S08",
+      "result": "usable composition draft",
+      "notes": "Single parent hand contains two visible coins"
+    },
+    {
+      "id": "S09",
+      "result": "usable composition draft",
+      "notes": "Same three family roles walking away; no added people"
+    },
+    {
+      "id": "S10",
+      "result": "usable composition draft",
+      "notes": "One worker carries one round canister"
+    },
+    {
+      "id": "S11",
+      "result": "usable composition draft",
+      "notes": "One worker/canister at angled barrier; static drawing does not prove movement"
+    },
+    {
+      "id": "S12",
+      "result": "usable composition draft",
+      "notes": "One worker before closed barrier, distant still cargo ship"
+    }
+  ],
+  "style_note": "Neutral grayscale pencil drawings with more surface detail than requested; usable for composition planning, never final identity/style authority or H3 anchor",
+  "motion_limit": "Still sketches establish framing/inventory only, not executed motion or temporal gate movement",
+  "minor_notes": [
+    "Puppet nose length is not final identity design",
+    "Barrier intermediate angle must resolve to closed in final direction"
+  ],
+  "approved_by_user": false
+}

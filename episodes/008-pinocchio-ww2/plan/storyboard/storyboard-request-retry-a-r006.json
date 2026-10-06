@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r006",
+  "created_at": "2026-10-05T19:51:17.055464+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-a.txt",
+  "prompt": "Three graphite storyboard panels in one horizontal row, each panel an upright 9:16 frame. Rough spare pencil contours on white paper; internal camera-composition sketches. Labels S19, S20, S21 in the white margin above the frames.\nS19: Close-up of a single studio drawing on a sheet of paper: Pinocchio, a wooden puppet with a feathered cap, short nose and jointed arms, in his ordinary film costume.\nS20: Close-up of a different sheet of studio art: Mickey Mouse in his ordinary shorts and shoes, recognizable round ears.\nS21: Medium view of a wordless illustrated film poster containing exactly these two characters side by side in their ordinary film costumes.\nAll three views show printed or drawn pictures on paper, not living characters. Completely wordless artwork, no numerical labels. Simple composition, minimal shading; retain all three separate panels.\n",
+  "prompt_sha256": "d2b9a280f31e4244cb7fecb481dea80d5a6366a1725ff04e0aad018a47798fec",
+  "transparent_background": false,
+  "shot_ids": [
+    "S19",
+    "S20",
+    "S21"
+  ],
+  "output_path": "plan/storyboard/storyboard-retry-a-r006.png",
+  "status": "prepared",
+  "adaptation": "Split unresolved six-panel pages into three-panel boards; directly name the source fictional film characters. Preserve adult military viewer, source narrative and exact shot roles; no historical verification."
+}

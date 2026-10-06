@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "id": "008-pinocchio-ww2",
+  "format": "short",
+  "workflow": "reference-first-v1",
+  "title": "Pinocchio was released in WW2",
+  "production_profile": "h3-short-dynamic-16step-20-30s",
+  "target_language": "es",
+  "target_seconds": 32.208333333333336,
+  "generation_steps": 16,
+  "clip_duration_seconds": {
+    "minimum": 4,
+    "maximum": 7
+  },
+  "voice_provider": "google_vids",
+  "voice_direction": {
+    "provider": "google_vids",
+    "selection": "used",
+    "status": "validated",
+    "skill": "chronostick-voice-direction",
+    "script_path": "script/voiceover-google-vids-es.md",
+    "notes_path": "script/voice-direction-notes.md",
+    "validation_path": "script/voice-direction-validation-r001.json",
+    "clean_script_sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+    "tagged_script_sha256": "e00e25aefece5510a09dcde8bf383ed2696a0f35ec572046d87b01bcf66aba9c",
+    "tag_count": 31,
+    "prepared_at": "2026-10-05T19:04:06.677987+00:00",
+    "actual_voice_accepted": true
+  },
+  "accepted_voice": "audio/narration-es-r001.wav",
+  "accepted_timing_map": "timestamps/timing-map.json",
+  "picture_master": "final/picture-master-1080x1920-r001.mp4",
+  "distribution_master": "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+  "next_action": "Local master, matching captions, thumbnail and metadata ready for delivery; future requested changes use immutable revisions.",
+  "fact_check_requested": false,
+  "content_mode": "source-faithful adaptation",
+  "content_direction_path": "source/content-direction.json",
+  "voice_intake": {
+    "provenance_path": "audio/narration-provenance-es-r001.json"
+  },
+  "duration_override": {
+    "scope": "episode_only",
+    "initial_target_seconds": 30,
+    "voice_duration_seconds": 32.170667,
+    "voice_path": "audio/narration-es-r001.wav",
+    "voice_sha256": "dcbba5989fd696f70a5d6a6cc27b6494e0d68dde195ce0082fd33e240671e466",
+    "decision_path": "plan/voice-acceptance-r001.json"
+  },
+  "overnight_authorization": {
+    "decision_path": "plan/review-decisions.json",
+    "recorded_at": "2026-10-05T21:05:59.244549+00:00",
+    "scope": "all remaining stages through local delivery package, pilot/full batch and necessary immutable retries; stick Pinocchio mandatory; no publication"
+  },
+  "production_status": "complete_local_delivery",
+  "delivery_review": "delivery/final-qc-r001.json",
+  "youtube_metadata": "delivery/youtube/metadata.json",
+  "pinocchio_stick_image": "delivery/release/pinocchio-stick-r005.png",
+  "release_bundle": "delivery/release/episode-008-es-release-r001.zip",
+  "release_manifest": "delivery/release/release-manifest-r001.json",
+  "release_qc": "delivery/release/zip-qc-r001.json",
+  "delivery_completed_at": "2026-10-06T02:10:27.851232+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "source": "renders/editorial/episode-008-clip-06-marketing-payoff-r001.mp4",
+  "source_sha256": "c910f7d396f0f21230c53eaf55dc453a85c4c4dd6cca9b99ed73d6ede04ce96c",
+  "output": "renders/audio-corrected/episode-008-clip-06-r001-clean-sfx-r001.mp4",
+  "stem": "audio/sfx/clip-06-clean-stem-r001.wav",
+  "native_audio": "exclude_completely",
+  "reason": "Actual native melody rejected; one dry recorded metal contact for observed landing coin. No cue on static display or seated chair.",
+  "picture_review": "renders/clip-06-review-r001.json",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/reusable-recordings-r001/metal-short-r001.wav",
+      "asset_sha256": "01ea8cf947b03789cfaf3c5ffb34fe5dac310ce60586c81c48512a29a6069cc0",
+      "review_status": "approved",
+      "review_evidence": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/plan/native-sfx-priority-r001.json",
+      "start_seconds": 0.5,
+      "gain_db": 0,
+      "observed_action": "Actual falling coin contacts floor coin pile around frame12; one brief dry metal tap."
+    }
+  ]
+}

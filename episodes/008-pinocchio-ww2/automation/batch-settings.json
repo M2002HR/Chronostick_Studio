@@ -1,0 +1,6 @@
+{
+  "continue_on_error": true,
+  "max_retries": 2,
+  "concat_on_complete": false,
+  "upscale_on_complete": false
+}

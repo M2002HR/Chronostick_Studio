@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#c9c4b4"/><stop offset="1" stop-color="#8a8c86"/></linearGradient>
+ <linearGradient id="wood" x2="1" y2="1"><stop stop-color="#eee9d8"/><stop offset=".6" stop-color="#d9d4c2"/><stop offset="1" stop-color="#b4b1a4"/></linearGradient>
+ <linearGradient id="vest" x2="1" y2="1"><stop stop-color="#706051"/><stop offset="1" stop-color="#453b35"/></linearGradient>
+ <linearGradient id="cap" x2="1" y2="1"><stop stop-color="#c6aa64"/><stop offset="1" stop-color="#968149"/></linearGradient>
+ <linearGradient id="shorts" x2="1" y2="1"><stop stop-color="#9a615c"/><stop offset="1" stop-color="#694846"/></linearGradient>
+ <linearGradient id="shirt" x2="1" y2="1"><stop stop-color="#eee8d5"/><stop offset="1" stop-color="#bab7aa"/></linearGradient>
+</defs>
+<path fill="url(#wall)" d="M0 0h1080v1500H0z"/>
+<path fill="#9b988b" d="M0 1500h1080v420H0z"/>
+<path d="M0 1500h1080" stroke="#55564f" stroke-width="5"/>
+<path d="M120 0v1500M880 0v1500" stroke="#797c72" stroke-width="3" opacity=".25"/>
+<path d="M80 240L350 0H690L90 680Z" fill="#eee8d3" opacity=".08"/>
+<path d="M426 1691L809 1757L1007 1909L505 1779Z" fill="#575c59" opacity=".29"/>
+<ellipse cx="546" cy="1748" rx="209" ry="27" fill="#535951" opacity=".32"/>
+<g stroke="#292b29" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+ <!-- One narrow wooden stick body; bare head-to-sole height about 5.2 head diameters. -->
+ <path d="M484 1226L476 1457L466 1669" fill="none" stroke="#30312d" stroke-width="51"/>
+ <path d="M484 1226L476 1457L466 1669" fill="none" stroke="#c8b68b" stroke-width="36"/>
+ <path d="M597 1226L608 1457L620 1669" fill="none" stroke="#30312d" stroke-width="51"/>
+ <path d="M597 1226L608 1457L620 1669" fill="none" stroke="#c8b68b" stroke-width="36"/>
+ <circle cx="476" cy="1457" r="27" fill="#b6a27b"/>
+ <circle cx="608" cy="1457" r="27" fill="#b6a27b"/>
+ <circle cx="476" cy="1457" r="8" fill="#6d6758" stroke-width="3"/>
+ <circle cx="608" cy="1457" r="8" fill="#6d6758" stroke-width="3"/>
+ <path d="M444 1648Q469 1638 488 1660L488 1714Q437 1735 398 1719Q389 1707 400 1690Z" fill="#55463b"/>
+ <path d="M594 1656Q612 1642 635 1650L666 1692Q691 1707 678 1721Q638 1738 593 1714Z" fill="#55463b"/>
+ <path d="M398 1720Q438 1735 488 1717M593 1717Q639 1735 678 1721" stroke="#373431"/>
+ <path d="M435 835L388 1013L410 1115" fill="none" stroke="#292b29" stroke-width="49"/>
+ <path d="M435 835L388 1013L410 1115" fill="none" stroke="#c8b68b" stroke-width="34"/>
+ <path d="M636 831L692 1008L667 1115" fill="none" stroke="#292b29" stroke-width="49"/>
+ <path d="M636 831L692 1008L667 1115" fill="none" stroke="#c8b68b" stroke-width="34"/>
+ <circle cx="388" cy="1013" r="26" fill="#b6a27b"/><circle cx="692" cy="1008" r="26" fill="#b6a27b"/>
+ <circle cx="388" cy="1013" r="7" fill="#6d6758" stroke-width="3"/><circle cx="692" cy="1008" r="7" fill="#6d6758" stroke-width="3"/>
+ <path d="M392 1101Q409 1096 426 1107L435 1134Q459 1133 451 1153L429 1157Q442 1190 419 1199Q397 1199 391 1179L380 1144Z" fill="url(#wood)"/>
+ <path d="M651 1105Q669 1095 685 1106L697 1147Q695 1184 672 1196Q650 1199 648 1178L653 1154Q627 1155 630 1140L643 1133Z" fill="url(#wood)"/>
+ <path d="M439 1071L637 1071L648 1214Q622 1239 578 1236L552 1167L528 1238Q485 1251 435 1221Z" fill="url(#shorts)"/>
+ <path d="M445 1100L630 1100M542 1100V1162" fill="none" stroke="#563c3b" stroke-width="4"/>
+ <path d="M508 682L513 752L570 752L570 682Z" fill="#c8b68b"/>
+ <path d="M475 745L421 781L413 873L459 890L469 815L456 1071Q543 1094 628 1072L613 814L634 889L676 870L659 782L598 745Z" fill="url(#shirt)"/>
+ <path d="M485 747L508 777L519 848L527 1081L457 1070L468 789Z" fill="url(#vest)"/>
+ <path d="M588 747L567 777L555 847L549 1085L629 1072L610 793Z" fill="url(#vest)"/>
+ <path d="M488 746L508 777L532 757L542 782L568 778L592 745" fill="#f1ebd8"/>
+ <path d="M533 786L480 766L482 818L533 800L540 797L589 821L587 768L547 786Z" fill="#647b91"/>
+ <ellipse cx="540" cy="793" rx="12" ry="14" fill="#4a6278"/>
+ <circle cx="540" cy="575" r="125" fill="url(#wood)"/>
+ <path d="M428 525Q417 484 453 460Q487 439 516 454Q536 440 558 457L552 489L525 492L512 515L488 495L465 527Z" fill="#3c3833"/>
+ <path d="M432 481Q462 440 553 453Q588 442 642 479L650 477Q665 460 652 448L628 421Q609 361 541 339Q504 376 497 423L455 438Z" fill="url(#cap)"/>
+ <path d="M429 480Q520 447 648 479" fill="none" stroke="#8d7847" stroke-width="13"/>
+ <path d="M508 419Q478 383 470 323Q473 290 486 283Q507 308 517 353Q519 387 508 419Z" fill="#86504b"/>
+ <path d="M509 417L484 306" stroke="#5d3e3b" stroke-width="4"/>
+ <path d="M483 358L507 369M482 330L497 338" fill="none" stroke="#a37468" stroke-width="3"/>
+ <path d="M653 574L681 580Q687 587 678 591L653 593" fill="#d3c29d"/>
+ <ellipse cx="559" cy="574" rx="8" ry="12" fill="#202525" stroke="none"/>
+ <ellipse cx="618" cy="574" rx="8" ry="12" fill="#202525" stroke="none"/>
+ <path d="M549 552L566 550M608 550L625 552" fill="none" stroke-width="4"/>
+ <path d="M566 628Q588 643 607 626" fill="none" stroke-width="5"/>
+ <path d="M452 590Q439 553 454 530" fill="none" stroke="#f1eddd" stroke-width="5" opacity=".6"/>
+</g>
+</svg>

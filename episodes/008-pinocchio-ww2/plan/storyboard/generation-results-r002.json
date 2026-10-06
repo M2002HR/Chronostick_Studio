@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen.imagegen",
+  "recorded_at": "2026-10-05T19:25:58.203848+00:00",
+  "results": [
+    {
+      "page": 1,
+      "status": "generated; needs user review",
+      "request_path": "plan/storyboard/storyboard-request-page-01-r002.json",
+      "generated_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-64fcd70f-ea4f-4b59-aeec-a96ef4edfb7b.png",
+      "saved_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "sha256": "c69af89c40321d63bd7a7879522c32646b8ab410d8195f8970adbd809d0f0661"
+    },
+    {
+      "page": 2,
+      "status": "failed",
+      "request_path": "plan/storyboard/storyboard-request-page-02-r002.json",
+      "error": "HTTP 400: request rejected by image tool safety system; no specific content rationale returned",
+      "media_created": false
+    },
+    {
+      "page": 3,
+      "status": "failed",
+      "request_path": "plan/storyboard/storyboard-request-page-03-r002.json",
+      "error": "HTTP 400: request rejected by image tool safety system; no specific content rationale returned",
+      "media_created": false
+    }
+  ]
+}

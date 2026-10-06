@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:12:12.776294+00:00",
+  "id": "dock-blocked",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-f-requests-r001.json",
+  "request_sha256": "aff4545ddfdf0885f27bb8974bc3db6fe37020852bf47339849696418570a896",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-590f7c09-efa6-4c2c-bd1f-33d3c00636a3.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/dock-blocked-r001.png",
+  "sha256": "4b5b00f398b013e57dd0de3b0d3ffe185a8bb0be88d4fee58624da9a64239d22",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

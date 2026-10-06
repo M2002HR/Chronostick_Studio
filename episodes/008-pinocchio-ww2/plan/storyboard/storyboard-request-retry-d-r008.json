@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r008",
+  "created_at": "2026-10-05T19:56:23.816365+00:00",
+  "prompt": "Using the attached pencil storyboard as a drawing-style reference, make a new three-panel storyboard page with upright portrait frames side by side. Use the same anonymous suited adult producer and plain money bags as in the reference. Label the white margins S34, S35, S36. S34: Close view of a wordless film poster with the wooden puppet from the reference and a round-eared cartoon mouse drawn together, beside one film reel; no living people. S35: Medium view of exactly one producer seated on a humorous chair constructed from money bags. S36: Wide view of the same single producer seated still on that money-bag chair, with settled coins around him and no poster or other people. Spare rough graphite contours, simple ordinary human proportions and wordless props.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-d.txt",
+  "prompt_sha256": "5f5227f5f02f1eea5c9eec9ee7e0a86c2e3888e497a641af6aaa97d08708b845",
+  "referenced_image_paths": [
+    "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/plan/storyboard/storyboard-page-02-r005.png"
+  ],
+  "reference_sha256": "61797f1702f1907bacba43db66b26470f542dce0be417b667d804b0a50777d84",
+  "reference_role": "neutral pencil drawing and existing puppet/anonymous producer composition only; not approved production identity",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-d-r008.png",
+  "shot_ids": [
+    "S34",
+    "S35",
+    "S36"
+  ],
+  "status": "prepared"
+}

@@ -1,0 +1,27 @@
+{
+  "reviewed_at": "2026-10-06T00:26:14.929009+00:00",
+  "revision": "r004",
+  "reviewer": "assistant",
+  "status": "approved_artifact",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-58bb06dd-1b80-4aae-a579-19fc3051f8f2.png",
+  "archived_source": "episodes/008-pinocchio-ww2/delivery/youtube/thumbnail-source-r004.png",
+  "source_sha256": "30d3ba094312e7f1dd162791832e3da9df3756f79cd6ea90c406a62670a4fdf4",
+  "delivery_path": "episodes/008-pinocchio-ww2/delivery/youtube/thumbnail-episode-008-r004.png",
+  "delivery_sha256": "23d26d5f8be55a07f0c3251e9e58df2aac4cb88b854764aa97481ec057558801",
+  "source_dimensions": [
+    941,
+    1672
+  ],
+  "delivery_dimensions": [
+    2160,
+    3840
+  ],
+  "processing": "Lanczos technical resize only; no headline or artwork overlay/recomposition locally",
+  "headline": "PINOCHO / ¿84 MILLONES?",
+  "actual_review": "Actual full frame: exact spelling and punctuation, heavy rounded outline/extrusion typography, no extra words, one coherent warm drawn film-reel/fortune still-life. Two tied bags, film tin and reel remain recognizable. First text/outline region conservatively around y214 of1672 (12.8%); satisfies minimum12% safe top. Title and question entirely visible. Phone and top12%-hidden reviews recorded separately.",
+  "text_safe_top_fraction_minimum": 0.12,
+  "conservative_estimated_text_top_fraction": 0.12799043062200957,
+  "theme": "Film and money curiosity; detached still-life, no unrelated era or wartime casualty image.",
+  "phone_review": "Actual270x480 preview: both complete headline lines and inverted punctuation clear, strong reel/money silhouette; no cropped outline.",
+  "top12_hidden_review": "Actual12%-hidden preview: both full headline lines, outline and shadow remain visible; no text was in masked strip."
+}

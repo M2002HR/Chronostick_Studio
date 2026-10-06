@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r005",
+  "created_at": "2026-10-05T19:43:25.369460+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-page-03.txt",
+  "prompt": "Draw an original rough grayscale pencil storyboard, exactly SIX portrait panels in THREE columns and TWO rows. Simple neutral human sketches with little shading. This page shows film-studio cartoon drawings, an adult audience member, a ticket purchase and a hopeful producer. Panel IDs outside frames only; scenes completely wordless.\n\nS19: Close puppet artwork. On a plain sheet of studio artwork, one short-nosed wooden-boy puppet in feathered cap and ordinary puppet outfit. Only one printed character; no living person.\nS20: Close second cartoon artwork. On another plain sheet of studio artwork, one round-eared cartoon mouse in its ordinary outfit. Only one printed character; no living person.\nS21: Medium wordless studio poster. One wordless studio poster depicts exactly two cartoon characters, the wooden boy and round-eared mouse side by side in their ordinary outfits. No slogan, letters, uniforms on the artwork or other characters.\nS22: Medium poster viewer. Exactly one serviceman studies that wall poster with the two drawn cartoon figures. One human plus the two figures printed within the poster only.\nS23: Close returning ticket sale. Two ordinary hands exchange a blank cinema ticket for coins at a ticket window. No visible full bodies or typography.\nS24: Medium hopeful producer. Exactly one suited producer notices a fuller receipts stack at a table and straightens slightly; no applause or cash throne yet.\n\nMaintain all six compositions in this order and exact subject counts. Anonymous ordinary adults, no detailed likeness.\n",
+  "prompt_sha256": "294cf089c504315748daef6123473bc51507d2bfafe98d0b789da10a5f2b2f0a",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-page-03-r005.png",
+  "status": "prepared",
+  "retry_reason": "Unspecified other-category output rejection; shorter same six storyboard compositions with no narrative changes."
+}

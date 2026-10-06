@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-05T20:49:25.408184+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "identity-producer",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-producer.md",
+      "prompt": "Create exactly one continuous, full-frame vertical 9:16 ChronoStick illustration. The supplied master image controls the drawn rendering language only: round off-white heads, tiny black dot eyes, minimal brows/closed mouth, dark clean outlines, narrow stick-derived torsos and limbs, detailed muted period clothing, soft directional illustrated light, matte drawn surfaces throughout. Bare-head-to-sole figure height 5.0–5.5 round-head diameters, shoulder width about 0.85 head diameters. No realistic skin, anatomical hands, broad human chest or 7–8-head body. One full body and one pose, occupying about 72 percent of frame height with safe hat/feet margins. Warm-gray drawn studio wall/floor, upper-left soft window light, subtle navy shadow. One identity only, zero background people, zero animals, no writing, labels, borders, grid, multiple views, photographic surfaces or medieval setting inherited from the master.\n\nExactly one anonymous adult film-studio producer in a 1940s-inspired outfit, not a named historical portrait. Front three-quarter standing pose facing left, arms relaxed. Round off-white head; clean-shaven; dark charcoal short side-part hair as one graphic mass; dot eyes and mildly attentive eyebrows. Muted navy narrow three-piece suit, cream shirt, muted burgundy tie, charcoal trousers and dark brown simple shoes. Two slim stick-derived arms and mitten-like pale hands. No hat, moustache, cigar, paper, money or film machinery.\n",
+      "prompt_sha256": "9cf8563708d6e2d57ef16f740efdafa7bc14d86f5d826643f31dd7bc19ae6046",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S03",
+        "S15",
+        "S18",
+        "S24",
+        "S33",
+        "S35",
+        "S36"
+      ]
+    },
+    {
+      "id": "identity-wooden-boy",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-wooden-boy.md",
+      "prompt": "Create exactly one continuous, full-frame vertical 9:16 ChronoStick illustration. The supplied master image controls the drawn rendering language only: round off-white heads, tiny black dot eyes, minimal brows/closed mouth, dark clean outlines, narrow stick-derived torsos and limbs, detailed muted period clothing, soft directional illustrated light, matte drawn surfaces throughout. Bare-head-to-sole figure height 5.0–5.5 round-head diameters, shoulder width about 0.85 head diameters. No realistic skin, anatomical hands, broad human chest or 7–8-head body. One full body and one pose, occupying about 72 percent of frame height with safe hat/feet margins. Warm-gray drawn studio wall/floor, upper-left soft window light, subtle navy shadow. One identity only, zero background people, zero animals, no writing, labels, borders, grid, multiple views, photographic surfaces or medieval setting inherited from the master.\n\nExactly one wooden-boy film-puppet identity translated entirely into ChronoStick anatomy and face language. Round warm off-white wooden head, tiny black dot eyes, simple closed curved mouth, dark short forelock shape. Small short wooden nose cue as one plain tiny horizontal shape, never a long nose. Muted mustard feathered cap with one burgundy feather, cream short-sleeve shirt, dark brown small vest, dusty-blue bow at collar, muted burgundy shorts and rounded dark-brown shoes. Slender drawn wooden arms/legs with simple visible elbow and knee joint discs, pale simplified mitten hands. Neutral standing three-quarter pose, no strings, tools, animals, duplicate drawings or other characters. Matte illustrated wood, not realistic woodgrain or Disney-style facial anatomy.\n",
+      "prompt_sha256": "f89547c6fe700eefb54ef63ccdabf97eafa0bf9e4450e486c78b3901e8f3f608",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S02",
+        "S04",
+        "S07",
+        "S09",
+        "S13",
+        "S14",
+        "S15",
+        "S25",
+        "S26"
+      ]
+    },
+    {
+      "id": "identity-dock-worker",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-dock-worker.md",
+      "prompt": "Create exactly one continuous, full-frame vertical 9:16 ChronoStick illustration. The supplied master image controls the drawn rendering language only: round off-white heads, tiny black dot eyes, minimal brows/closed mouth, dark clean outlines, narrow stick-derived torsos and limbs, detailed muted period clothing, soft directional illustrated light, matte drawn surfaces throughout. Bare-head-to-sole figure height 5.0–5.5 round-head diameters, shoulder width about 0.85 head diameters. No realistic skin, anatomical hands, broad human chest or 7–8-head body. One full body and one pose, occupying about 72 percent of frame height with safe hat/feet margins. Warm-gray drawn studio wall/floor, upper-left soft window light, subtle navy shadow. One identity only, zero background people, zero animals, no writing, labels, borders, grid, multiple views, photographic surfaces or medieval setting inherited from the master.\n\nExactly one anonymous adult film-delivery dock worker. Round off-white head, tiny black dot eyes and neutral closed mouth, clean-shaven, short dark brown graphic hair under one dusty-navy flat cap. Dusty-gray rolled-sleeve work shirt, narrow dark suspenders, muted khaki trousers, brown plain work boots. Slender stick-derived body and simplified pale mitten hands hanging relaxed. Front three-quarter pose facing right. No canister, cargo, ship, extra tools or other people in this identity view.\n",
+      "prompt_sha256": "63bbdedfe011cf762909b6158186a5c560dc1e1d88c6a4bfd9202e85cfa8e01e",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/identity-dock-worker-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S10",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "identity-serviceman",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/identity-serviceman.md",
+      "prompt": "Create exactly one continuous, full-frame vertical 9:16 ChronoStick illustration. The supplied master image controls the drawn rendering language only: round off-white heads, tiny black dot eyes, minimal brows/closed mouth, dark clean outlines, narrow stick-derived torsos and limbs, detailed muted period clothing, soft directional illustrated light, matte drawn surfaces throughout. Bare-head-to-sole figure height 5.0–5.5 round-head diameters, shoulder width about 0.85 head diameters. No realistic skin, anatomical hands, broad human chest or 7–8-head body. One full body and one pose, occupying about 72 percent of frame height with safe hat/feet margins. Warm-gray drawn studio wall/floor, upper-left soft window light, subtle navy shadow. One identity only, zero background people, zero animals, no writing, labels, borders, grid, multiple views, photographic surfaces or medieval setting inherited from the master.\n\nExactly one anonymous adult service-uniform role, not a named person or verified military-unit portrait. Round off-white head, tiny black dot eyes, simple neutral brow and closed mouth; clean-shaven, short dark hair. Plain muted-olive 1940s-style garrison cap, olive buttoned service jacket with two chest pockets, simple dark-brown belt, slender olive trousers and brown simple boots. No unit lettering, badges, medals, flags, helmet or weapon in this identity view. Narrow stick-derived body, mitten-like pale hands resting at sides, front three-quarter stance facing left.\n",
+      "prompt_sha256": "85497e581e2fec9858d423ab4ae34e8ac3e80661de9b5f512805a35eba2591f4",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/identity-serviceman-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S06",
+        "S22"
+      ]
+    }
+  ]
+}

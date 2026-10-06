@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-05T22:25:00.638262+00:00",
+  "revision": "r003",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "projected-film",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/projected-film.md",
+      "prompt": "Create one vertical 9:16 illustrated close view of a cinema projection. A warm pale rectangular movie screen in a dark charcoal frame fills the central image. On the screen is exactly one portrait of the original wooden stick puppet from the second supplied image, in the same mustard feathered cap, cream shirt, brown vest, blue bow and burgundy shorts. Keep its circular pale wooden head, tiny dot eyes, tiny short nose, closed smile, slim jointed limbs and simple mitten hands unchanged. Show the portrait at three-quarter view, with quiet dusty-blue painted scenery behind it. Screen glow is softly illustrated, dark theater surrounds its frame. The first supplied reference controls the matte drawn shading and dark outlines throughout. Zero audience or physical people, no lettering, panels or other characters.\n",
+      "prompt_sha256": "f485d0b262f58ddea0259a4b7998f7c50090bb36483bf7eda805391d030b6abe",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png",
+          "sha256": "987966af04b895dbcf3a4320cb5805d4e0d1d33656024727ad80ac2cf7879201",
+          "role": "identity-wooden-boy"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/projected-film-r003.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S04"
+      ]
+    }
+  ]
+}

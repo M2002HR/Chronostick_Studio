@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:53:44.132866+00:00",
+  "id": "producer-surprised",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-k-requests-r001.json",
+  "request_sha256": "06e9fdba9d613b19a1ca6fcbb3a4111b2469f7c99d4913d8f76f4a2d25ba0eb3",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-1ba2fde6-964d-4225-b72c-455e1d4429f0.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/producer-surprised-r001.png",
+  "sha256": "e389891cb68b24c470eabd0dfd4aec85e3193b81daf0ca41b4c8dfcfbe619c8a",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

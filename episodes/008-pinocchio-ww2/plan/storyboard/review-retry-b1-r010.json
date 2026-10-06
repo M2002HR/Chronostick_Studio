@@ -1,0 +1,19 @@
+{
+  "status": "assistant inspected; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-retry-b1-r010.png",
+  "sha256": "ae243064d159f7165304a954ff074c801eb1a6a0da0807d51f944fa3a0fb213d",
+  "size": [
+    941,
+    1672
+  ],
+  "panel_count": 1,
+  "panels": [
+    {
+      "id": "S22",
+      "result": "usable composition draft",
+      "notes": "Exactly one serviceman on far side of freestanding display, facing hidden front; camera sees the reverse near foreground. Corrected eye-line/spatial relationship, with floor stand and gap to wall."
+    }
+  ],
+  "style_note": "Detailed period-like uniform is illustrative, not verified insignia, identity or production design. Neutral human sketch, not ChronoStick reference.",
+  "approved_by_user": false
+}

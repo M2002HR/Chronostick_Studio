@@ -1,0 +1,44 @@
+{
+  "status": "assistant inspected; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-page-04-r005.png",
+  "sha256": "300839d875a5cb57961e29e6d66247e648583ecbbf87e21072e8c088ee9832aa",
+  "size": [
+    1536,
+    1024
+  ],
+  "panel_count": 6,
+  "panels": [
+    {
+      "id": "S25",
+      "result": "usable composition draft",
+      "notes": "One hand with wordless wooden-boy canister beside projector"
+    },
+    {
+      "id": "S26",
+      "result": "usable composition draft with explicit inventory revisions",
+      "notes": "Three family members approach booth, with an extra adult ticket attendant; explicitly revise draft inventory to family 3 plus attendant 1"
+    },
+    {
+      "id": "S27",
+      "result": "usable composition draft",
+      "notes": "Exactly two hands hold two torn halves of one blank ticket"
+    },
+    {
+      "id": "S28",
+      "result": "usable composition draft with explicit inventory revisions",
+      "notes": "One hand places plain bag beside expanding coin pile; explicitly revise draft inventory to include placement hand"
+    },
+    {
+      "id": "S29",
+      "result": "usable composition draft",
+      "notes": "Multiple plain bags and coin stacks fill table, no humans"
+    },
+    {
+      "id": "S30",
+      "result": "usable composition draft",
+      "notes": "Full table and exactly one floor bag, no people"
+    }
+  ],
+  "style_note": "Broader panels and more polished shading than requested. Draft storyboard accepts broad composition frames only; final production aspect remains 9:16 and these drawings are never style/identity anchors.",
+  "approved_by_user": false
+}

@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:28:17.636813+00:00",
+  "id": "cinema-family",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-h-requests-r001.json",
+  "request_sha256": "0923eecc82f2b94cdd1322d16b03c9a6c1b4d01d6e397469fddda5de9a18fc33",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-2ed56c63-bbeb-484f-92e8-8115fb92f4f9.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/cinema-family-r001.png",
+  "sha256": "3ada3d7f4ee910528b114fbbec5925329612d47c20d169a5603c43604f3ff669",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

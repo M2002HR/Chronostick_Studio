@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r008",
+  "created_at": "2026-10-05T19:56:23.814169+00:00",
+  "prompt": "Using the attached pencil storyboard only as a drawing-style reference, make a new three-panel storyboard page with portrait frames side by side. Reuse the wooden puppet drawing visible on the paper stack, simplifying it to rough contour lines. Put labels S19, S20, S21 in the white margin. S19 is a close view of one studio art sheet with the puppet drawing. S20 is a close view of another studio sheet with an ordinary cartoon mouse with round ears. S21 is a medium view of a wordless movie poster displaying exactly those two printed character drawings together. No living people. Keep all three panels separate and the paper artwork wordless. This is neutral composition planning, with minimal shading.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-a.txt",
+  "prompt_sha256": "919a09e14986180857b701491783633979e7054f533577e79e452ed26bdee1fa",
+  "referenced_image_paths": [
+    "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/plan/storyboard/storyboard-page-02-r005.png"
+  ],
+  "reference_sha256": "61797f1702f1907bacba43db66b26470f542dce0be417b667d804b0a50777d84",
+  "reference_role": "neutral pencil drawing and existing puppet/anonymous producer composition only; not approved production identity",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-a-r008.png",
+  "shot_ids": [
+    "S19",
+    "S20",
+    "S21"
+  ],
+  "status": "prepared"
+}

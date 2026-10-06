@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:48:43.822517+00:00",
+  "id": "canister-return",
+  "revision": "r002",
+  "request_path": "plan/references/canister-retry-requests-r002.json",
+  "request_sha256": "81b8be7609be6352d3cbb63c3594d670ea34265087815467246f95c882da4c73",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-c949db29-b11e-4a23-80c0-786665afbca9.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/canister-return-r002.png",
+  "sha256": "860c4f39ef5aeef5062706bacab9f0829ddf1fa53eb6b93805551e9b9675c4db",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

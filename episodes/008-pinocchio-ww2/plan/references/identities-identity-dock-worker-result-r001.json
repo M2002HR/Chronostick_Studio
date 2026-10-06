@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T20:57:23.022862+00:00",
+  "id": "identity-dock-worker",
+  "revision": "r001",
+  "request_path": "plan/references/identities-requests-r001.json",
+  "request_sha256": "c1d0d1ea04dfcf7ad010abd846bb564a0261dfc937ba21ed298d29fbf12952b0",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-8bb5b724-94e1-4898-99a3-9c4f4b1ebc64.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/identity-dock-worker-r001.png",
+  "sha256": "b29f5a0f854c85f16b97ac07d6a9751b470d19a09f66d8363ef44c2bd5604500",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

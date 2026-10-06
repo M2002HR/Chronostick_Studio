@@ -1,0 +1,217 @@
+{
+  "status": "reviewed",
+  "panel_to_shots": {
+    "S01": [
+      "C01-S01"
+    ],
+    "S02": [
+      "C01-S02"
+    ],
+    "S03": [
+      "C01-S03"
+    ],
+    "S04": [
+      "C01-S04"
+    ],
+    "S05": [
+      "C01-S05"
+    ],
+    "S06": [
+      "C01-S06"
+    ],
+    "S07": [
+      "C02-S07"
+    ],
+    "S08": [
+      "C02-S08"
+    ],
+    "S09": [
+      "C02-S09"
+    ],
+    "S10": [
+      "C02-S10"
+    ],
+    "S11": [
+      "C02-S11"
+    ],
+    "S12": [
+      "C02-S12"
+    ],
+    "S13": [
+      "C03-S13"
+    ],
+    "S14": [
+      "C03-S14"
+    ],
+    "S15": [
+      "C03-S15"
+    ],
+    "S16": [
+      "C03-S16"
+    ],
+    "S17": [
+      "C03-S17"
+    ],
+    "S18": [
+      "C03-S18"
+    ],
+    "S19": [
+      "C04-S19"
+    ],
+    "S20": [
+      "C04-S20"
+    ],
+    "S21": [
+      "C04-S21"
+    ],
+    "S22": [
+      "C04-S22"
+    ],
+    "S23": [
+      "C04-S23"
+    ],
+    "S24": [
+      "C04-S24"
+    ],
+    "S25": [
+      "C05-S25"
+    ],
+    "S26": [
+      "C05-S26"
+    ],
+    "S27": [
+      "C05-S27"
+    ],
+    "S28": [
+      "C05-S28"
+    ],
+    "S29": [
+      "C05-S29"
+    ],
+    "S30": [
+      "C05-S30"
+    ],
+    "S31": [
+      "C06-S31"
+    ],
+    "S32": [
+      "C06-S32"
+    ],
+    "S33": [
+      "C06-S33"
+    ],
+    "S34": [
+      "C06-S34"
+    ],
+    "S35": [
+      "C06-S35"
+    ],
+    "S36": [
+      "C06-S36"
+    ]
+  },
+  "omitted_panels": [],
+  "changes": [
+    {
+      "panels": [
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "reason": "S10 barrier begins raised/open, S11 lowers once, S12 closed; correct incidental sketch state to preserve accepted written causal action."
+    },
+    {
+      "panels": [
+        "S21",
+        "S22"
+      ],
+      "reason": "Two rear paper sheets arranged vertically within one frame for portrait legibility; count/display/viewer relation and source meaning unchanged."
+    },
+    {
+      "panels": [
+        "S04"
+      ],
+      "reason": "Recognizable printed puppet film poster close-up replaces projected/live puppet shot; preserves film identity with actually generated cinema reference."
+    },
+    {
+      "panels": [
+        "S18",
+        "S24"
+      ],
+      "reason": "Actual producer references use seated desk reactions; keep chair fixed and animate upper-body posture only."
+    },
+    {
+      "panels": [
+        "S25"
+      ],
+      "reason": "Canister lid uses recognizable wordless wooden puppet head/cap/bow emblem, not full-body lid art."
+    },
+    {
+      "panels": [
+        "S29",
+        "S30",
+        "S32",
+        "S33"
+      ],
+      "reason": "Actual wealth references contain six tabletop bags and one floor bag; bag count illustrates several bags, not numerical historical amounts."
+    },
+    {
+      "panels": [
+        "S34"
+      ],
+      "reason": "Retrospective frame inherits two stacked rear paper backs of the earlier publicity display."
+    },
+    {
+      "panels": [
+        "S35",
+        "S36"
+      ],
+      "reason": "Actual money-chair reference is already seated, legs crossed, one foot planted; torso settles then final held composition."
+    },
+    {
+      "panels": [
+        "S27"
+      ],
+      "reason": "Actual ticket-tear image inherits brown customer sleeve on left and dark attendant sleeve on right, preserving exactly two hands and one ticket."
+    }
+  ],
+  "material_story_change": false,
+  "voice_changed": false,
+  "render_repair_overrides": [
+    {
+      "clip": "clip-02",
+      "path": "plan/clip-02-direction-r002.json",
+      "original_render_rejected": "renders/clip-02-review-r001.json",
+      "merged_panels": [
+        "S11",
+        "S12"
+      ],
+      "remaining_panels_preserved": [
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "accepted_voice_changed": false,
+      "reason": "Explicitscoped five-shotrepair protects necessary chronologyandearlierresolvedhold; originalapprovedjob contractpreserved forin-flightotherclips."
+    },
+    {
+      "clip_id": "clip-02",
+      "direction": "plan/clip-02-direction-r003.json",
+      "reason": "Repeated coin insert conveys incoming payment. Scoped visual simplification: disappointed family leaves cinema, then worker remains behind already-closed barrier. Spoken source content unchanged.",
+      "status": "prompt_reviewed_actual_render_pending"
+    },
+    {
+      "clip_id": "clip-02",
+      "direction": "plan/clip-02-direction-r004.json",
+      "status": "actual_directed_replacement_reviewed_selected",
+      "actual_source_reviews": [
+        "renders/clip-02-review-r003.json",
+        "renders/clip-02-isolated-dock-review-r004.json"
+      ],
+      "composite_review": "renders/clip-02-composite-review-r004.json",
+      "provenance": "renders/clip-02-composite-provenance-r004.json",
+      "reason": "Regenerate missing dock as isolated scene before final picture approval, compose actually reviewed54+54sourceframes in unchanged108frame slot. Complete unsuccessful multishot attempts remain rejected."
+    }
+  ]
+}

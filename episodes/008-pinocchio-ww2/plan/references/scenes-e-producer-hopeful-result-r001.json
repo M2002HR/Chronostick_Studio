@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:26:30.359208+00:00",
+  "id": "producer-hopeful",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-e-requests-r001.json",
+  "request_sha256": "7231cf164aff1fcc24ce5d9cc185c5f0ea44a1db04b4aa78bf8cfe864aea4bfd",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-fb6b5de0-e8d6-4d04-85d9-03602fcb0c05.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/producer-hopeful-r001.png",
+  "sha256": "556f673894b0e68222efa5442c3c88a92115136915937063133a4015df4af3e0",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

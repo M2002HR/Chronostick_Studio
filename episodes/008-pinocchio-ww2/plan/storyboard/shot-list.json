@@ -1,0 +1,749 @@
+{
+  "status": "complete neutral composition draft; all 36 actual panels assistant inspected; needs user creative review",
+  "style": "neutral rough monochrome human sketch; not ChronoStick; not H3 reference",
+  "initial_target_seconds": 30,
+  "target_seconds": 32.208333333333336,
+  "actual_voice_seconds": 32.170667,
+  "fps": 24,
+  "shot_count": 36,
+  "shots": [
+    {
+      "id": "S01",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A02"
+      ],
+      "framing": "Extreme close projector reel",
+      "action": "One metal film reel begins turning inside a 1940 cinema projector. No people.",
+      "clip_id": "clip-01",
+      "start_frame": 0,
+      "end_frame": 12,
+      "start_seconds": 0.0,
+      "end_seconds": 0.5,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S02",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A02"
+      ],
+      "framing": "Wide cinema facade",
+      "action": "A 1940 cinema exterior, blank marquee, a wordless poster depicting a short-nosed wooden boy in a feathered cap. No people.",
+      "clip_id": "clip-01",
+      "start_frame": 12,
+      "end_frame": 43,
+      "start_seconds": 0.5,
+      "end_seconds": 1.7916666666666667,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 2,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S03",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A02",
+        "A09"
+      ],
+      "framing": "Medium producer",
+      "action": "Exactly one male producer in a simple period suit starts the projector. Neutral human silhouette, not a detailed portrait.",
+      "clip_id": "clip-01",
+      "start_frame": 43,
+      "end_frame": 60,
+      "start_seconds": 1.7916666666666667,
+      "end_seconds": 2.5,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 3,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S04",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A02"
+      ],
+      "framing": "Close projected wooden boy",
+      "action": "The jointed wooden-boy puppet with a feathered cap and short nose is the only character shown on a movie screen; not a physical soldier.",
+      "clip_id": "clip-01",
+      "start_frame": 60,
+      "end_frame": 82,
+      "start_seconds": 2.5,
+      "end_seconds": 3.4166666666666665,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 4,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S05",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01"
+      ],
+      "framing": "Wide European wartime sky",
+      "action": "Two small WWII propeller-aircraft silhouettes cross a distant European roofline. No cinema underneath; no people or casualties.",
+      "clip_id": "clip-01",
+      "start_frame": 82,
+      "end_frame": 106,
+      "start_seconds": 3.4166666666666665,
+      "end_seconds": 4.416666666666667,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 5,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S06",
+      "scenario_beat": "B1",
+      "source_analysis_ids": [
+        "A01"
+      ],
+      "framing": "Medium wartime street",
+      "action": "Exactly one soldier silhouette crouches behind a damaged brick wall in a European street. No casualties or other soldiers.",
+      "clip_id": "clip-01",
+      "start_frame": 106,
+      "end_frame": 122,
+      "start_seconds": 4.416666666666667,
+      "end_seconds": 5.083333333333333,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 6,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S07",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A05"
+      ],
+      "framing": "Wide family at cinema",
+      "action": "Exactly three people: father, mother and child stand together outside the same 1940 cinema ticket booth.",
+      "clip_id": "clip-02",
+      "start_frame": 122,
+      "end_frame": 137,
+      "start_seconds": 5.083333333333333,
+      "end_seconds": 5.708333333333333,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 7,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S08",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A05"
+      ],
+      "framing": "Extreme close parent hand",
+      "action": "One plain human hand holds exactly two loose coins in front of a ticket window; no symbols or numerals.",
+      "clip_id": "clip-02",
+      "start_frame": 137,
+      "end_frame": 151,
+      "start_seconds": 5.708333333333333,
+      "end_seconds": 6.291666666666667,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 8,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S09",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A05"
+      ],
+      "framing": "Medium disappointed family",
+      "action": "The same two parents and one child turn away from the ticket booth, heads slightly lowered; no transformation into ragged caricatures.",
+      "clip_id": "clip-02",
+      "start_frame": 151,
+      "end_frame": 169,
+      "start_seconds": 6.291666666666667,
+      "end_seconds": 7.041666666666667,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 9,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S10",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A04",
+        "A07"
+      ],
+      "framing": "Medium dock delivery",
+      "action": "Exactly one delivery worker carries one round film canister toward a dock barrier; a distant ship is secondary.",
+      "clip_id": "clip-02",
+      "start_frame": 169,
+      "end_frame": 194,
+      "start_seconds": 7.041666666666667,
+      "end_seconds": 8.083333333333334,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 10,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S11",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A04",
+        "A07"
+      ],
+      "framing": "Close gate and canister",
+      "action": "The worker holds the one film canister while a simple dock barrier closes in front of him. One worker only.",
+      "clip_id": "clip-02",
+      "start_frame": 194,
+      "end_frame": 213,
+      "start_seconds": 8.083333333333334,
+      "end_seconds": 8.875,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 11,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S12",
+      "scenario_beat": "B2",
+      "source_analysis_ids": [
+        "A04",
+        "A07"
+      ],
+      "framing": "Wide blocked dock",
+      "action": "Exactly one worker remains before the closed barrier with one undelivered film canister; cargo ship distant and still. Settled symbolic distribution blockage.",
+      "clip_id": "clip-02",
+      "start_frame": 213,
+      "end_frame": 230,
+      "start_seconds": 8.875,
+      "end_seconds": 9.583333333333334,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-01-r002.png",
+      "panel_number": 12,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S13",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Close production cash",
+      "action": "One hand places one full plain money bag beside a stack of wooden-boy animation drawings on a table; no markings.",
+      "clip_id": "clip-03",
+      "start_frame": 230,
+      "end_frame": 241,
+      "start_seconds": 9.583333333333334,
+      "end_seconds": 10.041666666666666,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r005.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S14",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Extreme close large coin pile",
+      "action": "Large pile of coins and full plain money bags, a drawing corner at edge. No people or numerical labels.",
+      "clip_id": "clip-03",
+      "start_frame": 241,
+      "end_frame": 262,
+      "start_seconds": 10.041666666666666,
+      "end_seconds": 10.916666666666666,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r005.png",
+      "panel_number": 2,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S15",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Medium producer and large costs",
+      "action": "Exactly one suited producer looks at the large pile of money and drawings on a studio desk.",
+      "clip_id": "clip-03",
+      "start_frame": 262,
+      "end_frame": 281,
+      "start_seconds": 10.916666666666666,
+      "end_seconds": 11.708333333333334,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r005.png",
+      "panel_number": 3,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S16",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Close small receipts",
+      "action": "One plain hand places one small partly filled money bag on an otherwise bare cinema receipts table.",
+      "clip_id": "clip-03",
+      "start_frame": 281,
+      "end_frame": 302,
+      "start_seconds": 11.708333333333334,
+      "end_seconds": 12.583333333333334,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r005.png",
+      "panel_number": 4,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S17",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A06"
+      ],
+      "framing": "Extreme close sparse coins",
+      "action": "Only a few coins lie beside that one small bag. No humans, labels, numerical ratio or added objects.",
+      "clip_id": "clip-03",
+      "start_frame": 302,
+      "end_frame": 324,
+      "start_seconds": 12.583333333333334,
+      "end_seconds": 13.5,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r005.png",
+      "panel_number": 5,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S18",
+      "scenario_beat": "B3",
+      "source_analysis_ids": [
+        "A05",
+        "A06"
+      ],
+      "framing": "Wide financial contrast",
+      "action": "The large money pile is on the left of a table and the small bag with few coins on the right. Exactly one suited producer stands behind, shoulders lowered; no labels.",
+      "clip_id": "clip-03",
+      "start_frame": 324,
+      "end_frame": 366,
+      "start_seconds": 13.5,
+      "end_seconds": 15.25,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-02-r005.png",
+      "panel_number": 6,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S19",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "Close art preparation",
+      "action": "One hand places one animation-art sheet onto a printer preparation desk. Camera sees the reverse, with pencils and ink jar at the edge.",
+      "clip_id": "clip-04",
+      "start_frame": 366,
+      "end_frame": 386,
+      "start_seconds": 15.25,
+      "end_seconds": 16.083333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-a-r010.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected",
+      "draft_revision_reason": "User requested best available built-in imagery after repeated unspecified output moderation. Publicity-production props and oblique/reverse views replace detailed printed cartoon art in neutral sketches. Source narration unchanged; illustrative mechanism, not new verified history."
+    },
+    {
+      "id": "S20",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "Extreme close printing rollers",
+      "action": "A second animation-art sheet enters the rollers of a period-style small printing press. Only paper edge, rollers and ink mechanism are visible; no person.",
+      "clip_id": "clip-04",
+      "start_frame": 386,
+      "end_frame": 410,
+      "start_seconds": 16.083333333333332,
+      "end_seconds": 17.083333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-a-r010.png",
+      "panel_number": 2,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected",
+      "draft_revision_reason": "User requested best available built-in imagery after repeated unspecified output moderation. Publicity-production props and oblique/reverse views replace detailed printed cartoon art in neutral sketches. Source narration unchanged; illustrative mechanism, not new verified history."
+    },
+    {
+      "id": "S21",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "Medium oblique publicity display",
+      "action": "Two publicity sheets are mounted side by side in one freestanding framed cinema display. Camera sees plain paper backs and floor support, no person.",
+      "clip_id": "clip-04",
+      "start_frame": 410,
+      "end_frame": 435,
+      "start_seconds": 17.083333333333332,
+      "end_seconds": 18.125,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-a-r010.png",
+      "panel_number": 3,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected",
+      "draft_revision_reason": "User requested best available built-in imagery after repeated unspecified output moderation. Publicity-production props and oblique/reverse views replace detailed printed cartoon art in neutral sketches. Source narration unchanged; illustrative mechanism, not new verified history."
+    },
+    {
+      "id": "S22",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A08"
+      ],
+      "framing": "Medium front-three-quarter serviceman beyond display",
+      "action": "One adult serviceman stands on the far side of a freestanding framed publicity display and studies its illustrated front. Camera behind the display sees only its paper reverse and support stand.",
+      "clip_id": "clip-04",
+      "start_frame": 435,
+      "end_frame": 471,
+      "start_seconds": 18.125,
+      "end_seconds": 19.625,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-b1-r010.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected",
+      "draft_revision_reason": "Corrected spatial relationship after r009 failed QC; hidden printed face preserves publicity role without detailed cartoon artwork in this neutral board."
+    },
+    {
+      "id": "S23",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "Close returning ticket sale",
+      "action": "Two ordinary hands exchange a blank cinema ticket for coins at a ticket window. No visible full bodies or typography.",
+      "clip_id": "clip-04",
+      "start_frame": 471,
+      "end_frame": 489,
+      "start_seconds": 19.625,
+      "end_seconds": 20.375,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-b2-r008.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S24",
+      "scenario_beat": "B4",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "Medium hopeful producer",
+      "action": "Exactly one suited producer notices a fuller receipts stack at a table and straightens slightly; no applause or cash throne yet.",
+      "clip_id": "clip-04",
+      "start_frame": 489,
+      "end_frame": 533,
+      "start_seconds": 20.375,
+      "end_seconds": 22.208333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-b2-r008.png",
+      "panel_number": 2,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S25",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A09",
+        "A10"
+      ],
+      "framing": "Close film canister return",
+      "action": "One plain hand sets a film canister beside a projector; wordless wooden-boy film artwork visible on the lid. No number/date.",
+      "clip_id": "clip-05",
+      "start_frame": 533,
+      "end_frame": 560,
+      "start_seconds": 22.208333333333332,
+      "end_seconds": 23.333333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-04-r005.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S26",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A02",
+        "A09"
+      ],
+      "framing": "Wide cinema attendance",
+      "action": "Father, mother and child approach the ticket booth; one adult ticket attendant appears inside the booth. Exactly four visible people.",
+      "clip_id": "clip-05",
+      "start_frame": 560,
+      "end_frame": 585,
+      "start_seconds": 23.333333333333332,
+      "end_seconds": 24.375,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-04-r005.png",
+      "panel_number": 2,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected",
+      "draft_revision_reason": "Generated additional ticket attendant explicitly accepted as supporting composition detail; no narration or source-claim change."
+    },
+    {
+      "id": "S27",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A09"
+      ],
+      "framing": "Extreme close ticket tear",
+      "action": "Exactly two hands tear one unprinted admission ticket at the cinema entrance; no faces or readable numbers.",
+      "clip_id": "clip-05",
+      "start_frame": 585,
+      "end_frame": 599,
+      "start_seconds": 24.375,
+      "end_seconds": 24.958333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-04-r005.png",
+      "panel_number": 3,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S28",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "framing": "Close cash accumulates",
+      "action": "One hand sets one plain money bag beside an expanding coin pile on the table. No full human body or text.",
+      "clip_id": "clip-05",
+      "start_frame": 599,
+      "end_frame": 621,
+      "start_seconds": 24.958333333333332,
+      "end_seconds": 25.875,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-04-r005.png",
+      "panel_number": 4,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected",
+      "draft_revision_reason": "Placement hand visible in actual sketch explicitly added to inventory; no narration or source-claim change."
+    },
+    {
+      "id": "S29",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "framing": "Medium money growth",
+      "action": "Several plain money bags now fill most of the same receipts table; no person, no numerical label.",
+      "clip_id": "clip-05",
+      "start_frame": 621,
+      "end_frame": 646,
+      "start_seconds": 25.875,
+      "end_seconds": 26.916666666666668,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-04-r005.png",
+      "panel_number": 5,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S30",
+      "scenario_beat": "B5",
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "framing": "Wide overflowing money",
+      "action": "The table is filled with plain bags and coin piles, with one bag on the floor. No people or markings. Clear source wealth metaphor.",
+      "clip_id": "clip-05",
+      "start_frame": 646,
+      "end_frame": 662,
+      "start_seconds": 26.916666666666668,
+      "end_seconds": 27.583333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-page-04-r005.png",
+      "panel_number": 6,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S31",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "framing": "Extreme close spill",
+      "action": "A few coins roll from the table edge into a waiting pile; no person or word.",
+      "clip_id": "clip-06",
+      "start_frame": 662,
+      "end_frame": 674,
+      "start_seconds": 27.583333333333332,
+      "end_seconds": 28.083333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-c-r006.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S32",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "framing": "Medium complete cash pile",
+      "action": "The bags and coins settle into a large stable pile around the table; no people.",
+      "clip_id": "clip-06",
+      "start_frame": 674,
+      "end_frame": 692,
+      "start_seconds": 28.083333333333332,
+      "end_seconds": 28.833333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-c-r006.png",
+      "panel_number": 2,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S33",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A09",
+        "A10"
+      ],
+      "framing": "Close producer reaction",
+      "action": "Exactly one suited producer looks toward the money with an amused, surprised expression. Simplified human features only.",
+      "clip_id": "clip-06",
+      "start_frame": 692,
+      "end_frame": 705,
+      "start_seconds": 28.833333333333332,
+      "end_seconds": 29.375,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-c-r006.png",
+      "panel_number": 3,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S34",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A08",
+        "A10"
+      ],
+      "framing": "Close reverse publicity print and reel",
+      "action": "A single framed publicity print is seen from its reverse side beside one film reel. Printed artwork is hidden by viewing angle; no person.",
+      "clip_id": "clip-06",
+      "start_frame": 705,
+      "end_frame": 726,
+      "start_seconds": 29.375,
+      "end_seconds": 30.25,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-d-r009.png",
+      "panel_number": 1,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected",
+      "draft_revision_reason": "User requested best available built-in imagery after repeated unspecified output moderation. Publicity-production props and oblique/reverse views replace detailed printed cartoon art in neutral sketches. Source narration unchanged; illustrative mechanism, not new verified history."
+    },
+    {
+      "id": "S35",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "framing": "Medium producer sits",
+      "action": "Exactly one suited producer sits on a playful throne made of money bags. Satirical source wealth metaphor, no literal historic event claim.",
+      "clip_id": "clip-06",
+      "start_frame": 726,
+      "end_frame": 746,
+      "start_seconds": 30.25,
+      "end_seconds": 31.083333333333332,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-d-r009.png",
+      "panel_number": 2,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    },
+    {
+      "id": "S36",
+      "scenario_beat": "B6",
+      "source_analysis_ids": [
+        "A10"
+      ],
+      "framing": "Wide resolved wealth tableau",
+      "action": "Exactly one suited producer sits still on the money-bag throne with settled coins around him; no posters, other people, captions, buttons or slogans.",
+      "clip_id": "clip-06",
+      "start_frame": 746,
+      "end_frame": 773,
+      "start_seconds": 31.083333333333332,
+      "end_seconds": 32.208333333333336,
+      "camera": "static composition by default; at most one simple move in final direction",
+      "timing_status": "voice-led planning from real Ajil r001; final direction requires storyboard and reference review",
+      "sketch_path": "plan/storyboard/storyboard-retry-d-r009.png",
+      "panel_number": 3,
+      "reference_status": "missing; sketches are not H3 anchors",
+      "sketch_status": "present and assistant inspected"
+    }
+  ],
+  "visual_adaptation_notes": "The printed cartoon characters keep ordinary film costumes; the serviceman viewer supplies military-campaign context. This preserves the narrated propaganda role without staging the fictional boy as a combatant. Narration unchanged.",
+  "composition_note": "Generated broader panel shapes are accepted for internal composition planning only; production remains portrait 9:16."
+}

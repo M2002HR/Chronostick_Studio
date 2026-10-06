@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "role": "creative-reference-and-unverified-story-input",
+  "influence_goal": "Close story and directing adaptation in original Spanish and ChronoStick style",
+  "items": [
+    {
+      "id": "reference-video",
+      "kind": "video",
+      "path": "source/reference-video/reference-pinocchio-ww2-r001.mp4",
+      "url": null,
+      "title": "Pinocchio was released in WW2",
+      "original_name": "[@download_it_bot 360p] Pinocchio was released in WW2. #hi.mp4",
+      "sha256": "a3e02969b1f524b15b0c3b49d66c8142246224beda39b9d76139e2387da8bf0b",
+      "bytes": 2375202,
+      "provenance": "User-supplied local download; original URL and creator unavailable; byte-identical archive; download retained"
+    }
+  ],
+  "created_at": "2026-10-05T18:45:37.201016+00:00"
+}

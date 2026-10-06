@@ -1,0 +1,10 @@
+{
+  "source": "renders/editorial/episode-008-clip-01-film-opens-during-war-r001.mp4",
+  "source_sha256": "2a0347a9c0c1c1dd99e432ce822258273ea66bbf14c2596dcf2a3c08b434125f",
+  "output": "renders/audio-corrected/episode-008-clip-01-r001-silent-r001.mp4",
+  "stem": "audio/sfx/clip-01-silent-stem-r001.wav",
+  "native_audio": "exclude_completely",
+  "reason": "Sustained actual native drone rejected. No observable lever contact or other short impact occurs; no invented cue. Openingisnarration-onlyafterfinish.",
+  "picture_review": "renders/clip-01-review-r001.json",
+  "cues": []
+}

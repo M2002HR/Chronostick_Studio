@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "picture": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+  "picture_sha256": "ef121e42d2a4e45262a33024d176d95d0fe55de5bbb7ccdd7092071ddc931454",
+  "source_audio": {
+    "path": "audio/historia-07-google-vids-export-r001.mp4",
+    "sha256": "316e37e09204b887cad2e8cf9c68811bafee0ca3d285a744fc2281465eb04d55",
+    "original_download": "/home/mhr/Downloads/historia_07 (1).mp4",
+    "start_seconds": 0,
+    "gain_db": -1.5,
+    "gain_reason": "Initial unity mix measured +0.07 dBTP; lower only new voice to leave encoding headroom and preserve native soundtrack at 0 dB."
+  },
+  "native_audio": {
+    "mode": "preserve",
+    "gain_db": 0
+  },
+  "captions": {
+    "profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+    "font_size": 104,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 300,
+    "outline": 2,
+    "shadow": 2,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 4,
+    "max_cue_seconds": 1.8,
+    "break_gap_seconds": 0.3,
+    "max_lines": 1,
+    "enabled": true
+  },
+  "timing": {
+    "path": "timestamps/ajil-historia-export/voice-words-r002.csv",
+    "sha256": "57fe978537892df143d6cdcaff32ea2127ef35b49a23cf831a467c63512f6e18",
+    "source_voice_path": "audio/narration-es-r002.wav",
+    "source_voice_sha256": "c9de71e2ed929bfa6860b445bf5cbad8717cf7a3a6805b4dae91d6fa5bbf7691",
+    "ingestion_provenance": "audio/narration-provenance-es-r002.json",
+    "ingestion_provenance_sha256": "549635d445dd7b1186ed53fa9a643481d9c3f82ceaa3a2cff8b5908ab31af04b",
+    "raw_response": "timestamps/ajil-historia-export/voice-response-r002.json",
+    "raw_response_sha256": "b5e09f77556f06938c6fb722b392e75e10e8a662b293ce7c124059525e88f5b2",
+    "status": "actual_supplied_voice_provider_timing_reviewed_for_caption_render"
+  },
+  "normalization": {
+    "enabled": false,
+    "reason": "Native soundtrack retains unity gain. Only the supplied voice is attenuated 1.5 dB to prevent overload."
+  },
+  "output_stem": "mascara-guy-fawkes-complot-1605-es-007",
+  "user_request": "Complete final video with the accepted Shorts active-word captions, audio from historia_07 (1).mp4 and original picture-master sound retained.",
+  "review_status": "needs_user_review_of_captioned_new_audio_export",
+  "encoding": {
+    "crf": 16,
+    "preset": "fast",
+    "threads": 8
+  }
+}

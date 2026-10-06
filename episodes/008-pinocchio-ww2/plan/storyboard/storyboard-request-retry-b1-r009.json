@@ -1,0 +1,15 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r009",
+  "created_at": "2026-10-05T19:59:34.355029+00:00",
+  "prompt": "Draw one upright 9:16 rough graphite storyboard frame on white paper, labelled S22 in its outer margin. Medium rear view of one adult serviceman in a plain 1940s service uniform standing calmly in a cinema foyer and looking at a framed publicity poster on the wall. The camera stands behind the framed display at an oblique angle, so its illustrated face is turned away while the serviceman clearly looks at it. Show exactly one adult human, one display frame and its blank paper reverse/edges. Spare neutral human contours, minimal shading, no detailed face, no text or insignia.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-b1.txt",
+  "prompt_sha256": "bb39dfa2c886b5a22d20feb7d83396e16532e0ea2bd7d36fb141c7df3ea8d15d",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-b1-r009.png",
+  "shot_ids": [
+    "S22"
+  ],
+  "status": "prepared",
+  "visual_revision": "Oblique/reverse views of actual publicity props replace readable cartoon-identity detail in internal sketches. Same film publicity and military-viewer story roles; narration/figures/source claims unchanged. No new claim or production identity approval."
+}

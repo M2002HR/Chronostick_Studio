@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:05:39.121535+00:00",
+  "id": "costs-desk",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-b-requests-r001.json",
+  "request_sha256": "d970923622a8f6eb0468a1b805eb003570edf7318e527320d4adcaaa9c03990d",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-772b88f7-062b-4f26-a84e-b00fd3008b84.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/costs-desk-r001.png",
+  "sha256": "a96030fa4277e15556764cc63142bb166633c82185e45242a1efff26b1e77a91",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

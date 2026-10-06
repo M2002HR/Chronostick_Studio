@@ -1,0 +1,24 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:35:03.075771+00:00",
+  "clip_id": "clip-02",
+  "decision": "reject_complete_clip_select_family_subtake_only",
+  "media": "renders/editorial/episode-008-clip-02-families-distribution-blocked-r003.mp4",
+  "observed_cut_starts_frames": [
+    0,
+    54
+  ],
+  "picture_review": "All108editorialframes and16raw-tailframes reviewed. Three family members, empty booth, no money transaction; same family visibly turns away and takes one subdued step. Family portion frames0\u201353 approved for a new directed replacement. Model delays the dock scene until rawframe116, outside108frameeditorialendpoint. Full clip rejected for missing blocked-distribution coverage. No attempt to approve original complete clip by technical duration alone.",
+  "subtake_selection": {
+    "frames": [
+      0,
+      54
+    ],
+    "review_scope": "actual family action only, approved for explicit shot-level replacement direction"
+  },
+  "native_audio_review": "Blind audio-only machine reports sustained shaker-like rattle; exclude native entirely.",
+  "evidence": "renders/review-evidence/clip-02-r003",
+  "raw_tail_evidence": "renders/review-evidence/clip-02-r003-raw-tail",
+  "personal_listening_claimed": false,
+  "new_user_release_approval": false
+}

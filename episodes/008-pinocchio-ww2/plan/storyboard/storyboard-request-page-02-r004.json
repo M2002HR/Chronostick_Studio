@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r004",
+  "created_at": "2026-10-05T19:40:05.646884+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-page-02.txt",
+  "prompt": "Use case: illustration-story. Internal rough pencil storyboard for a short film about a 1940s animation studio. Exactly SIX panels in THREE columns and TWO rows, read left to right. Each panel is portrait 9:16 with generous white gutters. Monochrome spare contour sketches, ordinary simplified human proportions, no likeness or polished rendering. Film-era studio and cinema props. Only the six S-number panel IDs in the outside margins; all scenes, tickets, bags and posters completely wordless. Anonymous suited adult producer. Printed wooden-boy character wears a feathered cap and ordinary puppet outfit with jointed limbs; printed cartoon mouse has round ears and ordinary outfit. All printed artwork is fictional story illustration, not an authenticated historical document.\n\nS13: Close production cash. One hand places one full plain money bag beside a stack of wooden-boy animation drawings on a table; no markings.\nS14: Extreme close large coin pile. Large pile of coins and full plain money bags, a drawing corner at edge. No people or numerical labels.\nS15: Medium producer and large costs. Exactly one suited producer looks at the large pile of money and drawings on a studio desk.\nS16: Close small receipts. One plain hand places one small partly filled money bag on an otherwise bare cinema receipts table.\nS17: Extreme close sparse coins. Only a few coins lie beside that one small bag. No humans, labels, numerical ratio or added objects.\nS18: Wide financial contrast. The large money pile is on the left of a table and the small bag with few coins on the right. Exactly one suited producer stands behind, shoulders lowered; no labels.\n\nKeep exact panel order, framing and subject counts. One still state per panel. No extra people, labels, numbers or logos inside scenes. Simple shapes, very little shading.\n",
+  "prompt_sha256": "b953f2be575fc8ef4dfd07912fd303c1447d2ae00864d7c4419d1acf5b4270c7",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-page-02-r004.png",
+  "status": "prepared",
+  "retry_reason": "User requested retry of stuck image generation; split 24 remaining compositions into four six-panel requests; preserve first twelve-panel image and narrative."
+}

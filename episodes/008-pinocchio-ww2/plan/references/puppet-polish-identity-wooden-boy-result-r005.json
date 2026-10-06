@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T22:07:01.742953+00:00",
+  "id": "identity-wooden-boy",
+  "revision": "r005",
+  "request_path": "plan/references/puppet-polish-requests-r005.json",
+  "request_sha256": "2ef5404ad04addca22ba814665b7449eaa2585ad1d5abcd1f65fb9075535ae67",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-aacb2974-5b9d-4ef3-b3db-382d171e5ef9.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png",
+  "sha256": "987966af04b895dbcf3a4320cb5805d4e0d1d33656024727ad80ac2cf7879201",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

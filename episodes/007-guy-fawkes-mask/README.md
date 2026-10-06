@@ -135,7 +135,26 @@ completed stage; complete-master human playback remains separate from clip revie
 
 ## Current distribution master
 
-[Distribution r003](final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4)
+[Current requested distribution r004](final/mascara-guy-fawkes-complot-1605-es-007-r004.mp4)
+includes the approved Shorts caption style, the actual audio from
+`historia_07 (1).mp4`, and the aligned picture master's original sound.
+Native audio remains at 0 dB gain with no mute, ducking or normalization;
+the new voice retains the previous overlay's -1.5 dB gain for headroom.
+All 801 picture frames /33.375 seconds remain, with captions burned in.
+[Actual new-voice timing](timestamps/ajil-historia-export/voice-words-r002.csv)
+contains 76 words and 12 segments, extracted by Ajil from
+`audio/narration-es-r002.wav`; the original response is preserved byte-for-byte.
+The numeric aggregates `1605` and `36` remain single timed provider tokens.
+No original-voice word timing is recycled for this export.
+[Configuration](postproduction/captioned-audio-overlay.json) binds the inputs;
+[QC](postproduction/review-r004.json) records full decode, all-word highlight
+coverage, actual frame samples and comparison with the prior mixed audio.
+Run `python episodes/007-guy-fawkes-mask/postproduction/mix-download-audio.py
+--config postproduction/captioned-audio-overlay.json` for the next revision.
+This supersedes the earlier audio-only handoff; user playback/release approval
+remains separate. The existing YouTube release archive still contains r003.
+
+[Earlier distribution r003](final/mascara-guy-fawkes-complot-1605-es-007-r003.mp4)
 is technically validated:1080×1920,24fps,801frames,33.375seconds.
 The [export manifest](postproduction/exports/r003/manifest.json) records the
 unchanged accepted voice, clean selected SFX and full decode pass. Assembly,
@@ -164,6 +183,33 @@ contains the video, thumbnail, captions and copy-ready title/description/tags.
 Uploading and publishing have not been performed.
 
 ## Reusable commands
+
+### Requested downloaded-audio overlay
+
+The initial audio-only derivative below is superseded by the complete
+captioned r004 distribution described above.
+
+The user's supplied `/home/mhr/Downloads/historia_07 (1).mp4` is archived
+byte-for-byte as `audio/historia-07-google-vids-export-r001.mp4`.
+[Audio overlay r002](final/episode-007-guy-fawkes-mask-historia-audio-sfx-1080x1920-r002.mp4)
+adds that audio at zero offset to the specifically requested aligned picture/SFX
+master. Existing native sound retains 0 dB gain, with no mute, ducking or
+normalization. Only the new voice is reduced 1.5 dB for headroom after the
+initial unity mix measured +0.07 dBTP; the failed preflight package remains
+under `postproduction/exports/audio-overlay-r001/`.
+
+[Configuration](postproduction/audio-overlay.json) and
+[repeatable wrapper](postproduction/mix-download-audio.py) reuse the local
+finishing helpers without changing the saved caption edit. This is an
+audio-only requested derivative: no captions or old word timings are used.
+The output retains all 801 frames, 1080×1920, 24 fps, 33.375 seconds, with
+an identical copied video bitstream and successful full decode. The adjacent
+postproduction manifest records source/output hashes and encoded loudness.
+Technical validation is separate from human listening/release approval;
+the prior r003 captioned distribution and YouTube package remain as delivered.
+
+Run `python episodes/007-guy-fawkes-mask/postproduction/mix-download-audio.py`
+to make the next immutable audio-overlay revision with the recorded inputs.
 
 `build-short-timing.py` derives slots from accepted real voice timestamps;
 `validate-short-plan.py` checks frames, words, panels, references and cue bounds;

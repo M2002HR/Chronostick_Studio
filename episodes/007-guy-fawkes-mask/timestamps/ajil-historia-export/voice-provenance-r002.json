@@ -1,0 +1,22 @@
+{
+  "purpose": "voice",
+  "revision": "r002",
+  "created_at": "2026-10-05T20:32:42.816964+00:00",
+  "input_path": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/audio/narration-es-r002.wav",
+  "input_sha256": "c9de71e2ed929bfa6860b445bf5cbad8717cf7a3a6805b4dae91d6fa5bbf7691",
+  "audio_path": "voice-audio-r002.flac",
+  "audio_sha256": "d3727f38163705deecfdfd01bfa3058814380ab181e8168d9d6a668003ef7d17",
+  "audio_duration_seconds": 33.320625,
+  "language_requested": "es",
+  "endpoint": "/v1/audio/transcriptions",
+  "status": "needs_review",
+  "derivative_format": "flac",
+  "derivative_lossy": false,
+  "api_request_made": true,
+  "http_status": 200,
+  "raw_response_path": "voice-response-r002.json",
+  "raw_response_sha256": "b5e09f77556f06938c6fb722b392e75e10e8a662b293ce7c124059525e88f5b2",
+  "provider": "groq",
+  "model": "whisper-large-v3-turbo",
+  "language_detected": "Spanish"
+}

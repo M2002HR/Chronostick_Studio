@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-10-05T20:33:28.645099+00:00",
+  "status": "assistant_timing_text_qc_passed_needs_user_playback",
+  "actual_source_export_sha256": "316e37e09204b887cad2e8cf9c68811bafee0ca3d285a744fc2281465eb04d55",
+  "assembly_voice_sha256": "c9de71e2ed929bfa6860b445bf5cbad8717cf7a3a6805b4dae91d6fa5bbf7691",
+  "provider_response_sha256": "b5e09f77556f06938c6fb722b392e75e10e8a662b293ce7c124059525e88f5b2",
+  "word_csv_sha256": "57fe978537892df143d6cdcaff32ea2127ef35b49a23cf831a467c63512f6e18",
+  "words": 76,
+  "segments": 12,
+  "first_word_seconds": 0.14,
+  "last_word_seconds": 33.04,
+  "voice_duration_seconds": 33.320635,
+  "overlaps": 0,
+  "regressions": 0,
+  "text_review": "All spoken words present. Numeric aggregate provider tokens 1605 and 36 represent the approved spoken numbers; no fabricated constituent word timing. No content edits.",
+  "normalization": "none; provider CSV and response preserved byte-for-byte",
+  "failed_attempt_r001": "Existing gateway returned segment timing without word timing. Preserved response; dedicated gateway with word,segment succeeded at r002.",
+  "caption_style_source": "postproduction/user-acceptance-r001.json",
+  "full_personal_listening_claimed": false
+}

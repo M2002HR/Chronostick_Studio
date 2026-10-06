@@ -1,0 +1,18 @@
+{
+  "status": "assistant inspected; fails physical viewing relationship; replacement prepared",
+  "saved_path": "plan/storyboard/storyboard-retry-b1-r009.png",
+  "sha256": "030916f57c5b36b4dc2577583e5568f1b45ad5fd09873b99972fc7a8c4b00165",
+  "size": [
+    941,
+    1672
+  ],
+  "panel_count": 1,
+  "panels": [
+    {
+      "id": "S22",
+      "result": "replacement needed",
+      "notes": "One serviceman and one poster frame correctly present, but serviceman and camera both face the blank reverse of a wall frame. The serviceman cannot be viewing the illustrated front as intended."
+    }
+  ],
+  "approved_by_user": false
+}

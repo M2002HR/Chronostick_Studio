@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-06T01:02:39.607536+00:00",
+  "status": "technical_clean_sfx_derivative_needs_release_review",
+  "source": "renders/editorial/episode-008-clip-03-costs-versus-receipts-r001.mp4",
+  "source_sha256": "d3a6784a4cdc2996f039b3fc20e8e1ce29643cf3169b5f6a4ff7799b49066942",
+  "output": "renders/audio-corrected/episode-008-clip-03-r001-clean-sfx-r001.mp4",
+  "output_sha256": "1a87b8450cfc7faf41e6e85bb974d1e2ad0e37ace94a0fdbc1f96de2cd41f262",
+  "plan_sha256": "cbf6bbcdc44e994d22308b8209f9e2343a1a98cad070fccf706405eb2f3b6a81",
+  "stem": "audio/sfx/clip-03-clean-stem-r001.wav",
+  "stem_sha256": "f7c2d215ca93a3626b3fd44de58ccfd6961ef8347e1570fef0ba8b40f5137b54",
+  "sample_rate": 48000,
+  "stem_sample_count": 272000,
+  "native_audio_contribution_samples": 0,
+  "decoded_video_frames_identical": true,
+  "video_frames": 136,
+  "cue_generation": "Explicit recorded physical one-shots when asset_path is set; seeded non-periodic procedural transients only when separately declared. No native soundtrack/music separation, looping or sustained bed.",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/reusable-recordings-r001/cloth-short-r001.wav",
+      "asset_sha256": "bb7c723cfc167e90e58d981b1e7780863f0be572fa69a8203abfd30528eebfe1",
+      "review_status": "approved",
+      "review_evidence": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/plan/native-sfx-priority-r001.json",
+      "start_seconds": 3.4583333333333335,
+      "gain_db": 0,
+      "observed_action": "Actual small beige receipt bag contacts and settles on drawn wooden table around localframe83/3.458seconds; one short dry cloth contact, no sound on static coin comparison.",
+      "start_sample": 166000,
+      "end_sample": 170800
+    }
+  ],
+  "exact_zero_silence_sample_intervals": [
+    [
+      0,
+      166000
+    ],
+    [
+      170800,
+      272000
+    ]
+  ],
+  "personal_listening_claimed": false,
+  "unapproved_preview": false,
+  "limits": "This proves source exclusion and declared silent PCM regions; actual encoded audiovisual release review remains separate."
+}

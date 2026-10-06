@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r005",
+  "created_at": "2026-10-05T19:41:33.571414+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-page-02.txt",
+  "prompt": "Draw a simple monochrome pencil storyboard on white paper, exactly six portrait panels arranged three columns by two rows. Spare rough contour sketches of an anonymous adult film producer and plain bags of money on a table. No likeness, branding or detailed faces. Panel IDs in the outer margin only.\n\nS13: Close production cash. One hand places one full plain money bag beside a stack of wooden-boy animation drawings on a table; no markings.\nS14: Extreme close large coin pile. Large pile of coins and full plain money bags, a drawing corner at edge. No people or numerical labels.\nS15: Medium producer and large costs. Exactly one suited producer looks at the large pile of money and drawings on a studio desk.\nS16: Close small receipts. One plain hand places one small partly filled money bag on an otherwise bare cinema receipts table.\nS17: Extreme close sparse coins. Only a few coins lie beside that one small bag. No humans, labels, numerical ratio or added objects.\nS18: Wide financial contrast. The large money pile is on the left of a table and the small bag with few coins on the right. Exactly one suited producer stands behind, shoulders lowered; no labels.\n\nMaintain all six panels in this order, without additional people. Unmarked bags, coins and drawings; no text inside the scenes.\n",
+  "prompt_sha256": "08a7b4e686466c5875115fc3cea16fa88e0d9ee8b16d4787e40eca9064269bdc",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-page-02-r005.png",
+  "status": "prepared",
+  "retry_reason": "Prior output moderation returned only category other. Shortened financial composition request to its required subjects, removing irrelevant cross-page character/context descriptions; no story change."
+}

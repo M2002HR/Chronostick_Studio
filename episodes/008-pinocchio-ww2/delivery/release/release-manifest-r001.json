@@ -1,0 +1,180 @@
+{
+  "created_at": "2026-10-06T02:09:56.450565+00:00",
+  "episode_id": "008-pinocchio-ww2",
+  "language": "es",
+  "status": "complete_local_delivery",
+  "video": "pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+  "frame_count": 773,
+  "fps": 24,
+  "duration_seconds": 32.208333333333336,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "files": [
+    {
+      "archive_path": "pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+      "source": "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+      "bytes": 35222073,
+      "sha256": "db8fbbb59add526ee07ac21c8b63f21ef247a35aee5fdbda79e421aa62457436"
+    },
+    {
+      "archive_path": "editable/picture-master-1080x1920-r001.mp4",
+      "source": "final/picture-master-1080x1920-r001.mp4",
+      "bytes": 34506367,
+      "sha256": "7c3014146451d922659f72d011fb190991a80ee99c0d873dd2a6b9872cfabf50"
+    },
+    {
+      "archive_path": "editable/narration-es-r001.wav",
+      "source": "audio/narration-es-r001.wav",
+      "bytes": 2316390,
+      "sha256": "dcbba5989fd696f70a5d6a6cc27b6494e0d68dde195ce0082fd33e240671e466"
+    },
+    {
+      "archive_path": "thumbnail-episode-008-r004.png",
+      "source": "delivery/youtube/thumbnail-episode-008-r004.png",
+      "bytes": 7337731,
+      "sha256": "23d26d5f8be55a07f0c3251e9e58df2aac4cb88b854764aa97481ec057558801"
+    },
+    {
+      "archive_path": "pinocchio-stick-r005.png",
+      "source": "delivery/release/pinocchio-stick-r005.png",
+      "bytes": 2114831,
+      "sha256": "987966af04b895dbcf3a4320cb5805d4e0d1d33656024727ad80ac2cf7879201"
+    },
+    {
+      "archive_path": "captions-es.srt",
+      "source": "postproduction/exports/r001/captions.srt",
+      "bytes": 1691,
+      "sha256": "815260bd5cd4f63752895ca357ab7b76bc55b9e22e2171e9796ac0bbef0ed5bf"
+    },
+    {
+      "archive_path": "captions-es.vtt",
+      "source": "postproduction/exports/r001/captions.vtt",
+      "bytes": 1597,
+      "sha256": "8c0f5e89e6b1cc64f23052866e6efc451874afe231d611fdab278bc5d2bbd286"
+    },
+    {
+      "archive_path": "editable/active-word-captions.ass",
+      "source": "postproduction/exports/r001/captions.ass",
+      "bytes": 6356,
+      "sha256": "e8ce8170170ce85c724917ac07613c1d34b7f8024a87b41e0313f2b23373d64f"
+    },
+    {
+      "archive_path": "editable/Montserrat-Bold.ttf",
+      "source": "postproduction/exports/r001/fonts/caption.ttf",
+      "bytes": 374592,
+      "sha256": "a43fe47df9f4474c78defcd15404968b354ab748055484b8313f42879c7d62cd"
+    },
+    {
+      "archive_path": "editable/edit-snapshot.json",
+      "source": "postproduction/exports/r001/edit-snapshot.json",
+      "bytes": 1841,
+      "sha256": "a6d6b125529720d5c44c4dad904abb47b177f683c4d64a602824d28f41b4a6f2"
+    },
+    {
+      "archive_path": "editable/word-timestamps-es.csv",
+      "source": "timestamps/word-timestamps-source.csv",
+      "bytes": 1224,
+      "sha256": "246924cb0a392f41f9d086167d6c15aa1b9c1083126e40e9c97008d6dedc3941"
+    },
+    {
+      "archive_path": "editable/selected-sfx-stem-r001.wav",
+      "source": "audio/sfx/selected-full-stem-r001.wav",
+      "bytes": 9276102,
+      "sha256": "f81c17c27836cbb0d15172961932d0366595367cd04f7866d5d461aabd6bf6b5"
+    },
+    {
+      "archive_path": "youtube/metadata.json",
+      "source": "delivery/youtube/metadata.json",
+      "bytes": 6741,
+      "sha256": "e5eb08e0295a1f0d5fdb40c5c23029a43ca1f40f1bc8fa37a5201cf7fdbf940b"
+    },
+    {
+      "archive_path": "youtube/metadata.md",
+      "source": "delivery/youtube/metadata.md",
+      "bytes": 2961,
+      "sha256": "b953cc5dff70ba3968ded535069162ee0b80e851fd9795bca967947b926501b0"
+    },
+    {
+      "archive_path": "youtube/description.txt",
+      "source": "delivery/youtube/description.txt",
+      "bytes": 474,
+      "sha256": "6244c8c0767df9da8479fc977641128451addd740dd2671cd8324150752fc505"
+    },
+    {
+      "archive_path": "script/narration-es.md",
+      "source": "script/narration-es.md",
+      "bytes": 527,
+      "sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2"
+    },
+    {
+      "archive_path": "script/voiceover-google-vids-es.md",
+      "source": "script/voiceover-google-vids-es.md",
+      "bytes": 876,
+      "sha256": "e00e25aefece5510a09dcde8bf383ed2696a0f35ec572046d87b01bcf66aba9c"
+    },
+    {
+      "archive_path": "README.md",
+      "source": "delivery/release/README.md",
+      "bytes": 1424,
+      "sha256": "841d8d2db5ac4218239dd908b2fd9edf8140a0126e84d8ea7ed74b9c4905ccfe"
+    },
+    {
+      "archive_path": "CREDITS.md",
+      "source": "delivery/release/CREDITS.md",
+      "bytes": 1343,
+      "sha256": "9040b949b345ccf198435bd84890c3198b90386c5ee77cb756faeef0ff5135dc"
+    },
+    {
+      "archive_path": "Montserrat-OFL.txt",
+      "source": "delivery/release/Montserrat-OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "archive_path": "provenance/source-fidelity-final-r001.json",
+      "source": "delivery/source-fidelity-final-r001.json",
+      "bytes": 1050,
+      "sha256": "52bd227b19724100535047652b5ca93e7ad76f529c7baca2f2f46253b373dbf5"
+    },
+    {
+      "archive_path": "provenance/final-qc-r001.json",
+      "source": "delivery/final-qc-r001.json",
+      "bytes": 2005,
+      "sha256": "a4ed3d48aed6cbefb2928e93996d2e7555eaa93e8c84f11a62aa2cc93fe4f277"
+    },
+    {
+      "archive_path": "provenance/distribution-postproduction.json",
+      "source": "final/pinocho-guerra-propaganda-disney-es-008-r001.postproduction.json",
+      "bytes": 6381,
+      "sha256": "5d058f4903794ea86ecb6d772b7ccbcee27093cba9982018e10e9cefd1813032"
+    },
+    {
+      "archive_path": "provenance/picture-framewise-upscale.json",
+      "source": "final/picture-master-1080x1920-r001.framewise-upscale.json",
+      "bytes": 1845,
+      "sha256": "05aede9e0a3d07ef5e6aeff249d0e09327e1952050673036eb54374727c54889"
+    },
+    {
+      "archive_path": "provenance/selection-manifest.json",
+      "source": "renders/selection-manifest.json",
+      "bytes": 4572,
+      "sha256": "eda6801845a977f0efcab8715738f078fa62e8220af37089e7c27f7c96abbcb8"
+    },
+    {
+      "archive_path": "provenance/selected-sfx-stem.json",
+      "source": "audio/sfx/selected-full-stem-r001.json",
+      "bytes": 6850,
+      "sha256": "42774fd4c884e243fb97a8421796375979b52451ca9220ec390932761a9d030b"
+    },
+    {
+      "archive_path": "provenance/recorded-sfx-sources.json",
+      "source": "audio/sfx/reusable-recordings-r001/manifest.json",
+      "bytes": 4396,
+      "sha256": "a815831f97fce9904f7aac01c8d0b1a3598d681b9a97bdaa967a7b071072f2e3"
+    }
+  ],
+  "published": false,
+  "new_human_release_approval": false
+}

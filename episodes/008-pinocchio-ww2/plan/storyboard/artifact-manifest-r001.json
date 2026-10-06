@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-05T20:08:10.328771+00:00",
+  "status": "complete neutral storyboard for user review; not approved",
+  "shot_count": 36,
+  "image_count": 8,
+  "frame_count": 773,
+  "fps": 24,
+  "duration_seconds": 32.208333333333336,
+  "voice_duration_seconds": 32.170667,
+  "narration_sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+  "voice_sha256": "dcbba5989fd696f70a5d6a6cc27b6494e0d68dde195ce0082fd33e240671e466",
+  "assets": [
+    {
+      "image": "plan/storyboard/storyboard-page-01-r002.png",
+      "sha256": "c69af89c40321d63bd7a7879522c32646b8ab410d8195f8970adbd809d0f0661",
+      "request": "plan/storyboard/storyboard-request-page-01-r002.json",
+      "request_prompt_sha256": "15e48517940ede87ccdb69297bea3ab858805aaac70b48739e33b527c1b3e3ef",
+      "review": "plan/storyboard/review-page-01.json",
+      "shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "panel_count": 12,
+      "size": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "image": "plan/storyboard/storyboard-page-02-r005.png",
+      "sha256": "61797f1702f1907bacba43db66b26470f542dce0be417b667d804b0a50777d84",
+      "request": "plan/storyboard/storyboard-request-page-02-r005.json",
+      "request_prompt_sha256": "08a7b4e686466c5875115fc3cea16fa88e0d9ee8b16d4787e40eca9064269bdc",
+      "review": "plan/storyboard/review-page-02.json",
+      "shot_ids": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "panel_count": 6,
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "image": "plan/storyboard/storyboard-retry-a-r010.png",
+      "sha256": "f0cb020f58ff6b19117cf3da34af6bf331f1119c96092f2fce1e5aba595a87c7",
+      "request": "plan/storyboard/storyboard-request-retry-a-r010.json",
+      "request_prompt_sha256": "831ba5aa92339838097d04b1cf0a72e71aba8bcebfaf8dd489ff239e51b2f589",
+      "review": "plan/storyboard/review-retry-a-r010.json",
+      "shot_ids": [
+        "S19",
+        "S20",
+        "S21"
+      ],
+      "panel_count": 3,
+      "size": [
+        1214,
+        1295
+      ]
+    },
+    {
+      "image": "plan/storyboard/storyboard-retry-b1-r010.png",
+      "sha256": "ae243064d159f7165304a954ff074c801eb1a6a0da0807d51f944fa3a0fb213d",
+      "request": "plan/storyboard/storyboard-request-retry-b1-r010.json",
+      "request_prompt_sha256": "fc54fc0ee37a42f5ab4e518fcefe2636655470f094db0ce934e89b71dc533e4d",
+      "review": "plan/storyboard/review-retry-b1-r010.json",
+      "shot_ids": [
+        "S22"
+      ],
+      "panel_count": 1,
+      "size": [
+        941,
+        1672
+      ]
+    },
+    {
+      "image": "plan/storyboard/storyboard-retry-b2-r008.png",
+      "sha256": "dcd0ae8dd138a3c0d475768c9454fdaa9c8a219962324733211986f23e233410",
+      "request": "plan/storyboard/storyboard-request-retry-b2-r008.json",
+      "request_prompt_sha256": "677d8e790bfa55e02956bc842cbe69d8c1cf0ab2e5522162123d9a007b238eaf",
+      "review": "plan/storyboard/review-retry-b2-r008.json",
+      "shot_ids": [
+        "S23",
+        "S24"
+      ],
+      "panel_count": 2,
+      "size": [
+        941,
+        1672
+      ]
+    },
+    {
+      "image": "plan/storyboard/storyboard-page-04-r005.png",
+      "sha256": "300839d875a5cb57961e29e6d66247e648583ecbbf87e21072e8c088ee9832aa",
+      "request": "plan/storyboard/storyboard-request-page-04-r005.json",
+      "request_prompt_sha256": "7e647564d6892a2ebb8ce3a3c4df223087d3099829d8d075a6e72394f2f37cbc",
+      "review": "plan/storyboard/review-page-04.json",
+      "shot_ids": [
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "panel_count": 6,
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "image": "plan/storyboard/storyboard-retry-c-r006.png",
+      "sha256": "3e77343c9df4e2c8242263fa8a96713adf7b82d0fe07bfae23f4bae8ca8030b5",
+      "request": "plan/storyboard/storyboard-request-retry-c-r006.json",
+      "request_prompt_sha256": "3d06ce53aafdad333d5a83853e32a99299947599f1e4c7043e3af85e8d94d34a",
+      "review": "plan/storyboard/review-retry-c-r006.json",
+      "shot_ids": [
+        "S31",
+        "S32",
+        "S33"
+      ],
+      "panel_count": 3,
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "image": "plan/storyboard/storyboard-retry-d-r009.png",
+      "sha256": "2fe8ca214831339c79759c65d8ca0f05a1ae49f94e69cd9195b9158cf4d78a85",
+      "request": "plan/storyboard/storyboard-request-retry-d-r009.json",
+      "request_prompt_sha256": "493f5e254314422e130807211341eae3dc6f75d324be92fe5f382bcfacf77a05",
+      "review": "plan/storyboard/review-retry-d-r009.json",
+      "shot_ids": [
+        "S34",
+        "S35",
+        "S36"
+      ],
+      "panel_count": 3,
+      "size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "visual_adaptation": "Publicity-art preparation, printing and freestanding display replace detailed cartoon-poster faces in S19–S22 and S34. Illustrative mechanism only; narration, figures and military-propaganda claim unchanged.",
+  "creative_approval": null,
+  "production_reference_use": "prohibited; internal composition sketches only"
+}

@@ -1,0 +1,10 @@
+Draw an original rough grayscale pencil storyboard, exactly SIX portrait panels in THREE columns and TWO rows. Simple neutral human sketches with little shading. This page shows film-studio cartoon drawings, an adult audience member, a ticket purchase and a hopeful producer. Panel IDs outside frames only; scenes completely wordless.
+
+S19: Close puppet artwork. On a plain sheet of studio artwork, one short-nosed wooden-boy puppet in feathered cap and ordinary puppet outfit. Only one printed character; no living person.
+S20: Close second cartoon artwork. On another plain sheet of studio artwork, one round-eared cartoon mouse in its ordinary outfit. Only one printed character; no living person.
+S21: Medium wordless studio poster. One wordless studio poster depicts exactly two cartoon characters, the wooden boy and round-eared mouse side by side in their ordinary outfits. No slogan, letters, uniforms on the artwork or other characters.
+S22: Medium poster viewer. Exactly one serviceman studies that wall poster with the two drawn cartoon figures. One human plus the two figures printed within the poster only.
+S23: Close returning ticket sale. Two ordinary hands exchange a blank cinema ticket for coins at a ticket window. No visible full bodies or typography.
+S24: Medium hopeful producer. Exactly one suited producer notices a fuller receipts stack at a table and straightens slightly; no applause or cash throne yet.
+
+Maintain all six compositions in this order and exact subject counts. Anonymous ordinary adults, no detailed likeness.

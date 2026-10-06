@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r006",
+  "created_at": "2026-10-05T19:51:17.055679+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-c.txt",
+  "prompt": "Three graphite storyboard panels in one horizontal row, each panel an upright 9:16 frame. Spare rough pencil contours on white paper for a humorous film-business documentary. Put only S31, S32, S33 above their frames.\nS31: Extreme close-up of a few coins at the edge of a table, one coin just falling into a pile below. No person.\nS32: Medium view of a stable large pile of plain money bags and coins gathered around that table. No person.\nS33: Close-up of exactly one anonymous adult film producer wearing a suit, looking at the money with a surprised, amused expression. Simple ordinary human features.\nOne composition per frame. Unmarked bags and wordless scenes, minimal shading and no detailed likeness.\n",
+  "prompt_sha256": "3d06ce53aafdad333d5a83853e32a99299947599f1e4c7043e3af85e8d94d34a",
+  "transparent_background": false,
+  "shot_ids": [
+    "S31",
+    "S32",
+    "S33"
+  ],
+  "output_path": "plan/storyboard/storyboard-retry-c-r006.png",
+  "status": "prepared",
+  "adaptation": "Split unresolved six-panel pages into three-panel boards; directly name the source fictional film characters. Preserve adult military viewer, source narrative and exact shot roles; no historical verification."
+}

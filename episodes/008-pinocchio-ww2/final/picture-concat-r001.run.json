@@ -1,0 +1,368 @@
+{
+  "job_id": "4e6c5ad7-2aa0-4723-987d-c22c0839ce21",
+  "request": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4",
+    "fps": null,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-01-film-opens-during-war-r001-silent-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-02-families-distribution-blocked-composite-r004-silent-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-03-costs-versus-receipts-r001-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-04-publicity-and-recovery-r001-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-05-return-and-fortune-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-06-marketing-payoff-r001-clean-sfx-r001.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4"
+  },
+  "resolved_config": {
+    "inputs": [],
+    "directory": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected",
+    "batch_id": null,
+    "output": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4",
+    "fps": null,
+    "missing_audio": "fail",
+    "overwrite": false,
+    "resolved_inputs": [
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-01-film-opens-during-war-r001-silent-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-02-families-distribution-blocked-composite-r004-silent-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-03-costs-versus-receipts-r001-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-04-publicity-and-recovery-r001-clean-sfx-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-05-return-and-fortune-r001.mp4",
+      "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/final-selected/clip-06-marketing-payoff-r001-clean-sfx-r001.mp4"
+    ],
+    "resolved_output": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4"
+  },
+  "output_metadata": {
+    "path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4",
+    "format": {
+      "filename": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/final/picture-concat-r001.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "32.229667",
+      "size": "8170742",
+      "bit_rate": "2028129",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    },
+    "video": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 480,
+      "height": 864,
+      "coded_width": 480,
+      "coded_height": 864,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 30,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "time_base": "1/12288",
+      "start_pts": 258,
+      "start_time": "0.020996",
+      "duration_ts": 395776,
+      "duration": "32.208333",
+      "bit_rate": "1998037",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "773",
+      "extradata_size": 49,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    "audio": {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1547024,
+      "duration": "32.229667",
+      "bit_rate": "25485",
+      "nb_frames": "1518",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    "width": 480,
+    "height": 864,
+    "fps": 24.0,
+    "duration": 32.229667,
+    "has_audio": true
+  },
+  "timestamp": "2026-10-06T01:42:47.677230+00:00",
+  "queue_wait_seconds": 0.012,
+  "run_metrics": {
+    "attempts": [
+      {
+        "started_at": "2026-10-06T01:42:47.275578+00:00",
+        "completed_at": "2026-10-06T01:42:47.734418+00:00",
+        "elapsed_seconds": 0.459,
+        "sample_interval_seconds": 2,
+        "sample_count": 2,
+        "system": {
+          "cpu_percent_average": 20.0,
+          "cpu_percent_peak": 20.0,
+          "memory_used_mib_peak": 17083.42578125,
+          "memory_available_mib_min": 14088.52734375,
+          "service_rss_mib_peak": 79.3671875,
+          "load_1m_peak": 1.18310546875,
+          "output_disk_free_gib_min": 82.14492416381836
+        },
+        "gpus": [
+          {
+            "index": 0,
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "utilization_percent_average": 55.5,
+            "utilization_percent_peak": 99.0,
+            "memory_used_mib_peak": 15097.0,
+            "memory_total_mib": 16380.0,
+            "temperature_c_peak": 50.0,
+            "power_w_average": 10.745,
+            "power_w_peak": 11.37,
+            "estimated_energy_wh": 0.001
+          }
+        ],
+        "sample_errors": [],
+        "samples": [
+          {
+            "timestamp": "2026-10-06T01:42:47.320286+00:00",
+            "elapsed_seconds": 0.045,
+            "system_cpu_percent": null,
+            "load_average": [
+              1.18310546875,
+              1.66357421875,
+              1.7197265625
+            ],
+            "memory": {
+              "total_mib": 31171.953125,
+              "available_mib": 14088.52734375,
+              "used_mib": 17083.42578125
+            },
+            "service_rss_mib": 79.3203125,
+            "output_disk_free_gib": 82.15254592895508,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 12.0,
+                "memory_used_mib": 15097.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 50.0,
+                "power_w": 10.12
+              }
+            ]
+          },
+          {
+            "timestamp": "2026-10-06T01:42:47.734122+00:00",
+            "elapsed_seconds": 0.459,
+            "system_cpu_percent": 20.0,
+            "load_average": [
+              1.18310546875,
+              1.66357421875,
+              1.7197265625
+            ],
+            "memory": {
+              "total_mib": 31171.953125,
+              "available_mib": 20386.2734375,
+              "used_mib": 10785.6796875
+            },
+            "service_rss_mib": 79.3671875,
+            "output_disk_free_gib": 82.14492416381836,
+            "gpus": [
+              {
+                "index": 0,
+                "name": "NVIDIA GeForce RTX 4060 Ti",
+                "utilization_percent": 99.0,
+                "memory_used_mib": 9603.0,
+                "memory_total_mib": 16380.0,
+                "temperature_c": 50.0,
+                "power_w": 11.37
+              }
+            ]
+          }
+        ],
+        "attempt": 1
+      }
+    ],
+    "latest": {
+      "started_at": "2026-10-06T01:42:47.275578+00:00",
+      "completed_at": "2026-10-06T01:42:47.734418+00:00",
+      "elapsed_seconds": 0.459,
+      "sample_interval_seconds": 2,
+      "sample_count": 2,
+      "system": {
+        "cpu_percent_average": 20.0,
+        "cpu_percent_peak": 20.0,
+        "memory_used_mib_peak": 17083.42578125,
+        "memory_available_mib_min": 14088.52734375,
+        "service_rss_mib_peak": 79.3671875,
+        "load_1m_peak": 1.18310546875,
+        "output_disk_free_gib_min": 82.14492416381836
+      },
+      "gpus": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4060 Ti",
+          "utilization_percent_average": 55.5,
+          "utilization_percent_peak": 99.0,
+          "memory_used_mib_peak": 15097.0,
+          "memory_total_mib": 16380.0,
+          "temperature_c_peak": 50.0,
+          "power_w_average": 10.745,
+          "power_w_peak": 11.37,
+          "estimated_energy_wh": 0.001
+        }
+      ],
+      "sample_errors": [],
+      "samples": [
+        {
+          "timestamp": "2026-10-06T01:42:47.320286+00:00",
+          "elapsed_seconds": 0.045,
+          "system_cpu_percent": null,
+          "load_average": [
+            1.18310546875,
+            1.66357421875,
+            1.7197265625
+          ],
+          "memory": {
+            "total_mib": 31171.953125,
+            "available_mib": 14088.52734375,
+            "used_mib": 17083.42578125
+          },
+          "service_rss_mib": 79.3203125,
+          "output_disk_free_gib": 82.15254592895508,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 12.0,
+              "memory_used_mib": 15097.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 50.0,
+              "power_w": 10.12
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-06T01:42:47.734122+00:00",
+          "elapsed_seconds": 0.459,
+          "system_cpu_percent": 20.0,
+          "load_average": [
+            1.18310546875,
+            1.66357421875,
+            1.7197265625
+          ],
+          "memory": {
+            "total_mib": 31171.953125,
+            "available_mib": 20386.2734375,
+            "used_mib": 10785.6796875
+          },
+          "service_rss_mib": 79.3671875,
+          "output_disk_free_gib": 82.14492416381836,
+          "gpus": [
+            {
+              "index": 0,
+              "name": "NVIDIA GeForce RTX 4060 Ti",
+              "utilization_percent": 99.0,
+              "memory_used_mib": 9603.0,
+              "memory_total_mib": 16380.0,
+              "temperature_c": 50.0,
+              "power_w": 11.37
+            }
+          ]
+        }
+      ],
+      "attempt": 1
+    },
+    "total_attempts": 1
+  }
+}

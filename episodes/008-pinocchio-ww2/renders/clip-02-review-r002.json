@@ -1,0 +1,22 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:26:53.632572+00:00",
+  "clip_id": "clip-02",
+  "media": "renders/editorial/episode-008-clip-02-families-distribution-blocked-r002.mp4",
+  "decision": "revise_prompt",
+  "observed_cut_starts_frames": [
+    0,
+    13,
+    61,
+    87
+  ],
+  "picture_review": "Every108editorialframe reviewed. Exactly3familymembers and empty booth repaired. Family clearly walks away. Essential coin insert still shows a second dark-cuffed hand depositing money in father palm rather than existing sparse savings; potential early incoming payment conflicts with low-money phase. Dock horizontal closure arrives only at last editorial frame107; insufficient resolved hold. Not selected.",
+  "audio_review": "Blind native audio-only review reports sustained bowed-string sound; native track rejected.",
+  "evidence": "renders/review-evidence/clip-02-r002",
+  "personal_listening_claimed": false,
+  "retry_scope": [
+    "clip-02"
+  ],
+  "accepted_voice_changed": false,
+  "historical_content_changed": false
+}

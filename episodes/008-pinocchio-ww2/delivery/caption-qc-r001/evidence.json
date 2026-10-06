@@ -1,0 +1,518 @@
+{
+  "created_at": "2026-10-06T01:57:59.842960+00:00",
+  "status": "approved_actual_rendered_captions",
+  "media": "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+  "sha256": "db8fbbb59add526ee07ac21c8b63f21ef247a35aee5fdbda79e421aa62457436",
+  "sample_indices": [
+    0,
+    6,
+    26,
+    45,
+    54,
+    65,
+    76,
+    86,
+    96,
+    103,
+    113,
+    121,
+    122,
+    130,
+    139,
+    146,
+    154,
+    164,
+    172,
+    175,
+    176,
+    178,
+    187,
+    195,
+    203,
+    215,
+    229,
+    230,
+    235,
+    248,
+    259,
+    265,
+    274,
+    282,
+    290,
+    299,
+    313,
+    329,
+    335,
+    342,
+    360,
+    365,
+    366,
+    372,
+    379,
+    384,
+    391,
+    399,
+    406,
+    420,
+    433,
+    442,
+    459,
+    490,
+    498,
+    506,
+    517,
+    532,
+    533,
+    539,
+    551,
+    579,
+    610,
+    631,
+    647,
+    655,
+    661,
+    662,
+    665,
+    681,
+    699,
+    703,
+    710,
+    716,
+    727,
+    755,
+    764,
+    765,
+    766,
+    772
+  ],
+  "highlight_samples": [
+    {
+      "frame": 6,
+      "word_index": 1,
+      "word": "En"
+    },
+    {
+      "frame": 26,
+      "word_index": 2,
+      "word": "1940,"
+    },
+    {
+      "frame": 45,
+      "word_index": 3,
+      "word": "Disney"
+    },
+    {
+      "frame": 54,
+      "word_index": 4,
+      "word": "estrenó"
+    },
+    {
+      "frame": 65,
+      "word_index": 5,
+      "word": "Pinocho"
+    },
+    {
+      "frame": 76,
+      "word_index": 6,
+      "word": "en"
+    },
+    {
+      "frame": 86,
+      "word_index": 7,
+      "word": "plena"
+    },
+    {
+      "frame": 96,
+      "word_index": 8,
+      "word": "Segunda"
+    },
+    {
+      "frame": 103,
+      "word_index": 9,
+      "word": "Guerra"
+    },
+    {
+      "frame": 113,
+      "word_index": 10,
+      "word": "Mundial."
+    },
+    {
+      "frame": 122,
+      "word_index": 11,
+      "word": "Las"
+    },
+    {
+      "frame": 130,
+      "word_index": 12,
+      "word": "familias"
+    },
+    {
+      "frame": 139,
+      "word_index": 13,
+      "word": "tenían"
+    },
+    {
+      "frame": 146,
+      "word_index": 14,
+      "word": "menos"
+    },
+    {
+      "frame": 154,
+      "word_index": 15,
+      "word": "dinero"
+    },
+    {
+      "frame": 164,
+      "word_index": 16,
+      "word": "y"
+    },
+    {
+      "frame": 172,
+      "word_index": 17,
+      "word": "la"
+    },
+    {
+      "frame": 178,
+      "word_index": 18,
+      "word": "guerra"
+    },
+    {
+      "frame": 187,
+      "word_index": 19,
+      "word": "frenó"
+    },
+    {
+      "frame": 195,
+      "word_index": 20,
+      "word": "su"
+    },
+    {
+      "frame": 203,
+      "word_index": 21,
+      "word": "distribución"
+    },
+    {
+      "frame": 215,
+      "word_index": 22,
+      "word": "internacional."
+    },
+    {
+      "frame": 235,
+      "word_index": 23,
+      "word": "Costó"
+    },
+    {
+      "frame": 248,
+      "word_index": 24,
+      "word": "2,6"
+    },
+    {
+      "frame": 259,
+      "word_index": 25,
+      "word": "millones"
+    },
+    {
+      "frame": 265,
+      "word_index": 26,
+      "word": "de"
+    },
+    {
+      "frame": 274,
+      "word_index": 27,
+      "word": "dólares,"
+    },
+    {
+      "frame": 282,
+      "word_index": 28,
+      "word": "pero"
+    },
+    {
+      "frame": 290,
+      "word_index": 29,
+      "word": "recaudó"
+    },
+    {
+      "frame": 299,
+      "word_index": 30,
+      "word": "solo"
+    },
+    {
+      "frame": 313,
+      "word_index": 31,
+      "word": "1,4"
+    },
+    {
+      "frame": 329,
+      "word_index": 32,
+      "word": "en"
+    },
+    {
+      "frame": 335,
+      "word_index": 33,
+      "word": "su"
+    },
+    {
+      "frame": 342,
+      "word_index": 34,
+      "word": "estreno."
+    },
+    {
+      "frame": 360,
+      "word_index": 35,
+      "word": "Después,"
+    },
+    {
+      "frame": 372,
+      "word_index": 36,
+      "word": "Pinocho"
+    },
+    {
+      "frame": 379,
+      "word_index": 37,
+      "word": "y"
+    },
+    {
+      "frame": 384,
+      "word_index": 38,
+      "word": "otros"
+    },
+    {
+      "frame": 391,
+      "word_index": 39,
+      "word": "personajes"
+    },
+    {
+      "frame": 399,
+      "word_index": 40,
+      "word": "de"
+    },
+    {
+      "frame": 406,
+      "word_index": 41,
+      "word": "Disney"
+    },
+    {
+      "frame": 420,
+      "word_index": 42,
+      "word": "participaron"
+    },
+    {
+      "frame": 433,
+      "word_index": 43,
+      "word": "en"
+    },
+    {
+      "frame": 442,
+      "word_index": 44,
+      "word": "propaganda"
+    },
+    {
+      "frame": 459,
+      "word_index": 45,
+      "word": "militar."
+    },
+    {
+      "frame": 490,
+      "word_index": 46,
+      "word": "Eso"
+    },
+    {
+      "frame": 498,
+      "word_index": 47,
+      "word": "impulsó"
+    },
+    {
+      "frame": 506,
+      "word_index": 48,
+      "word": "su"
+    },
+    {
+      "frame": 517,
+      "word_index": 49,
+      "word": "recuperación."
+    },
+    {
+      "frame": 539,
+      "word_index": 50,
+      "word": "Para"
+    },
+    {
+      "frame": 551,
+      "word_index": 51,
+      "word": "1945,"
+    },
+    {
+      "frame": 579,
+      "word_index": 52,
+      "word": "acumulaba"
+    },
+    {
+      "frame": 610,
+      "word_index": 53,
+      "word": "84"
+    },
+    {
+      "frame": 631,
+      "word_index": 54,
+      "word": "millones"
+    },
+    {
+      "frame": 647,
+      "word_index": 55,
+      "word": "de"
+    },
+    {
+      "frame": 655,
+      "word_index": 56,
+      "word": "dólares"
+    },
+    {
+      "frame": 665,
+      "word_index": 57,
+      "word": "en"
+    },
+    {
+      "frame": 681,
+      "word_index": 58,
+      "word": "beneficios."
+    },
+    {
+      "frame": 699,
+      "word_index": 59,
+      "word": "¿La"
+    },
+    {
+      "frame": 703,
+      "word_index": 60,
+      "word": "mejor"
+    },
+    {
+      "frame": 710,
+      "word_index": 61,
+      "word": "campaña"
+    },
+    {
+      "frame": 716,
+      "word_index": 62,
+      "word": "de"
+    },
+    {
+      "frame": 727,
+      "word_index": 63,
+      "word": "marketing?"
+    },
+    {
+      "frame": 755,
+      "word_index": 64,
+      "word": "Suscríbete."
+    }
+  ],
+  "files": [
+    "sample-001.jpg",
+    "sample-002.jpg",
+    "sample-003.jpg",
+    "sample-004.jpg",
+    "sample-005.jpg",
+    "sample-006.jpg",
+    "sample-007.jpg",
+    "sample-008.jpg",
+    "sample-009.jpg",
+    "sample-010.jpg",
+    "sample-011.jpg",
+    "sample-012.jpg",
+    "sample-013.jpg",
+    "sample-014.jpg",
+    "sample-015.jpg",
+    "sample-016.jpg",
+    "sample-017.jpg",
+    "sample-018.jpg",
+    "sample-019.jpg",
+    "sample-020.jpg",
+    "sample-021.jpg",
+    "sample-022.jpg",
+    "sample-023.jpg",
+    "sample-024.jpg",
+    "sample-025.jpg",
+    "sample-026.jpg",
+    "sample-027.jpg",
+    "sample-028.jpg",
+    "sample-029.jpg",
+    "sample-030.jpg",
+    "sample-031.jpg",
+    "sample-032.jpg",
+    "sample-033.jpg",
+    "sample-034.jpg",
+    "sample-035.jpg",
+    "sample-036.jpg",
+    "sample-037.jpg",
+    "sample-038.jpg",
+    "sample-039.jpg",
+    "sample-040.jpg",
+    "sample-041.jpg",
+    "sample-042.jpg",
+    "sample-043.jpg",
+    "sample-044.jpg",
+    "sample-045.jpg",
+    "sample-046.jpg",
+    "sample-047.jpg",
+    "sample-048.jpg",
+    "sample-049.jpg",
+    "sample-050.jpg",
+    "sample-051.jpg",
+    "sample-052.jpg",
+    "sample-053.jpg",
+    "sample-054.jpg",
+    "sample-055.jpg",
+    "sample-056.jpg",
+    "sample-057.jpg",
+    "sample-058.jpg",
+    "sample-059.jpg",
+    "sample-060.jpg",
+    "sample-061.jpg",
+    "sample-062.jpg",
+    "sample-063.jpg",
+    "sample-064.jpg",
+    "sample-065.jpg",
+    "sample-066.jpg",
+    "sample-067.jpg",
+    "sample-068.jpg",
+    "sample-069.jpg",
+    "sample-070.jpg",
+    "sample-071.jpg",
+    "sample-072.jpg",
+    "sample-073.jpg",
+    "sample-074.jpg",
+    "sample-075.jpg",
+    "sample-076.jpg",
+    "sample-077.jpg",
+    "sample-078.jpg",
+    "sample-079.jpg",
+    "sample-080.jpg"
+  ],
+  "all64words_have_actual_sample_frames": true,
+  "frame_count": 773,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "caption_profile": {
+    "profile": "shorts-reference-bold",
+    "font_family": "Montserrat",
+    "font_file": "/home/mhr/.local/share/fonts/chronostick-montserrat/Montserrat-Bold.ttf",
+    "font_size": 104,
+    "max_width_fraction": 0.8,
+    "bottom_margin": 300,
+    "outline": 2,
+    "shadow": 2,
+    "highlight_ass_color": "&H00D7FF&",
+    "max_words": 4,
+    "max_cue_seconds": 1.8,
+    "break_gap_seconds": 0.3,
+    "max_lines": 1
+  },
+  "reviewer": "assistant (actual full and phone frames)",
+  "reviewed_at": "2026-10-06T02:04:17.950637+00:00",
+  "review": "All80actual final samples inspected on five270x480phone sheets, including every64wordhighlight, allfive numeric aliases, light/dark backgrounds, clip seams and beginning/end. Full samples313/1.4,420/participaronenand610/84inspected. Exactly current word yellow; other words white, short single lines, no overflow, cumulative fill or lingering final caption. Actual fontselectMontserrat-Bold; configured104px,300pxbottominset,864pxsafewidth. Longest measured850.9375px. Original timing unchanged.",
+  "new_user_release_approval": false
+}

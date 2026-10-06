@@ -1,0 +1,6 @@
+{
+  "id": "cash-accumulates",
+  "revision": "r001",
+  "error": "Image tool network error: error sending request; no candidate returned.",
+  "request": "scenes-c-requests-r001.json"
+}

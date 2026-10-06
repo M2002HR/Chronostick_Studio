@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r009",
+  "created_at": "2026-10-05T19:59:34.355134+00:00",
+  "prompt": "Draw a rough graphite film-business storyboard with three upright 9:16 panels side by side on white paper. Labels S34, S35, S36 above the respective frames. S34: Close oblique view of a framed movie-publicity print beside one film reel; its illustrated face is turned away, revealing only blank paper reverse and frame edges. No person. S35: Medium view of one anonymous adult film producer in a suit sitting on a playful chair constructed from plain money bags. S36: Wide view of the same single producer seated still on that money-bag chair with settled coins around him, a resolved humorous ending. Ordinary simplified human proportions, spare pencil contours, minimal shading, unmarked bags, no text inside scenes.\n",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-d.txt",
+  "prompt_sha256": "493f5e254314422e130807211341eae3dc6f75d324be92fe5f382bcfacf77a05",
+  "transparent_background": false,
+  "output_path": "plan/storyboard/storyboard-retry-d-r009.png",
+  "shot_ids": [
+    "S34",
+    "S35",
+    "S36"
+  ],
+  "status": "prepared",
+  "visual_revision": "Oblique/reverse views of actual publicity props replace readable cartoon-identity detail in internal sketches. Same film publicity and military-viewer story roles; narration/figures/source claims unchanged. No new claim or production identity approval."
+}

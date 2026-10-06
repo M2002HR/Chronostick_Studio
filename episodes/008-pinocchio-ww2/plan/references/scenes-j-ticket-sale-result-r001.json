@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:53:44.012996+00:00",
+  "id": "ticket-sale",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-j-requests-r001.json",
+  "request_sha256": "0814794fa2170d3789fbe3a552fdde99b6a689e023110d20a8145f1a8044d4bd",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-904d8d0c-4a12-4b2f-8854-cdc22c359055.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/ticket-sale-r001.png",
+  "sha256": "c36816650dffec7016e6cc42532ceab5264b4450593033ddfccd13552d789317",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-10-06T00:16:13.748141+00:00",
+  "scope": "pilot clip-04",
+  "unchanged_jobs": [
+    {
+      "path": "automation/jobs/clip-04-publicity-and-recovery.json",
+      "copy": "automation/batches/native-16step-pilot-r001/jobs/clip-04-publicity-and-recovery.json",
+      "sha256": "30ddcda22e0a370faf2cb1f0932aa903d076fe82cec998323d5234c9d5c3d6bf"
+    }
+  ],
+  "authorization": "plan/review-decisions.json"
+}

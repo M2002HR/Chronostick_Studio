@@ -1,0 +1,84 @@
+{
+  "decisions": [
+    {
+      "id": "accept-complete-storyboard-and-start-references",
+      "recorded_at": "2026-10-05T20:45:15.973374+00:00",
+      "reviewer": "user",
+      "quote": "ادامه بده",
+      "context": "Response to the explicit request to approve the completed 36-panel storyboard and proceed to production references; complete images and review page were presented.",
+      "interpretation": "Contextual acceptance of the presented scenario, narration and selected neutral compositions as production-design inputs. No approval of future reference art or expensive video batch is inferred.",
+      "scope": [
+        "scenario",
+        "narration",
+        "storyboard",
+        "production-reference-generation"
+      ],
+      "artifacts": [
+        {
+          "path": "script/narration-es.md",
+          "sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2"
+        },
+        {
+          "path": "plan/scenario.md",
+          "sha256": "be66e924d6c0919af402fdcadee26b90fc5456b949953e2e6bbe6a1676b01d11"
+        },
+        {
+          "path": "plan/storyboard/shot-list.json",
+          "sha256": "5cf40625a4e89e86f4abf4c5cdb5e497fb097119370e7805a0c272b784fa29b7"
+        },
+        {
+          "path": "plan/storyboard/artifact-manifest-r001.json",
+          "sha256": "9c5c064afb8fb84df303198103bdd13afc856b26d179e21141ae99475b57e93d"
+        },
+        {
+          "path": "plan/storyboard/storyboard-page-01-r002.png",
+          "sha256": "c69af89c40321d63bd7a7879522c32646b8ab410d8195f8970adbd809d0f0661"
+        },
+        {
+          "path": "plan/storyboard/storyboard-page-02-r005.png",
+          "sha256": "61797f1702f1907bacba43db66b26470f542dce0be417b667d804b0a50777d84"
+        },
+        {
+          "path": "plan/storyboard/storyboard-retry-a-r010.png",
+          "sha256": "f0cb020f58ff6b19117cf3da34af6bf331f1119c96092f2fce1e5aba595a87c7"
+        },
+        {
+          "path": "plan/storyboard/storyboard-retry-b1-r010.png",
+          "sha256": "ae243064d159f7165304a954ff074c801eb1a6a0da0807d51f944fa3a0fb213d"
+        },
+        {
+          "path": "plan/storyboard/storyboard-retry-b2-r008.png",
+          "sha256": "dcd0ae8dd138a3c0d475768c9454fdaa9c8a219962324733211986f23e233410"
+        },
+        {
+          "path": "plan/storyboard/storyboard-page-04-r005.png",
+          "sha256": "300839d875a5cb57961e29e6d66247e648583ecbbf87e21072e8c088ee9832aa"
+        },
+        {
+          "path": "plan/storyboard/storyboard-retry-c-r006.png",
+          "sha256": "3e77343c9df4e2c8242263fa8a96713adf7b82d0fe07bfae23f4bae8ca8030b5"
+        },
+        {
+          "path": "plan/storyboard/storyboard-retry-d-r009.png",
+          "sha256": "2fe8ca214831339c79759c65d8ca0f05a1ae49f94e69cd9195b9158cf4d78a85"
+        }
+      ]
+    },
+    {
+      "id": "overnight-complete-all-stages",
+      "recorded_at": "2026-10-05T21:05:59.244549+00:00",
+      "reviewer": "user",
+      "quote": "من دارم میرم بخوایم\nهمه مراحل رو تا آخر برو و متوقف نشو\nصبح که بیدار شدم آماده باشه کامل\nو حتما هم پینوکیو رو به صورت استیکی دربیار عکسشو\nکامل همه مراخل رو برو تا آخر",
+      "scope": [
+        "all-remaining-production-stages",
+        "required-reference-generation",
+        "native-pilot-and-full-h3-batch",
+        "necessary-immutable-replacements",
+        "assembly-upscale",
+        "accepted-voice-and-captions-finishing",
+        "thumbnail-and-metadata-package"
+      ],
+      "interpretation": "Explicit operator instruction to complete the entire episode overnight without stopping for further stage approvals. Pinocchio must be a ChronoStick stick character. Does not authorize upload/publication or overwrite of existing generated media."
+    }
+  ]
+}

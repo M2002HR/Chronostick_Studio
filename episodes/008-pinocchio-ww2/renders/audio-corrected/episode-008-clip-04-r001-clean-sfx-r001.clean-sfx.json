@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-06T00:33:51.384504+00:00",
+  "status": "technical_clean_sfx_derivative_needs_release_review",
+  "source": "renders/editorial/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+  "source_sha256": "fe153e496f421405f4336fc58fb2b72b05a29e0b080e56222efcb8271846310f",
+  "output": "renders/audio-corrected/episode-008-clip-04-r001-clean-sfx-r001.mp4",
+  "output_sha256": "e49469e2af9ad9f6ac91af8088f327d2e4451e50171df7b259b7fcb0e2fa2a05",
+  "plan_sha256": "21ee7e8375d30a7b17ce5d74d37c9c49238a6ee72543600b8713fda4e1d4daab",
+  "stem": "audio/sfx/clip-04-clean-stem-r001.wav",
+  "stem_sha256": "3935a7382565f381076e30822370cc29fbad8f22892930a4b1e8eddc48a95b1f",
+  "sample_rate": 48000,
+  "stem_sample_count": 334000,
+  "native_audio_contribution_samples": 0,
+  "decoded_video_frames_identical": true,
+  "video_frames": 167,
+  "cue_generation": "Explicit recorded physical one-shots when asset_path is set; seeded non-periodic procedural transients only when separately declared. No native soundtrack/music separation, looping or sustained bed.",
+  "cues": [
+    {
+      "asset_path": "audio/sfx/reusable-recordings-r001/paper-short-r001.wav",
+      "asset_sha256": "52b363d47b03c4a496dc5fab9bf5a19b71c2ae421bf3a37a27c8083320fac39e",
+      "review_status": "approved",
+      "review_evidence": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/plan/native-sfx-priority-r001.json",
+      "start_seconds": 5.541666666666667,
+      "gain_db": 0,
+      "observed_action": "Actual ticket makes first palm contact around localframe133/5.542sec. One brief dry papercontact. Static first sheet alreadyflat, rollers and viewer receive no invented contactcue.",
+      "start_sample": 266000,
+      "end_sample": 270800
+    }
+  ],
+  "exact_zero_silence_sample_intervals": [
+    [
+      0,
+      266000
+    ],
+    [
+      270800,
+      334000
+    ]
+  ],
+  "personal_listening_claimed": false,
+  "unapproved_preview": false,
+  "limits": "This proves source exclusion and declared silent PCM regions; actual encoded audiovisual release review remains separate."
+}

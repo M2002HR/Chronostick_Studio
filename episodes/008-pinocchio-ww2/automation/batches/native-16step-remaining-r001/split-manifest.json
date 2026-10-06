@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-06T00:16:13.748141+00:00",
+  "scope": "remaining clips excluding pilot",
+  "unchanged_jobs": [
+    {
+      "path": "automation/jobs/clip-01-film-opens-during-war.json",
+      "copy": "automation/batches/native-16step-remaining-r001/jobs/clip-01-film-opens-during-war.json",
+      "sha256": "2f0c4f2608671de020c329025e2d7b0909382d0125889ad7fd205f17213223dd"
+    },
+    {
+      "path": "automation/jobs/clip-02-families-distribution-blocked.json",
+      "copy": "automation/batches/native-16step-remaining-r001/jobs/clip-02-families-distribution-blocked.json",
+      "sha256": "4c9d53829023822d4632a0ab52da314e2d2c8b9134f3f8219bfd7666fba9067d"
+    },
+    {
+      "path": "automation/jobs/clip-03-costs-versus-receipts.json",
+      "copy": "automation/batches/native-16step-remaining-r001/jobs/clip-03-costs-versus-receipts.json",
+      "sha256": "62608d995f54221142230eacffd94e297c129a62b1d1c4e06d694f1f27aa0474"
+    },
+    {
+      "path": "automation/jobs/clip-05-return-and-fortune.json",
+      "copy": "automation/batches/native-16step-remaining-r001/jobs/clip-05-return-and-fortune.json",
+      "sha256": "77b4dee38925a5cff574d454edea850ddfdff294379044a7a1b86ddbdfdd360f"
+    },
+    {
+      "path": "automation/jobs/clip-06-marketing-payoff.json",
+      "copy": "automation/batches/native-16step-remaining-r001/jobs/clip-06-marketing-payoff.json",
+      "sha256": "61fc69af1cf63617cbac9831ff09f1c9f811609ef314a51d4dc477c11937b2d5"
+    }
+  ],
+  "authorization": "plan/review-decisions.json"
+}

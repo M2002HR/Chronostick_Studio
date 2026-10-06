@@ -4,6 +4,7 @@ These rules apply to every ChronoStick episode unless a documented, approved dec
 
 ## Content and historical integrity
 
+- For adaptation of supplied content, preserve its claims, numbers, dates, causal links and payoff. Fact-check only when the user explicitly requests it; making, translating or shortening a video does not request verification. Record `fact_check_requested: false` by default. Do not remove or replace user-retained content using unsolicited research. Internally identify these as source claims, not independently verified findings. This source-fidelity rule takes precedence over automatic historical-research/correction language elsewhere in the workflow; technical validation and actual-media review still apply.
 - Preserve the story's factual meaning while optimizing narration for the episode's named Spanish-language format.
 - Separate documented history from folklore, legend, or uncertain claims. Use qualifying language such as “según la historia popular” when needed.
 - Do not imply causation when the source only establishes chronology or correlation.

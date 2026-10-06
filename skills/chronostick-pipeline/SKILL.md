@@ -7,6 +7,8 @@ description: Inspect, resume, and orchestrate a ChronoStick YouTube Short from r
 
 Treat the repository as the production memory; never rely on chat history as the only record.
 
+Supplied-source adaptation preserves the user's chosen claims, numbers, dates, causal links and payoff. Do not initiate fact-checking or rewrite those claims unless the user explicitly requests it; creating, shortening or translating a video is not that request. Record `fact_check_requested: false` by default and keep internal source provenance separate from independent verification. Previously performed unsolicited research does not authorize content changes. Technical media checks, real transcription and production QC remain required.
+
 ## Resume protocol
 
 1. Read the repository `AGENTS.md`, active production docs, episode `README.md`, and `pipeline-state.json`.
@@ -20,12 +22,19 @@ Read [references/stage-contracts.md](references/stage-contracts.md) for dependen
 
 ## Reference-first default
 
+Immediately after `chronostick-script`, run `chronostick-voice-direction` and
+deliver the clean narration plus its densely emotional Google Vids paste copy,
+notes and text validation. Prepare this even while the script is a draft;
+do not wait for storyboard approval or a separate request. Record preparation
+in the `voice` substage; it does not accept audio or approve creative artifacts.
+Repeat after every script revision. An explicit user/provider override may skip it.
+
 For a new supplied-video Short, read `docs/reference-first-shorts.md` and use semantic state v2. Route intake → `chronostick-transcribe` → `chronostick-reference-video` → `chronostick-script` → `chronostick-storyboard`. User review of both scenario and actual neutral rough sketches gates production references. Then reference design and final Spanish writing/user voice can progress independently. Before Google Vids voice handoff, route the clean narration through `chronostick-voice-direction` for its required registered-tag paste copy and text validation; track this substage within `voice`. Ingest accepted voice, run Ajil again in voice mode, and reconcile final timing/direction before prompts/jobs. Use 20–30 seconds (choose and record target), 4–7-second editorial clips, 16 steps and sparse isolated diegetic SFX. Preserve raw source bytes and provider timing. Never use neutral storyboard panels as H3 references.
 
 ## Legacy text-first routing
 
 - Title/source to narration: `$chronostick-script`
-- After narration review and before voice generation, use `chronostick-voice-direction` for the required tagged paste input when Google Vids is selected; record used/skipped and artifact paths in the manifest. Audition the actual voice before timing.
+- Immediately after narration creation/revision, use `chronostick-voice-direction` for the required Google Vids paste input with many fitting emotion/style tags; deliver it with the clean script, including drafts. Record used/skipped and artifact paths in the manifest; skip only on an explicit user/provider override. Audition actual audio before timing.
 - Approved narration plus word timestamps: `$chronostick-timestamps`
 - Timing to directing plan, continuity ledger, and reference requirements: `$chronostick-shot-plan`
 - Full-frame stick-world reference prompts/assets: `$chronostick-references`

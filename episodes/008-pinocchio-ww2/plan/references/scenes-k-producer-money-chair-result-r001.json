@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:53:44.198686+00:00",
+  "id": "producer-money-chair",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-k-requests-r001.json",
+  "request_sha256": "06e9fdba9d613b19a1ca6fcbb3a4111b2469f7c99d4913d8f76f4a2d25ba0eb3",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-4191a122-29e0-4ef5-b5ce-b10d17de4106.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/producer-money-chair-r001.png",
+  "sha256": "4dcbca8801e3816b185c43293f86f80e72bae913385bba169460e3c37842189e",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

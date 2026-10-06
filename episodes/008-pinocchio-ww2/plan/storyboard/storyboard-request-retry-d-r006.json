@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "revision": "r006",
+  "created_at": "2026-10-05T19:51:17.055762+00:00",
+  "prompt_path": "plan/storyboard/prompts/storyboard-retry-d.txt",
+  "prompt": "Three graphite storyboard panels in one horizontal row, each panel an upright 9:16 frame. Spare rough pencil contours on white paper for a humorous film-business documentary. Labels S34, S35, S36 in the white margin above their frames.\nS34: Close-up of a wordless illustrated movie poster beside one film reel. The poster contains exactly two printed cartoon figures: Pinocchio in his ordinary puppet costume and Mickey Mouse in his ordinary shorts. No living people in this frame.\nS35: Medium view of one anonymous adult film producer in a suit sitting on a playful chair made of plain money bags. This is a humorous visual metaphor of financial success.\nS36: Wide view of the same single producer sitting still on that money-bag chair, with settled coins around him, a clear resolved ending. No additional people or posters in this frame.\nSimple ordinary human proportions, minimal shading, unmarked bags and wordless scenes.\n",
+  "prompt_sha256": "cd1e3e835e4ae735adcb7553c515c54094050b0872d5100231c8793c71f67149",
+  "transparent_background": false,
+  "shot_ids": [
+    "S34",
+    "S35",
+    "S36"
+  ],
+  "output_path": "plan/storyboard/storyboard-retry-d-r006.png",
+  "status": "prepared",
+  "adaptation": "Split unresolved six-panel pages into three-panel boards; directly name the source fictional film characters. Preserve adult military viewer, source narrative and exact shot roles; no historical verification."
+}

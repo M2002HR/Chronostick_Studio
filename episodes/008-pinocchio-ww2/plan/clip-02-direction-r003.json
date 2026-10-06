@@ -1,0 +1,48 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:26:53.632572+00:00",
+  "decision": "approved_scoped_simplification",
+  "clip_id": "clip-02",
+  "source_review": "renders/clip-02-review-r002.json",
+  "editorial_frames": 108,
+  "reference_ids": [
+    "cinema-family",
+    "dock-blocked"
+  ],
+  "shots": [
+    {
+      "panels": [
+        "S07"
+      ],
+      "frames": [
+        0,
+        18
+      ],
+      "action": "father lowers head, three disappointed family members; booth excluded"
+    },
+    {
+      "panels": [
+        "S08",
+        "S09"
+      ],
+      "frames": [
+        18,
+        54
+      ],
+      "action": "same three family members turn and take one step away, then stop; low savings conveyed by narration and declined cinema visit rather than failed money macro"
+    },
+    {
+      "panels": [
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "frames": [
+        54,
+        108
+      ],
+      "action": "already-closed dock barrier, one worker holds undelivered canister and glances down; resolved blocked state holds"
+    }
+  ],
+  "variation": "Omit unsuccessful separate two-coin insert and animated barrier closure; retain all spoken low-money/distribution claims and clearly readable low-money/blocked story. This is a scoped visual simplification under full production authorization, not a script or historical-content change."
+}

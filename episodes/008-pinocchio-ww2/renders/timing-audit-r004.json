@@ -1,0 +1,291 @@
+{
+  "created_at": "2026-10-06T01:42:19.811571+00:00",
+  "timing_sha256": "4c784a989b0288cf8815496bd29696f6b3349c8a0c5626feee1c92362e0f565c",
+  "job_plan_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/automation/selected-job-plan-r004.json",
+  "job_plan_sha256": "762ff8d9f3860ef7f4ecbb34da86310d528203e113e48428114f4aec1c0e40e3",
+  "fps": 24,
+  "expected_episode_frames": 773,
+  "expected_total_frames": 773,
+  "expected_total_seconds": 32.208333333333336,
+  "clips": [
+    {
+      "clip_id": "clip-01",
+      "job_identity": "episode-008-clip-01-film-opens-during-war-r001",
+      "json_request_seconds": 5.083333333333333,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 122,
+      "editorial_seconds": 5.083333333333333,
+      "global_start_frame": 0,
+      "global_end_frame": 122,
+      "planned_tail_trim_frames": 2,
+      "job_sha256": "2f0c4f2608671de020c329025e2d7b0909382d0125889ad7fd205f17213223dd",
+      "errors": [],
+      "run_sha256": "57c1dde390cce94a3d36795c24c3badd85dc7669477da96962538f6636001812",
+      "executed_graph": {
+        "frames": 124,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-008-clip-01-film-opens-during-war-r001.mp4",
+        "sha256": "c5e1f8326856a9cf5f824e7fe6fdc682da1f05fda2a1d8fc90847feb88529dd5",
+        "decoded_frames": 124,
+        "video_stream_seconds": 5.166667,
+        "frame_derived_seconds": 5.166666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-008-clip-01-film-opens-during-war-r001.mp4",
+        "sha256": "2a0347a9c0c1c1dd99e432ce822258273ea66bbf14c2596dcf2a3c08b434125f",
+        "decoded_frames": 122,
+        "video_stream_seconds": 5.083333,
+        "frame_derived_seconds": 5.083333333333333,
+        "endpoint_rounding_seconds": -3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 122,
+        "max_mae_255": 0.7409722222222223,
+        "mean_mae_255": 0.5010698112730219,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 2,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-02",
+      "job_identity": "episode-008-clip-02-isolated-dock-r004",
+      "json_request_seconds": 5,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 108,
+      "editorial_seconds": 4.5,
+      "global_start_frame": 122,
+      "global_end_frame": 230,
+      "planned_tail_trim_frames": 16,
+      "job_sha256": "9cb04a0440117b1acb791a01b3d8d1045dac69739464975d9471f0b4677aa472",
+      "errors": [],
+      "run_sha256": "f8f2373a5d7e0c95166a01ecb42d06f598b9f5ce1615a80d4d18696a50c5041c",
+      "executed_graph": {
+        "frames": 124,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-008-clip-02-isolated-dock-r004.mp4",
+        "sha256": "9d75f126b73c49692b81af524cfb0aef5b935fa99bf4ca6f77ebfadd3a7651e5",
+        "decoded_frames": 124,
+        "video_stream_seconds": 5.166667,
+        "frame_derived_seconds": 5.166666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-008-clip-02-isolated-dock-r004.mp4",
+        "sha256": "e1c98ab7c572b6098414638421e1f1d10b601e6570e01cfbe8d25860f7eb0388",
+        "decoded_frames": 108,
+        "video_stream_seconds": 4.5,
+        "frame_derived_seconds": 4.5,
+        "endpoint_rounding_seconds": 0.0,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 108,
+        "max_mae_255": 0.7225308641975309,
+        "mean_mae_255": 0.47720693301326017,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 16,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-03",
+      "job_identity": "episode-008-clip-03-costs-versus-receipts-r001",
+      "json_request_seconds": 5.666666666666667,
+      "expected_raw_frames": 141,
+      "expected_editorial_frames": 136,
+      "editorial_seconds": 5.666666666666667,
+      "global_start_frame": 230,
+      "global_end_frame": 366,
+      "planned_tail_trim_frames": 5,
+      "job_sha256": "62608d995f54221142230eacffd94e297c129a62b1d1c4e06d694f1f27aa0474",
+      "errors": [],
+      "run_sha256": "e558b3bab15649b8a115b9270694bc4af38ddd5116c5ef7dd7442b32dc297671",
+      "executed_graph": {
+        "frames": 141,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-008-clip-03-costs-versus-receipts-r001.mp4",
+        "sha256": "355994cbeb46a0630983d5b5507fe2de99c7397f6ddb8b762c41e8aad9e113e2",
+        "decoded_frames": 141,
+        "video_stream_seconds": 5.875,
+        "frame_derived_seconds": 5.875,
+        "endpoint_rounding_seconds": 0.0,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-008-clip-03-costs-versus-receipts-r001.mp4",
+        "sha256": "d3a6784a4cdc2996f039b3fc20e8e1ce29643cf3169b5f6a4ff7799b49066942",
+        "decoded_frames": 136,
+        "video_stream_seconds": 5.666667,
+        "frame_derived_seconds": 5.666666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 136,
+        "max_mae_255": 0.8050925925925926,
+        "mean_mae_255": 0.48112858569353656,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 5,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-04",
+      "job_identity": "episode-008-clip-04-publicity-and-recovery-r001",
+      "json_request_seconds": 6.958333333333333,
+      "expected_raw_frames": 175,
+      "expected_editorial_frames": 167,
+      "editorial_seconds": 6.958333333333333,
+      "global_start_frame": 366,
+      "global_end_frame": 533,
+      "planned_tail_trim_frames": 8,
+      "job_sha256": "30ddcda22e0a370faf2cb1f0932aa903d076fe82cec998323d5234c9d5c3d6bf",
+      "errors": [],
+      "run_sha256": "ae8a4e86580ee85a782906df0d2a1753a6f133231bffaf510d6baa4d8be8ca31",
+      "executed_graph": {
+        "frames": 175,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+        "sha256": "da46322a6bc05c287e14786f9fa835ebf28d7e463fef0a2a35ace957572de56e",
+        "decoded_frames": 175,
+        "video_stream_seconds": 7.291667,
+        "frame_derived_seconds": 7.291666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-008-clip-04-publicity-and-recovery-r001.mp4",
+        "sha256": "fe153e496f421405f4336fc58fb2b72b05a29e0b080e56222efcb8271846310f",
+        "decoded_frames": 167,
+        "video_stream_seconds": 6.958333,
+        "frame_derived_seconds": 6.958333333333333,
+        "endpoint_rounding_seconds": -3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 167,
+        "max_mae_255": 0.7430941358024692,
+        "mean_mae_255": 0.42985325645006284,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 8,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-05",
+      "job_identity": "episode-008-clip-05-return-and-fortune-r001",
+      "json_request_seconds": 5.375,
+      "expected_raw_frames": 141,
+      "expected_editorial_frames": 129,
+      "editorial_seconds": 5.375,
+      "global_start_frame": 533,
+      "global_end_frame": 662,
+      "planned_tail_trim_frames": 12,
+      "job_sha256": "77b4dee38925a5cff574d454edea850ddfdff294379044a7a1b86ddbdfdd360f",
+      "errors": [],
+      "run_sha256": "72ae519e6fae6647badaa9867c4861e5d8b4a64d4b5f3e7f2919429e3c7705b9",
+      "executed_graph": {
+        "frames": 141,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-008-clip-05-return-and-fortune-r001.mp4",
+        "sha256": "d2ad035c0c4904619d443a8b1566a32e4962520612a601c3b730202ce90bbb6e",
+        "decoded_frames": 141,
+        "video_stream_seconds": 5.875,
+        "frame_derived_seconds": 5.875,
+        "endpoint_rounding_seconds": 0.0,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-008-clip-05-return-and-fortune-r001.mp4",
+        "sha256": "3930392b45b62d9b894de3de7e551c798d5024edab5d58a181dc3fd3ea379f87",
+        "decoded_frames": 129,
+        "video_stream_seconds": 5.375,
+        "frame_derived_seconds": 5.375,
+        "endpoint_rounding_seconds": 0.0,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 129,
+        "max_mae_255": 0.7543595679012346,
+        "mean_mae_255": 0.4778746770025839,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 12,
+      "status": "technical_timing_pass"
+    },
+    {
+      "clip_id": "clip-06",
+      "job_identity": "episode-008-clip-06-marketing-payoff-r001",
+      "json_request_seconds": 5,
+      "expected_raw_frames": 124,
+      "expected_editorial_frames": 111,
+      "editorial_seconds": 4.625,
+      "global_start_frame": 662,
+      "global_end_frame": 773,
+      "planned_tail_trim_frames": 13,
+      "job_sha256": "61fc69af1cf63617cbac9831ff09f1c9f811609ef314a51d4dc477c11937b2d5",
+      "errors": [],
+      "run_sha256": "43925845726f0a82899e4702eb69f9a7365aaa499d77b26f4fd8da135f19e00a",
+      "executed_graph": {
+        "frames": 124,
+        "steps": 16,
+        "fps": 24.0
+      },
+      "raw": {
+        "path": "renders/raw/episode-008-clip-06-marketing-payoff-r001.mp4",
+        "sha256": "701e269f4f87da650af208eca8dab9e65afec34ab0359dcfc138202c2afa9e71",
+        "decoded_frames": 124,
+        "video_stream_seconds": 5.166667,
+        "frame_derived_seconds": 5.166666666666667,
+        "endpoint_rounding_seconds": 3.33333333379926e-07,
+        "pts_checked_for_every_frame": true
+      },
+      "editorial": {
+        "path": "renders/editorial/episode-008-clip-06-marketing-payoff-r001.mp4",
+        "sha256": "c910f7d396f0f21230c53eaf55dc453a85c4c4dd6cca9b99ed73d6ede04ce96c",
+        "decoded_frames": 111,
+        "video_stream_seconds": 4.625,
+        "frame_derived_seconds": 4.625,
+        "endpoint_rounding_seconds": 0.0,
+        "pts_checked_for_every_frame": true
+      },
+      "raw_prefix_correspondence": {
+        "method": "same-index 120x216 grayscale decoded-frame MAE (lossy re-encode)",
+        "compared_frames": 111,
+        "max_mae_255": 0.7501543209876543,
+        "mean_mae_255": 0.43092780280280274,
+        "bit_exact_claim": false
+      },
+      "actual_tail_trim_frames": 13,
+      "status": "technical_timing_pass"
+    }
+  ],
+  "complete": true,
+  "status": "technical_timing_pass",
+  "limitations": "A technical duration pass does not approve actual shot timing, story, audio or tail stability. Review actual cuts and voice sync separately."
+}

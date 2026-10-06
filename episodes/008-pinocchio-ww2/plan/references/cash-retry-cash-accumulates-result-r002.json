@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:13:10.049749+00:00",
+  "id": "cash-accumulates",
+  "revision": "r002",
+  "request_path": "plan/references/cash-retry-requests-r002.json",
+  "request_sha256": "e98b1a25f95c80f6bf84d0c9152516b9f332edd13da6dfa239b73b413d5a8d66",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-30692183-0d64-4350-a68d-b042a5ee2d34.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/cash-accumulates-r002.png",
+  "sha256": "3ea8182816702fe4c9d54449710c60aeeaecb0430e21c2c3790471f961f3b051",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

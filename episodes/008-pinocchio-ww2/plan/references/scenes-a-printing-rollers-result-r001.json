@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T21:39:58.224861+00:00",
+  "id": "printing-rollers",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-a-requests-r001.json",
+  "request_sha256": "f87530cf2f810d67b07cab978bdf4069267a07ee4c0e8f76df92e603ece056cb",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-7da7a676-b2b1-4ad7-972c-e89ae09184a3.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/printing-rollers-r001.png",
+  "sha256": "80eb9c34985e1bb806bcdccb6812212d9ea112dc026aff76c3b35194b9705bcd",
+  "dimensions": [
+    941,
+    1671
+  ],
+  "review_status": "needs_review"
+}

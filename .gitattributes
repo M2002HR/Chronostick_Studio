@@ -26,3 +26,6 @@ episodes/*/timestamps/ajil/*response*.json -text
 episodes/*/source/reference-video/transcription/*response*.json -text
 episodes/*/audio/sfx/sources/*.html -text -whitespace
 episodes/*/renders/**/*.provider.json -text -whitespace
+
+# Keep the redistributed font license byte-for-byte identical to its source.
+episodes/008-pinocchio-ww2/delivery/release/Montserrat-OFL.txt -text -whitespace

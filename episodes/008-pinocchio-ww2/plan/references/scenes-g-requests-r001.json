@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-05T22:22:32.723488+00:00",
+  "revision": "r001",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "canister-return",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/canister-return.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nClose insert beside the projector from supplied booth. Exactly one closed circular silver-gray film canister on brown bench, one isolated pale mitten with navy cuff touching rim from upper left, ready to set down and release. Canister lid bears one small wordless illustration of supplied stick Pinocchio, mustard cap, blue bow and burgundy shorts. Projector housing and one reel visible right background in same geometric position/palette as booth. Zero complete people, other hands, canisters or lettering. Three-quarter slightly overhead view, upper-left amber light, all metal and illustration matte drawn with dark contours.\n",
+      "prompt_sha256": "b54fa5eda6099bba004c4c0cff86df7adfd5aa9ac581542c3a42efe6478776dc",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/projection-booth-r002.png",
+          "sha256": "e1b11c4122e89732f3fe7535edbadcfe7149cacab19d1dff86bb561c5ab20f54",
+          "role": "projection-booth"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png",
+          "sha256": "987966af04b895dbcf3a4320cb5805d4e0d1d33656024727ad80ac2cf7879201",
+          "role": "identity-wooden-boy"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/projection-booth-r002.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-wooden-boy-r005.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/canister-return-r001.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S25"
+      ]
+    }
+  ]
+}

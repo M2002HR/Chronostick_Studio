@@ -1,0 +1,42 @@
+{
+  "status": "needs_review",
+  "word_count": 76,
+  "duration_estimate_seconds": [
+    28,
+    30
+  ],
+  "delivery_wpm": [
+    152,
+    162.9
+  ],
+  "timing_basis": "Actual accepted narration is available: 32.170667 seconds; previous 28–30 estimate retained only as original script diagnostic.",
+  "fact_check_requested": false,
+  "claims_status": "supplied-reference claims retained at explicit user direction; not asserted independently verified",
+  "source_transcript_path": "source/reference-video/transcription/reference-transcript-r002.md",
+  "content_direction_path": "source/content-direction.json",
+  "hook": "1940 wartime release of Pinocchio",
+  "open_loop": "How did a costly film with low initial receipts recover?",
+  "beats": [
+    "1940 wartime release",
+    "economic hardship and foreign distribution limits",
+    "2.6-million cost versus 1.4-million initial receipts",
+    "Pinocchio/Disney characters in military propaganda",
+    "financial recovery and 84-million profits by 1945",
+    "marketing-campaign payoff"
+  ],
+  "payoff": "Source marketing-campaign question preserved",
+  "cta": "Suscríbete.",
+  "pronunciation_notes": [
+    "Pinocho is Spanish for Pinocchio",
+    "dos coma seis; uno coma cuatro; ochenta y cuatro",
+    "dates written out for Spanish speech"
+  ],
+  "review_method": "textual source-fidelity review; no personal read-aloud or accepted duration claim",
+  "storyboard_status": "complete 36-panel neutral board, 8 selected images, assistant inspected; needs actual user review",
+  "actual_voice": {
+    "path": "audio/narration-es-r001.wav",
+    "duration_seconds": 32.170667,
+    "acceptance_path": "plan/voice-acceptance-r001.json",
+    "text_match": "all source words retained after five explicit provider numeric aliases"
+  }
+}

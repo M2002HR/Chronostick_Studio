@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "008-pinocchio-ww2",
+  "status": "delivery_ready",
+  "prepared_at": "2026-10-05T23:06:22.955119+00:00",
+  "title": "Pinocho en guerra: ¿84 millones?",
+  "title_character_count": 32,
+  "alternative_titles": [
+    {
+      "title": "Pinocho: del fracaso a millones",
+      "character_count": 31
+    },
+    {
+      "title": "Pinocho y la propaganda militar",
+      "character_count": 31
+    }
+  ],
+  "description": "Pinocho en guerra: Disney estrenó la película en 1940, en plena Segunda Guerra Mundial. Costó 2,6 millones y al principio recaudó 1,4. La propaganda militar cambió el rumbo de esta historia.\n\nEl recorrido termina en 1945, con 84 millones de dólares en beneficios. ¿La mejor campaña de marketing?\n\nCine, animación y marketing, contados en el estilo de ChronoStick. ¿Te esperabas este giro? Suscríbete para más historias.\n\n#Pinocho #Disney #HistoriaDelCine #Shorts",
+  "description_character_count": 462,
+  "description_utf8_bytes": 474,
+  "tags": [
+    "Pinocho en guerra",
+    "Pinocho",
+    "Pinocchio",
+    "Disney",
+    "Segunda Guerra Mundial",
+    "propaganda militar",
+    "Disney en la guerra",
+    "historia de Disney",
+    "Pinocho 1940",
+    "animación histórica",
+    "historia del cine",
+    "marketing",
+    "historia en español",
+    "ChronoStick",
+    "curiosidades históricas"
+  ],
+  "tag_count": 15,
+  "tags_character_budget_including_separator_and_quote_rules": 260,
+  "hashtags": [
+    "#Pinocho",
+    "#Disney",
+    "#PropagandaMilitar",
+    "#Historia",
+    "#HistoriaDelCine",
+    "#AnimaciónHistórica",
+    "#Shorts",
+    "#YouTubeShorts",
+    "#ViralShorts"
+  ],
+  "hashtag_groups": {
+    "episode_topic": [
+      "#Pinocho",
+      "#Disney",
+      "#PropagandaMilitar"
+    ],
+    "history_animation": [
+      "#Historia",
+      "#HistoriaDelCine",
+      "#AnimaciónHistórica"
+    ],
+    "format_discovery": [
+      "#Shorts",
+      "#YouTubeShorts",
+      "#ViralShorts"
+    ]
+  },
+  "description_hashtags": [
+    "#Pinocho",
+    "#Disney",
+    "#HistoriaDelCine",
+    "#Shorts"
+  ],
+  "seo_target_keyword": "Pinocho en guerra",
+  "seo_keyword_reason": "Editorial phrase matching source wartime-release hook; no tool-selected target or verified-trend claim.",
+  "description_opening_check": {
+    "excerpt": "Pinocho en guerra: Disney estrenó la película en 1940, en plena Segunda Guerra Mundial. Costó 2,6 millones y al principio recaudó 1,4. La propaganda militar cambió el rumbo de esta historia.\n\nEl recor",
+    "phrase": "Pinocho en guerra",
+    "start_zero_based": 0,
+    "end_exclusive": 17,
+    "within_first_200": true,
+    "title_match": true,
+    "tag_exact_match": true,
+    "supporting_matches": [
+      "Disney",
+      "Segunda Guerra Mundial",
+      "propaganda militar"
+    ]
+  },
+  "external_tool_status": "vidIQ upload-form not observed; local matching passes only.",
+  "comments": {
+    "pinned_candidates": [
+      "¿Qué te sorprendió más: el estreno en guerra o el giro de la propaganda?",
+      "De 1,4 a 84 millones… ¿qué parte de la historia te llamó más la atención?",
+      "¿La mejor campaña de marketing? Te leo 👇"
+    ],
+    "viewer_examples": [
+      "No tenía idea de que Pinocho se estrenó en 1940.",
+      "Lo de la propaganda militar me sorprendió.",
+      "Vaya giro entre el estreno y los beneficios.",
+      "Ahora veo esa película de otra manera.",
+      "Quiero más historias sobre el cine de esa época."
+    ],
+    "viewer_examples_status": "suggested examples, not existing audience comments; not posted"
+  },
+  "category": {
+    "suggested_name": "Education",
+    "status": "editorial package recommendation"
+  },
+  "language": "es",
+  "audio_language": "spa",
+  "recording_date": null,
+  "location": null,
+  "audience": {
+    "made_for_kids": null,
+    "age_restriction": null,
+    "status": "Upload-time operator decisions; no audience setting applied by local production."
+  },
+  "related_video": {
+    "suggestion": "A related ChronoStick cinema/history Short selected from the channel library at upload",
+    "url": null
+  },
+  "credits_sources": {
+    "reference": "User-supplied downloaded reference “Pinocchio was released in WW2”",
+    "public_source_url": null,
+    "narration": "Accepted user Google Vids export, retained complete",
+    "visuals": "Original ChronoStick production, built-in image generation and local H3",
+    "historical_review": "Source-faithful adaptation; user explicitly declined independent fact-checking. No research verification performed in this task."
+  },
+  "media": {
+    "expected_upload_filename": "pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+    "distribution_master": "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+    "thumbnail": "delivery/youtube/thumbnail-episode-008-r004.png",
+    "captions_srt": "postproduction/exports/r001/captions.srt",
+    "captions_vtt": "postproduction/exports/r001/captions.vtt",
+    "sha256": {
+      "distribution_master": "db8fbbb59add526ee07ac21c8b63f21ef247a35aee5fdbda79e421aa62457436",
+      "thumbnail": "23d26d5f8be55a07f0c3251e9e58df2aac4cb88b854764aa97481ec057558801",
+      "captions_srt": "815260bd5cd4f63752895ca357ab7b76bc55b9e22e2171e9796ac0bbef0ed5bf",
+      "captions_vtt": "8c0f5e89e6b1cc64f23052866e6efc451874afe231d611fdab278bc5d2bbd286"
+    },
+    "frame_count": 773,
+    "duration_seconds": 32.208333333333336,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  "upload_checklist": [
+    "Use reviewed immutable distribution master and its matching captions/thumbnail",
+    "Paste saved title, exact description.txt and separate Studio tags",
+    "Operator sets audience/age and related video before publishing",
+    "Review the actual YouTube/vidIQ upload preview; local checks do not certify that form",
+    "No upload or publication performed by this production task"
+  ],
+  "platform_limits": {
+    "checked_at": "2026-10-05T23:06:22.955139+00:00",
+    "scope": "Technical platform packaging only, not historical claim verification",
+    "title_max_characters": 100,
+    "description_studio_max_characters": 5000,
+    "description_api_max_utf8_bytes": 5000,
+    "tags_max_characters": 500,
+    "shorts_max_seconds": 180,
+    "sources": [
+      {
+        "title": "YouTube video settings",
+        "url": "https://support.google.com/youtube/answer/57404?hl=en"
+      },
+      {
+        "title": "YouTube Data API video fields",
+        "url": "https://developers.google.com/youtube/v3/docs/videos"
+      },
+      {
+        "title": "YouTube three-minute Shorts",
+        "url": "https://support.google.com/youtube/answer/15424877?hl=en"
+      }
+    ]
+  },
+  "completed_at": "2026-10-06T02:04:17.950637+00:00",
+  "published": false
+}

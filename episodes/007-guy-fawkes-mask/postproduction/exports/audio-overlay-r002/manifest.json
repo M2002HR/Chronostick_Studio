@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "completed_at": "2026-10-05T20:20:41.191216+00:00",
+  "status": "validated_needs_user_review",
+  "approval": null,
+  "config": {
+    "schema_version": "1.0",
+    "picture": "final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+    "picture_sha256": "ef121e42d2a4e45262a33024d176d95d0fe55de5bbb7ccdd7092071ddc931454",
+    "source_audio": {
+      "path": "audio/historia-07-google-vids-export-r001.mp4",
+      "sha256": "316e37e09204b887cad2e8cf9c68811bafee0ca3d285a744fc2281465eb04d55",
+      "original_download": "/home/mhr/Downloads/historia_07 (1).mp4",
+      "start_seconds": 0,
+      "gain_db": -1.5,
+      "gain_reason": "Initial unity mix measured +0.07 dBTP; lower only new voice to leave encoding headroom and preserve native soundtrack at 0 dB."
+    },
+    "native_audio": {
+      "mode": "preserve",
+      "gain_db": 0
+    },
+    "captions": {
+      "enabled": false
+    },
+    "timing": {
+      "status": "not_used_audio_only_overlay"
+    },
+    "normalization": {
+      "enabled": false,
+      "reason": "Native soundtrack retains unity gain. Only the supplied voice is attenuated 1.5 dB to prevent overload."
+    },
+    "output_stem": "episode-007-guy-fawkes-mask-historia-audio-sfx-1080x1920",
+    "user_request": "Add audio from historia_07 (1).mp4 onto the named picture/SFX master; do not mute or modify its existing sound.",
+    "review_status": "needs_user_review"
+  },
+  "picture": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-picture-sfx-aligned-1080x1920-r001.mp4",
+  "picture_sha256": "ef121e42d2a4e45262a33024d176d95d0fe55de5bbb7ccdd7092071ddc931454",
+  "source_audio": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/audio/historia-07-google-vids-export-r001.mp4",
+  "source_audio_sha256": "316e37e09204b887cad2e8cf9c68811bafee0ca3d285a744fc2281465eb04d55",
+  "native_audio": {
+    "mode": "preserve",
+    "gain_db": 0
+  },
+  "captions": {
+    "enabled": false
+  },
+  "timing": {
+    "status": "not_used_audio_only_overlay"
+  },
+  "video_bitstream_sha256": "SHA256=3851030c2be45825ec48d7ecae1fb695358d82a694f73f22650aef177c002487",
+  "video_bitstream_unchanged": true,
+  "frame_count": 801,
+  "duration_seconds": 33.375,
+  "full_decode": "passed",
+  "output_loudness": {
+    "input_i": "-17.43",
+    "input_tp": "-0.50",
+    "input_lra": "3.30",
+    "input_thresh": "-27.52",
+    "output_i": "-15.36",
+    "output_tp": "-1.50",
+    "output_lra": "2.70",
+    "output_thresh": "-25.42",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.64"
+  },
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 801000,
+        "duration": "33.375000",
+        "bit_rate": "8910031",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "801",
+        "extradata_size": 49,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc62.11.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1602000,
+        "duration": "33.375000",
+        "bit_rate": "198959",
+        "nb_frames": "1566",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "spa",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/.episode-007-guy-fawkes-mask-historia-audio-sfx-1080x1920-r002.partial.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "33.375000",
+      "size": "38026617",
+      "bit_rate": "9114994",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    }
+  },
+  "output": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/final/episode-007-guy-fawkes-mask-historia-audio-sfx-1080x1920-r002.mp4",
+  "output_sha256": "dfdc12f4a6e06888934c648fb9710836e22f9ce4cdc8cc66dfebb0b4cd23bc3a",
+  "package": "/home/mhr/Code/chronostick-studio/episodes/007-guy-fawkes-mask/postproduction/exports/audio-overlay-r002"
+}

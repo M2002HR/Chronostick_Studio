@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-05T23:39:15.044066+00:00",
+  "revision": "r002",
+  "prompt": "Create one complete vertical 9:16 illustrated movie-history thumbnail. The first supplied reference controls detailed ChronoStick drawn rendering. The second controls the wordless wooden-puppet film poster, cream/brass cinema world and its exact printed character design. The third controls the illustrated beige bags, smooth unmarked gold coins and brown studio surfaces.\n\nOne continuous cinema publicity scene. A large brass-framed dusty-blue movie poster stands in the left-center foreground, filling about half the frame width. The poster shows exactly one printed wooden stick puppet copied from the supplied cinema poster: circular ivory head, tiny black dot eyes, tiny short nose, dark forelock, mustard feather cap, blue bow, cream shirt, brown vest, burgundy shorts, slender jointed wooden limbs and simple mitten hands. Make its printed face large and immediately recognizable, with a small closed curious smile. This is flat printed artwork in a physical frame; no live characters or crowd. At lower right of the same wooden display table are exactly two plain tied beige money bags and one large mound of unmarked gold coins. Exactly one charcoal six-spoke film reel lies flat near the lower-left corner of the table. Warm gold light from upper left, deep muted charcoal-blue background, cream/brass frame and drawn materials, strong clean dark outlines over all surfaces. No extra props or photographic textures.\n\nGenerate exact headline inside the complete artwork, only these two lines: PINOCHO in warm white, then ¿84 MILLONES? in signal yellow-gold. Very heavy rounded uppercase display letters, broad counters, compact spacing, thick near-black outline, shallow extrusion and soft shadow. Exact opening inverted question mark and closing question mark. Place headline above poster, with uppermost visible lettering pixel at about 13 percent image height, never above 12 percent. Leave complete upper 13 percent blank of text, including outlines/shadows. At2160x3840 target y499 or lower. Entire headline fits safely between14 and33 percent height with side margins; poster cap and face below it. The movie poster itself stays wordless. One scene, no panels or borders, no extra words, labels, symbols or duplicated printed puppet. Keep the complete design readable at phone size.",
+  "prompt_sha256": "c042772fdfcf51020a2d11bb44815511201db45ee27f079580ba9aca82ece480",
+  "saved_direction": "episodes/008-pinocchio-ww2/delivery/youtube/thumbnail-prompt-r002.md",
+  "direction_sha256": "c3f2cd829aa4028d984fd29c5442de45788d66051739fe2e3a459ac3da0b6435",
+  "inputs": [
+    {
+      "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+      "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919"
+    },
+    {
+      "path": "assets/episodes/008-pinocchio-ww2/references/cinema-exterior-r002.png",
+      "sha256": "ac6a750a992bc3fba6aa817ad93fd68fea409008b1526870e43b80a602b56a23"
+    },
+    {
+      "path": "assets/episodes/008-pinocchio-ww2/references/costs-desk-r001.png",
+      "sha256": "a96030fa4277e15556764cc63142bb166633c82185e45242a1efff26b1e77a91"
+    }
+  ]
+}

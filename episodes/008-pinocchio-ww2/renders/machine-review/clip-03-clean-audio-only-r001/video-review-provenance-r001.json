@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-06T01:02:39.818406+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/audio/sfx/clip-03-clean-stem-r001.wav",
+  "video_sha256": "f7c2d215ca93a3626b3fd44de58ccfd6961ef8347e1570fef0ba8b40f5137b54",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/script/narration-es.md",
+  "transcript_sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+  "request_sha256": "66bcbf9c3f9c8a6cedbf3faacb1ab091145739521b012b09837efd1665cdae87",
+  "status": "needs_review",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "instructions_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/audio-only-review-instructions.txt",
+  "intended_contract_supplied": false,
+  "actual_media_mime": "audio/wav",
+  "http_status": 200,
+  "response_sha256": "3a12a3d8b16e0d5e23c93c0973defae828768de345534b1eccbbbef8838379c4"
+}

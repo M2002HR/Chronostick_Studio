@@ -71,7 +71,11 @@ immutable distribution revisions; technical validation is not release approval.
 
 Start from source material, then script, voice, timestamps, shot plan, asset-reuse decision, missing asset generation, final prompts, renders, review, and assembly. Do not skip a stage silently. If an input is unavailable, record it as unavailable instead of fabricating it.
 
+Immediately after creating or revising any narration script, deliver both the clean text and a Google Vids paste-ready copy with many fitting emotion/style tags throughout, plus direction notes and text validation. Use `chronostick-voice-direction`; this includes drafts and does not wait for storyboard review or another request. Skip only on an explicit user/provider override. Keep spoken words unchanged and actual audio acceptance separate.
+
 For historical claims, distinguish documented fact from popular anecdote. Verify claims against reliable sources when research is part of the task, preserve citations in the episode source notes, and carry qualifications into the narration and visuals.
+
+For adaptation of user-supplied content, do not initiate fact-checking unless the user explicitly requests it. Preserve the selected source's claims, numbers, dates, causal links and payoff; shortening, translating or making a video does not authorize changing its content. Record `fact_check_requested: false` and internal source-claim provenance without asserting independent verification. This overrides automatic verification/correction language in the adaptation workflows; media validation and actual transcription remain required.
 
 Before handing off changes, validate paths, prompt purity, required audio wording, profile-specific reference limits, automation JSON, empty/missing artifacts, and `git diff --check`.
 

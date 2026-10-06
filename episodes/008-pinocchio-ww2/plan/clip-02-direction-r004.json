@@ -1,0 +1,41 @@
+{
+  "reviewer": "assistant",
+  "reviewed_at": "2026-10-06T01:35:03.075771+00:00",
+  "decision": "approved_shot_level_replacement_direction",
+  "scope": "clip02 before final picture approval, not final-assembly repair",
+  "reason": "Full generated r003 misses dock before editorial endpoint. Reuse only its actually reviewed valid family subshot and regenerate the missing dock as a separate isolated full-profile16step native take. Review both real source parts before creating and reviewing a new108frame editorial replacement.",
+  "authorizing_decision": "plan/review-decisions.json",
+  "historical_content_changed": false,
+  "accepted_voice_changed": false,
+  "editorial_frames": 108,
+  "cut_frame": 54,
+  "shots": [
+    {
+      "frames": [
+        0,
+        54
+      ],
+      "source": "renders/editorial/episode-008-clip-02-families-distribution-blocked-r003.mp4",
+      "source_frames": [
+        0,
+        54
+      ],
+      "review": "renders/clip-02-review-r003.json",
+      "action": "three disappointed family members turn away and take a short step; no payment or attendant"
+    },
+    {
+      "frames": [
+        54,
+        108
+      ],
+      "source": "renders/editorial/episode-008-clip-02-isolated-dock-r004.mp4",
+      "source_frames": [
+        0,
+        54
+      ],
+      "review": "pending_actual_media",
+      "action": "one worker holds undelivered film canister behind already-closed dock barrier; slight glance then resolved hold"
+    }
+  ],
+  "generation_contract": "Isolated dock native job uses unchanged480x86424fps5-second request,16steps,108frame4.5secondeditorial source; no Lightning. The reviewed replacement selects54native dockframes, with no freeze, time stretch or unseen action. Final clip still4.5seconds108frames."
+}

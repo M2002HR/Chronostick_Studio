@@ -1,0 +1,329 @@
+{
+  "schema_version": "2.0",
+  "workflow": "reference-first-v1",
+  "episode_id": "008-pinocchio-ww2",
+  "current_stage": "youtube",
+  "updated_at": "2026-10-06T02:04:17.950637+00:00",
+  "stages": [
+    {
+      "id": "intake",
+      "skill": "chronostick-pipeline",
+      "status": "validated",
+      "inputs": [
+        "source/reference-video/reference-pinocchio-ww2-r001.mp4"
+      ],
+      "outputs": [
+        "source/intake.json",
+        "source/reference-video/manifest.json",
+        "source/reference-video/probe.json"
+      ],
+      "validated_at": "2026-10-05T18:45:37.201016+00:00",
+      "approved_at": null,
+      "approved_by": null,
+      "decision_notes": null,
+      "next_action": null
+    },
+    {
+      "id": "reference-transcription",
+      "skill": "chronostick-transcribe",
+      "status": "approved",
+      "inputs": [
+        "source/reference-video/reference-pinocchio-ww2-r001.mp4"
+      ],
+      "outputs": [
+        "source/reference-video/transcription/reference-transcript-r002.md",
+        "source/reference-video/transcription/reference-words-r002.csv",
+        "source/reference-video/transcription/reference-segments-r002.json",
+        "source/reference-video/transcription/reference-validation-r002.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T20:45:15.973374+00:00",
+      "approved_by": "assistant (actual artifact review)",
+      "decision_notes": "161 words/14 segments; seven source overlaps unchanged; no personal audio audition or timing approval Accepted for production planning after review of real archived transcription/analysis artifacts and source-fidelity direction. No personal full audio audition or independent historical verification is claimed.",
+      "next_action": "Retain source estimates separately from future Spanish voice timing",
+      "provenance": "source/reference-video/transcription/reference-provenance-r002.json"
+    },
+    {
+      "id": "reference-analysis",
+      "skill": "chronostick-reference-video",
+      "status": "approved",
+      "inputs": [
+        "source/reference-video/transcription/reference-transcript-r002.md",
+        "source/content-direction.json"
+      ],
+      "outputs": [
+        "source/reference-video/intake-review.md",
+        "plan/reference-video-analysis.md"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T20:45:15.973374+00:00",
+      "approved_by": "assistant (actual artifact review)",
+      "decision_notes": "Full-timeline still sampling and real STT; source-fidelity direction replaces unsolicited content corrections Accepted for production planning after review of real archived transcription/analysis artifacts and source-fidelity direction. No personal full audio audition or independent historical verification is claimed.",
+      "next_action": "Use restored source claims in subsequent storyboard"
+    },
+    {
+      "id": "scenario-script",
+      "skill": "chronostick-script",
+      "status": "approved",
+      "inputs": [
+        "source/source-en.md",
+        "source/content-direction.json"
+      ],
+      "outputs": [
+        "script/narration-es.md",
+        "script/script-analysis.json",
+        "plan/scenario.md"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T20:45:15.973374+00:00",
+      "approved_by": "user (contextual continuation after explicit completed-board approval question)",
+      "decision_notes": "Exact quote, context and selected hashes in plan/review-decisions.json. Approval applies to current presented narrative/compositions, not future images.",
+      "next_action": "Design/generate only required production references from accepted storyboard."
+    },
+    {
+      "id": "storyboard",
+      "skill": "chronostick-storyboard",
+      "status": "approved",
+      "inputs": [
+        "plan/scenario.md",
+        "script/narration-es.md",
+        "audio/voice-text-review-r001.json"
+      ],
+      "outputs": [
+        "plan/storyboard/shot-list.json",
+        "plan/storyboard/review.md",
+        "plan/storyboard/artifact-manifest-r001.json",
+        "plan/storyboard/request-status.json",
+        "plan/storyboard/storyboard-page-01-r002.png",
+        "plan/storyboard/storyboard-page-02-r005.png",
+        "plan/storyboard/storyboard-retry-a-r010.png",
+        "plan/storyboard/storyboard-retry-b1-r010.png",
+        "plan/storyboard/storyboard-retry-b2-r008.png",
+        "plan/storyboard/storyboard-page-04-r005.png",
+        "plan/storyboard/storyboard-retry-c-r006.png",
+        "plan/storyboard/storyboard-retry-d-r009.png",
+        "plan/storyboard/review-page-01.json",
+        "plan/storyboard/review-page-02.json",
+        "plan/storyboard/review-retry-a-r010.json",
+        "plan/storyboard/review-retry-b1-r010.json",
+        "plan/storyboard/review-retry-b2-r008.json",
+        "plan/storyboard/review-page-04.json",
+        "plan/storyboard/review-retry-c-r006.json",
+        "plan/storyboard/review-retry-d-r009.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T20:45:15.973374+00:00",
+      "approved_by": "user (contextual continuation after explicit completed-board approval question)",
+      "decision_notes": "Exact quote, context and selected hashes in plan/review-decisions.json. Approval applies to current presented narrative/compositions, not future images.",
+      "next_action": "Design/generate only required production references from accepted storyboard."
+    },
+    {
+      "id": "references",
+      "skill": "chronostick-references",
+      "status": "approved",
+      "inputs": [
+        "plan/review-decisions.json",
+        "plan/storyboard/shot-list.json",
+        "plan/reference-video-analysis.md"
+      ],
+      "outputs": [
+        "plan/reference-manifest.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T00:11:15.828092+00:00",
+      "approved_by": "assistant (actual artifact review under full-workflow authorization)",
+      "decision_notes": "Actual references and frame-contiguous direction reviewed; immutable hashes and scoped variations retained. Future renders are not approved by this decision.",
+      "next_action": "Author and review pure final H3 prompts."
+    },
+    {
+      "id": "voice",
+      "skill": "chronostick-pipeline",
+      "status": "approved",
+      "inputs": [
+        "script/narration-es.md",
+        "audio/source/voice-export-es-r001.mp4"
+      ],
+      "outputs": [
+        "audio/narration-es-r001.wav",
+        "audio/narration-provenance-es-r001.json",
+        "audio/voice-text-review-r001.json",
+        "plan/voice-acceptance-r001.json",
+        "script/voiceover-google-vids-es.md"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T19:16:26.302616+00:00",
+      "approved_by": "user (supplied audio and contextual continuation)",
+      "decision_notes": "User supplied complete narration and requested continuation; exact quote/hashes/runtime in plan/voice-acceptance-r001.json. Real STT matches after numeric aliases; no personal listening claim.",
+      "next_action": "Derive voice-led planning from real source timestamps"
+    },
+    {
+      "id": "voice-transcription",
+      "skill": "chronostick-transcribe",
+      "status": "approved",
+      "inputs": [
+        "audio/narration-es-r001.wav",
+        "script/narration-es.md"
+      ],
+      "outputs": [
+        "timestamps/ajil/voice-words-r001.csv",
+        "timestamps/ajil/voice-segments-r001.json",
+        "timestamps/ajil/voice-transcript-r001.md",
+        "timestamps/ajil/voice-validation-r001.json",
+        "audio/voice-text-review-r001.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-05T20:45:15.973374+00:00",
+      "approved_by": "assistant (actual artifact review)",
+      "decision_notes": "64 provider tokens/8 segments; all content preserved with five numeric aliases; one 40-ms word overlap remains unchanged; raw response immutable. Accepted for production planning after review of real archived transcription/analysis artifacts and source-fidelity direction. No personal full audio audition or independent historical verification is claimed.",
+      "next_action": "Review derived caption/visual intervals beside storyboard",
+      "provenance": "timestamps/ajil/voice-provenance-r001.json"
+    },
+    {
+      "id": "timed-direction",
+      "skill": "chronostick-shot-plan",
+      "status": "approved",
+      "inputs": [
+        "timestamps/word-timestamps-source.csv",
+        "plan/storyboard/shot-list.json",
+        "plan/reference-manifest.json"
+      ],
+      "outputs": [
+        "plan/shot-plan.md",
+        "plan/clip-direction.json",
+        "plan/story-state-ledger.json",
+        "timestamps/timing-map.json",
+        "plan/storyboard/timing-reconciliation.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T00:11:15.828092+00:00",
+      "approved_by": "assistant (actual artifact review under full-workflow authorization)",
+      "decision_notes": "Actual references and frame-contiguous direction reviewed; immutable hashes and scoped variations retained. Future renders are not approved by this decision.",
+      "next_action": "Author and review pure final H3 prompts."
+    },
+    {
+      "id": "prompts",
+      "skill": "chronostick-clip-prompts",
+      "status": "approved",
+      "inputs": [
+        "plan/clip-direction.json",
+        "plan/reference-manifest.json",
+        "timestamps/timing-map.json"
+      ],
+      "outputs": [
+        "prompts/clip-01-film-opens-during-war.md",
+        "prompts/clip-02-families-distribution-blocked.md",
+        "prompts/clip-03-costs-versus-receipts.md",
+        "prompts/clip-04-publicity-and-recovery.md",
+        "prompts/clip-05-return-and-fortune.md",
+        "prompts/clip-06-marketing-payoff.md",
+        "plan/prompt-review-r001.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T00:14:25.662200+00:00",
+      "approved_by": "assistant (actual prompt review)",
+      "decision_notes": "All 36 action/inventory/end states, actual-reference variants, exact ordered picture roles, unique final audio sentence, 16-step timing and resolved tails reviewed. No factual content change or readable in-engine text.",
+      "next_action": "Build deterministic jobs and complete live preflight"
+    },
+    {
+      "id": "jobs-preflight",
+      "skill": "chronostick-generation-jobs",
+      "status": "approved",
+      "inputs": [
+        "automation/job-plan.json"
+      ],
+      "outputs": [
+        "automation/job-plan.json",
+        "automation/batch-settings.json",
+        "automation/preflight.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T00:16:13.748141+00:00",
+      "approved_by": "assistant (complete live API and CLI dry-run review)",
+      "decision_notes": "All six native 16-step jobs resolved with exact grid/frame/seed/reference bindings, no warnings, ready services, empty queue.",
+      "next_action": "Run authorized clip-04 pilot and review actual media"
+    },
+    {
+      "id": "generation",
+      "skill": "chronostick-batch",
+      "status": "approved",
+      "inputs": [
+        "automation/selected-job-plan-r004.json"
+      ],
+      "outputs": [
+        "automation/runtime/execution-state.json",
+        "automation/retries/isolated-dock-r004/terminal-response-r004.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T01:42:46.925627+00:00",
+      "approved_by": "assistant (actual native media, source subshot and directed replacement review under full-workflow authorization)",
+      "decision_notes": "All original jobs and scoped repairs completed. Six actually reviewed selected clips cover773frames. Clip02 uses explicit shot-level replacement direction and independently reviewed native source prefixes; rejected full takes remain archived. No future picture, final mix or human release approval inferred.",
+      "next_action": "Concatenate selected media, verify frame order, upscale and finish accepted voice/captions."
+    },
+    {
+      "id": "review",
+      "skill": "chronostick-review",
+      "status": "approved",
+      "inputs": [
+        "renders/clip-01-review-r001.json",
+        "renders/clip-02-composite-review-r004.json",
+        "renders/clip-03-review-r001.json",
+        "renders/clip-04-review-r001.json",
+        "renders/clip-05-review-r001.json",
+        "renders/clip-06-review-r001.json"
+      ],
+      "outputs": [
+        "renders/selection-manifest.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T01:42:46.925627+00:00",
+      "approved_by": "assistant (actual native media, source subshot and directed replacement review under full-workflow authorization)",
+      "decision_notes": "All original jobs and scoped repairs completed. Six actually reviewed selected clips cover773frames. Clip02 uses explicit shot-level replacement direction and independently reviewed native source prefixes; rejected full takes remain archived. No future picture, final mix or human release approval inferred.",
+      "next_action": "Concatenate selected media, verify frame order, upscale and finish accepted voice/captions."
+    },
+    {
+      "id": "finish",
+      "skill": "chronostick-finish",
+      "status": "approved",
+      "inputs": [
+        "renders/selection-manifest.json",
+        "final/picture-master-1080x1920-r001.mp4",
+        "audio/narration-es-r001.wav",
+        "audio/sfx/selected-full-stem-r001.wav",
+        "timestamps/word-timestamps-source.csv"
+      ],
+      "outputs": [
+        "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+        "postproduction/edit.json",
+        "postproduction/exports/r001/manifest.json",
+        "delivery/caption-qc-r001/evidence.json",
+        "delivery/final-qc-r001.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T02:04:17.950637+00:00",
+      "approved_by": "assistant (actual export, frame/caption QC and packaging review under full-workflow authorization)",
+      "decision_notes": "Actual773frame1080x1920export full-decodes; all64captionhighlights plus representative full/phone samples reviewed; accepted voice unchanged, native mute, selected SFX once; encoded-16.03LUFS/-4.23dBTP. Blind custom final-audio response reports intelligibleSpanish/no music/distortion/truncation. Generic helper schema mismatch remains archived separately. Local artifact approval only, no new human playback/release or publication approval.",
+      "next_action": "Deliver complete local package; future requested changes use immutable revisions."
+    },
+    {
+      "id": "youtube",
+      "skill": "chronostick-youtube",
+      "status": "approved",
+      "inputs": [
+        "final/pinocho-guerra-propaganda-disney-es-008-r001.mp4",
+        "delivery/final-qc-r001.json"
+      ],
+      "outputs": [
+        "delivery/youtube/metadata.json",
+        "delivery/youtube/metadata.md",
+        "delivery/youtube/description.txt",
+        "delivery/youtube/thumbnail-episode-008-r004.png",
+        "delivery/youtube/thumbnail-result-r004.json"
+      ],
+      "validated_at": null,
+      "approved_at": "2026-10-06T02:04:17.950637+00:00",
+      "approved_by": "assistant (actual export, frame/caption QC and packaging review under full-workflow authorization)",
+      "decision_notes": "Actual773frame1080x1920export full-decodes; all64captionhighlights plus representative full/phone samples reviewed; accepted voice unchanged, native mute, selected SFX once; encoded-16.03LUFS/-4.23dBTP. Blind custom final-audio response reports intelligibleSpanish/no music/distortion/truncation. Generic helper schema mismatch remains archived separately. Local artifact approval only, no new human playback/release or publication approval.",
+      "next_action": "Deliver complete local package; future requested changes use immutable revisions."
+    }
+  ]
+}

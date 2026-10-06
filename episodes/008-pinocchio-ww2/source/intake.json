@@ -1,0 +1,20 @@
+{
+  "title_supplied": "Pinocchio was released in WW2",
+  "reference_url": null,
+  "reference_manifest": "source/reference-video/manifest.json",
+  "target_language": "es",
+  "target_seconds": 30,
+  "target_decision": "User explicitly requested approximately 30 seconds in Persian; 30-second working target",
+  "source_status": "reference_video_only_unverified",
+  "project_seed": 20261006008,
+  "user_instruction": "ببین من میخوام یه ویدیوی جدید بسازم ... شورت میخوام بساز در حد ۳۰ ثانیه",
+  "assumptions": [
+    "Spanish per active project default",
+    "Original upload URL and creator unknown"
+  ],
+  "fact_check_requested": false,
+  "content_mode": "source-faithful adaptation",
+  "content_direction_path": "source/content-direction.json",
+  "source_path": "source/source-en.md",
+  "source_sha256": "616a56765a4642c2af64b427d7031cf36f80a85515de0bcf7bfa612db2a5600e"
+}

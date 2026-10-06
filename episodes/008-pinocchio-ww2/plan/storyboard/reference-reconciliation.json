@@ -1,0 +1,11 @@
+{
+  "status": "minor state clarification, no narration/action change",
+  "panels": [
+    {
+      "id": "S10",
+      "issue": "Incidental sketch background looks already closed, while approved written S11 action closes gate.",
+      "resolution": "Dock-approach reference uses open/raised barrier before S11 lowering; S12 alone uses settled closed gate. Preserve worker count, canister, geography, camera purpose and one approved closure."
+    }
+  ],
+  "user_approval_scope": "Accepted primary scene/actions remain; no material narrative or composition replacement."
+}

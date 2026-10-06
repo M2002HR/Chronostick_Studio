@@ -1,0 +1,15 @@
+{
+  "archived_at": "2026-10-05T23:53:43.945487+00:00",
+  "id": "hand-two-coins",
+  "revision": "r001",
+  "request_path": "plan/references/scenes-j-requests-r001.json",
+  "request_sha256": "0814794fa2170d3789fbe3a552fdde99b6a689e023110d20a8145f1a8044d4bd",
+  "source_path": "/home/mhr/.codex/generated_images/01a10d61-1bc7-7922-937f-b4cb83b3f95f/exec-5119e595-0cfe-4ebd-a15e-b006dacd2253.png",
+  "path": "assets/episodes/008-pinocchio-ww2/references/hand-two-coins-r001.png",
+  "sha256": "3ea28410bd422d47f280a184def1f7627cc8909123363dd80d17c57558ff52eb",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "review_status": "needs_review"
+}

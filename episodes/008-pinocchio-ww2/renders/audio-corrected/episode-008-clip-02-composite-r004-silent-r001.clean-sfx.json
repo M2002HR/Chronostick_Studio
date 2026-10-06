@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-06T01:42:15.137328+00:00",
+  "status": "technical_clean_sfx_derivative_needs_release_review",
+  "source": "renders/editorial/episode-008-clip-02-directed-composite-r004.mp4",
+  "source_sha256": "8c404cb56eb4b06af002d4e6c8f09f3cbc610b2ac91905ef12b0578609101db1",
+  "output": "renders/audio-corrected/episode-008-clip-02-composite-r004-silent-r001.mp4",
+  "output_sha256": "567a255b06bda372356c747f7776eca4ee76dbd16baa0ab8a29a4339c29d50a2",
+  "plan_sha256": "6f6da37e4c9a297a518a423fca9309511f00bcf3e6a3d0d0865e76922592a059",
+  "stem": "audio/sfx/clip-02-silent-stem-r004.wav",
+  "stem_sha256": "cc4113d82695a032f27434943d100b60951143ab2ba412eb57b2e0213199c562",
+  "sample_rate": 48000,
+  "stem_sample_count": 216000,
+  "native_audio_contribution_samples": 0,
+  "decoded_video_frames_identical": true,
+  "video_frames": 108,
+  "cue_generation": "Explicit recorded physical one-shots when asset_path is set; seeded non-periodic procedural transients only when separately declared. No native soundtrack/music separation, looping or sustained bed.",
+  "cues": [],
+  "exact_zero_silence_sample_intervals": [
+    [
+      0,
+      216000
+    ]
+  ],
+  "personal_listening_claimed": false,
+  "unapproved_preview": false,
+  "limits": "This proves source exclusion and declared silent PCM regions; actual encoded audiovisual release review remains separate."
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-06T00:41:31.530583+00:00",
+  "model_requested": "gemini-2.5-flash",
+  "video_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/editorial/episode-008-clip-01-film-opens-during-war-r001.mp4",
+  "video_sha256": "2a0347a9c0c1c1dd99e432ce822258273ea66bbf14c2596dcf2a3c08b434125f",
+  "transcript_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/script/narration-es.md",
+  "transcript_sha256": "76b82a6b5c6c65e7e9746a1732983be5fbfe2bb57bc8edd3d55114bbd8a4a8d2",
+  "request_sha256": "7e7e2dd1314f851414d3a61ebf4325fb9251760aa0cfda9766235e8ec9a49c67",
+  "status": "needs_review",
+  "role": "supplementary machine video/audio review; independent frame inspection still required",
+  "instructions_path": "/home/mhr/Code/chronostick-studio/episodes/008-pinocchio-ww2/renders/machine-review-instructions.txt",
+  "intended_contract_supplied": false,
+  "actual_media_mime": "video/mp4",
+  "http_status": 200,
+  "response_sha256": "e34404405c73eaa0bf7aae36ffcbc2e30a4617ac72325b90eebab0aecddc4eab"
+}

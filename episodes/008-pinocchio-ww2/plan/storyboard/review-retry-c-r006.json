@@ -1,0 +1,29 @@
+{
+  "status": "assistant inspected; needs user creative review",
+  "saved_path": "plan/storyboard/storyboard-retry-c-r006.png",
+  "sha256": "3e77343c9df4e2c8242263fa8a96713adf7b82d0fe07bfae23f4bae8ca8030b5",
+  "size": [
+    1672,
+    941
+  ],
+  "panel_count": 3,
+  "panels": [
+    {
+      "id": "S31",
+      "result": "usable composition draft",
+      "notes": "Close table-edge insert with falling coin and pile below; no person"
+    },
+    {
+      "id": "S32",
+      "result": "usable composition draft",
+      "notes": "Bags and coins fill frame around table; stable completed pile, no person"
+    },
+    {
+      "id": "S33",
+      "result": "usable composition draft",
+      "notes": "Exactly one suited adult producer smiling in surprise; money foreground; facial detail remains a draft and does not lock identity"
+    }
+  ],
+  "style_note": "Correct upright portrait frames. More shading/face detail than requested, accepted only as neutral composition planning. No final character or ChronoStick style approval.",
+  "approved_by_user": false
+}

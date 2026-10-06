@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-05T21:58:22.738094+00:00",
+  "revision": "r002",
+  "tool": "image_gen.imagegen",
+  "requests": [
+    {
+      "id": "projection-booth",
+      "prompt_repo_path": "prompts/image/episodes/008-pinocchio-ww2/projection-booth.md",
+      "prompt": "One continuous full-frame vertical 9:16 ChronoStick illustration. The first supplied image controls only rendering: dark clean contours, matte drawn surfaces, cinematic soft upper-left light, round off-white heads with two tiny dot eyes and simple closed mouths, slim stick torsos and limbs, simplified mitten hands, about 5.2 head units for adults. All architecture, sky, metal, paper, coins and shadows share this illustrated language. Other supplied images control their specified identity or scene only. One scene and one viewpoint, safe crop margins. No lettering, numerals, logos, borders, panels, photographic surfaces, background extras or inherited medieval scenery.\n\nA small 1940 cinema projection booth, warm gray plaster, brown wooden workbench across lower half. Exactly one navy-suited producer from the identity image stands center-left behind the bench, burgundy tie, side-part dark hair, round head and slim body unchanged. Exactly one dark charcoal period film projector is right foreground, one clearly visible large circular six-spoke top reel, lower take-up reel within housing, short lens pointing right toward wall aperture. His right mitten hand rests beside a small power lever. Camera waist height, three-quarter view, projector fills right half and producer face in upper-left third. No audience, puppet or added staff. Amber lamp from left, quiet navy shadows. Supports a close top-reel crop and medium producer operating this same projector.\n",
+      "prompt_sha256": "00fdb201b5400a3ba7d5387b98829d404eb06f7944d3b37adbbaa294c1d98029",
+      "input_images": [
+        {
+          "path": "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+          "sha256": "cb414a1da2eb75bad76327ad1faec672371c689d714b8b801c3b5f75eac99919",
+          "role": "rendering authority only"
+        },
+        {
+          "path": "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png",
+          "sha256": "e3217d6e78d2cf76331d1d05003f3ab940223385fc7353d90084c5d5dba52520",
+          "role": "identity-producer"
+        }
+      ],
+      "referenced_image_repo_paths": [
+        "assets/styles/style-detailed-cinematic-stick-history-r001.png",
+        "assets/episodes/008-pinocchio-ww2/references/identity-producer-r001.png"
+      ],
+      "destination_repo_path": "assets/episodes/008-pinocchio-ww2/references/projection-booth-r002.png",
+      "transparent_background": false,
+      "storyboard_panel_ids": [
+        "S01",
+        "S03"
+      ]
+    }
+  ]
+}
